@@ -6,8 +6,14 @@
       "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
       "timeline": [],
       "primary_sources": [
-        { "name": "U.S. Department of Defense", "url": "https://www.defense.gov/" },
-        { "name": "UN News", "url": "https://news.un.org/" }
+        {
+          "name": "U.S. Department of Defense",
+          "url": "https://www.defense.gov/"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        }
       ]
     },
     {
@@ -16,8 +22,14 @@
       "summary": "The conflict continues into its fourth year. Front lines remain largely static with sporadic escalations. International military and financial aid continues from Western allies.",
       "timeline": [],
       "primary_sources": [
-        { "name": "UN News", "url": "https://news.un.org/" },
-        { "name": "OSCE", "url": "https://www.osce.org/" }
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        },
+        {
+          "name": "OSCE",
+          "url": "https://www.osce.org/"
+        }
       ]
     },
     {
@@ -26,9 +38,18 @@
       "summary": "Central banks worldwide continue navigating persistent inflation. Interest rate decisions, employment data, and trade policy remain closely watched by markets.",
       "timeline": [],
       "primary_sources": [
-        { "name": "Bank of Canada", "url": "https://www.bankofcanada.ca/" },
-        { "name": "U.S. Federal Reserve", "url": "https://www.federalreserve.gov/" },
-        { "name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/" }
+        {
+          "name": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/"
+        },
+        {
+          "name": "U.S. Federal Reserve",
+          "url": "https://www.federalreserve.gov/"
+        },
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/"
+        }
       ]
     },
     {
@@ -37,8 +58,14 @@
       "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Trade partners have announced retaliatory measures. Customs enforcement and legal challenges are ongoing.",
       "timeline": [],
       "primary_sources": [
-        { "name": "U.S. Customs and Border Protection", "url": "https://www.cbp.gov/" },
-        { "name": "Office of the U.S. Trade Representative", "url": "https://ustr.gov/" }
+        {
+          "name": "U.S. Customs and Border Protection",
+          "url": "https://www.cbp.gov/"
+        },
+        {
+          "name": "Office of the U.S. Trade Representative",
+          "url": "https://ustr.gov/"
+        }
       ]
     },
     {
@@ -47,8 +74,14 @@
       "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence. The EU AI Act enforcement began in early 2026. The U.S. and other nations are considering their own approaches.",
       "timeline": [],
       "primary_sources": [
-        { "name": "European Commission", "url": "https://ec.europa.eu/" },
-        { "name": "White House", "url": "https://www.whitehouse.gov/" }
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/"
+        },
+        {
+          "name": "White House",
+          "url": "https://www.whitehouse.gov/"
+        }
       ]
     },
     {
@@ -57,18 +90,36 @@
       "summary": "The conflict between Israel and Hamas continues with ongoing military operations, ceasefire negotiations, and a humanitarian crisis in Gaza.",
       "timeline": [],
       "primary_sources": [
-        { "name": "UN OCHA", "url": "https://www.unocha.org/" },
-        { "name": "International Committee of the Red Cross", "url": "https://www.icrc.org/" }
+        {
+          "name": "UN OCHA",
+          "url": "https://www.unocha.org/"
+        },
+        {
+          "name": "International Committee of the Red Cross",
+          "url": "https://www.icrc.org/"
+        }
       ]
     },
     {
       "slug": "sudan-south-sudan",
       "topic": "Sudan & South Sudan",
       "summary": "Civil conflict in Sudan and recurring violence in South Sudan have displaced millions. International humanitarian organizations report worsening conditions.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Escalation of Violence in South Sudan Raises Concerns",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        }
+      ],
       "primary_sources": [
-        { "name": "UNHCR", "url": "https://www.unhcr.org/" },
-        { "name": "UN News", "url": "https://news.un.org/" }
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        }
       ]
     },
     {
@@ -77,8 +128,14 @@
       "summary": "Global climate policy, extreme weather events, and environmental milestones. Tracking COP commitments, emissions data, and renewable energy developments.",
       "timeline": [],
       "primary_sources": [
-        { "name": "UNFCCC", "url": "https://unfccc.int/" },
-        { "name": "NASA Climate", "url": "https://climate.nasa.gov/" }
+        {
+          "name": "UNFCCC",
+          "url": "https://unfccc.int/"
+        },
+        {
+          "name": "NASA Climate",
+          "url": "https://climate.nasa.gov/"
+        }
       ]
     }
   ]

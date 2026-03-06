@@ -138,5 +138,75 @@
     "category": "World",
     "slug": "story-10",
     "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US Economy Reports Loss of 92,000 Jobs in February",
+    "category": "Business",
+    "slug": "story-1",
+    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Oil Prices Rise as Qatar Warns of Production Halt",
+    "category": "Business",
+    "slug": "story-2",
+    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Ukrainian and Russian Forces Conduct Large POW Exchange",
+    "category": "World",
+    "slug": "story-3",
+    "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Medical Schools to Expand Nutrition Curriculum",
+    "category": "Health",
+    "slug": "story-4",
+    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Researchers Develop Compact AI Model Using Monkey Neurons",
+    "category": "Science",
+    "slug": "story-5",
+    "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Escalation of Violence in South Sudan Raises Concerns",
+    "category": "World",
+    "slug": "story-6",
+    "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
+    "category": "World",
+    "slug": "story-7",
+    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Dow Jones Industrial Average Decreases by 650 Points Amid Rising Oil Prices",
+    "category": "Business",
+    "slug": "story-8",
+    "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Israel Conducts Airstrikes on Tehran and Beirut Amid Rising Tensions",
+    "category": "World",
+    "slug": "story-9",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Affordable Alternatives for Weight-Loss Drug Semaglutide Identified",
+    "category": "Health",
+    "slug": "story-10",
+    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
   }
 ]

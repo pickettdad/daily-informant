@@ -3,58 +3,54 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "Iran Fires Missiles Towards Israel Following Recent Strikes",
-      "context": "The recent escalation of conflict between Iran and Israel is part of a broader pattern of military exchanges amidst ongoing tensions in the region. Israel's actions have been characterized by targeted strikes on Iranian sites in response to perceived threats, leading to Iran's missile retaliation.",
-      "category": "World",
+      "headline": "US Economy Reports Loss of 92,000 Jobs in February",
+      "context": "The monthly jobs report from the U.S. Bureau of Labor Statistics is a key indicator of economic health. In February, the economy experienced an unexpected contraction, with job losses reported across multiple sectors, raising concerns about future economic stability.",
+      "category": "Business",
       "facts": [
         {
-          "text": "Iranian military officials reported that missiles were fired toward Israel from their territory on Friday.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+          "text": "The U.S. economy lost 92,000 jobs in February 2026.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This action follows Israeli airstrikes on Tehran and southern Beirut, which occurred overnight.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+          "text": "Job losses occurred in nearly every sector, indicating widespread impact.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The conflict has entered its seventh day as hostilities continue to escalate.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        },
-        {
-          "text": "Both nations remain on high alert as military operations persist.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+          "text": "This marks a significant decline in payroll numbers, surprising analysts and policymakers.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-hezbollah-trump-ayatollah-ali-khamenei-live-updates/"
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "slug": "story-2",
-      "headline": "Oil Prices Surge as Qatar Warns of Production Halt",
-      "context": "Oil prices have risen significantly due to warnings from Qatari Energy Minister Saad al-Kaabi regarding potential production halts in the Gulf region. This warning comes amidst ongoing tensions related to the conflict involving Iran, which has led to concerns about oil supply stability in the market.",
+      "headline": "Oil Prices Rise as Qatar Warns of Production Halt",
+      "context": "This development reflects ongoing tensions in the Gulf region, particularly relating to the Iran conflict, which has the potential to significantly impact global oil supply. Qatar's warning comes as energy prices are already affected by geopolitical instability, leading to increased concerns among market analysts.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices reached a two-year high, approaching $150 a barrel.",
+          "text": "Oil prices reached a two-year high, with projections suggesting they could rise to $150 a barrel.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Qatari Energy Minister Saad al-Kaabi stated that all Gulf oil production could stop within days due to rising tensions.",
+          "text": "Qatari Energy Minister Saad al-Kaabi stated that all Gulf production could cease within days due to the current situation.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The warning reflects the potential impact of the Iran conflict on global oil supply.",
+          "text": "The warnings from Qatar are aimed at emphasizing the potential impact of continued conflicts in the region.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Market analysts are closely monitoring developments in the region for further implications on pricing.",
+          "text": "Market analysts are closely monitoring the situation for further developments.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -67,20 +63,46 @@
     },
     {
       "slug": "story-3",
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "This development is part of a broader initiative to address the educational gaps in nutrition training among medical professionals. The expansion aims to ensure that future doctors have a stronger foundation in dietary knowledge, which is important for patient care and public health.",
+      "headline": "Ukrainian and Russian Forces Conduct Large POW Exchange",
+      "context": "A two-day prisoner of war exchange between Ukraine and Russia was completed today, marking a significant event in the ongoing conflict. The exchange is notable as peace negotiations between the two nations have made limited progress amid ongoing turmoil in other geopolitical areas.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Ukraine and Russia exchanged a total of 1,000 prisoners, with 500 exchanged by each side.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        },
+        {
+          "text": "Ukrainian President Volodymyr Zelenskyy visited the front line shortly after the exchange was completed.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        },
+        {
+          "text": "This exchange is one of the few tangible outcomes amid stalled peace talks between the two nations.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-4",
+      "headline": "Medical Schools to Expand Nutrition Curriculum",
+      "context": "This decision comes as part of a broader initiative to address gaps in medical training regarding nutrition. Health Secretary Robert F. Kennedy Jr. highlighted that most medical schools have not met the recommended curriculum hours in this area.",
       "category": "Health",
       "facts": [
         {
-          "text": "Health Secretary Robert F. Kennedy Jr. announced the expansion of nutrition curriculum at medical schools.",
+          "text": "The expansion will add 40 hours of nutrition education to the curriculum at 53 medical schools across 31 states.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "53 medical schools in 31 states will implement a new 40-hour nutrition education program this fall.",
+          "text": "Prior to this agreement, many medical institutions were not meeting the suggested 25 hours of nutrition training.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "Most medical schools currently offer less than the recommended 25 hours of nutrition training.",
+          "text": "This initiative aims to improve the training of future healthcare providers in dietary and nutritional knowledge.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         }
       ],
@@ -92,47 +114,73 @@
       ]
     },
     {
-      "slug": "story-4",
-      "headline": "Study Suggests Affordable Production of Weight-Loss Drug",
-      "context": "The study highlights the potential for producing semaglutide, the active ingredient in popular weight-loss treatments such as Ozempic and Wegovy, at significantly lower costs. As patents for these drugs are set to expire, this could allow broader accessibility in lower-income countries, where obesity and diabetes rates continue to rise.",
-      "category": "Health",
+      "slug": "story-5",
+      "headline": "Researchers Develop Compact AI Model Using Monkey Neurons",
+      "context": "This research is part of ongoing efforts to improve the efficiency of artificial intelligence systems. By utilizing biological neurons, scientists aim to create smaller and more efficient AI models that maintain functionality. The study marks a unique intersection of neuroscience and technology.",
+      "category": "Science",
       "facts": [
         {
-          "text": "A new analysis suggests semaglutide could be produced for as low as $3 a month.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "Researchers created a pocket-sized AI vision model using monkey neurons.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "This potential cost reduction could make the drug accessible in 160 countries.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "The new model is 1/1000th the size of its original version and maintains efficiency.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "Obesity affects over one billion people globally, with increasing rates in poorer nations.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "The study results were published on March 3, 2026.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        }
+      ]
+    },
+    {
+      "slug": "story-6",
+      "headline": "Escalation of Violence in South Sudan Raises Concerns",
+      "context": "South Sudan has faced prolonged conflict since gaining independence in 2011, with significant violence occurring between government and opposition forces. Recent clashes have heightened fears of a return to full-blown civil war as both sides engage in skirmishes near the Sudan border.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "At least 169 individuals were reported killed in a raid near the Sudan border.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        },
+        {
+          "text": "Clashes have intensified between government-aligned forces and opposition groups.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        },
+        {
+          "text": "Observers indicate that the current violence poses a risk of escalating into a civil war.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
       "sources": [
         {
           "name": "The Guardian World",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ]
     },
     {
-      "slug": "story-5",
+      "slug": "story-7",
       "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
-      "context": "This situation arises in the aftermath of heightened military tensions between the United States and Iran. On March 4, 2026, a U.S. submarine sank an Iranian warship, prompting international response and concerns over naval operations in the region.",
+      "context": "This event arises from a series of escalating tensions between the U.S. and Iran. On Wednesday, a U.S. submarine sank an Iranian warship, prompting further international ramifications and actions involving Iranian vessels.",
       "category": "World",
       "facts": [
         {
-          "text": "Sri Lanka has taken custody of an Iranian vessel after the U.S. military action.",
+          "text": "Sri Lanka's coast guard has detained an Iranian vessel for inspection.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "The U.S. submarine sank an Iranian warship on March 4, 2026.",
+          "text": "The U.S. confirmed the sinking of the Iranian warship occurred earlier this week.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "Australia confirmed that three Australians were aboard the U.S. submarine at the time of the incident.",
+          "text": "Australia has confirmed that three of its citizens were on the U.S. submarine involved in the operation.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         }
       ],
@@ -148,59 +196,21 @@
       ]
     },
     {
-      "slug": "story-6",
-      "headline": "U.S. Job Market Reports Decrease in Employment for February",
-      "context": "The U.S. job market is closely monitored as it reflects the health of the economy. The February report indicates a significant decline in employment, which poses concerns regarding economic stability and growth prospects.",
+      "slug": "story-8",
+      "headline": "Dow Jones Industrial Average Decreases by 650 Points Amid Rising Oil Prices",
+      "context": "The decline in the Dow Jones Industrial Average follows a significant increase in U.S. crude oil prices. This surge is attributed to escalating tensions related to the ongoing conflict in Iran, impacting global markets and investor sentiment.",
       "category": "Business",
       "facts": [
         {
-          "text": "The U.S. economy lost 92,000 jobs in February 2026.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Job declines were reported across nearly all sectors.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Economists had predicted job growth for the month prior to the report.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/jobs-report-today-february-2026-economy-layoffs-bls/"
-        }
-      ]
-    },
-    {
-      "slug": "story-7",
-      "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-      "context": "The recent conflict in Iran has led to significant fluctuations in global oil prices, impacting financial markets. Specifically, U.S. crude oil prices surged by 9%, creating pressures on the stock market and contributing to a notable drop in the Dow.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "The Dow Jones Industrial Average fell by 650 points in response to economic factors related to the Iran conflict.",
+          "text": "U.S. crude oil prices increased by 9% on March 6, 2026.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "U.S. crude oil reached a 9% increase in price on this day.",
+          "text": "The Dow Jones Industrial Average fell by 650 points, closing at a lower level than the previous day.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "Market analysts are closely monitoring the situation for further developments.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        },
-        {
-          "text": "Investors are reassessing their positions in light of rising energy costs.",
+          "text": "Market analysts have noted that geopolitical tensions often influence oil prices and subsequently impact stock markets.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         }
       ],
@@ -208,132 +218,132 @@
         {
           "name": "ABC News",
           "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        }
-      ]
-    },
-    {
-      "slug": "story-8",
-      "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
-      "context": "The US Customs and Border Protection (CBP) has acknowledged that billions of dollars in tariffs collected under the Trump administration were illegal. The agency's efforts to create a refund system are in response to a court directive and aim to streamline the return of funds to importers affected by these tariffs.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "CBP announced it will be ready to process refunds in 45 days.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "Brandon Lord, a top official at CBP, provided information regarding the planned refund system in a court filing.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         },
         {
-          "text": "The total sum held in relation to the tariffs is estimated to be about $166 billion.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
         }
       ]
     },
     {
       "slug": "story-9",
-      "headline": "Iran Intensifies Strikes Amid Ongoing Conflict",
-      "context": "The conflict between Iran and Israel has escalated significantly over the past week, leading to military actions from both sides. Recent developments include Iranian strikes aimed at Jerusalem, Tel Aviv, and U.S. military bases, in response to Israeli operations against targets in Lebanon.",
+      "headline": "Israel Conducts Airstrikes on Tehran and Beirut Amid Rising Tensions",
+      "context": "The conflict between Israel and Iran has escalated following Iran's missile attacks on Israeli territories. This situation is compounded by intensifying political rhetoric from U.S. officials, including demands for Iran's unconditional surrender, creating a volatile environment in the region.",
       "category": "World",
       "facts": [
         {
-          "text": "Iran launched new missile strikes at Jerusalem and Tel Aviv today.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "Israel carried out airstrikes targeting locations in Tehran overnight.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "U.S. military bases in the region also came under attack by Iranian forces.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "Israeli strikes also affected the southern suburbs of Beirut, Lebanon.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "Israel has increased its airstrikes on targets in Lebanon, continuing its military campaign.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-        },
-        {
-          "text": "The U.S. Senate voted to support President Trump's war powers regarding the ongoing conflict.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "In response, Iranian officials confirmed the launch of missiles aimed at Israel.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
       "sources": [
         {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+        },
+        {
           "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
         }
       ]
     },
     {
       "slug": "story-10",
-      "headline": "Ukraine and Russia Conduct Significant Prisoner Exchange",
-      "context": "The latest prisoner exchange between Ukraine and Russia represents a critical development amid ongoing tensions and stalled peace talks. This exchange is one of the few concrete outcomes following discussions that have been hindered by concurrent conflicts in the Middle East.",
-      "category": "World",
+      "headline": "Affordable Alternatives for Weight-Loss Drug Semaglutide Identified",
+      "context": "A recent analysis highlights the potential for manufacturing the weight-loss drug semaglutide at a significantly reduced cost. As patents on existing brands like Ozempic and Wegovy near expiration, access to this medication may improve for millions suffering from obesity and diabetes, particularly in lower-income countries.",
+      "category": "Health",
       "facts": [
         {
-          "text": "Ukrainian President Volodymyr Zelenskyy visited the front lines shortly after the exchange.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+          "text": "A study estimates that semaglutide could be produced for approximately $3 per month.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "Both nations swapped 500 prisoners as part of the agreement.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+          "text": "The analysis suggests that generic versions would make the drug accessible in 160 countries.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "The exchange marks a continuation of past efforts to resolve humanitarian issues despite broader conflicts.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "Negotiations for further peace talks are reportedly facing delays.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+          "text": "Over one billion individuals globally live with obesity, with increasing rates in lower-income nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ]
     }
   ],
   "ongoing_topics": [
     {
+      "slug": "iran-conflict",
+      "topic": "Iran Conflict",
+      "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
+      "timeline": []
+    },
+    {
       "slug": "ukraine-russia",
       "topic": "Ukraine–Russia",
-      "summary": "The conflict continues into its fourth year. This page tracks verified updates from official sources and wire services.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Placeholder — real sourced updates will appear here once the pipeline is active.",
-          "source_url": "https://example.com"
-        }
-      ]
+      "summary": "The conflict continues into its fourth year. Front lines remain largely static with sporadic escalations. International military and financial aid continues from Western allies.",
+      "timeline": []
     },
     {
       "slug": "economy-inflation",
       "topic": "Economy & Inflation",
-      "summary": "Central bank decisions, inflation data, employment reports, and major economic indicators tracked with source links.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Placeholder — real economic updates will appear here.",
-          "source_url": "https://example.com"
-        }
-      ]
+      "summary": "Central banks worldwide continue navigating persistent inflation. Interest rate decisions, employment data, and trade policy remain closely watched by markets.",
+      "timeline": []
+    },
+    {
+      "slug": "us-tariffs-trade",
+      "topic": "U.S. Tariffs & Trade",
+      "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Trade partners have announced retaliatory measures. Customs enforcement and legal challenges are ongoing.",
+      "timeline": []
     },
     {
       "slug": "ai-regulation",
       "topic": "AI Regulation",
-      "summary": "Government actions on artificial intelligence policy: laws, executive orders, and regulatory frameworks worldwide.",
+      "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence. The EU AI Act enforcement began in early 2026. The U.S. and other nations are considering their own approaches.",
+      "timeline": []
+    },
+    {
+      "slug": "middle-east-israel-gaza",
+      "topic": "Israel & Gaza",
+      "summary": "The conflict between Israel and Hamas continues with ongoing military operations, ceasefire negotiations, and a humanitarian crisis in Gaza.",
+      "timeline": []
+    },
+    {
+      "slug": "sudan-south-sudan",
+      "topic": "Sudan & South Sudan",
+      "summary": "Civil conflict in Sudan and recurring violence in South Sudan have displaced millions. International humanitarian organizations report worsening conditions.",
       "timeline": [
         {
           "date": "2026-03-06",
-          "text": "Placeholder — AI regulation updates will appear here.",
-          "source_url": "https://example.com"
+          "text": "Escalation of Violence in South Sudan Raises Concerns",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ]
+    },
+    {
+      "slug": "climate-environment",
+      "topic": "Climate & Environment",
+      "summary": "Global climate policy, extreme weather events, and environmental milestones. Tracking COP commitments, emissions data, and renewable energy developments.",
+      "timeline": []
     }
   ],
   "good_developments": [
@@ -356,8 +366,8 @@
     ],
     "feeds_attempted": 28,
     "raw_items": 135,
-    "after_dedup": 123,
-    "after_filter": 122,
+    "after_dedup": 124,
+    "after_filter": 123,
     "consensus_stories": 10
   }
 }
