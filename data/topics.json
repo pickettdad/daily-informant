@@ -4,168 +4,236 @@
       "slug": "iran-conflict",
       "topic": "Iran Conflict",
       "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Iran War's Impact on China's Global Ambitions",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
-        }
+      "background": "Tensions between the U.S. and Iran escalated throughout 2025 over Iran's nuclear program, with the IAEA reporting enrichment levels approaching weapons-grade. After failed diplomatic efforts, the U.S. launched airstrikes on Iranian military and nuclear facilities in late February 2026, marking the first direct U.S.-Iran military conflict. Israel has conducted parallel operations targeting Iranian proxies in Lebanon and Syria.",
+      "started": "February 2026",
+      "key_facts": {
+        "Duration": "~2 weeks",
+        "Coalition": "U.S., Israel, UK support",
+        "Oil Impact": "Prices at 2-year high, $100+/barrel",
+        "Displacement": "240,000+ civilians (UN estimate)",
+        "UN Action": "Security Council ceasefire vote vetoed by Russia and China",
+        "Nuclear Sites": "Multiple facilities targeted"
+      },
+      "key_parties": [
+        {"name": "United States", "role": "Leading coalition airstrikes on military/nuclear targets"},
+        {"name": "Israel", "role": "Conducting parallel strikes on Iranian proxies and Tehran"},
+        {"name": "Iran", "role": "Defending territory, launching retaliatory missile strikes"},
+        {"name": "China", "role": "Calling for ceasefire, monitoring trade/energy impacts"},
+        {"name": "Russia", "role": "Vetoed UN ceasefire resolution, diplomatic engagement with Tehran"},
+        {"name": "Qatar", "role": "Warning of Gulf oil production disruption"}
       ],
+      "timeline": [],
       "primary_sources": [
-        {
-          "name": "U.S. Department of Defense",
-          "url": "https://www.defense.gov/"
-        },
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/"
-        }
+        {"name": "U.S. Department of Defense", "url": "https://www.defense.gov/"},
+        {"name": "UN News", "url": "https://news.un.org/"},
+        {"name": "IAEA", "url": "https://www.iaea.org/"}
       ]
     },
     {
       "slug": "ukraine-russia",
       "topic": "Ukraine–Russia",
-      "summary": "The conflict continues into its fourth year. Front lines remain largely static with sporadic escalations. International military and financial aid continues from Western allies.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Ukraine and Russia Conduct Major Prisoner Exchange",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
+      "summary": "Russia's full-scale invasion of Ukraine began in February 2022. The conflict has entered its fourth year with largely static front lines, ongoing artillery exchanges, and continued Western military and financial support for Ukraine.",
+      "background": "Russia launched a full-scale invasion of Ukraine on February 24, 2022, after years of tensions over NATO expansion, the 2014 annexation of Crimea, and conflict in the Donbas region. Initial Russian advances toward Kyiv were repelled, and the conflict has since settled into a war of attrition primarily in eastern and southern Ukraine. Multiple rounds of peace talks have failed to produce a lasting ceasefire.",
+      "started": "February 24, 2022",
+      "key_facts": {
+        "Duration": "4+ years",
+        "Ukrainian Casualties": "Tens of thousands military (exact figures classified)",
+        "Russian Casualties": "Estimated 200,000+ killed/wounded (Western estimates)",
+        "Civilian Deaths": "11,000+ confirmed (UN OHCHR)",
+        "Refugees": "6.5 million externally displaced",
+        "Internally Displaced": "3.7 million within Ukraine",
+        "Western Aid": "$250+ billion in military and financial support",
+        "Territory": "Russia occupies ~18% of Ukraine",
+        "Peace Talks": "Multiple rounds stalled; no active negotiations"
+      },
+      "key_parties": [
+        {"name": "Ukraine", "role": "Defending sovereign territory, seeking NATO membership"},
+        {"name": "Russia", "role": "Occupying eastern/southern regions, seeking territorial concessions"},
+        {"name": "NATO/EU", "role": "Providing military aid, sanctions on Russia"},
+        {"name": "United States", "role": "Largest military aid provider to Ukraine"},
+        {"name": "China", "role": "Maintaining relations with Russia while calling for negotiations"},
+        {"name": "United Nations", "role": "Monitoring civilian casualties, humanitarian coordination"}
       ],
+      "timeline": [],
       "primary_sources": [
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/"
-        },
-        {
-          "name": "OSCE",
-          "url": "https://www.osce.org/"
-        }
+        {"name": "UN OHCHR", "url": "https://www.ohchr.org/"},
+        {"name": "UNHCR", "url": "https://www.unhcr.org/"},
+        {"name": "Institute for the Study of War", "url": "https://www.understandingwar.org/"}
       ]
     },
     {
       "slug": "economy-inflation",
       "topic": "Economy & Inflation",
-      "summary": "Central banks worldwide continue navigating persistent inflation. Interest rate decisions, employment data, and trade policy remain closely watched by markets.",
+      "summary": "Central banks worldwide continue navigating persistent inflation. Interest rate decisions, employment data, trade policy disruptions, and oil price volatility remain closely watched by markets.",
+      "background": "Global inflation surged in 2021-2022 driven by pandemic supply chain disruptions, energy price spikes from the Russia-Ukraine war, and expansionary monetary policy. Central banks responded with aggressive rate hikes through 2023-2024. By 2026, inflation has moderated in many countries but remains above targets, complicated by new factors including the Iran conflict's impact on energy prices and U.S. tariff policies.",
+      "started": "Ongoing",
+      "key_facts": {
+        "US Inflation": "Above 2% target (CPI)",
+        "US Jobs": "-92,000 in February 2026",
+        "Fed Rate": "Holding steady, next decision pending",
+        "Bank of Canada Rate": "4.5% (held March 2026)",
+        "Oil Prices": "2-year highs due to Iran conflict",
+        "US Tariffs": "$166 billion in disputed tariff collections",
+        "Market Impact": "Dow declining amid stagflation fears"
+      },
+      "key_parties": [
+        {"name": "U.S. Federal Reserve", "role": "Setting U.S. interest rates, managing inflation"},
+        {"name": "Bank of Canada", "role": "Canadian monetary policy, rate decisions"},
+        {"name": "European Central Bank", "role": "Eurozone monetary policy"},
+        {"name": "U.S. Bureau of Labor Statistics", "role": "Publishing employment and inflation data"},
+        {"name": "World Bank", "role": "Global economic forecasting and development"}
+      ],
       "timeline": [],
       "primary_sources": [
-        {
-          "name": "Bank of Canada",
-          "url": "https://www.bankofcanada.ca/"
-        },
-        {
-          "name": "U.S. Federal Reserve",
-          "url": "https://www.federalreserve.gov/"
-        },
-        {
-          "name": "U.S. Bureau of Labor Statistics",
-          "url": "https://www.bls.gov/"
-        }
+        {"name": "U.S. Federal Reserve", "url": "https://www.federalreserve.gov/"},
+        {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/"},
+        {"name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/"},
+        {"name": "Statistics Canada", "url": "https://www.statcan.gc.ca/"}
       ]
     },
     {
       "slug": "us-tariffs-trade",
       "topic": "U.S. Tariffs & Trade",
-      "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Trade partners have announced retaliatory measures. Customs enforcement and legal challenges are ongoing.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "U.S. Customs Develops New Tariff Refund Process",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-        }
+      "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Courts have ruled portions of the tariffs illegal. U.S. Customs is developing a refund system for $166 billion in disputed collections.",
+      "background": "President Trump expanded tariff actions beginning in early 2025, imposing duties on imports from China, Canada, Mexico, and the EU. Multiple legal challenges have been filed, with federal courts ruling some tariffs exceeded presidential authority. The U.S. Court of International Trade ordered Customs and Border Protection to develop a refund process for importers who overpaid. Retaliatory tariffs from trading partners have disrupted supply chains.",
+      "started": "Early 2025 (expanded)",
+      "key_facts": {
+        "Total Disputed": "$166 billion in tariff collections",
+        "Refund Timeline": "45-day system being developed by CBP",
+        "Court Ruling": "Federal court found portions illegal",
+        "Affected Countries": "China, Canada, Mexico, EU, others",
+        "Retaliation": "Multiple countries imposed counter-tariffs",
+        "Consumer Impact": "Higher prices on imported goods"
+      },
+      "key_parties": [
+        {"name": "White House", "role": "Setting tariff policy via executive action"},
+        {"name": "U.S. Customs and Border Protection", "role": "Collecting tariffs, developing refund system"},
+        {"name": "U.S. Court of International Trade", "role": "Adjudicating tariff legality"},
+        {"name": "China", "role": "Subject of largest tariffs, retaliating with counter-duties"},
+        {"name": "Canada", "role": "Affected trading partner, imposing counter-tariffs"}
       ],
-      "primary_sources": [
-        {
-          "name": "U.S. Customs and Border Protection",
-          "url": "https://www.cbp.gov/"
-        },
-        {
-          "name": "Office of the U.S. Trade Representative",
-          "url": "https://ustr.gov/"
-        }
-      ]
-    },
-    {
-      "slug": "ai-regulation",
-      "topic": "AI Regulation",
-      "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence. The EU AI Act enforcement began in early 2026. The U.S. and other nations are considering their own approaches.",
       "timeline": [],
       "primary_sources": [
-        {
-          "name": "European Commission",
-          "url": "https://ec.europa.eu/"
-        },
-        {
-          "name": "White House",
-          "url": "https://www.whitehouse.gov/"
-        }
+        {"name": "U.S. Customs and Border Protection", "url": "https://www.cbp.gov/"},
+        {"name": "Office of the U.S. Trade Representative", "url": "https://ustr.gov/"},
+        {"name": "U.S. Court of International Trade", "url": "https://www.cit.uscourts.gov/"}
       ]
     },
     {
       "slug": "middle-east-israel-gaza",
       "topic": "Israel & Gaza",
-      "summary": "The conflict between Israel and Hamas continues with ongoing military operations, ceasefire negotiations, and a humanitarian crisis in Gaza.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Conflict Escalates as Israel Strikes Beirut and Tehran",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        }
+      "summary": "The conflict between Israel and Hamas that began October 7, 2023 continues with military operations, stalled ceasefire negotiations, and an ongoing humanitarian crisis in Gaza. The situation has expanded with the broader Iran conflict.",
+      "background": "Hamas launched an unprecedented attack on Israel on October 7, 2023, killing approximately 1,200 people and taking over 250 hostages. Israel responded with a large-scale military operation in Gaza. The conflict has resulted in massive civilian casualties in Gaza, international calls for ceasefire, and ICJ proceedings. In 2026, the situation expanded as part of the broader Iran-Israel military confrontation.",
+      "started": "October 7, 2023",
+      "key_facts": {
+        "Israeli Deaths (Oct 7)": "~1,200 killed in initial attack",
+        "Hostages Taken": "250+ (many still held)",
+        "Gaza Deaths": "40,000+ reported (Gaza Health Ministry)",
+        "Gaza Displacement": "1.9 million displaced (85% of population)",
+        "Humanitarian": "UN reports severe food insecurity in Gaza",
+        "ICJ": "Genocide case proceedings ongoing",
+        "Ceasefire": "Multiple proposals, none sustained"
+      },
+      "key_parties": [
+        {"name": "Israel", "role": "Military operations in Gaza, airstrikes on Iran/Lebanon"},
+        {"name": "Hamas", "role": "Governing Gaza, holding hostages"},
+        {"name": "United States", "role": "Ally of Israel, mediating ceasefire talks"},
+        {"name": "Egypt & Qatar", "role": "Ceasefire mediators"},
+        {"name": "UNRWA", "role": "Humanitarian aid in Gaza"},
+        {"name": "ICJ", "role": "Adjudicating genocide case brought by South Africa"}
       ],
+      "timeline": [],
       "primary_sources": [
-        {
-          "name": "UN OCHA",
-          "url": "https://www.unocha.org/"
-        },
-        {
-          "name": "International Committee of the Red Cross",
-          "url": "https://www.icrc.org/"
-        }
+        {"name": "UN OCHA", "url": "https://www.unocha.org/"},
+        {"name": "International Committee of the Red Cross", "url": "https://www.icrc.org/"},
+        {"name": "International Court of Justice", "url": "https://www.icj-cij.org/"}
       ]
     },
     {
       "slug": "sudan-south-sudan",
       "topic": "Sudan & South Sudan",
-      "summary": "Civil conflict in Sudan and recurring violence in South Sudan have displaced millions. International humanitarian organizations report worsening conditions.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "Escalation of Violence in South Sudan Raises Concerns",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
+      "summary": "Civil conflict in Sudan between the SAF and RSF has displaced millions since April 2023. South Sudan faces recurring violence threatening its fragile 2018 peace agreement.",
+      "background": "Sudan's civil war erupted in April 2023 between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), a paramilitary group. The conflict has created one of the world's largest displacement crises. Meanwhile, South Sudan — which gained independence in 2011 — has experienced renewed violence between government and opposition forces, threatening the 2018 peace agreement that ended its own civil war (2013-2018).",
+      "started": "April 2023 (Sudan); recurring (South Sudan)",
+      "key_facts": {
+        "Sudan Deaths": "15,000+ killed (conservative estimate)",
+        "Sudan Displaced": "10+ million internally displaced",
+        "Sudan Refugees": "2+ million fled to neighboring countries",
+        "Famine Risk": "UN warns of imminent famine in Darfur",
+        "South Sudan Deaths": "169+ killed in recent border raid",
+        "South Sudan": "2018 peace agreement under strain",
+        "Humanitarian Access": "Severely limited in both countries"
+      },
+      "key_parties": [
+        {"name": "SAF (Sudan Armed Forces)", "role": "Government military, led by Gen. al-Burhan"},
+        {"name": "RSF (Rapid Support Forces)", "role": "Paramilitary, led by Gen. Dagalo (Hemedti)"},
+        {"name": "South Sudan Government", "role": "Facing internal opposition violence"},
+        {"name": "UNHCR", "role": "Managing refugee crisis in neighboring countries"},
+        {"name": "African Union", "role": "Mediation efforts"},
+        {"name": "United Nations", "role": "Humanitarian coordination, famine warnings"}
       ],
+      "timeline": [],
       "primary_sources": [
-        {
-          "name": "UNHCR",
-          "url": "https://www.unhcr.org/"
-        },
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/"
-        }
+        {"name": "UNHCR", "url": "https://www.unhcr.org/"},
+        {"name": "UN News", "url": "https://news.un.org/"},
+        {"name": "OCHA Sudan", "url": "https://www.unocha.org/sudan"}
+      ]
+    },
+    {
+      "slug": "ai-regulation",
+      "topic": "AI Regulation",
+      "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence. The EU AI Act enforcement began in early 2026. The U.S. and other nations are weighing their own approaches.",
+      "background": "The rapid advancement of AI systems like GPT-4, Claude, and Gemini has prompted governments worldwide to develop regulatory frameworks. The European Union led with the AI Act, the world's first comprehensive AI law, which began enforcement in early 2026. The U.S. approach has been primarily through executive orders and voluntary industry commitments, while China has implemented its own AI regulations focused on algorithmic transparency and content generation.",
+      "started": "Ongoing (EU Act enforcement began 2026)",
+      "key_facts": {
+        "EU AI Act": "Enforcement began March 2026",
+        "Penalties": "Up to 3% of global annual revenue",
+        "US Approach": "Executive orders + voluntary commitments",
+        "China": "Separate regulatory framework in effect",
+        "Compliance": "Major tech companies report 60-90 day timelines",
+        "Key Areas": "Training data disclosure, safety testing, deepfake labeling"
+      },
+      "key_parties": [
+        {"name": "European Commission", "role": "Enforcing AI Act, setting global precedent"},
+        {"name": "White House", "role": "Executive orders on AI safety"},
+        {"name": "Major AI Companies", "role": "OpenAI, Anthropic, Google, Meta, xAI — compliance required"},
+        {"name": "U.S. Congress", "role": "Considering AI legislation"},
+        {"name": "China's CAC", "role": "Enforcing China's AI regulations"}
+      ],
+      "timeline": [],
+      "primary_sources": [
+        {"name": "European Commission", "url": "https://ec.europa.eu/"},
+        {"name": "White House AI Policy", "url": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"},
+        {"name": "NIST AI Framework", "url": "https://www.nist.gov/artificial-intelligence"}
       ]
     },
     {
       "slug": "climate-environment",
       "topic": "Climate & Environment",
-      "summary": "Global climate policy, extreme weather events, and environmental milestones. Tracking COP commitments, emissions data, and renewable energy developments.",
-      "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "UK to Harness Geothermal Energy for Homes",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
+      "summary": "Global climate policy, extreme weather events, and energy transitions. Tracking COP commitments, emissions data, renewable energy milestones, and environmental policy changes.",
+      "background": "Global average temperatures continue to rise, with recent years setting new records. The Paris Agreement targets limiting warming to 1.5°C above pre-industrial levels, but current national commitments fall short. COP summits have produced incremental progress on fossil fuel phase-out language, loss and damage funding, and methane reduction pledges. Meanwhile, renewable energy deployment has accelerated, with solar and wind reaching record capacity globally.",
+      "started": "Ongoing",
+      "key_facts": {
+        "2025 Temperature": "Warmest year on record (provisional)",
+        "Paris Target": "1.5°C limit increasingly difficult to meet",
+        "Renewables": "Record solar/wind capacity installed in 2025",
+        "Fossil Fuels": "COP28 agreed to 'transition away' language",
+        "Methane Pledge": "150+ countries committed to 30% reduction by 2030",
+        "Loss & Damage": "Fund established at COP27, slow disbursement"
+      },
+      "key_parties": [
+        {"name": "UNFCCC", "role": "Coordinating international climate negotiations"},
+        {"name": "IPCC", "role": "Scientific assessment of climate change"},
+        {"name": "IEA", "role": "Energy policy analysis and forecasting"},
+        {"name": "United States", "role": "Second-largest emitter, policy varies by administration"},
+        {"name": "China", "role": "Largest emitter, largest renewable energy investor"},
+        {"name": "EU", "role": "Green Deal legislation, carbon border adjustment"}
       ],
+      "timeline": [],
       "primary_sources": [
-        {
-          "name": "UNFCCC",
-          "url": "https://unfccc.int/"
-        },
-        {
-          "name": "NASA Climate",
-          "url": "https://climate.nasa.gov/"
-        }
+        {"name": "UNFCCC", "url": "https://unfccc.int/"},
+        {"name": "NASA Climate", "url": "https://climate.nasa.gov/"},
+        {"name": "IEA", "url": "https://www.iea.org/"}
       ]
     }
   ]
