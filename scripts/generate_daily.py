@@ -93,7 +93,7 @@ MIN_CONSENSUS = 2
 
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
-GROK_MODEL = "grok-4-latest"
+GROK_MODEL = "grok-4-1-fast-reasoning"
 
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 5
