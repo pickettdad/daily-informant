@@ -3,14 +3,19 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "China's Response to Events in the Middle East",
+      "headline": "China Responds to Tensions in the Middle East",
+      "category": "World",
       "facts": [
         {
-          "text": "China is currently observing the situation in the Middle East as it develops.",
+          "text": "China is monitoring the ongoing conflict in the Middle East.",
           "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "No immediate impact on China has been reported as a result of the conflict.",
+          "text": "The situation is influencing China's foreign policy considerations.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Chinese officials have expressed a need to assess potential economic impacts.",
           "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -23,38 +28,19 @@
     },
     {
       "slug": "story-2",
-      "headline": "Departure of Noem from Homeland Security",
-      "facts": [
-        {
-          "text": "Kristi Noem served as the Secretary of Homeland Security in the Trump administration.",
-          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "She faced backlash during her tenure.",
-          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Donald Trump has decided to cut ties with Noem regarding her role in the administration.",
-          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "slug": "story-3",
       "headline": "US and Venezuela to Resume Diplomatic Relations",
+      "category": "World",
       "facts": [
         {
-          "text": "The US and Venezuela have agreed to resume diplomatic ties.",
+          "text": "The US has announced plans to resume diplomatic ties with Venezuela.",
           "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The agreement follows the capture of Venezuelan leader Nicolás Maduro and his wife by US forces.",
+          "text": "This decision follows the capture of Venezuelan President Nicolás Maduro and his wife by US authorities.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Both sides aim to work together to promote stability in the region.",
           "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -66,22 +52,140 @@
       ]
     },
     {
-      "slug": "story-4",
-      "headline": "Hungary to Expel Ukrainian Bank Workers",
+      "slug": "story-3",
+      "headline": "Oil Prices Increase Amid Qatar's Production Warning",
+      "category": "Business",
       "facts": [
         {
-          "text": "Hungarian authorities detained workers from a Ukrainian bank on suspicion of money laundering.",
-          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "text": "Qatar's Energy Minister Saad al-Kaabi stated that oil production in the Gulf region could cease within days.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Hungary announced plans to expel these workers amid a dispute with Ukraine.",
-          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "text": "Al-Kaabi indicated that oil prices might reach $150 per barrel if the conflict involving Iran persists over the upcoming weeks.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-4",
+      "headline": "Airspace Changes Due to Conflict in Iran and Azerbaijan",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Airspace over Iran and surrounding areas is becoming more restricted due to ongoing conflict.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "A recent drone attack in Azerbaijan has impacted airline flight paths in the Gulf region.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Airlines are adjusting routes in response to increased airspace restrictions.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-5",
+      "headline": "Decrease in Sheep Population in the UK",
+      "category": "Science",
+      "facts": [
+        {
+          "text": "The sheep population in the UK has shown a declining trend over recent years.",
+          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Farmers have reported lower demand for sheep meat in the market.",
+          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Breeding and farming practices are currently being evaluated by stakeholders.",
+          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-6",
+      "headline": "Norfolk Wildlife Trust Offers Free Access to Its Sites for Centenary",
+      "category": "Science",
+      "facts": [
+        {
+          "text": "Norfolk Wildlife Trust is celebrating its 100th birthday in 2026.",
+          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "As part of the celebration, the trust is opening its sites for free access to the public.",
+          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The initiative is aimed at encouraging people to engage with nature.",
+          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-7",
+      "headline": "Chris Whitty Discusses Approach to Obesity Management",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "England's Chief Medical Officer, Chris Whitty, stated that reliance on drugs to manage obesity indicates a societal failure.",
+          "source_url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Whitty emphasized the need for increased prevention efforts rather than solely treating obesity with medication.",
+          "source_url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Health",
+          "url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-8",
+      "headline": "Covid Inquiry Concludes Public Hearings",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "The Covid inquiry has completed three years of public hearings.",
+          "source_url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Bereaved families were allowed to share their experiences at the conclusion of the hearings.",
+          "source_url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Health",
+          "url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
