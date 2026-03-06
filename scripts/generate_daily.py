@@ -93,7 +93,7 @@ MIN_CONSENSUS = 2         # Minimum AI models that must agree on a story
 # AI model configs
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
-GROK_MODEL = "grok-3-mini-fast"
+GROK_MODEL = "grok-2-latest"
 
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 5
