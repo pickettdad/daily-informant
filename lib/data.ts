@@ -20,6 +20,8 @@ export type StakeholderQuote = {
 export type Story = {
   slug: string;
   headline: string;
+  context?: string;
+  category?: string;
   facts: Fact[];
   sources: Source[];
   stakeholder_quotes?: StakeholderQuote[];
