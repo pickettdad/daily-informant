@@ -282,7 +282,7 @@ def find_related_sources(primary_item: dict, all_items: list[dict]) -> list[dict
             continue
         overlap = len(primary_kw & item_kw)
         smaller = min(len(primary_kw), len(item_kw))
-        if smaller > 0 and overlap / smaller >= 0.45:
+        if smaller > 0 and overlap / smaller >= 0.30:
             sources.append({"name": item["source_name"], "url": item["link"]})
             seen_names.add(item["source_name"])
 
