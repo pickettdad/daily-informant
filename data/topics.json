@@ -4,7 +4,13 @@
       "slug": "iran-conflict",
       "topic": "Iran Conflict",
       "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Iran War's Impact on China's Global Ambitions",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
       "primary_sources": [
         {
           "name": "U.S. Department of Defense",
@@ -20,7 +26,13 @@
       "slug": "ukraine-russia",
       "topic": "Ukraine–Russia",
       "summary": "The conflict continues into its fourth year. Front lines remain largely static with sporadic escalations. International military and financial aid continues from Western allies.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Ukraine and Russia Conduct Major Prisoner Exchange",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        }
+      ],
       "primary_sources": [
         {
           "name": "UN News",
@@ -56,7 +68,13 @@
       "slug": "us-tariffs-trade",
       "topic": "U.S. Tariffs & Trade",
       "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Trade partners have announced retaliatory measures. Customs enforcement and legal challenges are ongoing.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "U.S. Customs Develops New Tariff Refund Process",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+        }
+      ],
       "primary_sources": [
         {
           "name": "U.S. Customs and Border Protection",
@@ -88,7 +106,13 @@
       "slug": "middle-east-israel-gaza",
       "topic": "Israel & Gaza",
       "summary": "The conflict between Israel and Hamas continues with ongoing military operations, ceasefire negotiations, and a humanitarian crisis in Gaza.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Conflict Escalates as Israel Strikes Beirut and Tehran",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        }
+      ],
       "primary_sources": [
         {
           "name": "UN OCHA",
