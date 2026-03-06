@@ -484,7 +484,7 @@ For each story, produce:
 3. 2-4 factual bullet points about what happened
 4. A category: one of World, US, Canada, Business, Science, Health, Tech, Sports
 5. 0-2 stakeholder quotes: short direct quotes from key people/organizations involved. Only include if the RSS description contains actual quotes. Each needs a speaker name and the quote text.
-6. Whether this is a positive/good-news story (true/false)
+6. is_good_development should ONLY be true for stories about: humanitarian aid, disaster relief, volunteers helping communities, missionary work, charitable giving, people rescuing/helping others, community rebuilding, faith-based service. NOT for government policy, scientific discoveries, or corporate developments.
 
 STRICT RULES:
 - FACTS ONLY — every bullet must be verifiable
