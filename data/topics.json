@@ -1,0 +1,53 @@
+{
+  "topics": [
+    {
+      "slug": "ukraine-russia",
+      "topic": "Ukraine–Russia",
+      "summary": "The conflict continues into its fourth year. This page tracks verified updates from official sources and wire services.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Placeholder — real sourced updates will appear here once the pipeline is active.",
+          "source_url": "https://example.com"
+        }
+      ],
+      "primary_sources": [
+        { "name": "UN News", "url": "https://news.un.org/" },
+        { "name": "OSCE", "url": "https://www.osce.org/" }
+      ]
+    },
+    {
+      "slug": "economy-inflation",
+      "topic": "Economy & Inflation",
+      "summary": "Central bank decisions, inflation data, employment reports, and major economic indicators tracked with source links.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Placeholder — real economic updates will appear here.",
+          "source_url": "https://example.com"
+        }
+      ],
+      "primary_sources": [
+        { "name": "Bank of Canada", "url": "https://www.bankofcanada.ca/" },
+        { "name": "U.S. Federal Reserve", "url": "https://www.federalreserve.gov/" },
+        { "name": "Statistics Canada", "url": "https://www.statcan.gc.ca/" }
+      ]
+    },
+    {
+      "slug": "ai-regulation",
+      "topic": "AI Regulation",
+      "summary": "Government actions on artificial intelligence policy: laws, executive orders, and regulatory frameworks worldwide.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Placeholder — AI regulation updates will appear here.",
+          "source_url": "https://example.com"
+        }
+      ],
+      "primary_sources": [
+        { "name": "European Commission", "url": "https://ec.europa.eu/" },
+        { "name": "White House", "url": "https://www.whitehouse.gov/" }
+      ]
+    }
+  ]
+}

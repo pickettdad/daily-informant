@@ -1,0 +1,60 @@
+{
+  "date": "2026-03-06",
+  "top_stories": [
+    {
+      "slug": "sample-story-1",
+      "headline": "Sample: This Is Where Your First AI-Generated Headline Will Appear",
+      "facts": [
+        {
+          "text": "This placeholder will be replaced by AI-extracted fact bullets from RSS feeds.",
+          "source_url": "https://example.com/source1"
+        },
+        {
+          "text": "Each fact will include a source link to the original article or document.",
+          "source_url": "https://example.com/source2"
+        }
+      ],
+      "sources": [
+        { "name": "Example Source", "url": "https://example.com/source1" }
+      ]
+    }
+  ],
+  "ongoing_topics": [
+    {
+      "slug": "ukraine-russia",
+      "topic": "Ukraine–Russia",
+      "summary": "Where it stands: placeholder summary of the current situation with key verified updates.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Placeholder update — this will be replaced by real sourced updates.",
+          "source_url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "slug": "economy-inflation",
+      "topic": "Economy & Inflation",
+      "summary": "Where it stands: placeholder for central bank decisions, inflation data, and economic indicators.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Placeholder update — real economic updates will appear here.",
+          "source_url": "https://example.com"
+        }
+      ]
+    }
+  ],
+  "good_developments": [
+    {
+      "headline": "Pipeline Active",
+      "facts": [
+        {
+          "text": "The Daily Informant is now live. Real content will appear once the AI pipeline is connected.",
+          "source_url": "https://example.com"
+        }
+      ]
+    }
+  ],
+  "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen."
+}
