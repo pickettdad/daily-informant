@@ -2,20 +2,87 @@
   "date": "2026-03-06",
   "top_stories": [
     {
-      "slug": "sample-story-1",
-      "headline": "Sample: This Is Where Your First AI-Generated Headline Will Appear",
+      "slug": "story-1",
+      "headline": "China's Response to Events in the Middle East",
       "facts": [
         {
-          "text": "This placeholder will be replaced by AI-extracted fact bullets from RSS feeds.",
-          "source_url": "https://example.com/source1"
+          "text": "China is currently observing the situation in the Middle East as it develops.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Each fact will include a source link to the original article or document.",
-          "source_url": "https://example.com/source2"
+          "text": "No immediate impact on China has been reported as a result of the conflict.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
-        { "name": "Example Source", "url": "https://example.com/source1" }
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-2",
+      "headline": "Departure of Noem from Homeland Security",
+      "facts": [
+        {
+          "text": "Kristi Noem served as the Secretary of Homeland Security in the Trump administration.",
+          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "She faced backlash during her tenure.",
+          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Donald Trump has decided to cut ties with Noem regarding her role in the administration.",
+          "source_url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c2e4v7yvjx8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-3",
+      "headline": "US and Venezuela to Resume Diplomatic Relations",
+      "facts": [
+        {
+          "text": "The US and Venezuela have agreed to resume diplomatic ties.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The agreement follows the capture of Venezuelan leader Nicolás Maduro and his wife by US forces.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-4",
+      "headline": "Hungary to Expel Ukrainian Bank Workers",
+      "facts": [
+        {
+          "text": "Hungarian authorities detained workers from a Ukrainian bank on suspicion of money laundering.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Hungary announced plans to expel these workers amid a dispute with Ukraine.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+        }
       ]
     }
   ],
