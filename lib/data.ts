@@ -25,19 +25,31 @@ export type Story = {
   facts: Fact[];
   sources: Source[];
   stakeholder_quotes?: StakeholderQuote[];
+  is_good_development?: boolean;
+};
+
+export type KeyParty = {
+  name: string;
+  role: string;
 };
 
 export type OngoingTopic = {
   slug: string;
   topic: string;
   summary: string;
+  background?: string;
+  started?: string;
+  key_facts?: Record<string, string>;
+  key_parties?: KeyParty[];
   timeline: Array<{ date: string; text: string; source_url: string }>;
   primary_sources?: Source[];
 };
 
 export type GoodDevelopment = {
   headline: string;
+  context?: string;
   facts: Fact[];
+  sources?: Source[];
 };
 
 export type DailyData = {
