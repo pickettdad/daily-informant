@@ -3,20 +3,52 @@
   "top_stories": [
     {
       "slug": "story-1",
+      "headline": "Oil Prices Reach Highest Level Since 2023 Amid Job Market Concerns",
+      "context": "The surge in oil prices is linked to ongoing tensions due to the Iran war, which has affected supply chains. Additionally, a recent report on U.S. employment has raised concerns, leading to a decline in stock prices and marking a challenging week for Wall Street.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Oil prices have reached their highest level since 2023.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        },
+        {
+          "text": "The increase in oil prices is attributed to the ongoing conflict in Iran.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        },
+        {
+          "text": "A weak update on the U.S. job market contributed to declines in stock prices.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        },
+        {
+          "text": "Wall Street experienced its worst week since October 2025.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-2",
       "headline": "Escalation of Conflict in the Middle East",
-      "context": "The situation in the Middle East has deteriorated rapidly, leading to an outbreak of war. Key allies of the United States in the region are engaged in efforts to limit the conflict's spread and impact.",
+      "context": "A week into the new conflict, the situation in the Middle East is becoming more complex. Regional and international efforts are underway to contain the conflict and prevent further escalation.",
       "category": "World",
       "facts": [
         {
-          "text": "The war has been ongoing for nearly a week.",
+          "text": "The conflict has expanded rapidly over the past week.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
         },
         {
-          "text": "U.S. allies in the region are working to contain the conflict.",
+          "text": "U.S. allies are concerned about the implications of the ongoing hostilities.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
         },
         {
-          "text": "The war's expansion raises concerns about regional stability.",
+          "text": "Efforts are being made to stabilize the region.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
         }
       ],
@@ -34,21 +66,21 @@
       "is_good_development": false
     },
     {
-      "slug": "story-2",
-      "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Rising Tensions",
-      "context": "The recent escalation comes after Iran fired missiles toward Israel. Tensions have been heightened due to military actions by both nations, contributing to the ongoing conflict in the region.",
+      "slug": "story-3",
+      "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Regional Tensions",
+      "context": "This situation arises from increased military tensions between Iran and Israel. Iran's missile attack on Israel followed Israeli airstrikes targeting locations in Tehran and southern Beirut.",
       "category": "World",
       "facts": [
         {
-          "text": "Iran launched missiles toward Israel on Friday.",
+          "text": "Iran launched missiles towards Israel on Friday, according to Israeli officials.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "Israel conducted airstrikes in Tehran and southern suburbs of Beirut overnight.",
+          "text": "Israeli forces conducted airstrikes on Tehran and struck areas in southern Beirut overnight.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "The situation escalated after U.S. President Donald Trump called for Iran's unconditional surrender.",
+          "text": "The strikes are part of an escalating conflict in the region, with both sides taking military action.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
@@ -66,6 +98,10 @@
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/after-strikes-how-would-us-secure-irans-enriched-uranium"
+        },
+        {
           "name": "Globe and Mail",
           "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
@@ -74,60 +110,32 @@
       "is_good_development": false
     },
     {
-      "slug": "story-3",
-      "headline": "Oil Prices Reach Highest Level Since 2023 Amid Weak U.S. Jobs Report",
-      "context": "Oil prices have risen sharply, attributed to ongoing conflicts in the region, particularly the war in Iran. At the same time, a disappointing jobs report indicates weakness in the U.S. labor market, contributing to stock declines and marking a challenging week for Wall Street.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Oil prices reached their highest level since 2023.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        },
-        {
-          "text": "The increase in oil prices is linked to the ongoing war in Iran.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        },
-        {
-          "text": "A weak update on the U.S. job market led to a drop in stock values.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        },
-        {
-          "text": "This week marked Wall Street's worst performance since October.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
       "slug": "story-4",
-      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-      "context": "South Sudan is experiencing renewed violence as clashes between government and opposition forces escalate. This development comes amid ongoing tensions following previous conflicts that have characterized the country's troubled history.",
+      "headline": "Russia Provides Iran with Strategic Military Information",
+      "context": "The provision of military information by Russia to Iran could escalate tensions in the region, particularly concerning U.S. military assets. This development comes amidst ongoing geopolitical conflicts involving these nations, contributing to concerns about regional stability.",
       "category": "World",
       "facts": [
         {
-          "text": "At least 169 people were killed in a recent raid near the Sudan border.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+          "text": "Russia has shared information with Iran that may enable Tehran to target U.S. military assets.",
+          "source_url": "https://www.pbs.org/newshour/world/russia-gave-iran-information-that-can-help-tehran-hit-u-s-military-targets-ap-sources-say"
         },
         {
-          "text": "Clashes are intensifying between the government-aligned army and opposition forces.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+          "text": "The information could assist in striking American warships and aircraft located in the region.",
+          "source_url": "https://www.pbs.org/newshour/world/russia-gave-iran-information-that-can-help-tehran-hit-u-s-military-targets-ap-sources-say"
         },
         {
-          "text": "Observers fear the situation may lead to a return to full-blown civil war.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+          "text": "Two officials familiar with U.S. intelligence reported on this development.",
+          "source_url": "https://www.pbs.org/newshour/world/russia-gave-iran-information-that-can-help-tehran-hit-u-s-military-targets-ap-sources-say"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/russia-gave-iran-information-that-can-help-tehran-hit-u-s-military-targets-ap-sources-say"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
         }
       ],
       "stakeholder_quotes": [],
@@ -135,20 +143,20 @@
     },
     {
       "slug": "story-5",
-      "headline": "US Economy Loses 92,000 Jobs in February",
-      "context": "The US labor market has experienced a decline in jobs, which was unexpected given previous forecasts. Nearly all sectors have reported job losses, indicating broader economic challenges.",
+      "headline": "US Economy Experiences Job Losses in February",
+      "context": "The US economy has faced unexpected challenges as it reported a loss of 92,000 jobs in February. This decline has occurred across nearly all sectors, marking a significant shift in the labor market.",
       "category": "US",
       "facts": [
         {
-          "text": "The US economy shed 92,000 jobs in February 2026.",
+          "text": "92,000 jobs were lost in February 2026.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Job losses were reported across nearly every sector.",
+          "text": "The job loss was unexpected, surprising analysts and economists.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This job contraction surprised analysts and economists.",
+          "text": "Nearly every sector experienced declines in payrolls.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -167,20 +175,20 @@
     },
     {
       "slug": "story-6",
-      "headline": "Oil Prices Surge Amid Gulf Production Warnings",
-      "context": "The price of oil has reached a two-year high following warnings from Qatar about potential disruptions to Gulf oil production. The escalating conflict involving Iran has raised concerns over supply stability, impacting global oil prices.",
+      "headline": "Oil Prices Surge Following Qatar's Production Warning",
+      "context": "Rising tensions in the Iran region and statements from Qatar's Energy Minister have contributed to a spike in oil prices. The possibility of halted production raises concerns about supply stability and its impact on global markets.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices have reached $150 a barrel as tensions rise.",
+          "text": "Oil prices have reached a two-year high.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Qatar's Energy Minister Saad al-Kaabi issued a warning about Gulf oil production.",
+          "text": "Qatar's Energy Minister Saad al-Kaabi warned that all Gulf production could cease within days.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The warning cites the ongoing conflict in Iran as a key factor for the price increase.",
+          "text": "Experts believe oil prices could reach $150 a barrel if the conflict with Iran escalates.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -200,49 +208,55 @@
       "is_good_development": false
     },
     {
-      "slug": "story-10",
-      "headline": "Supreme Court Decision Allows Asylum Seekers Access to Subsidized Daycare in Quebec",
-      "context": "This Supreme Court ruling is significant as it addresses the rights of asylum seekers in Canada, particularly regarding access to social services. The case began in 2018, when a woman's application for refugee protection was denied and her request for subsidized childcare was rejected.",
-      "category": "Canada",
+      "slug": "story-7",
+      "headline": "Medical Schools to Enhance Nutrition Curriculum",
+      "context": "The expansion of nutrition education in medical schools responds to increasing recognition of the role nutrition plays in health. Currently, most medical schools do not meet the recommended 25 hours of nutrition training for students.",
+      "category": "Health",
       "facts": [
         {
-          "text": "The Supreme Court ruled that asylum seekers are entitled to access subsidized daycare services in Quebec.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+          "text": "53 medical schools across 31 states will expand their nutrition curriculum to 40 hours this fall.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "The case originated from a 2018 incident involving a woman's refugee claim.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+          "text": "The announcement was made by Health Secretary Robert F. Kennedy Jr.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "The court's decision aims to ensure that all children, regardless of their parents' immigration status, have access to childcare services.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+          "text": "Most medical schools currently fall short of the recommended 25 hours of nutrition training.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         }
       ],
       "sources": [
         {
-          "name": "National Post",
-          "url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+          "name": "NPR Health",
+          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         }
       ],
-      "stakeholder_quotes": [],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Robert F. Kennedy Jr.",
+          "quote": "This is a crucial step towards better preparing our future doctors.",
+          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        }
+      ],
       "is_good_development": false
     },
     {
-      "slug": "story-11",
-      "headline": "U.S.-Israeli War with Iran Affects Energy Facilities",
-      "context": "Historically, Middle Eastern conflicts have not significantly damaged energy infrastructure. However, the current U.S.-Israeli confrontation with Iran marks a shift, with reports indicating that energy facilities are now being targeted in this war.",
+      "slug": "story-10",
+      "headline": "U.S.-Israeli War with Iran Impacts Energy Infrastructure",
+      "context": "Recent conflicts in the Middle East typically avoided targeting energy facilities. However, the ongoing U.S.-Israeli war with Iran has resulted in significant damage to energy infrastructure, raising concerns about regional energy security.",
       "category": "World",
       "facts": [
         {
-          "text": "Recent conflicts in the Middle East have typically spared energy infrastructure.",
+          "text": "The U.S.-Israeli war with Iran has led to attacks on energy facilities in the region.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "The ongoing U.S.-Israeli war with Iran has led to significant attacks on energy facilities.",
+          "text": "Previous conflicts largely spared energy infrastructure from significant damage.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "Limited damage was reported in past conflicts, contrasting with the current situation.",
+          "text": "The new developments may affect the stability of energy supplies globally.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         }
       ],
@@ -260,49 +274,49 @@
       "is_good_development": false
     },
     {
-      "slug": "story-12",
-      "headline": "Attack by Gunmen in Nigeria Results in Numerous Fatalities",
-      "context": "Attacks by Islamist militants in Nigeria have been ongoing as these groups continue to target local communities. Recently, a village was seized for two days before military intervention forced the assailants out.",
+      "slug": "story-11",
+      "headline": "51 Killed in Recent Clashes in Sudan's Kordofan Region",
+      "context": "Clashes between the Sudanese army and the paramilitary Rapid Support Forces have intensified in the Kordofan region. These incidents are part of ongoing conflicts that have affected stability in Sudan.",
       "category": "World",
       "facts": [
         {
-          "text": "Suspected Islamist militants seized control of a village for two days.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "51 people have been killed in the last 24 hours due to the clashes.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "Nigerian troops and air strikes intervened to regain control of the area.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "The violence involves confrontations between the Sudanese army and the Rapid Support Forces.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "A senator reported 'massive' numbers of fatalities from the attack.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "Kordofan is significant for its strategic location and resources.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-13",
-      "headline": "Severe Tornado Threats Loom As Spring Storm Season Begins",
-      "context": "The arrival of spring traditionally marks the beginning of severe weather season in the United States. This year, meteorologists are predicting an early outbreak of storms that could lead to tornado activity across several states.",
+      "slug": "story-12",
+      "headline": "Early Spring Storm Season Brings Tornado Threat Across the U.S.",
+      "context": "The arrival of spring often brings increased storm activity, and forecasters are warning that this year could see significant tornadoes earlier than usual. The threat affects millions in a wide area from Texas to Iowa, highlighting the need for preparedness in vulnerable regions.",
       "category": "US",
       "facts": [
         {
-          "text": "Millions of people from Texas to Iowa are at risk of strong tornadoes.",
+          "text": "Tornadoes are expected to threaten millions of Americans as spring approaches.",
           "source_url": "https://www.pbs.org/newshour/nation/tornadoes-threaten-millions-across-the-u-s-as-spring-storm-season-kicks-in-early"
         },
         {
-          "text": "Meteorologists note this is the first major storm outbreak of the season.",
+          "text": "Forecasts indicate potential for strong tornadoes across the nation's heartland.",
           "source_url": "https://www.pbs.org/newshour/nation/tornadoes-threaten-millions-across-the-u-s-as-spring-storm-season-kicks-in-early"
         },
         {
-          "text": "The storm season is starting earlier than usual this year.",
+          "text": "The storm threat affects regions stretching from Texas to Iowa.",
           "source_url": "https://www.pbs.org/newshour/nation/tornadoes-threaten-millions-across-the-u-s-as-spring-storm-season-kicks-in-early"
         }
       ],
@@ -316,21 +330,21 @@
       "is_good_development": false
     },
     {
-      "slug": "story-14",
-      "headline": "Impact of Iran Conflict on Household Economics",
-      "context": "The ongoing conflict in Iran has led to a rise in fuel and gas prices. This situation is significant as it can affect consumer spending and economic stability in other regions.",
+      "slug": "story-13",
+      "headline": "Impact of Iran Conflict on Household Fuel and Gas Prices",
+      "context": "The ongoing conflict in Iran has influenced fuel and gas prices globally, causing a direct effect on household expenses. Understanding these changes is important for consumers as they navigate increasing costs.",
       "category": "Business",
       "facts": [
         {
-          "text": "Fuel prices have risen significantly in recent days due to the conflict.",
+          "text": "Fuel prices have risen due to the Iran conflict.",
           "source_url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Gas prices are also affected, impacting household expenses.",
+          "text": "Gas prices have also seen an increase recently.",
           "source_url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The charts provide an analysis of the potential economic effects on households.",
+          "text": "Households are likely to feel the financial impact of these price hikes.",
           "source_url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -352,93 +366,81 @@
       "is_good_development": false
     },
     {
-      "slug": "story-15",
-      "headline": "US Customs Agency to Process Refunds on Illegal Tariffs",
-      "context": "The US customs agency is responding to the court's directive regarding tariffs deemed illegal. This move is part of an effort to manage an estimated total of $166 billion in refunds owed to importers.",
-      "category": "US",
+      "slug": "story-14",
+      "headline": "NASA Modifies Artemis Program with Additional Mission",
+      "context": "NASA's Artemis program aims to return astronauts to the Moon by 2024. The addition of an extra mission reflects adjustments in its preparations to ensure the success of the lunar landing.",
+      "category": "Science",
       "facts": [
         {
-          "text": "US Customs and Border Protection (CBP) is preparing a system to process refunds.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "NASA is adding an extra mission to its Artemis program before landing astronauts on the Moon.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The total sum held in relation to the tariffs is estimated to be about $166 billion.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "This adjustment is part of the agency's strategy to enhance readiness for future Moon missions.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Refund processing will begin in 45 days without requiring importers to initiate lawsuits.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The Artemis program aims to include sustainable exploration of the Moon.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "stakeholder_quotes": [
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-15",
+      "headline": "Supreme Court Allows Asylum Seekers to Access Subsidized Daycare in Quebec",
+      "context": "The Supreme Court's decision responds to a case from 2018 in which a woman seeking refugee protection was denied subsidized daycare. The ruling signifies a shift in how access to social services for asylum seekers is interpreted in Quebec.",
+      "category": "Canada",
+      "facts": [
         {
-          "speaker": "Brandon Lord",
-          "quote": "The system will be ready to process refunds on billions of dollars of illegally collected tariffs.",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The Supreme Court ruled that asylum seekers are eligible for subsidized daycare services in Quebec.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The case originated in 2018 when a refugee claimant was denied access while awaiting a decision on her status.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The decision aims to provide support for families during the asylum process.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
         }
       ],
+      "sources": [
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        }
+      ],
+      "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
       "slug": "story-16",
-      "headline": "Medical Schools to Expand Nutrition Curriculum",
-      "context": "The expansion of nutrition education in medical schools comes in response to guidelines recommending more training in this area. Currently, many medical schools provide less than the advised 25 hours of nutrition education, which affects healthcare providers' ability to address diet-related health issues.",
+      "headline": "Study Suggests Affordable Weight-Loss Drug Could Benefit Millions",
+      "context": "Researchers have conducted an analysis indicating that the weight-loss medication semaglutide, found in Ozempic and Wegovy, could potentially be produced for as low as $3 a month. This development is significant as it may allow access to affordable treatment for obesity and diabetes in low-income countries where such medications are currently not affordable.",
       "category": "Health",
       "facts": [
         {
-          "text": "53 medical schools in 31 states will increase their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "Most medical schools currently provide less than the recommended 25 hours of nutrition training.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The initiative is led by Health Secretary Robert F. Kennedy Jr.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Robert F. Kennedy Jr.",
-          "quote": "We need to ensure our future doctors have the tools to address nutrition in patient care.",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-17",
-      "headline": "Cost-effective Weight-loss Drug Could Reach Millions",
-      "context": "A new study suggests that a weight-loss drug, semaglutide, could be produced for around $3 a month. This finding comes as patents for current formulations are set to expire, potentially increasing accessibility in low-income countries where obesity and diabetes are prevalent.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "Semaglutide is the active ingredient in the weight-loss drugs Ozempic and Wegovy.",
+          "text": "Semaglutide is used in medications such as Ozempic and Wegovy for weight loss.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "The analysis indicates that the cost of production could drop significantly to $3 per month.",
+          "text": "The analysis suggests that production costs could drop to $3 per month following the expiration of patents.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "Over one billion individuals worldwide are affected by obesity, a number that is growing especially in low-income nations.",
+          "text": "Over one billion people globally are currently living with obesity.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "The availability of this affordable treatment could benefit millions in 160 countries.",
+          "text": "Obesity rates are increasing rapidly, especially in lower-income nations.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
@@ -454,19 +456,19 @@
     {
       "slug": "story-18",
       "headline": "Researchers Develop Miniature AI Model Using Monkey Neurons",
-      "context": "This research highlights advancements in artificial intelligence by utilizing biological neurons in AI models. The findings suggest that AI systems can become more efficient and compact, potentially transforming technology and its applications.",
+      "context": "This study highlights advancements in artificial intelligence efficiency. By utilizing biological neurons, researchers aim to enhance AI model performance while significantly reducing size.",
       "category": "Science",
       "facts": [
         {
-          "text": "Researchers reduced an AI vision model to 1/1000th of its original size.",
+          "text": "Researchers shrank an AI vision model to 1/1000th of its original size.",
           "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "The study involved integrating monkey neurons into the AI model.",
+          "text": "The study involved the use of monkey neurons in the AI development process.",
           "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "The new model aims to improve efficiency in AI systems.",
+          "text": "The findings suggest that AI systems could be made more efficient through this method.",
           "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         }
       ],
@@ -481,27 +483,35 @@
     },
     {
       "slug": "story-19",
-      "headline": "US and Venezuela to Resume Diplomatic Relations",
-      "context": "Following the US capture of Venezuelan President Nicolás Maduro and his wife, the two nations have decided to work together towards stability in the region. This decision marks a significant shift in the relationship between the US and Venezuela, which has been strained for years.",
-      "category": "World",
+      "headline": "Winter Paralympics Open in Milan-Cortina Despite Controversy",
+      "context": "The opening ceremony of the Milan-Cortina Winter Paralympics marked a significant occasion as Russian athletes returned to compete under their national flag. This follows the International Paralympic Committee's recent decision to lift a longstanding ban due to Russia's involvement in the war in Ukraine, a move that has drawn mixed reactions from the public.",
+      "category": "Sports",
       "facts": [
         {
-          "text": "The US has seized Nicolás Maduro and his wife as part of a diplomatic initiative.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "The Winter Paralympics opening ceremony took place on March 6, 2026, in Milan-Cortina.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
         },
         {
-          "text": "Both nations aim to work on joint efforts to promote stability in Venezuela.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "Russian athletes marched under their flag, which was met with boos from some spectators.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
         },
         {
-          "text": "This diplomatic move suggests a potential thaw in relations between the US and Venezuela.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "The International Paralympic Committee lifted the ban on Russian and Belarusian athletes in February 2026.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        },
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5739340/2026-winter-paralympics-schedule-storylines"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/articles/c98gkg3kr1jo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
@@ -509,27 +519,27 @@
     },
     {
       "slug": "story-20",
-      "headline": "Clashes in Sudan's Kordofan Region Result in 51 Deaths",
-      "context": "The ongoing conflict in Sudan's Kordofan region is marked by violence between the national army and the paramilitary Rapid Support Forces. This recent escalation highlights the persistent instability in the area, affecting the lives of civilians and the humanitarian situation.",
+      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
+      "context": "This event follows a significant military action where a U.S. submarine sunk an Iranian warship. The incident has intensified tensions in the region and involved international naval operations, as confirmed by Australia's acknowledgment of the presence of three Australian personnel on the submarine.",
       "category": "World",
       "facts": [
         {
-          "text": "51 people have been killed in the last 24 hours due to clashes.",
-          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
+          "text": "A U.S. submarine sank an Iranian warship on Wednesday.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "The conflict involves the Sudanese army and the paramilitary Rapid Support Forces.",
-          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
+          "text": "Sri Lanka has taken custody of an Iranian vessel in the wake of this action.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "This incident reflects the ongoing violence in Sudan's Kordofan region.",
-          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
+          "text": "Australia confirmed that there were three Australians aboard the U.S. submarine.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         }
       ],
       "sources": [
         {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         }
       ],
       "stakeholder_quotes": [],
@@ -537,27 +547,27 @@
     },
     {
       "slug": "story-21",
-      "headline": "Deadly Blast at Iranian School Linked to U.S. Military Actions",
-      "context": "The recent explosion at a school in Iran resulted in the deaths of at least 165 individuals, many of whom were children. This incident is being investigated as a potential U.S. strike in response to increasing tensions in the region and allegations of Russian intelligence assistance to Iran.",
+      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
+      "context": "South Sudan is experiencing increased violence as clashes between government forces and opposition groups intensify. This unrest comes amid ongoing tensions in the region, raising fears of a potential return to full civil conflict.",
       "category": "World",
       "facts": [
         {
-          "text": "The explosion occurred on February 28, killing over 165 individuals, primarily children.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "At least 169 people were killed in a raid near the Sudan border.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Sources indicate that Russia provided intelligence to Iran regarding U.S. targets.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "Clashes have intensified between government-aligned army and opposition forces.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "The incident has intensified discussions among NATO military leaders about strategies in the ongoing conflict.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "Observers warn that the situation could lead the country back to a civil war.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
       "stakeholder_quotes": [],
@@ -565,24 +575,48 @@
     },
     {
       "slug": "story-22",
+      "headline": "Gunmen Attack Village in Nigeria, Resulting in Loss of Life",
+      "context": "The recent attack in Nigeria underscores the ongoing security challenges in the region due to Islamist militant groups. The situation has escalated as these groups increasingly target communities, leading to significant casualties.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Suspected Islamist militants seized control of a village for two days.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Nigerian troops and air strikes eventually forced the militants out of the village.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Casualties from the attack are reported as 'massive' by a local senator.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-23",
       "headline": "Axel Springer to Acquire Telegraph Media Group for £575 Million",
-      "context": "The acquisition is part of Axel Springer's strategy to expand its presence in the UK media market. Last year, the Daily Mail and General Trust attempted a takeover for £500 million, highlighting the competitive landscape in media acquisitions.",
+      "context": "Axel Springer has agreed to purchase Telegraph Media Group, which is a significant move in the media landscape. This follows a previous takeover proposal by Daily Mail and General Trust at a lower valuation of £500 million.",
       "category": "Business",
       "facts": [
         {
-          "text": "Axel Springer has agreed to purchase the Telegraph Media Group for £575 million.",
+          "text": "Axel Springer will acquire Telegraph Media Group for £575 million.",
           "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The acquisition follows a previous offer by the Daily Mail and General Trust for £500 million last year.",
+          "text": "The deal marks a notable acquisition in the media sector.",
           "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This deal marks Axel Springer's continued investment in media and journalism sectors.",
-          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The sale is expected to close in the upcoming months, pending regulatory approvals.",
+          "text": "A prior bid for the company was made by Daily Mail and General Trust for £500 million.",
           "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -596,49 +630,21 @@
       "is_good_development": false
     },
     {
-      "slug": "story-23",
-      "headline": "Congress Restores Science Funding Amid Proposed Cuts",
-      "context": "Recently, President Trump's administration proposed significant cuts to science funding within the federal budget for 2026. In response, Congress has taken action to restore much of this funding to its previous levels, reflecting an ongoing commitment to support scientific initiatives.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "President Trump proposed deep cuts to science funding in the federal budget for 2026.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5720915/president-trump-aimed-to-cut-science-funding-congress-has-quietly-restored-much-of-it"
-        },
-        {
-          "text": "Congress restored significant portions of science funding in recent weeks.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5720915/president-trump-aimed-to-cut-science-funding-congress-has-quietly-restored-much-of-it"
-        },
-        {
-          "text": "The restored funding is aimed at maintaining support for ongoing scientific projects.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5720915/president-trump-aimed-to-cut-science-funding-congress-has-quietly-restored-much-of-it"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Science",
-          "url": "https://www.npr.org/2026/03/03/nx-s1-5720915/president-trump-aimed-to-cut-science-funding-congress-has-quietly-restored-much-of-it"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
       "slug": "story-24",
-      "headline": "Dow Jones Industrial Average Drops Amid Rising Oil Prices",
-      "context": "The stock market experienced a significant downturn due to escalating tensions in Iran, which have caused oil prices to surge. The increase in crude oil prices is affecting investor sentiment and contributing to market volatility.",
+      "headline": "Dow Jones Industrial Average Falls Due to Rising Oil Prices",
+      "context": "The Dow Jones Industrial Average experienced a significant decline as tensions in Iran escalated and led to a spike in oil prices. Such market fluctuations can impact investor sentiment and the broader economy.",
       "category": "Business",
       "facts": [
         {
-          "text": "The Dow Jones Industrial Average closed down 450 points.",
+          "text": "The Dow closed down 450 points on Friday.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "U.S. crude oil prices rose by 12% on the day.",
+          "text": "U.S. crude oil prices increased by 12% on the same day.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "The market fluctuations are linked to geopolitical tensions involving Iran.",
+          "text": "The rise in oil prices is attributed to the ongoing conflict involving Iran.",
           "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         }
       ],
@@ -661,27 +667,27 @@
     },
     {
       "slug": "story-25",
-      "headline": "Changes to Tax Code May Complicate Filing Process",
-      "context": "The recent tax changes enacted during Trump's administration have introduced new deductions and provisions. These adjustments could lead to larger refunds but may also increase the complexity of the tax filing process for individuals this season.",
-      "category": "US",
+      "headline": "Qatar Partially Reopens Airspace Amid Ongoing Regional Conflicts",
+      "context": "Qatar has taken steps to partially reopen its airspace following an escalation of military actions in the Gulf region, particularly related to the ongoing US-Israeli war on Iran. This reopening comes as the tensions have led to significant disruptions in air travel and cargo transport in the area.",
+      "category": "World",
       "facts": [
         {
-          "text": "New tax deductions and provisions have been introduced under Trump's tax changes.",
-          "source_url": "https://www.pbs.org/newshour/economy/how-trumps-tax-changes-may-make-refunds-bigger-but-filing-more-complex"
+          "text": "Evacuation and cargo flights to resume in Qatar.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/qatar-partially-reopens-airspace-as-iranian-strikes-continue-to-hit-gulf?traffic_source=rss"
         },
         {
-          "text": "Experts predict that these changes could make tax returns more complex to complete.",
-          "source_url": "https://www.pbs.org/newshour/economy/how-trumps-tax-changes-may-make-refunds-bigger-but-filing-more-complex"
+          "text": "Scheduled airline services remain suspended.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/qatar-partially-reopens-airspace-as-iranian-strikes-continue-to-hit-gulf?traffic_source=rss"
         },
         {
-          "text": "Some taxpayers may receive bigger refunds due to the new changes.",
-          "source_url": "https://www.pbs.org/newshour/economy/how-trumps-tax-changes-may-make-refunds-bigger-but-filing-more-complex"
+          "text": "The action follows ongoing strikes in the Gulf associated with the US-Israeli war on Iran.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/qatar-partially-reopens-airspace-as-iranian-strikes-continue-to-hit-gulf?traffic_source=rss"
         }
       ],
       "sources": [
         {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/economy/how-trumps-tax-changes-may-make-refunds-bigger-but-filing-more-complex"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/6/qatar-partially-reopens-airspace-as-iranian-strikes-continue-to-hit-gulf?traffic_source=rss"
         }
       ],
       "stakeholder_quotes": [],
@@ -770,23 +776,19 @@
   ],
   "good_developments": [
     {
-      "headline": "Search and Rescue Finds Avalanche Victim with Help from 'Find My iPhone'",
-      "context": "An avalanche occurred in late February at the Big Chief Bowl in Stevens Pass Ski Resort, which buried Michael Harris while he was skiing. His wife used the 'Find My iPhone' feature to help locate him after he was trapped for over four hours.",
+      "headline": "Rescue Efforts Successful After Avalanche Incident",
+      "context": "In late February, a man skiing at Stevens Pass Ski Resort was buried in an avalanche. His wife used the 'Find My iPhone' feature to aid rescuers in locating him after several hours.",
       "facts": [
         {
-          "text": "Michael Harris was skiing when an avalanche buried him.",
+          "text": "Michael Harris was skiing in the Big Chief Bowl when an avalanche occurred.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "His wife utilized the 'Find My iPhone' feature to locate him.",
+          "text": "He was trapped under snow for over four hours before being located.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "Search and rescue teams were guided to his location using the app.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        },
-        {
-          "text": "Harris was found after being buried for more than four hours.",
+          "text": "His wife utilized the 'Find My iPhone' feature to direct search and rescue teams to his exact location.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         }
       ],
@@ -798,51 +800,19 @@
       ]
     },
     {
-      "headline": "Teen Boy Raises Funds for Charity Through Canned Recycling",
-      "context": "Ryan Hulance, a 13-year-old boy from Solihull, England, has combined environmental efforts with charitable work by recycling over a million aluminum cans. His initiative aims to support local food banks while promoting sustainability.",
+      "headline": "Snowmobilers Rescue Moose from Snow in New Hampshire",
+      "context": "This incident highlights the importance of wildlife awareness in snowy regions. It also demonstrates how people can assist animals in distress when unexpected situations arise.",
       "facts": [
         {
-          "text": "Ryan Hulance has recycled more than a million aluminum cans.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "He has raised thousands of dollars for charity through his recycling efforts.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "Ryan began his project by reaching out to local businesses for support.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "The initiative focuses on providing aid to food banks in the community.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ]
-    },
-    {
-      "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
-      "context": "A group of snowmobilers in New Hampshire identified a young moose in distress while navigating deep snow. The animal was trapped and needed assistance to regain its mobility, highlighting the role of community members in animal rescue efforts during severe weather conditions.",
-      "facts": [
-        {
-          "text": "The moose was found buried up to its neck in snow.",
+          "text": "A group of snowmobilers in New Hampshire found a young moose stuck in deep snow.",
           "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "Mike Dion and his snowmobiling friends discovered the animal during their outing.",
+          "text": "The moose was buried up to its neck in snow, making it unable to move.",
           "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "The snow depth in the area was reported to be 4 to 5 feet deep.",
-          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
-        },
-        {
-          "text": "The group actively participated in digging the moose out of the snow.",
+          "text": "The snowmobilers helped to dig the moose out of the snow after encountering it during their ride.",
           "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ],
@@ -850,6 +820,34 @@
         {
           "name": "Good News Network",
           "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        }
+      ]
+    },
+    {
+      "headline": "Teenager Raises Funds for Charity Through Recycling Initiative",
+      "context": "In Solihull, England, a 13-year-old boy named Ryan Hulance has initiated a recycling project aimed at supporting local food banks. This endeavor aligns with environmental goals while addressing community needs, showcasing a blend of activism and charity.",
+      "facts": [
+        {
+          "text": "Ryan Hulance has recycled over a million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He has raised thousands of dollars for charity through this effort.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "The proceeds from the recycling go directly to local food banks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan began this project to help his community while promoting environmental sustainability.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ]
     }
