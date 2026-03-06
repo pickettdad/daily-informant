@@ -100,7 +100,7 @@ export default async function HomePage() {
               {story.context && (
                 <p style={{
                   fontSize: 14, lineHeight: 1.65, color: s.muted,
-                  margin: "8px 0 16px 0", paddingLeft: 2,
+                  margin: "8px 0 16px 0",
                   borderLeft: `3px solid ${s.borderLight}`,
                   paddingLeft: 14,
                   fontStyle: "italic",
