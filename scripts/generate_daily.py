@@ -304,7 +304,8 @@ SELECTION CRITERIA:
 4. BALANCE — Don't favor stories from any political lean. A Fox News story and an NPR story about the same event both validate its importance.
 5. SKIP politician theater — "X slams Y" or "X fires back" without concrete action is noise, not news
 6. SKIP celebrity/entertainment unless it has genuine policy or public safety implications
-7. DO NOT select multiple stories about the same event — pick the best one
+7. FLAG 1-2 stories that are genuinely positive developments (medical breakthroughs, peace agreements, scientific discoveries, community wins)
+8. DO NOT select multiple stories about the same event — pick the best one
 
 Return ONLY a JSON array of the story numbers you selected, ranked by importance.
 Example: [4, 17, 2, 31, 8, 22, 11, 45, 3, 29, 14, 38]
