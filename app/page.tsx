@@ -15,6 +15,15 @@ const s = {
   goodLight: "#EDF7F2",
 };
 
+const categoryColors: Record<string, { bg: string; text: string }> = {
+  World:    { bg: "#E8F0F7", text: "#2B5C8A" },
+  Business: { bg: "#FDF6EC", text: "#8B6914" },
+  Science:  { bg: "#EDF7F2", text: "#2D7D5F" },
+  Health:   { bg: "#F5EDF7", text: "#6B3FA0" },
+  Tech:     { bg: "#EDEFF7", text: "#3F4FA0" },
+  Canada:   { bg: "#FDEDF0", text: "#A03F4F" },
+};
+
 function formatDate(dateStr: string) {
   const d = new Date(dateStr + "T12:00:00");
   return d.toLocaleDateString("en-US", {
@@ -23,6 +32,10 @@ function formatDate(dateStr: string) {
     month: "long",
     day: "numeric",
   });
+}
+
+function getCategoryStyle(category: string) {
+  return categoryColors[category] || { bg: "#F0F0F0", text: "#666666" };
 }
 
 export default async function HomePage() {
@@ -59,122 +72,148 @@ export default async function HomePage() {
           </p>
         </div>
 
-        {daily.top_stories.map((story: any) => (
-          <article
-            key={story.slug}
-            style={{
-              background: "#FFFFFF",
-              border: `1px solid ${s.border}`,
-              borderRadius: 8,
-              padding: "24px 28px",
-              marginBottom: 16,
-            }}
-          >
-            <h3 style={{
-              fontFamily: s.display,
-              fontSize: 20,
-              fontWeight: 700,
-              lineHeight: 1.35,
-              marginBottom: 14,
-            }}>
-              {story.headline}
-            </h3>
-
-            <ul style={{ listStyleType: "none", padding: 0 }}>
-              {story.facts.map((f: any, i: number) => (
-                <li key={i} style={{
-                  fontSize: 15,
-                  lineHeight: 1.6,
-                  color: s.muted,
-                  marginBottom: 8,
-                  paddingLeft: 16,
-                  position: "relative",
-                }}>
+        {daily.top_stories.map((story: any) => {
+          const catStyle = getCategoryStyle(story.category);
+          return (
+            <article
+              key={story.slug}
+              style={{
+                background: "#FFFFFF",
+                border: `1px solid ${s.border}`,
+                borderRadius: 8,
+                padding: "24px 28px",
+                marginBottom: 16,
+              }}
+            >
+              {/* Category badge + headline */}
+              <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 14 }}>
+                {story.category && (
                   <span style={{
-                    position: "absolute",
-                    left: 0,
-                    color: s.gold,
+                    fontSize: 11,
                     fontWeight: 700,
-                  }}>·</span>
-                  {f.text}{" "}
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    background: catStyle.bg,
+                    color: catStyle.text,
+                    padding: "3px 8px",
+                    borderRadius: 4,
+                    whiteSpace: "nowrap",
+                    marginTop: 4,
+                  }}>
+                    {story.category}
+                  </span>
+                )}
+                <h3 style={{
+                  fontFamily: s.display,
+                  fontSize: 20,
+                  fontWeight: 700,
+                  lineHeight: 1.35,
+                  margin: 0,
+                }}>
+                  {story.headline}
+                </h3>
+              </div>
+
+              {/* Facts */}
+              <ul style={{ listStyleType: "none", padding: 0 }}>
+                {story.facts.map((f: any, i: number) => (
+                  <li key={i} style={{
+                    fontSize: 15,
+                    lineHeight: 1.6,
+                    color: s.muted,
+                    marginBottom: 8,
+                    paddingLeft: 16,
+                    position: "relative",
+                  }}>
+                    <span style={{
+                      position: "absolute",
+                      left: 0,
+                      color: s.gold,
+                      fontWeight: 700,
+                    }}>·</span>
+                    {f.text}{" "}
+                    <a
+                      href={f.source_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ fontSize: 11, color: s.accent, opacity: 0.8 }}
+                    >
+                      source ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+
+              {/* Sources */}
+              <div style={{
+                marginTop: 14,
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                flexWrap: "wrap",
+              }}>
+                <span style={{
+                  fontSize: 11,
+                  color: s.light,
+                  fontWeight: 600,
+                  letterSpacing: "0.05em",
+                  textTransform: "uppercase",
+                }}>Sources:</span>
+                {story.sources.map((src: any, i: number) => (
                   <a
-                    href={f.source_url}
+                    key={i}
+                    href={src.url}
                     target="_blank"
                     rel="noreferrer"
-                    style={{ fontSize: 11, color: s.accent, opacity: 0.8 }}
+                    style={{
+                      fontSize: 12,
+                      color: s.accent,
+                      background: s.accentLight,
+                      padding: "2px 8px",
+                      borderRadius: 4,
+                      fontWeight: 500,
+                      textDecoration: "none",
+                    }}
                   >
-                    source ↗
+                    {src.name}
                   </a>
-                </li>
-              ))}
-            </ul>
+                ))}
+              </div>
 
-            <div style={{
-              marginTop: 14,
-              display: "flex",
-              alignItems: "center",
-              gap: 6,
-              flexWrap: "wrap",
-            }}>
-              <span style={{
-                fontSize: 11,
-                color: s.light,
-                fontWeight: 600,
-                letterSpacing: "0.05em",
-                textTransform: "uppercase",
-              }}>Sources:</span>
-              {story.sources.map((src: any, i: number) => (
-                <a
-                  key={i}
-                  href={src.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    fontSize: 12,
+              {/* Stakeholder quotes */}
+              {story.stakeholder_quotes?.length > 0 && (
+                <details style={{ marginTop: 12 }}>
+                  <summary style={{
+                    cursor: "pointer",
+                    fontSize: 13,
                     color: s.accent,
-                    background: s.accentLight,
-                    padding: "2px 8px",
-                    borderRadius: 4,
-                    fontWeight: 500,
-                  }}
-                >
-                  {src.name}
-                </a>
-              ))}
-            </div>
-
-            {story.stakeholder_quotes?.length > 0 && (
-              <details style={{ marginTop: 12 }}>
-                <summary style={{
-                  cursor: "pointer",
-                  fontSize: 13,
-                  color: s.accent,
-                  fontWeight: 600,
-                  letterSpacing: "0.02em",
-                }}>
-                  Primary Stakeholder Statements ({story.stakeholder_quotes.length})
-                </summary>
-                <div style={{
-                  marginTop: 10,
-                  paddingLeft: 16,
-                  borderLeft: `2px solid ${s.borderLight}`,
-                }}>
-                  {story.stakeholder_quotes.map((q: any, i: number) => (
-                    <div key={i} style={{ marginBottom: 10 }}>
-                      <span style={{ fontWeight: 600, fontSize: 13 }}>{q.speaker}:</span>
-                      <span style={{ fontSize: 13, color: s.muted, fontStyle: "italic", marginLeft: 6 }}>
-                        &ldquo;{q.quote}&rdquo;
-                      </span>
-                      <a href={q.url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.accent, marginLeft: 6 }}>
-                        source ↗
-                      </a>
-                    </div>
-                  ))}
-                </div>
-              </details>
-            )}
-          </article>
-        ))}
+                    fontWeight: 600,
+                    letterSpacing: "0.02em",
+                  }}>
+                    Primary Stakeholder Statements ({story.stakeholder_quotes.length})
+                  </summary>
+                  <div style={{
+                    marginTop: 10,
+                    paddingLeft: 16,
+                    borderLeft: `2px solid ${s.borderLight}`,
+                  }}>
+                    {story.stakeholder_quotes.map((q: any, i: number) => (
+                      <div key={i} style={{ marginBottom: 10 }}>
+                        <span style={{ fontWeight: 600, fontSize: 13 }}>{q.speaker}:</span>
+                        <span style={{ fontSize: 13, color: s.muted, fontStyle: "italic", marginLeft: 6 }}>
+                          &ldquo;{q.quote}&rdquo;
+                        </span>
+                        <a href={q.url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.accent, marginLeft: 6 }}>
+                          source ↗
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </details>
+              )}
+            </article>
+          );
+        })}
       </section>
 
       {/* ── Ongoing Situations ── */}
@@ -249,7 +288,7 @@ export default async function HomePage() {
                 {g.facts.map((f: any, j: number) => (
                   <p key={j} style={{ fontSize: 14, color: "#3D6B55", lineHeight: 1.55, marginBottom: 4 }}>
                     {f.text}{" "}
-                    <a href={f.source_url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.good }}>
+                    <a href={f.source_url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.good, textDecoration: "none" }}>
                       source ↗
                     </a>
                   </p>
