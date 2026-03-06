@@ -25,6 +25,8 @@ jobs:
       - name: Run morning pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: python scripts/generate_daily.py
 
       - name: Commit updated daily.json
