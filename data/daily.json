@@ -3,20 +3,20 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "Oil Prices Reach Highest Point Since 2023 Amid Economic Concerns",
-      "context": "This development comes at a time when economic indicators are signaling potential stagnation and persistent inflation in the U.S. The rising oil prices, influenced by geopolitical tensions such as the Iran war, are raising concerns about their impact on the economy and consumer spending.",
+      "headline": "Oil Prices Reach Highest Levels Since 2023 Amid Worries Over Economy",
+      "context": "Recent economic indicators have raised concerns about the potential for stagnating growth and high inflation in the U.S. The situation has been exacerbated by ongoing geopolitical tensions, including the conflict in Iran, leading to increased oil prices.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices reached their highest levels since 2023 on March 6, 2026.",
+          "text": "Oil prices have surged to their highest levels since 2023.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "Stocks declined due to fears of stagnating growth combined with high inflation.",
+          "text": "U.S. stock markets experienced a decline as investors reacted to economic reports.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "Market volatility was heightened following the release of the latest U.S. jobs report.",
+          "text": "Concerns about high inflation and stagnant growth are driving market uncertainty.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         }
       ],
@@ -35,20 +35,406 @@
     },
     {
       "slug": "story-2",
-      "headline": "Conflict Escalates as Israel Strikes Beirut and Tehran",
-      "context": "Recent tensions between Israel and Iran have intensified following missile exchanges. Israel's military actions were in response to missiles fired from Iran, highlighting the ongoing conflict in the region.",
+      "headline": "U.S. Customs Developing New Tariff Refund Process",
+      "context": "U.S. Customs is responding to the need for a more efficient refund system for tariffs. Currently, importers often face delays and the burden of filing lawsuits to obtain refunds.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "U.S. Customs intends to implement a streamlined refund process in 45 days.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+        },
+        {
+          "text": "The new system aims to allow importers to receive their money back without needing to file individual lawsuits.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+        },
+        {
+          "text": "This initiative is part of broader efforts to improve trade practices and support businesses.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-3",
+      "headline": "US Economy Experiences Job Loss in February",
+      "context": "February's job losses mark a significant shift in the US labor market. The downward trend in payrolls was unexpected, affecting nearly all sectors and raising concerns about economic stability.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "The US economy lost 92,000 jobs in February 2026.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Job losses were reported across nearly every sector of the economy.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The contraction in jobs came as a surprise to economists and market analysts.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-4",
+      "headline": "US Labor Market Experiences Job Losses in February",
+      "context": "The recent job loss in February indicates a significant shift in the U.S. labor market, nearly undoing the gains achieved in January. This downturn is attributed to various economic factors, including market volatility and rising gas prices.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "The U.S. lost 92,000 jobs in February.",
+          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+        },
+        {
+          "text": "This decline follows strong job gains made in January.",
+          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+        },
+        {
+          "text": "Rising gas prices and market instability are contributing factors to the job losses.",
+          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-5",
+      "headline": "Conflict Escalates in South Sudan Amid Government and Opposition Clashes",
+      "context": "The situation in South Sudan has deteriorated as violence between government forces and opposition groups intensifies. The country, which gained independence in 2011, has a history of civil conflict that has resulted in significant loss of life and displacement.",
       "category": "World",
       "facts": [
         {
-          "text": "Iran fired missiles toward Israel on Friday, according to Israeli officials.",
+          "text": "At least 169 people have been killed in a recent raid near the Sudan border.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        },
+        {
+          "text": "Clashes have intensified between the government-aligned army and opposition forces.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        },
+        {
+          "text": "Observers warn that the ongoing violence could lead to a full return to civil war in South Sudan.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-6",
+      "headline": "Jet Fuel Prices Surge Due to Middle East Conflict",
+      "context": "The surge in jet fuel prices has been attributed to supply disruptions from the Gulf caused by ongoing conflicts in the region. Analysts warn that this situation could lead to an increase in air fares for travelers.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Jet fuel prices have increased by more than 80%.",
+          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The rise in prices is linked to supply disruptions from the Gulf.",
+          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The ongoing conflict in the Middle East is causing these supply issues.",
+          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-7",
+      "headline": "Supreme Court Allows Asylum Seekers Access to Subsidized Daycare in Quebec",
+      "context": "This ruling is significant as it addresses the rights of asylum seekers in Canada, particularly in relation to access to public services. The case originated in 2018 when a refugee claimant was denied subsidized childcare while awaiting a decision on her protection claim.",
+      "category": "Canada",
+      "facts": [
+        {
+          "text": "The Supreme Court of Canada ruled that asylum seekers can access subsidized daycare in Quebec.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The case dates back to 2018, involving a woman who made a claim for refugee protection.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The decision aims to ensure fairness in access to public services for asylum seekers.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        }
+      ],
+      "sources": [
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-8",
+      "headline": "Researchers Develop Miniature AI Model Using Monkey Neurons",
+      "context": "This development represents a significant step in artificial intelligence research. By utilizing monkey neurons, scientists aim to enhance the efficiency of AI systems, reducing their size and energy consumption.",
+      "category": "Science",
+      "facts": [
+        {
+          "text": "Researchers successfully reduced an AI vision model to 1/1000th of its original size.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        },
+        {
+          "text": "The study demonstrates potential improvements in AI efficiency.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        },
+        {
+          "text": "The incorporation of monkey neurons is a key factor in this miniaturization.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-9",
+      "headline": "Study Finds Weight-Loss Drug Could Be Produced for Low Cost",
+      "context": "A new analysis suggests that the weight-loss medication semaglutide, used in products like Ozempic and Wegovy, could be manufactured for approximately $3 a month. This development may enhance accessibility for millions of individuals suffering from obesity and diabetes, particularly in lower-income countries as patents expire.",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "Semaglutide is known for its use in weight-loss medications like Ozempic and Wegovy.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "The analysis indicates a potential production cost of $3 per month for the drug.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "Obesity affects more than a billion people globally, with rising rates in lower-income nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "Availability of cheaper versions of the drug could potentially benefit millions in 160 countries.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-10",
+      "headline": "Wife Locates Husband Buried in Avalanche Using Tracking Technology",
+      "context": "The use of technology in emergency situations can significantly enhance rescue efforts. This incident highlights the effectiveness of using mobile tracking features in locating individuals during critical times.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "A wife used the 'Find My iPhone' feature to locate her husband buried in an avalanche.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was caught in an avalanche in late February.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "He was buried for over four hours before rescuers located him using the tracking information.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Michael Harris",
+          "quote": "I am incredibly grateful to my wife and the rescue team.",
+          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-11",
+      "headline": "Geothermal Energy Project to Supply Homes in the UK",
+      "context": "The UK is making strides in renewable energy with a new geothermal heat project. This initiative is aimed at harnessing Earth's heat to provide sustainable energy to homes, marking a significant development in the country's transition to greener energy sources.",
+      "category": "Science",
+      "facts": [
+        {
+          "text": "The geothermal project aims to power 10,000 homes.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "It will supply super-heated water sourced from rocks.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The project will also provide the first domestic supply of lithium in the UK.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-12",
+      "headline": "British Schoolboy Raises Funds for Charity Through Recycling",
+      "context": "Ryan Hulance, a 13-year-old from Solihull, England, has dedicated himself to recycling aluminum cans to support food banks. His efforts reflect a growing concern for both environmental sustainability and community aid, demonstrating how individual actions can lead to significant charitable contributions.",
+      "category": "Canada",
+      "facts": [
+        {
+          "text": "Ryan Hulance has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He has raised thousands of dollars for charity through this initiative.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "The funds raised have been donated to local food banks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan started this project from his home in Solihull, West Midlands.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Ryan Hulance",
+          "quote": "I just wanted to do something to help people and care for the environment.",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-13",
+      "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
+      "context": "In New Hampshire, a group of snowmobilers encountered a young moose buried in deep snow while returning from their outing. The animal, found stuck up to its neck, needed assistance to survive in the harsh winter conditions.",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "A group of snowmobilers discovered a young moose doe buried in snow while riding in the New Hampshire woods.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        },
+        {
+          "text": "The snow was reported to be 4 to 5 feet deep in the area.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        },
+        {
+          "text": "They worked together to dig the moose out, ensuring its safety before leaving.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Mike Dion",
+          "quote": "We came across an unexpected sight: a moose buried up to its neck.",
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        }
+      ],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-14",
+      "headline": "Escalation of Conflict Between Israel and Iran",
+      "context": "The conflict between Israel and Iran has intensified as both nations have engaged in military actions. The recent exchange of strikes follows increased tensions surrounding Iran's missile capabilities and regional military presence.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Iran fired missiles toward Israel after Israeli strikes on Tehran and Beirut.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "Israel conducted airstrikes on Tehran and targeted southern suburbs of Beirut overnight.",
+          "text": "Israeli attacks targeted locations in Beirut's southern suburbs.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "This exchange follows escalating hostilities between the two nations over several weeks.",
+          "text": "The strikes are part of an ongoing military confrontation between the two countries.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
@@ -63,236 +449,56 @@
         },
         {
           "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-3",
-      "headline": "U.S. Customs Develops New Tariff Refund Process",
-      "context": "U.S. Customs has recognized the need for a more efficient system to refund tariffs paid by importers, which often require legal action to reclaim. The new approach seeks to simplify the process and reduce the burden on businesses impacted by tariffs.",
-      "category": "US",
+      "slug": "story-15",
+      "headline": "Recent Conflict in Middle East Affects Energy Infrastructure",
+      "context": "Historically, conflicts in the Middle East have not targeted energy facilities significantly. However, the ongoing U.S.-Israeli war with Iran has seen notable damage to such infrastructures, raising concerns about energy supply stability in the region.",
+      "category": "World",
       "facts": [
         {
-          "text": "U.S. Customs plans to implement a streamlined refund process within 45 days.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "The U.S.-Israeli war with Iran has led to increased attacks on energy facilities in the Middle East.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "The new system aims to return importers' money without requiring individual lawsuits.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "Past conflicts typically spared energy infrastructure from extensive damage.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "This initiative is intended to benefit businesses that have overpaid tariffs.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "This shift in targeting raises concerns about the impact on global energy supplies.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         }
       ],
       "sources": [
         {
           "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": true
+      "is_good_development": false
     },
     {
-      "slug": "story-4",
-      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-      "context": "South Sudan has seen increased conflict between the government-aligned army and opposition forces. This intensification of violence has led to significant casualties and raises fears of a regression into full-scale civil war.",
+      "slug": "story-16",
+      "headline": "China Responds to Regional Instability Amid Iran War",
+      "context": "The ongoing conflict in the Middle East, particularly involving Iran, has significant implications for China's foreign policy and economic interests. As tensions rise, China is monitoring the situation closely to assess its impact on trade and regional stability.",
       "category": "World",
       "facts": [
         {
-          "text": "At least 169 people were killed in a recent raid near the Sudan border.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        },
-        {
-          "text": "Clashes have intensified between government forces and opposition groups.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        },
-        {
-          "text": "Observers warn that the situation could lead the country back to a full-blown civil war.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-5",
-      "headline": "US Economy Sees Job Losses in February",
-      "context": "The US labor market faced unexpected challenges in February 2026 as job losses were reported across nearly every sector. This contraction raises concerns about the overall economic stability and future growth.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "The US economy lost 92,000 jobs in February 2026.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Nearly all sectors experienced declines in payroll numbers.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The job loss comes as a surprise to economists and analysts.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-6",
-      "headline": "Oil Prices Reach Two-Year High Amid Gulf Production Concerns",
-      "context": "The warning from Qatar's Energy Minister comes as tensions in the region escalate due to ongoing conflicts involving Iran. The potential for halted production in the Gulf raises concerns about global oil supply and price stability.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Oil prices have reached a two-year high.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Qatar's Energy Minister, Saad al-Kaabi, stated that oil could reach $150 a barrel if the conflict with Iran continues.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The warning pertains to the possibility of all Gulf production stopping within days.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Saad al-Kaabi",
-          "quote": "Oil could hit $150 a barrel if the Iran conflict continues over the coming weeks.",
-          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-7",
-      "headline": "Ukraine and Russia Conduct Major Prisoner Exchange",
-      "context": "This prisoner exchange comes during a time of ongoing conflict and stalled peace negotiations between Ukraine and Russia. It is among the few significant developments in the broader situation as tensions continue in the region.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Ukraine and Russia exchanged 500 prisoners each in a two-day operation.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "Ukrainian President Volodymyr Zelenskyy visited the front line following the exchange.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "This event is seen as one of the few tangible outcomes amid ongoing peace talks that have stalled.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "The exchange highlights the continuing humanitarian aspects of the conflict.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Volodymyr Zelenskyy",
-          "quote": "This is an important step for the families of our prisoners.",
-          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
-      ],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-8",
-      "headline": "U.S. Job Losses in February Show Labor Market Downturn",
-      "context": "The U.S. labor market experienced a significant setback in February 2026, with a loss of 92,000 jobs reported. This decline nearly offsets the job gains achieved in January and indicates a troubling trend for the economy amidst rising gas prices and market volatility.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "The U.S. lost 92,000 jobs in February 2026.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        },
-        {
-          "text": "This job loss nearly erases all job gains made in January.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        },
-        {
-          "text": "Rising gas prices and market fluctuations are contributing factors to this trend.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        }
-      ],
-      "sources": [
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-9",
-      "headline": "Iran War's Impact on China's Global Ambitions",
-      "context": "China is closely monitoring the situation in the Middle East as the conflict in Iran unfolds. While it has not yet felt direct consequences, the broader geopolitical shifts could influence its international strategies and ambitions.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "China is observing the Iran conflict with interest as it may affect regional stability.",
+          "text": "China is observing the unfolding situation in Iran and its effects on the Middle East.",
           "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Current tensions in the Middle East may have indirect effects on China's trade and energy supply chains.",
+          "text": "Chinese authorities are aware of potential economic repercussions due to rising tensions in the region.",
           "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "China's ambitions on the global stage could be reshaped depending on the outcome of the war.",
+          "text": "The war could influence China's Belt and Road Initiative, which relies on stable conditions for trade routes.",
           "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -314,225 +520,69 @@
       "is_good_development": false
     },
     {
-      "slug": "story-10",
-      "headline": "Affordable Weight-Loss Treatment Potentially Available",
-      "context": "A new analysis suggests that the weight-loss drug semaglutide, used in medications like Ozempic and Wegovy, could become accessible at a cost of $3 per month. This change could significantly impact millions of individuals suffering from diabetes and obesity, particularly in lower-income countries as patents for the drug expire.",
-      "category": "Health",
+      "slug": "story-17",
+      "headline": "Unemployment Increases to 4.4% in February",
+      "context": "The recent jobs report for February shows an increase in the unemployment rate, which has raised concerns about the current state of the economy. This data reflects broader economic trends and may impact future employment and policy decisions.",
+      "category": "US",
       "facts": [
         {
-          "text": "A study indicates that semaglutide could be produced for $3 a month.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "The unemployment rate rose to 4.4% in February.",
+          "source_url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
         },
         {
-          "text": "Over a billion people worldwide suffer from obesity, with rates increasing in lower-income nations.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "The report came in weaker than analysts expected.",
+          "source_url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
         },
         {
-          "text": "The availability of affordable semaglutide could support health initiatives in 160 countries.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "Concerns regarding the economy have been heightened due to this unexpected rise.",
+          "source_url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-11",
-      "headline": "Geothermal Energy Project to Supply Homes and Lithium in UK",
-      "context": "The UK is set to harness geothermal energy for the first time to power 10,000 homes. This project will also supply lithium, a critical mineral used in batteries, utilizing water that has been super-heated by underground rocks.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "The geothermal energy project aims to provide renewable energy for 10,000 homes.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/video/unemployment-rose-february-new-jobs-report/"
         },
         {
-          "text": "It will be the UK's first domestic supply of lithium, a critical mineral.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "The water used in the project is heated by geothermal processes underground.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-12",
-      "headline": "Jet Fuel Prices Rise Significantly Amid Middle East Conflict",
-      "context": "Recent disruptions to jet fuel supplies from the Gulf, caused by ongoing conflicts in the Middle East, have led to a sharp increase in prices. Analysts suggest this surge in costs could result in higher airfares for travelers.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Jet fuel prices have increased by more than 80% due to supply disruptions from the Gulf.",
-          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
-        {
-          "text": "The ongoing Middle East conflict has been cited as a major factor in these supply issues.",
-          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Airfare increases may soon follow as airlines react to rising fuel costs.",
-          "source_url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
         {
           "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/c14m57k8vgeo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-13",
-      "headline": "NASA Expands Artemis Program with Additional Moon Mission",
-      "context": "NASA has announced a modification to its Artemis program, adding an extra mission before sending astronauts to the Moon. This decision reflects the agency's commitment to thorough preparation for future lunar exploration.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "NASA will include an additional mission to its Artemis program.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This mission will occur before astronauts are sent to the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The Artemis program aims to establish a sustainable human presence on the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-14",
-      "headline": "Research Highlights Health Benefits of Saunas",
-      "context": "The use of saunas has gained popularity as people seek natural ways to enhance their health. Recent scientific studies aim to evaluate the veracity of health claims associated with regular sauna use.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "Scientists are investigating the potential health benefits of sauna sessions.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
-        },
-        {
-          "text": "Research suggests that sauna use may help improve cardiovascular health and reduce stress.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
-        },
-        {
-          "text": "Studies have shown connections between sauna use and improved skin health.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-15",
-      "headline": "Recent U.S.-Israeli War with Iran Impacts Energy Infrastructure",
-      "context": "Historically, conflicts in the Middle East have avoided significant damage to energy facilities. However, the ongoing war between the U.S. and Israel against Iran has resulted in notable damages to these crucial infrastructures, raising concerns about energy stability.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "The current war has led to significant damage to energy facilities in the region.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-        },
-        {
-          "text": "Previous conflicts usually spared energy infrastructure or caused limited damage.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-        },
-        {
-          "text": "The U.S.-Israeli alliance has actively targeted Iranian assets during this conflict.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-16",
-      "headline": "Majority of Americans Oppose Military Action in Iran",
-      "context": "Recent polling data indicates a significant portion of the American population is skeptical about military intervention in Iran. This comes amidst concerns over President Trump's management of relations with Iran and differing perceptions of the threat level posed by the country.",
+      "slug": "story-18",
+      "headline": "US Customs Develops Refund System for Trump Tariffs",
+      "context": "The US government is taking steps to refund tariffs that were deemed illegal, affecting a substantial amount of collected revenue. This initiative follows legal challenges and the recognition of the need to streamline the refund process for affected importers.",
       "category": "US",
       "facts": [
         {
-          "text": "A majority of Americans disapprove of President Trump's handling of Iran.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737627/iran-us-military-poll-trump-approval"
-        },
-        {
-          "text": "Most respondents perceive Iran as either a minor threat or no threat at all.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737627/iran-us-military-poll-trump-approval"
-        },
-        {
-          "text": "The poll was conducted by NPR, PBS News, and Marist.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737627/iran-us-military-poll-trump-approval"
-        },
-        {
-          "text": "The findings reflect a growing public reluctance towards military action.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737627/iran-us-military-poll-trump-approval"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5737627/iran-us-military-poll-trump-approval"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/majority-of-americans-oppose-military-action-in-iran-new-poll-finds"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-17",
-      "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
-      "context": "The US government is addressing issues related to tariffs imposed during the Trump administration. A recent court filing revealed that the total amount tied to these tariffs is approximately $166 billion, prompting the Customs and Border Protection agency to initiate a refund process for importers.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "The US Customs and Border Protection agency will implement a system to process refunds within 45 days.",
+          "text": "The total sum held related to tariffs is estimated to be about $166 billion.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "This refund process will not require importers to pursue legal action.",
+          "text": "The refund system will be ready to process claims in 45 days.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "The total amount held in relation to these illegally collected tariffs is estimated at $166 billion.",
+          "text": "The system will allow refunds without requiring importers to take legal action.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        },
+        {
+          "text": "Brandon Lord is a top official at US Customs and Border Protection.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         }
       ],
@@ -545,94 +595,162 @@
       "stakeholder_quotes": [
         {
           "speaker": "Brandon Lord",
-          "quote": "We’re preparing a system that will be ready to process refunds on billions of dollars of illegally collected tariffs.",
+          "quote": "The system will be ready to process refunds on billions of dollars of illegally collected tariffs in 45 days.",
           "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-19",
+      "headline": "Oil Prices Surge Amid Gulf Production Concerns",
+      "context": "Recent tensions in the region have raised concerns about oil supply. Qatar's Energy Minister has indicated that all Gulf oil production could be halted due to escalating conflicts, leading to significant price fluctuations.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Oil prices have reached a two-year high.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Qatar's Energy Minister Saad al-Kaabi warned that oil could reach $150 a barrel if the conflict with Iran continues.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The warning highlights the vulnerability of Gulf oil supplies amid regional tensions.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Saad al-Kaabi",
+          "quote": "Oil could hit $150 a barrel if the Iran conflict continues over the coming weeks.",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-20",
+      "headline": "Dutch Woman Discovers 35 Rembrandt Etchings in Her Home",
+      "context": "This discovery highlights the unexpected nature of art recovery, particularly during times when people are confined to their homes. The woman, while isolated during the COVID-19 pandemic, uncovered these valuable pieces that have historical significance.",
+      "category": "Art",
+      "facts": [
+        {
+          "text": "A Dutch woman found 35 etchings by Rembrandt in her home.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
+        },
+        {
+          "text": "The discovery occurred while she was confined at home due to COVID-19 restrictions.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
+        },
+        {
+          "text": "The etchings are believed to be of significant artistic value.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Anonymous Woman",
+          "quote": "You can only dream about it.",
+          "url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
         }
       ],
       "is_good_development": true
     },
     {
-      "slug": "story-18",
-      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
-      "context": "The incident comes after the U.S. Navy sank an Iranian warship, raising tensions in the region. The sinking was confirmed by Australia, which stated that three of its citizens were part of the U.S. submarine crew involved.",
+      "slug": "story-21",
+      "headline": "US and Venezuela to Restore Diplomatic Relations",
+      "context": "The restoration of diplomatic ties follows the US seizure of Venezuelan President Nicolas Maduro and his wife. This development aims to promote stability in the region amidst ongoing political turmoil in Venezuela.",
       "category": "World",
       "facts": [
         {
-          "text": "The U.S. Navy sank an Iranian warship on March 4, 2026.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "The US has agreed to resume diplomatic relations with Venezuela after a period of heightened tensions.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Sri Lanka has taken custody of an Iranian vessel following the sinking incident.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Nicolas Maduro and his wife were captured by US forces as part of a broader effort to stabilize the region.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Australia confirmed that three Australians were aboard the U.S. submarine involved in the sinking.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Joint efforts will focus on promoting stability and addressing humanitarian concerns in Venezuela.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-19",
-      "headline": "Recommendations for Social Care Reform Proposed by Louise Casey",
-      "context": "The chair of the independent commission on social care has put forward significant reforms to improve care for patients with dementia and motor neurone disease. These recommendations highlight the urgent need for change in social care, especially as populations age and the demand for specialized care increases.",
-      "category": "Health",
+      "slug": "story-22",
+      "headline": "Ukrainian Bank Workers Released from Detention in Hungary",
+      "context": "The detention of Ukrainian bank workers in Hungary was prompted by accusations of money laundering while transporting cash to Ukraine. This incident has strained diplomatic relations, as Ukraine expressed strong opposition to the allegations.",
+      "category": "World",
       "facts": [
         {
-          "text": "Louise Casey, chair of the independent commission on social care, calls for a full-time dementia tsar.",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
+          "text": "Ukrainian bank workers were detained in Hungary by local authorities.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "A new fast-track passport system is proposed for individuals diagnosed with motor neurone disease (MND).",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
+          "text": "They were accused of engaging in money laundering activities while transporting cash to Ukraine.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "These recommendations aim to enhance support and accessibility for those needing social care services.",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
+          "text": "Kyiv has condemned the allegations made by Hungarian officials.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The incident has led to increased tensions between Ukraine and Hungary.",
+          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Louise Casey",
-          "quote": "We need a moment of reckoning in social care.",
-          "url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
+          "speaker": "Ukrainian Government",
+          "quote": "Kyiv has reacted furiously after officials in Budapest accused staff transporting cash to Ukraine of money laundering.",
+          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "is_good_development": true
+      "is_good_development": false
     },
     {
-      "slug": "story-20",
-      "headline": "Weekly Science Highlights: Cooking Practices, Earthquake Activity, and Teen Sleep Patterns",
-      "context": "Recent discussions among scientists reveal significant insights into prehistoric cooking methods, increasing seismic activity in the Pacific Northwest, and a concerning trend in adolescent sleep deprivation. These topics are important as they relate to human history, geological safety, and public health.",
+      "slug": "story-23",
+      "headline": "This Week in Science: Cooking Practices and Geological Activity",
+      "context": "The discussion covers recent findings in prehistoric cooking methods, the potential for earthquakes in the Pacific Northwest, and trends in teenage sleep patterns. These topics highlight evolving understanding in anthropology, geology, and health science.",
       "category": "Science",
       "facts": [
         {
-          "text": "Researchers study ancient cooking methods to understand dietary changes in prehistoric societies.",
+          "text": "Researchers discuss new insights into prehistoric cooking techniques.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep"
         },
         {
-          "text": "Seismologists report heightened earthquake activity in the Pacific Northwest, raising awareness about geological hazards.",
+          "text": "Seismologists warn about increased earthquake activity in the Pacific Northwest.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep"
         },
         {
-          "text": "Studies indicate that teenagers are sleeping less than previous generations, potentially impacting their health and well-being.",
+          "text": "Studies reveal that teenagers are sleeping less than before.",
           "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732773/this-week-in-science-prehistoric-cooking-earthquakes-in-the-pnw-and-teens-sleep"
         }
       ],
@@ -646,119 +764,21 @@
       "is_good_development": false
     },
     {
-      "slug": "story-21",
-      "headline": "US and Venezuela to Resume Diplomatic Relations Following Maduro's Capture",
-      "context": "The restoration of diplomatic ties between the US and Venezuela follows the US government's recent capture of President Nicolás Maduro and his wife. This development aims to foster stability in a region marked by political turmoil and economic challenges.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "The US government captured Nicolás Maduro and his wife.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Discussions between the US and Venezuela will focus on promoting stability.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The decision to resume diplomatic relations marks a significant shift in US-Venezuela relations.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-22",
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "This initiative comes in response to growing recognition of the importance of nutrition in medical education. Currently, most medical schools do not meet the recommended hours for nutrition training, prompting the need for curriculum improvements.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "Health Secretary Robert F. Kennedy Jr. announced that 53 medical schools in 31 states will increase their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "Most medical schools currently offer fewer than the recommended 25 hours of nutrition education.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The decision is part of an effort to improve healthcare providers' knowledge of nutrition.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The expanded curriculum will begin this fall.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Robert F. Kennedy Jr.",
-          "quote": "This is a significant step forward in the education of our future healthcare providers.",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-23",
-      "headline": "Rwanda Implements Digital Tablet to Combat Antibiotic Overprescription",
-      "context": "Antibiotic resistance is a growing global health concern, exacerbated by the overprescribing of antibiotics. Rwanda has recognized a notably high rate of such prescriptions and has initiated a project using digital tablets as a tool to help lower these rates.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "Rwanda is facing high rates of antibiotic prescriptions that contribute to antibiotic resistance.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "A digital tablet has been introduced to assist healthcare providers in better prescribing practices.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "The initiative aims to educate and guide doctors on appropriate antibiotic use.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "Reducing unnecessary prescriptions is expected to mitigate the issue of rising antibiotic resistance.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
       "slug": "story-24",
       "headline": "Indonesia to Implement Ban on Social Media for Minors",
-      "context": "Indonesia is taking steps to limit access to social media and online platforms for individuals under the age of 16. This decision follows a trend in various countries to protect children from potential online abuse and exploitation.",
+      "context": "Indonesia is joining other countries in restricting access to social media for individuals under 16 years old. This measure aims to protect young people from potential online abuse and negative impacts associated with digital platforms.",
       "category": "World",
       "facts": [
         {
-          "text": "The ban applies to all social media and online platforms for users aged under 16.",
+          "text": "The ban targets social media and other online platforms for users under the age of 16.",
           "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This initiative aims to enhance the safety of young people in digital spaces.",
+          "text": "This decision is part of Indonesia's efforts to safeguard children in the digital environment.",
           "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Indonesia joins several other countries in implementing similar restrictions.",
+          "text": "Other countries have implemented similar measures in response to concerns about youth exposure to online risks.",
           "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -769,40 +789,66 @@
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": true
+      "is_good_development": false
     },
     {
       "slug": "story-25",
-      "headline": "Ukrainian Bank Workers Released from Detention in Hungary",
-      "context": "The recent detention of Ukrainian bank workers in Hungary stemmed from allegations of money laundering linked to their attempts to transport cash to Ukraine. The incident has elicited a strong response from Ukrainian officials, highlighting tensions between the two countries.",
+      "headline": "Impact of US-Israeli War on Asia",
+      "context": "The ongoing war involving the US and Israel against Iran has significant implications for Asian economies and geopolitical stability. As Iran's supreme leader was killed amidst this conflict, countries like China have condemned the actions but are avoiding direct involvement, while neighboring nations face economic uncertainty.",
       "category": "World",
       "facts": [
         {
-          "text": "Ukrainian bank workers were detained in Hungary while transporting cash to Ukraine.",
-          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "text": "The US-Israeli war against Iran has escalated tensions in Asia.",
+          "source_url": "https://www.france24.com/en/tv-shows/access-asia/20260306-asia-holds-its-breath-as-iran-war-drags-on"
         },
         {
-          "text": "Hungarian officials alleged money laundering in connection with the workers' actions.",
-          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "text": "China condemned the attack on Iran but is not directly involved in the conflict.",
+          "source_url": "https://www.france24.com/en/tv-shows/access-asia/20260306-asia-holds-its-breath-as-iran-war-drags-on"
         },
         {
-          "text": "Kyiv's government condemned the detention and the accusations made by Budapest.",
-          "source_url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "text": "Developing Asian economies that rely on remittances are affected as migrant workers are caught in the crossfire.",
+          "source_url": "https://www.france24.com/en/tv-shows/access-asia/20260306-asia-holds-its-breath-as-iran-war-drags-on"
+        },
+        {
+          "text": "Pakistan, sharing a border with Iran, is experiencing growing unrest due to the conflict.",
+          "source_url": "https://www.france24.com/en/tv-shows/access-asia/20260306-asia-holds-its-breath-as-iran-war-drags-on"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/access-asia/20260306-asia-holds-its-breath-as-iran-war-drags-on"
+        },
         {
-          "speaker": "Ukrainian official",
-          "quote": "We find the accusations baseless and demand their immediate release.",
-          "url": "https://www.bbc.com/news/articles/cd03rj7n0nro?at_medium=RSS&at_campaign=rss"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/6/spanish-politician-slams-those-using-feminism-as-excuse-for-iran-war?traffic_source=rss"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/video/white-house-provides-updated-timeline-on-iran-war/"
+        },
+        {
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/former-prisoner-torches-cnn-panel-trumps-not-starting-a-war-hes-finishing-one-iran-started"
+        },
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canadian-jews-urged-to-be-alert-cautious-amid-war-on-iran"
         }
       ],
+      "stakeholder_quotes": [],
       "is_good_development": false
     }
   ],
@@ -888,71 +934,23 @@
   ],
   "good_developments": [
     {
-      "headline": "U.S. Customs Develops New Tariff Refund Process",
-      "context": "U.S. Customs has recognized the need for a more efficient system to refund tariffs paid by importers, which often require legal action to reclaim. The new approach seeks to simplify the process and reduce the burden on businesses impacted by tariffs.",
+      "headline": "Study Finds Weight-Loss Drug Could Be Produced for Low Cost",
+      "context": "A new analysis suggests that the weight-loss medication semaglutide, used in products like Ozempic and Wegovy, could be manufactured for approximately $3 a month. This development may enhance accessibility for millions of individuals suffering from obesity and diabetes, particularly in lower-income countries as patents expire.",
       "facts": [
         {
-          "text": "U.S. Customs plans to implement a streamlined refund process within 45 days.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-        },
-        {
-          "text": "The new system aims to return importers' money without requiring individual lawsuits.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-        },
-        {
-          "text": "This initiative is intended to benefit businesses that have overpaid tariffs.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine and Russia Conduct Major Prisoner Exchange",
-      "context": "This prisoner exchange comes during a time of ongoing conflict and stalled peace negotiations between Ukraine and Russia. It is among the few significant developments in the broader situation as tensions continue in the region.",
-      "facts": [
-        {
-          "text": "Ukraine and Russia exchanged 500 prisoners each in a two-day operation.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "Ukrainian President Volodymyr Zelenskyy visited the front line following the exchange.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "This event is seen as one of the few tangible outcomes amid ongoing peace talks that have stalled.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        },
-        {
-          "text": "The exchange highlights the continuing humanitarian aspects of the conflict.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Affordable Weight-Loss Treatment Potentially Available",
-      "context": "A new analysis suggests that the weight-loss drug semaglutide, used in medications like Ozempic and Wegovy, could become accessible at a cost of $3 per month. This change could significantly impact millions of individuals suffering from diabetes and obesity, particularly in lower-income countries as patents for the drug expire.",
-      "facts": [
-        {
-          "text": "A study indicates that semaglutide could be produced for $3 a month.",
+          "text": "Semaglutide is known for its use in weight-loss medications like Ozempic and Wegovy.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "Over a billion people worldwide suffer from obesity, with rates increasing in lower-income nations.",
+          "text": "The analysis indicates a potential production cost of $3 per month for the drug.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "The availability of affordable semaglutide could support health initiatives in 160 countries.",
+          "text": "Obesity affects more than a billion people globally, with rising rates in lower-income nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "Availability of cheaper versions of the drug could potentially benefit millions in 160 countries.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
@@ -964,19 +962,43 @@
       ]
     },
     {
-      "headline": "Geothermal Energy Project to Supply Homes and Lithium in UK",
-      "context": "The UK is set to harness geothermal energy for the first time to power 10,000 homes. This project will also supply lithium, a critical mineral used in batteries, utilizing water that has been super-heated by underground rocks.",
+      "headline": "Wife Locates Husband Buried in Avalanche Using Tracking Technology",
+      "context": "The use of technology in emergency situations can significantly enhance rescue efforts. This incident highlights the effectiveness of using mobile tracking features in locating individuals during critical times.",
       "facts": [
         {
-          "text": "The geothermal energy project aims to provide renewable energy for 10,000 homes.",
+          "text": "A wife used the 'Find My iPhone' feature to locate her husband buried in an avalanche.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was caught in an avalanche in late February.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "He was buried for over four hours before rescuers located him using the tracking information.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ]
+    },
+    {
+      "headline": "Geothermal Energy Project to Supply Homes in the UK",
+      "context": "The UK is making strides in renewable energy with a new geothermal heat project. This initiative is aimed at harnessing Earth's heat to provide sustainable energy to homes, marking a significant development in the country's transition to greener energy sources.",
+      "facts": [
+        {
+          "text": "The geothermal project aims to power 10,000 homes.",
           "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "It will be the UK's first domestic supply of lithium, a critical mineral.",
+          "text": "It will supply super-heated water sourced from rocks.",
           "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The water used in the project is heated by geothermal processes underground.",
+          "text": "The project will also provide the first domestic supply of lithium in the UK.",
           "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -988,202 +1010,78 @@
       ]
     },
     {
-      "headline": "NASA Expands Artemis Program with Additional Moon Mission",
-      "context": "NASA has announced a modification to its Artemis program, adding an extra mission before sending astronauts to the Moon. This decision reflects the agency's commitment to thorough preparation for future lunar exploration.",
+      "headline": "British Schoolboy Raises Funds for Charity Through Recycling",
+      "context": "Ryan Hulance, a 13-year-old from Solihull, England, has dedicated himself to recycling aluminum cans to support food banks. His efforts reflect a growing concern for both environmental sustainability and community aid, demonstrating how individual actions can lead to significant charitable contributions.",
       "facts": [
         {
-          "text": "NASA will include an additional mission to its Artemis program.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+          "text": "Ryan Hulance has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "This mission will occur before astronauts are sent to the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+          "text": "He has raised thousands of dollars for charity through this initiative.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "The Artemis program aims to establish a sustainable human presence on the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+          "text": "The funds raised have been donated to local food banks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan started this project from his home in Solihull, West Midlands.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ]
     },
     {
-      "headline": "Research Highlights Health Benefits of Saunas",
-      "context": "The use of saunas has gained popularity as people seek natural ways to enhance their health. Recent scientific studies aim to evaluate the veracity of health claims associated with regular sauna use.",
+      "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
+      "context": "In New Hampshire, a group of snowmobilers encountered a young moose buried in deep snow while returning from their outing. The animal, found stuck up to its neck, needed assistance to survive in the harsh winter conditions.",
       "facts": [
         {
-          "text": "Scientists are investigating the potential health benefits of sauna sessions.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
+          "text": "A group of snowmobilers discovered a young moose doe buried in snow while riding in the New Hampshire woods.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "Research suggests that sauna use may help improve cardiovascular health and reduce stress.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
+          "text": "The snow was reported to be 4 to 5 feet deep in the area.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "Studies have shown connections between sauna use and improved skin health.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
+          "text": "They worked together to dig the moose out, ensuring its safety before leaving.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ],
       "sources": [
         {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5719268/sauna-heat-health-benefits-science"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ]
     },
     {
-      "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
-      "context": "The US government is addressing issues related to tariffs imposed during the Trump administration. A recent court filing revealed that the total amount tied to these tariffs is approximately $166 billion, prompting the Customs and Border Protection agency to initiate a refund process for importers.",
+      "headline": "Dutch Woman Discovers 35 Rembrandt Etchings in Her Home",
+      "context": "This discovery highlights the unexpected nature of art recovery, particularly during times when people are confined to their homes. The woman, while isolated during the COVID-19 pandemic, uncovered these valuable pieces that have historical significance.",
       "facts": [
         {
-          "text": "The US Customs and Border Protection agency will implement a system to process refunds within 45 days.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "A Dutch woman found 35 etchings by Rembrandt in her home.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
         },
         {
-          "text": "This refund process will not require importers to pursue legal action.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The discovery occurred while she was confined at home due to COVID-19 restrictions.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
         },
         {
-          "text": "The total amount held in relation to these illegally collected tariffs is estimated at $166 billion.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The etchings are believed to be of significant artistic value.",
+          "source_url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-        }
-      ]
-    },
-    {
-      "headline": "Recommendations for Social Care Reform Proposed by Louise Casey",
-      "context": "The chair of the independent commission on social care has put forward significant reforms to improve care for patients with dementia and motor neurone disease. These recommendations highlight the urgent need for change in social care, especially as populations age and the demand for specialized care increases.",
-      "facts": [
-        {
-          "text": "Louise Casey, chair of the independent commission on social care, calls for a full-time dementia tsar.",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "A new fast-track passport system is proposed for individuals diagnosed with motor neurone disease (MND).",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "These recommendations aim to enhance support and accessibility for those needing social care services.",
-          "source_url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/cr5l1n29vzeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US and Venezuela to Resume Diplomatic Relations Following Maduro's Capture",
-      "context": "The restoration of diplomatic ties between the US and Venezuela follows the US government's recent capture of President Nicolás Maduro and his wife. This development aims to foster stability in a region marked by political turmoil and economic challenges.",
-      "facts": [
-        {
-          "text": "The US government captured Nicolás Maduro and his wife.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Discussions between the US and Venezuela will focus on promoting stability.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The decision to resume diplomatic relations marks a significant shift in US-Venezuela relations.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "This initiative comes in response to growing recognition of the importance of nutrition in medical education. Currently, most medical schools do not meet the recommended hours for nutrition training, prompting the need for curriculum improvements.",
-      "facts": [
-        {
-          "text": "Health Secretary Robert F. Kennedy Jr. announced that 53 medical schools in 31 states will increase their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "Most medical schools currently offer fewer than the recommended 25 hours of nutrition education.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The decision is part of an effort to improve healthcare providers' knowledge of nutrition.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The expanded curriculum will begin this fall.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ]
-    },
-    {
-      "headline": "Rwanda Implements Digital Tablet to Combat Antibiotic Overprescription",
-      "context": "Antibiotic resistance is a growing global health concern, exacerbated by the overprescribing of antibiotics. Rwanda has recognized a notably high rate of such prescriptions and has initiated a project using digital tablets as a tool to help lower these rates.",
-      "facts": [
-        {
-          "text": "Rwanda is facing high rates of antibiotic prescriptions that contribute to antibiotic resistance.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "A digital tablet has been introduced to assist healthcare providers in better prescribing practices.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "The initiative aims to educate and guide doctors on appropriate antibiotic use.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        },
-        {
-          "text": "Reducing unnecessary prescriptions is expected to mitigate the issue of rising antibiotic resistance.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5732471/antibiotic-overuse-resistance-rwanda-digital-tablet"
-        }
-      ]
-    },
-    {
-      "headline": "Indonesia to Implement Ban on Social Media for Minors",
-      "context": "Indonesia is taking steps to limit access to social media and online platforms for individuals under the age of 16. This decision follows a trend in various countries to protect children from potential online abuse and exploitation.",
-      "facts": [
-        {
-          "text": "The ban applies to all social media and online platforms for users aged under 16.",
-          "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This initiative aims to enhance the safety of young people in digital spaces.",
-          "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Indonesia joins several other countries in implementing similar restrictions.",
-          "source_url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/dutch-woman-finds-35-rembrandt-etchings-hidden-in-her-home-you-can-only-dream-about-it/"
         }
       ]
     }
@@ -1195,9 +1093,9 @@
       "OpenAI",
       "Claude"
     ],
-    "feeds_attempted": 31,
-    "raw_items": 174,
+    "feeds_attempted": 37,
+    "raw_items": 204,
     "consensus_stories": 25,
-    "good_developments_found": 12
+    "good_developments_found": 6
   }
 }
