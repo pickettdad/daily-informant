@@ -802,7 +802,7 @@ def main():
         if i < len(consensus_items) - 1:
             time.sleep(1)
 
-    # Separate good developments
+    # Separate good developments — they go ONLY in the good news section, not in main headlines
     regular_stories = []
     good_developments = []
     for story in stories:
@@ -813,7 +813,8 @@ def main():
                 "facts": story["facts"],
                 "sources": story["sources"],
             })
-        regular_stories.append(story)
+        else:
+            regular_stories.append(story)
 
     print(f"\n   Good developments found: {len(good_developments)}")
 
