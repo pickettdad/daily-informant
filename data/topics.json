@@ -150,7 +150,13 @@
       "slug": "climate-environment",
       "topic": "Climate & Environment",
       "summary": "Global climate policy, extreme weather events, and environmental milestones. Tracking COP commitments, emissions data, and renewable energy developments.",
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "UK to Harness Geothermal Energy for Homes",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
       "primary_sources": [
         {
           "name": "UNFCCC",

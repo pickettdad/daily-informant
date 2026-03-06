@@ -3,24 +3,20 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "Oil Prices Rise Amid Iran Conflict, Stocks Decline After Jobs Report",
-      "context": "The recent surge in oil prices follows ongoing tensions due to the Iran war. Coupled with a disappointing U.S. jobs report, markets have responded negatively, marking a challenging week for investors on Wall Street.",
+      "headline": "Oil Prices Reach Highest Levels Since 2023 Amid Economic Concerns",
+      "context": "The surge in oil prices is attributed to ongoing tensions related to the Iran war. Additionally, a recent update on the U.S. job market indicates weakening conditions, contributing to a decline in stock prices this week, marking Wall Street's worst performance since October.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices reached their highest level since 2023.",
+          "text": "Oil prices have surged to their highest level since 2023 due to increased tensions in the Middle East.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "The rise in oil prices is attributed to escalating conflict involving Iran.",
+          "text": "The U.S. job market update reported weaker-than-expected figures, impacting investor confidence.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "The U.S. job market update showed weaker than expected growth, impacting stocks negatively.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-        },
-        {
-          "text": "This week marked Wall Street's worst performance since October 2025.",
+          "text": "Stocks experienced their worst week since October in reaction to the economic developments.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         }
       ],
@@ -36,19 +32,19 @@
     {
       "slug": "story-2",
       "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Rising Tensions",
-      "context": "The situation escalated after Iran fired missiles toward Israel following recent Israeli military actions. This intensifying conflict raises concerns about stability in the region and international responses to increased hostilities.",
+      "context": "Recent military actions have escalated tensions between Israel and Iran. Following missile launches from Iran toward Israel, Israel responded with airstrikes targeting locations in Tehran and Beirut.",
       "category": "World",
       "facts": [
         {
-          "text": "Iran fired missiles toward Israel on Friday, according to Israeli officials.",
+          "text": "Iran fired missiles toward Israel on March 6, 2026.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "Israel launched strikes on Tehran and targeted Beirut's southern suburbs overnight.",
+          "text": "In response, Israel launched strikes on Tehran and hit southern suburbs of Beirut overnight.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "The conflict has drawn attention from international leaders, including former President Trump.",
+          "text": "These events mark a significant increase in hostilities between the two countries.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
@@ -67,7 +63,7 @@
         },
         {
           "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
       ],
       "stakeholder_quotes": [],
@@ -75,20 +71,48 @@
     },
     {
       "slug": "story-3",
-      "headline": "South Sudan Faces Renewed Threat of Civil War Amid Rising Violence",
-      "context": "South Sudan is experiencing escalating violence between government forces and opposition groups, raising fears of a return to civil conflict. This unrest follows a series of violent incidents that have resulted in significant loss of life, underscoring the fragile state of peace in the country.",
+      "headline": "China Sets Lowest Economic Growth Target in Decades",
+      "context": "China's economy is facing challenges due to lower domestic demand. In response, the government has set a more modest growth target for the year.",
       "category": "World",
       "facts": [
         {
-          "text": "At least 169 people have been killed in a recent raid near the Sudan border.",
+          "text": "China's new growth target is the lowest in decades.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
+        },
+        {
+          "text": "The adjustment reflects sluggish domestic demand affecting the economy.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
+        },
+        {
+          "text": "Officials are responding to economic uncertainties with this revised target.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-4",
+      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
+      "context": "South Sudan faces increasing conflict between government-aligned forces and opposition groups. Recent clashes threaten to destabilize the country further, with fears of a return to full-scale civil war.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "At least 169 people have been killed in a raid near the Sudan border.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Clashes between government-aligned forces and opposition groups have intensified in recent weeks.",
+          "text": "Violent clashes have intensified between government forces and opposition factions.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Observers warn that the current violence could lead South Sudan back to full-blown civil war.",
+          "text": "Observers warn that the continuing violence could lead to a resurgence of civil war.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
@@ -102,65 +126,25 @@
       "is_good_development": false
     },
     {
-      "slug": "story-4",
-      "headline": "US Economy Sees Job Losses in February",
-      "context": "The US economy experienced a decline in employment, losing 92,000 jobs in February. This contraction was unexpected and impacted nearly every sector, indicating potential underlying economic challenges.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "The US economy shed 92,000 jobs in February.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Job losses were observed across nearly all sectors.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The reduction in payrolls came as a surprise to analysts.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
       "slug": "story-5",
-      "headline": "US Job Market Sees Decline with Loss of 92,000 Jobs",
-      "context": "The U.S. labor market has experienced a significant downturn, losing 92,000 jobs in February. This marks a sharp reversal from previous growth, nearly negating the job gains achieved in January.",
+      "headline": "US Economy Loses 92,000 Jobs in February",
+      "context": "February's job loss is a notable event for the US economy, signaling potential challenges ahead. This unexpected drop in employment comes amidst ongoing economic adjustments following the recovery period from the pandemic.",
       "category": "US",
       "facts": [
         {
-          "text": "The U.S. lost 92,000 jobs in February 2026.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+          "text": "The US economy lost 92,000 jobs in February 2026.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This job loss nearly erases the job gains made in January.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+          "text": "Payroll declines were seen across nearly all sectors.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The job market is currently experiencing increased volatility.",
-          "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+          "text": "The job loss was larger than analysts had predicted.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
-        },
         {
           "name": "BBC World",
           "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
@@ -175,52 +159,48 @@
     },
     {
       "slug": "story-6",
-      "headline": "New Analysis Suggests Low-Cost Weight-Loss Jab Production",
-      "context": "A recent study indicates that the cost of producing weight-loss injections, particularly semaglutide found in drugs like Ozempic and Wegovy, could be as low as $3 per month. This development emerges as patents on these medications are set to expire, potentially expanding accessibility for millions suffering from obesity and diabetes, particularly in lower-income countries.",
-      "category": "Health",
+      "headline": "US and Venezuela to Resume Diplomatic Relations",
+      "context": "Recent developments in US-Venezuela relations include the capture of President Nicolás Maduro by US authorities. This situation has prompted both countries to agree on joint efforts aimed at promoting stability in the region.",
+      "category": "World",
       "facts": [
         {
-          "text": "Semaglutide, used in Ozempic and Wegovy, could be produced for $3 a month.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "The US government announced plans to resume diplomatic ties with Venezuela.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The study highlights that over a billion people globally are affected by obesity.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "Nicolás Maduro and his wife were captured by US forces as part of an operation.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Increasing rates of obesity are particularly notable in lower-income nations.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "The expiration of patents could facilitate wider distribution of these medications.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "text": "Both countries aim to collaborate on stability initiatives following this development.",
+          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": true
+      "is_good_development": false
     },
     {
       "slug": "story-7",
-      "headline": "Oil Prices Rise as Qatar Warns of Potential Gulf Production Halt",
-      "context": "Oil prices have reached a two-year high due to concerns over the ongoing conflict involving Iran. Energy Minister Saad al-Kaabi of Qatar indicated that production could halt within days, which would significantly impact global oil supply.",
+      "headline": "Oil Prices Surge as Qatar Issues Production Warning",
+      "context": "The announcement from Qatar comes amid rising tensions in the Middle East, particularly involving Iran. Market observers are closely watching these developments, as disruptions in Gulf oil production could have significant implications for global oil prices.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices have reached $150 a barrel if tensions escalate in the Iran conflict.",
+          "text": "Oil prices have reached a two-year high as of March 2026.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Saad al-Kaabi warned that all Gulf oil production could cease within days.",
+          "text": "Qatar's Energy Minister Saad al-Kaabi warned that all Gulf oil production could stop within days if the Iran conflict escalates.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The situation is closely monitored as it may affect global energy markets.",
+          "text": "There is a prediction that oil prices could hit $150 a barrel if the situation continues.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -241,54 +221,84 @@
     },
     {
       "slug": "story-8",
-      "headline": "US Customs Agency Prepares Refund System for Illegal Tariffs",
-      "context": "The US government is addressing the issue of tariffs that were deemed illegal. The customs agency has reported that approximately $166 billion is involved in these tariffs, leading to the development of a system for processing refunds.",
-      "category": "US",
+      "headline": "Israel Conducts Bombing Campaign in Beirut",
+      "context": "Tensions in the region have escalated as Israel has expanded its military operations in Lebanon. The United Nations reported that around 100,000 people have been displaced from their homes due to the ongoing violence.",
+      "category": "World",
       "facts": [
         {
-          "text": "US Customs and Border Protection is developing a refund system for illegally collected tariffs.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "Israel launched 26 waves of air attacks on Beirut.",
+          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
         },
         {
-          "text": "The total amount estimated for refunds is around $166 billion.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The UN reported that 100,000 people are displaced due to the conflict.",
+          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
         },
         {
-          "text": "The new system aims to process refunds within 45 days without requiring importers to file lawsuits.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "text": "The military expansion signifies a major escalation in Israel's operations in Lebanon.",
+          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Brandon Lord",
-          "quote": "US Customs and Border Protection is preparing a system that will be ready to process refunds on billions of dollars of illegally collected tariffs.",
-          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-        }
-      ],
+      "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
       "slug": "story-9",
-      "headline": "Supreme Court Allows Asylum Seekers Access to Quebec Daycare",
-      "context": "The Supreme Court's ruling addresses a legal challenge that began in 2018 when an asylum seeker was denied subsidized childcare while awaiting a refugee protection decision. This decision highlights the ongoing discussions around accessibility of social services for asylum seekers in Canada.",
+      "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
+      "context": "The Dow Jones Industrial Average fell significantly as tensions in Iran have contributed to surging oil prices. This fluctuation reflects ongoing concerns about market stability and energy costs, affecting investors and economies worldwide.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Dow closed down 450 points on Friday.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "U.S. crude oil prices increased by 12% on the same day.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "Rising oil prices are linked to ongoing conflicts in Iran.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-10",
+      "headline": "Supreme Court Allows Asylum Seekers Access to Subsidized Quebec Daycare",
+      "context": "This ruling arises from a case dating back to 2018, when a woman seeking refugee protection was denied access to subsidized childcare services while awaiting a decision on her application. The Supreme Court's decision reflects a significant legal determination regarding the rights of asylum seekers in accessing public services.",
       "category": "Canada",
       "facts": [
         {
-          "text": "The Supreme Court of Canada ruled that asylum seekers are entitled to access subsidized daycare in Quebec.",
+          "text": "The Supreme Court ruled that asylum seekers in Quebec can access subsidized daycare services.",
           "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
         },
         {
-          "text": "The case originated in 2018 when a woman claimed refugee protection but was denied childcare access.",
+          "text": "The case originated in 2018 when a refugee claimant was denied subsidized childcare.",
           "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
         },
         {
-          "text": "The ruling may have implications for policies regarding social services available to asylum seekers in Canada.",
+          "text": "The decision clarifies the eligibility of asylum seekers for public services during their application process.",
           "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
         }
       ],
@@ -302,145 +312,49 @@
       "is_good_development": false
     },
     {
-      "slug": "story-10",
-      "headline": "British Columbia to Eliminate Daylight Saving Time",
-      "context": "British Columbia has announced the end of seasonal time changes in favor of permanent daylight saving time. This decision was made due to reported improvements in people's physical and mental health, as well as benefits to businesses and transportation schedules.",
-      "category": "Canada",
-      "facts": [
-        {
-          "text": "British Columbia will stop biannual clock changes.",
-          "source_url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
-        },
-        {
-          "text": "The province is adopting permanent daylight saving time.",
-          "source_url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
-        },
-        {
-          "text": "The decision aims to improve health and business scheduling.",
-          "source_url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
-        },
-        {
-          "text": "Supporters cite consistency as a key benefit.",
-          "source_url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/nation/this-weekends-u-s-clock-change-brings-back-debate-over-daylight-saving-time"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
       "slug": "story-11",
-      "headline": "Scientists Develop Compact AI Model Using Monkey Neurons",
-      "context": "Researchers have created a smaller and more efficient AI vision model by integrating monkey neurons into the system. This innovation may lead to advancements in how AI systems handle visual data.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "The new AI model is reduced to 1/1000th of its original size.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        },
-        {
-          "text": "The study involved using monkey neurons to enhance model efficiency.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        },
-        {
-          "text": "This development could lead to AI systems that consume less power and space.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Science",
-          "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-12",
-      "headline": "NASA Modifies Artemis Program with Additional Moon Mission",
-      "context": "NASA's Artemis program, which aims to return humans to the Moon, is undergoing changes to include an additional mission. This adjustment comes as part of ensuring thorough preparations before the actual Moon landing takes place.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "NASA has announced the addition of an extra mission to the Artemis program.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The modification is intended to enhance preparations for landing astronauts on the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The Artemis program focuses on sustainable lunar exploration and eventually sending humans to Mars.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-13",
-      "headline": "UK to Utilize Earth's Heat for Domestic Power and Lithium Supply",
-      "context": "The UK has announced a project to use geothermal energy from super-heated water beneath the earth's surface. This initiative aims to provide renewable energy and a domestic supply of lithium, a crucial mineral for batteries and technology.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "The project will power 10,000 homes using geothermal energy.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "It marks the UK's first domestic supply of lithium from geothermal sources.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Water will be super-heated by rocky geology to generate energy.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-14",
-      "headline": "Search and Rescue Locate Skier Buried in Avalanche Using Technology",
-      "context": "A skier was buried under an avalanche while skiing at Stevens Pass Ski Resort. His wife utilized the 'Find My iPhone' feature to assist search and rescue teams in locating him after he was trapped for over four hours.",
+      "headline": "US Stock Market Experiences Decline",
+      "context": "The decline in U.S. stock market is attributed to new data revealing job losses and rising oil prices. In February, U.S. employers reportedly reduced their workforce by 92,000 jobs, causing concerns among investors.",
       "category": "US",
       "facts": [
         {
-          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when an avalanche occurred.",
+          "text": "U.S. employers shed 92,000 jobs in February.",
+          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
+        },
+        {
+          "text": "Rising oil prices are contributing to market anxiety.",
+          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
+        },
+        {
+          "text": "The stock market experienced a significant decline following the jobs report.",
+          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-12",
+      "headline": "Rescue Operations Successful After Wife Uses Technology to Locate Husband Buried in Avalanche",
+      "context": "This incident highlights the importance of technology in emergency situations. The use of tracking features can significantly enhance rescue efforts in difficult conditions.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was buried in an avalanche.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "He was buried under snow for more than four hours before being located.",
+          "text": "His wife utilized the 'Find My iPhone' feature to assist search and rescue teams.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "His wife used the 'Find My iPhone' feature to help rescuers pinpoint his location.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        },
-        {
-          "text": "Search and rescue teams were able to successfully free him from the avalanche debris.",
+          "text": "Harris was trapped for over four hours before being located and rescued.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         }
       ],
@@ -453,62 +367,66 @@
       "stakeholder_quotes": [
         {
           "speaker": "Michael Harris",
-          "quote": "I am just so grateful to my wife and the search team for their quick action.",
+          "quote": "I am just so grateful for my wife's quick thinking and for the rescuers who got me out.",
           "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         }
       ],
       "is_good_development": true
     },
     {
-      "slug": "story-15",
-      "headline": "U.S. Customs Develops Tariff Refund System",
-      "context": "U.S. Customs is implementing a new system to facilitate refunds of tariffs to importers. This initiative responds to concerns about the complexity and length of the current refund process, which often results in the need for individual lawsuits.",
-      "category": "Business",
+      "slug": "story-13",
+      "headline": "Young Boy Raises Funds for Charity Through Recycling",
+      "context": "A 13-year-old boy in England has combined environmental care with community support by recycling aluminum cans. His initiative has garnered thousands of dollars for food banks, showcasing how youth can contribute to social causes while promoting sustainability.",
+      "category": "Canada",
       "facts": [
         {
-          "text": "U.S. Customs aims to create a streamlined process for tariff refunds within 45 days.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "Ryan Hulance has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "The new system will allow importers to receive their money back without filing lawsuits.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "He has raised thousands of dollars that he donated to local food banks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "This effort is intended to simplify the process for trade compliance and financial recovery.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "text": "Ryan started his recycling project from his home in Solihull, West Midlands.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He contacted local businesses to support his fundraising efforts.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "U.S. Customs",
-          "quote": "We aim for a streamlined process to return importers' money.",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+          "speaker": "Ryan Hulance",
+          "quote": "I wanted to help those in need and also protect the environment.",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
-      "is_good_development": false
+      "is_good_development": true
     },
     {
-      "slug": "story-16",
-      "headline": "Energy Infrastructure Affected in U.S.-Israeli War with Iran",
-      "context": "Historically, conflicts in the Middle East have avoided targeting energy infrastructure, protecting vital resources. However, the current war involving the U.S. and Israel against Iran has marked a significant shift, leading to damage to these facilities.",
+      "slug": "story-14",
+      "headline": "Energy Infrastructure Impacted by U.S.-Israeli War with Iran",
+      "context": "Historically, conflicts in the Middle East have minimized damage to energy facilities. However, the current war involving the U.S., Israel, and Iran has changed this pattern, resulting in significant impacts on energy infrastructure.",
       "category": "World",
       "facts": [
         {
-          "text": "The war has resulted in damage to energy infrastructure in Iran.",
+          "text": "Recent war has led to increased damage to energy infrastructure in the region.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "This conflict is different from prior conflicts that largely spared energy facilities.",
+          "text": "Past conflicts largely avoided targeting energy facilities, resulting in limited damage.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         },
         {
-          "text": "Energy resources in the region are now at greater risk due to ongoing military actions.",
+          "text": "The ongoing U.S.-Israeli war with Iran contrasts with previous trends in conflict impact on energy sites.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
         }
       ],
@@ -522,81 +440,85 @@
       "is_good_development": false
     },
     {
-      "slug": "story-17",
-      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
-      "context": "The U.S. recently sunk an Iranian warship, escalating tensions in the region. This action led to Sri Lanka's decision to take custody of an Iranian vessel, prompting a response amid ongoing geopolitical conflicts.",
+      "slug": "story-15",
+      "headline": "Kurds Potentially Involved in Iran Conflict",
+      "context": "The Kurds, an ethnic group primarily located in the Middle East, have historically engaged in various conflicts and have sought autonomy in their regions. Their potential involvement in the ongoing war with Iran could significantly impact the dynamics of the conflict, particularly affecting Iranian defenses and Iraq's role.",
       "category": "World",
       "facts": [
         {
-          "text": "A U.S. submarine sank an Iranian warship on a Wednesday.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "The Kurds have a complex history of seeking autonomy and engaging in regional conflicts.",
+          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         },
         {
-          "text": "Australia confirmed that three Australian personnel were on the submarine involved in the incident.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Their involvement could apply pressure to Iranian military forces.",
+          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         },
         {
-          "text": "Sri Lanka has taken custody of an Iranian vessel following the U.S. military action.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "The situation may lead to deeper Iraqi involvement in the war with Iran.",
+          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         },
         {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/6/us-and-israel-attacking-iran-at-record-pace-war-monitor-says?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/war-iran-americans-jailed-evin-prison/"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/blogs/in-the-know/5772012-ben-stiller-criticizes-white-house/"
+        },
+        {
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4483261/karoline-leavitt-denies-divisions-maga-iran-war/"
+        },
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canadian-jews-urged-to-be-alert-cautious-amid-war-on-iran"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-18",
-      "headline": "Former FARC Leaders Shift Focus to Political Campaigns in Colombia",
-      "context": "A decade after the peace agreement in Colombia, former members of the Revolutionary Armed Forces of Colombia (FARC) are engaging in electoral politics. This change highlights the ongoing challenges of integrating former combatants into civil society and pursuing political legitimacy.",
+      "slug": "story-16",
+      "headline": "Nigerian Village Attacked by Suspected Militants",
+      "context": "This attack in Nigeria highlights ongoing security challenges posed by Islamist militant groups in the region. Reports indicate that the militants seized control of a village, leading to significant violence before military intervention.",
       "category": "World",
       "facts": [
         {
-          "text": "Former FARC commander is running for election in Colombia.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
-        },
-        {
-          "text": "The peace deal was signed in 2016, ending decades of armed conflict.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
-        },
-        {
-          "text": "Transitioning from armed conflict to political engagement has proven challenging for ex-FARC members.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-19",
-      "headline": "Militants Attack Village in Nigeria",
-      "context": "Recent violence in Nigeria has led to significant casualties, highlighting ongoing security challenges in the region. This attack follows a pattern of militant groups attempting to assert control over rural areas.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Suspected Islamist militants seized a village for two days.",
+          "text": "Suspected Islamist militants took control of a village for two days.",
           "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Nigerian troops and air strikes were deployed to reclaim the village.",
+          "text": "Nigerian troops and air strikes were deployed to regain control.",
           "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "A senator reported that 'massive' numbers were killed in the attack.",
+          "text": "There are reports of a high number of casualties resulting from the attack.",
           "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -610,130 +532,32 @@
       "is_good_development": false
     },
     {
-      "slug": "story-20",
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "The announcement comes as part of an effort to address the inadequacy in nutrition education among medical professionals. Research indicates that many medical schools do not meet the recommended hours of nutrition training, which is crucial for improving patient care.",
-      "category": "Health",
+      "slug": "story-17",
+      "headline": "China Affected by Middle East Conflict",
+      "context": "China is closely monitoring the tension arising from the Iran war. These developments could impact its regional ambitions and economic interests given its intertwined relationships in the Middle East.",
+      "category": "World",
       "facts": [
         {
-          "text": "53 medical schools in 31 states will expand their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+          "text": "China has significant economic ties in the Middle East.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Most medical schools currently offer less than the recommended 25 hours of nutrition education.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+          "text": "The ongoing conflict could affect China's energy security and trade routes.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The initiative aims to better prepare future doctors to address nutrition-related health issues.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Robert F. Kennedy Jr.",
-          "quote": "This expansion ensures that our future physicians will have the knowledge needed to guide their patients toward healthier lifestyles.",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-21",
-      "headline": "US and Venezuela Plan to Resume Diplomatic Relations",
-      "context": "The US and Venezuela are working towards re-establishing diplomatic relations following the capture of Venezuelan President Nicolas Maduro by US authorities. This move comes amid ongoing tensions and aims to promote stability in the region.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "The US government has seized Nicolas Maduro and his wife.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Both countries plan to make joint efforts to promote stability.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This is the first significant diplomatic engagement since the deterioration of relations between the two countries.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "Chinese officials are assessing the situation for potential impacts on regional stability.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
           "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "US Government",
-          "quote": "We are committed to restoring diplomatic ties with Venezuela.",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-22",
-      "headline": "First Remote Surgery Conducted 1,500 Miles Away in the UK",
-      "context": "This procedure marks a significant advancement in telemedicine and surgical practices. It demonstrates the potential for remote surgeries to enhance patient care and accessibility, particularly in areas with limited medical resources.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "A surgeon in the UK successfully performed surgery on a patient 1,500 miles away.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The procedure is the first of its kind in the UK.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Patient Paul Buxton reported feeling 'fantastic' after the surgery.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Paul Buxton",
-          "quote": "I feel fantastic.",
-          "url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": true
-    },
-    {
-      "slug": "story-23",
-      "headline": "China to Dispatch Special Envoy to Middle East",
-      "context": "This development follows increasing tensions in the Middle East, particularly between Iran and its neighboring countries. China's involvement may signify its intent to play a more active role in regional diplomacy.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "China's Foreign Ministry confirmed the appointment of special envoy Zhai Jun to mediate in the Middle East.",
-          "source_url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
-        },
-        {
-          "text": "The envoy's tour will focus on relations between Iran and countries affected by recent conflicts.",
-          "source_url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
-        },
-        {
-          "text": "This move comes as tensions have risen due to Iranian military actions in the region.",
-          "source_url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Breitbart",
-          "url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
         },
         {
           "name": "France 24",
@@ -744,32 +568,208 @@
       "is_good_development": false
     },
     {
-      "slug": "story-24",
-      "headline": "Explosion at Iranian School Kills Over 165",
-      "context": "An explosion at a school in Iran on February 28 has resulted in the deaths of more than 165 individuals, mostly children. Reports indicate that the attack is likely linked to a U.S. military strike, which may have been facilitated by intelligence provided by Russia.",
+      "slug": "story-18",
+      "headline": "Clashes in Sudan's Kordofan Region Result in 51 Fatalities",
+      "context": "Recent violence in the Kordofan region of Sudan highlights ongoing conflicts between the national army and paramilitary groups. These clashes contribute to the worsening humanitarian situation in the country, where violence has escalated in recent months.",
       "category": "World",
       "facts": [
         {
-          "text": "On February 28, a bomb exploded at a school in Iran, resulting in the death of over 165 individuals, including dozens of children.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "51 people were killed in clashes between the army and the paramilitary Rapid Support Forces in Kordofan region.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "Sources reveal that Russia provided intelligence that enabled Iran to target U.S. locations.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "The clashes occurred within a 24-hour period.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "Top NATO military leaders convened to discuss the situation and potential responses.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
-        },
-        {
-          "text": "The incident raises concerns about escalating tensions in the region and implications for U.S.-Iran relations.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "The violence reflects ongoing tensions and instability in Sudan.",
+          "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         }
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-19",
+      "headline": "US Accuses Russia of Sharing US Troop Locations with Iran",
+      "context": "The relationship between the US, Russia, and Iran has been strained, especially regarding military presence in the Middle East. Recent reports suggest that Russia may be assisting Iran by sharing sensitive information about American troop locations.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "US believes Russia has provided Iran with the locations of American troops.",
+          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+        },
+        {
+          "text": "The information includes details about US aircraft and ships in the region.",
+          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+        },
+        {
+          "text": "This development heightens tensions between the United States and both Russia and Iran.",
+          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-20",
+      "headline": "Axel Springer to Acquire Telegraph Media Group for £575 Million",
+      "context": "The acquisition comes after a previous attempt by the Daily Mail and General Trust to purchase the Telegraph Media Group for £500 million last year. This move is significant for the European media landscape, indicating ongoing consolidation in the industry.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Axel Springer has agreed to buy Telegraph Media Group for £575 million.",
+          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The deal follows a previous acquisition attempt by Daily Mail and General Trust last year.",
+          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The purchase reflects a trend of consolidation in the media sector.",
+          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-21",
+      "headline": "Trump Predicts Change in Cuba's Regime",
+      "context": "This statement follows President Trump's earlier remarks suggesting Cuba is eager to negotiate with the U.S. The comments come amidst significant political and economic challenges facing the country, as well as rising tensions related to U.S. military actions in the region.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "President Trump stated that Cuba is 'going to fall pretty soon' in a CNN interview.",
+          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
+        },
+        {
+          "text": "Earlier, he mentioned that Cuba 'wants to make a deal so badly.'",
+          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
+        },
+        {
+          "text": "The comments come after the U.S. lost 92,000 jobs in February.",
+          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
+        },
+        {
+          "text": "Military investigators are looking into a strike by U.S. forces on an Iranian girls' school.",
+          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Live/video/abcnews-live-41463246"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-22",
+      "headline": "Waitrose to Halt Mackerel Sales Amid Overfishing Concerns",
+      "context": "Waitrose has made the decision to suspend mackerel sales due to concerns about overfishing. This move aligns with increasing pressures on fish stocks, raising awareness about sustainable sourcing practices.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "Waitrose will stop sourcing fresh, chilled, and frozen mackerel by April 29.",
+          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The supermarket chain cites overfishing as the reason for this decision.",
+          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "This action reflects broader concerns about fish stock sustainability.",
+          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-23",
+      "headline": "Markwayne Mullin Nominated as DHS Head",
+      "context": "Senator Markwayne Mullin has been nominated to lead the Department of Homeland Security, taking over from Kristi Noem. This nomination marks a significant career advancement for Mullin, who has transitioned from the House to a prominent role in the Trump administration in a short timeframe.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "Markwayne Mullin is a Republican Senator from Oklahoma.",
+          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
+        },
+        {
+          "text": "He is set to replace Kristi Noem as head of the Department of Homeland Security.",
+          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
+        },
+        {
+          "text": "Mullin's nomination highlights a swift political rise within the current administration.",
+          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-24",
+      "headline": "UK to Harness Geothermal Energy for Homes",
+      "context": "The United Kingdom is taking a significant step in renewable energy by using geothermal heat to power homes. This initiative highlights the potential of geothermal resources not only for energy but also for supplying critical minerals like lithium.",
+      "category": "Science",
+      "facts": [
+        {
+          "text": "Water heated by geological formations will be used to power 10,000 homes.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "This will be the UK's first domestic supply of lithium from geothermal sources.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The initiative represents a pioneering effort in combining energy production and mineral extraction.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "This project underscores the UK’s commitment to advancing sustainable energy solutions.",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
@@ -777,40 +777,30 @@
     },
     {
       "slug": "story-25",
-      "headline": "Increased Military Engagements in Middle East",
-      "context": "Tensions in the Middle East have escalated following recent military actions involving Iran and Israel. The situation is further complicated by the U.S. Senate's decision to support President Trump's war powers amidst these conflicts.",
-      "category": "World",
+      "headline": "Trump Administration Proposes New Rule for Foster Homes",
+      "context": "The Trump administration is changing regulations that previously required foster homes to affirm a child's gender transition or sexual orientation in order to receive federal funding. This decision reverses a policy established under the Biden administration, reflecting ongoing debates about the rights of LGBTQ+ youth in care systems.",
+      "category": "US",
       "facts": [
         {
-          "text": "Iran has launched new strikes targeting Jerusalem and Tel Aviv, as well as U.S. bases in the region.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "Foster homes will no longer be required to affirm a child's gender identity or sexual orientation to retain federal funding.",
+          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
         },
         {
-          "text": "Israel has responded with increased fire towards Lebanon.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "The proposed rule was announced by officials in the Department of Health and Human Services.",
+          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
         },
         {
-          "text": "The U.S. military was involved in sinking an Iranian warship near Sri Lanka.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "This change marks a shift back to previous guidelines before the Biden administration's policy was implemented.",
+          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
         }
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+          "name": "Washington Examiner",
+          "url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Senate Majority Leader",
-          "quote": "The Senate's backing of war powers is crucial at this juncture.",
-          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-        }
-      ],
+      "stakeholder_quotes": [],
       "is_good_development": false
     }
   ],
@@ -891,104 +881,30 @@
       "slug": "climate-environment",
       "topic": "Climate & Environment",
       "summary": "Global climate policy, extreme weather events, and environmental milestones. Tracking COP commitments, emissions data, and renewable energy developments.",
-      "timeline": []
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "UK to Harness Geothermal Energy for Homes",
+          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "good_developments": [
     {
-      "headline": "New Analysis Suggests Low-Cost Weight-Loss Jab Production",
-      "context": "A recent study indicates that the cost of producing weight-loss injections, particularly semaglutide found in drugs like Ozempic and Wegovy, could be as low as $3 per month. This development emerges as patents on these medications are set to expire, potentially expanding accessibility for millions suffering from obesity and diabetes, particularly in lower-income countries.",
+      "headline": "Rescue Operations Successful After Wife Uses Technology to Locate Husband Buried in Avalanche",
+      "context": "This incident highlights the importance of technology in emergency situations. The use of tracking features can significantly enhance rescue efforts in difficult conditions.",
       "facts": [
         {
-          "text": "Semaglutide, used in Ozempic and Wegovy, could be produced for $3 a month.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "The study highlights that over a billion people globally are affected by obesity.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "Increasing rates of obesity are particularly notable in lower-income nations.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "The expiration of patents could facilitate wider distribution of these medications.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        }
-      ]
-    },
-    {
-      "headline": "Scientists Develop Compact AI Model Using Monkey Neurons",
-      "context": "Researchers have created a smaller and more efficient AI vision model by integrating monkey neurons into the system. This innovation may lead to advancements in how AI systems handle visual data.",
-      "facts": [
-        {
-          "text": "The new AI model is reduced to 1/1000th of its original size.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        },
-        {
-          "text": "The study involved using monkey neurons to enhance model efficiency.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        },
-        {
-          "text": "This development could lead to AI systems that consume less power and space.",
-          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Science",
-          "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-        }
-      ]
-    },
-    {
-      "headline": "UK to Utilize Earth's Heat for Domestic Power and Lithium Supply",
-      "context": "The UK has announced a project to use geothermal energy from super-heated water beneath the earth's surface. This initiative aims to provide renewable energy and a domestic supply of lithium, a crucial mineral for batteries and technology.",
-      "facts": [
-        {
-          "text": "The project will power 10,000 homes using geothermal energy.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "It marks the UK's first domestic supply of lithium from geothermal sources.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Water will be super-heated by rocky geology to generate energy.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Search and Rescue Locate Skier Buried in Avalanche Using Technology",
-      "context": "A skier was buried under an avalanche while skiing at Stevens Pass Ski Resort. His wife utilized the 'Find My iPhone' feature to assist search and rescue teams in locating him after he was trapped for over four hours.",
-      "facts": [
-        {
-          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when an avalanche occurred.",
+          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was buried in an avalanche.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "He was buried under snow for more than four hours before being located.",
+          "text": "His wife utilized the 'Find My iPhone' feature to assist search and rescue teams.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "His wife used the 'Find My iPhone' feature to help rescuers pinpoint his location.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        },
-        {
-          "text": "Search and rescue teams were able to successfully free him from the avalanche debris.",
+          "text": "Harris was trapped for over four hours before being located and rescued.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         }
       ],
@@ -1000,64 +916,44 @@
       ]
     },
     {
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "The announcement comes as part of an effort to address the inadequacy in nutrition education among medical professionals. Research indicates that many medical schools do not meet the recommended hours of nutrition training, which is crucial for improving patient care.",
+      "headline": "Young Boy Raises Funds for Charity Through Recycling",
+      "context": "A 13-year-old boy in England has combined environmental care with community support by recycling aluminum cans. His initiative has garnered thousands of dollars for food banks, showcasing how youth can contribute to social causes while promoting sustainability.",
       "facts": [
         {
-          "text": "53 medical schools in 31 states will expand their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+          "text": "Ryan Hulance has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "Most medical schools currently offer less than the recommended 25 hours of nutrition education.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+          "text": "He has raised thousands of dollars that he donated to local food banks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "The initiative aims to better prepare future doctors to address nutrition-related health issues.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+          "text": "Ryan started his recycling project from his home in Solihull, West Midlands.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He contacted local businesses to support his fundraising efforts.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
       "sources": [
         {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ]
-    },
-    {
-      "headline": "First Remote Surgery Conducted 1,500 Miles Away in the UK",
-      "context": "This procedure marks a significant advancement in telemedicine and surgical practices. It demonstrates the potential for remote surgeries to enhance patient care and accessibility, particularly in areas with limited medical resources.",
-      "facts": [
-        {
-          "text": "A surgeon in the UK successfully performed surgery on a patient 1,500 miles away.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The procedure is the first of its kind in the UK.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Patient Paul Buxton reported feeling 'fantastic' after the surgery.",
-          "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ]
     }
   ],
   "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen.",
   "_meta": {
-    "pipeline_version": "5.0",
+    "pipeline_version": "5.1",
     "models_used": [
       "OpenAI",
       "Claude"
     ],
-    "feeds_attempted": 37,
-    "raw_items": 198,
+    "feeds_attempted": 36,
+    "raw_items": 204,
     "consensus_stories": 25,
-    "good_developments_found": 6
+    "good_developments_found": 2
   }
 }
