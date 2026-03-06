@@ -12,8 +12,14 @@
         }
       ],
       "primary_sources": [
-        { "name": "UN News", "url": "https://news.un.org/" },
-        { "name": "OSCE", "url": "https://www.osce.org/" }
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        },
+        {
+          "name": "OSCE",
+          "url": "https://www.osce.org/"
+        }
       ]
     },
     {
@@ -28,9 +34,18 @@
         }
       ],
       "primary_sources": [
-        { "name": "Bank of Canada", "url": "https://www.bankofcanada.ca/" },
-        { "name": "U.S. Federal Reserve", "url": "https://www.federalreserve.gov/" },
-        { "name": "Statistics Canada", "url": "https://www.statcan.gc.ca/" }
+        {
+          "name": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/"
+        },
+        {
+          "name": "U.S. Federal Reserve",
+          "url": "https://www.federalreserve.gov/"
+        },
+        {
+          "name": "Statistics Canada",
+          "url": "https://www.statcan.gc.ca/"
+        }
       ]
     },
     {
@@ -45,8 +60,14 @@
         }
       ],
       "primary_sources": [
-        { "name": "European Commission", "url": "https://ec.europa.eu/" },
-        { "name": "White House", "url": "https://www.whitehouse.gov/" }
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/"
+        },
+        {
+          "name": "White House",
+          "url": "https://www.whitehouse.gov/"
+        }
       ]
     }
   ]
