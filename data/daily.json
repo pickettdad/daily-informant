@@ -3,65 +3,94 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "China Responds to Tensions in the Middle East",
-      "category": "World",
+      "headline": "U.S. Job Market Weakens in February",
+      "category": "Business",
       "facts": [
         {
-          "text": "China is monitoring the ongoing conflict in the Middle East.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "Employers cut 92,000 jobs in February 2026.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
         },
         {
-          "text": "The situation is influencing China's foreign policy considerations.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "The unemployment rate increased to 4.4% from 4.3% in January.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
         },
         {
-          "text": "Chinese officials have expressed a need to assess potential economic impacts.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "This marks a decline in job growth, raising concerns about economic health.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
         }
       ]
     },
     {
       "slug": "story-2",
-      "headline": "US and Venezuela to Resume Diplomatic Relations",
-      "category": "World",
+      "headline": "US Economy Loses 92,000 Jobs in February",
+      "category": "Business",
       "facts": [
         {
-          "text": "The US has announced plans to resume diplomatic ties with Venezuela.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "The US economy recorded a loss of 92,000 jobs in February 2026.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This decision follows the capture of Venezuelan President Nicolás Maduro and his wife by US authorities.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "Payrolls decreased in nearly every sector during this period.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Both sides aim to work together to promote stability in the region.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "This jobs report contrasts with previous expectations of employment growth.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
           "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "slug": "story-3",
-      "headline": "Oil Prices Increase Amid Qatar's Production Warning",
+      "headline": "Iran Fires Missiles Toward Israel After Strikes",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Iran fired missiles toward Israel on March 6, 2026.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        },
+        {
+          "text": "Israeli officials reported the missile launch following Israeli strikes on Tehran.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        },
+        {
+          "text": "Israel conducted strikes on Beirut's southern suburbs overnight prior to the missile launch.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        }
+      ]
+    },
+    {
+      "slug": "story-4",
+      "headline": "Oil Price Increases Due to Qatar's Warning on Production",
       "category": "Business",
       "facts": [
         {
-          "text": "Qatar's Energy Minister Saad al-Kaabi stated that oil production in the Gulf region could cease within days.",
+          "text": "Oil prices reached a two-year high following warnings from Qatar's Energy Minister Saad al-Kaabi.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Al-Kaabi indicated that oil prices might reach $150 per barrel if the conflict involving Iran persists over the upcoming weeks.",
+          "text": "Al-Kaabi stated that Gulf production could halt in the coming days.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "He also mentioned that oil prices could rise to $150 a barrel amid ongoing conflict involving Iran.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -73,119 +102,160 @@
       ]
     },
     {
-      "slug": "story-4",
-      "headline": "Airspace Changes Due to Conflict in Iran and Azerbaijan",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Airspace over Iran and surrounding areas is becoming more restricted due to ongoing conflict.",
-          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "A recent drone attack in Azerbaijan has impacted airline flight paths in the Gulf region.",
-          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Airlines are adjusting routes in response to increased airspace restrictions.",
-          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "slug": "story-5",
-      "headline": "Decrease in Sheep Population in the UK",
-      "category": "Science",
+      "headline": "Clashes in South Sudan Result in Casualties",
+      "category": "World",
       "facts": [
         {
-          "text": "The sheep population in the UK has shown a declining trend over recent years.",
-          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+          "text": "At least 169 people were killed in a raid near the Sudan border.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Farmers have reported lower demand for sheep meat in the market.",
-          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+          "text": "The conflict involves government-aligned forces and opposition groups.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Breeding and farming practices are currently being evaluated by stakeholders.",
-          "source_url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+          "text": "Violent confrontations are escalating in South Sudan.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cgrzd72wp5zo?at_medium=RSS&at_campaign=rss"
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ]
     },
     {
       "slug": "story-6",
-      "headline": "Norfolk Wildlife Trust Offers Free Access to Its Sites for Centenary",
-      "category": "Science",
+      "headline": "Low-Cost Semaglutide Production Possible",
+      "category": "Health",
       "facts": [
         {
-          "text": "Norfolk Wildlife Trust is celebrating its 100th birthday in 2026.",
-          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+          "text": "A study suggests semaglutide, used in Ozempic and Wegovy, could be produced for $3 a month.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "As part of the celebration, the trust is opening its sites for free access to the public.",
-          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+          "text": "This price point may increase accessibility in 160 countries as patents expire.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "The initiative is aimed at encouraging people to engage with nature.",
-          "source_url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+          "text": "Over a billion people globally are impacted by obesity, with rising rates in lower-income nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
       "sources": [
         {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c4g22d9n5llo?at_medium=RSS&at_campaign=rss"
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ]
     },
     {
       "slug": "story-7",
-      "headline": "Chris Whitty Discusses Approach to Obesity Management",
-      "category": "Health",
+      "headline": "Senate Votes on War Powers, American Sub Sinks Iranian Warship",
+      "category": "World",
       "facts": [
         {
-          "text": "England's Chief Medical Officer, Chris Whitty, stated that reliance on drugs to manage obesity indicates a societal failure.",
-          "source_url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+          "text": "The U.S. Senate voted to support President Trump's war powers.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         },
         {
-          "text": "Whitty emphasized the need for increased prevention efforts rather than solely treating obesity with medication.",
-          "source_url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+          "text": "An American submarine sank an Iranian warship near Sri Lanka.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+        },
+        {
+          "text": "Iran launched strikes at locations including Jerusalem and Tel Aviv.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+        },
+        {
+          "text": "Israel conducted military actions against targets in Lebanon.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         }
       ],
       "sources": [
         {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/clyzx4eypv8o?at_medium=RSS&at_campaign=rss"
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         }
       ]
     },
     {
       "slug": "story-8",
-      "headline": "Covid Inquiry Concludes Public Hearings",
-      "category": "Health",
+      "headline": "Iranian Intelligence Signals Possible Talks with U.S.",
+      "category": "World",
       "facts": [
         {
-          "text": "The Covid inquiry has completed three years of public hearings.",
-          "source_url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
+          "text": "Iranian intelligence has communicated to the United States about the possibility of opening talks to discuss ending the war.",
+          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
         },
         {
-          "text": "Bereaved families were allowed to share their experiences at the conclusion of the hearings.",
-          "source_url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
+          "text": "U.S. officials state that no negotiations are currently underway.",
+          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
+        },
+        {
+          "text": "They also indicate that potential resolutions are unlikely in the near term.",
+          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
         }
       ],
       "sources": [
         {
-          "name": "BBC Health",
-          "url": "https://www.bbc.com/news/articles/c93wxxe9410o?at_medium=RSS&at_campaign=rss"
+          "name": "RealClearPolitics",
+          "url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
+        }
+      ]
+    },
+    {
+      "slug": "story-9",
+      "headline": "Canada and Allies Discuss Military Support for Gulf States",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Canada is relocating troops that are deployed in the Middle East.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
+        },
+        {
+          "text": "The U.S. House of Representatives voted to back President Trump's war powers.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
+        },
+        {
+          "text": "Refugees are fleeing to central Beirut due to Israeli strikes.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
+        }
+      ]
+    },
+    {
+      "slug": "story-10",
+      "headline": "US Customs Prepares Refund System for Illegal Tariffs",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "The US Customs and Border Protection agency plans to set up a refund system for illegally collected tariffs.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        },
+        {
+          "text": "An estimated $166 billion is held in relation to these tariffs.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        },
+        {
+          "text": "The new system will allow refunds to be processed in 45 days without requiring importers to sue.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        },
+        {
+          "text": "Brandon Lord, a top official at CBP, provided this information in a recent court filing.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         }
       ]
     }
@@ -227,5 +297,16 @@
       ]
     }
   ],
-  "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen."
+  "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen.",
+  "_meta": {
+    "models_used": [
+      "OpenAI",
+      "Claude"
+    ],
+    "feeds_attempted": 30,
+    "raw_items": 105,
+    "after_dedup": 101,
+    "after_filter": 99,
+    "consensus_stories": 10
+  }
 }
