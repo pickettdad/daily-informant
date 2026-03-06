@@ -908,5 +908,180 @@
     "category": "World",
     "slug": "story-25",
     "source_url": "https://www.theguardian.com/global-development/2026/mar/06/peruvian-state-responsible-for-mothers-death-in-forced-sterilisation-court-rules"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Oil Prices Rise Amid Iran Conflict, Stocks Decline After Jobs Report",
+    "category": "Business",
+    "slug": "story-1",
+    "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Rising Tensions",
+    "category": "World",
+    "slug": "story-2",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "South Sudan Faces Renewed Threat of Civil War Amid Rising Violence",
+    "category": "World",
+    "slug": "story-3",
+    "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US Economy Sees Job Losses in February",
+    "category": "US",
+    "slug": "story-4",
+    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US Job Market Sees Decline with Loss of 92,000 Jobs",
+    "category": "US",
+    "slug": "story-5",
+    "source_url": "https://abcnews.com/Business/jobs-report-expected-show-hiring-slowdown/story?id=130786752"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "New Analysis Suggests Low-Cost Weight-Loss Jab Production",
+    "category": "Health",
+    "slug": "story-6",
+    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Oil Prices Rise as Qatar Warns of Potential Gulf Production Halt",
+    "category": "Business",
+    "slug": "story-7",
+    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US Customs Agency Prepares Refund System for Illegal Tariffs",
+    "category": "US",
+    "slug": "story-8",
+    "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Supreme Court Allows Asylum Seekers Access to Quebec Daycare",
+    "category": "Canada",
+    "slug": "story-9",
+    "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "British Columbia to Eliminate Daylight Saving Time",
+    "category": "Canada",
+    "slug": "story-10",
+    "source_url": "https://www.washingtonexaminer.com/news/world/4483341/how-british-columbia-rid-daylight-saving-time/"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Scientists Develop Compact AI Model Using Monkey Neurons",
+    "category": "Science",
+    "slug": "story-11",
+    "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "NASA Modifies Artemis Program with Additional Moon Mission",
+    "category": "Science",
+    "slug": "story-12",
+    "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "UK to Utilize Earth's Heat for Domestic Power and Lithium Supply",
+    "category": "Science",
+    "slug": "story-13",
+    "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Search and Rescue Locate Skier Buried in Avalanche Using Technology",
+    "category": "US",
+    "slug": "story-14",
+    "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "U.S. Customs Develops Tariff Refund System",
+    "category": "Business",
+    "slug": "story-15",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Energy Infrastructure Affected in U.S.-Israeli War with Iran",
+    "category": "World",
+    "slug": "story-16",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
+    "category": "World",
+    "slug": "story-17",
+    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Former FARC Leaders Shift Focus to Political Campaigns in Colombia",
+    "category": "World",
+    "slug": "story-18",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Militants Attack Village in Nigeria",
+    "category": "World",
+    "slug": "story-19",
+    "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Medical Schools to Enhance Nutrition Curriculum",
+    "category": "Health",
+    "slug": "story-20",
+    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US and Venezuela Plan to Resume Diplomatic Relations",
+    "category": "US",
+    "slug": "story-21",
+    "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "First Remote Surgery Conducted 1,500 Miles Away in the UK",
+    "category": "Health",
+    "slug": "story-22",
+    "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "China to Dispatch Special Envoy to Middle East",
+    "category": "World",
+    "slug": "story-23",
+    "source_url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Explosion at Iranian School Kills Over 165",
+    "category": "World",
+    "slug": "story-24",
+    "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Increased Military Engagements in Middle East",
+    "category": "World",
+    "slug": "story-25",
+    "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
   }
 ]
