@@ -3,44 +3,36 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "U.S. Job Market Weakens in February",
-      "category": "Business",
+      "headline": "Iran Fires Missiles at Israel Following Israeli Strikes",
+      "category": "World",
       "facts": [
         {
-          "text": "Employers cut 92,000 jobs in February 2026.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
+          "text": "Iran launched missiles toward Israel, according to Israeli officials.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "The unemployment rate increased to 4.4% from 4.3% in January.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
-        },
-        {
-          "text": "This marks a decline in job growth, raising concerns about economic health.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
+          "text": "Israel conducted air strikes on Tehran and targeted Beirut's southern suburbs overnight.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5737603/jobs-labor-market-economy"
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ]
     },
     {
       "slug": "story-2",
-      "headline": "US Economy Loses 92,000 Jobs in February",
+      "headline": "US economy reports job loss in February",
       "category": "Business",
       "facts": [
         {
-          "text": "The US economy recorded a loss of 92,000 jobs in February 2026.",
+          "text": "The United States economy lost 92,000 jobs in February 2026.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Payrolls decreased in nearly every sector during this period.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This jobs report contrasts with previous expectations of employment growth.",
+          "text": "Job losses occurred across nearly all sectors of the economy.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -53,44 +45,19 @@
     },
     {
       "slug": "story-3",
-      "headline": "Iran Fires Missiles Toward Israel After Strikes",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Iran fired missiles toward Israel on March 6, 2026.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        },
-        {
-          "text": "Israeli officials reported the missile launch following Israeli strikes on Tehran.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        },
-        {
-          "text": "Israel conducted strikes on Beirut's southern suburbs overnight prior to the missile launch.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-        }
-      ]
-    },
-    {
-      "slug": "story-4",
-      "headline": "Oil Price Increases Due to Qatar's Warning on Production",
+      "headline": "Oil prices rise following Qatar's warning on Gulf production",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices reached a two-year high following warnings from Qatar's Energy Minister Saad al-Kaabi.",
+          "text": "Oil prices reached a two-year high on March 6, 2026.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Al-Kaabi stated that Gulf production could halt in the coming days.",
+          "text": "Qatar's Energy Minister Saad al-Kaabi warned that all Gulf oil production could stop within days.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "He also mentioned that oil prices could rise to $150 a barrel amid ongoing conflict involving Iran.",
+          "text": "Al-Kaabi suggested that oil prices could reach $150 a barrel if the Iran conflict persists.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -102,8 +69,8 @@
       ]
     },
     {
-      "slug": "story-5",
-      "headline": "Clashes in South Sudan Result in Casualties",
+      "slug": "story-4",
+      "headline": "Violence Escalates in South Sudan",
       "category": "World",
       "facts": [
         {
@@ -111,11 +78,11 @@
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "The conflict involves government-aligned forces and opposition groups.",
+          "text": "Clashes between government-aligned forces and opposition groups have intensified.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Violent confrontations are escalating in South Sudan.",
+          "text": "The conflict raises concerns about a potential return to civil war in South Sudan.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
@@ -127,20 +94,24 @@
       ]
     },
     {
-      "slug": "story-6",
-      "headline": "Low-Cost Semaglutide Production Possible",
+      "slug": "story-5",
+      "headline": "Study suggests lower cost for weight-loss drug",
       "category": "Health",
       "facts": [
         {
-          "text": "A study suggests semaglutide, used in Ozempic and Wegovy, could be produced for $3 a month.",
+          "text": "A study indicates that the drug semaglutide could be produced for $3 per month.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "This price point may increase accessibility in 160 countries as patents expire.",
+          "text": "Semaglutide is used in weight-loss medications such as Ozempic and Wegovy.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "Over a billion people globally are impacted by obesity, with rising rates in lower-income nations.",
+          "text": "The potential lower cost may increase accessibility in poorer countries as patents expire.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "Over a billion people are reported to live with obesity worldwide, specifically in lower-income nations.",
           "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
@@ -152,103 +123,70 @@
       ]
     },
     {
-      "slug": "story-7",
-      "headline": "Senate Votes on War Powers, American Sub Sinks Iranian Warship",
+      "slug": "story-6",
+      "headline": "Sri Lanka Takes Custody of Iranian Vessel",
       "category": "World",
       "facts": [
         {
-          "text": "The U.S. Senate voted to support President Trump's war powers.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "Sri Lanka has taken custody of an Iranian vessel.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "An American submarine sank an Iranian warship near Sri Lanka.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "The action follows the sinking of an Iranian warship by a U.S. submarine on March 4, 2026.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         },
         {
-          "text": "Iran launched strikes at locations including Jerusalem and Tel Aviv.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-        },
-        {
-          "text": "Israel conducted military actions against targets in Lebanon.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "text": "Australia confirmed three of its citizens were aboard the U.S. submarine.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
         }
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        }
+      ]
+    },
+    {
+      "slug": "story-7",
+      "headline": "Trump dismisses Homeland Security Secretary Kristi Noem",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Donald Trump has dismissed Kristi Noem from her position as Secretary of Homeland Security.",
+          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
+        },
+        {
+          "text": "Her leadership faced bipartisan criticism during her year-long tenure.",
+          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
+        },
+        {
+          "text": "Noem was involved in controversial immigration policies that resulted in lawsuits and protests.",
+          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
         }
       ]
     },
     {
       "slug": "story-8",
-      "headline": "Iranian Intelligence Signals Possible Talks with U.S.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Iranian intelligence has communicated to the United States about the possibility of opening talks to discuss ending the war.",
-          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
-        },
-        {
-          "text": "U.S. officials state that no negotiations are currently underway.",
-          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
-        },
-        {
-          "text": "They also indicate that potential resolutions are unlikely in the near term.",
-          "source_url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "RealClearPolitics",
-          "url": "https://www.realclearpolitics.com/2026/03/06/iranian_intelligence_sends_word_to_us_on_potential_talks_693630.html"
-        }
-      ]
-    },
-    {
-      "slug": "story-9",
-      "headline": "Canada and Allies Discuss Military Support for Gulf States",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Canada is relocating troops that are deployed in the Middle East.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
-        },
-        {
-          "text": "The U.S. House of Representatives voted to back President Trump's war powers.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
-        },
-        {
-          "text": "Refugees are fleeing to central Beirut due to Israeli strikes.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-5/"
-        }
-      ]
-    },
-    {
-      "slug": "story-10",
-      "headline": "US Customs Prepares Refund System for Illegal Tariffs",
+      "headline": "US Customs Prepares Refund System for Tariffs",
       "category": "Business",
       "facts": [
         {
-          "text": "The US Customs and Border Protection agency plans to set up a refund system for illegally collected tariffs.",
+          "text": "The US Customs and Border Protection is preparing a system to process refunds for illegally collected tariffs.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "An estimated $166 billion is held in relation to these tariffs.",
+          "text": "The total sum held in relation to these tariffs is estimated at $166 billion.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "The new system will allow refunds to be processed in 45 days without requiring importers to sue.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-        },
-        {
-          "text": "Brandon Lord, a top official at CBP, provided this information in a recent court filing.",
+          "text": "The new system will be operational in 45 days and will not require importers to file lawsuits.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         }
       ],
@@ -256,6 +194,48 @@
         {
           "name": "The Guardian US",
           "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ]
+    },
+    {
+      "slug": "story-9",
+      "headline": "Dow Jones Industrial Average declines as oil prices rise",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "The Dow Jones Industrial Average dropped by 650 points.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "U.S. crude oil prices increased by 9% on Friday, March 6, 2026.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        }
+      ]
+    },
+    {
+      "slug": "story-10",
+      "headline": "Russia Engages in Dialogue with Iran",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Dmitry Peskov, the Kremlin press secretary, confirmed ongoing dialogue between Russia and Iranian leadership.",
+          "source_url": "https://www.cbsnews.com/news/iran-war-russia-intel-sources/"
+        },
+        {
+          "text": "Sources report that Russia is providing intelligence to Iran regarding U.S. positions.",
+          "source_url": "https://www.cbsnews.com/news/iran-war-russia-intel-sources/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/iran-war-russia-intel-sources/"
         }
       ]
     }
@@ -299,14 +279,15 @@
   ],
   "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen.",
   "_meta": {
+    "pipeline_version": "3.1",
     "models_used": [
       "OpenAI",
       "Claude"
     ],
-    "feeds_attempted": 30,
-    "raw_items": 105,
-    "after_dedup": 101,
-    "after_filter": 99,
+    "feeds_attempted": 29,
+    "raw_items": 140,
+    "after_dedup": 129,
+    "after_filter": 127,
     "consensus_stories": 10
   }
 }
