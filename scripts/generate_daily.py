@@ -77,6 +77,14 @@ FEEDS = [
     {"name": "ESPN Top",           "url": "https://www.espn.com/espn/rss/news",                     "lean": "Center"},
     {"name": "BBC Sport",          "url": "https://feeds.bbci.co.uk/sport/rss.xml",                 "lean": "Center"},
     {"name": "TSN",                "url": "https://www.tsn.ca/rss/all",                              "lean": "Center"},
+
+    # ── Good News / Humanitarian / Faith ──
+    {"name": "Good News Network",  "url": "https://www.goodnewsnetwork.org/feed/",                "lean": "Center"},
+    {"name": "Positive News",      "url": "https://www.positive.news/feed/",                       "lean": "Center"},
+    {"name": "Christianity Today", "url": "https://www.christianitytoday.com/feed/",               "lean": "Center"},
+    {"name": "Deseret News Faith", "url": "https://www.deseret.com/arc/outboundfeeds/rss/category/faith/", "lean": "Center"},
+    {"name": "Catholic News",      "url": "https://www.ncronline.org/feeds/all",                   "lean": "Center"},
+    {"name": "Salvation Army",     "url": "https://www.salvationarmy.org/ihq/feed",                "lean": "Center"},
 ]
 
 ITEMS_PER_FEED = 6
