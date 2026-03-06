@@ -385,6 +385,7 @@ def _call_grok_responses_api(pool_text, model_name="Grok"):
         headers={
             "Content-Type": "application/json",
             "Authorization": f"Bearer {XAI_API_KEY}",
+            "User-Agent": "DailyInformant/1.0",
         },
         method="POST",
     )
