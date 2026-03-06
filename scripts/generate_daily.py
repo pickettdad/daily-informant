@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-The Daily Informant — Morning Pipeline v3 (Multi-AI Consensus)
-===============================================================
+The Daily Informant — Morning Pipeline v3.1 (Multi-AI Consensus)
+=================================================================
 
 Architecture:
   1. WIDE NET — 30+ RSS feeds spanning left-to-right political spectrum
@@ -12,13 +12,16 @@ Architecture:
   5. EXTRACTION — Detailed fact extraction for each consensus story
   6. OUTPUT — data/daily.json
 
-The feeds don't decide what's important. The AI consensus does.
-The feeds just provide the raw material from every perspective.
+v3.1 changes:
+  - Fixed broken feeds (Reuters, AP, CBC replaced with working URLs)
+  - Smarter dedup that catches same-event-different-headline duplicates
+  - Grok model name fix
+  - Each AI model failure is fully isolated (can never crash the pipeline)
 
 Required env vars:
-  OPENAI_API_KEY      — OpenAI API key
-  ANTHROPIC_API_KEY   — Anthropic (Claude) API key  (optional, degrades gracefully)
-  XAI_API_KEY         — xAI (Grok) API key          (optional, degrades gracefully)
+  OPENAI_API_KEY      — OpenAI API key (required)
+  ANTHROPIC_API_KEY   — Anthropic (Claude) API key  (optional)
+  XAI_API_KEY         — xAI (Grok) API key          (optional)
 """
 
 import json
@@ -43,47 +46,46 @@ TORONTO = ZoneInfo("America/Toronto")
 # └─────────────────────────────────────────────────────────────────┘
 
 FEEDS = [
-    # ── Wire Services (neutral baseline) ──
-    {"name": "Reuters",           "url": "https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best", "lean": "Center"},
-    {"name": "AP News",           "url": "https://apnews.com/index.rss",                                            "lean": "Center"},
-
     # ── Left-leaning ──
-    {"name": "NPR News",          "url": "https://feeds.npr.org/1001/rss.xml",                                      "lean": "Left"},
-    {"name": "NPR World",         "url": "https://feeds.npr.org/1004/rss.xml",                                      "lean": "Left"},
-    {"name": "NPR Science",       "url": "https://feeds.npr.org/1007/rss.xml",                                      "lean": "Left"},
-    {"name": "NPR Health",        "url": "https://feeds.npr.org/1128/rss.xml",                                      "lean": "Left"},
-    {"name": "The Guardian World", "url": "https://www.theguardian.com/world/rss",                                   "lean": "Left"},
-    {"name": "The Guardian US",   "url": "https://www.theguardian.com/us-news/rss",                                  "lean": "Left"},
-    {"name": "PBS NewsHour",      "url": "https://www.pbs.org/newshour/feeds/rss/headlines",                         "lean": "Left"},
+    {"name": "NPR News",           "url": "https://feeds.npr.org/1001/rss.xml",                                      "lean": "Left"},
+    {"name": "NPR World",          "url": "https://feeds.npr.org/1004/rss.xml",                                      "lean": "Left"},
+    {"name": "NPR Science",        "url": "https://feeds.npr.org/1007/rss.xml",                                      "lean": "Left"},
+    {"name": "NPR Health",         "url": "https://feeds.npr.org/1128/rss.xml",                                      "lean": "Left"},
+    {"name": "The Guardian World",  "url": "https://www.theguardian.com/world/rss",                                   "lean": "Left"},
+    {"name": "The Guardian US",    "url": "https://www.theguardian.com/us-news/rss",                                  "lean": "Left"},
+    {"name": "PBS NewsHour",       "url": "https://www.pbs.org/newshour/feeds/rss/headlines",                         "lean": "Left"},
 
     # ── Center / International ──
-    {"name": "BBC World",         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",                              "lean": "Center"},
-    {"name": "BBC Business",      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",                           "lean": "Center"},
-    {"name": "BBC Science",       "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",             "lean": "Center"},
-    {"name": "BBC Health",        "url": "https://feeds.bbci.co.uk/news/health/rss.xml",                              "lean": "Center"},
-    {"name": "BBC Tech",          "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",                          "lean": "Center"},
-    {"name": "Al Jazeera",        "url": "https://www.aljazeera.com/xml/rss/all.xml",                                 "lean": "Center"},
-    {"name": "France 24",         "url": "https://www.france24.com/en/rss",                                           "lean": "Center"},
-    {"name": "DW News",           "url": "https://rss.dw.com/rdf/rss-en-all",                                         "lean": "Center"},
+    {"name": "BBC World",          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",                              "lean": "Center"},
+    {"name": "BBC Business",       "url": "https://feeds.bbci.co.uk/news/business/rss.xml",                           "lean": "Center"},
+    {"name": "BBC Science",        "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",             "lean": "Center"},
+    {"name": "BBC Health",         "url": "https://feeds.bbci.co.uk/news/health/rss.xml",                              "lean": "Center"},
+    {"name": "BBC Tech",           "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",                          "lean": "Center"},
+    {"name": "Al Jazeera",         "url": "https://www.aljazeera.com/xml/rss/all.xml",                                 "lean": "Center"},
+    {"name": "France 24",          "url": "https://www.france24.com/en/rss",                                           "lean": "Center"},
+    {"name": "ABC News",           "url": "https://abcnews.go.com/abcnews/topstories",                                "lean": "Center"},
+    {"name": "CBS News",           "url": "https://www.cbsnews.com/latest/rss/main",                                   "lean": "Center"},
 
-    # ── Center-right / Business ──
-    {"name": "The Hill",          "url": "https://thehill.com/feed/",                                                  "lean": "Center-Right"},
-    {"name": "RealClearPolitics", "url": "https://www.realclearpolitics.com/index.xml",                               "lean": "Center-Right"},
+    # ── Center-right ──
+    {"name": "The Hill",           "url": "https://thehill.com/feed/",                                                  "lean": "Center-Right"},
+    {"name": "RealClearPolitics",  "url": "https://www.realclearpolitics.com/index.xml",                               "lean": "Center-Right"},
 
     # ── Right-leaning ──
-    {"name": "Fox News",          "url": "https://moxie.foxnews.com/google-publisher/latest.xml",                     "lean": "Right"},
-    {"name": "Fox Business",      "url": "https://moxie.foxnews.com/google-publisher/business.xml",                   "lean": "Right"},
-    {"name": "NY Post",           "url": "https://nypost.com/feed/",                                                  "lean": "Right"},
-    {"name": "Washington Times",  "url": "https://www.washingtontimes.com/rss/headlines/news/",                       "lean": "Right"},
-    {"name": "Daily Wire",        "url": "https://www.dailywire.com/feeds/rss.xml",                                   "lean": "Right"},
-    {"name": "Newsmax",           "url": "https://www.newsmax.com/rss/Newsfront/1/",                                  "lean": "Right"},
+    {"name": "Fox News",           "url": "https://moxie.foxnews.com/google-publisher/latest.xml",                     "lean": "Right"},
+    {"name": "NY Post",            "url": "https://nypost.com/feed/",                                                  "lean": "Right"},
+    {"name": "Daily Wire",         "url": "https://www.dailywire.com/feeds/rss.xml",                                   "lean": "Right"},
+    {"name": "Breitbart",          "url": "https://feeds.feedburner.com/breitbart",                                    "lean": "Right"},
+    {"name": "Washington Examiner", "url": "https://www.washingtonexaminer.com/feed",                                  "lean": "Right"},
 
     # ── Canada ──
-    {"name": "CBC Top Stories",   "url": "https://www.cbc.ca/webfeed/rss/rss-topstories",                             "lean": "Center-Left"},
-    {"name": "CBC World",         "url": "https://www.cbc.ca/webfeed/rss/rss-world",                                  "lean": "Center-Left"},
-    {"name": "CBC Business",      "url": "https://www.cbc.ca/webfeed/rss/rss-business",                               "lean": "Center-Left"},
-    {"name": "Globe and Mail",    "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/",     "lean": "Center"},
-    {"name": "National Post",     "url": "https://nationalpost.com/feed/",                                             "lean": "Center-Right"},
+    {"name": "Globe and Mail",     "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/",     "lean": "Center"},
+    {"name": "National Post",      "url": "https://nationalpost.com/feed/",                                             "lean": "Center-Right"},
+    {"name": "CTV News",           "url": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",     "lean": "Center"},
+    {"name": "Toronto Star",       "url": "https://www.thestar.com/search/?f=rss&t=article&c=news*&l=50&s=start_time&sd=desc", "lean": "Center-Left"},
+
+    # ── Science / Tech (non-partisan) ──
+    {"name": "Ars Technica",       "url": "https://feeds.arstechnica.com/arstechnica/index",                           "lean": "Center"},
+    {"name": "Phys.org",           "url": "https://phys.org/rss-feed/",                                                "lean": "Center"},
 ]
 
 ITEMS_PER_FEED = 5        # Max items from each feed
@@ -93,7 +95,7 @@ MIN_CONSENSUS = 2         # Minimum AI models that must agree on a story
 # AI model configs
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
-GROK_MODEL = "grok-2-latest"
+GROK_MODEL = "grok-2-1212"
 
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 5
@@ -200,28 +202,68 @@ def fetch_all_feeds() -> list[dict]:
     return all_items
 
 
+# ── Deduplication ───────────────────────────────────────────────────
+
+# Common filler words to ignore when comparing headlines
+STOP_WORDS = {
+    "a", "an", "the", "in", "on", "at", "to", "for", "of", "and", "or",
+    "is", "are", "was", "were", "be", "been", "has", "have", "had",
+    "it", "its", "that", "this", "with", "from", "by", "as", "but",
+    "not", "no", "will", "can", "do", "does", "did", "may", "says",
+    "said", "new", "over", "after", "how", "why", "what", "who",
+    "could", "would", "about", "into", "up", "out", "more", "than",
+}
+
+
+def extract_key_words(title: str) -> set[str]:
+    """Extract meaningful words from a headline, ignoring stop words."""
+    words = re.findall(r"[a-z0-9]+", title.lower())
+    return {w for w in words if w not in STOP_WORDS and len(w) > 2}
+
+
 def deduplicate(items: list[dict]) -> list[dict]:
+    """
+    Remove duplicate stories using:
+    1. Exact URL match
+    2. High keyword overlap in headlines (catches same event, different wording)
+    """
     seen_links = set()
-    seen_titles = []
-    unique = []
+    accepted = []
+    accepted_keywords = []
+
     for item in items:
+        # Skip exact URL duplicates
         if item["link"] in seen_links:
             continue
-        title_lower = item["title"].lower()
-        title_words = set(title_lower.split())
-        is_dup = False
-        for prev in seen_titles:
-            prev_words = set(prev.split())
-            if title_words and prev_words:
-                overlap = len(title_words & prev_words) / min(len(title_words), len(prev_words))
-                if overlap > 0.6:
-                    is_dup = True
-                    break
-        if not is_dup:
-            unique.append(item)
+
+        # Extract meaningful keywords from this headline
+        keywords = extract_key_words(item["title"])
+
+        if len(keywords) < 2:
+            # Very short headline, just check URL
+            accepted.append(item)
             seen_links.add(item["link"])
-            seen_titles.append(title_lower)
-    return unique
+            accepted_keywords.append(keywords)
+            continue
+
+        # Check against all accepted headlines for keyword overlap
+        is_duplicate = False
+        for prev_kw in accepted_keywords:
+            if len(prev_kw) < 2:
+                continue
+            # Calculate overlap as fraction of the smaller set
+            overlap = len(keywords & prev_kw)
+            smaller = min(len(keywords), len(prev_kw))
+            if smaller > 0 and overlap / smaller >= 0.5:
+                is_duplicate = True
+                break
+
+        if not is_duplicate:
+            accepted.append(item)
+            seen_links.add(item["link"])
+            accepted_keywords.append(keywords)
+
+    return accepted
 
 
 def filter_noise(items: list[dict]) -> list[dict]:
@@ -252,6 +294,7 @@ SELECTION CRITERIA:
 4. BALANCE — Don't favor stories from any political lean. A Fox News story and an NPR story about the same event both validate its importance.
 5. SKIP politician theater — "X slams Y" or "X fires back" without concrete action is noise, not news
 6. SKIP celebrity/entertainment unless it has genuine policy or public safety implications
+7. DO NOT select multiple stories about the same event — pick the best one
 
 Return ONLY a JSON array of the story numbers you selected, ranked by importance.
 Example: [4, 17, 2, 31, 8, 22, 11, 45, 3, 29, 14, 38]
@@ -260,7 +303,6 @@ Return ONLY the JSON array, nothing else."""
 
 
 def build_story_pool_text(items: list[dict]) -> str:
-    """Format the story pool for AI selection."""
     lines = []
     for i, item in enumerate(items):
         line = f"{i+1}. [{item['source_name']}] {item['title']}"
@@ -270,78 +312,11 @@ def build_story_pool_text(items: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def call_openai_selection(pool_text: str) -> list[int]:
-    """Ask OpenAI to pick top stories from the pool."""
-    payload = json.dumps({
-        "model": OPENAI_MODEL,
-        "messages": [
-            {"role": "system", "content": SELECTION_PROMPT},
-            {"role": "user", "content": pool_text},
-        ],
-        "temperature": 0.3,
-    }).encode("utf-8")
+def _call_api(url: str, headers: dict, payload: dict, model_name: str, response_path: str = "openai") -> list[int]:
+    """Generic API caller with retry logic. Returns list of story numbers."""
+    data_bytes = json.dumps(payload).encode("utf-8")
+    req = Request(url, data=data_bytes, headers=headers, method="POST")
 
-    req = Request(
-        "https://api.openai.com/v1/chat/completions",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {OPENAI_API_KEY}",
-        },
-        method="POST",
-    )
-    return _call_with_retry(req, "OpenAI")
-
-
-def call_claude_selection(pool_text: str) -> list[int]:
-    """Ask Claude to pick top stories from the pool."""
-    payload = json.dumps({
-        "model": CLAUDE_MODEL,
-        "max_tokens": 1024,
-        "messages": [
-            {"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pool_text}"},
-        ],
-        "temperature": 0.3,
-    }).encode("utf-8")
-
-    req = Request(
-        "https://api.anthropic.com/v1/messages",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01",
-        },
-        method="POST",
-    )
-    return _call_with_retry(req, "Claude", response_path="anthropic")
-
-
-def call_grok_selection(pool_text: str) -> list[int]:
-    """Ask Grok to pick top stories from the pool."""
-    payload = json.dumps({
-        "model": GROK_MODEL,
-        "messages": [
-            {"role": "system", "content": SELECTION_PROMPT},
-            {"role": "user", "content": pool_text},
-        ],
-        "temperature": 0.3,
-    }).encode("utf-8")
-
-    req = Request(
-        "https://api.x.ai/v1/chat/completions",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {XAI_API_KEY}",
-        },
-        method="POST",
-    )
-    return _call_with_retry(req, "Grok")
-
-
-def _call_with_retry(req: Request, model_name: str, response_path: str = "openai") -> list[int]:
-    """Make API call with retry logic, parse response into list of story numbers."""
     last_error = None
     for attempt in range(MAX_RETRIES):
         try:
@@ -353,9 +328,7 @@ def _call_with_retry(req: Request, model_name: str, response_path: str = "openai
                 else:
                     raw_text = data["choices"][0]["message"]["content"]
 
-                # Extract JSON array from response
                 raw_text = raw_text.strip()
-                # Find the array in the response (model might add text around it)
                 match = re.search(r'\[[\d\s,]+\]', raw_text)
                 if match:
                     numbers = json.loads(match.group())
@@ -371,7 +344,9 @@ def _call_with_retry(req: Request, model_name: str, response_path: str = "openai
                 print(f"    {model_name} error ({e.code}). Waiting {wait}s... (attempt {attempt + 1})")
                 time.sleep(wait)
                 continue
-            raise
+            else:
+                print(f"    {model_name} HTTP error: {e.code}")
+                return []
         except Exception as e:
             last_error = e
             time.sleep(RETRY_BASE_DELAY)
@@ -381,11 +356,70 @@ def _call_with_retry(req: Request, model_name: str, response_path: str = "openai
     return []
 
 
+def call_openai_selection(pool_text: str) -> list[int]:
+    return _call_api(
+        url="https://api.openai.com/v1/chat/completions",
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+        },
+        payload={
+            "model": OPENAI_MODEL,
+            "messages": [
+                {"role": "system", "content": SELECTION_PROMPT},
+                {"role": "user", "content": pool_text},
+            ],
+            "temperature": 0.3,
+        },
+        model_name="OpenAI",
+    )
+
+
+def call_claude_selection(pool_text: str) -> list[int]:
+    return _call_api(
+        url="https://api.anthropic.com/v1/messages",
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01",
+        },
+        payload={
+            "model": CLAUDE_MODEL,
+            "max_tokens": 1024,
+            "messages": [
+                {"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pool_text}"},
+            ],
+            "temperature": 0.3,
+        },
+        model_name="Claude",
+        response_path="anthropic",
+    )
+
+
+def call_grok_selection(pool_text: str) -> list[int]:
+    return _call_api(
+        url="https://api.x.ai/v1/chat/completions",
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {XAI_API_KEY}",
+        },
+        payload={
+            "model": GROK_MODEL,
+            "messages": [
+                {"role": "system", "content": SELECTION_PROMPT},
+                {"role": "user", "content": pool_text},
+            ],
+            "temperature": 0.3,
+        },
+        model_name="Grok",
+    )
+
+
 def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
-    """Run story selection across all available AI models."""
+    """Run story selection across all available AI models. Fully fault-tolerant."""
     results = {}
 
-    # OpenAI (required)
+    # OpenAI (required for extraction, so must work for selection too)
     if OPENAI_API_KEY:
         print("  → OpenAI selecting stories...")
         try:
@@ -396,13 +430,13 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
             else:
                 print("    OpenAI returned no picks")
         except Exception as e:
-            print(f"    OpenAI failed: {e}")
+            print(f"    OpenAI selection failed: {e}")
     else:
         print("  ✗ OpenAI: no API key")
 
     time.sleep(1)
 
-    # Claude (optional)
+    # Claude
     if ANTHROPIC_API_KEY:
         print("  → Claude selecting stories...")
         try:
@@ -413,13 +447,13 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
             else:
                 print("    Claude returned no picks")
         except Exception as e:
-            print(f"    Claude failed: {e}")
+            print(f"    Claude selection failed: {e}")
     else:
         print("  ○ Claude: no API key (skipping)")
 
     time.sleep(1)
 
-    # Grok (optional)
+    # Grok
     if XAI_API_KEY:
         print("  → Grok selecting stories...")
         try:
@@ -430,7 +464,7 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
             else:
                 print("    Grok returned no picks")
         except Exception as e:
-            print(f"    Grok failed: {e}")
+            print(f"    Grok selection failed: {e}")
     else:
         print("  ○ Grok: no API key (skipping)")
 
@@ -464,7 +498,7 @@ def build_consensus(selections: dict[str, list[int]], pool_size: int) -> list[in
                 rank_sums[story_num] = rank_sums.get(story_num, 0) + rank
 
     # Filter to stories with minimum consensus
-    min_votes = min(MIN_CONSENSUS, num_models)  # If only 2 models, need 2 votes
+    min_votes = min(MIN_CONSENSUS, num_models)
     consensus_stories = [
         s for s, votes in vote_counts.items()
         if votes >= min_votes
@@ -476,25 +510,26 @@ def build_consensus(selections: dict[str, list[int]], pool_size: int) -> list[in
     print(f"\n   Consensus results ({num_models} models, min {min_votes} votes):")
     for s in consensus_stories[:MAX_STORIES]:
         avg_rank = rank_sums[s] / vote_counts[s]
-        print(f"    Story #{s}: {vote_counts[s]} votes, avg rank {avg_rank:.1f}")
+        print(f"    Story #{s}: {vote_counts[s]}/{num_models} votes, avg rank {avg_rank:.1f}")
 
-    # If consensus is too thin, supplement with top-voted stories
+    # If consensus is too thin, supplement with highest-voted remaining stories
     if len(consensus_stories) < MAX_STORIES:
         remaining = [
             s for s in vote_counts.keys()
             if s not in consensus_stories
         ]
         remaining.sort(key=lambda s: (-vote_counts[s], rank_sums[s] / max(vote_counts[s], 1)))
-        consensus_stories.extend(remaining[:MAX_STORIES - len(consensus_stories)])
-        if remaining:
-            print(f"   Added {min(len(remaining), MAX_STORIES - len(consensus_stories) + len(remaining))} supplemental stories")
+        supplement = remaining[:MAX_STORIES - len(consensus_stories)]
+        consensus_stories.extend(supplement)
+        if supplement:
+            print(f"   Added {len(supplement)} supplemental stories (single-model picks)")
 
     return consensus_stories[:MAX_STORIES]
 
 
 # ── Fact Extraction ─────────────────────────────────────────────────
 
-EXTRACTION_PROMPT = """You are the fact-extraction engine for The Daily Informant.
+EXTRACTION_PROMPT = """You are the fact-extraction engine for The Daily Informant, a calm morning news briefing.
 
 STRICT RULES:
 1. FACTS ONLY — every bullet must be verifiable
@@ -514,9 +549,19 @@ EXTRACTION_SCHEMA = {
             "type": "object",
             "additionalProperties": False,
             "properties": {
-                "headline": {"type": "string"},
-                "facts": {"type": "array", "items": {"type": "string"}},
-                "category": {"type": "string"},
+                "headline": {
+                    "type": "string",
+                    "description": "Neutral, calm headline. No clickbait. No sensational adjectives."
+                },
+                "facts": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "2-4 short factual bullet points. Each must be verifiable."
+                },
+                "category": {
+                    "type": "string",
+                    "description": "One of: World, Business, Science, Health, Tech, Canada"
+                },
             },
             "required": ["headline", "facts", "category"],
         },
@@ -611,7 +656,7 @@ def build_story(entry: dict, idx: int) -> dict:
 
 def main():
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v3 (Multi-AI Consensus)")
+    print("  The Daily Informant — Morning Pipeline v3.1")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -624,10 +669,10 @@ def main():
     if XAI_API_KEY:
         models_available.append("Grok")
 
-    print(f"\n  AI models available: {', '.join(models_available) or 'NONE'}")
+    print(f"\n  AI models: {', '.join(models_available) or 'NONE'}")
 
     if not OPENAI_API_KEY:
-        print("\n✗ OPENAI_API_KEY is required (used for fact extraction). Exiting.")
+        print("\n✗ OPENAI_API_KEY is required. Exiting.")
         sys.exit(1)
 
     # ── Step 1: Fetch ──
@@ -651,12 +696,12 @@ def main():
     selections = run_ai_selection(pool_text)
 
     if not selections:
-        print("\n✗ No AI model returned selections. Falling back to first stories.")
+        print("\n⚠ No AI model returned selections. Using first stories as fallback.")
         consensus_indices = list(range(1, min(MAX_STORIES + 1, len(filtered) + 1)))
     else:
         consensus_indices = build_consensus(selections, len(filtered))
 
-    # Map indices back to items (indices are 1-based)
+    # Map indices back to items (1-based)
     consensus_items = []
     for idx in consensus_indices:
         if 1 <= idx <= len(filtered):
@@ -693,6 +738,7 @@ def main():
             "for those whose stories we carry today. Amen.",
         ),
         "_meta": {
+            "pipeline_version": "3.1",
             "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS),
             "raw_items": len(all_items),
@@ -709,11 +755,14 @@ def main():
 
     # Summary
     categories = set(s.get("category", "?") for s in stories)
-    source_leans = set(filtered[idx - 1]["lean"] for idx in consensus_indices if 1 <= idx <= len(filtered))
+    source_leans = set()
+    for idx in consensus_indices:
+        if 1 <= idx <= len(filtered):
+            source_leans.add(filtered[idx - 1]["lean"])
 
     print(f"\n{'=' * 65}")
     print(f"  DONE — {len(stories)} stories written to data/daily.json")
-    print(f"  Models used: {', '.join(selections.keys()) or 'fallback'}")
+    print(f"  Models: {', '.join(selections.keys()) or 'fallback'}")
     print(f"  Categories: {', '.join(sorted(categories))}")
     print(f"  Source spectrum: {', '.join(sorted(source_leans))}")
     print(f"{'=' * 65}")
