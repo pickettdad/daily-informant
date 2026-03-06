@@ -68,5 +68,75 @@
     "category": "Business",
     "slug": "story-10",
     "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Iran Fires Missiles Towards Israel Following Recent Strikes",
+    "category": "World",
+    "slug": "story-1",
+    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Oil Prices Surge as Qatar Warns of Production Halt",
+    "category": "Business",
+    "slug": "story-2",
+    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Medical Schools to Enhance Nutrition Curriculum",
+    "category": "Health",
+    "slug": "story-3",
+    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Study Suggests Affordable Production of Weight-Loss Drug",
+    "category": "Health",
+    "slug": "story-4",
+    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
+    "category": "World",
+    "slug": "story-5",
+    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "U.S. Job Market Reports Decrease in Employment for February",
+    "category": "Business",
+    "slug": "story-6",
+    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
+    "category": "Business",
+    "slug": "story-7",
+    "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
+    "category": "Business",
+    "slug": "story-8",
+    "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Iran Intensifies Strikes Amid Ongoing Conflict",
+    "category": "World",
+    "slug": "story-9",
+    "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+  },
+  {
+    "date": "2026-03-06",
+    "headline": "Ukraine and Russia Conduct Significant Prisoner Exchange",
+    "category": "World",
+    "slug": "story-10",
+    "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
   }
 ]

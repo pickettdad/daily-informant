@@ -3,20 +3,24 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "Iran Responds with Missile Strikes Following Israeli Attacks",
-      "context": "The ongoing conflict between Iran and Israel has intensified as military actions escalate. The situation has developed over several days, with hostilities increasing in the region, prompting military responses from both sides.",
+      "headline": "Iran Fires Missiles Towards Israel Following Recent Strikes",
+      "context": "The recent escalation of conflict between Iran and Israel is part of a broader pattern of military exchanges amidst ongoing tensions in the region. Israel's actions have been characterized by targeted strikes on Iranian sites in response to perceived threats, leading to Iran's missile retaliation.",
       "category": "World",
       "facts": [
         {
-          "text": "Iranian forces launched missiles towards Israel today in retaliation for Israeli airstrikes.",
+          "text": "Iranian military officials reported that missiles were fired toward Israel from their territory on Friday.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "Israeli officials confirmed the missile attacks, marking an escalation in military confrontations.",
+          "text": "This action follows Israeli airstrikes on Tehran and southern Beirut, which occurred overnight.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "The day before, Israel conducted strikes on locations in Tehran and targeted areas in Beirut's southern suburbs.",
+          "text": "The conflict has entered its seventh day as hostilities continue to escalate.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        },
+        {
+          "text": "Both nations remain on high alert as military operations persist.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
@@ -33,24 +37,132 @@
     },
     {
       "slug": "story-2",
-      "headline": "US Economy Reports Job Losses in February",
-      "context": "February's employment report indicates a significant loss of jobs in the United States, marking a rare contraction in the labor market. Economists are assessing the implications of this decrease as it comes amidst ongoing economic recovery efforts following previous downturns.",
+      "headline": "Oil Prices Surge as Qatar Warns of Production Halt",
+      "context": "Oil prices have risen significantly due to warnings from Qatari Energy Minister Saad al-Kaabi regarding potential production halts in the Gulf region. This warning comes amidst ongoing tensions related to the conflict involving Iran, which has led to concerns about oil supply stability in the market.",
       "category": "Business",
       "facts": [
         {
-          "text": "The US economy lost 92,000 jobs in February 2026.",
+          "text": "Oil prices reached a two-year high, approaching $150 a barrel.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Qatari Energy Minister Saad al-Kaabi stated that all Gulf oil production could stop within days due to rising tensions.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The warning reflects the potential impact of the Iran conflict on global oil supply.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Market analysts are closely monitoring developments in the region for further implications on pricing.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "slug": "story-3",
+      "headline": "Medical Schools to Enhance Nutrition Curriculum",
+      "context": "This development is part of a broader initiative to address the educational gaps in nutrition training among medical professionals. The expansion aims to ensure that future doctors have a stronger foundation in dietary knowledge, which is important for patient care and public health.",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "Health Secretary Robert F. Kennedy Jr. announced the expansion of nutrition curriculum at medical schools.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        },
+        {
+          "text": "53 medical schools in 31 states will implement a new 40-hour nutrition education program this fall.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        },
+        {
+          "text": "Most medical schools currently offer less than the recommended 25 hours of nutrition training.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR Health",
+          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        }
+      ]
+    },
+    {
+      "slug": "story-4",
+      "headline": "Study Suggests Affordable Production of Weight-Loss Drug",
+      "context": "The study highlights the potential for producing semaglutide, the active ingredient in popular weight-loss treatments such as Ozempic and Wegovy, at significantly lower costs. As patents for these drugs are set to expire, this could allow broader accessibility in lower-income countries, where obesity and diabetes rates continue to rise.",
+      "category": "Health",
+      "facts": [
+        {
+          "text": "A new analysis suggests semaglutide could be produced for as low as $3 a month.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "This potential cost reduction could make the drug accessible in 160 countries.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        },
+        {
+          "text": "Obesity affects over one billion people globally, with increasing rates in poorer nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
+        }
+      ]
+    },
+    {
+      "slug": "story-5",
+      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
+      "context": "This situation arises in the aftermath of heightened military tensions between the United States and Iran. On March 4, 2026, a U.S. submarine sank an Iranian warship, prompting international response and concerns over naval operations in the region.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Sri Lanka has taken custody of an Iranian vessel after the U.S. military action.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        },
+        {
+          "text": "The U.S. submarine sank an Iranian warship on March 4, 2026.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        },
+        {
+          "text": "Australia confirmed that three Australians were aboard the U.S. submarine at the time of the incident.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        }
+      ]
+    },
+    {
+      "slug": "story-6",
+      "headline": "U.S. Job Market Reports Decrease in Employment for February",
+      "context": "The U.S. job market is closely monitored as it reflects the health of the economy. The February report indicates a significant decline in employment, which poses concerns regarding economic stability and growth prospects.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "The U.S. economy lost 92,000 jobs in February 2026.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Payrolls decreased across nearly every sector, showing widespread job losses.",
+          "text": "Job declines were reported across nearly all sectors.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The job loss figure was unexpected, highlighting potential challenges in the economy.",
-          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Unemployment rates may be affected as more job seekers re-enter the market.",
+          "text": "Economists had predicted job growth for the month prior to the report.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -70,185 +182,51 @@
       ]
     },
     {
-      "slug": "story-3",
-      "headline": "Oil Prices Reach Two-Year High Amid Qatar's Production Warning",
-      "context": "Oil prices have reached a two-year high as tensions in the region escalate. Qatar's Energy Minister Saad al-Kaabi stated that all Gulf oil production may halt if the ongoing conflict with Iran intensifies in the forthcoming weeks, raising concerns about global supply levels.",
+      "slug": "story-7",
+      "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
+      "context": "The recent conflict in Iran has led to significant fluctuations in global oil prices, impacting financial markets. Specifically, U.S. crude oil prices surged by 9%, creating pressures on the stock market and contributing to a notable drop in the Dow.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices currently sit close to $150 per barrel.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "The Dow Jones Industrial Average fell by 650 points in response to economic factors related to the Iran conflict.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "Qatar's Energy Minister stated that Gulf production could stop within days.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "U.S. crude oil reached a 9% increase in price on this day.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         },
         {
-          "text": "This warning is a direct response to the escalating conflict with Iran.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "Market analysts are closely monitoring the situation for further developments.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "Investors are reassessing their positions in light of rising energy costs.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         }
       ],
       "sources": [
         {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "slug": "story-4",
-      "headline": "Weight-Loss Drug Costs Could Decrease Significantly",
-      "context": "A new analysis indicates that the production cost of semaglutide, the active ingredient in weight-loss medications like Ozempic and Wegovy, could be as low as $3 per month. This development comes as patents for these drugs are expiring, potentially increasing access for individuals in low-income countries where obesity and diabetes are prevalent.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "A study suggests that the production cost of semaglutide could be reduced to $3 per month.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "The analysis highlights the potential for increased access to weight-loss treatments in 160 countries.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        },
-        {
-          "text": "Obesity affects over a billion people globally, with increasing rates in lower-income nations.",
-          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-        }
-      ]
-    },
-    {
-      "slug": "story-5",
-      "headline": "NASA's asteroid impact test alters orbit of target rock",
-      "context": "NASA's previous mission to test asteroid deflection techniques has shown measurable results. The findings indicate that intentional impacts can modify an asteroid's trajectory, which is significant for planetary defense against potential threats from space.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "NASA's spacecraft successfully impacted an asteroid in a targeted experiment in 2022.",
-          "source_url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-        },
-        {
-          "text": "New observations show that the asteroid's orbit around the sun has changed as a result of the impact.",
-          "source_url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-        },
-        {
-          "text": "Scientists from the study reported these findings in a recent publication.",
-          "source_url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-        },
-        {
-          "text": "The experiment is part of ongoing research to develop methods for diverting dangerous asteroids in the future.",
-          "source_url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-        }
-      ]
-    },
-    {
-      "slug": "story-6",
-      "headline": "Sri Lanka Takes Custody of Iranian Vessel After U.S. Military Action",
-      "context": "Tensions between the United States and Iran have escalated following a recent naval incident. The sinking of an Iranian warship by a U.S. submarine led to Sri Lanka taking custody of an Iranian vessel, reflecting increasing geopolitical friction in the region.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "The U.S. submarine sank an Iranian warship on Wednesday, leading to heightened tensions.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        },
-        {
-          "text": "Sri Lanka announced it has taken custody of an Iranian vessel following this incident.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        },
-        {
-          "text": "Australia confirmed that three Australian personnel were aboard the U.S. submarine involved in the sinking.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-        }
-      ]
-    },
-    {
-      "slug": "story-7",
-      "headline": "Exploring the Role of the Kurds in the Iran Conflict",
-      "context": "The Kurds are a significant ethnic group in the Middle East, with populations in Iraq, Iran, Turkey, and Syria. Their historical pursuit for autonomy and past alliances with various nations have positioned them in a complex political landscape, especially in the context of conflicts involving Iran. Understanding their potential involvement in the current situation is crucial for assessing regional stability and military strategies.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "The article outlines the historical context of the Kurdish people and their geopolitical significance.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        },
-        {
-          "text": "It discusses potential military strategies that could involve the Kurds in the ongoing conflict with Iran.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        },
-        {
-          "text": "The piece highlights the impact of Kurdish involvement on regional dynamics, particularly regarding Iraqi ties to the conflict.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        }
-      ],
-      "sources": [
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
         }
       ]
     },
     {
       "slug": "story-8",
-      "headline": "Donald Trump Terminates Kristi Noem from Homeland Security",
-      "context": "The decision to remove Kristi Noem from her position as the Secretary of Homeland Security follows a period of increased scrutiny over her management of immigration policies. Her tenure has been marked by significant public and bipartisan discontent, particularly with her approach to the enforcement actions of immigration agents.",
-      "category": "Politics",
-      "facts": [
-        {
-          "text": "Donald Trump announced the termination of Kristi Noem as Homeland Security Secretary today.",
-          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
-        },
-        {
-          "text": "This decision comes after widespread bipartisan criticism of her leadership regarding immigration enforcement.",
-          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
-        },
-        {
-          "text": "Noem had faced several controversies during her time in office, contributing to calls for her resignation.",
-          "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
-        }
-      ]
-    },
-    {
-      "slug": "story-9",
-      "headline": "US Customs Develops Refund System for Illegally Collected Tariffs",
-      "context": "The issue of tariffs imposed during Donald Trump's presidency has led to ongoing legal disputes and public financial concerns. The U.S. Customs and Border Protection agency is responding to this situation by setting up a system to facilitate refunds for importers affected by these tariffs.",
+      "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
+      "context": "The US Customs and Border Protection (CBP) has acknowledged that billions of dollars in tariffs collected under the Trump administration were illegal. The agency's efforts to create a refund system are in response to a court directive and aim to streamline the return of funds to importers affected by these tariffs.",
       "category": "Business",
       "facts": [
         {
-          "text": "US Customs and Border Protection is preparing a system to process refunds on approximately $166 billion in illegally collected tariffs.",
+          "text": "CBP announced it will be ready to process refunds in 45 days.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "The refund system is expected to be operational in 45 days.",
+          "text": "Brandon Lord, a top official at CBP, provided information regarding the planned refund system in a court filing.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "Importers will not be required to sue to receive their refunds, simplifying the process.",
+          "text": "The total sum held in relation to the tariffs is estimated to be about $166 billion.",
           "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         }
       ],
@@ -260,28 +238,62 @@
       ]
     },
     {
-      "slug": "story-10",
-      "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-      "context": "The tourism and financial markets have experienced volatility due to escalating tensions in the Middle East, particularly involving Iran. These geopolitical issues can lead to fluctuations in oil prices, which often impact stock markets significantly.",
-      "category": "Business",
+      "slug": "story-9",
+      "headline": "Iran Intensifies Strikes Amid Ongoing Conflict",
+      "context": "The conflict between Iran and Israel has escalated significantly over the past week, leading to military actions from both sides. Recent developments include Iranian strikes aimed at Jerusalem, Tel Aviv, and U.S. military bases, in response to Israeli operations against targets in Lebanon.",
+      "category": "World",
       "facts": [
         {
-          "text": "The Dow Jones Industrial Average fell by 650 points today.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+          "text": "Iran launched new missile strikes at Jerusalem and Tel Aviv today.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         },
         {
-          "text": "U.S. crude oil prices increased by 9% on the same day.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+          "text": "U.S. military bases in the region also came under attack by Iranian forces.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         },
         {
-          "text": "Market analysts attribute the decline in the Dow to concerns over rising fuel costs.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+          "text": "Israel has increased its airstrikes on targets in Lebanon, continuing its military campaign.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+        },
+        {
+          "text": "The U.S. Senate voted to support President Trump's war powers regarding the ongoing conflict.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
+        }
+      ]
+    },
+    {
+      "slug": "story-10",
+      "headline": "Ukraine and Russia Conduct Significant Prisoner Exchange",
+      "context": "The latest prisoner exchange between Ukraine and Russia represents a critical development amid ongoing tensions and stalled peace talks. This exchange is one of the few concrete outcomes following discussions that have been hindered by concurrent conflicts in the Middle East.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Ukrainian President Volodymyr Zelenskyy visited the front lines shortly after the exchange.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        },
+        {
+          "text": "Both nations swapped 500 prisoners as part of the agreement.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        },
+        {
+          "text": "The exchange marks a continuation of past efforts to resolve humanitarian issues despite broader conflicts.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        },
+        {
+          "text": "Negotiations for further peace talks are reportedly facing delays.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
         }
       ]
     }
@@ -343,9 +355,9 @@
       "Claude"
     ],
     "feeds_attempted": 28,
-    "raw_items": 140,
-    "after_dedup": 128,
-    "after_filter": 126,
+    "raw_items": 135,
+    "after_dedup": 123,
+    "after_filter": 122,
     "consensus_stories": 10
   }
 }
