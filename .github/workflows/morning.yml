@@ -29,7 +29,7 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: python scripts/generate_daily.py
 
-      - name: Commit updated daily.json
+      - name: Commit all data changes
         run: |
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
@@ -37,7 +37,7 @@ jobs:
           fi
           git config user.name "daily-informant-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/daily.json
+          git add data/daily.json data/archive.json data/topics.json
           git commit -m "Update daily edition — $(date -u +%Y-%m-%d)"
 
       - name: Push changes
