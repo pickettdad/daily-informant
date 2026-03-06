@@ -388,12 +388,15 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
     # OpenAI (required)
     if OPENAI_API_KEY:
         print("  → OpenAI selecting stories...")
-        picks = call_openai_selection(pool_text)
-        if picks:
-            results["OpenAI"] = picks
-            print(f"    OpenAI picked {len(picks)} stories: {picks[:5]}...")
-        else:
-            print("    OpenAI returned no picks")
+        try:
+            picks = call_openai_selection(pool_text)
+            if picks:
+                results["OpenAI"] = picks
+                print(f"    OpenAI picked {len(picks)} stories: {picks[:5]}...")
+            else:
+                print("    OpenAI returned no picks")
+        except Exception as e:
+            print(f"    OpenAI failed: {e}")
     else:
         print("  ✗ OpenAI: no API key")
 
@@ -402,12 +405,15 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
     # Claude (optional)
     if ANTHROPIC_API_KEY:
         print("  → Claude selecting stories...")
-        picks = call_claude_selection(pool_text)
-        if picks:
-            results["Claude"] = picks
-            print(f"    Claude picked {len(picks)} stories: {picks[:5]}...")
-        else:
-            print("    Claude returned no picks")
+        try:
+            picks = call_claude_selection(pool_text)
+            if picks:
+                results["Claude"] = picks
+                print(f"    Claude picked {len(picks)} stories: {picks[:5]}...")
+            else:
+                print("    Claude returned no picks")
+        except Exception as e:
+            print(f"    Claude failed: {e}")
     else:
         print("  ○ Claude: no API key (skipping)")
 
@@ -416,12 +422,15 @@ def run_ai_selection(pool_text: str) -> dict[str, list[int]]:
     # Grok (optional)
     if XAI_API_KEY:
         print("  → Grok selecting stories...")
-        picks = call_grok_selection(pool_text)
-        if picks:
-            results["Grok"] = picks
-            print(f"    Grok picked {len(picks)} stories: {picks[:5]}...")
-        else:
-            print("    Grok returned no picks")
+        try:
+            picks = call_grok_selection(pool_text)
+            if picks:
+                results["Grok"] = picks
+                print(f"    Grok picked {len(picks)} stories: {picks[:5]}...")
+            else:
+                print("    Grok returned no picks")
+        except Exception as e:
+            print(f"    Grok failed: {e}")
     else:
         print("  ○ Grok: no API key (skipping)")
 
