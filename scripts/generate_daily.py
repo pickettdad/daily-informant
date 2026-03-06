@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 """
-The Daily Informant — Morning Pipeline v5
-==========================================
+The Daily Informant — Morning Pipeline v5.1
+=============================================
 
-v5 changes:
-  - 25+ stories across categories (up from 10)
-  - Stakeholder quotes extracted automatically
-  - Good news stories auto-detected and separated
-  - Source matching threshold lowered to 0.30
-  - Sports feeds added (ESPN, BBC Sport)
-  - AI selection prompt updated for more stories + category diversity
-  - Category targets: World, US, Canada, Business, Science, Health, Tech, Sports
+v5.1 changes:
+  - GROK FIXED: Uses /v1/responses endpoint (not legacy /v1/chat/completions)
+    with "input" field (not "messages") — confirmed working
+  - Good news feeds added (Good News Network, Positive News, Christianity Today, etc.)
+  - is_good_development criteria narrowed to humanitarian/faith/community stories
+  - All other v5 features retained (25 stories, categories, stakeholder quotes, archive)
 
 Required env vars:
   OPENAI_API_KEY      — OpenAI API key (required)
@@ -79,12 +77,11 @@ FEEDS = [
     {"name": "TSN",                "url": "https://www.tsn.ca/rss/all",                              "lean": "Center"},
 
     # ── Good News / Humanitarian / Faith ──
-    {"name": "Good News Network",  "url": "https://www.goodnewsnetwork.org/feed/",                "lean": "Center"},
-    {"name": "Positive News",      "url": "https://www.positive.news/feed/",                       "lean": "Center"},
-    {"name": "Christianity Today", "url": "https://www.christianitytoday.com/feed/",               "lean": "Center"},
+    {"name": "Good News Network",  "url": "https://www.goodnewsnetwork.org/feed/",                  "lean": "Center"},
+    {"name": "Positive News",      "url": "https://www.positive.news/feed/",                         "lean": "Center"},
+    {"name": "Christianity Today", "url": "https://www.christianitytoday.com/feed/",                 "lean": "Center"},
     {"name": "Deseret News Faith", "url": "https://www.deseret.com/arc/outboundfeeds/rss/category/faith/", "lean": "Center"},
-    {"name": "Catholic News",      "url": "https://www.ncronline.org/feeds/all",                   "lean": "Center"},
-    {"name": "Salvation Army",     "url": "https://www.salvationarmy.org/ihq/feed",                "lean": "Center"},
+    {"name": "Catholic News",      "url": "https://www.ncronline.org/feeds/all",                     "lean": "Center"},
 ]
 
 ITEMS_PER_FEED = 6
@@ -93,7 +90,7 @@ MIN_CONSENSUS = 2
 
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
-GROK_MODEL = "grok-4-1-fast-reasoning"
+GROK_MODEL = "grok-4-1-fast-non-reasoning"
 
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 5
@@ -283,7 +280,7 @@ CATEGORY TARGETS (aim for this mix):
 - 3-4 Business/Economy stories
 - 2-3 Science/Health/Tech stories
 - 2-3 Sports stories
-- 2-3 stories that are GENUINELY POSITIVE (medical breakthroughs, peace progress, scientific discoveries, community wins) — mark these by adding a + before the number
+- 2-3 stories that are GENUINELY POSITIVE about people helping people (humanitarian aid, disaster relief, volunteers, missionary work, charitable giving, community rebuilding, faith-based service) — mark these by adding a + before the number
 
 SELECTION CRITERIA:
 1. IMPACT — How many people does this actually affect?
@@ -310,7 +307,13 @@ def build_story_pool_text(items):
     return "\n".join(lines)
 
 
-def _call_api(url, headers, payload, model_name, response_path="openai"):
+# ── API Callers ─────────────────────────────────────────────────────
+# OpenAI and Claude use /v1/chat/completions style.
+# Grok uses /v1/responses (the new xAI Responses API).
+
+
+def _call_openai_style_api(url, headers, payload, model_name, response_path="openai"):
+    """Call OpenAI-compatible chat/completions API (works for OpenAI and Claude)."""
     data_bytes = json.dumps(payload).encode("utf-8")
     req = Request(url, data=data_bytes, headers=headers, method="POST")
     last_error = None
@@ -323,7 +326,6 @@ def _call_api(url, headers, payload, model_name, response_path="openai"):
                 else:
                     raw_text = data["choices"][0]["message"]["content"]
                 raw_text = raw_text.strip()
-                # Parse the array, handling + prefixed numbers for good news
                 match = re.search(r'\[([^\]]+)\]', raw_text)
                 if match:
                     inner = match.group(1)
@@ -350,7 +352,12 @@ def _call_api(url, headers, payload, model_name, response_path="openai"):
                 time.sleep(wait)
                 continue
             else:
-                print(f"    {model_name} HTTP error: {e.code}")
+                body = ""
+                try:
+                    body = e.read().decode("utf-8", "replace")[:300]
+                except Exception:
+                    pass
+                print(f"    {model_name} HTTP {e.code}: {body}")
                 return [], set()
         except Exception as e:
             last_error = e
@@ -360,8 +367,93 @@ def _call_api(url, headers, payload, model_name, response_path="openai"):
     return [], set()
 
 
+def _call_grok_responses_api(pool_text, model_name="Grok"):
+    """Call xAI Responses API (/v1/responses) — the current recommended endpoint."""
+    payload = json.dumps({
+        "model": GROK_MODEL,
+        "input": [
+            {"role": "system", "content": SELECTION_PROMPT},
+            {"role": "user", "content": pool_text},
+        ],
+        "temperature": 0.3,
+        "store": False,
+    }).encode("utf-8")
+
+    req = Request(
+        "https://api.x.ai/v1/responses",
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {XAI_API_KEY}",
+        },
+        method="POST",
+    )
+
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            with urlopen(req, timeout=120) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+
+                # Parse Responses API format:
+                # output[0].content[0].text
+                raw_text = ""
+                for item in data.get("output", []):
+                    if item.get("type") == "message":
+                        for content in item.get("content", []):
+                            if content.get("type") == "output_text":
+                                raw_text += content.get("text", "")
+
+                raw_text = raw_text.strip()
+                match = re.search(r'\[([^\]]+)\]', raw_text)
+                if match:
+                    inner = match.group(1)
+                    numbers = []
+                    good_news_indices = set()
+                    for part in inner.split(","):
+                        part = part.strip()
+                        is_good = part.startswith("+")
+                        part = part.lstrip("+").strip()
+                        try:
+                            num = int(part)
+                            numbers.append(num)
+                            if is_good:
+                                good_news_indices.add(num)
+                        except ValueError:
+                            continue
+                    return numbers, good_news_indices
+                else:
+                    print(f"    {model_name}: Could not parse selection from response")
+                    print(f"    Raw response: {raw_text[:200]}")
+                    return [], set()
+
+        except HTTPError as e:
+            last_error = e
+            body = ""
+            try:
+                body = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                pass
+            if e.code in (429, 500, 502, 503):
+                wait = RETRY_BASE_DELAY * (attempt + 1)
+                print(f"    {model_name} error ({e.code}). Waiting {wait}s... (attempt {attempt + 1})")
+                print(f"    Body: {body}")
+                time.sleep(wait)
+                continue
+            else:
+                print(f"    {model_name} HTTP {e.code}: {body}")
+                return [], set()
+        except Exception as e:
+            last_error = e
+            time.sleep(RETRY_BASE_DELAY)
+            continue
+
+    print(f"    {model_name} failed after retries: {last_error}")
+    return [], set()
+
+
 def call_openai_selection(pool_text):
-    return _call_api(
+    return _call_openai_style_api(
         url="https://api.openai.com/v1/chat/completions",
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
         payload={"model": OPENAI_MODEL, "messages": [
@@ -373,7 +465,7 @@ def call_openai_selection(pool_text):
 
 
 def call_claude_selection(pool_text):
-    return _call_api(
+    return _call_openai_style_api(
         url="https://api.anthropic.com/v1/messages",
         headers={"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
         payload={"model": CLAUDE_MODEL, "max_tokens": 2048, "messages": [
@@ -385,15 +477,7 @@ def call_claude_selection(pool_text):
 
 
 def call_grok_selection(pool_text):
-    return _call_api(
-        url="https://api.x.ai/v1/chat/completions",
-        headers={"Content-Type": "application/json", "Authorization": f"Bearer {XAI_API_KEY}"},
-        payload={"model": GROK_MODEL, "messages": [
-            {"role": "system", "content": SELECTION_PROMPT},
-            {"role": "user", "content": pool_text},
-        ], "temperature": 0.3},
-        model_name="Grok",
-    )
+    return _call_grok_responses_api(pool_text)
 
 
 def run_ai_selection(pool_text):
@@ -434,6 +518,8 @@ def run_ai_selection(pool_text):
                 results["Grok"] = picks
                 all_good_news.update(good)
                 print(f"    Grok picked {len(picks)} stories, {len(good)} flagged as good news")
+            else:
+                print("    Grok returned no picks")
         except Exception as e:
             print(f"    Grok failed: {e}")
 
@@ -462,6 +548,9 @@ def build_consensus(selections, pool_size):
     consensus.sort(key=lambda s: (-vote_counts[s], rank_sums[s] / vote_counts[s]))
 
     print(f"\n   Consensus ({num_models} models, min {min_votes} votes): {len(consensus)} stories agreed")
+    for s in consensus[:15]:
+        avg = rank_sums[s] / vote_counts[s]
+        print(f"    Story #{s}: {vote_counts[s]}/{num_models} votes, avg rank {avg:.1f}")
 
     if len(consensus) < MAX_STORIES:
         remaining = [s for s in vote_counts if s not in consensus]
@@ -587,7 +676,6 @@ def build_story(entry, idx, all_items, is_good_news_flagged=False):
         if not facts:
             raise RuntimeError("No usable facts")
 
-        # Build stakeholder quotes with source URLs
         quotes = []
         for q in ai.get("stakeholder_quotes", []):
             if q.get("speaker") and q.get("quote"):
@@ -660,7 +748,7 @@ def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
 
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v5")
+    print("  The Daily Informant — Morning Pipeline v5.1")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -724,7 +812,7 @@ def main():
                 "facts": story["facts"],
                 "sources": story["sources"],
             })
-        regular_stories.append(story)  # Keep in main list too
+        regular_stories.append(story)
 
     print(f"\n   Good developments found: {len(good_developments)}")
 
@@ -767,7 +855,7 @@ def main():
             "for those whose stories we carry today. Amen.",
         ),
         "_meta": {
-            "pipeline_version": "5.0",
+            "pipeline_version": "5.1",
             "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS),
             "raw_items": len(all_items),
