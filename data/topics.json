@@ -15,18 +15,51 @@
         "Nuclear Sites": "Multiple facilities targeted"
       },
       "key_parties": [
-        {"name": "United States", "role": "Leading coalition airstrikes on military/nuclear targets"},
-        {"name": "Israel", "role": "Conducting parallel strikes on Iranian proxies and Tehran"},
-        {"name": "Iran", "role": "Defending territory, launching retaliatory missile strikes"},
-        {"name": "China", "role": "Calling for ceasefire, monitoring trade/energy impacts"},
-        {"name": "Russia", "role": "Vetoed UN ceasefire resolution, diplomatic engagement with Tehran"},
-        {"name": "Qatar", "role": "Warning of Gulf oil production disruption"}
+        {
+          "name": "United States",
+          "role": "Leading coalition airstrikes on military/nuclear targets"
+        },
+        {
+          "name": "Israel",
+          "role": "Conducting parallel strikes on Iranian proxies and Tehran"
+        },
+        {
+          "name": "Iran",
+          "role": "Defending territory, launching retaliatory missile strikes"
+        },
+        {
+          "name": "China",
+          "role": "Calling for ceasefire, monitoring trade/energy impacts"
+        },
+        {
+          "name": "Russia",
+          "role": "Vetoed UN ceasefire resolution, diplomatic engagement with Tehran"
+        },
+        {
+          "name": "Qatar",
+          "role": "Warning of Gulf oil production disruption"
+        }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Escalation of Conflict in the Middle East",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
       "primary_sources": [
-        {"name": "U.S. Department of Defense", "url": "https://www.defense.gov/"},
-        {"name": "UN News", "url": "https://news.un.org/"},
-        {"name": "IAEA", "url": "https://www.iaea.org/"}
+        {
+          "name": "U.S. Department of Defense",
+          "url": "https://www.defense.gov/"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        },
+        {
+          "name": "IAEA",
+          "url": "https://www.iaea.org/"
+        }
       ]
     },
     {
@@ -47,18 +80,51 @@
         "Peace Talks": "Multiple rounds stalled; no active negotiations"
       },
       "key_parties": [
-        {"name": "Ukraine", "role": "Defending sovereign territory, seeking NATO membership"},
-        {"name": "Russia", "role": "Occupying eastern/southern regions, seeking territorial concessions"},
-        {"name": "NATO/EU", "role": "Providing military aid, sanctions on Russia"},
-        {"name": "United States", "role": "Largest military aid provider to Ukraine"},
-        {"name": "China", "role": "Maintaining relations with Russia while calling for negotiations"},
-        {"name": "United Nations", "role": "Monitoring civilian casualties, humanitarian coordination"}
+        {
+          "name": "Ukraine",
+          "role": "Defending sovereign territory, seeking NATO membership"
+        },
+        {
+          "name": "Russia",
+          "role": "Occupying eastern/southern regions, seeking territorial concessions"
+        },
+        {
+          "name": "NATO/EU",
+          "role": "Providing military aid, sanctions on Russia"
+        },
+        {
+          "name": "United States",
+          "role": "Largest military aid provider to Ukraine"
+        },
+        {
+          "name": "China",
+          "role": "Maintaining relations with Russia while calling for negotiations"
+        },
+        {
+          "name": "United Nations",
+          "role": "Monitoring civilian casualties, humanitarian coordination"
+        }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Escalation of Conflict in the Middle East",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
       "primary_sources": [
-        {"name": "UN OHCHR", "url": "https://www.ohchr.org/"},
-        {"name": "UNHCR", "url": "https://www.unhcr.org/"},
-        {"name": "Institute for the Study of War", "url": "https://www.understandingwar.org/"}
+        {
+          "name": "UN OHCHR",
+          "url": "https://www.ohchr.org/"
+        },
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/"
+        },
+        {
+          "name": "Institute for the Study of War",
+          "url": "https://www.understandingwar.org/"
+        }
       ]
     },
     {
@@ -77,18 +143,45 @@
         "Market Impact": "Dow declining amid stagflation fears"
       },
       "key_parties": [
-        {"name": "U.S. Federal Reserve", "role": "Setting U.S. interest rates, managing inflation"},
-        {"name": "Bank of Canada", "role": "Canadian monetary policy, rate decisions"},
-        {"name": "European Central Bank", "role": "Eurozone monetary policy"},
-        {"name": "U.S. Bureau of Labor Statistics", "role": "Publishing employment and inflation data"},
-        {"name": "World Bank", "role": "Global economic forecasting and development"}
+        {
+          "name": "U.S. Federal Reserve",
+          "role": "Setting U.S. interest rates, managing inflation"
+        },
+        {
+          "name": "Bank of Canada",
+          "role": "Canadian monetary policy, rate decisions"
+        },
+        {
+          "name": "European Central Bank",
+          "role": "Eurozone monetary policy"
+        },
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "role": "Publishing employment and inflation data"
+        },
+        {
+          "name": "World Bank",
+          "role": "Global economic forecasting and development"
+        }
       ],
       "timeline": [],
       "primary_sources": [
-        {"name": "U.S. Federal Reserve", "url": "https://www.federalreserve.gov/"},
-        {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/"},
-        {"name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/"},
-        {"name": "Statistics Canada", "url": "https://www.statcan.gc.ca/"}
+        {
+          "name": "U.S. Federal Reserve",
+          "url": "https://www.federalreserve.gov/"
+        },
+        {
+          "name": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/"
+        },
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/"
+        },
+        {
+          "name": "Statistics Canada",
+          "url": "https://www.statcan.gc.ca/"
+        }
       ]
     },
     {
@@ -106,17 +199,47 @@
         "Consumer Impact": "Higher prices on imported goods"
       },
       "key_parties": [
-        {"name": "White House", "role": "Setting tariff policy via executive action"},
-        {"name": "U.S. Customs and Border Protection", "role": "Collecting tariffs, developing refund system"},
-        {"name": "U.S. Court of International Trade", "role": "Adjudicating tariff legality"},
-        {"name": "China", "role": "Subject of largest tariffs, retaliating with counter-duties"},
-        {"name": "Canada", "role": "Affected trading partner, imposing counter-tariffs"}
+        {
+          "name": "White House",
+          "role": "Setting tariff policy via executive action"
+        },
+        {
+          "name": "U.S. Customs and Border Protection",
+          "role": "Collecting tariffs, developing refund system"
+        },
+        {
+          "name": "U.S. Court of International Trade",
+          "role": "Adjudicating tariff legality"
+        },
+        {
+          "name": "China",
+          "role": "Subject of largest tariffs, retaliating with counter-duties"
+        },
+        {
+          "name": "Canada",
+          "role": "Affected trading partner, imposing counter-tariffs"
+        }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "US Customs Agency to Process Refunds on Illegal Tariffs",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ],
       "primary_sources": [
-        {"name": "U.S. Customs and Border Protection", "url": "https://www.cbp.gov/"},
-        {"name": "Office of the U.S. Trade Representative", "url": "https://ustr.gov/"},
-        {"name": "U.S. Court of International Trade", "url": "https://www.cit.uscourts.gov/"}
+        {
+          "name": "U.S. Customs and Border Protection",
+          "url": "https://www.cbp.gov/"
+        },
+        {
+          "name": "Office of the U.S. Trade Representative",
+          "url": "https://ustr.gov/"
+        },
+        {
+          "name": "U.S. Court of International Trade",
+          "url": "https://www.cit.uscourts.gov/"
+        }
       ]
     },
     {
@@ -135,18 +258,51 @@
         "Ceasefire": "Multiple proposals, none sustained"
       },
       "key_parties": [
-        {"name": "Israel", "role": "Military operations in Gaza, airstrikes on Iran/Lebanon"},
-        {"name": "Hamas", "role": "Governing Gaza, holding hostages"},
-        {"name": "United States", "role": "Ally of Israel, mediating ceasefire talks"},
-        {"name": "Egypt & Qatar", "role": "Ceasefire mediators"},
-        {"name": "UNRWA", "role": "Humanitarian aid in Gaza"},
-        {"name": "ICJ", "role": "Adjudicating genocide case brought by South Africa"}
+        {
+          "name": "Israel",
+          "role": "Military operations in Gaza, airstrikes on Iran/Lebanon"
+        },
+        {
+          "name": "Hamas",
+          "role": "Governing Gaza, holding hostages"
+        },
+        {
+          "name": "United States",
+          "role": "Ally of Israel, mediating ceasefire talks"
+        },
+        {
+          "name": "Egypt & Qatar",
+          "role": "Ceasefire mediators"
+        },
+        {
+          "name": "UNRWA",
+          "role": "Humanitarian aid in Gaza"
+        },
+        {
+          "name": "ICJ",
+          "role": "Adjudicating genocide case brought by South Africa"
+        }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Escalation of Conflict in the Middle East",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
       "primary_sources": [
-        {"name": "UN OCHA", "url": "https://www.unocha.org/"},
-        {"name": "International Committee of the Red Cross", "url": "https://www.icrc.org/"},
-        {"name": "International Court of Justice", "url": "https://www.icj-cij.org/"}
+        {
+          "name": "UN OCHA",
+          "url": "https://www.unocha.org/"
+        },
+        {
+          "name": "International Committee of the Red Cross",
+          "url": "https://www.icrc.org/"
+        },
+        {
+          "name": "International Court of Justice",
+          "url": "https://www.icj-cij.org/"
+        }
       ]
     },
     {
@@ -165,18 +321,51 @@
         "Humanitarian Access": "Severely limited in both countries"
       },
       "key_parties": [
-        {"name": "SAF (Sudan Armed Forces)", "role": "Government military, led by Gen. al-Burhan"},
-        {"name": "RSF (Rapid Support Forces)", "role": "Paramilitary, led by Gen. Dagalo (Hemedti)"},
-        {"name": "South Sudan Government", "role": "Facing internal opposition violence"},
-        {"name": "UNHCR", "role": "Managing refugee crisis in neighboring countries"},
-        {"name": "African Union", "role": "Mediation efforts"},
-        {"name": "United Nations", "role": "Humanitarian coordination, famine warnings"}
+        {
+          "name": "SAF (Sudan Armed Forces)",
+          "role": "Government military, led by Gen. al-Burhan"
+        },
+        {
+          "name": "RSF (Rapid Support Forces)",
+          "role": "Paramilitary, led by Gen. Dagalo (Hemedti)"
+        },
+        {
+          "name": "South Sudan Government",
+          "role": "Facing internal opposition violence"
+        },
+        {
+          "name": "UNHCR",
+          "role": "Managing refugee crisis in neighboring countries"
+        },
+        {
+          "name": "African Union",
+          "role": "Mediation efforts"
+        },
+        {
+          "name": "United Nations",
+          "role": "Humanitarian coordination, famine warnings"
+        }
       ],
-      "timeline": [],
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "text": "Escalation of Conflict in the Middle East",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
       "primary_sources": [
-        {"name": "UNHCR", "url": "https://www.unhcr.org/"},
-        {"name": "UN News", "url": "https://news.un.org/"},
-        {"name": "OCHA Sudan", "url": "https://www.unocha.org/sudan"}
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/"
+        },
+        {
+          "name": "OCHA Sudan",
+          "url": "https://www.unocha.org/sudan"
+        }
       ]
     },
     {
@@ -194,17 +383,41 @@
         "Key Areas": "Training data disclosure, safety testing, deepfake labeling"
       },
       "key_parties": [
-        {"name": "European Commission", "role": "Enforcing AI Act, setting global precedent"},
-        {"name": "White House", "role": "Executive orders on AI safety"},
-        {"name": "Major AI Companies", "role": "OpenAI, Anthropic, Google, Meta, xAI — compliance required"},
-        {"name": "U.S. Congress", "role": "Considering AI legislation"},
-        {"name": "China's CAC", "role": "Enforcing China's AI regulations"}
+        {
+          "name": "European Commission",
+          "role": "Enforcing AI Act, setting global precedent"
+        },
+        {
+          "name": "White House",
+          "role": "Executive orders on AI safety"
+        },
+        {
+          "name": "Major AI Companies",
+          "role": "OpenAI, Anthropic, Google, Meta, xAI — compliance required"
+        },
+        {
+          "name": "U.S. Congress",
+          "role": "Considering AI legislation"
+        },
+        {
+          "name": "China's CAC",
+          "role": "Enforcing China's AI regulations"
+        }
       ],
       "timeline": [],
       "primary_sources": [
-        {"name": "European Commission", "url": "https://ec.europa.eu/"},
-        {"name": "White House AI Policy", "url": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"},
-        {"name": "NIST AI Framework", "url": "https://www.nist.gov/artificial-intelligence"}
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/"
+        },
+        {
+          "name": "White House AI Policy",
+          "url": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"
+        },
+        {
+          "name": "NIST AI Framework",
+          "url": "https://www.nist.gov/artificial-intelligence"
+        }
       ]
     },
     {
@@ -222,18 +435,45 @@
         "Loss & Damage": "Fund established at COP27, slow disbursement"
       },
       "key_parties": [
-        {"name": "UNFCCC", "role": "Coordinating international climate negotiations"},
-        {"name": "IPCC", "role": "Scientific assessment of climate change"},
-        {"name": "IEA", "role": "Energy policy analysis and forecasting"},
-        {"name": "United States", "role": "Second-largest emitter, policy varies by administration"},
-        {"name": "China", "role": "Largest emitter, largest renewable energy investor"},
-        {"name": "EU", "role": "Green Deal legislation, carbon border adjustment"}
+        {
+          "name": "UNFCCC",
+          "role": "Coordinating international climate negotiations"
+        },
+        {
+          "name": "IPCC",
+          "role": "Scientific assessment of climate change"
+        },
+        {
+          "name": "IEA",
+          "role": "Energy policy analysis and forecasting"
+        },
+        {
+          "name": "United States",
+          "role": "Second-largest emitter, policy varies by administration"
+        },
+        {
+          "name": "China",
+          "role": "Largest emitter, largest renewable energy investor"
+        },
+        {
+          "name": "EU",
+          "role": "Green Deal legislation, carbon border adjustment"
+        }
       ],
       "timeline": [],
       "primary_sources": [
-        {"name": "UNFCCC", "url": "https://unfccc.int/"},
-        {"name": "NASA Climate", "url": "https://climate.nasa.gov/"},
-        {"name": "IEA", "url": "https://www.iea.org/"}
+        {
+          "name": "UNFCCC",
+          "url": "https://unfccc.int/"
+        },
+        {
+          "name": "NASA Climate",
+          "url": "https://climate.nasa.gov/"
+        },
+        {
+          "name": "IEA",
+          "url": "https://www.iea.org/"
+        }
       ]
     }
   ]
