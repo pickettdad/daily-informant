@@ -3,20 +3,62 @@
   "top_stories": [
     {
       "slug": "story-1",
-      "headline": "Oil Prices Reach Highest Levels Since 2023 Amid Economic Concerns",
-      "context": "The surge in oil prices is attributed to ongoing tensions related to the Iran war. Additionally, a recent update on the U.S. job market indicates weakening conditions, contributing to a decline in stock prices this week, marking Wall Street's worst performance since October.",
+      "headline": "Young Boy Raises Funds for Charity Through Can Recycling",
+      "context": "Ryan Hulance, a 13-year-old from Solihull, England, has initiated a recycling project to support food banks. His efforts combine environmental responsibility with community aid, highlighting a grassroots approach to addressing local needs.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Ryan has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He has raised thousands of dollars to donate to charity.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "His initiative aims to support food banks while promoting environmental awareness.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan contacted local businesses to gather cans for recycling.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Ryan Hulance",
+          "quote": "I wanted to help people who need food and also do something good for the planet.",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-2",
+      "headline": "Oil Prices Rise Amid U.S. Jobs Report",
+      "context": "Oil prices increased significantly, reaching their highest point since 2023, largely due to ongoing tensions related to the Iran war. Simultaneously, a disappointing jobs report for the U.S. labor market negatively impacted stock prices, contributing to a downturn for Wall Street in recent days.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices have surged to their highest level since 2023 due to increased tensions in the Middle East.",
+          "text": "Oil prices surged to their highest level since 2023.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "The U.S. job market update reported weaker-than-expected figures, impacting investor confidence.",
+          "text": "The increase in oil prices was attributed to the ongoing Iran war.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         },
         {
-          "text": "Stocks experienced their worst week since October in reaction to the economic developments.",
+          "text": "The U.S. jobs report showed weaker than expected results, leading to a decline in stock prices.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
+        },
+        {
+          "text": "Wall Street experienced its worst week since October.",
           "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
         }
       ],
@@ -30,21 +72,53 @@
       "is_good_development": false
     },
     {
-      "slug": "story-2",
-      "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Rising Tensions",
-      "context": "Recent military actions have escalated tensions between Israel and Iran. Following missile launches from Iran toward Israel, Israel responded with airstrikes targeting locations in Tehran and Beirut.",
+      "slug": "story-3",
+      "headline": "Conflict Escalates in the Middle East",
+      "context": "A new war in the Middle East has intensified over the past week. This escalation has raised concerns among U.S. allies in the region and prompted efforts to contain the situation.",
       "category": "World",
       "facts": [
         {
-          "text": "Iran fired missiles toward Israel on March 6, 2026.",
+          "text": "The war began nearly a week ago and has rapidly expanded.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        },
+        {
+          "text": "Key U.S. allies in the region are experiencing significant impacts from the conflict.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        },
+        {
+          "text": "Efforts are underway to contain the conflict situation among regional partners.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        },
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-4",
+      "headline": "Israel Conducts Strikes in Beirut and Tehran following Iranian Missile Fire",
+      "context": "The recent conflict escalated as Iran fired missiles toward Israel, prompting Israeli defense actions. This cycle of attacks underscores ongoing tensions between Israel and Iran, influenced by regional security dynamics and international political statements.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Iran launched missiles toward Israel on Friday.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "In response, Israel launched strikes on Tehran and hit southern suburbs of Beirut overnight.",
+          "text": "Israeli forces carried out strikes in Tehran and targeted Beirut's southern suburbs.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         },
         {
-          "text": "These events mark a significant increase in hostilities between the two countries.",
+          "text": "The situation has drawn response from international figures, including former President Donald Trump.",
           "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
         }
       ],
@@ -66,53 +140,35 @@
           "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
       ],
-      "stakeholder_quotes": [],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Donald Trump",
+          "quote": "We demand Iran's unconditional surrender.",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
+        }
+      ],
       "is_good_development": false
     },
     {
-      "slug": "story-3",
-      "headline": "China Sets Lowest Economic Growth Target in Decades",
-      "context": "China's economy is facing challenges due to lower domestic demand. In response, the government has set a more modest growth target for the year.",
+      "slug": "story-5",
+      "headline": "Violence Escalates in South Sudan Amid Government and Opposition Clashes",
+      "context": "South Sudan is experiencing significant conflict as violence between government-aligned forces and opposition groups increases. This turmoil follows a history of civil conflict in the country and raises concerns about a potential return to full-blown civil war.",
       "category": "World",
       "facts": [
         {
-          "text": "China's new growth target is the lowest in decades.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
-        },
-        {
-          "text": "The adjustment reflects sluggish domestic demand affecting the economy.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
-        },
-        {
-          "text": "Officials are responding to economic uncertainties with this revised target.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-4",
-      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-      "context": "South Sudan faces increasing conflict between government-aligned forces and opposition groups. Recent clashes threaten to destabilize the country further, with fears of a return to full-scale civil war.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "At least 169 people have been killed in a raid near the Sudan border.",
+          "text": "At least 169 people have been killed in a recent raid near the Sudan border.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Violent clashes have intensified between government forces and opposition factions.",
+          "text": "Clashes between government forces and opposition groups have intensified in South Sudan.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         },
         {
-          "text": "Observers warn that the continuing violence could lead to a resurgence of civil war.",
+          "text": "Observers have warned that the rising violence may lead to a civil war.",
+          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
+        },
+        {
+          "text": "The conflict indicates a breakdown in the peace processes established after previous civil war.",
           "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
         }
       ],
@@ -126,21 +182,21 @@
       "is_good_development": false
     },
     {
-      "slug": "story-5",
-      "headline": "US Economy Loses 92,000 Jobs in February",
-      "context": "February's job loss is a notable event for the US economy, signaling potential challenges ahead. This unexpected drop in employment comes amidst ongoing economic adjustments following the recovery period from the pandemic.",
+      "slug": "story-6",
+      "headline": "US Economy Reports Job Losses in February",
+      "context": "The US labor market showed an unexpected contraction in February, as payrolls decreased by 92,000 jobs. This decline comes amid concerns about economic stability and performance across various sectors, raising questions about future employment trends.",
       "category": "US",
       "facts": [
         {
-          "text": "The US economy lost 92,000 jobs in February 2026.",
+          "text": "The US economy lost 92,000 jobs in February",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Payroll declines were seen across nearly all sectors.",
+          "text": "Job losses occurred in nearly every sector",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The job loss was larger than analysts had predicted.",
+          "text": "This report contradicts previous expectations of job growth",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -158,49 +214,185 @@
       "is_good_development": false
     },
     {
-      "slug": "story-6",
-      "headline": "US and Venezuela to Resume Diplomatic Relations",
-      "context": "Recent developments in US-Venezuela relations include the capture of President Nicolás Maduro by US authorities. This situation has prompted both countries to agree on joint efforts aimed at promoting stability in the region.",
-      "category": "World",
+      "slug": "story-7",
+      "headline": "US Customs Prepares Refund System for Illegal Trump Tariffs",
+      "context": "The U.S. Customs and Border Protection agency is implementing a new system to refund tariffs that were deemed illegal. This development follows a long-standing legal challenge regarding the tariffs collect by the previous administration, which amounted to approximately $166 billion.",
+      "category": "US",
       "facts": [
         {
-          "text": "The US government announced plans to resume diplomatic ties with Venezuela.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "The refund system will be operational in 45 days.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "Nicolás Maduro and his wife were captured by US forces as part of an operation.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "Importers will not need to sue to receive refunds.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         },
         {
-          "text": "Both countries aim to collaborate on stability initiatives following this development.",
-          "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "text": "The total estimated sum associated with the illegal tariffs is about $166 billion.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        },
+        {
+          "text": "Brandon Lord, a top official at CBP, provided the information in a court filing.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Brandon Lord",
+          "quote": "The system will be ready to process refunds in 45 days.",
+          "url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
+        }
+      ],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-8",
+      "headline": "Wife Helps Locate Husband Buried in Avalanche Using Tracking Technology",
+      "context": "This incident highlights the potential lifesaving capabilities of technology in emergency situations. Michael Harris was skiing at Stevens Pass Ski Resort when he was buried under an avalanche in late February, prompting a rapid response from search and rescue teams.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "Michael Harris was skiing the Big Chief Bowl at Stevens Pass Ski Resort when an avalanche occurred.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "He was buried for over four hours before being located.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "His wife used the 'Find My iPhone' feature to help guide rescue teams to his location.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "Rescue teams were able to reach Michael and bring him to safety.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Michael Harris",
+          "quote": "I’m just grateful for my wife and the technology that helped save my life.",
+          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        }
+      ],
+      "is_good_development": true
+    },
+    {
+      "slug": "story-9",
+      "headline": "Supreme Court Determines Asylum Seekers Can Access Subsidized Daycare in Quebec",
+      "context": "This ruling addresses a legal dispute that began in 2018 when an asylum seeker was denied access to subsidized childcare while awaiting a refugee decision. The Supreme Court's decision impacts the rights of asylum seekers in Quebec regarding access to essential services.",
+      "category": "Canada",
+      "facts": [
+        {
+          "text": "The Supreme Court ruled that asylum seekers are entitled to subsidized daycare in Quebec.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The case began in 2018 when a woman's claim for refugee protection was under review.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        },
+        {
+          "text": "The decision may influence similar cases regarding access to services for refugees and asylum seekers in Canada.",
+          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
+        }
+      ],
+      "sources": [
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false
     },
     {
-      "slug": "story-7",
-      "headline": "Oil Prices Surge as Qatar Issues Production Warning",
-      "context": "The announcement from Qatar comes amid rising tensions in the Middle East, particularly involving Iran. Market observers are closely watching these developments, as disruptions in Gulf oil production could have significant implications for global oil prices.",
+      "slug": "story-10",
+      "headline": "Energy Facilities Targeted in U.S.-Israeli War with Iran",
+      "context": "Historically, conflicts in the Middle East have often spared energy infrastructure, which is crucial for regional economies and global energy supply. However, the ongoing U.S.-Israeli war with Iran has marked a significant shift, with energy facilities being directly targeted, raising concerns over wider economic impacts.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "The recent U.S.-Israeli war with Iran has resulted in targeted attacks on energy infrastructure.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+        },
+        {
+          "text": "Previous conflicts in the region typically caused limited damage to energy facilities.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+        },
+        {
+          "text": "Energy infrastructure is essential for both regional economies and the global energy supply.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-11",
+      "headline": "Gunmen Attack Village in Nigeria, Causing Significant Casualties",
+      "context": "Recent violence in Nigeria illustrates the ongoing challenges the country faces with Islamist militant groups. This particular attack involved militants seizing control of a village for two days before Nigerian forces intervened with troops and air strikes.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "Suspected Islamist militants attacked a village in Nigeria.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The militants controlled the village for two days.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Nigerian troops and air strikes eventually forced the militants out.",
+          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-12",
+      "headline": "Oil Prices Reach Two-Year High Amid Gulf Production Concerns",
+      "context": "Oil prices have surged to a two-year high following warnings from Qatar's Energy Minister regarding the potential halt of oil production in the Gulf region. This spike is attributed to ongoing tensions related to the conflict involving Iran, which could further disrupt supply chains in the oil market.",
       "category": "Business",
       "facts": [
         {
-          "text": "Oil prices have reached a two-year high as of March 2026.",
+          "text": "Oil prices have risen to $150 per barrel as of recent reports.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Qatar's Energy Minister Saad al-Kaabi warned that all Gulf oil production could stop within days if the Iran conflict escalates.",
+          "text": "Qatar's Energy Minister Saad al-Kaabi issued a warning that production could stop in the Gulf region within days.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "There is a prediction that oil prices could hit $150 a barrel if the situation continues.",
+          "text": "The price increase is linked to escalating tensions due to the Iran conflict.",
           "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -220,220 +412,60 @@
       "is_good_development": false
     },
     {
-      "slug": "story-8",
-      "headline": "Israel Conducts Bombing Campaign in Beirut",
-      "context": "Tensions in the region have escalated as Israel has expanded its military operations in Lebanon. The United Nations reported that around 100,000 people have been displaced from their homes due to the ongoing violence.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Israel launched 26 waves of air attacks on Beirut.",
-          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
-        },
-        {
-          "text": "The UN reported that 100,000 people are displaced due to the conflict.",
-          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
-        },
-        {
-          "text": "The military expansion signifies a major escalation in Israel's operations in Lebanon.",
-          "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-9",
-      "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-      "context": "The Dow Jones Industrial Average fell significantly as tensions in Iran have contributed to surging oil prices. This fluctuation reflects ongoing concerns about market stability and energy costs, affecting investors and economies worldwide.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Dow closed down 450 points on Friday.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        },
-        {
-          "text": "U.S. crude oil prices increased by 12% on the same day.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        },
-        {
-          "text": "Rising oil prices are linked to ongoing conflicts in Iran.",
-          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        }
-      ],
-      "sources": [
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-10",
-      "headline": "Supreme Court Allows Asylum Seekers Access to Subsidized Quebec Daycare",
-      "context": "This ruling arises from a case dating back to 2018, when a woman seeking refugee protection was denied access to subsidized childcare services while awaiting a decision on her application. The Supreme Court's decision reflects a significant legal determination regarding the rights of asylum seekers in accessing public services.",
-      "category": "Canada",
-      "facts": [
-        {
-          "text": "The Supreme Court ruled that asylum seekers in Quebec can access subsidized daycare services.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-        },
-        {
-          "text": "The case originated in 2018 when a refugee claimant was denied subsidized childcare.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-        },
-        {
-          "text": "The decision clarifies the eligibility of asylum seekers for public services during their application process.",
-          "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-        }
-      ],
-      "sources": [
-        {
-          "name": "National Post",
-          "url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-11",
-      "headline": "US Stock Market Experiences Decline",
-      "context": "The decline in U.S. stock market is attributed to new data revealing job losses and rising oil prices. In February, U.S. employers reportedly reduced their workforce by 92,000 jobs, causing concerns among investors.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "U.S. employers shed 92,000 jobs in February.",
-          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
-        },
-        {
-          "text": "Rising oil prices are contributing to market anxiety.",
-          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
-        },
-        {
-          "text": "The stock market experienced a significant decline following the jobs report.",
-          "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-12",
-      "headline": "Rescue Operations Successful After Wife Uses Technology to Locate Husband Buried in Avalanche",
-      "context": "This incident highlights the importance of technology in emergency situations. The use of tracking features can significantly enhance rescue efforts in difficult conditions.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was buried in an avalanche.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        },
-        {
-          "text": "His wife utilized the 'Find My iPhone' feature to assist search and rescue teams.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        },
-        {
-          "text": "Harris was trapped for over four hours before being located and rescued.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Michael Harris",
-          "quote": "I am just so grateful for my wife's quick thinking and for the rescuers who got me out.",
-          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-        }
-      ],
-      "is_good_development": true
-    },
-    {
       "slug": "story-13",
-      "headline": "Young Boy Raises Funds for Charity Through Recycling",
-      "context": "A 13-year-old boy in England has combined environmental care with community support by recycling aluminum cans. His initiative has garnered thousands of dollars for food banks, showcasing how youth can contribute to social causes while promoting sustainability.",
-      "category": "Canada",
+      "headline": "Study Suggests Affordable Weight-Loss Jab Could Be Available",
+      "context": "A new analysis indicates that the weight-loss drug semaglutide, found in medications like Ozempic and Wegovy, could be produced for $3 a month. This development comes as patents for the drug are set to expire, opening the possibility for broader access in lower-income countries, where obesity and diabetes rates are increasing.",
+      "category": "Health",
       "facts": [
         {
-          "text": "Ryan Hulance has recycled over one million aluminum cans.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "Semaglutide is a drug used for weight loss and managing diabetes.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "He has raised thousands of dollars that he donated to local food banks.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "The analysis suggests that the drug could be manufactured at a cost of $3 per month.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "Ryan started his recycling project from his home in Solihull, West Midlands.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "Currently, over a billion people globally are affected by obesity, with rising rates particularly in lower-income nations.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         },
         {
-          "text": "He contacted local businesses to support his fundraising efforts.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "Potential availability of low-cost semaglutide could benefit millions in 160 countries.",
+          "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "name": "The Guardian World",
+          "url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Ryan Hulance",
-          "quote": "I wanted to help those in need and also protect the environment.",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "is_good_development": true
+      "stakeholder_quotes": [],
+      "is_good_development": false
     },
     {
       "slug": "story-14",
-      "headline": "Energy Infrastructure Impacted by U.S.-Israeli War with Iran",
-      "context": "Historically, conflicts in the Middle East have minimized damage to energy facilities. However, the current war involving the U.S., Israel, and Iran has changed this pattern, resulting in significant impacts on energy infrastructure.",
-      "category": "World",
+      "headline": "U.S. Customs Developing Tariff Refund Process",
+      "context": "U.S. Customs is responding to concerns about a complex and lengthy system for tariff refunds. Currently, importers often face significant delays and may need to file individual lawsuits to reclaim funds after paying tariffs.",
+      "category": "Business",
       "facts": [
         {
-          "text": "Recent war has led to increased damage to energy infrastructure in the region.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+          "text": "U.S. Customs reported it will create a streamlined tariff refund process.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
         },
         {
-          "text": "Past conflicts largely avoided targeting energy facilities, resulting in limited damage.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+          "text": "The goal is to return importers' money within 45 days.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
         },
         {
-          "text": "The ongoing U.S.-Israeli war with Iran contrasts with previous trends in conflict impact on energy sites.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+          "text": "The new system will not require individual lawsuits from importers.",
+          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
         }
       ],
       "sources": [
         {
           "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
         }
       ],
       "stakeholder_quotes": [],
@@ -441,127 +473,95 @@
     },
     {
       "slug": "story-15",
-      "headline": "Kurds Potentially Involved in Iran Conflict",
-      "context": "The Kurds, an ethnic group primarily located in the Middle East, have historically engaged in various conflicts and have sought autonomy in their regions. Their potential involvement in the ongoing war with Iran could significantly impact the dynamics of the conflict, particularly affecting Iranian defenses and Iraq's role.",
-      "category": "World",
+      "headline": "Medical Schools to Increase Nutrition Curriculum Hours",
+      "context": "Health Secretary Robert F. Kennedy Jr. announced that 53 medical schools across 31 states will expand their nutrition curriculum to 40 hours this fall. This decision addresses the previous shortfall, as most medical schools only offered the recommended 25 hours of nutrition education.",
+      "category": "Health",
       "facts": [
         {
-          "text": "The Kurds have a complex history of seeking autonomy and engaging in regional conflicts.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+          "text": "53 medical schools will expand their nutrition curriculum to 40 hours.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "Their involvement could apply pressure to Iranian military forces.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+          "text": "This change affects 31 states in the US.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         },
         {
-          "text": "The situation may lead to deeper Iraqi involvement in the war with Iran.",
-          "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+          "text": "Most medical schools previously provided less than the recommended nutrition education hours.",
+          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         }
       ],
       "sources": [
         {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/6/us-and-israel-attacking-iran-at-record-pace-war-monitor-says?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/war-iran-americans-jailed-evin-prison/"
-        },
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/blogs/in-the-know/5772012-ben-stiller-criticizes-white-house/"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4483261/karoline-leavitt-denies-divisions-maga-iran-war/"
-        },
-        {
-          "name": "National Post",
-          "url": "https://nationalpost.com/news/canadian-jews-urged-to-be-alert-cautious-amid-war-on-iran"
+          "name": "NPR Health",
+          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
         }
       ],
-      "stakeholder_quotes": [],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Robert F. Kennedy Jr.",
+          "quote": "We must ensure that future doctors are equipped with the knowledge they need to promote healthy eating.",
+          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
+        }
+      ],
       "is_good_development": false
     },
     {
       "slug": "story-16",
-      "headline": "Nigerian Village Attacked by Suspected Militants",
-      "context": "This attack in Nigeria highlights ongoing security challenges posed by Islamist militant groups in the region. Reports indicate that the militants seized control of a village, leading to significant violence before military intervention.",
-      "category": "World",
+      "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
+      "context": "A group of snowmobilers in New Hampshire encountered a young moose that was stuck in deep snow. The snowmobiling community in the area is known for their willingness to assist wildlife in distress during harsh winter conditions.",
+      "category": "US",
       "facts": [
         {
-          "text": "Suspected Islamist militants took control of a village for two days.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "A group of snowmobilers found a young moose doe buried up to its neck in snow.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "Nigerian troops and air strikes were deployed to regain control.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "The moose was discovered in drifts of 4 to 5 feet deep.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "There are reports of a high number of casualties resulting from the attack.",
-          "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "text": "The snowmobilers worked together to dig the moose out of the snow and help it escape.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
+      "stakeholder_quotes": [
+        {
+          "speaker": "Mike Dion",
+          "quote": "We came across an unexpected sight: a moose buried up to its neck.",
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+        }
+      ],
+      "is_good_development": true
     },
     {
       "slug": "story-17",
-      "headline": "China Affected by Middle East Conflict",
-      "context": "China is closely monitoring the tension arising from the Iran war. These developments could impact its regional ambitions and economic interests given its intertwined relationships in the Middle East.",
-      "category": "World",
+      "headline": "Researchers Develop Compact AI Model Using Monkey Neurons",
+      "context": "This research highlights advancements in artificial intelligence efficiency. The study demonstrates the potential for smaller AI models, which could lead to more accessible and resource-efficient technology.",
+      "category": "Science",
       "facts": [
         {
-          "text": "China has significant economic ties in the Middle East.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "Researchers reduced the size of an AI vision model to 1/1000th of its original size.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "The ongoing conflict could affect China's energy security and trade routes.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "The study utilizes monkey neurons to enhance the efficiency of AI systems.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         },
         {
-          "text": "Chinese officials are assessing the situation for potential impacts on regional stability.",
-          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+          "text": "Findings could impact various applications, making AI technology less resource-heavy.",
+          "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         }
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
+          "name": "NPR Science",
+          "url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
         }
       ],
       "stakeholder_quotes": [],
@@ -569,20 +569,228 @@
     },
     {
       "slug": "story-18",
-      "headline": "Clashes in Sudan's Kordofan Region Result in 51 Fatalities",
-      "context": "Recent violence in the Kordofan region of Sudan highlights ongoing conflicts between the national army and paramilitary groups. These clashes contribute to the worsening humanitarian situation in the country, where violence has escalated in recent months.",
+      "headline": "Daylight Saving Time Returns in Ontario",
+      "context": "Daylight saving time resumes this weekend across Ontario, consistent with the practice observed in many regions. The discussion over the necessity of this time change has intensified following British Columbia's announcement regarding the last change for that province.",
+      "category": "Canada",
+      "facts": [
+        {
+          "text": "Daylight saving time begins on March 8, 2026 in Ontario.",
+          "source_url": "https://www.thestar.com/news/canada/daylight-saving-time-is-returning-heres-what-you-need-to-know-about-the-spring-forward/article_74d01e9d-7b96-4e67-a77a-584f386dd039.html"
+        },
+        {
+          "text": "Residents will move their clocks forward by one hour this weekend.",
+          "source_url": "https://www.thestar.com/news/canada/daylight-saving-time-is-returning-heres-what-you-need-to-know-about-the-spring-forward/article_74d01e9d-7b96-4e67-a77a-584f386dd039.html"
+        },
+        {
+          "text": "The debate over the efficacy of daylight saving time continues among various stakeholders.",
+          "source_url": "https://www.thestar.com/news/canada/daylight-saving-time-is-returning-heres-what-you-need-to-know-about-the-spring-forward/article_74d01e9d-7b96-4e67-a77a-584f386dd039.html"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Toronto Star",
+          "url": "https://www.thestar.com/news/canada/daylight-saving-time-is-returning-heres-what-you-need-to-know-about-the-spring-forward/article_74d01e9d-7b96-4e67-a77a-584f386dd039.html"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/this-weekends-u-s-clock-change-brings-back-debate-over-daylight-saving-time"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Entertainment/video/watch-weekend-130830980"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-19",
+      "headline": "Winter Paralympics Open Amid Controversy Over Russian Athletes",
+      "context": "The 2026 Winter Paralympics have commenced in Milan-Cortina, with significant attention on the inclusion of Russian and Belarusian athletes. The International Paralympic Committee recently lifted a ban that allowed these athletes to compete under their own flags, a decision tied to their countries' involvement in the ongoing conflict in Ukraine.",
+      "category": "Sports",
+      "facts": [
+        {
+          "text": "The Winter Paralympics opened on March 6, 2026, in Milan-Cortina.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        },
+        {
+          "text": "Russian athletes were greeted with boos from some spectators as they entered the venue under their own flag.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        },
+        {
+          "text": "The International Paralympic Committee lifted a ban on Russian and Belarusian athletes competing under their own flags in February 2026.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        },
+        {
+          "text": "The decision to allow these athletes to compete has drawn international concern due to the war in Ukraine.",
+          "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        }
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
+        },
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/06/nx-s1-5739340/2026-winter-paralympics-schedule-storylines"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/articles/c98gkg3kr1jo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-20",
+      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Incident",
+      "context": "This situation arises after the U.S. submarine sank an Iranian warship earlier this week, escalating tensions in the region. The recent actions contribute to ongoing disputes between the U.S. and Iran, with Sri Lanka now involved in the custody of Iranian maritime assets.",
       "category": "World",
       "facts": [
         {
-          "text": "51 people were killed in clashes between the army and the paramilitary Rapid Support Forces in Kordofan region.",
+          "text": "The U.S. submarine sank an Iranian warship on Wednesday.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        },
+        {
+          "text": "Australia confirmed that three Australians were aboard the submarine during the incident.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        },
+        {
+          "text": "Sri Lanka has taken custody of an Iranian vessel as a result of this situation.",
+          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-21",
+      "headline": "China Responds to Regional Instability Amid Iran Conflict",
+      "context": "The ongoing conflict in Iran has implications for China's geopolitical interests and economic ambitions. As the situation evolves, China is closely monitoring the developments to assess any potential impact on its strategic initiatives in the region.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "The conflict in Iran has raised concerns in China regarding stability in the Middle East.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "China's economy relies significantly on energy imports from the region.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Chinese officials are evaluating how the war could affect their international plans and trade routes.",
+          "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-22",
+      "headline": "Dow Jones Industrial Average Drops Amid Surge in Oil Prices",
+      "context": "The U.S. stock market experienced significant declines due to rising oil prices following escalating tensions in Iran. The war has raised concerns about oil supply disruptions, contributing to market volatility.",
+      "category": "Business",
+      "facts": [
+        {
+          "text": "The Dow Jones Industrial Average closed down by 450 points.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "U.S. crude oil prices increased by 12% on Friday.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "Market analysts attribute the price increase to the ongoing conflict in Iran.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "text": "Investors are reacting to fears of potential disruptions in oil supply.",
+          "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260306-iran-war-a-special-edition"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-23",
+      "headline": "Challenges Amid Ramadan for Muslims in the U.S.",
+      "context": "As Ramadan progresses, U.S. Muslims face significant challenges from recent immigration policies, ongoing military conflicts, and increased anti-Muslim sentiments. These factors contribute to a difficult environment for families and communities engaging in traditional observances of the holy month.",
+      "category": "US",
+      "facts": [
+        {
+          "text": "Ramadan is a significant month for Muslims, involving prayer, fasting, and community gatherings.",
+          "source_url": "https://www.pbs.org/newshour/nation/for-u-s-muslims-immigration-crackdowns-new-war-and-anti-muslim-rhetoric-cloud-ramadan"
+        },
+        {
+          "text": "Reports indicate a rise in anti-Muslim rhetoric across the United States.",
+          "source_url": "https://www.pbs.org/newshour/nation/for-u-s-muslims-immigration-crackdowns-new-war-and-anti-muslim-rhetoric-cloud-ramadan"
+        },
+        {
+          "text": "Immigration crackdowns have created uncertainty for many Muslim families during this time.",
+          "source_url": "https://www.pbs.org/newshour/nation/for-u-s-muslims-immigration-crackdowns-new-war-and-anti-muslim-rhetoric-cloud-ramadan"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/for-u-s-muslims-immigration-crackdowns-new-war-and-anti-muslim-rhetoric-cloud-ramadan"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false
+    },
+    {
+      "slug": "story-24",
+      "headline": "Clashes in Sudan's Kordofan Region Result in 51 Deaths",
+      "context": "Sudan has been experiencing ongoing tension and violence, particularly between government forces and paramilitary groups. The recent clashes in Kordofan are part of a broader conflict that has caused significant loss of life and displacement in the region.",
+      "category": "World",
+      "facts": [
+        {
+          "text": "51 people were killed in clashes between the army and the paramilitary Rapid Support Forces in Kordofan.",
           "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "The clashes occurred within a 24-hour period.",
+          "text": "The violence occurred within a 24-hour period.",
           "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         },
         {
-          "text": "The violence reflects ongoing tensions and instability in Sudan.",
+          "text": "Sudan has faced ongoing conflict and instability involving various military factions.",
           "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
         }
       ],
@@ -596,208 +804,28 @@
       "is_good_development": false
     },
     {
-      "slug": "story-19",
-      "headline": "US Accuses Russia of Sharing US Troop Locations with Iran",
-      "context": "The relationship between the US, Russia, and Iran has been strained, especially regarding military presence in the Middle East. Recent reports suggest that Russia may be assisting Iran by sharing sensitive information about American troop locations.",
+      "slug": "story-25",
+      "headline": "Explosion at Iranian School Results in Numerous Fatalities",
+      "context": "An explosion at a school in Iran killed over 160 individuals, mostly children, on February 28. This tragic event has escalated tensions in the region, with reports suggesting it may be linked to U.S. military actions. Furthermore, NATO military leaders have convened to discuss the ongoing conflicts involving Iran and the U.S.",
       "category": "World",
       "facts": [
         {
-          "text": "US believes Russia has provided Iran with the locations of American troops.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "The explosion occurred on February 28 and resulted in the deaths of more than 165 people, primarily children.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
         },
         {
-          "text": "The information includes details about US aircraft and ships in the region.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "Sources indicate that Russia provided intelligence that led to Iranian military strikes against U.S. targets.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
         },
         {
-          "text": "This development heightens tensions between the United States and both Russia and Iran.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "Top NATO soldiers met to discuss the implications of the regional situation following the blast.",
+          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-20",
-      "headline": "Axel Springer to Acquire Telegraph Media Group for £575 Million",
-      "context": "The acquisition comes after a previous attempt by the Daily Mail and General Trust to purchase the Telegraph Media Group for £500 million last year. This move is significant for the European media landscape, indicating ongoing consolidation in the industry.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Axel Springer has agreed to buy Telegraph Media Group for £575 million.",
-          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The deal follows a previous acquisition attempt by Daily Mail and General Trust last year.",
-          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The purchase reflects a trend of consolidation in the media sector.",
-          "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-21",
-      "headline": "Trump Predicts Change in Cuba's Regime",
-      "context": "This statement follows President Trump's earlier remarks suggesting Cuba is eager to negotiate with the U.S. The comments come amidst significant political and economic challenges facing the country, as well as rising tensions related to U.S. military actions in the region.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "President Trump stated that Cuba is 'going to fall pretty soon' in a CNN interview.",
-          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        },
-        {
-          "text": "Earlier, he mentioned that Cuba 'wants to make a deal so badly.'",
-          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        },
-        {
-          "text": "The comments come after the U.S. lost 92,000 jobs in February.",
-          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        },
-        {
-          "text": "Military investigators are looking into a strike by U.S. forces on an Iranian girls' school.",
-          "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Live/video/abcnews-live-41463246"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-22",
-      "headline": "Waitrose to Halt Mackerel Sales Amid Overfishing Concerns",
-      "context": "Waitrose has made the decision to suspend mackerel sales due to concerns about overfishing. This move aligns with increasing pressures on fish stocks, raising awareness about sustainable sourcing practices.",
-      "category": "Business",
-      "facts": [
-        {
-          "text": "Waitrose will stop sourcing fresh, chilled, and frozen mackerel by April 29.",
-          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The supermarket chain cites overfishing as the reason for this decision.",
-          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This action reflects broader concerns about fish stock sustainability.",
-          "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-23",
-      "headline": "Markwayne Mullin Nominated as DHS Head",
-      "context": "Senator Markwayne Mullin has been nominated to lead the Department of Homeland Security, taking over from Kristi Noem. This nomination marks a significant career advancement for Mullin, who has transitioned from the House to a prominent role in the Trump administration in a short timeframe.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "Markwayne Mullin is a Republican Senator from Oklahoma.",
-          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
-        },
-        {
-          "text": "He is set to replace Kristi Noem as head of the Department of Homeland Security.",
-          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
-        },
-        {
-          "text": "Mullin's nomination highlights a swift political rise within the current administration.",
-          "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-24",
-      "headline": "UK to Harness Geothermal Energy for Homes",
-      "context": "The United Kingdom is taking a significant step in renewable energy by using geothermal heat to power homes. This initiative highlights the potential of geothermal resources not only for energy but also for supplying critical minerals like lithium.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "Water heated by geological formations will be used to power 10,000 homes.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This will be the UK's first domestic supply of lithium from geothermal sources.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The initiative represents a pioneering effort in combining energy production and mineral extraction.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This project underscores the UK’s commitment to advancing sustainable energy solutions.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-25",
-      "headline": "Trump Administration Proposes New Rule for Foster Homes",
-      "context": "The Trump administration is changing regulations that previously required foster homes to affirm a child's gender transition or sexual orientation in order to receive federal funding. This decision reverses a policy established under the Biden administration, reflecting ongoing debates about the rights of LGBTQ+ youth in care systems.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "Foster homes will no longer be required to affirm a child's gender identity or sexual orientation to retain federal funding.",
-          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
-        },
-        {
-          "text": "The proposed rule was announced by officials in the Department of Health and Human Services.",
-          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
-        },
-        {
-          "text": "This change marks a shift back to previous guidelines before the Biden administration's policy was implemented.",
-          "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
         }
       ],
       "stakeholder_quotes": [],
@@ -892,19 +920,51 @@
   ],
   "good_developments": [
     {
-      "headline": "Rescue Operations Successful After Wife Uses Technology to Locate Husband Buried in Avalanche",
-      "context": "This incident highlights the importance of technology in emergency situations. The use of tracking features can significantly enhance rescue efforts in difficult conditions.",
+      "headline": "Young Boy Raises Funds for Charity Through Can Recycling",
+      "context": "Ryan Hulance, a 13-year-old from Solihull, England, has initiated a recycling project to support food banks. His efforts combine environmental responsibility with community aid, highlighting a grassroots approach to addressing local needs.",
       "facts": [
         {
-          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when he was buried in an avalanche.",
+          "text": "Ryan has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He has raised thousands of dollars to donate to charity.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "His initiative aims to support food banks while promoting environmental awareness.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan contacted local businesses to gather cans for recycling.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ]
+    },
+    {
+      "headline": "Wife Helps Locate Husband Buried in Avalanche Using Tracking Technology",
+      "context": "This incident highlights the potential lifesaving capabilities of technology in emergency situations. Michael Harris was skiing at Stevens Pass Ski Resort when he was buried under an avalanche in late February, prompting a rapid response from search and rescue teams.",
+      "facts": [
+        {
+          "text": "Michael Harris was skiing the Big Chief Bowl at Stevens Pass Ski Resort when an avalanche occurred.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "His wife utilized the 'Find My iPhone' feature to assist search and rescue teams.",
+          "text": "He was buried for over four hours before being located.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         },
         {
-          "text": "Harris was trapped for over four hours before being located and rescued.",
+          "text": "His wife used the 'Find My iPhone' feature to help guide rescue teams to his location.",
+          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+        },
+        {
+          "text": "Rescue teams were able to reach Michael and bring him to safety.",
           "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
         }
       ],
@@ -916,30 +976,26 @@
       ]
     },
     {
-      "headline": "Young Boy Raises Funds for Charity Through Recycling",
-      "context": "A 13-year-old boy in England has combined environmental care with community support by recycling aluminum cans. His initiative has garnered thousands of dollars for food banks, showcasing how youth can contribute to social causes while promoting sustainability.",
+      "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
+      "context": "A group of snowmobilers in New Hampshire encountered a young moose that was stuck in deep snow. The snowmobiling community in the area is known for their willingness to assist wildlife in distress during harsh winter conditions.",
       "facts": [
         {
-          "text": "Ryan Hulance has recycled over one million aluminum cans.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "A group of snowmobilers found a young moose doe buried up to its neck in snow.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "He has raised thousands of dollars that he donated to local food banks.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "The moose was discovered in drifts of 4 to 5 feet deep.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         },
         {
-          "text": "Ryan started his recycling project from his home in Solihull, West Midlands.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "He contacted local businesses to support his fundraising efforts.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "text": "The snowmobilers worked together to dig the moose out of the snow and help it escape.",
+          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ],
       "sources": [
         {
           "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
         }
       ]
     }
@@ -949,11 +1005,12 @@
     "pipeline_version": "5.1",
     "models_used": [
       "OpenAI",
-      "Claude"
+      "Claude",
+      "Grok"
     ],
     "feeds_attempted": 36,
     "raw_items": 204,
     "consensus_stories": 25,
-    "good_developments_found": 2
+    "good_developments_found": 3
   }
 }
