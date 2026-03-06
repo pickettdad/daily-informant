@@ -27,10 +27,7 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
 function formatDate(dateStr: string) {
   const d = new Date(dateStr + "T12:00:00");
   return d.toLocaleDateString("en-US", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+    weekday: "long", year: "numeric", month: "long", day: "numeric",
   });
 }
 
@@ -45,14 +42,9 @@ export default async function HomePage() {
     <div>
       {/* Date banner */}
       <div style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "baseline",
-        marginBottom: 32,
-        paddingBottom: 16,
-        borderBottom: `1px solid ${s.borderLight}`,
-        flexWrap: "wrap",
-        gap: 8,
+        display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        marginBottom: 32, paddingBottom: 16, borderBottom: `1px solid ${s.borderLight}`,
+        flexWrap: "wrap", gap: 8,
       }}>
         <div>
           <p style={{ fontSize: 14, fontWeight: 600, color: s.accent }}>Morning Edition</p>
@@ -86,58 +78,48 @@ export default async function HomePage() {
               }}
             >
               {/* Category badge + headline */}
-              <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 14 }}>
+              <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 6 }}>
                 {story.category && (
                   <span style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    letterSpacing: "0.06em",
-                    textTransform: "uppercase",
-                    background: catStyle.bg,
-                    color: catStyle.text,
-                    padding: "3px 8px",
-                    borderRadius: 4,
-                    whiteSpace: "nowrap",
-                    marginTop: 4,
+                    fontSize: 11, fontWeight: 700, letterSpacing: "0.06em",
+                    textTransform: "uppercase", background: catStyle.bg, color: catStyle.text,
+                    padding: "3px 8px", borderRadius: 4, whiteSpace: "nowrap", marginTop: 4,
                   }}>
                     {story.category}
                   </span>
                 )}
                 <h3 style={{
-                  fontFamily: s.display,
-                  fontSize: 20,
-                  fontWeight: 700,
-                  lineHeight: 1.35,
-                  margin: 0,
+                  fontFamily: s.display, fontSize: 20, fontWeight: 700,
+                  lineHeight: 1.35, margin: 0,
                 }}>
                   {story.headline}
                 </h3>
               </div>
 
+              {/* Context paragraph */}
+              {story.context && (
+                <p style={{
+                  fontSize: 14, lineHeight: 1.65, color: s.muted,
+                  margin: "8px 0 16px 0", paddingLeft: 2,
+                  borderLeft: `3px solid ${s.borderLight}`,
+                  paddingLeft: 14,
+                  fontStyle: "italic",
+                }}>
+                  {story.context}
+                </p>
+              )}
+
               {/* Facts */}
               <ul style={{ listStyleType: "none", padding: 0 }}>
                 {story.facts.map((f: any, i: number) => (
                   <li key={i} style={{
-                    fontSize: 15,
-                    lineHeight: 1.6,
-                    color: s.muted,
-                    marginBottom: 8,
-                    paddingLeft: 16,
-                    position: "relative",
+                    fontSize: 15, lineHeight: 1.6, color: s.muted,
+                    marginBottom: 8, paddingLeft: 16, position: "relative",
                   }}>
-                    <span style={{
-                      position: "absolute",
-                      left: 0,
-                      color: s.gold,
-                      fontWeight: 700,
-                    }}>·</span>
+                    <span style={{ position: "absolute", left: 0, color: s.gold, fontWeight: 700 }}>·</span>
                     {f.text}{" "}
-                    <a
-                      href={f.source_url}
-                      target="_blank"
-                      rel="noreferrer"
-                      style={{ fontSize: 11, color: s.accent, opacity: 0.8 }}
-                    >
+                    <a href={f.source_url} target="_blank" rel="noreferrer"
+                      style={{ fontSize: 11, color: s.accent, opacity: 0.8, textDecoration: "none" }}>
                       source ↗
                     </a>
                   </li>
@@ -146,35 +128,20 @@ export default async function HomePage() {
 
               {/* Sources */}
               <div style={{
-                marginTop: 14,
-                display: "flex",
-                alignItems: "center",
-                gap: 6,
-                flexWrap: "wrap",
+                marginTop: 14, display: "flex", alignItems: "center",
+                gap: 6, flexWrap: "wrap",
               }}>
                 <span style={{
-                  fontSize: 11,
-                  color: s.light,
-                  fontWeight: 600,
-                  letterSpacing: "0.05em",
-                  textTransform: "uppercase",
+                  fontSize: 11, color: s.light, fontWeight: 600,
+                  letterSpacing: "0.05em", textTransform: "uppercase",
                 }}>Sources:</span>
                 {story.sources.map((src: any, i: number) => (
-                  <a
-                    key={i}
-                    href={src.url}
-                    target="_blank"
-                    rel="noreferrer"
+                  <a key={i} href={src.url} target="_blank" rel="noreferrer"
                     style={{
-                      fontSize: 12,
-                      color: s.accent,
-                      background: s.accentLight,
-                      padding: "2px 8px",
-                      borderRadius: 4,
-                      fontWeight: 500,
+                      fontSize: 12, color: s.accent, background: s.accentLight,
+                      padding: "2px 8px", borderRadius: 4, fontWeight: 500,
                       textDecoration: "none",
-                    }}
-                  >
+                    }}>
                     {src.name}
                   </a>
                 ))}
@@ -184,26 +151,20 @@ export default async function HomePage() {
               {story.stakeholder_quotes?.length > 0 && (
                 <details style={{ marginTop: 12 }}>
                   <summary style={{
-                    cursor: "pointer",
-                    fontSize: 13,
-                    color: s.accent,
-                    fontWeight: 600,
-                    letterSpacing: "0.02em",
+                    cursor: "pointer", fontSize: 13, color: s.accent,
+                    fontWeight: 600, letterSpacing: "0.02em",
                   }}>
                     Primary Stakeholder Statements ({story.stakeholder_quotes.length})
                   </summary>
-                  <div style={{
-                    marginTop: 10,
-                    paddingLeft: 16,
-                    borderLeft: `2px solid ${s.borderLight}`,
-                  }}>
+                  <div style={{ marginTop: 10, paddingLeft: 16, borderLeft: `2px solid ${s.borderLight}` }}>
                     {story.stakeholder_quotes.map((q: any, i: number) => (
                       <div key={i} style={{ marginBottom: 10 }}>
                         <span style={{ fontWeight: 600, fontSize: 13 }}>{q.speaker}:</span>
                         <span style={{ fontSize: 13, color: s.muted, fontStyle: "italic", marginLeft: 6 }}>
                           &ldquo;{q.quote}&rdquo;
                         </span>
-                        <a href={q.url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.accent, marginLeft: 6 }}>
+                        <a href={q.url} target="_blank" rel="noreferrer"
+                          style={{ fontSize: 11, color: s.accent, marginLeft: 6, textDecoration: "none" }}>
                           source ↗
                         </a>
                       </div>
@@ -225,22 +186,14 @@ export default async function HomePage() {
           <p style={{ fontSize: 13, color: s.light, marginBottom: 20 }}>
             Where major stories stand today
           </p>
-
           <div style={{ display: "grid", gap: 12 }}>
             {daily.ongoing_topics.map((topic: any) => (
-              <Link
-                key={topic.slug}
-                href={`/topics/${topic.slug}`}
+              <Link key={topic.slug} href={`/topics/${topic.slug}`}
                 style={{
-                  display: "block",
-                  background: "#FFFFFF",
-                  border: `1px solid ${s.border}`,
-                  borderRadius: 8,
-                  padding: "20px 24px",
-                  textDecoration: "none",
-                  color: "inherit",
-                }}
-              >
+                  display: "block", background: "#FFFFFF",
+                  border: `1px solid ${s.border}`, borderRadius: 8,
+                  padding: "20px 24px", textDecoration: "none", color: "inherit",
+                }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
                   <h3 style={{ fontFamily: s.display, fontSize: 18, fontWeight: 700 }}>
                     {topic.topic}
@@ -264,31 +217,21 @@ export default async function HomePage() {
           <h2 style={{ fontFamily: s.display, fontSize: 24, fontWeight: 700, color: s.good, marginBottom: 8 }}>
             ☀ Good Developments
           </h2>
-          <p style={{ fontSize: 13, color: s.light, marginBottom: 20 }}>
-            Verified positive updates
-          </p>
-
+          <p style={{ fontSize: 13, color: s.light, marginBottom: 20 }}>Verified positive updates</p>
           <div style={{ display: "grid", gap: 12 }}>
             {daily.good_developments.map((g: any, i: number) => (
               <div key={i} style={{
-                background: s.goodLight,
-                border: "1px solid #C8E6D8",
-                borderRadius: 8,
-                padding: "18px 22px",
+                background: s.goodLight, border: "1px solid #C8E6D8",
+                borderRadius: 8, padding: "18px 22px",
               }}>
-                <h4 style={{
-                  fontFamily: s.display,
-                  fontSize: 16,
-                  fontWeight: 700,
-                  color: s.good,
-                  marginBottom: 8,
-                }}>
+                <h4 style={{ fontFamily: s.display, fontSize: 16, fontWeight: 700, color: s.good, marginBottom: 8 }}>
                   {g.headline}
                 </h4>
                 {g.facts.map((f: any, j: number) => (
                   <p key={j} style={{ fontSize: 14, color: "#3D6B55", lineHeight: 1.55, marginBottom: 4 }}>
                     {f.text}{" "}
-                    <a href={f.source_url} target="_blank" rel="noreferrer" style={{ fontSize: 11, color: s.good, textDecoration: "none" }}>
+                    <a href={f.source_url} target="_blank" rel="noreferrer"
+                      style={{ fontSize: 11, color: s.good, textDecoration: "none" }}>
                       source ↗
                     </a>
                   </p>
@@ -301,34 +244,21 @@ export default async function HomePage() {
 
       {/* ── Reflection ── */}
       {daily.optional_reflection && (
-        <section style={{
-          borderTop: `1px solid ${s.borderLight}`,
-          paddingTop: 24,
-          marginBottom: 40,
-        }}>
+        <section style={{ borderTop: `1px solid ${s.borderLight}`, paddingTop: 24, marginBottom: 40 }}>
           <details>
             <summary style={{
-              cursor: "pointer",
-              fontSize: 13,
-              color: s.gold,
-              fontWeight: 600,
-              letterSpacing: "0.03em",
+              cursor: "pointer", fontSize: 13, color: s.gold,
+              fontWeight: 600, letterSpacing: "0.03em",
             }}>
               Reflection &amp; Prayer (optional)
             </summary>
             <div style={{
-              marginTop: 14,
-              padding: "18px 22px",
-              background: s.goldLight,
-              borderRadius: 8,
-              border: "1px solid #EDE0C8",
+              marginTop: 14, padding: "18px 22px", background: s.goldLight,
+              borderRadius: 8, border: "1px solid #EDE0C8",
             }}>
               <p style={{
-                fontSize: 14,
-                lineHeight: 1.7,
-                color: "#7A6840",
-                fontStyle: "italic",
-                fontFamily: s.display,
+                fontSize: 14, lineHeight: 1.7, color: "#7A6840",
+                fontStyle: "italic", fontFamily: s.display,
               }}>
                 {daily.optional_reflection}
               </p>
