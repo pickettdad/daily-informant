@@ -59,14 +59,20 @@ export type OngoingTopic = {
 };
 
 export type GoodDevelopment = {
+  slug: string;
   headline: string;
   summary?: string;
   context?: string;
-  facts?: Fact[];
+  category?: string;
   key_points?: Fact[];
-  sources?: Source[];
+  facts?: Fact[];
+  sources: Source[];
   component_articles?: ComponentArticle[];
-  slug: string;
+  stakeholder_quotes?: StakeholderQuote[];
+  is_good_development?: boolean;
+  is_negative?: boolean;
+  positive_thought?: string;
+  related_ongoing?: string;
 };
 
 export type DailyData = {
