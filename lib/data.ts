@@ -17,15 +17,28 @@ export type StakeholderQuote = {
   url: string;
 };
 
+export type ComponentArticle = {
+  source: string;
+  lean: string;
+  title: string;
+  url: string;
+};
+
 export type Story = {
   slug: string;
   headline: string;
+  summary?: string;
   context?: string;
   category?: string;
-  facts: Fact[];
+  key_points?: Fact[];
+  facts?: Fact[];
   sources: Source[];
+  component_articles?: ComponentArticle[];
   stakeholder_quotes?: StakeholderQuote[];
   is_good_development?: boolean;
+  is_negative?: boolean;
+  positive_thought?: string;
+  related_ongoing?: string;
 };
 
 export type KeyParty = {
@@ -47,9 +60,13 @@ export type OngoingTopic = {
 
 export type GoodDevelopment = {
   headline: string;
+  summary?: string;
   context?: string;
-  facts: Fact[];
+  facts?: Fact[];
+  key_points?: Fact[];
   sources?: Source[];
+  component_articles?: ComponentArticle[];
+  slug?: string;
 };
 
 export type DailyData = {
