@@ -66,7 +66,7 @@ export type GoodDevelopment = {
   key_points?: Fact[];
   sources?: Source[];
   component_articles?: ComponentArticle[];
-  slug?: string;
+  slug: string;
 };
 
 export type DailyData = {
