@@ -2,291 +2,329 @@
   "date": "2026-03-07",
   "top_stories": [
     {
-      "slug": "story-1",
-      "headline": "Escalation of Global Impact from Ongoing Iran War",
-      "context": "The conflict, which began one week ago, has expanded beyond the immediate region. Several countries are now feeling the effects through political and economic disruptions.",
-      "category": "World",
-      "facts": [
+      "slug": "article-6",
+      "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
+      "summary": "The City of Kawartha Lakes OPP are currently investigating a tragic single-vehicle collision that occurred on Saturday, March 7, 2026, around 7 a.m. The accident resulted in fatalities, although specific details regarding the number of casualties and the identity of those involved have not yet been released. Authorities are appealing to the public for information as they continue their investigation into the circumstances surrounding the incident.",
+      "context": "Fatal collisions raise concerns about road safety and often prompt investigations to determine causes and prevent future occurrences. Given the frequency of such accidents, community discussions around traffic regulations and driver awareness practices are likely to increase.",
+      "category": "Local",
+      "key_points": [
         {
-          "text": "The war involves the U.S., Israel, and Iran, with increased global implications.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "text": "The collision involved a single vehicle.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Countries are experiencing political ramifications and some are being drawn into the conflict.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "text": "It occurred on the morning of March 7, 2026.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Economic conditions, including oil prices, are fluctuating due to the heightened tensions.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "text": "OPP is actively investigating the incident.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "text": "Details about the fatalities have not been disclosed yet.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "text": "Authorities are seeking public assistance for additional information.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
-        },
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        }
+      ],
+      "component_articles": [
         {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
-        },
-        {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/07/trump-rationale-war-iran-story"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/show/trump-demands-unconditional-surrender-as-war-on-iran-enters-new-phase"
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20260307-white-house-criticised-gamifying-iran-war-social-media"
-        },
-        {
-          "name": "Breitbart",
-          "url": "https://www.breitbart.com/politics/2026/03/06/white-house-iran-war-goals-achievable-in-4-6-weeks-u-s-reviewing-potential-candidates-to-lead-the-country/"
-        },
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-how-the-iran-war-is-affecting-the-middle-east-and-wider-world/"
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Fatal collision",
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "In times of tragedy, communities often come together to support one another, showing resilience in the face of loss.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-2",
-      "headline": "Oil Prices Surge as Qatar Warns of Production Halt",
-      "context": "Recent tensions in the region, particularly related to the conflict with Iran, have raised concerns about oil production. Qatar's energy minister has issued a warning that a halt in Gulf oil production could occur within days, potentially leading to significant price increases.",
-      "category": "Business",
-      "facts": [
+      "slug": "article-7",
+      "headline": "Public Meeting Scheduled for Proposed High-Speed Rail Line in Tyendinaga Township",
+      "summary": "The Tyendinaga Township Landowners Coalition is planning a public meeting to discuss the proposed Alto high-speed rail line, aimed at enhancing regional transportation connectivity. The meeting is set to take place on March 12, 2026, as local landowners and residents express their concerns and seek clarity on the project's impact. This initiative is part of broader efforts to improve infrastructure and transportation options in Ontario, with significant attention from stakeholders and regional authorities.",
+      "context": "High-speed rail projects have been proposed in Ontario to improve travel times between major cities and stimulate economic growth. The evolving transportation landscape underscores the importance of community engagement and stakeholder input in infrastructure developments.",
+      "category": "Local",
+      "key_points": [
         {
-          "text": "Oil prices have reached a two-year high amid rising geopolitical tensions.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "The meeting will occur on March 12, 2026, in Tyendinaga Township.",
+          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
         },
         {
-          "text": "Qatar's Energy Minister Saad al-Kaabi stated that oil prices could reach $150 a barrel if the Iran conflict escalates.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "The proposed Alto high-speed rail line aims to enhance regional transportation.",
+          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
         },
         {
-          "text": "Concerns over Gulf oil production have affected the global energy market.",
-          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "text": "Local landowners are actively seeking to address concerns regarding the project's impact.",
+          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
+        },
+        {
+          "text": "Stakeholder engagement is crucial in the planning phases of infrastructure projects in Ontario.",
+          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
         }
       ],
       "sources": [
         {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/378279/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "High speed rail meeting in Tyendinaga Township",
+          "url": "https://www.quintenews.com/2026/03/07/378279/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-8",
+      "headline": "Gunfire Damages Two Toronto-Area Synagogues",
+      "summary": "In a concerning development, two additional synagogues in the Toronto area were struck by gunfire, sparking condemnation from Jewish community leaders who are demanding immediate action to address this violence. The police have launched an investigation into these incidents, which come amidst growing fears regarding safety within communities. This violence highlights ongoing tensions and the need for improvement in security measures for places of worship.",
+      "context": "The recent gunfire incidents are part of a worrying trend in increased hostility and violence directed toward Jewish institutions, prompting community leaders to call for stronger protections. The events underscore the broader societal challenges related to hate crimes and the importance of fostering community safety.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Two synagogues in Toronto were hit by gunfire over the weekend.",
+          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        },
+        {
+          "text": "Jewish community leaders are calling for urgent action against the violence.",
+          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        },
+        {
+          "text": "Police are conducting an investigation into the incidents.",
+          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        },
+        {
+          "text": "The events highlight ongoing tensions within certain communities.",
+          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        },
+        {
+          "text": "The situation raises concerns about security for places of worship.",
+          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        }
+      ],
+      "sources": [
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "National Post",
+          "lean": "Center-Right",
+          "title": "‘Bullets are flying’: Two more Toronto-area synagogues hit by gunfire",
+          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Saad al-Kaabi",
-          "quote": "Oil could hit $150 a barrel if the Iran conflict continues over the coming weeks.",
-          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+          "speaker": "Jewish community leaders",
+          "quote": "We urge local authorities to take immediate steps to protect our communities.",
+          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
         }
       ],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "The resilience of the community continues to shine through as leaders advocate for safety and unity in the face of adversity.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-3",
-      "headline": "U.S. Jobs Report Indicates Economic Strain Amid Global Uncertainty",
-      "context": "The U.S. economy is showing signs of strain as a recent jobs report reveals disappointing figures, coinciding with heightened uncertainty stemming from the ongoing conflict in Iran. This situation raises concerns about the stability of the labor market, which has been critical for economic recovery.",
-      "category": "US",
-      "facts": [
+      "slug": "article-13",
+      "headline": "Tornadoes in Michigan Result in Casualties and Damages",
+      "summary": "On Friday, severe tornadoes and storms swept through southern Michigan, leading to the deaths of four individuals and injuring over a dozen others, according to local authorities. The National Weather Service had issued warnings prior to the storms, which caused significant destruction to homes and infrastructure, leaving hundreds of residents without power. Emergency responders are currently assessing the damage and providing assistance to those affected by the storm.",
+      "context": "The tornadoes occurred as part of a severe weather pattern affecting the region, highlighting the vulnerability of areas prone to such natural disasters. Weather forecasts had indicated the potential for severe storms, prompting warnings from meteorological authorities.",
+      "category": "Local",
+      "key_points": [
         {
-          "text": "Employers cut 92,000 jobs in February 2026.",
-          "source_url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
+          "text": "Four people have been reported dead due to the tornadoes in southern Michigan.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "The unemployment rate experienced a slight rise.",
-          "source_url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
+          "text": "More than a dozen individuals sustained injuries from the storm-related incidents.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "Previous months' job figures were revised downward.",
-          "source_url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
+          "text": "Multiple homes were destroyed, and hundreds of residents are currently without power.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "Several sectors that had previously shown growth are now struggling.",
-          "source_url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
+          "text": "The National Weather Service had issued prior tornado warnings for the area.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
+        },
+        {
+          "text": "Emergency response teams are actively assessing damages and supporting affected residents.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         }
       ],
       "sources": [
         {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
-        },
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         }
       ],
-      "stakeholder_quotes": [
+      "component_articles": [
         {
-          "speaker": "Diane Swonk",
-          "quote": "The labor market is struggling across several sectors.",
-          "url": "https://www.pbs.org/newshour/show/u-s-economy-shows-signs-of-strain-as-iran-war-brings-more-uncertainty"
-        }
-      ],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-4",
-      "headline": "Severe Storms and Tornadoes Impact Central U.S. and Michigan",
-      "context": "Tornadoes and severe storms have occurred across the central United States, leading to multiple fatalities and significant damage. Weather forecasts had indicated a high chance of dangerous tornado activity in several states prior to the events.",
-      "category": "US",
-      "facts": [
-        {
-          "text": "At least 6 people have died as a result of the tornadoes in Michigan.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "Severe storms have affected various states in the central U.S.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "Forecasters had issued warnings prior to the storms, indicating potential danger from tornadoes.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
+          "source": "Daily Wire",
+          "lean": "Right",
+          "title": "Tornadoes Kill Four, Injure More Than A Dozen In Michigan",
+          "url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "In the face of tragedy, communities often come together to support one another and rebuild.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-7",
-      "headline": "Iran's President Addresses Regional Strikes",
-      "context": "The recent military actions by Iran have heightened tensions in the region, prompting a response from neighboring countries and the international community. President Masoud Pezeshkian's comments come amid ongoing conflicts and geopolitical challenges in the area.",
-      "category": "World",
-      "facts": [
+      "slug": "article-3",
+      "headline": "Tornado Outbreak in Central United States Results in At Least Eight Fatalities",
+      "summary": "A series of tornadoes swept through central United States, particularly affecting Oklahoma and Michigan, resulting in at least eight reported deaths. The storms have caused significant physical damage, prompting emergency responses and warnings of potentially more severe weather conditions to come. As communities assess the destruction and begin recovery efforts, state and local authorities are urging residents to remain vigilant for further risks associated with the unpredictable weather patterns.",
+      "context": "This severe weather event follows a trend of increased tornado activity in the region, exacerbated by climate factors that can enhance storm severity. The situation underscores the ongoing challenges that communities face in preparing for and responding to extreme weather.",
+      "category": "US",
+      "key_points": [
         {
-          "text": "Iran's President Masoud Pezeshkian apologized for attacks on neighboring countries.",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
+          "text": "Tornadoes primarily impacted Oklahoma and Michigan, causing extensive damage.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
         },
         {
-          "text": "Pezeshkian criticized the U.S. demand for an unconditional surrender, calling it a 'dream that they should take to their grave.'",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
+          "text": "At least eight fatalities have been confirmed due to the tornadoes.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
         },
         {
-          "text": "The apology follows a series of strikes that have impacted regional cities.",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
+          "text": "Emergency services are mobilizing for rescue and recovery efforts.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+        },
+        {
+          "text": "Weather experts warn of the likelihood of additional extreme weather in the coming days.",
+          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
         }
       ],
       "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
-        },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/irans-president-apologises-for-attacking-neighbouring-countries?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Al Jazeera",
+          "lean": "Center",
+          "title": "Tornadoes across central United States kill at least eight people",
+          "url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "The resilience of affected communities is evident as they come together to support one another in the recovery process.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-10",
+      "headline": "Trump Issues Warning to Iran Amid Ongoing Tensions",
+      "summary": "In a recent address, President Donald Trump issued a stark warning to Iran, suggesting that the country could face 'complete destruction and certain death' if their Revolutionary Guard, military, and police do not cease hostilities toward the United States and Israel. This declaration, made during a live update, reflects escalating tensions in the region. Concurrently, Trump spoke at the 'Shield of the Americas' summit, where he highlighted U.S. military actions and threats against Cuba, emphasizing a hardline stance on national security matters across the hemisphere.",
+      "context": "These developments come amid heightened geopolitical tensions, particularly regarding Iran's nuclear ambitions and ongoing U.S. military presence in the Middle East. The rhetoric from the Trump administration underscores a commitment to a confrontational approach against perceived adversaries, which could affect regional stability and international relations.",
+      "category": "US",
+      "key_points": [
+        {
+          "text": "President Trump warned Iran of 'complete destruction' if hostilities continue.",
+          "source_url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
         },
         {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+          "text": "His comments aimed at the Iranian Revolutionary Guard, military, and police.",
+          "source_url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "text": "The warning coincided with statements made at the 'Shield of the Americas' summit regarding military action against Cuba.",
+          "source_url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "text": "The U.S. continues to assert a strong military presence and stance in both Middle Eastern and Latin American contexts.",
+          "source_url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "ABC News",
+          "lean": "Center",
+          "title": "Iran live updates: Trump warns Iran may face 'complete destruction and certain death'",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "source": "ABC News",
+          "lean": "Center",
+          "title": "Trump warns of imminent action against Cuba at 'Shield of Americas' summit",
+          "url": "https://abcnews.com/Politics/trump-speak-shield-americas-summit-aimed-taking-cartels/story?id=130847707"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Masoud Pezeshkian",
-          "quote": "The demand by the U.S. for an unconditional surrender is a dream that they should take to their grave.",
-          "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
+          "speaker": "Donald Trump",
+          "quote": "Iran may face complete destruction and certain death.",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "speaker": "Donald Trump",
+          "quote": "America's military actions are aimed at protecting our interests.",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
         }
       ],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Amidst rising tensions, the resilience of diplomacy remains crucial for peace and stability.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-8",
-      "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-      "context": "South Sudan is experiencing increased violence between government forces and opposition groups. This escalation threatens to revert the country to a state of full-scale civil war, a devastating situation the nation has faced in its recent history.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "At least 169 people were killed in a raid near the Sudan border.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        },
-        {
-          "text": "Clashes have intensified between government-aligned forces and opposition groups.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        },
-        {
-          "text": "The ongoing violence raises concerns among observers about a potential return to civil conflict.",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-9",
-      "headline": "U.S. to Deploy Anti-Drone System to Middle East",
-      "context": "The U.S. government plans to send an anti-drone system to the Middle East following its successful deployment against Russian drones in Ukraine. This decision is part of an effort to strengthen defenses against potential drone threats from Iran.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "The anti-drone system has been effective in Ukraine against Russian drones.",
-          "source_url": "https://www.pbs.org/newshour/world/u-s-will-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say"
-        },
-        {
-          "text": "Two U.S. officials confirmed the deployment to the Associated Press.",
-          "source_url": "https://www.pbs.org/newshour/world/u-s-will-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say"
-        },
-        {
-          "text": "The system aims to enhance U.S. defenses in the Middle East.",
-          "source_url": "https://www.pbs.org/newshour/world/u-s-will-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say"
-        }
-      ],
-      "sources": [
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/u-s-will-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-10",
-      "headline": "US Economy Loses 92,000 Jobs in February",
-      "context": "The recent job loss marks an unexpected downturn in the US job market, impacting various sectors. This development follows a period of growth, raising concerns about economic stability.",
+      "slug": "article-14",
+      "headline": "US Economy Experiences Job Losses in February 2026",
+      "summary": "In February 2026, the US economy unexpectedly lost 92,000 jobs, marking a downturn that analysts did not foresee. This decline was noted across nearly all sectors, indicating widespread economic challenges. The job losses are a significant deviation from previous month-to-month trends, raising concerns about potential long-term implications for the labor market and economic stability.",
+      "context": "The recent job losses come amidst ongoing economic fluctuations that have prompted discussions about possible recession indicators. As inflation and interest rates have influenced spending patterns, the labor market appears to be responding with these unexpected reductions in employment.",
       "category": "US",
-      "facts": [
+      "key_points": [
         {
-          "text": "The US economy shed 92,000 jobs in February.",
+          "text": "The US economy shed 92,000 jobs in February 2026.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Job losses were recorded across nearly all sectors of the economy.",
+          "text": "Job losses were observed across nearly all sectors.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The contraction in payrolls was unforeseen by analysts.",
+          "text": "This decline was unexpected and raises economic concerns.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Analysts are now more cautious about future economic forecasts.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The labor market's stability is being questioned following this contraction.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -296,468 +334,234 @@
           "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-11",
-      "headline": "Severe Weather Outbreak Claims Lives in the Midwest",
-      "context": "A severe weather outbreak has impacted the Plains and Midwest, leading to at least six fatalities. This situation highlights the ongoing risk of tornadoes and severe storms that frequently affect these regions during certain seasons.",
-      "category": "US",
-      "facts": [
+      "component_articles": [
         {
-          "text": "At least 6 fatalities reported due to the tornadoes and hail.",
-          "source_url": "https://nypost.com/2026/03/07/us-news/at-least-6-killed-from-destructive-tornadoes-as-severe-weather-outbreak-devastates-americas-heartland/"
-        },
-        {
-          "text": "The severe weather outbreak occurred on Friday evening.",
-          "source_url": "https://nypost.com/2026/03/07/us-news/at-least-6-killed-from-destructive-tornadoes-as-severe-weather-outbreak-devastates-americas-heartland/"
-        },
-        {
-          "text": "Damaging tornadoes and large hail were reported across parts of the Plains and Midwest.",
-          "source_url": "https://nypost.com/2026/03/07/us-news/at-least-6-killed-from-destructive-tornadoes-as-severe-weather-outbreak-devastates-americas-heartland/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NY Post",
-          "url": "https://nypost.com/2026/03/07/us-news/at-least-6-killed-from-destructive-tornadoes-as-severe-weather-outbreak-devastates-americas-heartland/"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4483284/from-death-to-america-to-death-from-america/"
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "US economy unexpectedly sheds 92,000 jobs in February",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Despite the current economic challenges, the resilience of the workforce can foster recovery and adaptation in the face of change.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-12",
-      "headline": "NATO Leaders Discuss Security Concerns Amid Rising Tensions in the Middle East",
-      "context": "The situation in the Middle East has intensified following a recent blast at an Iranian school that resulted in over 165 fatalities, prompting discussions among NATO leaders. These talks are important as they reflect the commitment of allied nations to security cooperation and addressing potential threats.",
+      "slug": "article-9",
+      "headline": "Iran's President Apologizes for Attacks as U.S. Intensifies Military Threats",
+      "summary": "Iranian President Masoud Pezeshkian issued an apology to neighboring countries for Iran's military actions, which have escalated since the onset of war approximately two weeks ago. In a stark response, U.S. President Donald Trump declared that Iran would face severe military consequences if it did not comply with demands for unconditional surrender. Trump further indicated that the U.S. might broaden its military targets in response to Iran's ongoing defiance and aggression towards its neighbors.",
+      "context": "The current situation escalated as tensions between Iran and the United States reached a breaking point, leading to military conflicts that have drawn in regional players. The responses from both leaders underscore the critical and volatile nature of the conflict, which poses significant risks to regional stability.",
       "category": "World",
-      "facts": [
+      "key_points": [
         {
-          "text": "The blast was linked to a possible U.S. military strike according to various sources.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "Iranian President Pezeshkian apologized for military attacks on neighboring countries.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "Russia is reported to have provided intelligence to Iran for targeting U.S. facilities.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "U.S. President Trump warned Iran of severe military repercussions for failing to surrender unconditionally.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "NATO leaders convened to discuss these developments and potential next steps for allied support.",
-          "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "text": "The conflict has entered its second week, raising concerns about expansion and further escalation.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+        },
+        {
+          "text": "Trump hinted at targeting additional areas and groups if Iran continues its current stance.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
       ],
       "sources": [
         {
           "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
           "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Mark Carney",
-          "quote": "Canada could find itself called upon to provide assistance to allies in the region.",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
-        }
-      ],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-13",
-      "headline": "NASA Revises Moon Landing Plans with Additional Mission",
-      "context": "NASA's Artemis programme aims to return humans to the Moon by the mid-2020s. The addition of an extra mission reflects the agency's commitment to ensuring thorough preparation for lunar exploration.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "NASA has announced the addition of an extra mission to its Artemis programme.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This adjustment is made before the planned landing of astronauts on the Moon.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The Artemis programme's goal is to facilitate sustainable lunar exploration.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-14",
-      "headline": "UK to Utilize Geothermal Energy for Home Heating",
-      "context": "The UK is making strides in renewable energy by harnessing geothermal heat, super-heated water from underground rocks. This initiative not only aims to power 10,000 homes but will also mark the UK's first domestic supply of lithium, a critical mineral used in batteries.",
-      "category": "Science",
-      "facts": [
-        {
-          "text": "Geothermal energy will provide heat for 10,000 homes in the UK.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The project will involve using water super-heated by underground rocks.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This initiative will also supply lithium domestically for the first time.",
-          "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-16",
-      "headline": "Increased Interest in Curling Following Olympics and Paralympics",
-      "context": "The Olympics and Paralympics often spark heightened interest in various sports, including curling. The 2026 events have already shown signs of significant growth in participation and viewership for the sport in the United States.",
-      "category": "Sports",
-      "facts": [
-        {
-          "text": "Interest in curling spikes every four years during the Olympics and Paralympics.",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112246/curling-had-its-moment-at-the-olympics-and-now-paralympics-it-sparked-a-curling-bonanza-in-america"
-        },
-        {
-          "text": "The numbers for 2026 indicate a continuing boom in curling popularity in America.",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112246/curling-had-its-moment-at-the-olympics-and-now-paralympics-it-sparked-a-curling-bonanza-in-america"
-        },
-        {
-          "text": "This growth reflects a broader trend seen during past Olympic cycles.",
-          "source_url": "https://www.npr.org/2026/03/07/g-s1-112246/curling-had-its-moment-at-the-olympics-and-now-paralympics-it-sparked-a-curling-bonanza-in-america"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/g-s1-112246/curling-had-its-moment-at-the-olympics-and-now-paralympics-it-sparked-a-curling-bonanza-in-america"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4483284/from-death-to-america-to-death-from-america/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-17",
-      "headline": "Medical Schools to Enhance Nutrition Curriculum",
-      "context": "This initiative responds to concerns over the lack of formal nutrition education in medical training. Many medical schools currently provide less than the recommended amount of nutrition education, potentially impacting future healthcare practices.",
-      "category": "Health",
-      "facts": [
-        {
-          "text": "53 medical schools across 31 states will increase their nutrition curriculum to 40 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "The current average nutrition education provided is below the recommended 25 hours.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        },
-        {
-          "text": "Health Secretary Robert F. Kennedy Jr. made the announcement regarding the curriculum expansion.",
-          "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-18",
-      "headline": "Canada Moves to Daylight Time as B.C. Adopts Year-Round Change",
-      "context": "Daylight saving time begins in Canada this weekend, prompting clocks to move forward. British Columbia has implemented a year-round daylight saving time, which aligns with recent discussions about time consistency across the province.",
-      "category": "Canada",
-      "facts": [
-        {
-          "text": "Most of Canada will spring forward to daylight time starting Sunday.",
-          "source_url": "https://www.thestar.com/news/canada/british-columbia/clocks-springing-forward-this-weekend-b-c-adopts-year-round-daylight-time/article_1ba111a6-e09b-52ba-b4f4-7f4b0e859b40.html"
-        },
-        {
-          "text": "British Columbia has adopted year-round daylight saving time.",
-          "source_url": "https://www.thestar.com/news/canada/british-columbia/clocks-springing-forward-this-weekend-b-c-adopts-year-round-daylight-time/article_1ba111a6-e09b-52ba-b4f4-7f4b0e859b40.html"
-        },
-        {
-          "text": "This change is part of a broader discussion on time management in the region.",
-          "source_url": "https://www.thestar.com/news/canada/british-columbia/clocks-springing-forward-this-weekend-b-c-adopts-year-round-daylight-time/article_1ba111a6-e09b-52ba-b4f4-7f4b0e859b40.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/canada/british-columbia/clocks-springing-forward-this-weekend-b-c-adopts-year-round-daylight-time/article_1ba111a6-e09b-52ba-b4f4-7f4b0e859b40.html"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/daylight-savings-time-starts-2026/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-19",
-      "headline": "George Russell Secures Pole Position in Australian Grand Prix Qualifying",
-      "context": "The qualifying session for the Australian Grand Prix saw George Russell from Mercedes achieve pole position, marking a strong performance for the team. This event follows a crash involving Max Verstappen, which impacted the session significantly.",
-      "category": "Sports",
-      "facts": [
-        {
-          "text": "George Russell qualified in pole position for the Australian Grand Prix.",
-          "source_url": "https://www.bbc.com/sport/formula1/articles/c8d5l339535o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Mercedes showed strong performance throughout the qualifying session.",
-          "source_url": "https://www.bbc.com/sport/formula1/articles/c8d5l339535o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Max Verstappen crashed during the qualifying, affecting his results.",
-          "source_url": "https://www.bbc.com/sport/formula1/articles/c8d5l339535o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.com/sport/formula1/articles/c8d5l339535o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-20",
-      "headline": "Voronchikhina Earns First Medal for Russia at Winter Paralympics",
-      "context": "This achievement marks a significant moment for Russia at the Milan-Cortina Winter Paralympics, showcasing the country’s participation in adaptive sports. The medal is a symbol of perseverance and competition within the para-sports community.",
-      "category": "Sports",
-      "facts": [
-        {
-          "text": "Varvara Voronchikhina won a bronze medal in downhill skiing.",
-          "source_url": "https://www.bbc.com/sport/articles/c89k598z28po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This is Russia's first medal of the Milan-Cortina Winter Paralympics.",
-          "source_url": "https://www.bbc.com/sport/articles/c89k598z28po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The event highlights the achievements of athletes with disabilities.",
-          "source_url": "https://www.bbc.com/sport/articles/c89k598z28po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.com/sport/articles/c89k598z28po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-21",
-      "headline": "2026 Winter Paralympics Begin with Six Competitive Sports",
-      "context": "The Winter Paralympics are taking place in Milan Cortina, showcasing athletes with disabilities. This edition is notable for featuring a record number of athletes and medals across multiple sports, highlighting the growth and inclusivity of the event.",
-      "category": "Sports",
-      "facts": [
-        {
-          "text": "The 2026 Winter Paralympics feature six sports: Para alpine skiing, Para biathlon, Para cross-country skiing, Para ice hockey, Para snowboard, and wheelchair curling.",
-          "source_url": "https://www.pbs.org/newshour/world/the-2026-winter-paralympics-have-begun-here-are-the-6-sports-athletes-are-competing-in"
-        },
-        {
-          "text": "A record number of athletes are participating in this year's event.",
-          "source_url": "https://www.pbs.org/newshour/world/the-2026-winter-paralympics-have-begun-here-are-the-6-sports-athletes-are-competing-in"
-        },
-        {
-          "text": "The competition aims to promote awareness and support for athletes with disabilities.",
-          "source_url": "https://www.pbs.org/newshour/world/the-2026-winter-paralympics-have-begun-here-are-the-6-sports-athletes-are-competing-in"
-        }
-      ],
-      "sources": [
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/the-2026-winter-paralympics-have-begun-here-are-the-6-sports-athletes-are-competing-in"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-22",
-      "headline": "American-Iranians Face Communication Challenges Amid Ongoing Conflict in Iran",
-      "context": "The ongoing conflict in Iran has disrupted communications, making it difficult for Iranian Americans to stay in touch with family members still in the country. This situation has heightened anxiety among those with ties to Iran as the war continues to escalate.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Iranians in the U.S. are struggling to maintain contact with family in Iran due to ongoing violence.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737478/as-the-war-goes-on-in-iran-american-iranians-struggle-to-stay-in-touch-with-family"
-        },
-        {
-          "text": "The conflict has resulted in increased anxiety and concern among American-Iranians about their loved ones.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737478/as-the-war-goes-on-in-iran-american-iranians-struggle-to-stay-in-touch-with-family"
-        },
-        {
-          "text": "Many families are facing significant challenges in communication, with some unable to reach relatives for long periods.",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737478/as-the-war-goes-on-in-iran-american-iranians-struggle-to-stay-in-touch-with-family"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/nx-s1-5737478/as-the-war-goes-on-in-iran-american-iranians-struggle-to-stay-in-touch-with-family"
-        },
-        {
-          "name": "NPR News",
           "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false
-    },
-    {
-      "slug": "story-23",
-      "headline": "Trump Calls for Unconditional Surrender from Iran Amid Ongoing Conflict",
-      "context": "The current hostilities have escalated over the past six days, prompting strong statements from leaders involved. This situation impacts international relations significantly, particularly concerning U.S.-Iran dynamics.",
-      "category": "World",
-      "facts": [
-        {
-          "text": "Trump demands Iran's unconditional surrender in a recent statement.",
-          "source_url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "He urges Tehran to select new leadership aligned with U.S. interests.",
-          "source_url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The demand follows six days of intensified conflict.",
-          "source_url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Putin has engaged in discussions with Iran's president during this period.",
-          "source_url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5734381/white-house-messaging-iran-us-israel-war"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/show/trump-demands-unconditional-surrender-as-war-on-iran-enters-new-phase"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/irans-president-apologises-for-attacking-neighbouring-countries?traffic_source=rss"
-        },
-        {
-          "name": "ABC News",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
         },
         {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         }
       ],
+      "component_articles": [
+        {
+          "source": "Globe and Mail",
+          "lean": "Center",
+          "title": "Iran’s President apologizes to neighbouring countries for attacks as war enters second week",
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+        },
+        {
+          "source": "Globe and Mail",
+          "lean": "Center",
+          "title": "Iranian President rejects U.S. demand for a surrender",
+          "url": "https://www.theglobeandmail.com/world/video-iranian-president-rejects-us-demand-for-a-surrender/"
+        },
+        {
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "Trump warns Iran 'will be hit very hard' as war enters its second week",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+        },
+        {
+          "source": "CBS News",
+          "lean": "Center",
+          "title": "Trump exalts progress in Iran war after warning country will be \"hit very hard\"",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+        }
+      ],
       "stakeholder_quotes": [
         {
+          "speaker": "Masoud Pezeshkian",
+          "quote": "I apologize for the attacks on our neighbors.",
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+        },
+        {
           "speaker": "Donald Trump",
-          "quote": "I call on Tehran to pick new leaders who are acceptable to the White House.",
-          "url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
+          "quote": "Iran will be hit very hard.",
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
       ],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "In times of escalating conflict, communities often find strength in unity and resilience.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-24",
-      "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Naval Action",
-      "context": "The U.S. Navy's recent sinking of an Iranian warship has led to heightened tensions in the region. Following this incident, Sri Lanka has taken custody of another Iranian vessel, reflecting the ongoing geopolitical complexities.",
+      "slug": "article-11",
+      "headline": "Severe Flooding in Nairobi Leads to 23 Fatalities",
+      "summary": "Heavy rains in Nairobi have resulted in significant flooding, claiming the lives of at least 23 individuals and causing widespread disruption. The floods have submerged roads, making travel hazardous, and have also affected flight operations at Nairobi Airport. Emergency services are currently responding to assist affected areas and assess the full extent of the damage.",
+      "context": "This flooding event follows a pattern of heavy rainfall impacting various regions in Kenya, raising concerns about infrastructure resilience and preparedness for extreme weather events. Addressing increasing climate variability is critical for the government and community planning.",
       "category": "World",
-      "facts": [
+      "key_points": [
         {
-          "text": "The U.S. submarine sank an Iranian warship on Wednesday.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "At least 23 people confirmed dead due to flooding in Nairobi.",
+          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Australia confirmed that three Australians were aboard the submarine involved in the incident.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Flights in and out of Nairobi Airport have been disrupted.",
+          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Sri Lanka has assumed custody of a separate Iranian vessel after the sinking.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Many roads in the capital are currently submerged, complicating access for emergency services.",
+          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The actions are part of a broader pattern of naval engagements in the region.",
-          "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "text": "Local authorities are mobilizing resources to assist those affected by the flooding.",
+          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "Heavy rains and flooding kills at least 23 in Nairobi",
+          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Communities are coming together to support one another in the face of this tragedy, showcasing resilience and compassion.",
+      "related_ongoing": ""
     },
     {
-      "slug": "story-25",
-      "headline": "US Intelligence Reports Russia Aiding Iran with US Troop Locations",
-      "context": "This matter arises from concerns over international military relations and potential threats to US personnel stationed abroad. The situation has escalated amid heightened tensions between the US, Russia, and Iran.",
+      "slug": "article-15",
+      "headline": "Challenges in Gaza Reconstruction Amid Ongoing Conflict",
+      "summary": "A recent report highlights the severe humanitarian crisis in Gaza, where the United Nations estimates over 61 million tons of debris litter the enclave, significantly complicating reconstruction efforts. Many displaced Palestinians are currently residing in tents, lacking basic infrastructure and facilities, as the ongoing conflict continues to impede recovery efforts. Amid these dire conditions, optimism for future reconstruction appears limited among the local population.",
+      "context": "The current situation in Gaza follows a prolonged period of conflict that has devastated the region’s infrastructure. International attention has been drawn to the urgent need for humanitarian aid and rebuilding efforts as the conditions worsen.",
       "category": "World",
-      "facts": [
+      "key_points": [
         {
-          "text": "US intelligence believes Russia is sharing locations of American troops with Iran.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "The UN estimates Gaza has over 61 million tons of debris.",
+          "source_url": "https://www.theglobeandmail.com/world/video-some-palestinians-see-little-hope-for-reconstruction-in-gaza-amid/"
         },
         {
-          "text": "The information reportedly includes the positions of US aircraft and naval ships.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "Many Palestinians are living in tents amid the destruction, lacking essential services.",
+          "source_url": "https://www.theglobeandmail.com/world/video-some-palestinians-see-little-hope-for-reconstruction-in-gaza-amid/"
         },
         {
-          "text": "Curiosity about the nature of cooperation between Russia and Iran has increased due to geopolitical tensions.",
-          "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
+          "text": "The ongoing conflict further complicates reconstruction efforts, leaving residents without hope for recovery.",
+          "source_url": "https://www.theglobeandmail.com/world/video-some-palestinians-see-little-hope-for-reconstruction-in-gaza-amid/"
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
-        },
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/video-some-palestinians-see-little-hope-for-reconstruction-in-gaza-amid/"
+        }
+      ],
+      "component_articles": [
         {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/show/iran-receiving-intelligence-support-from-russia-officials-say"
+          "source": "Globe and Mail",
+          "lean": "Center",
+          "title": "Some Palestinians see little hope for reconstruction in Gaza amid intensifying war in Middle East",
+          "url": "https://www.theglobeandmail.com/world/video-some-palestinians-see-little-hope-for-reconstruction-in-gaza-amid/"
         }
       ],
       "stakeholder_quotes": [],
-      "is_good_development": false
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "In the face of overwhelming challenges, the resilience of individuals and communities shines through, as they continue to seek ways to survive and rebuild their lives.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-4",
+      "headline": "Oil Prices Surge Amid Qatar's Warning of Potential Production Halts",
+      "summary": "Oil prices have reached a two-year high, with current rates nearing $150 a barrel, following a warning from Qatar's Energy Minister Saad al-Kaabi. The rise in prices is attributed to escalating tensions related to the ongoing Iran conflict, which has raised concerns about stability in Gulf oil production. Analysts indicate that if production were to cease in the region, the impact on global markets could be significant, potentially leading to further hikes in energy costs.",
+      "context": "The recent surge in oil prices can be linked to increasing geopolitical tensions in the Gulf region, particularly involving Iran. Qatar's warning highlights vulnerabilities in oil production that could lead to global economic ramifications, emphasizing the interdependence of energy supplies and geopolitical dynamics.",
+      "category": "Economy",
+      "key_points": [
+        {
+          "text": "Oil prices have surged to $150 a barrel, a two-year high.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Qatar's Energy Minister warned that Gulf oil production might stop within days due to the Iran conflict.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Market analysts predict that further escalation could significantly impact global oil supplies.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The warning reflects heightened concerns over stability in the region and its implications for energy costs.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "Oil price at two-year high after Qatar warns all Gulf production could stop within days",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Saad al-Kaabi",
+          "quote": "If the Iran conflict continues over the coming weeks, oil could hit $150 a barrel.",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Despite current challenges, historical resilience in global markets often leads to recovery and adaptation in the face of crisis.",
+      "related_ongoing": "Iran Conflict"
     }
   ],
   "ongoing_topics": [
@@ -862,51 +666,158 @@
   ],
   "good_developments": [
     {
-      "headline": "Rescue Operations Successful After Avalanche Incident",
-      "context": "This incident underscores the importance of technology in emergency response situations. The use of location-tracking features has become a vital tool in search and rescue operations, particularly in remote or hazardous environments.",
-      "facts": [
+      "slug": "article-1",
+      "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
+      "summary": "Campbellford Memorial Hospital has announced the acquisition of two new Burlodge heating and cooling food transport carts, thanks to the efforts of its Auxiliary. This purchase aims to enhance the quality of food services provided to patients, ensuring meals are delivered at optimal temperatures. The Auxiliary's support reflects ongoing community involvement in hospital operations and patient care enhancements.",
+      "context": "The Auxiliary to Campbellford Memorial Hospital has been actively engaged in fundraising and community support initiatives for several years. Their latest contribution underlines the importance of quality patient care and the role of community in supporting local healthcare facilities.",
+      "category": "Local",
+      "key_points": [
         {
-          "text": "Michael Harris was skiing at Stevens Pass Ski Resort when an avalanche occurred.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "Campbellford Memorial Hospital has received two new food transport carts.",
+          "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "He was buried under snow for over four hours.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "The carts are designed for heating and cooling, improving meal service to patients.",
+          "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "His wife used the 'Find My iPhone' feature to help locate him.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "The purchase was made possible by the Auxiliary's fundraising efforts.",
+          "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "Search and rescue teams were guided to his location by the information provided via the app.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "This initiative reflects the commitment of the community to enhance patient care.",
+          "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         }
       ],
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         }
-      ]
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Auxiliary comes through for Campbellford Memorial Hospital",
+          "url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
     },
     {
-      "headline": "13-Year-Old Boy Raises Thousands for Charity by Recycling Cans",
-      "context": "Young Ryan Hulance from Solihull, England, has combined environmental efforts with charitable fundraising by recycling over a million aluminum cans. His initiative addresses both food security and environmental conservation, providing financial support to food banks in his community.",
-      "facts": [
+      "slug": "article-2",
+      "headline": "Community Input Invited for Development of Quinte Compass",
+      "summary": "Community partners in the Bay of Quinte region are collaboratively working on a new initiative called Quinte Compass, an online platform designed to connect equity-deserving residents with resources and services. The initiative aims to enhance support and access for individuals facing various barriers. Feedback from the community is being solicited to ensure the platform effectively meets the needs of its users, making an inclusive and responsive tool for local residents.",
+      "context": "The Quinte Compass project emerges from ongoing efforts to address disparities and improve access to resources within the community. With a focus on equity-deserving populations, this initiative seeks to empower individuals by providing them with information and connections necessary for their well-being.",
+      "category": "Local",
+      "key_points": [
         {
-          "text": "Ryan Hulance has recycled more than a million aluminum cans.",
+          "text": "Quinte Compass is an online tool aimed at connecting equity-deserving residents in the Bay of Quinte.",
+          "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        },
+        {
+          "text": "Community partners are working together to develop the platform.",
+          "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        },
+        {
+          "text": "Public input is being gathered to tailor the tool to meet community needs.",
+          "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        },
+        {
+          "text": "The initiative emphasizes enhancing access to vital resources and support services.",
+          "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "inQuinte",
+          "url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "inQuinte",
+          "lean": "Center",
+          "title": "Community input sought to build development of Quinte Compass",
+          "url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-5",
+      "headline": "Belleville City Council to Decide on Front Street Upper Bridge Rehabilitation",
+      "summary": "The Belleville City Council is set to vote on the future of the Front Street Upper Bridge rehabilitation project during their upcoming meeting on Monday. This decision comes as the city seeks to address the structural integrity and safety of the bridge, which has raised community concerns. Should the council approve the project, it will allow for crucial upgrades to proceed.",
+      "context": "The Front Street Upper Bridge has been under scrutiny due to its aging infrastructure and potential safety hazards. City officials are emphasizing the importance of maintaining the city's transportation network to ensure safety and accessibility for residents.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Belleville City Council will vote on the bridge rehabilitation project on Monday.",
+          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+        },
+        {
+          "text": "The project aims to address safety and structural integrity issues of the Front Street Upper Bridge.",
+          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+        },
+        {
+          "text": "Community concerns regarding the bridge's condition have prompted this decision.",
+          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Decision on moving forward on Front Street Upper Bridge rehabilitation project Monday",
+          "url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-12",
+      "headline": "Young Boy Raises Thousands for Charity Through Can Recycling Efforts",
+      "summary": "Ryan Hulance, a 13-year-old from Solihull, England, has successfully recycled over a million aluminum cans, using the proceeds to contribute thousands of dollars to local food banks. Inspired by a desire to assist those in need while promoting environmental care, Ryan reached out to businesses for support and has made a significant impact in his community. His initiative highlights the intersection of charitable giving and environmental responsibility, showcasing how individual actions can lead to substantial positive change.",
+      "context": "Ryan's project stems from a combination of concern for both his community's welfare and the environment. His efforts reflect a growing trend of youth engagement in sustainability and social responsibility, illustrating the potential of grassroots movements to address local issues.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Ryan Hulance, aged 13, has recycled over a million aluminum cans.",
           "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "He has raised thousands of dollars for charity.",
+          "text": "He has raised thousands of dollars for local food banks through his efforts.",
           "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "The proceeds from the recycling have been donated to food banks.",
+          "text": "Ryan began his campaign by contacting local businesses for support.",
           "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         },
         {
-          "text": "Ryan contacted local businesses for support in his recycling efforts.",
+          "text": "His initiative combines charitable work with environmental sustainability.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "The project serves as an example of youth-led community engagement.",
           "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
@@ -915,44 +826,49 @@
           "name": "Good News Network",
           "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
-      ]
-    },
-    {
-      "headline": "Snowmobilers Rescue Moose Buried in Snow in New Hampshire",
-      "context": "This story highlights an instance of community members stepping in to help wildlife in distress. The snowmobilers found the young moose in a challenging situation while enjoying their recreational activities in the woods of New Hampshire.",
-      "facts": [
+      ],
+      "component_articles": [
         {
-          "text": "A group of snowmobilers discovered a young moose buried up to its neck in snow.",
-          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
-        },
-        {
-          "text": "The snowmobilers were returning home for lunch when they came across the moose.",
-          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
-        },
-        {
-          "text": "They worked together to dig the moose out of the snow and help it regain its footing.",
-          "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+          "source": "Good News Network",
+          "lean": "Center",
+          "title": "Schoolboy With ‘Can-Do’ Attitude Has Recycled a Million Cans and Donated the Proceeds to Charity",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
       ],
-      "sources": [
+      "stakeholder_quotes": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
+          "speaker": "Ryan Hulance",
+          "quote": "I wanted to help my local food banks and also do something good for the environment.",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
         }
-      ]
+      ],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
     }
   ],
-  "optional_reflection": "In times of uncertainty, may we seek truth with humility and share it with grace. Lord, grant us wisdom to see clearly, courage to speak honestly, and compassion for those whose stories we carry today. Amen.",
   "_meta": {
-    "pipeline_version": "5.1",
+    "pipeline_version": "6.0",
     "models_used": [
       "OpenAI",
       "Claude",
       "Grok"
     ],
-    "feeds_attempted": 36,
+    "feeds_attempted": 38,
     "raw_items": 204,
-    "consensus_stories": 25,
-    "good_developments_found": 3
+    "groups_formed": 189,
+    "consensus_articles": 15,
+    "good_developments_found": 4,
+    "category_order": [
+      "Local",
+      "Ontario",
+      "Canada",
+      "US",
+      "World",
+      "Health",
+      "Science",
+      "Tech"
+    ]
   }
 }
