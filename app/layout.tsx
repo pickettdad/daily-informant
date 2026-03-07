@@ -29,6 +29,9 @@ export default function RootLayout({
           a { color: #2B5C8A; text-decoration: none; }
           a:hover { text-decoration: underline; }
           ::selection { background: #E8F0F7; color: #2B5C8A; }
+          @media (max-width: 768px) {
+            .di-layout-grid { grid-template-columns: 1fr !important; }
+          }
         `}</style>
       </head>
       <body>
@@ -36,11 +39,14 @@ export default function RootLayout({
         <header style={{
           borderBottom: "1px solid #E5DFD8",
           background: "#FFFFFF",
+          position: "sticky",
+          top: 0,
+          zIndex: 100,
         }}>
           <div style={{
-            maxWidth: 780,
+            maxWidth: 1100,
             margin: "0 auto",
-            padding: "16px 24px",
+            padding: "14px 24px",
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
@@ -50,7 +56,7 @@ export default function RootLayout({
             <a href="/" style={{ textDecoration: "none" }}>
               <h1 style={{
                 fontFamily: "'Playfair Display', Georgia, serif",
-                fontSize: 26,
+                fontSize: 24,
                 fontWeight: 800,
                 color: "#1A1A1A",
                 letterSpacing: "-0.02em",
@@ -58,9 +64,9 @@ export default function RootLayout({
                 The Daily Informant
               </h1>
               <p style={{
-                fontSize: 11,
+                fontSize: 10,
                 color: "#9B9590",
-                marginTop: 2,
+                marginTop: 1,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
                 fontWeight: 600,
@@ -68,7 +74,7 @@ export default function RootLayout({
                 Facts · Sources · Clarity
               </p>
             </a>
-            <nav style={{ display: "flex", gap: 20 }}>
+            <nav style={{ display: "flex", gap: 18 }}>
               <a href="/" style={{ fontSize: 13, fontWeight: 600, color: "#6B6560" }}>Today</a>
               <a href="/topics" style={{ fontSize: 13, fontWeight: 600, color: "#6B6560" }}>Situations</a>
               <a href="/how-it-works" style={{ fontSize: 13, fontWeight: 600, color: "#6B6560" }}>How It Works</a>
@@ -76,8 +82,8 @@ export default function RootLayout({
           </div>
         </header>
 
-        {/* Main Content */}
-        <main style={{ maxWidth: 780, margin: "0 auto", padding: "32px 24px", minHeight: "60vh" }}>
+        {/* Main Content — wider for sidebar layout */}
+        <main style={{ maxWidth: 1100, margin: "0 auto", padding: "24px 24px", minHeight: "60vh" }}>
           {children}
         </main>
 
@@ -85,14 +91,14 @@ export default function RootLayout({
         <footer style={{
           borderTop: "1px solid #E5DFD8",
           background: "#FFFFFF",
-          padding: 24,
+          padding: 20,
           textAlign: "center",
         }}>
-          <p style={{ fontSize: 12, color: "#9B9590", lineHeight: 1.7 }}>
+          <p style={{ fontSize: 11, color: "#9B9590", lineHeight: 1.7 }}>
             The Daily Informant · Updated once daily at 6 AM EST · No ads · No sponsors · No paywall
           </p>
-          <p style={{ fontSize: 11, color: "#9B9590", marginTop: 4, opacity: 0.7 }}>
-            Sourced from official documents, wire services &amp; multi-AI consensus · All rights to original sources
+          <p style={{ fontSize: 10, color: "#9B9590", marginTop: 3, opacity: 0.7 }}>
+            Stories consolidated from multiple sources across the political spectrum via multi-AI consensus · All rights to original sources
           </p>
         </footer>
       </body>
