@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const s = {
   display: "'Playfair Display', Georgia, serif",
+  body: "'Source Sans 3', sans-serif",
   accent: "#2B5C8A",
   accentLight: "#E8F0F7",
   muted: "#6B6560",
@@ -15,19 +16,22 @@ const s = {
   borderLight: "#EDE8E2",
   good: "#2D7D5F",
   goodLight: "#EDF7F2",
+  bg: "#FAF8F5",
 };
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
-  World:    { bg: "#E8F0F7", text: "#2B5C8A" },
-  US:       { bg: "#EEE8F7", text: "#5A3FA0" },
+  Local:    { bg: "#FFF3E8", text: "#B85C1F" },
+  Ontario:  { bg: "#FDEDF0", text: "#A03F4F" },
   Canada:   { bg: "#FDEDF0", text: "#A03F4F" },
-  Business: { bg: "#FDF6EC", text: "#8B6914" },
-  Science:  { bg: "#EDF7F2", text: "#2D7D5F" },
+  US:       { bg: "#EEE8F7", text: "#5A3FA0" },
+  World:    { bg: "#E8F0F7", text: "#2B5C8A" },
   Health:   { bg: "#F5EDF7", text: "#6B3FA0" },
+  Science:  { bg: "#EDF7F2", text: "#2D7D5F" },
   Tech:     { bg: "#EDEFF7", text: "#3F4FA0" },
-  Sports:   { bg: "#FFF3E8", text: "#B85C1F" },
-  Politics: { bg: "#F0EDE8", text: "#6B5D50" },
+  Business: { bg: "#FDF6EC", text: "#8B6914" },
 };
+
+const CATEGORY_ORDER = ["Local", "Ontario", "Canada", "US", "World", "Health", "Science", "Tech", "Business"];
 
 function getCatStyle(cat: string) {
   return categoryColors[cat] || { bg: "#F0F0F0", text: "#666" };
@@ -40,304 +44,264 @@ function formatDate(dateStr: string) {
   });
 }
 
-function StoryCard({ story }: { story: any }) {
-  const [quotesOpen, setQuotesOpen] = useState(false);
-  const catStyle = getCatStyle(story.category);
+function StoryCard({ article }: { article: any }) {
+  const catStyle = getCatStyle(article.category);
+  const sourceCount = article.component_articles?.length || article.sources?.length || 1;
 
   return (
-    <article style={{
-      background: "#FFFFFF", border: `1px solid ${s.border}`,
-      borderRadius: 8, padding: "24px 28px", marginBottom: 16,
-    }}>
-      {/* Category + headline */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 6 }}>
-        {story.category && (
-          <span style={{
-            fontSize: 11, fontWeight: 700, letterSpacing: "0.06em",
-            textTransform: "uppercase", background: catStyle.bg, color: catStyle.text,
-            padding: "3px 8px", borderRadius: 4, whiteSpace: "nowrap", marginTop: 4,
-          }}>
-            {story.category}
+    <Link
+      href={`/article/${article.slug}`}
+      style={{
+        display: "block", background: "#FFFFFF",
+        border: `1px solid ${s.border}`, borderRadius: 8,
+        padding: "18px 22px", textDecoration: "none", color: "inherit",
+        transition: "border-color 0.15s, box-shadow 0.15s",
+      }}
+      onMouseEnter={(e) => {
+        (e.currentTarget as HTMLElement).style.borderColor = s.accent;
+        (e.currentTarget as HTMLElement).style.boxShadow = "0 2px 12px rgba(43,92,138,0.08)";
+      }}
+      onMouseLeave={(e) => {
+        (e.currentTarget as HTMLElement).style.borderColor = s.border;
+        (e.currentTarget as HTMLElement).style.boxShadow = "none";
+      }}
+    >
+      <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8 }}>
+        <span style={{
+          fontSize: 10, fontWeight: 700, letterSpacing: "0.06em",
+          textTransform: "uppercase", background: catStyle.bg, color: catStyle.text,
+          padding: "2px 7px", borderRadius: 3,
+        }}>
+          {article.category}
+        </span>
+        <span style={{ fontSize: 11, color: s.light }}>
+          {sourceCount} source{sourceCount !== 1 ? "s" : ""}
+        </span>
+        {article.related_ongoing && (
+          <span style={{ fontSize: 10, color: s.gold, fontWeight: 600 }}>
+            ● Ongoing
           </span>
         )}
-        <h3 style={{ fontFamily: s.display, fontSize: 20, fontWeight: 700, lineHeight: 1.35, margin: 0 }}>
-          {story.headline}
-        </h3>
       </div>
 
-      {/* Context */}
-      {story.context && (
+      <h3 style={{
+        fontFamily: s.display, fontSize: 17, fontWeight: 700,
+        lineHeight: 1.3, margin: "0 0 8px 0",
+      }}>
+        {article.headline}
+      </h3>
+
+      <p style={{
+        fontSize: 13, lineHeight: 1.5, color: s.muted,
+        display: "-webkit-box", WebkitLineClamp: 3,
+        WebkitBoxOrient: "vertical", overflow: "hidden",
+        margin: 0,
+      }}>
+        {article.summary || article.context || ""}
+      </p>
+
+      {article.is_negative && article.positive_thought && (
         <p style={{
-          fontSize: 14, lineHeight: 1.65, color: s.muted,
-          margin: "8px 0 16px 0", borderLeft: `3px solid ${s.borderLight}`,
-          paddingLeft: 14, fontStyle: "italic",
+          fontSize: 12, color: s.gold, fontStyle: "italic",
+          marginTop: 8, lineHeight: 1.4,
         }}>
-          {story.context}
+          💛 {article.positive_thought}
         </p>
       )}
+    </Link>
+  );
+}
 
-      {/* Facts */}
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        {story.facts.map((f: any, i: number) => (
-          <li key={i} style={{
-            fontSize: 15, lineHeight: 1.6, color: s.muted,
-            marginBottom: 8, paddingLeft: 16, position: "relative",
-          }}>
-            <span style={{ position: "absolute", left: 0, color: s.gold, fontWeight: 700 }}>·</span>
-            {f.text}{" "}
-            <a href={f.source_url} target="_blank" rel="noreferrer"
-              style={{ fontSize: 11, color: s.accent, opacity: 0.8, textDecoration: "none" }}>
-              source ↗
-            </a>
-          </li>
-        ))}
-      </ul>
+function OngoingSidebar({ topics }: { topics: any[] }) {
+  if (!topics || topics.length === 0) return null;
 
-      {/* Sources */}
-      <div style={{ marginTop: 14, display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
-        <span style={{
-          fontSize: 11, color: s.light, fontWeight: 600,
-          letterSpacing: "0.05em", textTransform: "uppercase",
-        }}>Sources:</span>
-        {story.sources.map((src: any, i: number) => (
-          <a key={i} href={src.url} target="_blank" rel="noreferrer"
+  return (
+    <div>
+      <h2 style={{
+        fontFamily: s.display, fontSize: 18, fontWeight: 700,
+        color: s.accent, marginBottom: 16,
+      }}>
+        Ongoing Situations
+      </h2>
+      <div style={{ display: "grid", gap: 10 }}>
+        {topics.map((topic: any) => (
+          <Link
+            key={topic.slug}
+            href={`/topics/${topic.slug}`}
             style={{
-              fontSize: 12, color: s.accent, background: s.accentLight,
-              padding: "2px 8px", borderRadius: 4, fontWeight: 500, textDecoration: "none",
-            }}>
-            {src.name}
-          </a>
+              display: "block", background: "#FFFFFF",
+              border: `1px solid ${s.border}`, borderRadius: 8,
+              padding: "14px 16px", textDecoration: "none", color: "inherit",
+            }}
+          >
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <h3 style={{
+                fontFamily: s.display, fontSize: 14, fontWeight: 700,
+                margin: 0, lineHeight: 1.3,
+              }}>
+                {topic.topic}
+              </h3>
+              {topic.timeline?.length > 0 && (
+                <span style={{ fontSize: 10, color: s.accent, fontWeight: 600, whiteSpace: "nowrap" }}>
+                  {topic.timeline.length} →
+                </span>
+              )}
+            </div>
+            {topic.timeline?.[0] && (
+              <p style={{
+                fontSize: 11, color: s.light, marginTop: 6,
+                lineHeight: 1.4, display: "-webkit-box",
+                WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }}>
+                {topic.timeline[0].date}: {topic.timeline[0].text}
+              </p>
+            )}
+          </Link>
         ))}
       </div>
-
-      {/* Stakeholder Quotes */}
-      {story.stakeholder_quotes?.length > 0 && (
-        <div style={{ marginTop: 12 }}>
-          <button onClick={() => setQuotesOpen(!quotesOpen)} style={{
-            background: "none", border: "none", cursor: "pointer",
-            fontFamily: "'Source Sans 3', sans-serif", fontSize: 13,
-            color: s.accent, padding: 0, fontWeight: 600, letterSpacing: "0.02em",
-          }}>
-            {quotesOpen ? "▾" : "▸"} Key Statements ({story.stakeholder_quotes.length})
-          </button>
-          {quotesOpen && (
-            <div style={{ marginTop: 10, paddingLeft: 16, borderLeft: `2px solid ${s.borderLight}` }}>
-              {story.stakeholder_quotes.map((q: any, i: number) => (
-                <div key={i} style={{ marginBottom: 10 }}>
-                  <span style={{ fontWeight: 600, fontSize: 13 }}>{q.speaker}:</span>
-                  <span style={{ fontSize: 13, color: s.muted, fontStyle: "italic", marginLeft: 6 }}>
-                    &ldquo;{q.quote}&rdquo;
-                  </span>
-                  {q.url && (
-                    <a href={q.url} target="_blank" rel="noreferrer"
-                      style={{ fontSize: 11, color: s.accent, marginLeft: 6, textDecoration: "none" }}>
-                      source ↗
-                    </a>
-                  )}
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-    </article>
+    </div>
   );
 }
 
 export default function DailyEdition({ daily }: { daily: any }) {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  // Gather all categories from stories
-  const allCategories = Array.from(
-    new Set(daily.top_stories.map((s: any) => s.category).filter(Boolean))
-  ).sort() as string[];
+  const allCategories = CATEGORY_ORDER.filter(cat =>
+    daily.top_stories.some((a: any) => a.category === cat)
+  );
   const filterOptions = ["All", ...allCategories];
 
-  // Filter stories
   const filteredStories = activeFilter === "All"
     ? daily.top_stories
-    : daily.top_stories.filter((s: any) => s.category === activeFilter);
+    : daily.top_stories.filter((a: any) => a.category === activeFilter);
 
   return (
     <div>
       {/* Date banner */}
       <div style={{
         display: "flex", justifyContent: "space-between", alignItems: "baseline",
-        marginBottom: 20, paddingBottom: 16, borderBottom: `1px solid ${s.borderLight}`,
+        marginBottom: 20, paddingBottom: 12, borderBottom: `1px solid ${s.borderLight}`,
         flexWrap: "wrap", gap: 8,
       }}>
         <div>
           <p style={{ fontSize: 14, fontWeight: 600, color: s.accent, margin: 0 }}>Morning Edition</p>
-          <p style={{ fontSize: 15, color: s.muted, marginTop: 4 }}>{formatDate(daily.date)}</p>
+          <p style={{ fontSize: 14, color: s.muted, marginTop: 2 }}>{formatDate(daily.date)}</p>
         </div>
-        <p style={{ fontSize: 12, color: s.light, margin: 0 }}>Updated 6:00 AM EST</p>
+        <p style={{ fontSize: 11, color: s.light, margin: 0 }}>Updated 6:00 AM EST</p>
       </div>
 
-      {/* ── Category Filter Bar ── */}
+      {/* Category filter bar */}
       <div style={{
-        position: "sticky", top: 56, zIndex: 50, background: "#FAF8F5",
-        paddingTop: 12, paddingBottom: 12, marginBottom: 20,
+        position: "sticky", top: 56, zIndex: 50, background: s.bg,
+        paddingTop: 10, paddingBottom: 10, marginBottom: 16,
         borderBottom: `1px solid ${s.borderLight}`,
       }}>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
           {filterOptions.map((cat) => {
             const isActive = activeFilter === cat;
             const catStyle = cat === "All" ? { bg: s.accent, text: "#fff" } : getCatStyle(cat);
             return (
-              <button
-                key={cat}
-                onClick={() => setActiveFilter(cat)}
+              <button key={cat} onClick={() => setActiveFilter(cat)}
                 style={{
-                  fontSize: 12, fontWeight: 600, letterSpacing: "0.04em",
-                  textTransform: "uppercase",
-                  padding: "5px 14px", borderRadius: 20, cursor: "pointer",
+                  fontSize: 11, fontWeight: 600, letterSpacing: "0.04em",
+                  textTransform: "uppercase", padding: "4px 12px",
+                  borderRadius: 16, cursor: "pointer",
                   border: isActive ? "none" : `1px solid ${s.border}`,
                   background: isActive ? (cat === "All" ? s.accent : catStyle.bg) : "transparent",
                   color: isActive ? (cat === "All" ? "#fff" : catStyle.text) : s.muted,
-                  transition: "all 0.15s ease",
-                  fontFamily: "'Source Sans 3', sans-serif",
+                  fontFamily: s.body,
                 }}
               >
                 {cat}
-                {cat !== "All" && (
-                  <span style={{ marginLeft: 4, opacity: 0.7, fontSize: 11 }}>
-                    ({daily.top_stories.filter((st: any) => st.category === cat).length})
-                  </span>
-                )}
               </button>
             );
           })}
         </div>
       </div>
 
-      {/* ── Stories ── */}
-      <section style={{ marginBottom: 48 }}>
-        <div style={{ marginBottom: 16 }}>
-          <h2 style={{ fontFamily: s.display, fontSize: 24, fontWeight: 700 }}>
-            ◆ {activeFilter === "All" ? "Today's Key Facts" : activeFilter}
-          </h2>
-          <p style={{ fontSize: 13, color: s.light, marginTop: 4 }}>
-            {filteredStories.length} stories · Source-linked · No commentary
-          </p>
-        </div>
+      {/* Main layout: sidebar + grid */}
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "280px 1fr",
+        gap: 24,
+        alignItems: "start",
+      }}>
+        {/* Left sidebar — Ongoing Situations */}
+        <aside style={{ position: "sticky", top: 110, maxHeight: "calc(100vh - 130px)", overflowY: "auto" }}>
+          <OngoingSidebar topics={daily.ongoing_topics} />
 
-        {filteredStories.length === 0 ? (
-          <p style={{ color: s.muted, fontSize: 15 }}>No stories in this category today.</p>
-        ) : (
-          filteredStories.map((story: any) => (
-            <StoryCard key={story.slug} story={story} />
-          ))
-        )}
-      </section>
-
-      {/* ── Ongoing Situations ── */}
-      {daily.ongoing_topics?.length > 0 && (
-        <section style={{ marginBottom: 48 }}>
-          <h2 style={{ fontFamily: s.display, fontSize: 24, fontWeight: 700, color: s.accent, marginBottom: 8 }}>
-            ◎ Ongoing Situations
-          </h2>
-          <p style={{ fontSize: 13, color: s.light, marginBottom: 20 }}>
-            Where major stories stand today
-          </p>
-          <div style={{ display: "grid", gap: 12 }}>
-            {daily.ongoing_topics.map((topic: any) => (
-              <Link key={topic.slug} href={`/topics/${topic.slug}`}
-                style={{
-                  display: "block", background: "#FFFFFF",
-                  border: `1px solid ${s.border}`, borderRadius: 8,
-                  padding: "20px 24px", textDecoration: "none", color: "inherit",
-                }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                  <h3 style={{ fontFamily: s.display, fontSize: 18, fontWeight: 700 }}>
-                    {topic.topic}
-                  </h3>
-                  <span style={{ fontSize: 11, color: s.accent, fontWeight: 600, whiteSpace: "nowrap" }}>
-                    {topic.timeline?.length || 0} updates →
-                  </span>
-                </div>
-                <p style={{ fontSize: 14, color: s.muted, lineHeight: 1.55, marginTop: 10 }}>
-                  {topic.summary}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* ── Good Developments ── */}
-      {daily.good_developments?.length > 0 && (
-        <section style={{ marginBottom: 48 }}>
-          <h2 style={{ fontFamily: s.display, fontSize: 24, fontWeight: 700, color: s.good, marginBottom: 8 }}>
-            ☀ Good Developments
-          </h2>
-          <p style={{ fontSize: 13, color: s.light, marginBottom: 20 }}>Verified positive updates</p>
-          <div style={{ display: "grid", gap: 12 }}>
-            {daily.good_developments.map((g: any, i: number) => (
-              <div key={i} style={{
-                background: s.goodLight, border: "1px solid #C8E6D8",
-                borderRadius: 8, padding: "18px 22px",
-              }}>
-                <h4 style={{ fontFamily: s.display, fontSize: 16, fontWeight: 700, color: s.good, marginBottom: 4 }}>
-                  {g.headline}
-                </h4>
-                {g.context && (
-                  <p style={{
-                    fontSize: 13, color: "#3D6B55", fontStyle: "italic",
-                    lineHeight: 1.55, marginBottom: 8, opacity: 0.85,
-                  }}>
-                    {g.context}
-                  </p>
-                )}
-                {g.facts.map((f: any, j: number) => (
-                  <p key={j} style={{ fontSize: 14, color: "#3D6B55", lineHeight: 1.55, marginBottom: 4 }}>
-                    {f.text}{" "}
-                    <a href={f.source_url} target="_blank" rel="noreferrer"
-                      style={{ fontSize: 11, color: s.good, textDecoration: "none" }}>source ↗</a>
-                  </p>
-                ))}
-                {g.sources?.length > 0 && (
-                  <div style={{ marginTop: 8, display: "flex", gap: 6, flexWrap: "wrap" }}>
-                    <span style={{ fontSize: 11, color: "#3D6B55", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                      Sources:
-                    </span>
-                    {g.sources.map((src: any, k: number) => (
-                      <a key={k} href={src.url} target="_blank" rel="noreferrer"
-                        style={{ fontSize: 12, color: s.good, textDecoration: "none", fontWeight: 500 }}>
-                        {src.name}
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* ── Reflection ── */}
-      {daily.optional_reflection && (
-        <section style={{ borderTop: `1px solid ${s.borderLight}`, paddingTop: 24, marginBottom: 40 }}>
-          <details>
-            <summary style={{
-              cursor: "pointer", fontSize: 13, color: s.gold,
-              fontWeight: 600, letterSpacing: "0.03em",
+          {/* How it works link */}
+          <div style={{ marginTop: 20, paddingTop: 16, borderTop: `1px solid ${s.borderLight}` }}>
+            <Link href="/how-it-works" style={{
+              fontSize: 12, color: s.light, fontWeight: 500, textDecoration: "none",
             }}>
-              Reflection &amp; Prayer (optional)
-            </summary>
+              How this site works →
+            </Link>
+          </div>
+        </aside>
+
+        {/* Right content — Story grid */}
+        <main>
+          <h2 style={{
+            fontFamily: s.display, fontSize: 20, fontWeight: 700,
+            marginBottom: 14,
+          }}>
+            {activeFilter === "All" ? "Today's Briefing" : activeFilter}
+            <span style={{ fontSize: 13, color: s.light, fontWeight: 400, marginLeft: 10 }}>
+              {filteredStories.length} article{filteredStories.length !== 1 ? "s" : ""}
+            </span>
+          </h2>
+
+          {filteredStories.length === 0 ? (
+            <p style={{ color: s.muted }}>No articles in this category today.</p>
+          ) : (
             <div style={{
-              marginTop: 14, padding: "18px 22px", background: s.goldLight,
-              borderRadius: 8, border: "1px solid #EDE0C8",
+              display: "grid",
+              gridTemplateColumns: "repeat(2, 1fr)",
+              gap: 14,
             }}>
-              <p style={{
-                fontSize: 14, lineHeight: 1.7, color: "#7A6840",
-                fontStyle: "italic", fontFamily: s.display,
-              }}>
-                {daily.optional_reflection}
-              </p>
+              {filteredStories.map((article: any) => (
+                <StoryCard key={article.slug} article={article} />
+              ))}
             </div>
-          </details>
-        </section>
-      )}
+          )}
+
+          {/* Good Developments */}
+          {daily.good_developments?.length > 0 && activeFilter === "All" && (
+            <section style={{ marginTop: 40 }}>
+              <h2 style={{
+                fontFamily: s.display, fontSize: 20, fontWeight: 700,
+                color: s.good, marginBottom: 14,
+              }}>
+                ☀ Good Developments
+              </h2>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 14 }}>
+                {daily.good_developments.map((g: any, i: number) => (
+                  <div key={i} style={{
+                    background: s.goodLight, border: "1px solid #C8E6D8",
+                    borderRadius: 8, padding: "16px 20px",
+                  }}>
+                    <h4 style={{
+                      fontFamily: s.display, fontSize: 15, fontWeight: 700,
+                      color: s.good, marginBottom: 6,
+                    }}>
+                      {g.headline}
+                    </h4>
+                    <p style={{
+                      fontSize: 13, color: "#3D6B55", lineHeight: 1.5,
+                      display: "-webkit-box", WebkitLineClamp: 3,
+                      WebkitBoxOrient: "vertical", overflow: "hidden",
+                    }}>
+                      {g.summary || g.context || ""}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+        </main>
+      </div>
     </div>
   );
 }
