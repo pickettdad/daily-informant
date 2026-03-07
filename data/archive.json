@@ -2273,5 +2273,110 @@
     "category": "Local",
     "slug": "article-15",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Severe Tornadoes Leave At Least Six Dead in Michigan and Oklahoma",
+    "category": "US",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Iran's President Apologizes for Ongoing Strikes Amid Intensifying Conflict",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 13
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Canada Suspends Deportations to Israel and Lebanon Amid Rising Tensions",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Gunfire Strikes Two Synagogues in Toronto Area, No Injuries Reported",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Tragic School Bus Accident in Quebec Claims a Child's Life",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Young Boy Raises Thousands for Charity by Recycling Cans",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "US Economy Sees Job Losses in February Amid Sector Contraction",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Israeli Forces Conduct Raid in Lebanese Village Resulting in Casualties",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Ukraine Deploys Armed Robots in Ongoing Conflict with Russia",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Tornadoes Cause Fatalities and Injuries in Southern Michigan",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "NASA Modifies Artemis Program With Additional Moon Mission",
+    "category": "Science",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Nightclub Bombing in Northern Peru Injures 33 Individuals",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Quinte Compass Development Seeks Community Input",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-07",
+    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
   }
 ]

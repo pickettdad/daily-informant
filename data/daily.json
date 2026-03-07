@@ -2,74 +2,34 @@
   "date": "2026-03-07",
   "top_stories": [
     {
-      "slug": "article-7",
-      "headline": "Charges Filed Following Sexual Assault on Mohawk Territory",
-      "summary": "Tyendinaga Police have laid serious charges against an individual in connection with a reported sexual assault incident that occurred on the Tyendinaga Mohawk Territory. The investigation is currently ongoing, and police are urging anyone with further information to come forward. The case highlights significant concerns surrounding safety and criminal activity in the area, prompting community discussions about prevention and support for victims.",
-      "context": "The incident underscores ongoing issues related to safety and crime within Indigenous communities, which have historically faced challenges in addressing such matters. This situation is significant as it not only affects the local community but also raises awareness about broader concerns regarding the protection of vulnerable populations.",
+      "slug": "article-5",
+      "headline": "Gunfire Strikes Two Synagogues in Toronto Area, No Injuries Reported",
+      "summary": "Overnight, two synagogues located in Toronto and Thornhill were struck by gunfire, resulting in property damage but no reported injuries. The incidents are currently under investigation by local police, who are looking into the motives behind the attacks. Community members remain on alert as investigations are ongoing to ensure safety and security in the area.",
+      "context": "This incident follows a broader trend of heightened concerns regarding safety in places of worship across Canada. It serves as a reminder of the increasing need for vigilance and protection for religious communities.",
       "category": "Local",
       "key_points": [
         {
-          "text": "A person has been charged with serious offenses related to a sexual assault incident.",
-          "source_url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
+          "text": "Two synagogues were damaged by gunfire in the Toronto area.",
+          "source_url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         },
         {
-          "text": "The incident took place on Tyendinaga Mohawk Territory.",
-          "source_url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
+          "text": "No injuries have been reported from the incidents.",
+          "source_url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         },
         {
-          "text": "Tyendinaga Police are actively investigating the case and seeking additional information from the public.",
-          "source_url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
+          "text": "Local police are conducting investigations into the shootings.",
+          "source_url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         },
         {
-          "text": "The community response includes discussions on safety and support mechanisms for victims.",
-          "source_url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
+          "text": "Community members are expressing concern for safety in places of worship.",
+          "source_url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         }
       ],
       "sources": [
         {
-          "name": "inQuinte",
-          "url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "inQuinte",
-          "lean": "Center",
-          "title": "Charges laid in relation to sexual assault on Mohawk Territory",
-          "url": "https://www.inquinte.ca/2026/03/charges-laid-in-relation-to-sexual-assault-on-mohawk-territory/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Community discussions on safety and prevention reflect resilience and a determination to support those affected by violence.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-9",
-      "headline": "Toronto-Area Synagogues Targeted in Recent Gunfire Incidents",
-      "summary": "Two synagogues in Toronto's Greater Area were recently struck by gunfire, heightening concerns among local Jewish leaders and community members. The incidents have prompted officials to advocate for increased safety measures and a vigilant approach to community security. As reports of violence against religious establishments increase, community leaders are calling for collective action to address the underlying issues fueling this wave of aggression.",
-      "context": "These recent shootings occur amidst a rising trend of antisemitic incidents in various regions. The Jewish community has been particularly affected by this wave of violence, leading to widespread calls for protective measures and a concerted community response to ensure safety.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "Two synagogues in the Toronto area were hit by gunfire recently.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         },
-        {
-          "text": "Local Jewish leaders are calling for urgent action to ensure safety and security.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "The incidents reflect a troubling rise in antisemitic violence in the region.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "Community advocates emphasize the need for stronger protective measures.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
-      "sources": [
         {
           "name": "National Post",
           "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
@@ -77,59 +37,231 @@
       ],
       "component_articles": [
         {
-          "source": "National Post",
-          "lean": "Center-Right",
-          "title": "‘Bullets are flying’: Two more Toronto-area synagogues hit by gunfire",
-          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "2 Toronto-area synagogues struck by gunfire overnight",
+          "url": "https://globalnews.ca/news/11720501/toronto-synagogues-gunfire/"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Unnamed Jewish Community Leader",
-          "quote": "We are deeply concerned about the safety of our community.",
-          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
+      "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Despite the violence, the community remains united in advocating for safety and peace.",
+      "positive_thought": "The absence of injuries in this alarming incident highlights a protective instinct within the community and the effectiveness of emergency response protocols in mitigating potential risks.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-3",
-      "headline": "Tornadoes Strike Central United States, Causing Fatalities and Damage",
-      "summary": "Recent tornadoes across central United States have resulted in at least eight fatalities, with states including Oklahoma and Michigan suffering significant destruction. Emergency services have been mobilized to conduct search and rescue operations in affected areas. Authorities are warning residents of the potential for more severe weather in the coming days, which may exacerbate the situation and hinder recovery efforts.",
-      "context": "This surge in tornado activity follows a broader trend of increasing extreme weather events in the region, attributed to climatic changes. The impact of these tornadoes is particularly critical as communities struggle to recover and rebuild from similar incidents in recent years.",
-      "category": "US",
+      "slug": "article-11",
+      "headline": "Tornadoes Cause Fatalities and Injuries in Southern Michigan",
+      "summary": "On Friday, a series of tornadoes and severe storms struck southern Michigan, resulting in at least four fatalities and injuring more than a dozen individuals. The storms caused significant damage to homes and infrastructure, leaving hundreds without power. Authorities continue to assess the impact and provide assistance to affected residents as recovery efforts begin.",
+      "context": "This extreme weather event comes as the region has experienced a series of storms throughout the season, leading to concerns over preparedness and response capabilities. The loss of life and injuries underscores the serious nature of these weather phenomena and the need for ongoing community support and safety measures.",
+      "category": "Local",
       "key_points": [
         {
-          "text": "At least eight people have been confirmed dead due to tornadoes in central United States.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+          "text": "Four confirmed deaths due to tornadoes in southern Michigan.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "Significant damage has been reported in Oklahoma and Michigan, prompting emergency response teams to act.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+          "text": "More than a dozen individuals sustained injuries from the storms.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "Authorities have issued warnings for additional severe weather, potentially complicating recovery efforts.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+          "text": "Significant damage reported to homes and infrastructure in the affected areas.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "The recent tornadoes are part of a growing pattern of extreme weather events in the region.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+          "text": "Hundreds of residents are experiencing power outages following the tornadoes.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         },
         {
-          "text": "Emergency services are currently engaged in search and rescue missions in the most affected areas.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+          "text": "Local authorities are actively involved in recovery and support efforts.",
+          "source_url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
         }
       ],
       "sources": [
+        {
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/authorities-searching-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
         }
       ],
       "component_articles": [
+        {
+          "source": "Daily Wire",
+          "lean": "Right",
+          "title": "Tornadoes Kill Four, Injure More Than A Dozen In Michigan",
+          "url": "https://www.dailywire.com/news/tornadoes-kill-four-injure-more-than-a-dozen-in-michigan"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "The prompt response from local authorities and emergency services serves as a reminder of the importance of community preparedness and resilience in facing natural disasters.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-15",
+      "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
+      "summary": "A single-vehicle collision in Kawartha Lakes has resulted in a fatality, as reported by the City of Kawartha Lakes OPP. The incident occurred around 7 a.m. on March 7, 2026. Authorities have initiated an investigation to determine the circumstances surrounding the crash.",
+      "context": "This tragic incident highlights ongoing concerns about road safety in the Kawartha Lakes area. Such collisions often prompt discussions regarding traffic regulations and driver awareness.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "The collision occurred around 7 a.m. on March 7, 2026.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "text": "It involved a single vehicle and resulted in one fatality.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "text": "The City of Kawartha Lakes OPP is leading the investigation.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Fatal collision",
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Traffic safety initiatives in the community may gain renewed focus as a result of this incident, potentially helping to reduce future collisions.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-6",
+      "headline": "Tragic School Bus Accident in Quebec Claims a Child's Life",
+      "summary": "A school bus accident in southeastern Quebec has resulted in the death of one child and left 19 others injured after the bus overturned. Emergency services responded swiftly, with injured students transported to local hospitals for treatment. Authorities are investigating the circumstances surrounding the crash, aiming to determine the cause and prevent similar incidents in the future.",
+      "context": "This incident highlights ongoing concerns regarding school transportation safety and the measures in place to protect children commuting to and from school. As the community mourns the loss, this tragedy emphasizes the importance of stringent safety regulations for school vehicles.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "A school bus overturned in southeastern Quebec, leading to one death and 19 injuries.",
+          "source_url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        },
+        {
+          "text": "Emergency responders took injured individuals to local hospitals for treatment.",
+          "source_url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        },
+        {
+          "text": "Investigations are underway to ascertain the cause of the crash.",
+          "source_url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        },
+        {
+          "text": "The incident occurred while students were being transported to or from school.",
+          "source_url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        },
+        {
+          "text": "Communities are rallying around the affected families during this tragic time.",
+          "source_url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "Child dies in Quebec school bus crash, multiple injuries reported",
+          "url": "https://globalnews.ca/news/11720620/child-dies-quebec-school-bus-crash-multiple-injured/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "The quick response from emergency services helped mitigate further injuries and provided immediate care to those affected.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-1",
+      "headline": "Severe Tornadoes Leave At Least Six Dead in Michigan and Oklahoma",
+      "summary": "Powerful tornadoes have swept through parts of Michigan and Oklahoma, leading to the deaths of at least six people, including a 12-year-old boy in Michigan. In Michigan, authorities reported four fatalities, while two deaths occurred in Oklahoma as storms continued to devastate the region. Rescue operations are ongoing as officials sift through debris and assess the damage caused by the severe weather, with warnings of more extreme conditions ahead.",
+      "context": "The tornadoes are part of a series of severe storms that have affected the central United States, raising concerns about the increasing frequency and intensity of such weather events. This incident highlights the need for preparedness and response strategies in communities vulnerable to natural disasters.",
+      "category": "US",
+      "key_points": [
+        {
+          "text": "Six people have died, four in Michigan and two in Oklahoma, due to the tornado events.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "text": "Among the deceased is a 12-year-old boy from Michigan.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "text": "Authorities are conducting search and rescue operations in the affected areas.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "text": "Severe weather warnings remain in place, indicating potential for more storms in the near future.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "text": "The tornadoes have caused significant destruction in southern Michigan and eastern Oklahoma.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/authorities-searching-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/7/tornadoes-across-central-united-states-kill-at-least-eight-people?traffic_source=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "NPR News",
+          "lean": "Left",
+          "title": "Authorities searching debris after suspected tornadoes kill 6 in Michigan, Oklahoma",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Authorities searching debris after suspected tornadoes kill 6 in Michigan and Oklahoma",
+          "url": "https://www.pbs.org/newshour/nation/authorities-searching-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
+        },
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "At least six dead after tornadoes sweep across Michigan and Oklahoma, officials say",
+          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "source": "Al Jazeera",
           "lean": "Center",
@@ -140,78 +272,34 @@
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Communities are coming together in the face of adversity, demonstrating resilience and support for one another during this challenging time.",
+      "positive_thought": "In the aftermath of such devastating storms, community organizations and local volunteers often mobilize to assist those affected, providing support and resources to help with recovery efforts.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-11",
-      "headline": "Severe Storms Claim Six Lives Across Michigan and Oklahoma",
-      "summary": "Powerful storms sweeping through the central United States have resulted in the deaths of six individuals, including a 12-year-old boy. The severe weather, which is believed to have involved at least two tornadoes, caused significant destruction in both Michigan and Oklahoma. Authorities are currently conducting searches through the debris to locate any additional victims and assess the full extent of the damage caused by these storms.",
-      "context": "The storms impacting the Midwest follow a prolonged period of severe weather that has recently affected various regions, raising concerns about climate patterns contributing to increased storm severity. This incident highlights ongoing vulnerabilities in communities for extreme weather events.",
+      "slug": "article-8",
+      "headline": "US Economy Sees Job Losses in February Amid Sector Contraction",
+      "summary": "The US economy experienced an unexpected loss of 92,000 jobs in February 2026, marking a concerning trend as payroll reductions spanned nearly all sectors. This contraction has raised alarms among economists, particularly as it deviates from forecasts of steady job growth. The decline indicates potential underlying issues affecting economic recovery at this stage.",
+      "context": "This job loss was partly attributed to broader economic factors, including inflationary pressures and supply chain disruptions that have persisted since the pandemic. Understanding these employment shifts is crucial given the ongoing impacts on consumer confidence and spending, which are vital for economic stability.",
       "category": "US",
       "key_points": [
         {
-          "text": "Six fatalities reported, including a 12-year-old boy.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        },
-        {
-          "text": "The storms involved suspected tornado activity across Michigan and Oklahoma.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        },
-        {
-          "text": "Search and recovery efforts are underway as authorities assess the damage.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        },
-        {
-          "text": "The situation has raised alarm regarding increasing storm intensity in the region.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "Authorities searching debris after suspected tornadoes kill 6 in Michigan, Oklahoma",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741133/deadly-tornadoes-michigan-oklahoma"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Communities come together in the face of adversity, showcasing resilience and strength as they support one another during recovery efforts.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-14",
-      "headline": "US Economy Experiences Unexpected Job Losses in February",
-      "summary": "In February 2026, the US economy unexpectedly shed 92,000 jobs, marking an unanticipated downturn as payroll numbers declined across nearly every sector. Economists had forecasted job growth, but the data has highlighted challenges facing the labor market amidst broader economic uncertainties. This contraction raises concerns about the potential impact on consumer spending and overall economic recovery in the near term.",
-      "context": "The unexpected job losses in February 2026 follow a period of economic recovery efforts aimed at stabilizing the labor market post-pandemic. The decline in employment figures raises alarm among policymakers and economists regarding the sustainability of recent economic gains and could influence future monetary policy decisions.",
-      "category": "US",
-      "key_points": [
-        {
-          "text": "92,000 jobs lost in February 2026, a surprise to many economists.",
+          "text": "US economy lost 92,000 jobs in February 2026, a significant drop.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Job losses were observed across nearly every sector of the economy.",
+          "text": "Job losses were recorded across nearly all sectors.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "This contraction may impact consumer spending and overall economic recovery efforts.",
+          "text": "The contraction has raised concerns among economists regarding economic recovery.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Forecasts prior to the report had anticipated job growth, indicating a stark contrast to actual results.",
+          "text": "Forecasts had predicted growth rather than losses in the job market.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The figures deepen concerns about the health of the US labor market.",
+          "text": "The job market shifts may influence consumer confidence and economic activity.",
           "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
         }
       ],
@@ -232,52 +320,82 @@
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Despite these challenges, there is an opportunity for resilience and growth as strategies are reevaluated to create more robust job measures.",
-      "related_ongoing": ""
+      "positive_thought": "Historically, economic downturns have often led to innovative solutions and industries emerging as businesses adapt to new realities.",
+      "related_ongoing": "economy-inflation"
     },
     {
-      "slug": "article-1",
-      "headline": "Iran's President Apologizes for Attacks as Tensions Escalate in Ongoing Conflict",
-      "summary": "In the second week of the conflict, Iranian President Masoud Pezeshkian issued an apology to neighboring countries for Iran's recent attacks, which included retaliatory strikes against Israel and U.S. military bases in the Middle East. The situation continues to escalate as U.S. President Donald Trump has warned that Iran will face severe consequences, stating that the country would be 'hit very hard' and suggesting potential expansion of military targets. The ongoing tensions raise concerns about further regional instability and conflict.",
-      "context": "The current conflict stems from escalating hostilities between Iran and its regional adversaries, particularly Israel and the United States. This situation matters significantly as it could impact regional security and global oil markets, among other international relations.",
+      "slug": "article-2",
+      "headline": "Iran's President Apologizes for Ongoing Strikes Amid Intensifying Conflict",
+      "summary": "Iranian President Masoud Pezeshkian publicly apologized on Saturday for missile and drone attacks targeting Gulf Arab states, even as these strikes intensified. He rejected demands from U.S. President Donald Trump for an unconditional surrender, declaring it unrealistic. The conflict, which has entered its second week, has resulted in warnings of heavy repercussions from the U.S., leading to a volatile regional situation and rising oil prices.",
+      "context": "The current escalation stems from a series of military engagements between Iran and U.S.-backed forces, which began following attacks on Israeli and U.S. bases. This conflict is critically impacting neighboring countries and has significant global implications, especially concerning energy markets.",
       "category": "World",
       "key_points": [
         {
-          "text": "Iran's President apologized to neighboring countries for the nation's recent military actions.",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "text": "Iranian President Masoud Pezeshkian apologized for attacks on neighboring countries.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         },
         {
-          "text": "Trump warned that Iran could face intensified military response, indicating a shift in U.S. strategy.",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "text": "The conflict has intensified, with Iran's strikes targeting Gulf Arab states.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         },
         {
-          "text": "Pezeshkian's apology follows retaliatory attacks against Israel and U.S. facilities in the region.",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "text": "President Trump has threatened severe retaliation against Iran and warned of expanded U.S. military action.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         },
         {
-          "text": "Tensions have risen sharply, with implications for both regional and global security.",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "text": "Oil prices have surged amid the escalating conflict, affecting global markets.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         },
         {
-          "text": "The conflict is now in its second week, with stakeholders on alert for potential escalations.",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "text": "Iran's leadership asserts its military actions are a right to self-defense.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
+        },
+        {
+          "text": "The war has resulted in casualties, including six U.S. soldiers recently honored during a dignified transfer ceremony.",
+          "source_url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         }
       ],
       "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
+        },
         {
           "name": "Globe and Mail",
           "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
           "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/irans-president-apologizes-for-strikes-on-neighboring-countries-even-as-its-missiles-and-drones-target-their-cities"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/iranian-president-promises-to-halt-strikes-on-gulf-countries-after-apologies"
         },
         {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+        },
+        {
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/trump-calls-beat-to-hell-irans-bluff-warns-regime-losers-the-real-pain-begins-now"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realclearpolitics.com/2026/03/07/can_trump_avoid_magical_thinking_693722.html"
         }
       ],
       "component_articles": [
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "Iran’s president apologizes for strikes as missiles and drones pound cities",
+          "url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
+        },
         {
           "source": "Globe and Mail",
           "lean": "Center",
@@ -293,284 +411,274 @@
         {
           "source": "NPR World",
           "lean": "Left",
-          "title": "Trump warns Iran 'will be hit very hard' as war enters its second week",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+          "title": "Iran's president apologizes for strikes on neighbors as strikes pound their cities",
+          "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement"
         },
         {
-          "source": "CBS News",
-          "lean": "Center",
-          "title": "Trump exalts progress in Iran war after warning country will be \"hit very hard\"",
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Iran's president apologizes for strikes on neighboring countries even as its missiles and drones target their cities",
+          "url": "https://www.pbs.org/newshour/world/irans-president-apologizes-for-strikes-on-neighboring-countries-even-as-its-missiles-and-drones-target-their-cities"
         },
         {
           "source": "CBS News",
           "lean": "Center",
           "title": "3/07: Saturday Morning",
           "url": "https://www.cbsnews.com/video/030726-cbs-saturday-morning/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Trump will join grieving families for the return of the 6 soldiers killed in Iran war",
+          "url": "https://www.pbs.org/newshour/nation/trump-will-join-grieving-families-for-the-return-of-the-6-soldiers-killed-in-iran-war"
+        },
+        {
+          "source": "CBS News",
+          "lean": "Center",
+          "title": "Trump arrives at dignified transfer for soldiers killed in Iran",
+          "url": "https://www.cbsnews.com/news/dignified-transfer-soldiers-killed-iran-trump-dover/"
+        },
+        {
+          "source": "ABC News",
+          "lean": "Center",
+          "title": "Iran live updates: Trump warns Iran may face 'complete destruction and certain death'",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "source": "ABC News",
+          "lean": "Center",
+          "title": "Trump warns of imminent action against Cuba at 'Shield of Americas' summit",
+          "url": "https://abcnews.com/Politics/trump-speak-shield-americas-summit-aimed-taking-cartels/story?id=130847707"
+        },
+        {
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "Trump warns Iran 'will be hit very hard' as war enters its second week",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Oil and gas prices rise rapidly as Iran war escalates",
+          "url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+        },
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "Iranian ambassador warns UK to be 'very careful' about further involvement in war",
+          "url": "https://www.bbc.com/news/articles/cq6qp458zv1o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [
         {
           "speaker": "Masoud Pezeshkian",
-          "quote": "I apologize to our neighboring countries for the attacks.",
-          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "quote": "The demand for unconditional surrender is a dream that they should take to their grave.",
+          "url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         },
         {
           "speaker": "Donald Trump",
-          "quote": "Iran will be hit very hard in the coming days.",
-          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
+          "quote": "Iran will be hit very hard.",
+          "url": "https://globalnews.ca/news/11720489/irans-president-apologizes-for-strikes-as-missiles-and-drones-pound-cities/"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Even in times of intense conflict, there remains hope for diplomatic resolutions to restore peace.",
-      "related_ongoing": ""
+      "positive_thought": "Despite the violence, there remains a glimmer of hope as diplomatic efforts for regional de-escalation continue to gain international attention, echoing past negotiations that led to peace after protracted conflicts.",
+      "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-5",
-      "headline": "Escalating Tensions in Tehran: Israeli Airstrikes and Iranian Retaliation",
-      "summary": "In the early hours of Saturday, Israeli warplanes conducted airstrikes on western Tehran, resulting in several explosions lighting up the sky. This attack came shortly after Iran launched a series of retaliatory strikes against Israel and Gulf nations that host U.S. military forces, marking a significant escalation in the ongoing conflict. The situation in the region continues to worsen, with both sides demonstrating a commitment to military action amid heightened tensions.",
-      "context": "The recent flare-up is part of a broader pattern of conflict in the region that has intensified in recent months, reflecting deep-rooted geopolitical tensions. Such military actions not only affect the involved countries but have broader implications for stability in the Middle East and the global response to regional security.",
+      "slug": "article-9",
+      "headline": "Israeli Forces Conduct Raid in Lebanese Village Resulting in Casualties",
+      "summary": "A recent Israeli operation in a Lebanese village has resulted in at least 41 deaths and 40 injuries, based on reports from the Lebanese health ministry. The raid was part of an attempt to locate remains missing for 40 years, highlighting ongoing tensions in the region. As violence continues to escalate, both local and international communities are increasingly concerned about the humanitarian impact of such operations.",
+      "context": "The raid stems from long-standing unresolved issues related to missing persons, particularly the remains of those thought to be connected to historical conflicts. This incident underscores the fragility of peace in the region and the potential for further conflicts, which have widespread implications for stability and humanitarian conditions in Lebanon and Israel alike.",
       "category": "World",
       "key_points": [
         {
-          "text": "Israeli warplanes targeted western Tehran, causing multiple explosions early Saturday.",
-          "source_url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
+          "text": "Israeli forces conducted an overnight operation in a Lebanese village.",
+          "source_url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Iran responded with a wave of strikes against Israel and Gulf allies hosting American forces.",
-          "source_url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
+          "text": "The Lebanese health ministry reports at least 41 killed and 40 injured.",
+          "source_url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The exchanges indicate an escalation in military hostilities between the two nations.",
-          "source_url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
+          "text": "The operation was reportedly aimed at recovering remains missing for 40 years.",
+          "source_url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "These developments arise from months of increasing tensions related to regional security and military presence.",
-          "source_url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Globe and Mail",
-          "lean": "Center",
-          "title": "Explosions light up the sky following airstrikes on western Tehran",
-          "url": "https://www.theglobeandmail.com/world/video-explosions-light-up-the-sky-following-airstrikes-on-western-tehran/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Even in the face of conflict, the resilience and determination of communities to seek peace can prevail.",
-      "related_ongoing": "Iran Conflict"
-    },
-    {
-      "slug": "article-6",
-      "headline": "Continued Military Strikes in Iran by U.S. and Israel Amid Ongoing Conflict",
-      "summary": "The conflict between the U.S. and Israel against Iran has escalated into its eighth day, with targeted attacks on Tehran and ongoing military operations in Lebanon. As strikes continue, Iranian leadership has issued firm responses vowing to retaliate and maintain military engagement. President Trump has also indicated a commitment to intensifying measures against Iran, emphasizing that actions will be reinforced in the coming days.",
-      "context": "This conflict stems from escalating tensions over Iran's regional activities and nuclear ambitions, leading to military responses from the U.S. and Israel. The situation is significant due to its implications for regional stability and international relations, particularly concerning U.S.-Middle East dynamics.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "U.S. and Israel's military operations against Iran have entered the eighth day.",
-          "source_url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
+          "text": "This incident adds to ongoing tensions between Israel and Lebanon.",
+          "source_url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Continued strikes are occurring in both Tehran and Lebanon.",
-          "source_url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        },
-        {
-          "text": "Iran has pledged to sustain its military response against U.S. actions.",
-          "source_url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        },
-        {
-          "text": "President Trump has vowed to apply stronger measures against Iran.",
-          "source_url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        },
-        {
-          "text": "The situation highlights ongoing geopolitical tensions in the region.",
-          "source_url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        },
-        {
-          "name": "Breitbart",
-          "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "CBS News",
-          "lean": "Center",
-          "title": "U.S. and Israel hit Iran with more attacks",
-          "url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        },
-        {
-          "source": "Breitbart",
-          "lean": "Right",
-          "title": "**Livewire** Operation Epic Fury Day Eight: The Latest News From Iran and the Middle East",
-          "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "President Trump",
-          "quote": "We will hit Iran very hard.",
-          "url": "https://www.cbsnews.com/video/us-slams-iran-with-more-attacks/"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "In challenging times, the resilience of communities remains a powerful force for hope and healing.",
-      "related_ongoing": "Iran Conflict"
-    },
-    {
-      "slug": "article-8",
-      "headline": "Iran Issues Apology to Gulf Neighbors Amid Ongoing Middle East Conflict",
-      "summary": "On March 7, 2026, Iran's President expressed an apology to neighboring Gulf countries for the nation’s recent military actions, acknowledging the heightened regional tensions provoked by Iranian strikes on civilian targets. This gesture appears aimed at de-escalating anger from other nations as the conflict between Israel and Iran continues to intensify, now into its second week. The ongoing hostilities have raised fears of broader instability in the region, prompting diplomatic discussions on potential resolutions.",
-      "context": "The current conflict is rooted in long-standing territorial disputes and political rivalries in the Middle East, exacerbated by recent escalations in military activities. The situation is further complicated by the involvement of various state and non-state actors, making diplomatic efforts critical to maintaining regional stability.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "Iran's President issued a rare apology to Gulf nations regarding the country's military actions.",
-          "source_url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        },
-        {
-          "text": "The apology comes as the conflict between Iran and Israel continues for a second week, affecting civilians in the region.",
-          "source_url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        },
-        {
-          "text": "Tensions have escalated significantly following Iranian strikes on civilian targets, alarming neighboring countries.",
-          "source_url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        },
-        {
-          "text": "Diplomatic discussions are emerging as a necessary step to de-escalate the escalating hostilities throughout the region.",
-          "source_url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Globe and Mail",
-          "lean": "Center",
-          "title": "Iran apologizes to Gulf but war still rages across region",
-          "url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Iran's President",
-          "quote": "We apologize to our neighbors for the actions that have led to this tension.",
-          "url": "https://www.theglobeandmail.com/world/video-iran-apologizes-to-gulf-but-war-still-rages-across-region/"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Amidst escalating tensions, diplomatic efforts can open pathways to peace and understanding in the region.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-12",
-      "headline": "Severe Flooding in Nairobi Results in 23 Fatalities and Disruptions",
-      "summary": "Recent heavy rains in Nairobi have led to flooding that has claimed the lives of at least 23 individuals. The deluge has caused substantial disruptions at Jomo Kenyatta International Airport, with numerous flights being delayed or canceled, and has rendered several roadways impassable due to submersion. Authorities are assessing the situation and coordinating response efforts to assist affected residents and restore normalcy in transportation services.",
-      "context": "The flooding in Nairobi is part of a wider climate context, where increased rainfall patterns have been observed over recent years in Kenya, raising concerns about infrastructure preparedness and urban planning. This incident highlights the urgent need for effective disaster management and climate adaptation strategies in urban centers.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "Heavy rains in Nairobi have resulted in 23 confirmed deaths.",
-          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Jomo Kenyatta International Airport has experienced significant flight disruptions due to the weather.",
-          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Numerous roads in the capital are currently submerged, complicating rescue and recovery efforts.",
-          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Local authorities are mobilizing resources to address the flooding crisis and help impacted individuals.",
-          "source_url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
+          "text": "Concerns are rising about the humanitarian impact of such military actions.",
+          "source_url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
           "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "component_articles": [
         {
           "source": "BBC World",
           "lean": "Center",
-          "title": "Heavy rains and flooding kills at least 23 in Nairobi",
-          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss"
+          "title": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
+          "url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "In the face of such adversity, communities are coming together to support one another during this critical time.",
-      "related_ongoing": ""
+      "positive_thought": "The international community continues to call for dialogue and peaceful resolutions, in hopes that sustained diplomatic efforts may eventually pave the way for lasting peace in the region.",
+      "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-13",
-      "headline": "Surge in Oil Prices Amid Escalating Conflict in Iran",
-      "summary": "Oil and gas prices have experienced a significant surge following the commencement of major military operations by the U.S. and Israel against Iran, escalating the ongoing conflict in the region. This spike in prices has raised concerns over potential long-term impacts on global economies and fuel markets. Experts indicate that further escalation could lead to even higher prices, affecting consumers worldwide.",
-      "context": "The recent military actions in Iran are a continuation of heightened tensions in the Middle East, which have been building over several years due to geopolitical rivalries and conflicts. The increase in oil prices is significant because it could signal broader economic disruption, especially in countries reliant on stable energy costs.",
+      "slug": "article-10",
+      "headline": "Ukraine Deploys Armed Robots in Ongoing Conflict with Russia",
+      "summary": "In a significant development in the ongoing conflict, Ukraine has initiated a program to deploy armed robots on the battlefield against Russian forces. This move aims to enhance Ukraine's military capability amid the enduring tensions and hostilities in the region. The use of robotic systems marks a new phase in modern warfare, with implications for both operational strategies and combat dynamics.",
+      "context": "The conflict between Ukraine and Russia has escalated since 2014, with ongoing military confrontations and territorial disputes. The introduction of advanced technology like armed robots is seen as a response to the changing nature of warfare and the need for nations to adapt to new threats.",
       "category": "World",
       "key_points": [
         {
-          "text": "Oil prices have surged sharply in the past week due to military actions in Iran.",
-          "source_url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "text": "Ukraine has begun deploying armed robots in conflict zones.",
+          "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "U.S. and Israel's coordinated attacks have escalated the conflict significantly.",
-          "source_url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "text": "The initiative is aimed at countering Russian military actions.",
+          "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "There are concerns that the conflict could lead to prolonged instability in the oil markets.",
-          "source_url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "text": "This development reflects the evolving nature of warfare and military technology.",
+          "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Experts warn that ongoing hostilities may contribute to steep price increases for consumers globally.",
-          "source_url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "text": "The use of robots is expected to alter traditional combat strategies.",
+          "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Ukraine's military is seeking to bolster its defenses amid ongoing hostilities.",
+          "source_url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "Armed robots take to the battlefield in Ukraine war",
+          "url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "Historically, nations have often turned technological advancements in warfare into eventual peacebuilding efforts to stabilize regions and promote diplomatic solutions after conflicts.",
+      "related_ongoing": "ukraine-russia"
+    },
+    {
+      "slug": "article-13",
+      "headline": "Nightclub Bombing in Northern Peru Injures 33 Individuals",
+      "summary": "A bombing at a nightclub in northern Peru has left 33 people injured, including several minors, according to local authorities. The incident, which occurred on Saturday, has highlighted ongoing concerns regarding organized crime and government corruption in the region. Analysts suggest that rising violence in Peru is linked to insufficient government oversight and the infiltration of criminal enterprises into daily life.",
+      "context": "This bombing is part of a broader trend in Peru, where organized crime, including extortion and violent acts, has been increasingly prevalent. The government is facing criticism for failing to adequately address this surge in criminal activity, raising concerns about public safety.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "A total of 33 individuals were injured in the nightclub bombing, including minors.",
+          "source_url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "text": "The attack occurred in northern Peru on Saturday.",
+          "source_url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "text": "The rise in organized crime in Peru has been attributed to government corruption.",
+          "source_url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "text": "Officials and analysts are concerned about the implications for safety and governance in the region.",
+          "source_url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
         }
       ],
       "sources": [
         {
           "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/7/more-than-30-injured-in-nightclub-bombing-in-northern-peru?traffic_source=rss"
         }
       ],
       "component_articles": [
         {
           "source": "PBS NewsHour",
           "lean": "Left",
-          "title": "Oil and gas prices rise rapidly as Iran war escalates",
-          "url": "https://www.pbs.org/newshour/world/oil-and-gas-prices-rise-rapidly-as-iran-war-escalates"
+          "title": "Bombing at Peru nightclub injures 33 people, including minors",
+          "url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "source": "Al Jazeera",
+          "lean": "Center",
+          "title": "More than 30 injured in nightclub bombing in northern Peru",
+          "url": "https://www.aljazeera.com/news/2026/3/7/more-than-30-injured-in-nightclub-bombing-in-northern-peru?traffic_source=rss"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Human resilience may lead to innovative solutions in response to fluctuating energy challenges during times of conflict.",
-      "related_ongoing": "Iran Conflict"
+      "positive_thought": "Despite the chaos of the bombing, the community is expected to unite around victims, reflecting a commitment to support those affected by such violence.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-12",
+      "headline": "NASA Modifies Artemis Program With Additional Moon Mission",
+      "summary": "NASA has announced an adjustment to its Artemis program, incorporating an additional mission before the planned landing of astronauts on the Moon. This decision is aimed at ensuring the success and safety of upcoming lunar explorations. The change reflects a commitment to thorough preparation for human presence on the lunar surface in an increasingly ambitious space exploration agenda.",
+      "context": "In recent years, NASA's Artemis program has been a central focus for returning humans to the Moon, with advancements in technology and planning taking shape. The program's evolution underscores the importance of meticulous groundwork in achieving long-term space exploration goals.",
+      "category": "Science",
+      "key_points": [
+        {
+          "text": "NASA is adding an extra mission to its Artemis program prior to landing astronauts on the Moon.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The adjustment aims to enhance the safety and success of lunar missions.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "This change reflects an ongoing commitment to thorough preparation for human explorations.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The Artemis program is pivotal for advancing space exploration and technology.",
+          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Science",
+          "lean": "Center",
+          "title": "Nasa announces change to its Moon landing plans",
+          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
     }
   ],
   "ongoing_topics": [
@@ -675,26 +783,76 @@
   ],
   "good_developments": [
     {
-      "slug": "article-2",
-      "headline": "Auxiliary Supports Campbellford Memorial Hospital with New Equipment",
-      "summary": "The Auxiliary to Campbellford Memorial Hospital has facilitated the acquisition of two Burlodge heating and cooling food transport carts, enhancing the delivery of meals within the facility. This investment aims to improve patient care by ensuring more efficient and reliable transportation of food. The Auxiliary's commitment to the hospital reflects ongoing community support and investment in local healthcare resources.",
-      "context": "Supporting local healthcare facilities is crucial, especially as hospitals strive to maintain high standards of care amidst increasing demands. The Auxiliary's contribution is part of a broader effort to ensure that Campbellford Memorial Hospital can provide optimal services to its patients.",
+      "slug": "article-3",
+      "headline": "Canada Suspends Deportations to Israel and Lebanon Amid Rising Tensions",
+      "summary": "Canada's border services agency has announced a temporary halt to deportations to Israel and Lebanon, citing escalating conflict and risks to civilian safety. This decision comes in light of increasing violence and instability in the region, including a recent shootout triggered by Israel's search for the remains of a long-missing Israeli soldier in Lebanon. The suspension reflects Canada's concern for the welfare of its citizens and residents in the context of ongoing military operations and civilian casualties.",
+      "context": "The decision to suspend deportations occurs against the backdrop of heightened military activity in the Middle East, particularly as tensions rise between Israel and Lebanon. The ongoing conflict poses significant risks to civilians, prompting governments to reevaluate their policies regarding deportations and evacuations.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Canada's CBSA has paused deportations to Israel and Lebanon due to volatile conditions.",
+          "source_url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        },
+        {
+          "text": "Civilian safety concerns are central to this decision, reflecting an international sentiment on the immediate risks in the region.",
+          "source_url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        },
+        {
+          "text": "A recent incident involving the search for Ron Arad, an Israeli soldier missing since 1986, led to violent confrontations in Lebanon.",
+          "source_url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        },
+        {
+          "text": "The situation has drawn international attention as the conflict escalates and more civilians are caught in the crossfire.",
+          "source_url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "Canada halts deportations to Israel and Lebanon amid ongoing conflict",
+          "url": "https://globalnews.ca/news/11720569/cbsa-halts-removals-israel-lebanon/"
+        },
+        {
+          "source": "Globe and Mail",
+          "lean": "Center",
+          "title": "Israel’s search in Lebanon for remains of long-lost weapons officer triggers deadly shootout",
+          "url": "https://www.theglobeandmail.com/world/article-israel-lebanon-middle-east-war/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": true,
+      "positive_thought": "The Canadian government's decision to prioritize the safety of its citizens during these tumultuous times offers a reminder of the importance of humanitarian considerations in foreign policy.",
+      "related_ongoing": "middle-east-israel-gaza"
+    },
+    {
+      "slug": "article-4",
+      "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
+      "summary": "The Auxiliary to Campbellford Memorial Hospital has facilitated the acquisition of two new Burlodge heating and cooling food transport carts. These carts are expected to improve the quality and efficiency of food service within the hospital, contributing positively to patient care. The Auxiliary expressed pride in supporting the hospital's operational needs through this purchase, demonstrating their commitment to enhancing community health services.",
+      "context": "This initiative is part of ongoing efforts by hospital auxiliaries across the region to support healthcare facilities with funding that addresses essential needs. It highlights the importance of community involvement in maintaining and improving local healthcare services.",
       "category": "Local",
       "key_points": [
         {
-          "text": "The Auxiliary to Campbellford Memorial Hospital has purchased two Burlodge heating and cooling food transport carts.",
+          "text": "The Auxiliary purchased two Burlodge food transport carts for the hospital.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "This new equipment aims to improve meal delivery efficiency for patients.",
+          "text": "The new carts will enhance the food service provided to patients.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "The Auxiliary's support exemplifies community engagement in local healthcare.",
+          "text": "Community support through hospital auxiliaries is vital for operational funding.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "The initiative reflects a commitment to enhancing patient care at the hospital.",
+          "text": "This purchase aligns with the broader goal of improving patient care at Campbellford Memorial Hospital.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         }
       ],
@@ -712,6 +870,60 @@
           "url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         }
       ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Auxiliary Representative",
+          "quote": "We are very proud to support the hospital in this way and improve the dining experience for patients.",
+          "url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
+        }
+      ],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-7",
+      "headline": "Young Boy Raises Thousands for Charity by Recycling Cans",
+      "summary": "Thirteen-year-old Ryan Hulance from Solihull, England, has successfully recycled over one million aluminum cans, leading to a substantial donation towards local foodbanks. His initiative, driven by a desire to help those in need while promoting environmental sustainability, has gained traction as he approached local businesses for support. The funds raised underline the impact of individual efforts in addressing community needs and environmental concerns alike.",
+      "context": "Ryan's project highlights the growing trend of youth engagement in charitable causes and environmental stewardship. The initiative is particularly relevant as food insecurity remains a pressing issue in many communities, and eco-friendly practices become increasingly important.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Ryan Hulance is a 13-year-old boy from Solihull, England.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "He has recycled over one million aluminum cans.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "The proceeds from the recycling efforts have been donated to local foodbanks.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "Ryan contacted local businesses for support in his recycling project.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        },
+        {
+          "text": "His initiative addresses both environmental issues and food insecurity.",
+          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Good News Network",
+          "lean": "Center",
+          "title": "Schoolboy With ‘Can-Do’ Attitude Has Recycled a Million Cans and Donated the Proceeds to Charity",
+          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
+        }
+      ],
       "stakeholder_quotes": [],
       "is_good_development": true,
       "is_negative": false,
@@ -719,26 +931,26 @@
       "related_ongoing": ""
     },
     {
-      "slug": "article-4",
+      "slug": "article-14",
       "headline": "Quinte Compass Development Seeks Community Input",
-      "summary": "Community partners in the Bay of Quinte are collaborating to create Quinte Compass, an online tool aimed at connecting equity-deserving residents with local opportunities and resources. The initiative emphasizes the importance of community engagement and input in the development process to ensure it meets the needs of the residents it aims to serve. Stakeholders are inviting feedback from the community to enhance the project's effectiveness and accessibility for all users.",
-      "context": "The development of Quinte Compass comes in response to a growing need for resources that support vulnerable populations. By involving community members in the design process, the initiative aims to ensure that the new online tool adequately addresses the specific needs of these equity-deserving individuals.",
+      "summary": "Community partners in the Bay of Quinte region are collaborating on the creation of Quinte Compass, an online platform designed to assist equity-deserving residents. The initiative aims to actively engage community members in the development process to ensure that the tool effectively meets their needs. The project emphasizes inclusivity and seeks to provide valuable resources and connections to underrepresented groups.",
+      "context": "The push for developing Quinte Compass arises from ongoing community needs assessments highlighting disparities faced by certain resident demographics in the Bay of Quinte area. By fostering community involvement in the tool's creation, leaders hope to create a more equitable resource that directly addresses local challenges.",
       "category": "Local",
       "key_points": [
         {
-          "text": "Quinte Compass is an online tool being developed in the Bay of Quinte.",
+          "text": "Quinte Compass is designed to connect equity-deserving residents in the Bay of Quinte.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "The initiative focuses on connecting equity-deserving residents with essential resources.",
+          "text": "The initiative is a collaboration among various community partners.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "Community feedback is being sought to shape the development of the platform.",
+          "text": "Community input is being actively sought to tailor the platform's functionality to the users' needs.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "Stakeholders emphasize collaboration among local partners in this project.",
+          "text": "The project aims to address inequalities and improve access to resources for underrepresented groups in the region.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         }
       ],
@@ -761,122 +973,20 @@
       "is_negative": false,
       "positive_thought": "",
       "related_ongoing": ""
-    },
-    {
-      "slug": "article-10",
-      "headline": "13-Year-Old Ryan Hulance Raises Thousands for Charity Through Recycling",
-      "summary": "Ryan Hulance, a 13-year-old from Solihull, England, has made a significant impact by recycling over one million aluminum cans, raising thousands of dollars for local food banks. His initiative not only supports those in need but also promotes environmental sustainability. After contacting local businesses for donations, Hulance has developed a successful fundraising campaign that highlights both philanthropy and eco-awareness among youth in his community.",
-      "context": "This effort is part of a growing movement among young people who are increasingly aware of social issues, including hunger and environmental concerns. The initiative symbolizes how individual actions can contribute to broader community support and awareness.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "13-year-old Ryan Hulance has recycled over a million aluminum cans.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "He has raised thousands of dollars for local food banks through this initiative.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "Hulance contacted local businesses for support in his recycling campaign.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "The project reflects a commitment to both charity and environmental responsibility.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        },
-        {
-          "text": "His actions serve as an inspiration for youth involvement in social causes.",
-          "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Good News Network",
-          "lean": "Center",
-          "title": "Schoolboy With ‘Can-Do’ Attitude Has Recycled a Million Cans and Donated the Proceeds to Charity",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Ryan Hulance",
-          "quote": "I just wanted to help people and do something good for the environment.",
-          "url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-        }
-      ],
-      "is_good_development": true,
-      "is_negative": false,
-      "positive_thought": "",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-15",
-      "headline": "Public Meeting Scheduled for Proposed Alto High-Speed Rail Line in Tyendinaga Township",
-      "summary": "The Tyendinaga Township Landowners Coalition will host a public meeting to discuss the proposed Alto high-speed rail line, aimed at enhancing transportation connectivity in the region. This initiative aims to address growing transportation needs, as the discussions will cover both the benefits and potential impacts on the local community. The meeting is expected to facilitate dialogue among stakeholders and the public regarding this significant infrastructure project.",
-      "context": "The proposal for the Alto high-speed rail line comes in response to increasing demand for efficient transportation options in Ontario. The project is significant for local development and economic prospects, potentially linking urban centers and reducing travel times.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "Public meeting scheduled by Tyendinaga Township Landowners Coalition",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Discussion will focus on the proposed Alto high-speed rail line",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Meeting aims to address community concerns and gather feedback",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Project aims to improve transportation connectivity in the region",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Expected attendance from stakeholders and local residents",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Quinte News",
-          "lean": "Center",
-          "title": "High speed rail meeting in Tyendinaga Township",
-          "url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true,
-      "is_negative": false,
-      "positive_thought": "",
-      "related_ongoing": ""
     }
   ],
   "_meta": {
-    "pipeline_version": "6.0",
+    "pipeline_version": "7.0",
     "models_used": [
       "OpenAI",
       "Claude",
       "Grok"
     ],
-    "feeds_attempted": 38,
+    "feeds_attempted": 36,
     "raw_items": 204,
-    "groups_formed": 185,
+    "groups_after_ai_merge": 285,
     "consensus_articles": 15,
-    "good_developments_found": 4,
+    "good_developments": 4,
     "category_order": [
       "Local",
       "Ontario",
