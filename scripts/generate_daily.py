@@ -739,12 +739,147 @@ def update_ongoing_topics(articles, topics_data, today):
     return topics_data
 
 
+# ── Multi-AI Bias Review (Step 5b) ──────────────────────────────────
+
+BIAS_REVIEW_PROMPT = """You are an editorial bias reviewer for The Daily Informant, a strictly neutral, fact-only news briefing.
+
+Below are today's articles written by another AI. Review each one for:
+1. BIAS: Language that favors one political side (loaded words, framing that assumes a position)
+2. SENSATIONALISM: Dramatic language that doesn't belong in neutral reporting
+3. MISSING PERSPECTIVE: If sources from both left and right covered this story, does the summary fairly represent both viewpoints?
+4. FACTUAL CONCERNS: Anything that seems editorialized rather than factual
+
+For EACH article that needs correction, provide:
+- article_index (0-based)
+- field ("headline", "summary", or "context")
+- issue (brief description of what's wrong)
+- corrected_text (the fixed version — must be same length/style, just neutralized)
+
+Return ONLY a JSON array of corrections. If no corrections needed, return [].
+Example: [{"article_index": 2, "field": "headline", "issue": "loaded word 'slams'", "corrected_text": "US Responds to Iran's Position on Negotiations"}]
+
+Return ONLY the JSON array."""
+
+
+def _build_review_batch(articles):
+    """Build a text batch of all articles for review."""
+    lines = []
+    for i, a in enumerate(articles):
+        lines.append(f"\n--- Article {i} [{a.get('category', '?')}] ---")
+        lines.append(f"Headline: {a['headline']}")
+        lines.append(f"Summary: {a.get('summary', '')}")
+        lines.append(f"Context: {a.get('context', '')}")
+        if a.get("component_articles"):
+            sources = [f"{ca['source']}({ca['lean']})" for ca in a["component_articles"]]
+            lines.append(f"Sources: {', '.join(sources)}")
+    return "\n".join(lines)
+
+
+def _apply_corrections(articles, corrections, reviewer_name):
+    """Apply bias corrections to articles."""
+    applied = 0
+    for fix in corrections:
+        try:
+            idx = fix.get("article_index", -1)
+            field = fix.get("field", "")
+            corrected = fix.get("corrected_text", "")
+            issue = fix.get("issue", "")
+            if 0 <= idx < len(articles) and field in ("headline", "summary", "context") and corrected:
+                old_val = articles[idx].get(field, "")[:40]
+                articles[idx][field] = corrected
+                applied += 1
+                print(f"    {reviewer_name} fixed article {idx} {field}: {issue}")
+        except Exception:
+            continue
+    return applied
+
+
+def _review_with_claude(batch_text):
+    """Send batch to Claude for bias review."""
+    payload = json.dumps({
+        "model": CLAUDE_MODEL, "max_tokens": 4096,
+        "messages": [{"role": "user", "content": f"{BIAS_REVIEW_PROMPT}\n\n{batch_text}"}],
+        "temperature": 0.1,
+    }).encode("utf-8")
+    req = Request("https://api.anthropic.com/v1/messages", data=payload,
+                  headers={"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
+                  method="POST")
+    with urlopen(req, timeout=120) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+        raw = data["content"][0]["text"].strip()
+        match = re.search(r'\[.*\]', raw, re.DOTALL)
+        if match:
+            return json.loads(match.group())
+    return []
+
+
+def _review_with_grok(batch_text):
+    """Send batch to Grok for bias review."""
+    payload = json.dumps({
+        "model": GROK_MODEL,
+        "input": [{"role": "user", "content": f"{BIAS_REVIEW_PROMPT}\n\n{batch_text}"}],
+        "temperature": 0.1, "store": False,
+    }).encode("utf-8")
+    req = Request("https://api.x.ai/v1/responses", data=payload, headers={
+        "Content-Type": "application/json", "Authorization": f"Bearer {XAI_API_KEY}",
+        "User-Agent": "DailyInformant/1.0",
+    }, method="POST")
+    with urlopen(req, timeout=120) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+        raw = ""
+        for item in data.get("output", []):
+            if item.get("type") == "message":
+                for c in item.get("content", []):
+                    if c.get("type") == "output_text":
+                        raw += c.get("text", "")
+        raw = raw.strip()
+        match = re.search(r'\[.*\]', raw, re.DOTALL)
+        if match:
+            return json.loads(match.group())
+    return []
+
+
+def run_bias_review(articles):
+    """Send all articles to available AIs for bias review. Extensible for future models."""
+    batch_text = _build_review_batch(articles)
+    total_fixes = 0
+
+    # Define reviewers — add new ones here (e.g., Gemini in future)
+    reviewers = []
+    if ANTHROPIC_API_KEY:
+        reviewers.append(("Claude", _review_with_claude))
+    if XAI_API_KEY:
+        reviewers.append(("Grok", _review_with_grok))
+    # Future: if GOOGLE_API_KEY: reviewers.append(("Gemini", _review_with_gemini))
+
+    if not reviewers:
+        print("   No reviewers available (need Claude or Grok API key)")
+        return articles
+
+    for name, fn in reviewers:
+        print(f"  → {name} reviewing for bias...")
+        try:
+            corrections = fn(batch_text)
+            if corrections and isinstance(corrections, list):
+                n = _apply_corrections(articles, corrections, name)
+                total_fixes += n
+                print(f"    {name}: {n} corrections applied ({len(corrections)} flagged)")
+            else:
+                print(f"    {name}: no corrections needed")
+        except Exception as e:
+            print(f"    {name} review failed: {e}")
+        time.sleep(1)
+
+    print(f"   Total bias corrections: {total_fixes}")
+    return articles
+
+
 # ── Main ────────────────────────────────────────────────────────────
 
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v8")
+    print("  The Daily Informant — Morning Pipeline v8.1")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -798,6 +933,10 @@ def main():
         if i < len(consensus_groups) - 1:
             time.sleep(1)
 
+    # 5b. Multi-AI bias review
+    print("\n─── Step 5b: Multi-AI bias review ───")
+    articles = run_bias_review(articles)
+
     # Separate good developments
     regular, good_devs = [], []
     for a in articles:
@@ -843,7 +982,7 @@ def main():
         "ongoing_topics": ongoing_for_daily,
         "good_developments": good_devs,
         "_meta": {
-            "pipeline_version": "8.0",
+            "pipeline_version": "8.1",
             "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS),
             "raw_items": len(all_items),
