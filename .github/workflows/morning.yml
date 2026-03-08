@@ -3,7 +3,7 @@ name: Morning Pipeline
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 11 * * *"
+    - cron: "5 10 * * *"
 
 permissions:
   contents: write
