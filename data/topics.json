@@ -42,6 +42,11 @@
       ],
       "timeline": [
         {
+          "date": "2026-03-08",
+          "text": "Escalation of Conflict in the Middle East Following Strikes on Infrastructure",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
           "date": "2026-03-07",
           "text": "Escalation of Global Impact from Ongoing Iran War",
           "source_url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
@@ -111,6 +116,11 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-08",
+          "text": "Russian Missile Strike in Kharkiv Claims Lives of Ten",
+          "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
+        },
         {
           "date": "2026-03-07",
           "text": "Missile Strike in Kharkiv Results in Multiple Casualties",

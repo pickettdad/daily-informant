@@ -1,46 +1,132 @@
 {
-  "date": "2026-03-07",
+  "date": "2026-03-08",
   "top_stories": [
     {
-      "slug": "article-3",
-      "headline": "Belleville City Council to Consider Front Street Upper Bridge Rehabilitation Project",
-      "summary": "The Belleville City Council is set to meet on Monday to discuss the future of the Front Street Upper Bridge rehabilitation project. The meeting will focus on whether to approve the plan to proceed with the necessary repairs and upgrades to enhance safety and structural integrity. This decision follows ongoing assessments indicating the need for rehabilitation, aimed at ensuring the bridge meets modern standards and remains safe for public use. The outcome could have significant implications for local transportation and infrastructure.",
-      "context": "The Front Street Upper Bridge has been under scrutiny due to concerns regarding its structural condition. This meeting is a crucial next step in addressing those issues and determining the bridge's future, which is vital for the community's connectivity and safety.",
+      "slug": "article-2",
+      "headline": "Investigation Underway Following Kawartha Lakes Fatal Collision",
+      "summary": "The City of Kawartha Lakes Ontario Provincial Police (OPP) is conducting an investigation into a fatal collision that occurred early Saturday morning, March 7, 2026. The incident, which involved a single vehicle, took place around 7 a.m. Details surrounding the collision are still emerging as authorities gather information. A statement from the OPP noted that they will release further updates as the investigation progresses. Meanwhile, officials are urging the public for any information relating to the crash.",
+      "context": "This incident marks a tragic event in Kawartha Lakes, contributing to ongoing concerns regarding road safety in the area. Fatal collisions prompt questions about traffic regulations and public safety measures, underscoring the need for community awareness and vigilance on the roads.",
       "category": "Local",
       "key_points": [
         {
-          "text": "Belleville City Council meeting scheduled for Monday.",
-          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "text": "A single-vehicle collision occurred in Kawartha Lakes on March 7, 2026.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Council to discuss rehabilitation project for Front Street Upper Bridge.",
-          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "text": "The collision resulted in a fatality, prompting an investigation by City of Kawartha Lakes OPP.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Project aims to address safety and structural integrity of the bridge.",
-          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "text": "The incident happened around 7 a.m. on Saturday morning.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Ongoing assessments have shown a need for rehabilitation.",
-          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "text": "Further details regarding the circumstances of the collision are pending as investigations continue.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         },
         {
-          "text": "Outcome could impact local transportation infrastructure.",
-          "source_url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "text": "The OPP is appealing to the public for any information that could assist in their inquiries.",
+          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
         }
       ],
       "sources": [
         {
           "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "name": "Toronto Sun",
+          "url": "https://torontosun.com/opinion/cartoons/andy-donato-cartoon-march-8-2026"
         }
       ],
       "component_articles": [
         {
           "source": "Quinte News",
           "lean": "Center",
-          "title": "Decision on moving forward on Front Street Upper Bridge rehabilitation project Monday",
-          "url": "https://www.quintenews.com/2026/03/07/belleville-council-to-decide-on-moving-forward-on/"
+          "title": "Fatal collision",
+          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
+        },
+        {
+          "source": "Toronto Sun",
+          "lean": "Right",
+          "title": "Andy Donato cartoon, March 8, 2026",
+          "url": "https://torontosun.com/opinion/cartoons/andy-donato-cartoon-march-8-2026"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Authorities search debris after suspected tornadoes kill 6 in Michigan and Oklahoma",
+          "url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "Bombing at Peru nightclub injures 33 people, including minors",
+          "url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
+        },
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "There’s an inflation wave coming - what does the Iran war mean for the UK economy?",
+          "url": "https://www.bbc.com/news/articles/cd9gvv5w3v8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the loved ones of those involved in the Kawartha Lakes collision find comfort and support during this difficult time.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-10",
+      "headline": "Daylight Saving Time Begins March 8, 2026",
+      "summary": "Daylight Saving Time will officially begin on March 8, 2026, resulting in clocks moving forward one hour, which means residents will lose an hour of sleep. The change is designed to extend daylight into the evening hours, thus enhancing after-work activities in more sunlight. While the positive aspect is an increase in evening light, the adjustment can be challenging for those affected by the lost sleep. Residents in the Bay of Quinte and beyond are encouraged to prepare for the transition.",
+      "context": "Daylight Saving Time is observed across many regions in Canada and the United States and involves changing clocks to make better use of natural daylight during the longer days of spring and summer. The practice has been in place for many years, though its effectiveness and necessity have often been debated. This seasonal adjustment is significant for many, affecting daily routines and possibly sleep patterns.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Daylight Saving Time begins on March 8, 2026.",
+          "source_url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "text": "Clocks will spring forward one hour, resulting in a loss of sleep for many individuals.",
+          "source_url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "text": "The change allows for longer evenings with daylight, promoting outdoor activities after work.",
+          "source_url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "text": "The transition can be difficult as people adjust to the new time schedule.",
+          "source_url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "text": "Local residents and businesses prepare for the impact of the shift in time.",
+          "source_url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/daylight-savings-time-starts-2026/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Spring forward overnight Saturday",
+          "url": "https://www.quintenews.com/2026/03/07/spring-forward-overnight-saturday/"
+        },
+        {
+          "source": "CBS News",
+          "lean": "Center",
+          "title": "Daylight saving time arrives for 2026. Here's what to know.",
+          "url": "https://www.cbsnews.com/news/daylight-savings-time-starts-2026/"
         }
       ],
       "stakeholder_quotes": [],
@@ -50,174 +136,635 @@
       "related_ongoing": ""
     },
     {
-      "slug": "article-4",
-      "headline": "Investigation Underway Following Fatal Vehicle Collision in Kawartha Lakes",
-      "summary": "A single-vehicle collision occurred in Kawartha Lakes on Saturday, March 7, 2026, at approximately 7 a.m. According to the Ontario Provincial Police (OPP), details surrounding the incident are still being gathered as they conduct an investigation. No further information regarding the number of occupants or the nature of their injuries has been disclosed at this time. The police are appealing for witnesses to come forward to assist with their inquiries.",
-      "context": "The tragic event has drawn attention in the community, highlighting the persistent concerns surrounding road safety. This incident marks another reminder of the dangers that can arise on local roads, prompting discussions about driver awareness and safety measures.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "Single-vehicle collision reported in Kawartha Lakes on March 7, 2026.",
-          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        },
-        {
-          "text": "Incident occurred at approximately 7 a.m.",
-          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        },
-        {
-          "text": "Ontario Provincial Police investigating the crash.",
-          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        },
-        {
-          "text": "Details about the victims have not yet been released.",
-          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        },
-        {
-          "text": "Police encourage witnesses to provide information.",
-          "source_url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Quinte News",
-          "lean": "Center",
-          "title": "Fatal collision",
-          "url": "https://www.quintenews.com/2026/03/07/fatal-collision/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the individuals affected by this tragic incident find peace and support in their time of need.",
-      "related_ongoing": ""
-    },
-    {
       "slug": "article-5",
-      "headline": "Weather Advisory: Dense Fog Expected in Bay of Quinte Region",
-      "summary": "A significant weather advisory has been issued for the Bay of Quinte region as visibility is expected to drop to near zero due to dense fog early Saturday morning. The fog is anticipated to create challenging driving conditions, with a forecast confidence rating of high. Local authorities are advising residents to exercise caution while traveling and to be mindful of changing weather conditions throughout the day. The advisory comes as part of a broader weather pattern that has seen varying visibility levels across the area recently.",
-      "context": "Weather conditions in the Bay of Quinte region can change rapidly, especially during the transition between seasons. Dense fog can severely impact transportation safety, making it crucial for residents to stay informed and prepared for such weather events.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "Dense fog expected to cause near-zero visibility in the Bay of Quinte region",
-          "source_url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        },
-        {
-          "text": "Weather advisory issued for Saturday morning",
-          "source_url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        },
-        {
-          "text": "Forecast confidence for poor visibility ranked as high",
-          "source_url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        },
-        {
-          "text": "Residents advised to exercise caution while traveling",
-          "source_url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        },
-        {
-          "text": "Local authorities monitoring weather patterns closely",
-          "source_url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Quinte News",
-          "lean": "Center",
-          "title": "Poor visibility Saturday morning",
-          "url": "https://www.quintenews.com/2026/03/07/poor-visibility-saturday-morning/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May everyone in the Bay of Quinte region travel safely through the fog, and may the roads remain clear as the day unfolds.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-7",
-      "headline": "Power Outage Affecting Over 13,500 in Toronto",
-      "summary": "A significant power outage struck the east side of Toronto on Saturday evening, leaving over 13,500 residents without electricity. The issue began shortly after 8 p.m., leading to the temporary shutdown of a section of Line 2 on the subway. Toronto Hydro has reported that power restoration is expected to be completed by around 1 a.m. Sunday, though many residents remain in the dark as crews work to resolve the problem. The outage has affected multiple neighborhoods, causing disruption to evening plans for many.",
-      "context": "This outage comes at a time when many residents are increasingly reliant on electrical services for their daily activities, making such disruptions more impactful. Power outages in urban areas can strain emergency services and frustrate communities, especially on weekends.",
+      "headline": "Regulatory Concerns Over Transactions at GTA Crypto Shops",
+      "summary": "Recent investigations have revealed that certain crypto shops in the Greater Toronto Area are allegedly linked to terror groups backed by Iran. The Financial Transactions and Reports Analysis Centre of Canada (FINTRAC) reports that it has issued over $200 million in fines while monitoring the money services sector and crypto activities. Despite these measures, questions remain regarding the adequacy of regulation in policing these operations. Meanwhile, discussions surrounding the financial flow from these shops into potentially harmful activities continue to escalate, prompting public and governmental scrutiny.",
+      "context": "Allegations linking financial activity at cryptocurrency shops to terror financing have raised concerns about the robustness of current regulatory frameworks. This situation highlights the challenges authorities face in keeping pace with emerging financial technologies and potential criminal misuse. Ensuring the integrity of financial systems is vital for national security, particularly in light of growing tensions related to foreign influences.",
       "category": "Ontario",
       "key_points": [
         {
-          "text": "Over 13,500 residents are currently without power in east Toronto.",
-          "source_url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "text": "Investigations reveal potential links between GTA crypto shops and Iran-backed terror groups.",
+          "source_url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
         },
         {
-          "text": "The outage began shortly after 8 p.m. on Saturday, March 7, 2026.",
-          "source_url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "text": "FINTRAC has issued over $200 million in fines related to the money services sector.",
+          "source_url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
         },
         {
-          "text": "A section of subway Line 2 has been temporarily shut down due to the power loss.",
-          "source_url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "text": "Concerns regarding the effectiveness of current regulations to monitor and police crypto activities persist.",
+          "source_url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
         },
         {
-          "text": "Toronto Hydro is working to restore power, expecting completion by approximately 1 a.m. Sunday.",
-          "source_url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
-        },
-        {
-          "text": "Multiple neighborhoods are affected, causing widespread disruption.",
-          "source_url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "text": "The discussion is intensifying around the implications of financial transactions related to terrorism financing.",
+          "source_url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
         }
       ],
       "sources": [
         {
           "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
         }
       ],
       "component_articles": [
         {
           "source": "Toronto Star",
           "lean": "Center-Left",
-          "title": "More than 13,500 without power, stretch of Line 2 subway shut down, as hydro outage hits east side of Toronto",
-          "url": "https://www.thestar.com/news/gta/more-than-13-500-without-power-stretch-of-line-2-subway-shut-down-as-hydro/article_66a2cce2-ed41-4f27-8d0b-b97d55742c17.html"
+          "title": "Suspicious transactions at GTA crypto shops reveal alleged links to Iran-backed terror groups. Is the regulator doing enough to police them?",
+          "url": "https://www.thestar.com/news/investigations/suspicious-transactions-at-gta-crypto-shops-reveal-alleged-links-to-iran-backed-terror-groups-is/article_a18562a4-1cc8-47e9-a2fc-b20b01a01e1e.html"
+        },
+        {
+          "source": "RealClearPolitics",
+          "lean": "Center-Right",
+          "title": "Iran: Ends and Means",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
+        },
+        {
+          "source": "NPR News",
+          "lean": "Left",
+          "title": "Teens are sleeping less than ever and screens aren't primarily to blame",
+          "url": "https://www.npr.org/2026/03/08/nx-s1-5737426/time-change-teens-sleep-screens"
+        },
+        {
+          "source": "NPR Health",
+          "lean": "Left",
+          "title": "Teens are sleeping less than ever and screens aren't primarily to blame",
+          "url": "https://www.npr.org/2026/03/08/nx-s1-5737426/time-change-teens-sleep-screens"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "May residents find comfort and support during this inconvenient power outage, and may the technicians work safely to restore their electricity swiftly.",
+      "positive_thought": "May those working to safeguard financial integrity in our communities find the insights and support needed to navigate these complex challenges effectively.",
+      "related_ongoing": "iran-conflict"
+    },
+    {
+      "slug": "article-11",
+      "headline": "Trial of Frank Stronach Concludes with Testimonies from Seven Accusers",
+      "summary": "The trial of Ontario billionaire Frank Stronach has entered a critical phase as the Crown has closed its case after hearing testimonies from seven women who have accused him of rape and sexual assault. Various testimonies discussed incidents that span several years, shedding light on the allegations against Stronach. The defenses and details of the legal strategies employed by the accused are yet to be fully revealed, but the case has garnered significant public interest. The next stages of the trial will focus on further arguments and defense evidence.",
+      "context": "This trial arises from serious allegations against Frank Stronach, who has been a prominent figure in Ontario's business landscape. The outcomes of this trial may have implications for discussions regarding accountability and justice in cases of sexual misconduct, especially given the high-profile status of the accused and the nature of the allegations.",
+      "category": "Ontario",
+      "key_points": [
+        {
+          "text": "Frank Stronach is facing allegations from seven women including rape and sexual assault.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        },
+        {
+          "text": "The trial is set before Ontario Superior Court Justice Anne Molloy.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        },
+        {
+          "text": "The Crown has concluded its case against Stronach.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        },
+        {
+          "text": "Various testimonies have exposed incidents spanning several years.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        },
+        {
+          "text": "Processing the evidence has proven challenging for the prosecution.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        },
+        {
+          "text": "Further defense strategies and arguments are awaited in the next stages of the trial.",
+          "source_url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Toronto Star",
+          "url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Toronto Star",
+          "lean": "Center-Left",
+          "title": "The Frank Stronach trial: Here are the key takeaways from the testimonies of the 7 women accusing Ontario billionaire of rape, sexual assault",
+          "url": "https://www.thestar.com/news/gta/the-frank-stronach-trial-here-are-the-key-takeaways-from-the-testimonies-of-the-7/article_68dffdaa-4098-4d2c-a180-e2703e98d5d3.html"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the brave women who came forward in this trial find strength and support as they navigate this difficult journey toward justice.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-21",
+      "headline": "Clock Change in Canada: A Mixed Bag of Reactions",
+      "summary": "The biannual clock change has elicited varied responses from Canadians, marking a transition in seasons for some while posing challenges for others. Proponents appreciate the countdown to longer days, associating it with spring's arrival, while detractors highlight negative impacts including fatigue and disrupted routines for both humans and pets. Safety concerns also accompany the clock change, as adjustments can lead to increased risks during early morning commutes. Overall, the shift continues to be a topic of debate across the country, reflecting broader sentiments regarding time management and its effects on daily life.",
+      "context": "The clock change is a longstanding tradition in Canada, often seen as a signal for the changing seasons. However, in recent years, discussions surrounding its relevance and benefits have intensified, particularly as more Canadians express their frustrations with the disruption it causes in their lives.",
+      "category": "Ontario",
+      "key_points": [
+        {
+          "text": "The clock change occurs twice a year, marking the transition to and from Daylight Saving Time.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "text": "Supporters of the clock change argue it represents a welcome shift towards longer days.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "text": "Many Canadians report feelings of fatigue and confusion in the days following the time change.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "text": "Pets are often noted as being particularly affected by the disruption in routine.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "text": "Safety issues have arisen related to increased risks during morning commutes after the clock change.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "text": "There is an ongoing debate about the necessity and efficacy of maintaining the clock change tradition.",
+          "source_url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Toronto Star",
+          "url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Toronto Star",
+          "lean": "Center-Left",
+          "title": "Clock change marks progress for some Canadians, but is a pain for others",
+          "url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Toronto Star",
+          "quote": "For some Canadians the twice-a-year changing of clocks is a welcome marker of progress through the seasons.",
+          "url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        },
+        {
+          "speaker": "Toronto Star",
+          "quote": "For many it's just a nuisance that comes with fatigue, confused pets and even safety issues.",
+          "url": "https://www.thestar.com/news/canada/clock-change-marks-progress-for-some-canadians-but-is-a-pain-for-others/article_faede8da-4c24-5197-9c38-d910c9a6d077.html"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May those adjusting to the clock change find new rhythms and moments of peace as spring unfolds.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-20",
+      "headline": "Rising Tensions in the Middle East Prompt Canadian Evacuations",
+      "summary": "As the conflict between the U.S., Israel, and Iran escalates, Canadians are increasingly seeking to return home due to travel disruptions and heightened tensions in the region. The war has now entered its second week, marked by extensive military operations and rising casualty figures. Travel advisories have been issued, prompting some Canadians to evacuate from affected areas. The ongoing situation impacts global energy markets and complicates diplomatic relations across the Middle East. Canadians currently abroad are urged to stay in touch with government officials for their safety and potential repatriation options.",
+      "context": "The recent surge in hostilities between the U.S., Israel, and Iran is significant, reshaping political alliances and affecting civilian safety. With travel and trade also being impacted, the ramifications of this conflict extend well beyond the immediate area, influencing international relations and domestic policies.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "The U.S. and Israel's conflict with Iran has entered its second week, intensifying military actions in the Middle East.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "text": "Canadians are being advised to evacuate as travel disruptions increase due to the escalating tensions.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "text": "Global energy markets are showing signs of instability amid the ongoing war.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "text": "As of now, there are no indications of a coming compromise in the Middle East, raising concerns about long-term regional stability.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "text": "Canadians abroad are encouraged to stay connected with government resources for safety updates and potential repatriation options.",
+          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/2026/mar/08/trump-news-at-a-glance-us-leader-says-iran-being-decimated-admits-us-troop-deployment-not-off-the-table"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "NPR News",
+          "lean": "Left",
+          "title": "How the U.S. and Israel's war with Iran is realigning the politics of the Middle East",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "How the U.S. and Israel's war with Iran is realigning the politics of the Middle East",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+        },
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "No sign of compromise in Middle East as Canadians flee U.S-Iran conflict",
+          "url": "https://globalnews.ca/news/11720555/flight-cancellations-canada-impact-iran/"
+        },
+        {
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "Middle East war enters its 8th day",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5739735/middle-east-war-enters-its-8th-day"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May those Canadians in dangerous regions find safe passage home swiftly and may they be reunited with their loved ones.",
+      "related_ongoing": "iran-conflict"
+    },
+    {
+      "slug": "article-22",
+      "headline": "Three Youths Arrested Following Pizza Delivery Robbery in Winnipeg",
+      "summary": "Winnipeg police have arrested three 16-year-old boys in connection with a robbery that took place outside an apartment complex. The incident involved a pizza delivery person who was threatened at gunpoint during the encounter. Authorities responded quickly, apprehending the suspects shortly after the event. This incident highlights ongoing concerns around youth crime and public safety in urban areas.",
+      "context": "The robbery incident has drawn attention to rising youth criminal activity in Canadian cities, particularly as communities grapple with safety issues. Police are emphasizing the importance of community vigilance and cooperation to prevent similar occurrences.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "Three 16-year-old boys were arrested by Winnipeg police.",
+          "source_url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        },
+        {
+          "text": "The incident involved a pizza delivery worker threatened at gunpoint.",
+          "source_url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        },
+        {
+          "text": "The robbery occurred outside an apartment building in Winnipeg.",
+          "source_url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        },
+        {
+          "text": "Police were able to quickly apprehend the suspects following the crime.",
+          "source_url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        },
+        {
+          "text": "The case has renewed discussions about youth crime in urban settings.",
+          "source_url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "3 Winnipeg youths arrested for robbing pizza delivery man at gunpoint",
+          "url": "https://globalnews.ca/news/11720834/winnepeg-pizza-robbery-gunpoint/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the impacted delivery worker find peace and support in their community after this frightening experience, and may similar violent acts be prevented in the future.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-23",
+      "headline": "Conflicting Indigenous Land Claims in British Columbia Highlight Longstanding Issues",
+      "summary": "Conflicts over Indigenous land claims in British Columbia (B.C.) have escalated due to historical treaty negotiations. The lack of treaties, a decision stemming from over 150 years ago, has resulted in disputes among various Indigenous groups, which are now raising critical questions about land rights and sovereignty. Experts argue that the current complications relate to past governmental decisions, which have left many Indigenous communities without clear ownership or recognition of their traditional territories. The ramifications of these unresolved claims are significant, affecting governance, resource management, and community relations across the province.",
+      "context": "These land claim conflicts date back to the colonial era when the Canadian government did not engage in treaties with Indigenous peoples in B.C. This has led to ongoing disputes that impact socio-economic development and community well-being today. The matter is pivotal as it not only concerns land rights but also reflects the broader issue of reconciliation between Canadian governments and Indigenous communities.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "Conflicting land claims among various Indigenous groups in B.C.",
+          "source_url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        },
+        {
+          "text": "Historical failure to negotiate treaties has led to current disputes.",
+          "source_url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        },
+        {
+          "text": "Experts indicate that unresolved land ownership issues affect community relations.",
+          "source_url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        },
+        {
+          "text": "The situation has implications for governance and resource management.",
+          "source_url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        },
+        {
+          "text": "Over 150 years of neglect by governments has created significant challenges for Indigenous communities.",
+          "source_url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        }
+      ],
+      "sources": [
+        {
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "National Post",
+          "lean": "Center-Right",
+          "title": "How B.C.’s conflicting Indigenous land claims are a problem 150 years in the making",
+          "url": "https://nationalpost.com/news/canada/b-c-s-conflicting-indigenous-land-claims"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the Indigenous communities in B.C. find clarity and resolution as they navigate these longstanding land disputes, fostering a future where their rights and histories are fully acknowledged and respected.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-7",
+      "headline": "US Economy Reports Employment Decrease of 92,000 Jobs in February",
+      "summary": "In February, the US economy reported a decrease of 92,000 jobs. Payrolls fell across nearly every sector, as analysts had predicted stability or growth in employment figures. This development indicates potential challenges ahead for economic recovery efforts, as declining job numbers often signal reduced consumer confidence and spending. The implications of this job loss could affect various industries and inform future economic policies aimed at stabilizing employment rates.",
+      "context": "The significant job losses come at a time when the US economy has been grappling with various challenges, including inflationary pressures and ongoing geopolitical tensions. Understanding the fluctuations in employment is crucial for policymakers and economists as they navigate the complexities of economic recovery in the current global environment.",
+      "category": "US",
+      "key_points": [
+        {
+          "text": "US economy shed 92,000 jobs in February;",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Job losses occurred in nearly every sector;",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "This contraction was unexpected and has raised economic concerns;",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Analysts had anticipated stability or employment growth;",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Job losses may impact consumer confidence and spending;",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Economists view this decline as a potential indicator of future economic challenges.",
+          "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "US economy unexpectedly sheds 92,000 jobs in February",
+          "url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the workers affected by these job losses quickly find new opportunities that meet their needs and support their families during these challenging times.",
+      "related_ongoing": "economy-inflation"
+    },
+    {
+      "slug": "article-25",
+      "headline": "Severe Tornadoes Claim Lives in the Midwest",
+      "summary": "Recent tornadoes that struck Michigan and Oklahoma have resulted in six fatalities, including a 12-year-old boy. These extreme weather events caused significant destruction, uprooting trees, downing power lines, and damaging numerous buildings and homes. First responders are working diligently to provide assistance and assess the extent of the damage. Community members are coming together to support those affected as recovery efforts begin and local authorities set up emergency response plans.",
+      "context": "The tornadoes are part of severe weather reported in the Midwest, raising concerns over safety preparedness in the region. These tragic events serve as a reminder of the vulnerabilities communities face during severe weather events and the importance of effective emergency response systems.",
+      "category": "US",
+      "key_points": [
+        {
+          "text": "Six people have died due to tornadoes in Michigan and Oklahoma, including a 12-year-old boy.",
+          "source_url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The storms have caused extensive damage by uprooting trees and downing power lines.",
+          "source_url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Buildings and homes, including roofs, were severely affected by the tornadoes.",
+          "source_url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Emergency responders are mobilizing to assist and evaluate the damage in the affected areas.",
+          "source_url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Community support initiatives are being organized to help victims recover from the disaster.",
+          "source_url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the communities in Michigan and Oklahoma find strength and support as they mourn their losses and begin the process of healing and recovery together.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-6",
+      "headline": "Escalation of Conflict in the Middle East Following Strikes on Infrastructure",
+      "summary": "Recent escalations in the Middle East have seen a series of strikes that raise significant concerns regarding civilian safety. An Israeli attack on an oil facility in Tehran resulted in extensive smoke in the city, coinciding with statements from Israeli Prime Minister Benjamin Netanyahu on military actions against Iran. Simultaneously, Bahrain has reported damage to a civilian desalination plant due to an Iranian drone strike, which has led to injuries and heightened fears of further assaults on non-military sites. As the tensions continue, both Israel and Iran have targeted critical infrastructure amid claims of aggression on both sides.",
+      "context": "The current conflict has roots in longstanding geopolitical tensions between Iran and Israel, further inflamed by military movements and threats from both nations. The damage to civilian infrastructure, including water desalination plants, underscores the war's impact on ordinary citizens, making the situation increasingly urgent for humanitarian considerations.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Israeli strikes on Tehran have caused smoke to engulf the city, targeting oil facilities.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "text": "Bahrain claims an Iranian drone attack damaged a desalination plant and resulted in injuries.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "text": "Netanyahu has announced a new phase of military operations against Iran, promising significant developments ahead.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "text": "Reports indicate an Israeli strike on an apartment building in Beirut, highlighting the conflict's expansion into Lebanon.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "text": "Both nations are accused of targeting civilian infrastructure, raising concerns of a wider humanitarian crisis.",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/8/smoke-rises-over-beirut-after-israeli-strike-on-raouche-building?traffic_source=rss"
+        },
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/03/08/world-news/bahrain-says-iran-hit-a-desalination-plant-stoking-fears-of-attacks-on-civilian-sites/"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Globe and Mail",
+          "lean": "Center",
+          "title": "Bahrain and Iran say civilian desalination plants were hit with no end in sight for regional war",
+          "url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "New wave of strikes hit Tehran as Netanyahu vows 'many surprises' for next phase of Iran war",
+          "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
+        },
+        {
+          "source": "Al Jazeera",
+          "lean": "Center",
+          "title": "Smoke rises over Beirut after Israeli strike on Raouche building",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/8/smoke-rises-over-beirut-after-israeli-strike-on-raouche-building?traffic_source=rss"
+        },
+        {
+          "source": "NY Post",
+          "lean": "Right",
+          "title": "Bahrain says Iran hit a desalination plant, stoking fears of attacks on civilian sites",
+          "url": "https://nypost.com/2026/03/08/world-news/bahrain-says-iran-hit-a-desalination-plant-stoking-fears-of-attacks-on-civilian-sites/"
+        },
+        {
+          "source": "Al Jazeera",
+          "lean": "Center",
+          "title": "Bahrain says water desalination plant damaged in Iranian drone attack",
+          "url": "https://www.aljazeera.com/news/2026/3/8/bahrain-says-water-desalination-plant-damaged-in-iranian-drone-attack?traffic_source=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May the affected civilians in Tehran and Bahrain find safety and support during these troubled times, as the region faces uncertainty and conflict.",
       "related_ongoing": ""
     },
     {
       "slug": "article-8",
-      "headline": "Middle East Conflict Continues as Canadians Return from Region",
-      "summary": "Military actions involving Israel and the U.S. against Iran continue into a second week, with reported drone and missile attacks. Canadians in the region face evacuations and flight cancellations. U.S. President Trump rejected a UK proposal to deploy aircraft carriers.",
-      "context": "Hostilities in the Middle East have prompted evacuations of foreign nationals. The conflict involves complex alliances with potential impacts on global energy markets.",
-      "category": "Ontario",
+      "headline": "Oil Prices Surge Amid Gulf Production Warnings",
+      "summary": "Oil prices have reached a two-year high following a warning from Qatar's Energy Minister, Saad al-Kaabi, regarding potential disruptions in Gulf production. He stated that if the ongoing conflict involving Iran escalates, prices could spike to as high as $150 per barrel. This escalation would have significant implications for global markets, particularly in the context of rising inflation and economic pressures faced by various countries. Analysts are closely monitoring the situation, as continued instability in the region could have widespread repercussions for both consumers and industries dependent on oil.",
+      "context": "The current surge in oil prices is primarily tied to geopolitical tensions in the Gulf region, exacerbated by ongoing hostilities involving Iran. Understanding these dynamics is critical, as oil price fluctuations can influence energy costs and economic stability in various regions globally.",
+      "category": "World",
       "key_points": [
         {
-          "text": "U.S.-Israel military actions against Iran enter the second week with increasing hostilities.",
+          "text": "Oil prices have reached a two-year high due to geopolitical tensions in the Gulf region.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Qatar's Energy Minister warned that the Gulf production could be halted in the coming days.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Predictions suggest oil prices could soar to $150 a barrel if the Iran conflict escalates.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Increased oil prices could further strain global economic conditions and inflation rates.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Analysts are urging close monitoring of the situation to assess potential impacts on the global market.",
+          "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "Oil price at two-year high after Qatar warns all Gulf production could stop within days",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Saad al-Kaabi",
+          "quote": "If the Iran conflict continues over the coming weeks, we could see oil hitting $150 a barrel.",
+          "url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May those affected by rising fuel costs find ways to navigate these challenges in their daily lives, ensuring they remain connected to their communities and resources.",
+      "related_ongoing": "iran-conflict"
+    },
+    {
+      "slug": "article-12",
+      "headline": "Escalating Conflict in the Middle East Raises Tensions",
+      "summary": "U.S. President Donald Trump has stated the ongoing conflict with Iran does not require UK military support, describing the war as already won, while expressing that ground troop deployment remains a possibility. Trump's remarks follow UK Prime Minister Keir Starmer's consideration of sending aircraft carriers to the region. Concurrently, the Iranian ambassador has cautioned the UK against further involvement in the war, asserting Iran's right to self-defense in response to U.S.-Israeli strikes. These events unfold as a panel in Iran seeks to select the next Supreme Leader after the assassination of Ayatollah Ali Khamenei amid rising tensions in the region.",
+      "context": "The recent escalation in hostilities between the United States and Iran has intensified following a series of strikes attributed to the U.S. and its allies. The conflict has also been marked by Iran's retaliatory attacks and a significant leadership transition within the Iranian government. This ongoing situation is critical, not only for regional stability but also as it impacts international relations and security in the Middle East.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Trump rejected British military support, stating he does not need it to win the war against Iran.",
           "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         },
         {
-          "text": "Canadians returning from the Middle East are facing significant travel disruptions and frustrations.",
+          "text": "The U.S. President claimed the conflict is already won, which he shared via social media.",
           "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         },
         {
-          "text": "Trump rejects UK's offer of aircraft carriers, stating the conflict is effectively over for the U.S.",
+          "text": "UK Prime Minister Starmer's potential deployment of aircraft carriers to the Middle East was critiqued by Trump as delayed.",
           "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         },
         {
-          "text": "Increasing military action in the region is influencing global energy markets and travel dynamics.",
+          "text": "Iran's ambassador warned the UK to be cautious of further military involvement, highlighting Iran's right to self-defense.",
           "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         },
         {
-          "text": "Reports show that many Canadians are scrambling to arrange flights out of the conflict zone amid the chaos.",
+          "text": "A panel in Iran is reportedly close to a consensus on selecting a new Supreme Leader following Khamenei's death.",
+          "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
+        },
+        {
+          "text": "Activists in New York protested against the U.S.-Israeli actions in Iran as tensions escalate.",
           "source_url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         }
       ],
@@ -227,20 +774,8 @@
           "url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
         },
         {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
           "name": "The Guardian US",
           "url": "https://www.theguardian.com/us-news/2026/mar/08/trump-news-at-a-glance-us-leader-says-iran-being-decimated-admits-us-troop-deployment-not-off-the-table"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/8/trump-says-us-does-not-need-united-kingdom-aircraft-carriers-for-iran-war?traffic_source=rss"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
           "name": "Daily Wire",
@@ -251,16 +786,8 @@
           "url": "https://www.breitbart.com/europe/2026/03/07/trump-blasts-once-great-ally-britain-for-late-response-to-iran-conflict-says-u-s-doesnt-need-uk-aircraft-carriers/"
         },
         {
-          "name": "The Hill",
-          "url": "https://thehill.com/policy/international/5773460-trump-rejects-uk-aircraft-carriers/"
-        },
-        {
           "name": "RealClearPolitics",
           "url": "https://www.realclearpolitics.com/2026/03/07/can_trump_avoid_magical_thinking_693722.html"
-        },
-        {
-          "name": "Deseret News Faith",
-          "url": "https://www.deseret.com/faith/2026/03/06/church-advises-middle-east-latter-day-saints-as-attacks-continue/"
         }
       ],
       "component_articles": [
@@ -283,643 +810,91 @@
           "url": "https://www.theguardian.com/us-news/2026/mar/07/trump-starmer-iran-criticism"
         },
         {
-          "source": "Al Jazeera",
-          "lean": "Center",
-          "title": "Trump says US does not need UK’s aircraft carriers for Iran war",
-          "url": "https://www.aljazeera.com/news/2026/3/8/trump-says-us-does-not-need-united-kingdom-aircraft-carriers-for-iran-war?traffic_source=rss"
-        },
-        {
           "source": "Daily Wire",
           "lean": "Right",
           "title": "Trump Nixes Help From Brits, Says Iran War ‘Already Won’",
           "url": "https://www.dailywire.com/news/trump-nixes-help-from-brits-says-iran-war-already-won"
         },
         {
-          "source": "The Hill",
-          "lean": "Center-Right",
-          "title": "Trump rejects UK’s offer to send aircraft carriers to Middle East: ‘We will remember’",
-          "url": "https://thehill.com/policy/international/5773460-trump-rejects-uk-aircraft-carriers/"
-        },
-        {
           "source": "NPR News",
           "lean": "Left",
-          "title": "How the U.S. and Israel's war with Iran is realigning the politics of the Middle East",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
+          "title": "Trump vows to 'take care of Cuba,' praises Venezuela cooperation at summit",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5741132/trump-cuba-venezuela-cooperation-summit"
         },
         {
           "source": "NPR World",
           "lean": "Left",
-          "title": "How the U.S. and Israel's war with Iran is realigning the politics of the Middle East",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5736194/how-the-u-s-and-israels-war-with-iran-is-realigning-the-politics-of-the-middle-east"
-        },
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "Trump encourages Latin American leaders to use military action to help the U.S. fight cartels",
-          "url": "https://www.pbs.org/newshour/world/trump-encourages-latin-american-leaders-to-use-military-action-to-help-the-u-s-fight-cartels"
-        },
-        {
-          "source": "Daily Wire",
-          "lean": "Right",
-          "title": "Trump Launches New America-Led Security Push To Crush Cartels, Counter China",
-          "url": "https://www.dailywire.com/news/trump-launches-new-america-led-security-push-to-crush-cartels-counter-china"
-        },
-        {
-          "source": "Toronto Sun",
-          "lean": "Right",
-          "title": "Canadians arriving home from Middle East express frustration with war, evacuations",
-          "url": "https://torontosun.com/news/national/canadians-arriving-home-from-middle-east-express-frustration-with-war-evacuations"
-        },
-        {
-          "source": "Global News Canada",
-          "lean": "Center",
-          "title": "No sign of compromise in Middle East as Canadians flee U.S-Iran conflict",
-          "url": "https://globalnews.ca/news/11720555/flight-cancellations-canada-impact-iran/"
-        },
-        {
-          "source": "NPR World",
-          "lean": "Left",
-          "title": "Middle East war enters its 8th day",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5739735/middle-east-war-enters-its-8th-day"
-        },
-        {
-          "source": "Al Jazeera",
-          "lean": "Center",
-          "title": "Iran war live: Trump again demands surrender; Israel bombs oil depots",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/8/iran-live-israel-bombs-tehran-oil-depots-attacks-on-gulf-states-continue?traffic_source=rss"
-        },
-        {
-          "source": "France 24",
-          "lean": "Center",
-          "title": "Middle East war live: Iran says it can 'keep fighting an intense war for six months'",
-          "url": "https://www.france24.com/en/middle-east/20260308-middle-east-war-live-deadly-strike-on-ramada-hotel-in-central-beirut-israel-bombs-iran-oil-facilities"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May those who are returning home find safe passage and comfort as they navigate their way back during this tumultuous time.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-9",
-      "headline": "Toronto-Area Synagogues Targeted by Gunfire, Community Leaders Respond",
-      "summary": "In recent incidents, two synagogues in the Greater Toronto Area have been struck by gunfire, prompting significant concern among local Jewish leaders. The violent acts have been condemned, with calls for urgent action to ensure the safety of community members and places of worship. Police are currently investigating these incidents, which have added to the unease surrounding the safety of religious institutions in the area. The Jewish community has been urged to remain vigilant in light of these developments and to voice concerns regarding the increasing frequency of such attacks.",
-      "context": "The incidents have prompted police investigations and calls for enhanced security at religious sites. Community leaders emphasize vigilance and safety measures.",
-      "category": "Ontario",
-      "key_points": [
-        {
-          "text": "Two synagogues in the Greater Toronto Area were hit by gunfire recently.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "Local Jewish community leaders have condemned the attacks and called for action.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "Police investigations are underway to determine the circumstances surrounding the shootings.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "The incidents have sparked concerns regarding the safety of religious institutions.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        },
-        {
-          "text": "Calls for vigilance among community members have increased following these events.",
-          "source_url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
-      "sources": [
-        {
-          "name": "National Post",
-          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "National Post",
-          "lean": "Center-Right",
-          "title": "‘Bullets are flying’: Two more Toronto-area synagogues hit by gunfire",
-          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Jewish community leader",
-          "quote": "We need urgent action to ensure our safety and the safety of our places of worship.",
-          "url": "https://nationalpost.com/news/canada/police-investigating-two-more-toronto-synagogues-damaged-by-gunfire"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the communities affected by these violent acts find healing and a renewed commitment to peace and understanding.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-14",
-      "headline": "Investigation Underway After Fatal Collision in North York",
-      "summary": "A tragic incident in North York has led to the death of a 62-year-old man, who was struck by a falling utility pole after being involved in a car crash. The Ontario Provincial Police reported that the driver involved in the incident left the scene. Emergency services were called, but the man succumbed to his injuries. The authorities are actively seeking the driver responsible for the hit-and-run and are urging witnesses to come forward with any information. This incident has raised concerns over public safety related to utility infrastructure and pedestrian safety.",
-      "context": "The incident highlights ongoing concerns in urban areas about the safety of pedestrians, especially around infrastructure that can pose dangerous risks. Authorities are putting measures in place to address and review safety protocols, particularly concerning utility poles that may become hazardous during accidents.",
-      "category": "Ontario",
-      "key_points": [
-        {
-          "text": "A 62-year-old man was killed in North York after being hit by a falling utility pole during a car collision.",
-          "source_url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        },
-        {
-          "text": "The driver involved in the crash fled the scene, leading to a manhunt by the Ontario Provincial Police.",
-          "source_url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        },
-        {
-          "text": "Emergency services responded to the scene but were unable to save the victim, who died from his injuries.",
-          "source_url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        },
-        {
-          "text": "Local police have asked for witnesses to provide information to assist in the investigation.",
-          "source_url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        },
-        {
-          "text": "The incident has raised concerns over pedestrian safety and the risks associated with utility infrastructure.",
-          "source_url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Toronto Star",
-          "lean": "Center-Left",
-          "title": "Driver sought after pedestrian killed by falling utility pole hit in car crash",
-          "url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Ontario Provincial Police",
-          "quote": "We are urging anyone with information to come forward as we investigate this tragic incident.",
-          "url": "https://www.thestar.com/news/gta/driver-sought-after-pedestrian-killed-by-falling-utility-pole-hit-in-car-crash/article_15b64ccf-791d-428f-b3a8-588cef53fa0a.html"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the family of the man who lost his life find comfort and support during this difficult time, and may the investigation uncover the truth for those seeking closure.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-16",
-      "headline": "Canadians Return Home Amid Dubai Airspace Concerns",
-      "summary": "On Saturday, Canadians arriving at Pearson Airport from Dubai expressed relief and excitement as they reunited with loved ones following a brief period of heightened anxiety caused by airstrikes in the region. Air travel was temporarily suspended from Dubai due to safety concerns, prompting concern among families waiting for their relatives. The Emirates flight brought many back home after what one passenger described as 'frightening few days.' Passengers recounted feelings of anxiety but were grateful to be safely back in Canada, highlighting the emotional impact of their travel experience.",
-      "context": "The recent escalation of airstrikes in the Middle East has led to increased anxiety for travelers in the affected regions, particularly for Canadians returning from Dubai. The safe return of these individuals underscores the importance of secure air travel even in times of conflict.",
-      "category": "Ontario",
-      "key_points": [
-        {
-          "text": "Canadians arrived at Pearson Airport from Dubai after flights were temporarily suspended due to airstrikes.",
-          "source_url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        },
-        {
-          "text": "Families gathered at the airport to celebrate reunions with returning loved ones.",
-          "source_url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        },
-        {
-          "text": "Passengers described their time in Dubai during the airstrike escalations as 'frightening.'",
-          "source_url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        },
-        {
-          "text": "Emirates flight provided safe passage back to Canada amidst heightened safety concerns in the region.",
-          "source_url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        },
-        {
-          "text": "Travelers expressed gratitude for their safe return after a distressing experience.",
-          "source_url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Toronto Star",
-          "lean": "Center-Left",
-          "title": "‘Frightening few days’: Canadians relieved, excited to be home as they arrive at Pearson airport from Dubai",
-          "url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Passenger",
-          "quote": "It was a frightening few days, but I’m just glad to be home now.",
-          "url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        },
-        {
-          "speaker": "Family member",
-          "quote": "We were all so worried; it’s such a relief to see him back safe.",
-          "url": "https://www.thestar.com/news/gta/frightening-few-days-canadians-relieved-excited-to-be-home-as-they-arrive-at-pearson-airport/article_0574ce99-7975-40a6-8f7d-d64d449965e8.html"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May all travelers affected by the recent conflict find peace and comfort as they settle back into their daily lives, especially those who faced anxiety during their return journey.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-25",
-      "headline": "British Columbia Adopts Permanent Daylight Saving Time",
-      "summary": "British Columbia's Premier David Eby announced that the province will permanently switch to daylight saving time, ceasing the biannual clock changes. This transition aims to provide more daylight in the evenings, which could potentially benefit outdoor activities and the tourism sector. However, research highlights that extended daylight saving can contribute to various health risks, raising concerns among health experts. Citizens are encouraged to adapt to the change, which begins this Sunday, marking a significant shift in the province’s approach to time management.",
-      "context": "The decision to adopt permanent daylight saving time has gained traction as many regions reconsider the necessity and benefits of the traditional time shift. Advocates argue for the advantages of increased evening light, while scientific studies continue to warn about the negative health impacts associated with the disruption of natural circadian rhythms. This development is significant for residents, businesses, and health professionals alike.",
-      "category": "Ontario",
-      "key_points": [
-        {
-          "text": "British Columbia will permanently adopt daylight saving time, eliminating the biannual time changes.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "text": "Premier David Eby emphasizes the benefits of more evening daylight for outdoor activities.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "text": "The policy will take effect this coming Sunday.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "text": "Research indicates that the longer exposure to daylight saving time may increase health risks for some individuals.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "text": "The move to permanent daylight saving time reflects a growing trend among regions evaluating their timekeeping practices.",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5736183/british-columbia-moves-to-permanent-daylight-saving-time"
-        },
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "British Columbia to make daylight saving time permanent",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        },
-        {
-          "source": "NPR World",
-          "lean": "Left",
-          "title": "British Columbia moves to permanent daylight saving time",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5736183/british-columbia-moves-to-permanent-daylight-saving-time"
-        },
-        {
-          "source": "NPR Health",
-          "lean": "Left",
-          "title": "British Columbia to make daylight saving time permanent",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "David Eby",
-          "quote": "Today marks the beginning of a new era where we can enjoy more daylight in the evenings.",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741076/british-columbia-daylight-saving-time"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the citizens of British Columbia find balance and health in this shift, ensuring that more daylight doesn't come at the cost of their well-being.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-10",
-      "headline": "U.S. President Trump Attends Transfer Ceremony for Fallen Soldiers Amid Iran Conflict",
-      "summary": "President Trump attended a transfer ceremony at Dover Air Force Base for six U.S. soldiers killed in a drone strike during the conflict with Iran. Trump commented on the losses and instructed Kurdish forces to stay uninvolved.",
-      "context": "The transfer of fallen service members comes at a time of heightened tensions between the U.S. and Iran, reflecting ongoing military operations in the region since their escalation earlier this month. This situation underscores the weight of military decision-making and its tragic consequences on service members and their families.",
-      "category": "US",
-      "key_points": [
-        {
-          "text": "President Trump attended a transfer ceremony for six fallen soldiers at Dover Air Force Base.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "text": "The soldiers were killed in a drone strike during the early stages of the Iran conflict.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "text": "Trump remarked that attending such ceremonies is an unfortunate aspect of military engagements.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "text": "He advised Kurdish forces against participating in the Iran war due to its complexity.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "text": "The ceremony represents a recognition of the sacrifices made by U.S. service members.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "text": "Public and political discourse around the Iran conflict continues to evolve as more fallen soldiers are acknowledged.",
-          "source_url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Daily Wire",
-          "url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
-        },
-        {
-          "name": "Breitbart",
-          "url": "https://www.breitbart.com/middle-east/2026/03/07/trump-attends-dignified-transfer-six-soldiers-killed-strike/"
-        },
-        {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/policy/defense/4484633/trump-told-kurds-not-enter-iran-war/"
-        },
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/administration/5773315-trump-praises-us-military-iran/"
-        },
-        {
-          "name": "RealClearPolitics",
-          "url": "https://www.realclearpolitics.com/2026/03/07/can_trump_avoid_magical_thinking_693722.html"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Daily Wire",
-          "lean": "Right",
-          "title": "‘Hardest Thing I Have To Do’ As President: Trump Salutes Fallen U.S. Soldiers Returning From Iran War",
-          "url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "source": "Breitbart",
-          "lean": "Right",
-          "title": "Trump Attends Dignified Transfer of Six Soldiers Killed in Strike",
-          "url": "https://www.breitbart.com/middle-east/2026/03/07/trump-attends-dignified-transfer-six-soldiers-killed-strike/"
-        },
-        {
-          "source": "Washington Examiner",
-          "lean": "Right",
-          "title": "Trump says he told Kurds not to enter Iran war",
-          "url": "https://www.washingtonexaminer.com/policy/defense/4484633/trump-told-kurds-not-enter-iran-war/"
-        },
-        {
-          "source": "The Hill",
-          "lean": "Center-Right",
-          "title": "Trump on more dignified transfers of US service members killed: ‘It’s a part of war, isn’t it?’",
-          "url": "https://thehill.com/homenews/administration/5773315-trump-praises-us-military-iran/"
-        },
-        {
-          "source": "National Post",
-          "lean": "Center-Right",
-          "title": "Long-delayed Jan. 6 plaque honoring police quietly erected overnight at Capitol",
-          "url": "https://nationalpost.com/news/world/long-delayed-jan-6-plaque-honoring-police-quietly-erected-overnight-at-capitol"
-        },
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "Jan. 6 plaque honoring police officers is now displayed at the Capitol after a 3-year delay",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741158/january-6-plaque-honoring-police-officers-displayed-us-capitol"
-        },
-        {
-          "source": "Global News Canada",
-          "lean": "Center",
-          "title": "The cost of dying in Saskatchewan",
-          "url": "https://globalnews.ca/news/11720840/the-cost-of-dying-in-saskatchewan/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "President Trump",
-          "quote": "It’s a part of war, isn’t it?",
-          "url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        },
-        {
-          "speaker": "President Trump",
-          "quote": "I told the Kurds not to enter Iran war because it is complicated enough.",
-          "url": "https://www.dailywire.com/news/hardest-thing-i-have-to-do-as-president-trump-salutes-fallen-u-s-soldiers-returning-from-iran-war"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the families of these fallen soldiers find comfort and strength in their memories, knowing their loved ones served with courage in a complex world.",
-      "related_ongoing": "iran-conflict"
-    },
-    {
-      "slug": "article-15",
-      "headline": "Severe Storms Result in Tornado-Related Fatalities in Michigan and Oklahoma",
-      "summary": "Recent severe storms have led to tragic tornado-related incidents in southern Michigan and eastern Oklahoma, claiming the lives of six individuals, including a 12-year-old boy. Authorities are conducting searches through the wreckage to assess damage and assist victims. The National Weather Service has continued to warn of hazardous weather conditions, including flash flooding risks, affecting areas from the Great Lakes to Texas. The destructive storms caused extensive damage, uprooting trees and damaging structures across the affected regions.",
-      "context": "This series of storms is part of a larger weather pattern impacting the central United States, highlighting the increasing frequency and intensity of severe weather events. Understanding the risks associated with these storms is crucial for community preparedness and response efforts as rebuild efforts begin.",
-      "category": "US",
-      "key_points": [
-        {
-          "text": "Six people have died due to tornadoes in Michigan and Oklahoma, including a young boy.",
-          "source_url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "text": "Authorities are engaged in search and recovery efforts amidst significant destruction.",
-          "source_url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "text": "The storms have caused widespread damage, including downed power lines and destroyed homes.",
-          "source_url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "text": "The National Weather Service issued ongoing warnings for severe weather and flash flooding risks in various states.",
-          "source_url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "text": "Communities are urged to prepare for continued severe weather as threats persist in the midsection of the country.",
-          "source_url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        }
-      ],
-      "sources": [
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/nexstar_media_wire/5772923-tornadoes-kill-6-people-in-michigan-and-oklahoma-as-powerful-storms-hit-nations-midsection/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "Authorities search debris after suspected tornadoes kill 6 in Michigan and Oklahoma",
-          "url": "https://www.pbs.org/newshour/nation/authorities-search-debris-after-suspected-tornadoes-kill-6-in-michigan-and-oklahoma"
-        },
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "Bombing at Peru nightclub injures 33 people, including minors",
-          "url": "https://www.pbs.org/newshour/world/bombing-at-peru-nightclub-injures-33-people-including-minors"
-        },
-        {
-          "source": "The Hill",
-          "lean": "Center-Right",
-          "title": "Tornadoes kill 6 people in Michigan and Oklahoma as powerful storms hit nation’s midsection",
-          "url": "https://thehill.com/homenews/nexstar_media_wire/5772923-tornadoes-kill-6-people-in-michigan-and-oklahoma-as-powerful-storms-hit-nations-midsection/"
+          "title": "Trump vows to 'take care of Cuba,' praises Venezuela cooperation at summit",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5741132/trump-cuba-venezuela-cooperation-summit"
         },
         {
           "source": "BBC World",
           "lean": "Center",
-          "title": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
-          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the families affected by these storms find comfort and support in their time of grief as they navigate the rebuilding process in their communities.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-18",
-      "headline": "Trump's Views on U.S. Military Involvement in Conflicts Discussed",
-      "summary": "Commentators note shifts in Donald Trump's positions on U.S. military involvement abroad, including the Iran conflict. Public opinion shows mixed views on such actions. Analysts discuss potential effects on U.S. policy and global relations.",
-      "context": "Trump's comments occur amid U.S. foreign policy debates and public views on military engagements.",
-      "category": "US",
-      "key_points": [
-        {
-          "text": "Trump's foreign policy stance has shifted away from military interventionism.",
-          "source_url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
+          "title": "Iranian ambassador warns UK to be 'very careful' about further involvement in war",
+          "url": "https://www.bbc.com/news/articles/cq6qp458zv1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Public opinion shows a decline in support for the ongoing Iran conflict.",
-          "source_url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
+          "source": "Al Jazeera",
+          "lean": "Center",
+          "title": "Hundreds march in New York condemning US-Israeli attacks on Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/8/hundreds-march-in-new-york-condemning-us-israeli-attacks-on-iran?traffic_source=rss"
         },
         {
-          "text": "Experts express concerns that Trump's pivot could destabilize international relations.",
-          "source_url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
+          "source": "France 24",
+          "lean": "Center",
+          "title": "Iran: New Supreme Leader set to be announced",
+          "url": "https://www.france24.com/en/iran-new-supreme-leader-set-to-be-announced"
         },
         {
-          "text": "The changing political landscape in the U.S. raises questions about the future of American foreign policy.",
-          "source_url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
+          "source": "NY Post",
+          "lean": "Right",
+          "title": "Panel picking Iran’s supreme leader has reached consensus, member says",
+          "url": "https://nypost.com/2026/03/08/world-news/panel-picking-irans-supreme-leader-has-reached-consensus-member-says/"
         },
         {
-          "name": "RealClearPolitics",
-          "url": "https://www.realclearpolitics.com/2026/03/07/can_trump_avoid_magical_thinking_693722.html"
-        }
-      ],
-      "component_articles": [
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "The impact of Iran's attacks on the UAE",
+          "url": "https://www.npr.org/2026/03/07/nx-s1-5736527/the-impact-of-irans-attacks-on-the-uae"
+        },
         {
           "source": "Globe and Mail",
           "lean": "Center",
-          "title": "Trump’s about-face on foreign wars poses great risks to the world and his presidency",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
+          "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-president-war-unconditional-surrender-us-trump/"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "May the leaders involved in global conflicts find paths toward dialogue and understanding, prioritizing peace and stability over strife.",
-      "related_ongoing": ""
+      "positive_thought": "May the families affected by the turmoil in Iran find moments of peace and security amid the chaos surrounding them.",
+      "related_ongoing": "iran-conflict"
     },
     {
-      "slug": "article-20",
-      "headline": "Severe Storms Cause Fatalities in Central U.S.",
-      "summary": "Recent severe weather across the central United States has resulted in the deaths of at least six individuals in Michigan due to a powerful tornado. Forecasters have issued warnings for ongoing storms that could generate more tornado activity in several states. The storm system has impacted a wide area, leading to dangerous conditions that residents are urged to prepare for as meteorological experts predict continued severe weather. As emergency services respond to the affected areas, communities are bracing for potential further impacts from the storms and the aftermath of the destruction.",
-      "context": "This weather event is part of a broader pattern of severe storms affecting many parts of the U.S., marking a season that has caused increasingly dangerous weather patterns due to climate changes. The tornadoes in Michigan are especially concerning as they highlight vulnerabilities in storm preparedness and response systems in areas frequently affected by such extreme weather.",
-      "category": "US",
-      "key_points": [
-        {
-          "text": "At least six fatalities reported in Michigan due to tornadoes.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "Ongoing severe storms are predicted to affect several states across the central U.S.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "Forecasters have issued multiple warnings regarding potential tornado activity.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "Emergency services are actively responding to communities impacted by the storms.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "text": "The storms are part of a larger trend of severe weather patterns currently observed in the U.S.",
-          "source_url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hill",
-          "url": "https://thehill.com/homenews/nexstar_media_wire/5772923-tornadoes-kill-6-people-in-michigan-and-oklahoma-as-powerful-storms-hit-nations-midsection/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "CBS News",
-          "lean": "Center",
-          "title": "At least 6 dead after tornado rips through Michigan and storms hit central U.S.",
-          "url": "https://www.cbsnews.com/news/michigan-tornado-storms-oklahoma-severe-weather-fatalities/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May those affected by the storms in Michigan find strength and support as they navigate the aftermath of this tragic event.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-6",
-      "headline": "Israel Warns of Upcoming Strikes Amid Iran Conflict",
-      "summary": "Israeli strikes have targeted oil storage facilities in Tehran amid escalating conflict with Iran, now in its second week. Prime Minister Benjamin Netanyahu referenced future actions. Related operations in Lebanon have resulted in at least 41 casualties. The U.S. government has stated it is not seeking a settlement with Iran.",
-      "context": "The escalation relates to tensions between Israel and Iran over nuclear issues and regional proxies. The conflict highlights security challenges in the Middle East.",
+      "slug": "article-13",
+      "headline": "Renewed Violence in Lebanon as Israeli Operations Intensify",
+      "summary": "Recent escalations in violence have been reported in Lebanon amid ongoing conflict in the region, with Israel conducting military operations. An Israeli raid in a Lebanese village resulted in at least 41 deaths and numerous injuries, according to local health officials. Israeli Prime Minister Netanyahu has promised 'many surprises' in the next phase of their military strategy, which includes targeting Iranian assets. This coincides with broader tensions as the conflict enters its second week, raising concerns about the regional stability and humanitarian impacts.",
+      "context": "The current surge in violence follows escalating tensions between Israel and Iran, particularly surrounding Iranian military support for anti-Israeli groups in Lebanon. The situation is significant as it threatens to further destabilize the region, drawing international attention and concern regarding civilian safety and potential humanitarian crises.",
       "category": "World",
       "key_points": [
         {
-          "text": "Israel has conducted airstrikes on fuel storage facilities in Tehran, causing significant fire and destruction.",
+          "text": "Israeli raid on a Lebanese village resulted in at least 41 fatalities and over 40 injuries.",
           "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "Netanyahu has announced plans for further military actions, emphasizing a commitment to maintaining pressure on Iran.",
+          "text": "Netanyahu promises new military strategies, indicating a continued aggressive approach.",
           "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "The situation has resulted in retaliatory strikes and casualties in neighboring Lebanon, with significant loss of life reported.",
+          "text": "The conflict marks the second week of hostilities involving Iran and its regional proxies.",
           "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "The U.S. administration has reiterated its stance of non-compromise with Iran, heightening the conflict's complexity.",
+          "text": "International responses are being monitored due to the potential for escalating regional tensions.",
           "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "text": "The violence in the region has prompted international concern over a possible escalation into broader warfare.",
+          "text": "Local health officials are reporting a humanitarian crisis due to the violence.",
           "source_url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         }
       ],
@@ -937,72 +912,28 @@
           "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/8/iran-live-israel-bombs-tehran-oil-depots-attacks-on-gulf-states-continue?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260308-middle-east-war-live-deadly-strike-on-ramada-hotel-in-central-beirut-israel-bombs-iran-oil-facilities"
-        },
-        {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
+        },
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/03/08/world-news/bahrain-says-iran-hit-a-desalination-plant-stoking-fears-of-attacks-on-civilian-sites/"
         },
         {
           "name": "Breitbart",
           "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
         },
         {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/news/world/4484642/strikes-light-up-tehran-israel-vows-many-surprises/"
-        },
-        {
           "name": "RealClearPolitics",
-          "url": "https://www.realclearpolitics.com/2026/03/07/can_trump_avoid_magical_thinking_693722.html"
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
         }
       ],
       "component_articles": [
         {
           "source": "Globe and Mail",
           "lean": "Center",
-          "title": "Netanyahu vows ‘many surprises’ as Iran war enters second week",
+          "title": "Israel renews assault on Lebanon as Iran war enters second week",
           "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
-        },
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "New wave of strikes hit Tehran as Netanyahu vows 'many surprises' for next phase of Iran war",
-          "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
-        },
-        {
-          "source": "Breitbart",
-          "lean": "Right",
-          "title": "**Livewire** Operation Epic Fury Day Eight: The Latest News From Iran and the Middle East",
-          "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
-        },
-        {
-          "source": "Washington Examiner",
-          "lean": "Right",
-          "title": "New strikes light up the night in Tehran as Israel vows ‘many surprises’",
-          "url": "https://www.washingtonexaminer.com/news/world/4484642/strikes-light-up-tehran-israel-vows-many-surprises/"
-        },
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "Trump vows to 'take care of Cuba,' praises Venezuela cooperation at summit",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741132/trump-cuba-venezuela-cooperation-summit"
-        },
-        {
-          "source": "NPR World",
-          "lean": "Left",
-          "title": "Trump vows to 'take care of Cuba,' praises Venezuela cooperation at summit",
-          "url": "https://www.npr.org/2026/03/07/nx-s1-5741132/trump-cuba-venezuela-cooperation-summit"
-        },
-        {
-          "source": "The Guardian US",
-          "lean": "Left",
-          "title": "Trump convenes ‘Shield of Americas’ summit with 12 Latin American leaders",
-          "url": "https://www.theguardian.com/us-news/2026/mar/07/trump-shield-of-americas-summit"
         },
         {
           "source": "BBC World",
@@ -1011,198 +942,68 @@
           "url": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Benjamin Netanyahu",
-          "quote": "We will have many surprises in store for Iran in this next phase.",
-          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
-        },
-        {
-          "speaker": "U.S. Government Spokesman",
-          "quote": "We are not looking to settle with Iran at this time.",
-          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May those affected by the recent violence in Tehran and Lebanon find solace and healing in these tumultuous times.",
-      "related_ongoing": "iran-conflict"
-    },
-    {
-      "slug": "article-11",
-      "headline": "Fire Breaks Out at Tehran Oil Depot Following Israeli Strike",
-      "summary": "A fire is burning at the Shahran oil depot in northern Tehran following an Israeli airstrike. Eyewitnesses report flames and smoke. Emergency services are responding; no casualties reported.",
-      "context": "This incident is part of a broader pattern of military tensions in the Middle East, particularly between Israel and Iranian interests. Such events can have significant repercussions for regional security and oil supply chains, making it crucial to monitor developments closely.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "A massive fire has erupted at the Shahran oil depot in northern Tehran following an Israeli airstrike.",
-          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        },
-        {
-          "text": "Footage from the site indicates extensive flames and smoke are affecting the surrounding area.",
-          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        },
-        {
-          "text": "Emergency services are attempting to contain the blaze and understand its implications.",
-          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        },
-        {
-          "text": "No injuries or casualties have been reported in relation to the fire so far.",
-          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        },
-        {
-          "text": "The attack highlights increasing military tensions in the region between Israel and Iran.",
-          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260308-middle-east-war-live-deadly-strike-on-ramada-hotel-in-central-beirut-israel-bombs-iran-oil-facilities"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Al Jazeera",
-          "lean": "Center",
-          "title": "Huge fire rages at Tehran oil depot after Israeli attack",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss"
-        }
-      ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "May those affected by the fire in Tehran find safety and support as emergency services work to manage the situation.",
+      "positive_thought": "May the communities in Lebanon find peace and healing amid the pain and chaos of current events.",
       "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-12",
-      "headline": "Reflections from Iranians Amid Ongoing Conflict",
-      "summary": "As the conflict in Iran continues into its second week, many citizens are expressing their thoughts and concerns regarding the state of their country. Reports describe a mix of fear, resilience, and a longing for change among the population. Various individuals have shared personal stories, illustrating the immediate impact of the violence on their daily lives and aspirations for the future. Discussions emphasize not only the current strife but also the hopes for a more peaceful society. The sentiment reflects a complex interplay of hope and despair as Iranians navigate this tumultuous period.",
-      "context": "The ongoing conflict in Iran has escalated dramatically, prompting widespread concern from both citizens and international observers. This situation holds significance not only for the people of Iran but also for regional stability and global geopolitics, as international responses and interventions are unfolding. Understanding the perspectives of ordinary Iranians is crucial as their voices can shed light on the human cost of the conflict.",
+      "slug": "article-14",
+      "headline": "Escalating Conflict in the Middle East as Israeli Strikes Continue",
+      "summary": "Recent military engagements have been reported between Israeli forces and various targets in Iran and Lebanon as the U.S. escalates its involvement in the region. President Trump has emphasized a strategy focused on diminishing Iranian military capabilities by expanding attacks on targets within Iran. The conflict has led to rising tensions, with Iran vowing to retaliate against U.S. actions. This may have political implications for Trump's presidency.",
+      "context": "The ongoing military conflict results from longstanding tensions between the U.S., Israel, and Iran, amplified by recent provocations and military strategies including airstrikes. This situation is significant as it involves multiple nations and potentially affects geopolitical stability in the Middle East.",
       "category": "World",
       "key_points": [
         {
-          "text": "The conflict has entered its second week, intensifying challenges for Iranians.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
+          "text": "Israel has intensified its military operations, striking Iranian targets and facilities.",
+          "source_url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "text": "Citizens are expressing a mix of fear and hope amidst the violence.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
+          "text": "President Trump asserts that the U.S. strategy is successfully diminishing Iran's military capabilities.",
+          "source_url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "text": "Many Iranians long for systemic change and improved living conditions.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
+          "text": "Iran has expressed its intent to retaliate against U.S. military targets.",
+          "source_url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "text": "Personal stories highlight the daily impact of the conflict on ordinary lives.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
+          "text": "Public opinion in the U.S. towards military involvement in Iran is reportedly low, reflecting widespread discontent with the conflict.",
+          "source_url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "text": "There is a pervasive sentiment of resilience among those affected.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The international community remains concerned about the situation's implications.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Voices from the ground illustrate the complexity of emotions during this turmoil.",
-          "source_url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
+          "text": "The situation continues to evolve as military actions are executed on multiple fronts, including Lebanon.",
+          "source_url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         }
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "BBC World",
-          "lean": "Center",
-          "title": "We've been speaking to Iranians during one week of war. Here's what they said",
-          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Anonymous Iranian citizen",
-          "quote": "We feel trapped between our hopes and the reality of war.",
-          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "speaker": "Local resident",
-          "quote": "Each day brings new fears, but we must hold onto our dreams for a better future.",
-          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "May the people of Iran find moments of peace amidst the turmoil and hold onto their dreams for a brighter future.",
-      "related_ongoing": "iran-conflict"
-    },
-    {
-      "slug": "article-17",
-      "headline": "Trump Addresses Growing Tensions Over Iran Conflict",
-      "summary": "President Trump described Russia's reported intelligence sharing with Iran as inconsequential. He demanded Iran's unconditional surrender and warned of strong response to aggression. Iran has asserted its right to self-defense.",
-      "context": "This situation follows the outbreak of hostilities in a new conflict involving Iran and Israel, sparked by a range of geopolitical tensions in the region. The U.S. involvement and its military posture towards Iran is drawing scrutiny, as such conflicts can have global repercussions and impact international relations significantly.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "Trump stated that if Russia is helping Iran target U.S. military assets, it is of little importance.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "He emphasized the need for Iran's unconditional surrender in light of the ongoing conflict.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "Trump warned Iran of serious consequences and vowed to respond 'very hard' to any hostilities.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "Russia's reported role in providing intelligence to Iran comes at a time when U.S.-Iran relations are increasingly strained due to military actions.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "Iran claims it has the right to self-defense amid threats from the U.S. and Israel.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "The conflict marks a potential increase in U.S. military involvement in the Middle East.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "text": "The situation has led to significant discussion about the implications for international security and U.S. foreign policy.",
-          "source_url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Star",
-          "url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "url": "https://www.theglobeandmail.com/world/article-donald-trump-keir-starmer-iran-war-aircraft-carriers/"
-        },
         {
           "name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "name": "Breitbart",
-          "url": "https://www.breitbart.com/middle-east/2026/03/07/trump-attends-dignified-transfer-six-soldiers-killed-strike/"
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-iran-war-donald-trump-israel-lebanon-unconditional-surrender/"
         },
         {
-          "name": "Washington Examiner",
-          "url": "https://www.washingtonexaminer.com/policy/defense/4484633/trump-told-kurds-not-enter-iran-war/"
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/new-wave-of-strikes-hit-tehran-as-netanyahu-vows-many-surprises-for-next-phase-of-iran-war"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-idf-targets-iranian-internal-security/?id=130743836"
+        },
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/03/08/world-news/bahrain-says-iran-hit-a-desalination-plant-stoking-fears-of-attacks-on-civilian-sites/"
+        },
+        {
+          "name": "Daily Wire",
+          "url": "https://www.dailywire.com/news/trump-credits-first-term-military-rebuild-with-powering-u-s-offensive-against-iran"
+        },
+        {
+          "name": "Breitbart",
+          "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
         },
         {
           "name": "RealClearPolitics",
@@ -1211,84 +1012,176 @@
       ],
       "component_articles": [
         {
-          "source": "Toronto Star",
-          "lean": "Center-Left",
-          "title": "Trump downplays importance of Russia reportedly sharing intel with Iran to help it hit US targets",
-          "url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
-        },
-        {
-          "source": "RealClearPolitics",
-          "lean": "Center-Right",
-          "title": "Iran: Ends and Means",
-          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
-        },
-        {
-          "source": "Globe and Mail",
-          "lean": "Center",
-          "title": "Does Donald Trump really know what ‘unconditional surrender’ means?",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-president-war-unconditional-surrender-us-trump/"
-        },
-        {
           "source": "CBS News",
           "lean": "Center",
-          "title": "Trump vows to hit Iran \"very hard,\" says he has no war timetable: \"Whatever it takes\"",
+          "title": "Israeli strikes oil facilities in Iran as Tehran vows more attacks on U.S. targets",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "source": "Globe and Mail",
-          "lean": "Center",
-          "title": "Israel’s search in Lebanon for remains of long-lost weapons officer triggers deadly shootout",
-          "url": "https://www.theglobeandmail.com/world/article-israel-lebanon-middle-east-war/"
+          "source": "Breitbart",
+          "lean": "Right",
+          "title": "**Livewire** Operation Epic Fury Day Eight: The Latest News From Iran and the Middle East",
+          "url": "https://www.breitbart.com/europe/2026/03/07/livewire-operation-epic-fury-day-eight-the-latest-news-from-iran-and-the-middle-east32277555/"
         },
         {
-          "source": "BBC World",
+          "source": "Globe and Mail",
           "lean": "Center",
-          "title": "Iranian ambassador warns UK to be 'very careful' about further involvement in war",
-          "url": "https://www.bbc.com/news/articles/cq6qp458zv1o?at_medium=RSS&at_campaign=rss"
+          "title": "Trump’s about-face on foreign wars poses great risks to the world and his presidency",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-foreign-wars-world-risk-iran/"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Donald Trump",
-          "quote": "Whatever it takes.",
-          "url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
+          "speaker": "President Trump",
+          "quote": "We are going to hit Iran very hard.",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         },
         {
-          "speaker": "Seyed Ali Mousavi",
-          "quote": "Iran has a right to self-defence.",
-          "url": "https://www.thestar.com/news/world/united-states/trump-downplays-importance-of-russia-reportedly-sharing-intel-with-iran-to-help-it-hit-us/article_9bb3beb8-d39a-5c12-9768-031d592be15c.html"
+          "speaker": "Iranian Officials",
+          "quote": "We will not sit idly by as the U.S. continues its attacks.",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-strikes-regime-targets/"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "May the families affected by the ongoing conflict find peace and safety amidst the turmoil and uncertainty in the region.",
-      "related_ongoing": "middle-east-israel-gaza"
+      "positive_thought": "May those impacted by the conflict in the Middle East find peace and safety amid the ongoing turbulence and uncertainty.",
+      "related_ongoing": "iran-conflict"
     },
     {
-      "slug": "article-19",
-      "headline": "Escalation of Violence in Ukraine Amid Recent Missile Strikes",
-      "summary": "Over the weekend, a Russian missile strike in Kharkiv has resulted in the deaths of at least 10 individuals, including two children, after it struck a residential building. This incident has occurred amid a broader offensive by Russian forces in Ukraine, leading to concerns over the increasing violence in the region. Prominent figures, including former U.S. President Donald Trump, have noted that ongoing animosity between the nations complicates potential peace negotiations. In parallel, Ukraine has begun implementing a program to deploy armed robots as part of its military strategy against Russia, underscoring the evolving nature of warfare in the conflict.",
-      "context": "The missile strike is part of ongoing hostilities that have persisted since Russia's invasion of Ukraine, which began in 2022. The humanitarian impact is profound, as civilians continue to be caught in the crossfire of military operations. The introduction of advanced technology, such as armed robots, reveals a significant shift in the military tactics being employed by both sides.",
+      "slug": "article-16",
+      "headline": "Increased Disruptions for Airlines Following Escalation in Iran Conflict",
+      "summary": "Recent military escalations in the Gulf region, notably a drone attack on Azerbaijan, have led to significant airspace restrictions, impacting airline operations. Airlines are currently facing increased pressures as they must rapidly adjust flight paths and schedules in response to the narrowing airspace options. These developments come amid an ongoing conflict involving Iran that has drawn international attention and raised safety concerns over air travel routes. The situation presents challenges not only for commercial airlines but also for governments as they evaluate potential risks associated with air travel in the region.",
+      "context": "The conflict involving Iran has been a persistent geopolitical issue, with recent hostilities escalating tensions and prompting responses from neighboring countries. As the situation unfolds, air travel has become increasingly complicated, underscoring the potential for broader implications on international travel and security.",
       "category": "World",
       "key_points": [
         {
-          "text": "A Russian missile struck a five-story residential building in Kharkiv, killing at least 10 people including two children.",
+          "text": "A recent drone attack on Azerbaijan has led to airspace restrictions in the Gulf region.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Airlines are scrambling to adjust their flight paths due to the heightened military tensions.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The conflict in Iran has created ongoing uncertainty for international travel.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Governments are assessing new safety concerns linked to airline operations in the affected areas.",
+          "source_url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RealClearPolitics",
+          "url": "https://www.realcleardefense.com/articles/2026/03/07/iran_war_ends_and_means_1169124.html"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "Flight paths squeezed as Iran conflict closes more airspace",
+          "url": "https://www.bbc.com/news/articles/crrx1jgr4jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May those impacted by the airspace restrictions find safe and clear passage as tensions in the region intensify.",
+      "related_ongoing": "iran-conflict"
+    },
+    {
+      "slug": "article-17",
+      "headline": "Explosion Reported Near U.S. Embassy in Oslo, No Injuries",
+      "summary": "An explosion occurred near the U.S. Embassy in Oslo, Norway, early Sunday, resulting in minor damage to the facility. Fortunately, local police confirmed that there were no injuries reported following the incident. The explosion was described as significant enough to prompt an immediate response from authorities, but details on its cause remain unclear. Investigations are ongoing as police continue to ensure safety in the area and assess the damage.",
+      "context": "This incident marks a concerning event in Oslo, a city generally considered safe. As the situation develops, it highlights the importance of security measures for diplomatic missions worldwide, particularly in light of increasing geopolitical tensions.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Explosion occurred early Sunday near the U.S. Embassy in Oslo.",
+          "source_url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The embassy sustained minor damage from the blast.",
+          "source_url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "No injuries have been reported according to local police.",
+          "source_url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Authorities are investigating the cause of the explosion.",
+          "source_url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The incident prompted a rapid response from police forces.",
+          "source_url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-us-embassy-blast-oslo-norway/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/explosion-reported-near-u-s-embassy-oslo-norway/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "US embassy in Oslo hit by explosion, Norway police say",
+          "url": "https://www.bbc.com/news/articles/c5yjegg892lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "CBS News",
+          "lean": "Center",
+          "title": "No injuries after explosion reported near U.S. Embassy in Norway, local police say",
+          "url": "https://www.cbsnews.com/news/explosion-reported-near-u-s-embassy-oslo-norway/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "May those living near the embassy find reassurance and peace in the aftermath of this unsettling event, and may the investigative efforts lead to clarity and safety for all involved.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-18",
+      "headline": "Russian Missile Strike in Kharkiv Claims Lives of Ten",
+      "summary": "A missile attack on a residential building in Kharkiv, Ukraine has resulted in the deaths of at least ten individuals, including two children. The strike targeted a five-story apartment complex, causing widespread devastation and raising urgent concerns about civilian safety amid ongoing military conflict in the region. Local authorities have reported significant destruction, and emergency services are working to rescue survivors from the rubble. This incident highlights the continuing impact of the war in Ukraine on everyday life for its residents, who face the constant threat of violence.",
+      "context": "The ongoing conflict between Russia and Ukraine has escalated in recent months, with increased military actions leading to civilian casualties and displacement. This attack is part of the continuing military actions in Ukraine.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "At least 10 individuals killed in the missile strike, including two children.",
           "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
         },
         {
-          "text": "The attack occurred during a significant offensive by Russian forces across Ukraine.",
+          "text": "The attack occurred in a five-story residential building in Kharkiv, Ukraine.",
           "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
         },
         {
-          "text": "Former U.S. President Trump highlighted ongoing hostility as a barrier to peace efforts.",
+          "text": "Emergency services are currently conducting rescue operations in the area.",
           "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
         },
         {
-          "text": "In response to the conflict, Ukraine has initiated the use of armed robots in combat.",
+          "text": "The incident highlights the ongoing humanitarian crisis resulting from the conflict in Ukraine.",
           "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
         },
         {
-          "text": "The situation in Ukraine continues to elicit international attention and concern.",
+          "text": "Civilian infrastructure continues to be targeted amid the warfare.",
           "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
         }
       ],
@@ -1296,10 +1189,6 @@
         {
           "name": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
-        },
-        {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/world/russian-missile-strike-kills-10-ukraine-trump-says-hatred-between-countries-complicating-peace-deal"
         }
       ],
       "component_articles": [
@@ -1308,73 +1197,13 @@
           "lean": "Left",
           "title": "Russian missile hits apartment building in Ukraine's Kharkiv killing at least 10",
           "url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
-        },
-        {
-          "source": "Fox News",
-          "lean": "Right",
-          "title": "Russian missile strike kills 10 in Ukraine as Trump says 'hatred' between countries complicating peace deal",
-          "url": "https://www.foxnews.com/world/russian-missile-strike-kills-10-ukraine-trump-says-hatred-between-countries-complicating-peace-deal"
-        },
-        {
-          "source": "BBC World",
-          "lean": "Center",
-          "title": "Armed robots take to the battlefield in Ukraine war",
-          "url": "https://www.bbc.com/news/articles/c62662gzlp8o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "May the families in Kharkiv find solace and support in the aftermath of this tragedy, and may peace be restored in the region.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-22",
-      "headline": "NASA Adjusts Artemis Moon Landing Plans with New Mission",
-      "summary": "NASA has announced an adjustment to its Artemis program, adding an extra unmanned mission before the planned landing of astronauts on the Moon. This decision comes as part of efforts to enhance the safety and efficiency of future lunar landings. The newly included mission will allow for additional testing and validation of systems that are critical for human spaceflight. As a result, the timeline for the Artemis program is expected to shift, but the agency remains committed to returning humans to the Moon as part of its broader goals for lunar exploration and eventual missions to Mars.",
-      "context": "NASA has been steadily working on the Artemis program, which aims to return humans to the Moon by the mid-2020s. The decision to add another mission highlights the agency's dedication to ensuring thorough preparation for crewed missions, especially following the challenges faced in previous space exploration endeavors. This development is significant for advancements in human space exploration and for international collaborations in space science.",
-      "category": "Science",
-      "key_points": [
-        {
-          "text": "NASA is adding an extra unmanned mission to its Artemis program.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The change is intended to improve the safety and reliability of lunar landings.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The timeline for the crewed lunar landing will be adjusted accordingly.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "This adjustment reflects NASA's commitment to preparedness for human spaceflight to the Moon and beyond.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The Artemis program is part of NASA's broader strategy for eventual missions to Mars.",
-          "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "BBC Science",
-          "lean": "Center",
-          "title": "Nasa announces change to its Moon landing plans",
-          "url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": false,
-      "positive_thought": "",
-      "related_ongoing": ""
+      "positive_thought": "May the families affected in Kharkiv find comfort and strength in the wake of this devastating loss, and may the urgent need for peace resonate throughout the region, leading to safer days ahead.",
+      "related_ongoing": "ukraine-russia"
     }
   ],
   "ongoing_topics": [
@@ -1383,6 +1212,11 @@
       "topic": "Iran Conflict",
       "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
       "timeline": [
+        {
+          "date": "2026-03-08",
+          "text": "Escalation of Conflict in the Middle East Following Strikes on Infrastructure",
+          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
+        },
         {
           "date": "2026-03-07",
           "text": "Escalation of Global Impact from Ongoing Iran War",
@@ -1400,6 +1234,11 @@
       "topic": "Ukraine–Russia",
       "summary": "Russia's full-scale invasion of Ukraine began in February 2022. The conflict has entered its fourth year with largely static front lines, ongoing artillery exchanges, and continued Western military and financial support for Ukraine.",
       "timeline": [
+        {
+          "date": "2026-03-08",
+          "text": "Russian Missile Strike in Kharkiv Claims Lives of Ten",
+          "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
+        },
         {
           "date": "2026-03-07",
           "text": "Missile Strike in Kharkiv Results in Multiple Casualties",
@@ -1459,29 +1298,77 @@
   "good_developments": [
     {
       "slug": "article-1",
-      "headline": "Campbellford Memorial Hospital Receives Support from Auxiliary",
-      "summary": "The Auxiliary to Campbellford Memorial Hospital has made a significant contribution by purchasing two Burlodge heating and cooling food transport carts, enhancing the service quality for patients. This new equipment will ensure that food is served at the proper temperatures, which is critical for both safety and satisfaction. The Auxiliary's efforts reflect a commitment to supporting local healthcare through philanthropic initiatives. Their contribution comes as part of ongoing support for the hospital, which has faced various challenges in providing exceptional care to the community.",
-      "context": "The Auxiliary to Campbellford Memorial Hospital has a long-standing history of supporting the hospital with fundraising efforts aimed at improving the quality of healthcare services. This latest initiative highlights the importance of community involvement in maintaining healthcare standards, especially in smaller facilities that may rely more heavily on such support.",
+      "headline": "Belleville City Council Considers Purchase of Sandbagging Unit",
+      "summary": "During its upcoming meeting, Belleville City Council will evaluate a proposal to acquire a sandbagging unit to improve the city's preparedness for flooding events. The initiative aims to enhance local emergency response capabilities and ensure that residents are better equipped in the face of extreme weather conditions. The recommendation seeks to address the increasing need for effective flood management solutions in the area. City officials believe that having a dedicated sandbagging unit will streamline the process of flood response and contribute to community resilience against potential future emergencies.",
+      "context": "This discussion is part of Belleville's ongoing efforts to strengthen infrastructure and disaster preparedness in response to increasingly severe weather patterns observed in recent years. Investing in a sandbagging unit underscores the city's commitment to protecting its residents and property from flooding hazards.",
       "category": "Local",
       "key_points": [
         {
-          "text": "Auxiliary purchased two new Burlodge heating and cooling food transport carts.",
+          "text": "Belleville City Council to discuss a proposal for a sandbagging unit at its next meeting.",
+          "source_url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        },
+        {
+          "text": "The sandbagging unit aims to improve the city's emergency flood response.",
+          "source_url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        },
+        {
+          "text": "A dedicated unit is intended to enhance community preparedness for extreme weather.",
+          "source_url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        },
+        {
+          "text": "The proposal reflects a broader initiative to strengthen local infrastructure against flooding.",
+          "source_url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        },
+        {
+          "text": "Council members are expected to debate the potential benefits and costs during the meeting.",
+          "source_url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Belleville council to look at purchase of sandbagging unit",
+          "url": "https://www.quintenews.com/2026/03/08/belleville-council-to-look-at-purchase-of-sandbagging-unit/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-3",
+      "headline": "Campbellford Memorial Hospital Auxiliary Purchases Food Transport Carts",
+      "summary": "The Auxiliary to Campbellford Memorial Hospital has recently acquired two Burlodge heating and cooling food transport carts. This purchase aims to enhance the quality of meal service for patients by ensuring that food remains at the appropriate temperature during transport. The initiative reflects the Auxiliary's commitment to supporting hospital operations and improving patient care. Local fundraising efforts contributed significantly to the acquisition, emphasizing community support for healthcare services in the area.",
+      "context": "The Auxiliary to Campbellford Memorial Hospital has a long-standing tradition of supporting the local health facility through various fundraising efforts. Such initiatives are crucial for hospitals, especially in rural areas, where funding may be limited. The recent purchase of food transport carts is part of ongoing efforts to enhance patient experience and service delivery within the facility.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Recent purchase includes two Burlodge food transport carts.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "The new equipment ensures food served to patients is at optimal temperatures.",
+          "text": "Strengthens the quality of meal service for hospital patients.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "Enhances the overall quality of service provided to patients.",
+          "text": "Fundraised by local community efforts to support hospital needs.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "Reflects the Auxiliary's ongoing commitment to local healthcare.",
+          "text": "The Auxiliary has a history of civic engagement and philanthropy.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         },
         {
-          "text": "Supports the hospital amid various operational challenges.",
+          "text": "Improving patient care through innovative solutions is a priority.",
           "source_url": "https://www.quintenews.com/2026/03/07/auxiliary-comes-through-for-campbellford-memorial-hospital/"
         }
       ],
@@ -1506,26 +1393,30 @@
       "related_ongoing": ""
     },
     {
-      "slug": "article-2",
-      "headline": "Quinte Compass Development Seeks Community Input",
-      "summary": "A collaborative initiative among Bay of Quinte partners is developing Quinte Compass, an online resource to help residents access services and supports. The project seeks input from locals to meet community needs. It addresses challenges in resource access.",
-      "context": "The Quinte Compass project is part of a broader effort to improve access to resources for underserved populations in the Bay of Quinte region. With support from various local organizations, this digital platform aims to bridge existing gaps in service accessibility, highlighting the importance of inclusion in community-building initiatives.",
+      "slug": "article-4",
+      "headline": "Community Collaboration for Development of Quinte Compass",
+      "summary": "Community partners in the Bay of Quinte are actively seeking input from residents to contribute to the development of Quinte Compass, a forthcoming online tool designed to connect equity-deserving individuals with local resources. This initiative aims to improve access to crucial services and support for the community. Stakeholders believe that by harnessing community insights, the tool can be more effectively tailored to meet the needs of diverse residents. The project is in its early stages, with a focus on inclusion and accessibility being central to its design.",
+      "context": "The development of Quinte Compass arises from a recognized need for better resource connectivity for marginalized groups within the Bay of Quinte area. By involving community members in the planning process, organizers aim to create an inclusive digital platform that reflects the voices and needs of its users. This project addresses ongoing efforts in the region to enhance equity and support for underserved populations.",
       "category": "Local",
       "key_points": [
         {
-          "text": "Community partners in the Bay of Quinte are collaborating to develop an online tool called Quinte Compass.",
+          "text": "Quinte Compass is being designed as an online tool to connect equity-deserving residents with local resources.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "The initiative targets equity-deserving residents to help them access vital services and supports.",
+          "text": "Community partners across the Bay of Quinte are gathering input from residents to shape the tool's development.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "Feedback from local residents is being sought to shape the development of the tool.",
+          "text": "The initiative focuses on improving accessibility and inclusion for diverse groups.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         },
         {
-          "text": "This project highlights the ongoing efforts to enhance inclusivity and improve resource accessibility within the community.",
+          "text": "Stakeholders emphasize the importance of tailoring the tool to effectively meet community needs.",
+          "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
+        },
+        {
+          "text": "The project is in the early planning stages with opportunities for public engagement.",
           "source_url": "https://www.inquinte.ca/2026/03/community-input-sought-to-build-development-of-quinte-compass/"
         }
       ],
@@ -1550,74 +1441,30 @@
       "related_ongoing": ""
     },
     {
-      "slug": "article-13",
-      "headline": "Public Meeting Scheduled for Proposed High-Speed Rail in Tyendinaga",
-      "summary": "The Tyendinaga Township Landowners Coalition is organizing a public meeting to discuss the proposed Alto high-speed rail line. The meeting aims to gather community input and provide information regarding the plans for the rail line, which promises to enhance transportation options in the region. Local residents are encouraged to attend to share their views and learn more about the potential impacts of the project. The meeting reflects ongoing discussions about infrastructure improvements in the Bay of Quinte area.",
-      "context": "The proposal for the Alto high-speed rail line is part of a broader initiative to enhance regional connectivity and transportation options across Ontario. As communities consider the benefits of improved rail services, public engagement is crucial for addressing concerns and expectations regarding such projects.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "The public meeting is organized by the Tyendinaga Township Landowners Coalition.",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "The meeting will focus on the proposed Alto high-speed rail line.",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Residents will have opportunities to voice their opinions and seek information about the project.",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "The initiative aims to improve transportation options in the Bay of Quinte region.",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        },
-        {
-          "text": "Community involvement is emphasized as stakeholders gather feedback on the proposal.",
-          "source_url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Quinte News",
-          "lean": "Center",
-          "title": "High speed rail meeting in Tyendinaga Township",
-          "url": "https://www.quintenews.com/2026/03/07/378279/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true,
-      "is_negative": false,
-      "positive_thought": "",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-21",
-      "headline": "Construction Workers Send Messages of Support to Young Heart Transplant Patient",
-      "summary": "A group of construction workers at the Cleveland Clinic Children's Hospital have formed a special bond with 4-year-old Brinley, who is awaiting a heart transplant. In a heartfelt gesture, the workers have been sending encouraging messages to Brinley, fostering a sense of community and support during a challenging time for her and her family. The initiative highlights the importance of kindness and connection, even in the midst of difficult medical journeys. Brinley remains hopeful as she awaits her procedure, inspired by the support she receives from unexpected friends.",
-      "context": "The story sheds light on the emotional hardships faced by families with children in need of transplants. Brinley’s journey emphasizes the significance of community support during health crises, illustrating how acts of kindness can uplift individuals navigating serious medical challenges.",
+      "slug": "article-9",
+      "headline": "Construction Crew Spreads Hope to Young Heart Transplant Patient",
+      "summary": "A group of construction workers at the Cleveland Clinic Children's Hospital have formed a supportive bond with a 4-year-old patient named Brinley, who is waiting for a heart transplant. The crew has taken time out of their day to send Brinley messages of hope, lifting her spirits during this challenging time. Their heartwarming gesture not only encourages the young girl but also illustrates the power of community support and connection in times of need. Brinley's story has resonated with many, highlighting the importance of compassion in the healthcare environment.",
+      "context": "This story reflects ongoing efforts within healthcare settings to foster emotional connections and support systems for young patients facing serious medical challenges. Acts of kindness like those from the construction crew can significantly impact the morale and emotional wellbeing of children undergoing tough medical journeys.",
       "category": "US",
       "key_points": [
         {
-          "text": "Brinley, a 4-year-old, is awaiting a heart transplant at the Cleveland Clinic Children's Hospital.",
+          "text": "Brinley, a 4-year-old girl, is awaiting a heart transplant at the Cleveland Clinic Children's Hospital.",
           "source_url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
         },
         {
-          "text": "Construction workers have created a bond with her by sending messages of hope and encouragement.",
+          "text": "Construction workers at the hospital are sending her messages of hope.",
           "source_url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
         },
         {
-          "text": "The workers' initiative exemplifies kindness in the face of medical challenges.",
+          "text": "The crew's gesture has uplifted Brinley during her difficult wait.",
           "source_url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
         },
         {
-          "text": "Brinley's story highlights the emotional toll of childhood illnesses and the need for community support.",
+          "text": "Such interactions help strengthen the community and emotional support around the patient.",
+          "source_url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
+        },
+        {
+          "text": "The bond formed between the workers and Brinley showcases the importance of compassion in healthcare.",
           "source_url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
         }
       ],
@@ -1638,7 +1485,7 @@
       "stakeholder_quotes": [
         {
           "speaker": "Linsey Davis",
-          "quote": "The special bond formed between Brinley and the construction team has been a source of hope for us all.",
+          "quote": "The construction crew's kindness brought a new light to Brinley's day.",
           "url": "https://abcnews.com/WNT/video/4-year-waiting-transplant-gets-messages-hope-construction-130868897"
         }
       ],
@@ -1648,45 +1495,89 @@
       "related_ongoing": ""
     },
     {
-      "slug": "article-23",
-      "headline": "Innovative Green Food Dome Utilizes Landfill Gas for Sustainable Agriculture",
-      "summary": "An innovative green food dome located in Wiltshire, England, is employing methane gas generated from waste at a nearby landfill to cultivate fruits and vegetables. This unique project allows for sustainable produce growth even during cold winters, contributing to a reduction in emissions associated with traditional agricultural practices. The approach aims to transform landfill sites into eco-friendly hubs for food production, showcasing a potential model for similar initiatives worldwide. This development highlights the intersection of waste management and agriculture, offering sustainable solutions to global food challenges.",
-      "context": "The initiative reflects a growing global trend towards sustainable agriculture and waste management solutions. As food security becomes increasingly precarious amid climate changes and resource depletion, projects like this highlight innovative ways to address these dual challenges. Such developments are essential for mitigating the environmental impacts of both waste and food production.",
-      "category": "World",
+      "slug": "article-15",
+      "headline": "Future Job Landscape: The Role of Trades in an AI-Dominated World",
+      "summary": "As discussions around the impact of artificial intelligence (AI) on employment continue, experts suggest that skilled trades may emerge as the most stable job market in the future. With the advent of machines capable of performing various tasks, the need for human workers in certain sectors, like programming, could decline. However, the demand for tradespersons to construct and maintain essential infrastructure such as data centers and energy facilities is expected to grow. This shift highlights the importance of vocational training and workforce development in preparing for a changing economic landscape influenced by technology.",
+      "context": "The accelerated integration of AI into numerous industries has sparked concerns about job displacement among many sectors. This commentary emphasizes that while AI can automate certain roles, the necessity for hands-on, skilled labor in construction and energy production will persist, making trades a vital component of future employment.",
+      "category": "Canada",
       "key_points": [
         {
-          "text": "The green food dome uses methane from landfill waste to fuel its operations.",
-          "source_url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "text": "AI is expected to reduce the number of jobs in programming and some other sectors.",
+          "source_url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
         },
         {
-          "text": "It allows for the year-round growth of fruits and vegetables, irrespective of seasonal weather conditions.",
-          "source_url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "text": "The construction and maintenance of infrastructure needed for AI technologies will sustain demand for skilled trades.",
+          "source_url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
         },
         {
-          "text": "This project represents a world-first initiative combining waste management and farming.",
-          "source_url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "text": "Training and educational programs may need to adapt to prepare workers for these emerging opportunities in trades.",
+          "source_url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
         },
         {
-          "text": "Designed to be a low-emission food production hub, it offers a sustainable alternative to traditional agriculture.",
-          "source_url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
-        },
-        {
-          "text": "This approach could potentially inspire similar projects in other regions, transforming landfill sites into productive agricultural areas.",
-          "source_url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "text": "The shift toward trades may help balance the workforce needs as technological advancements continue.",
+          "source_url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
         }
       ],
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "name": "National Post",
+          "url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
         }
       ],
       "component_articles": [
         {
-          "source": "Good News Network",
+          "source": "National Post",
+          "lean": "Center-Right",
+          "title": "Joel Kotkin: When the AI revolution is over, trades may be the only jobs left",
+          "url": "https://nationalpost.com/opinion/when-the-ai-revolution-is-over-trades-may-be-the-only-jobs-left"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-19",
+      "headline": "Celebrating Female Entrepreneurs on International Women's Day 2026",
+      "summary": "In honor of International Women's Day 2026, a spotlight is cast on eleven influential women leading successful brands across various industries. Highlighted brands include Mejuri, Knix, and Drunk Elephant, showcasing the innovative spirit and determination of female CEOs. The piece explores each trailblazer's journey, emphasizing the importance of female empowerment and representation in business. By sharing these impactful stories, the article inspires future generations of women entrepreneurs to pursue their dreams and overcome barriers.",
+      "context": "International Women's Day serves as a reminder of the progress made towards gender equality while highlighting the challenges that remain. The celebration of women's achievements in leadership roles is crucial not only for acknowledgment but also for encouraging diversity in the workplace.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "Spotlight on eleven female-led brands and their CEOs on International Women's Day.",
+          "source_url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        },
+        {
+          "text": "Brands include Mejuri, Knix, Drunk Elephant, among others.",
+          "source_url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        },
+        {
+          "text": "Emphasis on women's empowerment and the need for representation in business leadership roles.",
+          "source_url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        },
+        {
+          "text": "The articles feature each woman's story of overcoming obstacles to achieve success.",
+          "source_url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        },
+        {
+          "text": "Supports the message of inspiring future women entrepreneurs.",
+          "source_url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Global News Canada",
           "lean": "Center",
-          "title": "Landfill Uses Gas From Waste to Grow Fruits and Vegetables in ‘World-First’ Green Food Dome",
-          "url": "https://www.goodnewsnetwork.org/landfill-uses-gas-from-waste-to-grow-fruits-and-vegetables-in-world-first-dome/"
+          "title": "The Curator: Meet 11 women trailblazers and their best-selling brands",
+          "url": "https://globalnews.ca/the-curator/10343729/international-womens-day-2026/"
         }
       ],
       "stakeholder_quotes": [],
@@ -1697,44 +1588,44 @@
     },
     {
       "slug": "article-24",
-      "headline": "Avalanche Survival: Innovative Use of Technology Aids Rescue",
-      "summary": "In a remarkable incident at Stevens Pass Ski Resort, a man buried for over four hours in an avalanche was successfully located thanks to his wife's use of the 'Find My iPhone' feature. Michael Harris was skiing when he was caught in an unexpected avalanche; however, his wife promptly activated the tracking tool, allowing search and rescue teams to pinpoint his location. This situation underscores the evolving role of technology in emergency response, particularly in navigating challenging conditions to save lives. Despite the couple's harrowing experience, they are grateful for the quick response of the rescue team and the technological aid that significantly assisted in locating Michael.",
-      "context": "The incident highlights the ongoing dangers associated with skiing in avalanche-prone areas, particularly during unpredictable weather patterns. The use of technology has become an increasingly essential tool in personal safety and emergency situations, demonstrating how innovative solutions can facilitate quicker rescues in life-threatening situations.",
+      "headline": "Summary of Positive News Stories from the Past Week",
+      "summary": "This week highlighted several significant positive developments across various sectors including health breakthroughs, conservation efforts, and community activism. Noteworthy is the progress made in Ukraine towards environmental conservation, emphasizing the importance of protecting natural resources amid ongoing challenges. Additionally, advocates fighting for river protection in the Amazon achieved a significant victory, showcasing the impact of grassroots movements. These stories collectively remind us of the resilience and determination within communities to create positive change, despite adversities faced globally.",
+      "context": "Amidst various global challenges, the focus on positive developments showcases the resilience of communities and individuals working toward a better future. These stories inspire hope and highlight the importance of activism in addressing crucial issues such as environmental sustainability and health advancements.",
       "category": "World",
       "key_points": [
         {
-          "text": "Michael Harris was skiing at Stevens Pass when he was buried in an avalanche.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "Health breakthroughs announced this week demonstrate advancements in medical research.",
+          "source_url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         },
         {
-          "text": "His wife used the 'Find My iPhone' feature to assist rescue teams in locating him.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "Ukrainian conservation efforts have seen meaningful progress, focusing on sustainable practices.",
+          "source_url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         },
         {
-          "text": "He was buried for over four hours before being found by rescuers.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "River defenders in the Amazon achieved a significant victory in their campaign for environmental protection.",
+          "source_url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         },
         {
-          "text": "The situation showcases the effectiveness of technology in emergency rescue operations.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "Grassroots movements have shown the power of collective action in advocating for change.",
+          "source_url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         },
         {
-          "text": "Rescue teams have praised the innovative use of tracking technology as a lifesaver in such incidents.",
-          "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "text": "The stories reflect a broader trend of communities coming together to address pressing challenges.",
+          "source_url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         }
       ],
       "sources": [
         {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "name": "Positive News",
+          "url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         }
       ],
       "component_articles": [
         {
-          "source": "Good News Network",
+          "source": "Positive News",
           "lean": "Center",
-          "title": "Wife Used ‘Find My iPhone’ to Locate Husband Buried in an Avalanche for Over 4 Hours",
-          "url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
+          "title": "What went right this week: the good news that matters",
+          "url": "https://www.positive.news/society/good-news-stories-from-week-10-of-2026/"
         }
       ],
       "stakeholder_quotes": [],
@@ -1753,9 +1644,9 @@
     ],
     "feeds_attempted": 36,
     "raw_items": 210,
-    "groups_formed": 162,
+    "groups_formed": 164,
     "consensus_articles": 25,
-    "good_developments": 6,
+    "good_developments": 7,
     "category_order": [
       "Local",
       "Ontario",
