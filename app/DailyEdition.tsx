@@ -99,13 +99,45 @@ function StoryCard({ article }: { article: any }) {
       }}>
         {article.summary || article.context || ""}
       </p>
+    </Link>
+  );
+}
 
-      {article.is_negative && article.positive_thought && (
-        <p style={{
-          fontSize: 12, color: s.gold, fontStyle: "italic",
-          marginTop: 8, lineHeight: 1.4,
-        }}>
-          💛 {article.positive_thought}
+function GoodNewsCard({ article }: { article: any }) {
+  return (
+    <Link
+      href={`/article/${article.slug}`}
+      style={{
+        display: "block", background: s.goodLight,
+        border: "1px solid #C8E6D8", borderRadius: 8,
+        padding: "16px 20px", textDecoration: "none", color: "inherit",
+        transition: "border-color 0.15s, box-shadow 0.15s",
+      }}
+      onMouseEnter={(e) => {
+        (e.currentTarget as HTMLElement).style.borderColor = s.good;
+        (e.currentTarget as HTMLElement).style.boxShadow = "0 2px 12px rgba(45,125,95,0.1)";
+      }}
+      onMouseLeave={(e) => {
+        (e.currentTarget as HTMLElement).style.borderColor = "#C8E6D8";
+        (e.currentTarget as HTMLElement).style.boxShadow = "none";
+      }}
+    >
+      <h4 style={{
+        fontFamily: s.display, fontSize: 15, fontWeight: 700,
+        color: s.good, marginBottom: 6,
+      }}>
+        {article.headline}
+      </h4>
+      <p style={{
+        fontSize: 13, color: "#3D6B55", lineHeight: 1.5,
+        display: "-webkit-box", WebkitLineClamp: 3,
+        WebkitBoxOrient: "vertical", overflow: "hidden",
+      }}>
+        {article.summary || article.context || ""}
+      </p>
+      {article.sources?.length > 0 && (
+        <p style={{ fontSize: 11, color: "#5A9A7A", marginTop: 6 }}>
+          {article.component_articles?.length || article.sources?.length || 1} source{(article.component_articles?.length || article.sources?.length || 1) !== 1 ? "s" : ""}
         </p>
       )}
     </Link>
@@ -267,7 +299,7 @@ export default function DailyEdition({ daily }: { daily: any }) {
             </div>
           )}
 
-          {/* Good Developments */}
+          {/* Good Developments — clickable cards */}
           {daily.good_developments?.length > 0 && activeFilter === "All" && (
             <section style={{ marginTop: 40 }}>
               <h2 style={{
@@ -277,25 +309,8 @@ export default function DailyEdition({ daily }: { daily: any }) {
                 ☀ Good Developments
               </h2>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 14 }}>
-                {daily.good_developments.map((g: any, i: number) => (
-                  <div key={i} style={{
-                    background: s.goodLight, border: "1px solid #C8E6D8",
-                    borderRadius: 8, padding: "16px 20px",
-                  }}>
-                    <h4 style={{
-                      fontFamily: s.display, fontSize: 15, fontWeight: 700,
-                      color: s.good, marginBottom: 6,
-                    }}>
-                      {g.headline}
-                    </h4>
-                    <p style={{
-                      fontSize: 13, color: "#3D6B55", lineHeight: 1.5,
-                      display: "-webkit-box", WebkitLineClamp: 3,
-                      WebkitBoxOrient: "vertical", overflow: "hidden",
-                    }}>
-                      {g.summary || g.context || ""}
-                    </p>
-                  </div>
+                {daily.good_developments.map((g: any) => (
+                  <GoodNewsCard key={g.slug} article={g} />
                 ))}
               </div>
             </section>
