@@ -13,6 +13,10 @@ const s = {
   borderLight: "#EDE8E2",
   good: "#2D7D5F",
   goodLight: "#EDF7F2",
+  supporting: "#2B6B3D",
+  supportingBg: "#EDF7F0",
+  opposing: "#8B3A3A",
+  opposingBg: "#FDF0F0",
 };
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
@@ -31,7 +35,6 @@ export default async function ArticlePage({ params }: any) {
   const { slug } = await params;
   const daily = await loadDaily();
 
-  // Search in both regular stories and good developments
   let article = daily.top_stories?.find((a: any) => a.slug === slug);
   if (!article) {
     article = daily.good_developments?.find((a: any) => a.slug === slug);
@@ -52,6 +55,10 @@ export default async function ArticlePage({ params }: any) {
   const componentArticles = article.component_articles || [];
   const quotes = article.stakeholder_quotes || [];
   const keyPoints = article.key_points || article.facts || [];
+
+  // Separate news quotes from X quotes
+  const newsQuotes = quotes.filter((q: any) => q.source !== "X");
+  const xQuotes = quotes.filter((q: any) => q.source === "X");
 
   return (
     <div style={{ maxWidth: 700 }}>
@@ -143,8 +150,8 @@ export default async function ArticlePage({ params }: any) {
         </section>
       )}
 
-      {/* Stakeholder Quotes */}
-      {quotes.length > 0 && (
+      {/* News Stakeholder Quotes */}
+      {newsQuotes.length > 0 && (
         <section style={{ marginBottom: 28 }}>
           <h2 style={{
             fontSize: 13, fontWeight: 700, letterSpacing: "0.08em",
@@ -153,7 +160,7 @@ export default async function ArticlePage({ params }: any) {
             Key Statements
           </h2>
           <div style={{ display: "grid", gap: 10 }}>
-            {quotes.map((q: any, i: number) => (
+            {newsQuotes.map((q: any, i: number) => (
               <div key={i} style={{
                 background: s.accentLight, borderRadius: 8,
                 padding: "14px 18px", borderLeft: `3px solid ${s.accent}`,
@@ -172,6 +179,53 @@ export default async function ArticlePage({ params }: any) {
                 </p>
               </div>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* X/Twitter Opposing Viewpoints */}
+      {xQuotes.length > 0 && (
+        <section style={{ marginBottom: 28 }}>
+          <h2 style={{
+            fontSize: 13, fontWeight: 700, letterSpacing: "0.08em",
+            textTransform: "uppercase", color: s.light, marginBottom: 4,
+          }}>
+            Voices on 𝕏
+          </h2>
+          <p style={{ fontSize: 12, color: s.light, marginBottom: 12 }}>
+            Public figures weigh in — both sides of the conversation
+          </p>
+          <div style={{ display: "grid", gap: 10 }}>
+            {xQuotes.map((q: any, i: number) => {
+              const isSupporting = q.perspective === "supporting";
+              const borderColor = isSupporting ? s.supporting : s.opposing;
+              const bgColor = isSupporting ? s.supportingBg : s.opposingBg;
+              const label = isSupporting ? "Supporting" : "Opposing";
+              return (
+                <div key={i} style={{
+                  background: bgColor, borderRadius: 8,
+                  padding: "14px 18px", borderLeft: `3px solid ${borderColor}`,
+                }}>
+                  <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 6 }}>
+                    <span style={{
+                      fontSize: 10, fontWeight: 700, letterSpacing: "0.06em",
+                      textTransform: "uppercase", color: borderColor,
+                      background: isSupporting ? "#D4EDDA" : "#F5D5D5",
+                      padding: "1px 6px", borderRadius: 3,
+                    }}>
+                      {label}
+                    </span>
+                    <span style={{ fontSize: 11, color: s.light }}>via 𝕏</span>
+                  </div>
+                  <p style={{ fontSize: 14, color: "#333", fontStyle: "italic", margin: "0 0 6px 0", lineHeight: 1.5 }}>
+                    &ldquo;{q.quote}&rdquo;
+                  </p>
+                  <p style={{ fontSize: 12, color: s.muted, margin: 0, fontWeight: 600 }}>
+                    — {q.speaker}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </section>
       )}
@@ -213,7 +267,7 @@ export default async function ArticlePage({ params }: any) {
         </section>
       )}
 
-      {/* Sources summary */}
+      {/* Sources summary (fallback if no component articles) */}
       {article.sources?.length > 0 && !componentArticles.length && (
         <section style={{ marginBottom: 28 }}>
           <h2 style={{
