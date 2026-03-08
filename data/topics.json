@@ -111,6 +111,11 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-07",
+          "text": "Missile Strike in Kharkiv Results in Multiple Casualties",
+          "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
+        }
       ],
       "primary_sources": [
         {
@@ -283,8 +288,7 @@
           "role": "Adjudicating genocide case brought by South Africa"
         }
       ],
-      "timeline": [
-      ],
+      "timeline": [],
       "primary_sources": [
         {
           "name": "UN OCHA",
