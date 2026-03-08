@@ -874,12 +874,128 @@ def run_bias_review(articles):
     return articles
 
 
+# ── X/Twitter Stakeholder Quotes (Step 5c) ──────────────────────────
+
+X_QUOTES_PROMPT = """You are a research assistant for The Daily Informant, a neutral news briefing.
+
+For each article below, search X (Twitter) for 1-2 relevant quotes from public figures, politicians, officials, or organizations that represent OPPOSING VIEWPOINTS on the issue. We want readers to see both sides.
+
+For political/conflict stories: find one quote supporting/defending the action AND one criticizing/opposing it.
+For economic stories: find one optimistic take AND one concerned/pessimistic take.
+For local/community stories: skip (return empty array for that article).
+
+Return ONLY a JSON array of objects. Each object has:
+- article_index (0-based, matching the article number below)
+- quotes: array of {speaker, quote, perspective} where perspective is "supporting" or "opposing"
+
+Only include quotes that are REAL posts from X by identifiable public figures. Do NOT invent quotes.
+If you can't find relevant opposing quotes for an article, return an empty quotes array for it.
+
+Return ONLY the JSON array."""
+
+
+def fetch_x_quotes(articles):
+    """Use Grok with web search to find opposing-viewpoint quotes from X/Twitter."""
+    if not XAI_API_KEY:
+        print("   No Grok API key — skipping X quotes")
+        return articles
+
+    # Build batch of articles worth searching (political, world, economic — not local community)
+    searchable = []
+    for i, a in enumerate(articles):
+        cat = a.get("category", "")
+        related = a.get("related_ongoing", "")
+        is_neg = a.get("is_negative", False)
+        if cat in ("World", "US", "Canada", "Ontario") or related or (is_neg and cat != "Local"):
+            searchable.append((i, a))
+
+    if not searchable:
+        print("   No articles need X quotes")
+        return articles
+
+    # Build the prompt text
+    batch_lines = []
+    for i, a in searchable:
+        batch_lines.append(f"\n--- Article {i} [{a.get('category')}] ---")
+        batch_lines.append(f"Headline: {a['headline']}")
+        batch_lines.append(f"Summary: {a.get('summary', '')[:200]}")
+    batch_text = "\n".join(batch_lines)
+
+    try:
+        payload = json.dumps({
+            "model": GROK_MODEL,
+            "input": [{"role": "user", "content": f"{X_QUOTES_PROMPT}\n\n{batch_text}"}],
+            "tools": [{"type": "web_search"}],
+            "temperature": 0.1,
+            "store": False,
+        }).encode("utf-8")
+
+        req = Request("https://api.x.ai/v1/responses", data=payload, headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {XAI_API_KEY}",
+            "User-Agent": "DailyInformant/1.0",
+        }, method="POST")
+
+        with urlopen(req, timeout=180) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            raw = ""
+            for item in data.get("output", []):
+                if item.get("type") == "message":
+                    for c in item.get("content", []):
+                        if c.get("type") == "output_text":
+                            raw += c.get("text", "")
+
+            raw = raw.strip()
+            match = re.search(r'\[.*\]', raw, re.DOTALL)
+            if not match:
+                print("   Could not parse X quotes response")
+                return articles
+
+            results = json.loads(match.group())
+            added = 0
+            for result in results:
+                try:
+                    idx = result.get("article_index", -1)
+                    quotes = result.get("quotes", [])
+                    if not (0 <= idx < len(articles)) or not quotes:
+                        continue
+                    for q in quotes:
+                        speaker = q.get("speaker", "").strip()
+                        quote_text = q.get("quote", "").strip()
+                        perspective = q.get("perspective", "").strip()
+                        if speaker and quote_text:
+                            articles[idx].setdefault("stakeholder_quotes", []).append({
+                                "speaker": speaker,
+                                "quote": quote_text,
+                                "url": "",
+                                "source": "X",
+                                "perspective": perspective,
+                            })
+                            added += 1
+                except Exception:
+                    continue
+
+            print(f"   Added {added} X quotes across {len(results)} articles")
+
+    except HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "replace")[:200]
+        except Exception:
+            pass
+        print(f"   Grok X quotes HTTP {e.code}: {body}")
+    except Exception as e:
+        print(f"   X quotes failed: {e}")
+
+    return articles
+
+
 # ── Main ────────────────────────────────────────────────────────────
 
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v8.1")
+    print("  The Daily Informant — Morning Pipeline v8.2")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -937,6 +1053,10 @@ def main():
     print("\n─── Step 5b: Multi-AI bias review ───")
     articles = run_bias_review(articles)
 
+    # 5c. X/Twitter opposing viewpoint quotes
+    print("\n─── Step 5c: X/Twitter stakeholder quotes ───")
+    articles = fetch_x_quotes(articles)
+
     # Separate good developments
     regular, good_devs = [], []
     for a in articles:
@@ -982,7 +1102,7 @@ def main():
         "ongoing_topics": ongoing_for_daily,
         "good_developments": good_devs,
         "_meta": {
-            "pipeline_version": "8.1",
+            "pipeline_version": "8.2",
             "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS),
             "raw_items": len(all_items),
