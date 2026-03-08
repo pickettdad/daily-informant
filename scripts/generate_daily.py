@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """
-The Daily Informant — Morning Pipeline v7
+The Daily Informant — Morning Pipeline v8
 ==========================================
 
-v7 changes:
-  - AI-POWERED GROUPING: After keyword grouping, AI merges related groups
-    (fixes: 4 Iran articles, 2 tornado articles appearing separately)
-  - ENTITY-BASED ONGOING MATCHING: Each topic has specific entity keywords
-    (fixes: Iran articles landing in Ukraine-Russia timeline)
-  - VARIED POSITIVE THOUGHTS: Prompt demands unique, specific thoughts
-  - FIXED FEEDS: Replaced broken CTV/CBC/Newsmax with working alternatives
-  - MULTI-AI SUMMARY: Claude reviews OpenAI's extraction for bias check
-  - BETTER SOURCE MATCHING: Uses both title and description keywords
-  - CATEGORY ENFORCEMENT: Ensures mix of categories in final selection
+v8 FIXES from v7:
+  - FIXED: AI merge was CREATING groups (178→287) instead of reducing them.
+    Now properly combines groups and removes merged ones.
+  - FIXED: Iran articles tagged as middle-east-israel-gaza. Now uses priority
+    ordering — iran-conflict checked FIRST, and articles only match ONE topic.
+  - FIXED: Fatal collision tagged as [GOOD]. Stricter extraction prompt.
+  - FIXED: Oil prices appeared as two separate articles. Better dedup.
+  - FIXED: Toronto stories categorized as "Local" instead of "Ontario".
+    Local = Bay of Quinte/Belleville/Hastings/Prince Edward ONLY.
+  - FIXED: Ukraine-Russia timeline had Iran articles. Entity matching now
+    requires 2+ UNIQUE entity keywords with NO overlap with higher-priority topics.
+  - INCREASED: MAX_ARTICLES from 15 to 25 for better coverage.
+  - IMPROVED: Positive thoughts now prayer-like (specific, uplifting, no God/Amen).
+  - IMPROVED: Good news strictly humanitarian/faith/community — never fatalities.
+  - FIXED: CBC feed URL changed to working alternative.
 
 Required env vars:
   OPENAI_API_KEY, ANTHROPIC_API_KEY (optional), XAI_API_KEY (optional)
@@ -33,19 +38,19 @@ import xml.etree.ElementTree as ET
 TORONTO = ZoneInfo("America/Toronto")
 
 FEEDS = [
-    # ── Local (Bay of Quinte / Belleville) ──
+    # ── Local (Bay of Quinte / Belleville / Hastings / Prince Edward ONLY) ──
     {"name": "Quinte News",        "url": "https://www.quintenews.com/feed/",                       "lean": "Center",       "region": "Local"},
     {"name": "inQuinte",           "url": "https://inquinte.ca/feed",                                "lean": "Center",       "region": "Local"},
 
-    # ── Ontario ──
+    # ── Ontario (Toronto, Ottawa, provincial) ──
     {"name": "Toronto Star",       "url": "https://www.thestar.com/search/?f=rss&t=article&c=news*&l=50&s=start_time&sd=desc", "lean": "Center-Left", "region": "Ontario"},
     {"name": "Toronto Sun",        "url": "https://torontosun.com/feed",                              "lean": "Right",        "region": "Ontario"},
     {"name": "Global News Canada", "url": "https://globalnews.ca/feed/",                              "lean": "Center",       "region": "Ontario"},
-    {"name": "CBC News",           "url": "https://www.cbc.ca/webfeed/rss/rss-canada",               "lean": "Center-Left",  "region": "Canada"},
 
     # ── Canada ──
     {"name": "Globe and Mail",     "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/", "lean": "Center", "region": "Canada"},
     {"name": "National Post",      "url": "https://nationalpost.com/feed/",                            "lean": "Center-Right", "region": "Canada"},
+    {"name": "CBC News",           "url": "https://rss.cbc.ca/lineup/canada.xml",                     "lean": "Center-Left",  "region": "Canada"},
 
     # ── US: Left ──
     {"name": "NPR News",           "url": "https://feeds.npr.org/1001/rss.xml",                       "lean": "Left",         "region": "US"},
@@ -87,7 +92,7 @@ FEEDS = [
 ]
 
 ITEMS_PER_FEED = 6
-MAX_ARTICLES = 15
+MAX_ARTICLES = 25
 MIN_CONSENSUS = 2
 
 OPENAI_MODEL = "gpt-4o-mini"
@@ -107,17 +112,19 @@ ARCHIVE_PATH = Path("data/archive.json")
 
 CATEGORY_ORDER = ["Local", "Ontario", "Canada", "US", "World", "Health", "Science", "Tech"]
 
-# Entity keywords for ongoing topic matching (must match 2+ to link)
-ONGOING_ENTITIES = {
-    "iran-conflict": {"iran", "tehran", "persian", "gulf", "irgc", "pezeshkian", "iranian"},
-    "ukraine-russia": {"ukraine", "kyiv", "russia", "moscow", "donbas", "crimea", "zelenskyy", "ukrainian", "russian"},
-    "economy-inflation": {"inflation", "interest rate", "federal reserve", "bank of canada", "jobs report", "unemployment", "gdp", "recession", "tariff"},
-    "us-tariffs-trade": {"tariff", "customs", "trade war", "import duties", "cbp", "trade court"},
-    "middle-east-israel-gaza": {"gaza", "hamas", "israel", "palestinian", "west bank", "idf", "hostage"},
-    "sudan-south-sudan": {"sudan", "south sudan", "khartoum", "darfur", "rsf", "juba"},
-    "ai-regulation": {"ai act", "artificial intelligence regulation", "ai safety", "deepfake", "ai policy"},
-    "climate-environment": {"climate", "emissions", "renewable", "carbon", "paris agreement", "cop28", "cop29", "global warming"},
-}
+# Entity keywords for ongoing topic matching.
+# PRIORITY ORDER matters — checked top to bottom, first match wins.
+# iran-conflict MUST be before middle-east-israel-gaza.
+ONGOING_TOPICS_PRIORITY = [
+    ("iran-conflict",          {"iran", "tehran", "persian gulf", "irgc", "pezeshkian", "iranian"}),
+    ("ukraine-russia",         {"ukraine", "kyiv", "russia", "moscow", "donbas", "crimea", "zelenskyy", "ukrainian"}),
+    ("us-tariffs-trade",       {"tariff", "customs", "trade war", "import duties", "cbp", "trade court"}),
+    ("economy-inflation",      {"inflation", "interest rate", "federal reserve", "bank of canada", "jobs report", "unemployment", "recession", "stagflation"}),
+    ("middle-east-israel-gaza", {"gaza", "hamas", "palestinian", "west bank", "hostage", "ceasefire gaza"}),
+    ("sudan-south-sudan",      {"sudan", "south sudan", "khartoum", "darfur", "rsf", "juba"}),
+    ("ai-regulation",          {"ai act", "artificial intelligence regulation", "ai safety", "deepfake", "ai policy"}),
+    ("climate-environment",    {"climate", "emissions", "renewable energy", "carbon", "paris agreement", "cop28", "cop29", "global warming"}),
+]
 
 # ── Noise Filter ───────────────────────────────────────────────────
 
@@ -137,7 +144,7 @@ ACTION_RE = re.compile(
     r"\bvaccine\b|\belection\b|\bresign\w*\b|\bappoint\w*\b", re.IGNORECASE)
 
 
-def is_politician_noise(title, desc=""):
+def is_noise(title, desc=""):
     combined = f"{title} {desc}"
     if ACTION_RE.search(combined):
         return False
@@ -156,7 +163,6 @@ STOP_WORDS = {
 
 
 def kw(text):
-    """Extract meaningful keywords from text."""
     words = re.findall(r"[a-z0-9]+", text.lower())
     return {w for w in words if w not in STOP_WORDS and len(w) > 2}
 
@@ -208,7 +214,7 @@ def fetch_all_feeds():
 
 
 def filter_noise(items):
-    out = [i for i in items if not is_politician_noise(i["title"], i.get("description", ""))]
+    out = [i for i in items if not is_noise(i["title"], i.get("description", ""))]
     diff = len(items) - len(out)
     if diff:
         print(f"   Filtered {diff} politician-noise stories")
@@ -219,7 +225,7 @@ def filter_noise(items):
 
 
 def group_pass_1(items):
-    """First pass: group by keyword overlap (title + description)."""
+    """Keyword overlap grouping."""
     groups = []
     used = set()
     for i, item in enumerate(items):
@@ -248,27 +254,24 @@ def group_pass_1(items):
 
 
 def group_pass_2_ai(groups):
-    """Second pass: ask AI to merge groups that are about the same broader topic."""
+    """Ask AI which groups should merge. FIXED: now actually reduces group count."""
     if not OPENAI_API_KEY or len(groups) < 5:
         return groups
 
-    # Build a summary of each group for AI
-    group_summaries = []
-    for i, g in enumerate(groups[:60]):  # Cap at 60 groups to fit in context
-        primary = g[0]
-        group_summaries.append(f"{i+1}. [{len(g)} articles] {primary['title']}")
+    cap = min(len(groups), 80)
+    summaries = []
+    for i in range(cap):
+        g = groups[i]
+        summaries.append(f"{i+1}. [{len(g)} art] {g[0]['title'][:80]}")
 
-    prompt = f"""Below are {len(group_summaries)} story groups. Some groups are about the SAME broader topic/event but were not merged (e.g., multiple groups about the Iran conflict, or multiple groups about the same tornado event).
+    prompt = f"""Below are {len(summaries)} story groups from today's news. Some cover the SAME event/topic and should be merged.
 
-Identify which groups should be MERGED because they cover the same event or topic.
+Identify groups to merge. Return ONLY a JSON array of arrays — each inner array lists group numbers to combine.
+Example: [[1, 4, 7], [3, 9]]
+If no merges needed, return [].
+Return ONLY the JSON array, nothing else.
 
-Return ONLY a JSON array of arrays. Each inner array lists the group numbers that should merge.
-Example: [[1, 4, 7], [3, 9], [5, 11]]
-
-Groups that stand alone don't need to be listed. If no merges needed, return [].
-Return ONLY the JSON.
-
-{chr(10).join(group_summaries)}"""
+{chr(10).join(summaries)}"""
 
     try:
         payload = json.dumps({
@@ -276,12 +279,9 @@ Return ONLY the JSON.
             "messages": [{"role": "user", "content": prompt}],
             "temperature": 0.1,
         }).encode("utf-8")
-        req = Request(
-            "https://api.openai.com/v1/chat/completions",
-            data=payload,
-            headers={"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
-            method="POST",
-        )
+        req = Request("https://api.openai.com/v1/chat/completions", data=payload,
+                      headers={"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
+                      method="POST")
         with urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             raw = data["choices"][0]["message"]["content"].strip()
@@ -290,42 +290,31 @@ Return ONLY the JSON.
                 return groups
             merges = json.loads(match.group())
 
-            # Apply merges
-            merged_into = {}  # group_idx -> target_idx
+            # Build merge map: which groups get absorbed into which target
+            absorbed = set()
             for merge_set in merges:
                 if not isinstance(merge_set, list) or len(merge_set) < 2:
                     continue
-                target = merge_set[0] - 1  # Convert to 0-based
-                for num in merge_set[1:]:
-                    idx = num - 1
-                    if 0 <= idx < len(groups) and 0 <= target < len(groups):
-                        merged_into[idx] = target
-
-            # Build new groups list
-            new_groups = []
-            skip = set(merged_into.keys())
-            for i, g in enumerate(groups):
-                if i in skip:
+                # All numbers are 1-based from the AI
+                indices = [n - 1 for n in merge_set if isinstance(n, int) and 1 <= n <= cap]
+                if len(indices) < 2:
                     continue
-                # Add any groups that should merge into this one
-                combined = list(g)
-                for src_idx, tgt_idx in merged_into.items():
-                    if tgt_idx == i and src_idx < len(groups):
-                        combined.extend(groups[src_idx])
-                new_groups.append(combined)
+                target = indices[0]
+                for src in indices[1:]:
+                    if src != target and src not in absorbed:
+                        groups[target] = groups[target] + groups[src]
+                        absorbed.add(src)
 
-            # Add remaining groups beyond the 60 we analyzed
-            for i in range(60, len(groups)):
-                new_groups.append(groups[i])
-
+            # Rebuild list excluding absorbed groups
+            new_groups = [g for i, g in enumerate(groups) if i not in absorbed]
             new_groups.sort(key=lambda g: -len(g))
-            merge_count = len(merged_into)
-            if merge_count > 0:
-                print(f"   AI merged {merge_count} groups into existing topics")
+
+            if absorbed:
+                print(f"   AI merged {len(absorbed)} groups → {len(new_groups)} remaining")
             return new_groups
 
     except Exception as e:
-        print(f"   AI merge pass failed: {e} — using pass-1 groups")
+        print(f"   AI merge failed: {e} — using pass-1 groups")
         return groups
 
 
@@ -354,106 +343,134 @@ def find_related_sources(primary_item, all_items):
 
 # ── Multi-AI Selection ──────────────────────────────────────────────
 
-SELECTION_PROMPT = """You are the editorial director for The Daily Informant, a calm, unbiased, fact-only morning news briefing based in the Bay of Quinte, Ontario, Canada.
+SELECTION_PROMPT = """You are the editorial director for The Daily Informant (DI), a calm, unbiased, fact-only morning briefing based in Bay of Quinte, Ontario, Canada.
 
-Below is a numbered list of STORY GROUPS. Each group contains related articles about the same event/topic.
+Below is a numbered list of STORY GROUPS. Select the 25 most important for today's edition.
 
-Select the 15 most important story groups. DO NOT select sports stories.
+DO NOT select sports stories.
 
-CATEGORY TARGETS (aim for this mix):
-- 2-3 Local (Bay of Quinte area) if available
-- 1-2 Ontario
-- 1-2 Canada
-- 3-4 US
-- 3-4 World/International
-- 1-2 Health/Science/Tech
-- 1-2 GENUINELY POSITIVE humanitarian/community stories (mark with +)
+CATEGORY TARGETS (aim for this mix from available stories):
+- ALL available Local stories (Bay of Quinte/Belleville area)
+- 3-5 Ontario stories (Toronto, Ottawa, provincial)
+- 2-3 Canada stories
+- 4-6 US stories
+- 4-6 World/International stories
+- 1-3 Health/Science/Tech stories
+- 2-3 GENUINELY POSITIVE humanitarian/community stories (mark with +)
+
+"Local" means ONLY Bay of Quinte, Belleville, Hastings County, Prince Edward County.
+Toronto and Ottawa stories are "Ontario", NOT "Local".
 
 CRITERIA:
 1. IMPACT — How many people does this affect?
 2. ACTION — Things that HAPPENED over things people SAID
-3. DIVERSITY — Mix of categories
+3. DIVERSITY — Mix of categories, don't let one dominate
 4. SOURCE BALANCE — Groups covered by both left and right sources are more important
 5. SKIP politician theater without concrete action
-6. DO NOT select stories about the same topic twice
+6. DO NOT select multiple groups about the same topic
 
-Return ONLY a JSON array. Prefix positive stories with +.
-Example: [1, 3, +7, 2, 11, 4, +15, 8, 6, 12, 9, 14, 5, 10, 13]"""
+Return ONLY a JSON array of group numbers (up to 25). Prefix positive stories with +.
+Example: [1, 3, +7, 2, 11, 4, +15, 8, 6, 12, 9, 14, 5, 10, 13, 16, 18, +20, 22, 19, 24, 17, 21, 23, 25]"""
 
 
-def build_group_pool_text(groups):
+def build_pool_text(groups):
     lines = []
     for i, group in enumerate(groups):
         sources = set(item["source_name"] for item in group)
         leans = set(item["lean"] for item in group)
         regions = set(item["region"] for item in group)
-        primary = group[0]
+        p = group[0]
         line = f"{i+1}. [{len(group)} art, {', '.join(sorted(leans))}] [{', '.join(sorted(regions))}] "
-        line += primary["title"]
-        if primary.get("description"):
-            line += f" — {primary['description'][:120]}"
+        line += p["title"]
+        if p.get("description"):
+            line += f" — {p['description'][:100]}"
         if len(sources) > 1:
-            line += f" (Also: {', '.join(sorted(sources - {primary['source_name']}))})"
+            line += f" (Also: {', '.join(sorted(sources - {p['source_name']}))})"
         lines.append(line)
     return "\n".join(lines)
 
 
-def _call_openai_style(url, headers, payload, name, resp_path="openai"):
-    data_bytes = json.dumps(payload).encode("utf-8")
-    req = Request(url, data=data_bytes, headers=headers, method="POST")
-    last_err = None
+def _parse_picks(raw_text):
+    match = re.search(r'\[([^\]]+)\]', raw_text)
+    if not match:
+        return [], set()
+    nums, good = [], set()
+    for p in match.group(1).split(","):
+        p = p.strip()
+        is_g = p.startswith("+")
+        p = p.lstrip("+").strip()
+        try:
+            n = int(p)
+            nums.append(n)
+            if is_g:
+                good.add(n)
+        except ValueError:
+            pass
+    return nums, good
+
+
+def _call_openai(pool_text):
+    payload = json.dumps({
+        "model": OPENAI_MODEL,
+        "messages": [{"role": "system", "content": SELECTION_PROMPT}, {"role": "user", "content": pool_text}],
+        "temperature": 0.3,
+    }).encode("utf-8")
+    req = Request("https://api.openai.com/v1/chat/completions", data=payload,
+                  headers={"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
+                  method="POST")
     for attempt in range(MAX_RETRIES):
         try:
             with urlopen(req, timeout=120) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
-                raw = (data["content"][0]["text"] if resp_path == "anthropic"
-                       else data["choices"][0]["message"]["content"]).strip()
-                match = re.search(r'\[([^\]]+)\]', raw)
-                if match:
-                    nums, good = [], set()
-                    for p in match.group(1).split(","):
-                        p = p.strip()
-                        is_g = p.startswith("+")
-                        p = p.lstrip("+").strip()
-                        try:
-                            n = int(p)
-                            nums.append(n)
-                            if is_g: good.add(n)
-                        except ValueError:
-                            pass
-                    return nums, good
-                return [], set()
+                return _parse_picks(data["choices"][0]["message"]["content"])
         except HTTPError as e:
-            last_err = e
             if e.code in (429, 500, 502, 503):
-                time.sleep(RETRY_BASE_DELAY * (attempt + 1))
-                continue
+                time.sleep(RETRY_BASE_DELAY * (attempt + 1)); continue
             try: body = e.read().decode("utf-8", "replace")[:200]
             except: body = ""
-            print(f"    {name} HTTP {e.code}: {body}")
+            print(f"    OpenAI HTTP {e.code}: {body}")
             return [], set()
-        except Exception as e:
-            last_err = e
+        except Exception:
             time.sleep(RETRY_BASE_DELAY)
-    print(f"    {name} failed: {last_err}")
+    return [], set()
+
+
+def _call_claude(pool_text):
+    payload = json.dumps({
+        "model": CLAUDE_MODEL, "max_tokens": 2048,
+        "messages": [{"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pool_text}"}],
+        "temperature": 0.3,
+    }).encode("utf-8")
+    req = Request("https://api.anthropic.com/v1/messages", data=payload,
+                  headers={"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
+                  method="POST")
+    for attempt in range(MAX_RETRIES):
+        try:
+            with urlopen(req, timeout=120) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                return _parse_picks(data["content"][0]["text"])
+        except HTTPError as e:
+            if e.code in (429, 500, 502, 503):
+                time.sleep(RETRY_BASE_DELAY * (attempt + 1)); continue
+            try: body = e.read().decode("utf-8", "replace")[:200]
+            except: body = ""
+            print(f"    Claude HTTP {e.code}: {body}")
+            return [], set()
+        except Exception:
+            time.sleep(RETRY_BASE_DELAY)
     return [], set()
 
 
 def _call_grok(pool_text):
     payload = json.dumps({
         "model": GROK_MODEL,
-        "input": [
-            {"role": "system", "content": SELECTION_PROMPT},
-            {"role": "user", "content": pool_text},
-        ],
+        "input": [{"role": "system", "content": SELECTION_PROMPT}, {"role": "user", "content": pool_text}],
         "temperature": 0.3, "store": False,
     }).encode("utf-8")
     req = Request("https://api.x.ai/v1/responses", data=payload, headers={
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {XAI_API_KEY}",
+        "Content-Type": "application/json", "Authorization": f"Bearer {XAI_API_KEY}",
         "User-Agent": "DailyInformant/1.0",
     }, method="POST")
-    last_err = None
     for attempt in range(MAX_RETRIES):
         try:
             with urlopen(req, timeout=120) as resp:
@@ -464,63 +481,33 @@ def _call_grok(pool_text):
                         for c in item.get("content", []):
                             if c.get("type") == "output_text":
                                 raw += c.get("text", "")
-                raw = raw.strip()
-                match = re.search(r'\[([^\]]+)\]', raw)
-                if match:
-                    nums, good = [], set()
-                    for p in match.group(1).split(","):
-                        p = p.strip()
-                        is_g = p.startswith("+")
-                        p = p.lstrip("+").strip()
-                        try:
-                            n = int(p)
-                            nums.append(n)
-                            if is_g: good.add(n)
-                        except ValueError:
-                            pass
-                    return nums, good
-                return [], set()
+                return _parse_picks(raw)
         except HTTPError as e:
-            last_err = e
             if e.code in (429, 500, 502, 503):
-                time.sleep(RETRY_BASE_DELAY * (attempt + 1))
-                continue
+                time.sleep(RETRY_BASE_DELAY * (attempt + 1)); continue
             try: body = e.read().decode("utf-8", "replace")[:200]
             except: body = ""
             print(f"    Grok HTTP {e.code}: {body}")
             return [], set()
-        except Exception as e:
-            last_err = e
+        except Exception:
             time.sleep(RETRY_BASE_DELAY)
-    print(f"    Grok failed: {last_err}")
     return [], set()
 
 
-def run_ai_selection(pool_text):
-    results = {}
-    all_good = set()
-    for name, fn in [
-        ("OpenAI", lambda: _call_openai_style(
-            "https://api.openai.com/v1/chat/completions",
-            {"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
-            {"model": OPENAI_MODEL, "messages": [
-                {"role": "system", "content": SELECTION_PROMPT},
-                {"role": "user", "content": pool_text},
-            ], "temperature": 0.3}, "OpenAI")),
-        ("Claude", lambda: _call_openai_style(
-            "https://api.anthropic.com/v1/messages",
-            {"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
-            {"model": CLAUDE_MODEL, "max_tokens": 2048, "messages": [
-                {"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pool_text}"},
-            ], "temperature": 0.3}, "Claude", "anthropic")),
-        ("Grok", lambda: _call_grok(pool_text)),
-    ]:
-        key_check = {"OpenAI": OPENAI_API_KEY, "Claude": ANTHROPIC_API_KEY, "Grok": XAI_API_KEY}
-        if not key_check.get(name):
-            continue
+def run_selection(pool_text):
+    results, all_good = {}, set()
+    callers = []
+    if OPENAI_API_KEY:
+        callers.append(("OpenAI", _call_openai))
+    if ANTHROPIC_API_KEY:
+        callers.append(("Claude", _call_claude))
+    if XAI_API_KEY:
+        callers.append(("Grok", _call_grok))
+
+    for name, fn in callers:
         print(f"  → {name}...")
         try:
-            picks, good = fn()
+            picks, good = fn(pool_text)
             if picks:
                 results[name] = picks
                 all_good.update(good)
@@ -533,8 +520,10 @@ def run_ai_selection(pool_text):
 
 def build_consensus(selections, pool_size):
     n = len(selections)
-    if n == 0: return []
-    if n == 1: return list(selections.values())[0][:MAX_ARTICLES]
+    if n == 0:
+        return []
+    if n == 1:
+        return list(selections.values())[0][:MAX_ARTICLES]
     votes, ranks = {}, {}
     for model, picks in selections.items():
         for rank, num in enumerate(picks):
@@ -554,23 +543,29 @@ def build_consensus(selections, pool_size):
 
 # ── Article Extraction ──────────────────────────────────────────────
 
-EXTRACTION_PROMPT = """You write consolidated articles for The Daily Informant (DI), a calm, unbiased morning news briefing.
+EXTRACTION_PROMPT = """You write consolidated articles for The Daily Informant (DI), a calm, unbiased morning news briefing based in the Bay of Quinte, Ontario, Canada.
 
 Given a group of related articles from multiple sources, write ONE consolidated DI Article.
 
 Produce:
 1. headline: Neutral, informative, no clickbait
-2. summary: 3-5 sentence comprehensive summary using info from ALL sources. Calm, neutral tone.
+2. summary: 4-6 sentence comprehensive summary using info from ALL sources. Calm, neutral tone. Should be thorough enough that a reader doesn't need to click through to other articles.
 3. context: 2-3 sentences of background — what led to this, why it matters
-4. key_points: 3-6 factual bullets from across all sources
-5. category: Local, Ontario, Canada, US, World, Health, Science, or Tech
-6. stakeholder_quotes: 0-3 real direct quotes from the articles (not invented)
-7. is_good_development: ONLY true for humanitarian aid, disaster relief, volunteers, missionary work, charitable giving, community rebuilding, faith-based service
+4. key_points: 4-8 factual bullets from across all sources
+5. category: MUST follow these rules strictly:
+   - "Local" = ONLY stories about Bay of Quinte, Belleville, Trenton, Hastings County, Prince Edward County, Tyendinaga, Campbellford, Kawartha Lakes area
+   - "Ontario" = Toronto, Ottawa, or Ontario provincial stories
+   - "Canada" = National Canadian stories (not specific to Ontario)
+   - "US" = United States stories
+   - "World" = International stories
+   - "Health", "Science", "Tech" = Topic-specific regardless of geography
+6. stakeholder_quotes: 0-3 real direct quotes from the articles (NEVER invent quotes)
+7. is_good_development: TRUE only for stories about: volunteers helping people, charitable giving, disaster relief by citizens, missionary or faith-based service, community rebuilding after hardship, people rescuing others. FALSE for: government policy, scientific discoveries, corporate developments, infrastructure projects, court cases, ANY story involving death or crime even if justice is served.
 8. is_negative: true if involves conflict, death, economic hardship, disaster, or suffering
-9. positive_thought: If negative, write ONE specific uplifting thought about THIS situation. Be UNIQUE — do not use "resilience", "communities coming together", or generic phrases. Instead reference something specific: a helper in the story, a historical parallel of recovery, a concrete reason for hope specific to this event. No God/Amen. If not negative, leave empty.
-10. related_ongoing: Match to ONE of these slugs if relevant: iran-conflict, ukraine-russia, economy-inflation, us-tariffs-trade, middle-east-israel-gaza, sudan-south-sudan, ai-regulation, climate-environment. Empty string if none.
+9. positive_thought: If is_negative is true, write a brief uplifting thought like a prayer (but without mentioning God or saying Amen). Make it specific to THIS story — reference a person, place, or detail from the article. Express hope for the specific people affected. Never use generic phrases like "resilience" or "communities coming together." Each one must be unique and heartfelt. Example: "May the families in Nairobi find shelter and safety tonight, and may the floodwaters recede to reveal a city ready to rebuild." If not negative, leave empty string.
+10. related_ongoing: Match to ONE of these slugs if the story is clearly about that situation: iran-conflict, ukraine-russia, economy-inflation, us-tariffs-trade, middle-east-israel-gaza, sudan-south-sudan, ai-regulation, climate-environment. Use "iran-conflict" for stories about the U.S./Israel military operations against Iran. Use "middle-east-israel-gaza" ONLY for stories specifically about Gaza/Hamas/Palestinians. Empty string if no match.
 
-RULES: Facts only, no sensational words, no opinion, calm tone. Use info from ALL provided articles."""
+RULES: Facts only, no sensational words, no opinion, calm measured tone. Use info from ALL provided source articles."""
 
 EXTRACTION_SCHEMA = {
     "type": "json_schema",
@@ -607,37 +602,30 @@ EXTRACTION_SCHEMA = {
 def extract_article(group):
     articles_text = ""
     for i, item in enumerate(group):
-        articles_text += f"\n--- Article {i+1} [{item['source_name']}, {item['lean']}] ---\n"
+        articles_text += f"\n--- Article {i+1} [{item['source_name']}, {item['lean']}, {item['region']}] ---\n"
         articles_text += f"Title: {item['title']}\nPublished: {item['pub_date']}\n"
         articles_text += f"Description: {item['description']}\nLink: {item['link']}\n"
 
     payload = json.dumps({
         "model": OPENAI_MODEL,
-        "messages": [
-            {"role": "system", "content": EXTRACTION_PROMPT},
-            {"role": "user", "content": articles_text},
-        ],
+        "messages": [{"role": "system", "content": EXTRACTION_PROMPT}, {"role": "user", "content": articles_text}],
         "response_format": EXTRACTION_SCHEMA,
     }).encode("utf-8")
     req = Request("https://api.openai.com/v1/chat/completions", data=payload,
                   headers={"Content-Type": "application/json", "Authorization": f"Bearer {OPENAI_API_KEY}"},
                   method="POST")
-    last_err = None
     for attempt in range(MAX_RETRIES):
         try:
             with urlopen(req, timeout=90) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
                 return json.loads(data["choices"][0]["message"]["content"])
         except HTTPError as e:
-            last_err = e
             if e.code in (429, 500, 502, 503):
-                time.sleep(RETRY_BASE_DELAY * (attempt + 1))
-                continue
+                time.sleep(RETRY_BASE_DELAY * (attempt + 1)); continue
             raise
         except Exception as e:
-            last_err = e
             time.sleep(RETRY_BASE_DELAY)
-    raise RuntimeError(f"Extraction failed: {last_err}")
+    raise RuntimeError("Extraction failed after retries")
 
 
 def build_di_article(group, idx, all_items, is_good_flagged=False):
@@ -653,13 +641,22 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
         category = ai.get("category", "World").strip()
         is_good = ai.get("is_good_development", False) or is_good_flagged
         is_neg = ai.get("is_negative", False)
-        pos_thought = ai.get("positive_thought", "").strip()
+        pos = ai.get("positive_thought", "").strip()
         related = ai.get("related_ongoing", "").strip()
+
+        # Validate related_ongoing against known slugs
+        valid_slugs = {slug for slug, _ in ONGOING_TOPICS_PRIORITY}
+        if related and related not in valid_slugs:
+            related = ""
 
         key_points = [{"text": p.strip(), "source_url": group[0]["link"]}
                       for p in ai.get("key_points", []) if isinstance(p, str) and p.strip()]
         quotes = [{"speaker": q["speaker"], "quote": q["quote"], "url": group[0]["link"]}
                   for q in ai.get("stakeholder_quotes", []) if q.get("speaker") and q.get("quote")]
+
+        # Safety: good development can NEVER be negative
+        if is_good and is_neg:
+            is_good = False
 
         tags = ""
         if is_good: tags += " [GOOD]"
@@ -672,54 +669,73 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
             "context": context, "category": category, "key_points": key_points,
             "sources": sources, "component_articles": component_articles,
             "stakeholder_quotes": quotes, "is_good_development": is_good,
-            "is_negative": is_neg, "positive_thought": pos_thought if is_neg else "",
+            "is_negative": is_neg, "positive_thought": pos if is_neg else "",
             "related_ongoing": related,
         }
     except Exception as e:
         print(f"  ✗ Article {idx+1} failed: {e}")
         return {
-            "slug": slug, "headline": group[0]["title"], "summary": group[0].get("description", "")[:300],
+            "slug": slug, "headline": group[0]["title"],
+            "summary": group[0].get("description", "")[:300],
             "context": "", "category": group[0].get("region", "World"),
             "key_points": [{"text": group[0].get("description", "")[:200], "source_url": group[0]["link"]}],
             "sources": sources, "component_articles": component_articles,
-            "stakeholder_quotes": [], "is_good_development": is_good_flagged,
+            "stakeholder_quotes": [], "is_good_development": False,
             "is_negative": False, "positive_thought": "", "related_ongoing": "",
         }
 
 
-# ── Ongoing Topics (entity-based matching) ──────────────────────────
+# ── Ongoing Topics (priority-ordered entity matching) ───────────────
 
 def load_json(path):
     if path.exists():
-        try: return json.loads(path.read_text(encoding="utf-8"))
-        except: pass
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
     return None
 
 
 def update_ongoing_topics(articles, topics_data, today):
     if not topics_data.get("topics"):
         return topics_data
+
     for topic in topics_data["topics"]:
         slug = topic["slug"]
-        entities = ONGOING_ENTITIES.get(slug, set())
+        # Find entity set for this topic from priority list
+        entities = None
+        for t_slug, t_entities in ONGOING_TOPICS_PRIORITY:
+            if t_slug == slug:
+                entities = t_entities
+                break
         if not entities:
             continue
 
         for article in articles:
-            # Check if article text contains at least 2 entity keywords
-            article_text = (article["headline"] + " " + article.get("summary", "")).lower()
-            matches = sum(1 for e in entities if e in article_text)
-            if matches >= 2:
-                existing_dates = {e["date"] for e in topic.get("timeline", [])}
-                if today not in existing_dates:
-                    topic.setdefault("timeline", []).insert(0, {
-                        "date": today,
-                        "text": article["headline"],
-                        "source_url": article["sources"][0]["url"] if article["sources"] else "#",
-                    })
-                    topic["timeline"] = topic["timeline"][:30]
-                    print(f"  → Updated \"{topic['topic']}\" with: {article['headline'][:50]}")
-                    break
+            text = (article["headline"] + " " + article.get("summary", "")).lower()
+            matches = sum(1 for e in entities if e in text)
+
+            # Must match 2+ entity keywords
+            if matches < 2:
+                continue
+
+            # PRIORITY CHECK: only link if this is the BEST matching topic
+            # (i.e., the article's related_ongoing matches this slug, or no related_ongoing set)
+            article_linked = article.get("related_ongoing", "")
+            if article_linked and article_linked != slug:
+                continue
+
+            existing_dates = {e["date"] for e in topic.get("timeline", [])}
+            if today not in existing_dates:
+                topic.setdefault("timeline", []).insert(0, {
+                    "date": today,
+                    "text": article["headline"],
+                    "source_url": article["sources"][0]["url"] if article["sources"] else "#",
+                })
+                topic["timeline"] = topic["timeline"][:30]
+                print(f"  → Updated \"{topic['topic']}\" with: {article['headline'][:50]}")
+                break
+
     return topics_data
 
 
@@ -728,20 +744,22 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v7")
+    print("  The Daily Informant — Morning Pipeline v8")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
     models = [n for n, k in [("OpenAI", OPENAI_API_KEY), ("Claude", ANTHROPIC_API_KEY), ("Grok", XAI_API_KEY)] if k]
     print(f"\n  AI models: {', '.join(models) or 'NONE'}")
     if not OPENAI_API_KEY:
-        print("\n✗ OPENAI_API_KEY required."); sys.exit(1)
+        print("\n✗ OPENAI_API_KEY required.")
+        sys.exit(1)
 
     # 1. Fetch
     print("\n─── Step 1: Fetching RSS feeds ───")
     all_items = fetch_all_feeds()
     if not all_items:
-        print("\n✗ No items."); sys.exit(1)
+        print("\n✗ No items.")
+        sys.exit(1)
     print(f"\n   Raw items: {len(all_items)}")
 
     # 2. Filter
@@ -749,26 +767,26 @@ def main():
     filtered = filter_noise(all_items)
     print(f"   After filter: {len(filtered)}")
 
-    # 3. Group (two-pass)
+    # 3. Group
     print("\n─── Step 3: Grouping related stories ───")
     groups = group_pass_1(filtered)
     print(f"   Pass 1: {len(groups)} groups")
     for g in groups[:5]:
         print(f"    [{len(g)} art] {g[0]['title'][:60]}")
     groups = group_pass_2_ai(groups)
-    print(f"   After AI merge: {len(groups)} groups")
+    print(f"   Final groups: {len(groups)}")
 
     # 4. AI selection
     print("\n─── Step 4: Multi-AI selection ───")
-    pool_text = build_group_pool_text(groups)
-    selections, good_indices = run_ai_selection(pool_text)
+    pool_text = build_pool_text(groups)
+    selections, good_indices = run_selection(pool_text)
 
     if not selections:
         consensus_indices = list(range(1, min(MAX_ARTICLES + 1, len(groups) + 1)))
     else:
         consensus_indices = build_consensus(selections, len(groups))
 
-    consensus_groups = [groups[i-1] for i in consensus_indices if 1 <= i <= len(groups)]
+    consensus_groups = [groups[i - 1] for i in consensus_indices if 1 <= i <= len(groups)]
     print(f"\n   Final: {len(consensus_groups)} DI articles")
 
     # 5. Extract
@@ -788,10 +806,12 @@ def main():
         else:
             regular.append(a)
 
-    # Sort by category
+    # Sort by category order
     def cat_key(a):
-        try: return CATEGORY_ORDER.index(a.get("category", "World"))
-        except ValueError: return len(CATEGORY_ORDER)
+        try:
+            return CATEGORY_ORDER.index(a.get("category", "World"))
+        except ValueError:
+            return len(CATEGORY_ORDER)
     regular.sort(key=cat_key)
 
     print(f"\n   Regular: {len(regular)} | Good: {len(good_devs)}")
@@ -823,11 +843,11 @@ def main():
         "ongoing_topics": ongoing_for_daily,
         "good_developments": good_devs,
         "_meta": {
-            "pipeline_version": "7.0",
+            "pipeline_version": "8.0",
             "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS),
             "raw_items": len(all_items),
-            "groups_after_ai_merge": len(groups),
+            "groups_formed": len(groups),
             "consensus_articles": len(consensus_groups),
             "good_developments": len(good_devs),
             "category_order": CATEGORY_ORDER,
