@@ -32,11 +32,20 @@ export type OngoingTopic = {
   slug: string;
   topic: string;
   summary: string;
-  background?: string;
+  status?: "active" | "paused" | "resolved" | "archived";
+  phase?: string;
   started?: string;
+  last_material_update?: string;
+  catch_up_summary?: string;
+  background?: string;
+  why_it_matters?: string[];
+  watchpoints?: string[];
+  uncertainties?: string[];
+  what_changed_today?: string[];
   key_facts?: Record<string, string>;
   key_parties?: KeyParty[];
-  timeline: Array<{ date: string; text: string; source_url: string }>;
+  timeline: Array<{ date: string; text: string; source_url: string; category?: string }>;
+  related_situations?: string[];
   primary_sources?: Source[];
 };
 
