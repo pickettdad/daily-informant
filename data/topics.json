@@ -3,486 +3,455 @@
     {
       "slug": "iran-conflict",
       "topic": "Iran Conflict",
-      "summary": "U.S. military operations against Iran began in late February 2026. Coalition airstrikes have targeted military and nuclear infrastructure. The conflict has drawn responses from regional powers and raised global oil prices.",
-      "background": "Tensions between the U.S. and Iran escalated throughout 2025 over Iran's nuclear program, with the IAEA reporting enrichment levels approaching weapons-grade. After failed diplomatic efforts, the U.S. launched airstrikes on Iranian military and nuclear facilities in late February 2026, marking the first direct U.S.-Iran military conflict. Israel has conducted parallel operations targeting Iranian proxies in Lebanon and Syria.",
-      "started": "February 2026",
+      "status": "active",
+      "phase": "escalating",
+      "started": "2026-02-14",
+      "last_material_update": "",
+      "summary": "Military conflict between the United States, Israel, and Iran involving airstrikes, naval operations, and missile exchanges across the Persian Gulf and Middle East region.",
+      "catch_up_summary": "The U.S. and Israel launched a military campaign against Iran in mid-February 2026 following escalating tensions over Iran's nuclear program and regional proxy activities. Operations have included strikes on Iranian military infrastructure, oil facilities, and missile launch sites. Iran has responded with ballistic missile attacks on Gulf state targets and threatened shipping lanes. Oil prices have surged past $80/barrel as shipping through the Strait of Hormuz faces disruption. Multiple countries have issued travel advisories, and diplomatic efforts through Oman have stalled.",
+      "background": "Tensions between the U.S. and Iran have escalated periodically since the 2015 nuclear deal (JCPOA) and the U.S. withdrawal in 2018. Iran's expanding nuclear enrichment program, support for regional proxies including Hezbollah and Houthi forces, and attacks on commercial shipping created conditions for direct military confrontation. The conflict represents the most significant direct U.S.-Iran military engagement since the 1988 Operation Praying Mantis.",
+      "why_it_matters": [
+        "Global oil prices directly affected — shipping through Strait of Hormuz at risk",
+        "Canadian travelers and military personnel potentially impacted",
+        "Risk of wider regional escalation involving Gulf states and Lebanon"
+      ],
+      "watchpoints": [
+        "Whether ground troops are deployed",
+        "Status of diplomatic talks through Oman",
+        "Oil price movements and shipping lane safety",
+        "Iranian retaliation against Gulf state energy infrastructure"
+      ],
+      "uncertainties": [
+        "Competing casualty claims from all sides",
+        "Unclear scope of next retaliatory strikes",
+        "Status of Iran's nuclear facilities after strikes"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "Duration": "~2 weeks",
-        "Coalition": "U.S., Israel, UK support",
-        "Oil Impact": "Prices at 2-year high, $100+/barrel",
-        "Displacement": "240,000+ civilians (UN estimate)",
-        "UN Action": "Security Council ceasefire vote vetoed by Russia and China",
-        "Nuclear Sites": "Multiple facilities targeted"
+        "Started": "February 14, 2026",
+        "Parties": "United States, Israel vs. Iran",
+        "Theater": "Persian Gulf, Iran, Lebanon, Red Sea",
+        "Oil Impact": "Brent crude above $80/barrel",
+        "Displaced": "Hundreds of thousands in affected regions",
+        "Status": "Active military operations"
       },
       "key_parties": [
-        {
-          "name": "United States",
-          "role": "Leading coalition airstrikes on military/nuclear targets"
-        },
-        {
-          "name": "Israel",
-          "role": "Conducting parallel strikes on Iranian proxies and Tehran"
-        },
-        {
-          "name": "Iran",
-          "role": "Defending territory, launching retaliatory missile strikes"
-        },
-        {
-          "name": "China",
-          "role": "Calling for ceasefire, monitoring trade/energy impacts"
-        },
-        {
-          "name": "Russia",
-          "role": "Vetoed UN ceasefire resolution, diplomatic engagement with Tehran"
-        },
-        {
-          "name": "Qatar",
-          "role": "Warning of Gulf oil production disruption"
-        }
+        {"name": "United States", "role": "Coalition lead, naval and air operations"},
+        {"name": "Israel", "role": "Conducting strikes on Iranian and Lebanese targets"},
+        {"name": "Iran", "role": "Defending territory, retaliatory missile strikes"},
+        {"name": "IRGC", "role": "Iran's Revolutionary Guard Corps, primary military force"},
+        {"name": "Oman", "role": "Mediator in diplomatic back-channel efforts"}
       ],
       "timeline": [
-        {
-          "date": "2026-03-08",
-          "text": "Escalation of Conflict in the Middle East Following Strikes on Infrastructure",
-          "source_url": "https://www.theglobeandmail.com/business/article-iran-us-israel-war-bahrain-desalination-plant-conflict/"
-        },
-        {
-          "date": "2026-03-07",
-          "text": "Escalation of Global Impact from Ongoing Iran War",
-          "source_url": "https://www.npr.org/2026/03/07/nx-s1-5739242/iran-war-oil-trump-israel-spain-economy-one-week"
-        },
-        {
-          "date": "2026-03-06",
-          "text": "Escalation of Conflict in the Middle East",
-          "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
-        }
+        {"date": "2026-03-08", "text": "Trump suggests ground troops may be sent to Iran; Tehran oil depot fire from Israeli strikes", "category": "military", "source_url": ""},
+        {"date": "2026-03-07", "text": "Trump dismisses UK military assistance offer; Netanyahu vows 'many surprises'", "category": "military", "source_url": ""},
+        {"date": "2026-03-06", "text": "Israel conducts strikes in Beirut and Tehran; Sri Lanka takes custody of Iranian vessel", "category": "military", "source_url": ""},
+        {"date": "2026-03-05", "text": "U.S. sinks Iranian warship in Persian Gulf engagement", "category": "military", "source_url": ""},
+        {"date": "2026-03-04", "text": "Oil prices surge as Qatar warns of production halt if conflict spreads", "category": "economic", "source_url": ""},
+        {"date": "2026-03-02", "text": "Iran launches retaliatory ballistic missiles at targets in Gulf region", "category": "military", "source_url": ""},
+        {"date": "2026-02-28", "text": "Multiple countries issue travel advisories for Persian Gulf region", "category": "diplomatic", "source_url": ""},
+        {"date": "2026-02-25", "text": "Diplomatic back-channel through Oman reported but not confirmed", "category": "diplomatic", "source_url": ""},
+        {"date": "2026-02-20", "text": "U.S. and Israeli forces strike Iranian military infrastructure targets", "category": "military", "source_url": ""},
+        {"date": "2026-02-14", "text": "Military operations against Iranian targets begin", "category": "military", "source_url": ""}
       ],
+      "related_situations": ["economy-inflation", "middle-east-israel-gaza"],
       "primary_sources": [
-        {
-          "name": "U.S. Department of Defense",
-          "url": "https://www.defense.gov/"
-        },
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/"
-        },
-        {
-          "name": "IAEA",
-          "url": "https://www.iaea.org/"
-        }
+        {"name": "BBC News", "url": "https://www.bbc.com/news/world/middle_east"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/iran/"},
+        {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/"}
       ]
     },
     {
       "slug": "ukraine-russia",
-      "topic": "Ukraine–Russia",
-      "summary": "Russia's full-scale invasion of Ukraine began in February 2022. The conflict has entered its fourth year with largely static front lines, ongoing artillery exchanges, and continued Western military and financial support for Ukraine.",
-      "background": "Russia launched a full-scale invasion of Ukraine on February 24, 2022, after years of tensions over NATO expansion, the 2014 annexation of Crimea, and conflict in the Donbas region. Initial Russian advances toward Kyiv were repelled, and the conflict has since settled into a war of attrition primarily in eastern and southern Ukraine. Multiple rounds of peace talks have failed to produce a lasting ceasefire.",
-      "started": "February 24, 2022",
+      "topic": "Ukraine–Russia War",
+      "status": "active",
+      "phase": "stalemate",
+      "started": "2022-02-24",
+      "last_material_update": "",
+      "summary": "Russia's full-scale invasion of Ukraine continues with grinding frontline fighting, long-range strikes on cities, and intermittent diplomatic efforts.",
+      "catch_up_summary": "Russia invaded Ukraine in February 2022. After initial advances toward Kyiv were repelled, the war settled into a grinding conflict concentrated in eastern and southern Ukraine. Ukraine launched a counteroffensive in 2023 with limited territorial gains. Fighting in 2024-2026 has centered on Donetsk, Zaporizhzhia, and Kherson regions. Both sides conduct regular long-range strikes on cities and infrastructure. Prisoner exchanges occur periodically. Western military aid continues but faces political uncertainty in Washington. Diplomatic efforts through various intermediaries have not produced a ceasefire.",
+      "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The full-scale invasion on February 24, 2022 represented the largest military operation in Europe since World War II. The conflict has caused tens of thousands of casualties, displaced millions, disrupted global grain and energy markets, and reshaped European security architecture.",
+      "why_it_matters": [
+        "European security architecture fundamentally changed",
+        "Global food and energy supply disruptions",
+        "Canadian military and diplomatic commitments to Ukraine"
+      ],
+      "watchpoints": [
+        "Frontline movements in Donetsk region",
+        "Status of Western military aid packages",
+        "Any diplomatic track developments",
+        "Long-range strike campaigns on infrastructure"
+      ],
+      "uncertainties": [
+        "True casualty figures on both sides remain classified",
+        "Whether current frontlines represent a stable equilibrium",
+        "Impact of U.S. political shifts on aid continuation"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "Duration": "4+ years",
-        "Ukrainian Casualties": "Tens of thousands military (exact figures classified)",
-        "Russian Casualties": "Estimated 200,000+ killed/wounded (Western estimates)",
-        "Civilian Deaths": "11,000+ confirmed (UN OHCHR)",
-        "Refugees": "6.5 million externally displaced",
-        "Internally Displaced": "3.7 million within Ukraine",
-        "Western Aid": "$250+ billion in military and financial support",
-        "Territory": "Russia occupies ~18% of Ukraine",
-        "Peace Talks": "Multiple rounds stalled; no active negotiations"
+        "Started": "February 24, 2022",
+        "Duration": "Over 3 years",
+        "Displaced": "Over 6 million refugees (UNHCR)",
+        "Parties": "Russia vs. Ukraine (with Western support)",
+        "Theater": "Eastern and southern Ukraine",
+        "Status": "Active combat, no ceasefire"
       },
       "key_parties": [
-        {
-          "name": "Ukraine",
-          "role": "Defending sovereign territory, seeking NATO membership"
-        },
-        {
-          "name": "Russia",
-          "role": "Occupying eastern/southern regions, seeking territorial concessions"
-        },
-        {
-          "name": "NATO/EU",
-          "role": "Providing military aid, sanctions on Russia"
-        },
-        {
-          "name": "United States",
-          "role": "Largest military aid provider to Ukraine"
-        },
-        {
-          "name": "China",
-          "role": "Maintaining relations with Russia while calling for negotiations"
-        },
-        {
-          "name": "United Nations",
-          "role": "Monitoring civilian casualties, humanitarian coordination"
-        }
+        {"name": "Ukraine", "role": "Defending sovereignty, receiving Western military aid"},
+        {"name": "Russia", "role": "Occupying force in eastern/southern Ukraine"},
+        {"name": "NATO", "role": "Providing military aid, training, intelligence"},
+        {"name": "Zelenskyy", "role": "Ukrainian President leading defense and diplomacy"},
+        {"name": "Putin", "role": "Russian President directing military operations"}
       ],
       "timeline": [
-        {
-          "date": "2026-03-08",
-          "text": "Russian Missile Strike in Kharkiv Claims Lives of Ten",
-          "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
-        },
-        {
-          "date": "2026-03-07",
-          "text": "Missile Strike in Kharkiv Results in Multiple Casualties",
-          "source_url": "https://www.pbs.org/newshour/world/russian-missile-hits-apartment-building-in-ukraines-kharkiv-killing-at-least-10"
-        }
+        {"date": "2026-03-08", "text": "Missile strikes in Kharkiv result in multiple casualties", "category": "military", "source_url": ""},
+        {"date": "2026-03-06", "text": "Ukraine and Russia conduct large prisoner exchange of 500 each", "category": "diplomatic", "source_url": ""},
+        {"date": "2026-02-24", "text": "Fourth anniversary of full-scale invasion marked", "category": "political", "source_url": ""},
+        {"date": "2025-12-15", "text": "Winter energy infrastructure strikes intensify on both sides", "category": "military", "source_url": ""},
+        {"date": "2025-08-06", "text": "Ukraine launches cross-border incursion into Kursk region", "category": "military", "source_url": ""},
+        {"date": "2024-11-19", "text": "Ukraine uses Western long-range missiles to strike Russian territory", "category": "military", "source_url": ""},
+        {"date": "2024-06-15", "text": "Switzerland hosts international peace summit; Russia not invited", "category": "diplomatic", "source_url": ""},
+        {"date": "2023-06-06", "text": "Kakhovka Dam destroyed, causing massive flooding", "category": "humanitarian", "source_url": ""},
+        {"date": "2022-11-11", "text": "Ukraine liberates Kherson in major counteroffensive success", "category": "military", "source_url": ""},
+        {"date": "2022-02-24", "text": "Russia launches full-scale invasion of Ukraine", "category": "military", "source_url": ""}
       ],
+      "related_situations": ["economy-inflation"],
       "primary_sources": [
-        {
-          "name": "UN OHCHR",
-          "url": "https://www.ohchr.org/"
-        },
-        {
-          "name": "UNHCR",
-          "url": "https://www.unhcr.org/"
-        },
-        {
-          "name": "Institute for the Study of War",
-          "url": "https://www.understandingwar.org/"
-        }
-      ]
-    },
-    {
-      "slug": "economy-inflation",
-      "topic": "Economy & Inflation",
-      "summary": "Central banks worldwide continue navigating persistent inflation. Interest rate decisions, employment data, trade policy disruptions, and oil price volatility remain closely watched by markets.",
-      "background": "Global inflation surged in 2021-2022 driven by pandemic supply chain disruptions, energy price spikes from the Russia-Ukraine war, and expansionary monetary policy. Central banks responded with aggressive rate hikes through 2023-2024. By 2026, inflation has moderated in many countries but remains above targets, complicated by new factors including the Iran conflict's impact on energy prices and U.S. tariff policies.",
-      "started": "Ongoing",
-      "key_facts": {
-        "US Inflation": "Above 2% target (CPI)",
-        "US Jobs": "-92,000 in February 2026",
-        "Fed Rate": "Holding steady, next decision pending",
-        "Bank of Canada Rate": "4.5% (held March 2026)",
-        "Oil Prices": "2-year highs due to Iran conflict",
-        "US Tariffs": "$166 billion in disputed tariff collections",
-        "Market Impact": "Dow declining amid stagflation fears"
-      },
-      "key_parties": [
-        {
-          "name": "U.S. Federal Reserve",
-          "role": "Setting U.S. interest rates, managing inflation"
-        },
-        {
-          "name": "Bank of Canada",
-          "role": "Canadian monetary policy, rate decisions"
-        },
-        {
-          "name": "European Central Bank",
-          "role": "Eurozone monetary policy"
-        },
-        {
-          "name": "U.S. Bureau of Labor Statistics",
-          "role": "Publishing employment and inflation data"
-        },
-        {
-          "name": "World Bank",
-          "role": "Global economic forecasting and development"
-        }
-      ],
-      "timeline": [],
-      "primary_sources": [
-        {
-          "name": "U.S. Federal Reserve",
-          "url": "https://www.federalreserve.gov/"
-        },
-        {
-          "name": "Bank of Canada",
-          "url": "https://www.bankofcanada.ca/"
-        },
-        {
-          "name": "U.S. Bureau of Labor Statistics",
-          "url": "https://www.bls.gov/"
-        },
-        {
-          "name": "Statistics Canada",
-          "url": "https://www.statcan.gc.ca/"
-        }
+        {"name": "BBC News", "url": "https://www.bbc.com/news/world-60525350"},
+        {"name": "Institute for the Study of War", "url": "https://www.understandingwar.org/"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"}
       ]
     },
     {
       "slug": "us-tariffs-trade",
       "topic": "U.S. Tariffs & Trade",
-      "summary": "The Trump administration has implemented broad tariff increases on imports from multiple countries. Courts have ruled portions of the tariffs illegal. U.S. Customs is developing a refund system for $166 billion in disputed collections.",
-      "background": "President Trump expanded tariff actions beginning in early 2025, imposing duties on imports from China, Canada, Mexico, and the EU. Multiple legal challenges have been filed, with federal courts ruling some tariffs exceeded presidential authority. The U.S. Court of International Trade ordered Customs and Border Protection to develop a refund process for importers who overpaid. Retaliatory tariffs from trading partners have disrupted supply chains.",
-      "started": "Early 2025 (expanded)",
+      "status": "active",
+      "phase": "escalating",
+      "started": "2025-01-20",
+      "last_material_update": "",
+      "summary": "The Trump administration has imposed sweeping tariffs on imports from multiple countries, triggering retaliatory measures and disrupting global trade patterns.",
+      "catch_up_summary": "Since returning to office in January 2025, President Trump has imposed or threatened tariffs on imports from China, Canada, Mexico, and the EU. Key measures include 25% tariffs on Canadian and Mexican goods (with temporary pauses), escalating duties on Chinese imports, and threats of auto-sector tariffs. Canada has responded with retaliatory tariffs. Businesses report supply chain disruptions and cost increases. Courts have challenged some tariff authorities. The situation affects cross-border trade critical to Ontario and Bay of Quinte area manufacturers.",
+      "background": "U.S. tariff policy has been a central economic issue since 2018. The current escalation began with Trump's return to office and executive orders imposing broad tariffs citing national security and trade deficit concerns. Canada-U.S. trade, worth over $900 billion annually, is particularly sensitive to tariff changes.",
+      "why_it_matters": [
+        "Direct impact on Canadian exporters and Bay of Quinte manufacturers",
+        "Consumer prices affected by import cost increases",
+        "Canada-U.S. trade relationship under unprecedented strain"
+      ],
+      "watchpoints": [
+        "Next tariff implementation or exemption deadlines",
+        "Canadian retaliatory measures",
+        "Court challenges to tariff authority",
+        "Impact on auto sector and agricultural exports"
+      ],
+      "uncertainties": [
+        "Whether announced tariffs will actually be implemented vs. negotiating leverage",
+        "Scope of exemptions for specific sectors",
+        "Duration of any temporary pauses"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "Total Disputed": "$166 billion in tariff collections",
-        "Refund Timeline": "45-day system being developed by CBP",
-        "Court Ruling": "Federal court found portions illegal",
-        "Affected Countries": "China, Canada, Mexico, EU, others",
-        "Retaliation": "Multiple countries imposed counter-tariffs",
-        "Consumer Impact": "Higher prices on imported goods"
+        "Started": "January 2025 (current cycle)",
+        "Key Rates": "25% on Canada/Mexico, escalating on China",
+        "Canada-US Trade": "Over $900 billion annually",
+        "Retaliatory Tariffs": "Canada has imposed counter-tariffs",
+        "Legal Challenges": "Multiple court cases pending",
+        "Status": "Ongoing, with periodic pauses and escalations"
       },
       "key_parties": [
-        {
-          "name": "White House",
-          "role": "Setting tariff policy via executive action"
-        },
-        {
-          "name": "U.S. Customs and Border Protection",
-          "role": "Collecting tariffs, developing refund system"
-        },
-        {
-          "name": "U.S. Court of International Trade",
-          "role": "Adjudicating tariff legality"
-        },
-        {
-          "name": "China",
-          "role": "Subject of largest tariffs, retaliating with counter-duties"
-        },
-        {
-          "name": "Canada",
-          "role": "Affected trading partner, imposing counter-tariffs"
-        }
+        {"name": "Donald Trump", "role": "U.S. President directing tariff policy"},
+        {"name": "Mark Carney", "role": "Canadian Prime Minister, retaliatory trade policy"},
+        {"name": "U.S. Customs & Border Protection", "role": "Implementing tariff collection"},
+        {"name": "Canadian Manufacturers", "role": "Affected by cross-border trade disruption"}
       ],
       "timeline": [
-        {
-          "date": "2026-03-06",
-          "text": "US Customs Agency to Process Refunds on Illegal Tariffs",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-        }
+        {"date": "2026-03-06", "text": "Customs developing new tariff refund process amid legal challenges", "category": "legal", "source_url": ""},
+        {"date": "2026-02-25", "text": "25% tariffs on Canadian goods take effect after pause expires", "category": "economic", "source_url": ""},
+        {"date": "2026-02-04", "text": "Trump pauses Canada/Mexico tariffs for 30 days during negotiations", "category": "diplomatic", "source_url": ""},
+        {"date": "2026-01-20", "text": "Trump signs executive orders imposing broad tariff measures", "category": "political", "source_url": ""},
+        {"date": "2025-11-25", "text": "Trump announces 25% tariff threat on Canada and Mexico", "category": "political", "source_url": ""}
       ],
+      "related_situations": ["economy-inflation"],
       "primary_sources": [
-        {
-          "name": "U.S. Customs and Border Protection",
-          "url": "https://www.cbp.gov/"
-        },
-        {
-          "name": "Office of the U.S. Trade Representative",
-          "url": "https://ustr.gov/"
-        },
-        {
-          "name": "U.S. Court of International Trade",
-          "url": "https://www.cit.uscourts.gov/"
-        }
+        {"name": "Globe and Mail", "url": "https://www.theglobeandmail.com/topics/tariffs/"},
+        {"name": "Reuters", "url": "https://www.reuters.com/business/"},
+        {"name": "The Hill", "url": "https://thehill.com/topic/trade/"}
+      ]
+    },
+    {
+      "slug": "economy-inflation",
+      "topic": "Economy & Inflation",
+      "status": "active",
+      "phase": "uncertain",
+      "started": "2022-01-01",
+      "last_material_update": "",
+      "summary": "Central banks navigate between inflation control and recession risk as tariffs, energy prices, and geopolitical shocks create economic uncertainty.",
+      "catch_up_summary": "Global inflation surged in 2022 following pandemic stimulus and supply chain disruptions. Central banks raised interest rates aggressively through 2023-2024. By early 2026, inflation has moderated in many countries but remains above target. The Bank of Canada and Federal Reserve face difficult decisions as new pressures emerge from tariff escalation and the Iran conflict driving oil prices higher. The U.S. reported unexpected job losses in February 2026, raising recession concerns. Canadian economic growth remains sluggish.",
+      "background": "The post-pandemic inflation cycle represented the sharpest price increases in four decades in both the U.S. and Canada. Central bank responses included the fastest rate-hiking cycles in modern history. The current challenge is balancing inflation control against economic growth as new supply shocks from tariffs and conflict add uncertainty.",
+      "why_it_matters": [
+        "Mortgage rates, food prices, and cost of living for Canadian families",
+        "Job market stability and wage growth",
+        "Bay of Quinte area affected by manufacturing and agricultural economic shifts"
+      ],
+      "watchpoints": [
+        "Next Bank of Canada and Federal Reserve rate decisions",
+        "Monthly jobs reports and inflation data",
+        "Oil price trajectory and tariff cost pass-through",
+        "Housing market affordability trends"
+      ],
+      "uncertainties": [
+        "Whether tariff costs will reignite inflation",
+        "Recession probability given conflicting economic signals",
+        "How long elevated oil prices will persist"
+      ],
+      "what_changed_today": [],
+      "key_facts": {
+        "BoC Rate": "Tracking — subject to regular updates",
+        "Fed Rate": "Tracking — subject to regular updates",
+        "US Jobs": "Loss of 92,000 in February 2026",
+        "Oil Impact": "Iran conflict driving energy prices higher",
+        "Inflation Trend": "Moderating but above target in both countries",
+        "Status": "Rates elevated, uncertainty high"
+      },
+      "key_parties": [
+        {"name": "Bank of Canada", "role": "Setting Canadian monetary policy"},
+        {"name": "Federal Reserve", "role": "Setting U.S. monetary policy"},
+        {"name": "OPEC+", "role": "Oil production decisions affecting prices"}
+      ],
+      "timeline": [
+        {"date": "2026-03-06", "text": "U.S. economy reports loss of 92,000 jobs in February, raising recession concerns", "category": "economic", "source_url": ""},
+        {"date": "2026-03-04", "text": "Oil prices surge amid Gulf production warnings from Qatar", "category": "economic", "source_url": ""},
+        {"date": "2026-02-25", "text": "New tariffs on Canada take effect, raising import cost concerns", "category": "economic", "source_url": ""},
+        {"date": "2025-12-11", "text": "Bank of Canada cuts rates by 50 basis points citing slowing growth", "category": "economic", "source_url": ""},
+        {"date": "2025-09-18", "text": "Federal Reserve begins rate cutting cycle", "category": "economic", "source_url": ""}
+      ],
+      "related_situations": ["us-tariffs-trade", "iran-conflict"],
+      "primary_sources": [
+        {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/"},
+        {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/"},
+        {"name": "BBC Business", "url": "https://www.bbc.com/news/business"}
       ]
     },
     {
       "slug": "middle-east-israel-gaza",
       "topic": "Israel & Gaza",
-      "summary": "The conflict between Israel and Hamas that began October 7, 2023 continues with military operations, stalled ceasefire negotiations, and an ongoing humanitarian crisis in Gaza. The situation has expanded with the broader Iran conflict.",
-      "background": "Hamas launched an unprecedented attack on Israel on October 7, 2023, killing approximately 1,200 people and taking over 250 hostages. Israel responded with a large-scale military operation in Gaza. The conflict has resulted in massive civilian casualties in Gaza, international calls for ceasefire, and ICJ proceedings. In 2026, the situation expanded as part of the broader Iran-Israel military confrontation.",
-      "started": "October 7, 2023",
+      "status": "active",
+      "phase": "expanded conflict",
+      "started": "2023-10-07",
+      "last_material_update": "",
+      "summary": "The Israel-Hamas conflict that began October 7, 2023 has expanded into a broader regional confrontation now intertwined with the Iran conflict.",
+      "catch_up_summary": "Hamas launched an unprecedented attack on southern Israel on October 7, 2023, killing approximately 1,200 people and taking over 250 hostages. Israel's military response in Gaza has caused massive civilian casualties (Gaza health authorities report over 30,000 deaths), displaced nearly the entire population, and drawn international legal scrutiny including an ICJ genocide case. The conflict expanded with Israeli operations in Lebanon against Hezbollah. By early 2026, the situation has merged with the broader U.S.-Iran military confrontation, complicating any diplomatic resolution.",
+      "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack represented the deadliest day in Israeli history and triggered the largest Israeli military operation in Gaza since 1967. The humanitarian crisis in Gaza has been described by UN agencies as unprecedented.",
+      "why_it_matters": [
+        "Massive humanitarian crisis with global diplomatic implications",
+        "Canadian policy positions on Middle East affected",
+        "Interconnected with Iran conflict and oil markets"
+      ],
+      "watchpoints": [
+        "Hostage release negotiations",
+        "Humanitarian access to Gaza",
+        "ICJ proceedings and legal developments",
+        "How the Iran conflict affects Gaza dynamics"
+      ],
+      "uncertainties": [
+        "True casualty figures disputed between parties",
+        "Whether any ceasefire framework is viable while Iran conflict continues",
+        "Fate of remaining hostages"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "Israeli Deaths (Oct 7)": "~1,200 killed in initial attack",
-        "Hostages Taken": "250+ (many still held)",
-        "Gaza Deaths": "40,000+ reported (Gaza Health Ministry)",
-        "Gaza Displacement": "1.9 million displaced (85% of population)",
-        "Humanitarian": "UN reports severe food insecurity in Gaza",
-        "ICJ": "Genocide case proceedings ongoing",
-        "Ceasefire": "Multiple proposals, none sustained"
+        "Started": "October 7, 2023",
+        "Israeli Deaths (Oct 7)": "Approximately 1,200",
+        "Gaza Deaths (reported)": "Over 30,000 (Gaza health authorities)",
+        "Hostages Taken": "Over 250 (many still unaccounted for)",
+        "Displaced in Gaza": "Nearly entire population of 2.3 million",
+        "Status": "Active operations, merged with Iran conflict"
       },
       "key_parties": [
-        {
-          "name": "Israel",
-          "role": "Military operations in Gaza, airstrikes on Iran/Lebanon"
-        },
-        {
-          "name": "Hamas",
-          "role": "Governing Gaza, holding hostages"
-        },
-        {
-          "name": "United States",
-          "role": "Ally of Israel, mediating ceasefire talks"
-        },
-        {
-          "name": "Egypt & Qatar",
-          "role": "Ceasefire mediators"
-        },
-        {
-          "name": "UNRWA",
-          "role": "Humanitarian aid in Gaza"
-        },
-        {
-          "name": "ICJ",
-          "role": "Adjudicating genocide case brought by South Africa"
-        }
+        {"name": "Israel / IDF", "role": "Military operations in Gaza and Lebanon"},
+        {"name": "Hamas", "role": "Governing authority in Gaza, militant operations"},
+        {"name": "Palestinian Civilians", "role": "Bearing the humanitarian cost of the conflict"},
+        {"name": "United Nations", "role": "Humanitarian coordination, legal proceedings"},
+        {"name": "Egypt / Qatar", "role": "Mediators in hostage and ceasefire negotiations"}
       ],
-      "timeline": [],
+      "timeline": [
+        {"date": "2026-03-08", "text": "Israeli special forces conduct operations in Lebanon", "category": "military", "source_url": ""},
+        {"date": "2026-01-19", "text": "Ceasefire agreement reached, hostage releases begin", "category": "diplomatic", "source_url": ""},
+        {"date": "2025-09-23", "text": "Israel launches major military operation against Hezbollah in Lebanon", "category": "military", "source_url": ""},
+        {"date": "2025-05-20", "text": "ICJ orders Israel to halt Rafah offensive", "category": "legal", "source_url": ""},
+        {"date": "2024-10-07", "text": "First anniversary of October 7 attack marked globally", "category": "political", "source_url": ""},
+        {"date": "2024-01-26", "text": "ICJ rules South Africa's genocide case can proceed", "category": "legal", "source_url": ""},
+        {"date": "2023-10-27", "text": "Israeli ground invasion of Gaza begins", "category": "military", "source_url": ""},
+        {"date": "2023-10-07", "text": "Hamas launches attack on southern Israel, over 1,200 killed, 250+ taken hostage", "category": "military", "source_url": ""}
+      ],
+      "related_situations": ["iran-conflict"],
       "primary_sources": [
-        {
-          "name": "UN OCHA",
-          "url": "https://www.unocha.org/"
-        },
-        {
-          "name": "International Committee of the Red Cross",
-          "url": "https://www.icrc.org/"
-        },
-        {
-          "name": "International Court of Justice",
-          "url": "https://www.icj-cij.org/"
-        }
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/israel-palestine-conflict/"},
+        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/c2vdnvdg6xxt"},
+        {"name": "UNRWA", "url": "https://www.unrwa.org/"}
       ]
     },
     {
       "slug": "sudan-south-sudan",
       "topic": "Sudan & South Sudan",
+      "status": "active",
+      "phase": "escalating",
+      "started": "2023-04-15",
+      "last_material_update": "",
       "summary": "Civil conflict in Sudan between the SAF and RSF has displaced millions since April 2023. South Sudan faces recurring violence threatening its fragile 2018 peace agreement.",
-      "background": "Sudan's civil war erupted in April 2023 between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), a paramilitary group. The conflict has created one of the world's largest displacement crises. Meanwhile, South Sudan — which gained independence in 2011 — has experienced renewed violence between government and opposition forces, threatening the 2018 peace agreement that ended its own civil war (2013-2018).",
-      "started": "April 2023 (Sudan); recurring (South Sudan)",
+      "catch_up_summary": "Fighting erupted in Sudan in April 2023 between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF). The conflict has killed thousands, displaced over 10 million people, and created what the UN calls the world's largest displacement crisis. South Sudan, which gained independence in 2011, faces its own escalating violence that threatens the 2018 peace agreement. Both situations receive limited international attention despite their humanitarian scale.",
+      "background": "Sudan's conflict emerged from a power struggle between military leaders who had jointly overthrown the civilian government in 2021. South Sudan's instability traces to the 2013-2018 civil war and incomplete implementation of peace agreements. Both countries face severe humanitarian crises compounded by food insecurity and climate impacts.",
+      "why_it_matters": [
+        "World's largest displacement crisis receiving insufficient attention",
+        "Humanitarian access severely restricted",
+        "Regional instability affecting East Africa and Red Sea shipping"
+      ],
+      "watchpoints": [
+        "RSF territorial advances in Darfur and Khartoum",
+        "Humanitarian access negotiations",
+        "South Sudan peace agreement implementation",
+        "International donor conference outcomes"
+      ],
+      "uncertainties": [
+        "True civilian casualty figures are unknown",
+        "Whether external powers are supplying weapons to either side",
+        "Viability of South Sudan peace process"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "Sudan Deaths": "15,000+ killed (conservative estimate)",
-        "Sudan Displaced": "10+ million internally displaced",
-        "Sudan Refugees": "2+ million fled to neighboring countries",
-        "Famine Risk": "UN warns of imminent famine in Darfur",
-        "South Sudan Deaths": "169+ killed in recent border raid",
-        "South Sudan": "2018 peace agreement under strain",
-        "Humanitarian Access": "Severely limited in both countries"
+        "Sudan Conflict Started": "April 15, 2023",
+        "Displaced": "Over 10 million (UN estimate)",
+        "Parties (Sudan)": "SAF vs. RSF",
+        "South Sudan": "Fragile peace, recurring violence",
+        "Humanitarian Access": "Severely restricted",
+        "Status": "Active conflict, limited international response"
       },
       "key_parties": [
-        {
-          "name": "SAF (Sudan Armed Forces)",
-          "role": "Government military, led by Gen. al-Burhan"
-        },
-        {
-          "name": "RSF (Rapid Support Forces)",
-          "role": "Paramilitary, led by Gen. Dagalo (Hemedti)"
-        },
-        {
-          "name": "South Sudan Government",
-          "role": "Facing internal opposition violence"
-        },
-        {
-          "name": "UNHCR",
-          "role": "Managing refugee crisis in neighboring countries"
-        },
-        {
-          "name": "African Union",
-          "role": "Mediation efforts"
-        },
-        {
-          "name": "United Nations",
-          "role": "Humanitarian coordination, famine warnings"
-        }
+        {"name": "SAF (Sudanese Armed Forces)", "role": "Government military led by Gen. al-Burhan"},
+        {"name": "RSF (Rapid Support Forces)", "role": "Paramilitary led by Gen. Hemedti"},
+        {"name": "South Sudan Government", "role": "Managing fragile peace, President Kiir"},
+        {"name": "United Nations", "role": "Humanitarian coordination, peacekeeping"}
       ],
       "timeline": [
-        {
-          "date": "2026-03-07",
-          "text": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-          "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-        }
+        {"date": "2026-03-07", "text": "Escalating violence in South Sudan raises concerns of return to civil war", "category": "military", "source_url": ""},
+        {"date": "2025-11-15", "text": "UN warns Sudan facing world's worst hunger crisis", "category": "humanitarian", "source_url": ""},
+        {"date": "2025-06-15", "text": "RSF captures key city in Darfur region", "category": "military", "source_url": ""},
+        {"date": "2024-04-15", "text": "First anniversary of Sudan conflict — over 8 million displaced", "category": "humanitarian", "source_url": ""},
+        {"date": "2023-04-15", "text": "Fighting erupts between SAF and RSF in Khartoum", "category": "military", "source_url": ""}
       ],
+      "related_situations": [],
       "primary_sources": [
-        {
-          "name": "UNHCR",
-          "url": "https://www.unhcr.org/"
-        },
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/"
-        },
-        {
-          "name": "OCHA Sudan",
-          "url": "https://www.unocha.org/sudan"
-        }
+        {"name": "UNHCR", "url": "https://www.unhcr.org/emergencies/sudan-crisis"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/sudan/"},
+        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/cq23pdgvgm8t"}
       ]
     },
     {
       "slug": "ai-regulation",
       "topic": "AI Regulation",
-      "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence. The EU AI Act enforcement began in early 2026. The U.S. and other nations are weighing their own approaches.",
-      "background": "The rapid advancement of AI systems like GPT-4, Claude, and Gemini has prompted governments worldwide to develop regulatory frameworks. The European Union led with the AI Act, the world's first comprehensive AI law, which began enforcement in early 2026. The U.S. approach has been primarily through executive orders and voluntary industry commitments, while China has implemented its own AI regulations focused on algorithmic transparency and content generation.",
-      "started": "Ongoing (EU Act enforcement began 2026)",
+      "status": "active",
+      "phase": "developing",
+      "started": "2023-06-01",
+      "last_material_update": "",
+      "summary": "Governments worldwide are developing regulatory frameworks for artificial intelligence as the technology's capabilities and deployment accelerate rapidly.",
+      "catch_up_summary": "The global AI regulation landscape is evolving rapidly. The EU AI Act, the world's most comprehensive AI law, began phased enforcement in 2025. The U.S. has taken a lighter regulatory approach under the Trump administration, favoring industry self-regulation. Canada's proposed AI and Data Act remains in parliamentary process. Meanwhile, AI capabilities continue advancing with major model releases and growing deployment in healthcare, finance, and government. Concerns focus on deepfakes, job displacement, algorithmic bias, and autonomous weapons.",
+      "background": "The explosion of generative AI capabilities starting with ChatGPT in late 2022 accelerated regulatory discussions worldwide. Governments face the challenge of enabling innovation while preventing harm, with approaches ranging from the EU's comprehensive legislation to the U.S.'s sector-specific guidance.",
+      "why_it_matters": [
+        "Canadian AI companies affected by divergent global regulations",
+        "Job market implications for knowledge workers",
+        "Democratic integrity concerns around deepfakes and misinformation"
+      ],
+      "watchpoints": [
+        "EU AI Act enforcement milestones",
+        "Canadian AI and Data Act progress",
+        "Major AI safety incidents or failures",
+        "International coordination efforts"
+      ],
+      "uncertainties": [
+        "Whether U.S. regulatory approach will shift",
+        "How to regulate rapidly evolving capabilities",
+        "Effectiveness of voluntary industry commitments"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "EU AI Act": "Enforcement began March 2026",
-        "Penalties": "Up to 3% of global annual revenue",
-        "US Approach": "Executive orders + voluntary commitments",
-        "China": "Separate regulatory framework in effect",
-        "Compliance": "Major tech companies report 60-90 day timelines",
-        "Key Areas": "Training data disclosure, safety testing, deepfake labeling"
+        "EU AI Act": "Phased enforcement began 2025",
+        "U.S. Approach": "Lighter regulation under current administration",
+        "Canada": "AI and Data Act in parliamentary process",
+        "Key Concerns": "Deepfakes, bias, job displacement, autonomous weapons",
+        "Status": "Frameworks emerging globally"
       },
       "key_parties": [
-        {
-          "name": "European Commission",
-          "role": "Enforcing AI Act, setting global precedent"
-        },
-        {
-          "name": "White House",
-          "role": "Executive orders on AI safety"
-        },
-        {
-          "name": "Major AI Companies",
-          "role": "OpenAI, Anthropic, Google, Meta, xAI — compliance required"
-        },
-        {
-          "name": "U.S. Congress",
-          "role": "Considering AI legislation"
-        },
-        {
-          "name": "China's CAC",
-          "role": "Enforcing China's AI regulations"
-        }
+        {"name": "European Union", "role": "Enacted world's most comprehensive AI law"},
+        {"name": "U.S. Administration", "role": "Favoring industry self-regulation"},
+        {"name": "Canadian Government", "role": "Proposed AI and Data Act"},
+        {"name": "OpenAI / Anthropic / Google", "role": "Major AI developers engaged in safety discussions"}
       ],
-      "timeline": [],
+      "timeline": [
+        {"date": "2026-03-08", "text": "London mayor invites Anthropic to establish AI hub in London", "category": "political", "source_url": ""},
+        {"date": "2025-08-01", "text": "EU AI Act prohibited practices provisions take effect", "category": "regulatory", "source_url": ""},
+        {"date": "2025-02-01", "text": "EU AI Act general-purpose AI rules begin enforcement", "category": "regulatory", "source_url": ""},
+        {"date": "2024-03-13", "text": "European Parliament approves AI Act", "category": "regulatory", "source_url": ""},
+        {"date": "2023-10-30", "text": "Biden signs AI executive order on safety standards", "category": "political", "source_url": ""},
+        {"date": "2023-06-14", "text": "EU Parliament votes to advance AI Act", "category": "regulatory", "source_url": ""}
+      ],
+      "related_situations": [],
       "primary_sources": [
-        {
-          "name": "European Commission",
-          "url": "https://ec.europa.eu/"
-        },
-        {
-          "name": "White House AI Policy",
-          "url": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/"
-        },
-        {
-          "name": "NIST AI Framework",
-          "url": "https://www.nist.gov/artificial-intelligence"
-        }
+        {"name": "BBC Technology", "url": "https://www.bbc.com/news/technology"},
+        {"name": "Ars Technica", "url": "https://arstechnica.com/ai/"}
       ]
     },
     {
       "slug": "climate-environment",
       "topic": "Climate & Environment",
-      "summary": "Global climate policy, extreme weather events, and energy transitions. Tracking COP commitments, emissions data, renewable energy milestones, and environmental policy changes.",
-      "background": "Global average temperatures continue to rise, with recent years setting new records. The Paris Agreement targets limiting warming to 1.5°C above pre-industrial levels, but current national commitments fall short. COP summits have produced incremental progress on fossil fuel phase-out language, loss and damage funding, and methane reduction pledges. Meanwhile, renewable energy deployment has accelerated, with solar and wind reaching record capacity globally.",
-      "started": "Ongoing",
+      "status": "active",
+      "phase": "policy shifts",
+      "started": "2015-12-12",
+      "last_material_update": "",
+      "summary": "Global climate policy, extreme weather events, and energy transitions. Tracking emissions commitments, renewable energy milestones, and environmental policy changes.",
+      "catch_up_summary": "Global climate action faces headwinds as the Trump administration rolls back U.S. environmental regulations and withdraws from international commitments. Meanwhile, 2024-2025 set records as the hottest years on record. The EU continues advancing its Green Deal. Canada faces its own tensions between climate targets and energy industry interests. Extreme weather events — floods, wildfires, and heat waves — continue intensifying, with direct impacts on communities including in Ontario.",
+      "background": "The Paris Agreement (2015) set the framework for global emissions reduction. Progress has been uneven, with major emitters facing domestic political resistance to climate action. The gap between pledged reductions and required reductions to limit warming to 1.5°C continues to widen.",
+      "why_it_matters": [
+        "Extreme weather directly affecting Ontario communities",
+        "Canadian energy policy and carbon pricing under debate",
+        "Agricultural impacts in Bay of Quinte farming region"
+      ],
+      "watchpoints": [
+        "U.S. environmental policy rollbacks",
+        "Canada's emissions trajectory vs. commitments",
+        "Extreme weather events and seasonal forecasts",
+        "Renewable energy deployment milestones"
+      ],
+      "uncertainties": [
+        "Whether Paris Agreement targets remain achievable",
+        "Impact of U.S. withdrawal on global cooperation",
+        "Speed of energy transition vs. fossil fuel investment"
+      ],
+      "what_changed_today": [],
       "key_facts": {
-        "2025 Temperature": "Warmest year on record (provisional)",
-        "Paris Target": "1.5°C limit increasingly difficult to meet",
-        "Renewables": "Record solar/wind capacity installed in 2025",
-        "Fossil Fuels": "COP28 agreed to 'transition away' language",
-        "Methane Pledge": "150+ countries committed to 30% reduction by 2030",
-        "Loss & Damage": "Fund established at COP27, slow disbursement"
+        "Paris Agreement": "Signed December 2015, U.S. participation uncertain",
+        "Temperature Record": "2024-2025 hottest years on record",
+        "Canada Target": "40-45% below 2005 levels by 2030",
+        "U.S. Policy": "Rolling back environmental regulations",
+        "Status": "Gap widening between pledges and action"
       },
       "key_parties": [
-        {
-          "name": "UNFCCC",
-          "role": "Coordinating international climate negotiations"
-        },
-        {
-          "name": "IPCC",
-          "role": "Scientific assessment of climate change"
-        },
-        {
-          "name": "IEA",
-          "role": "Energy policy analysis and forecasting"
-        },
-        {
-          "name": "United States",
-          "role": "Second-largest emitter, policy varies by administration"
-        },
-        {
-          "name": "China",
-          "role": "Largest emitter, largest renewable energy investor"
-        },
-        {
-          "name": "EU",
-          "role": "Green Deal legislation, carbon border adjustment"
-        }
+        {"name": "UNFCCC", "role": "International climate negotiations framework"},
+        {"name": "U.S. Administration", "role": "Rolling back climate policies"},
+        {"name": "European Union", "role": "Advancing Green Deal and emissions targets"},
+        {"name": "Canada", "role": "Balancing climate targets with energy sector"}
       ],
-      "timeline": [],
+      "timeline": [
+        {"date": "2026-03-08", "text": "Trump administration challenges Vermont's climate lawsuit against fossil fuel companies", "category": "legal", "source_url": ""},
+        {"date": "2025-11-15", "text": "COP30 negotiations in Brazil focus on climate finance", "category": "diplomatic", "source_url": ""},
+        {"date": "2025-01-20", "text": "Trump begins executive orders rolling back climate regulations", "category": "political", "source_url": ""},
+        {"date": "2024-11-11", "text": "COP29 in Baku produces modest climate finance agreement", "category": "diplomatic", "source_url": ""},
+        {"date": "2024-01-12", "text": "2023 confirmed as hottest year in recorded history", "category": "environmental", "source_url": ""},
+        {"date": "2015-12-12", "text": "Paris Climate Agreement adopted by 196 parties", "category": "diplomatic", "source_url": ""}
+      ],
+      "related_situations": ["economy-inflation"],
       "primary_sources": [
-        {
-          "name": "UNFCCC",
-          "url": "https://unfccc.int/"
-        },
-        {
-          "name": "NASA Climate",
-          "url": "https://climate.nasa.gov/"
-        },
-        {
-          "name": "IEA",
-          "url": "https://www.iea.org/"
-        }
+        {"name": "BBC Environment", "url": "https://www.bbc.com/news/science_and_environment"},
+        {"name": "The Guardian", "url": "https://www.theguardian.com/environment/climate-crisis"},
+        {"name": "Environment Canada", "url": "https://www.canada.ca/en/environment-climate-change.html"}
       ]
     }
   ]
