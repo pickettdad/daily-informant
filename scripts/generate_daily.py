@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-The Daily Informant — Morning Pipeline v9.1
+The Daily Informant — Morning Pipeline v9.2
 ==========================================
 
 v9.1 changes:
@@ -399,9 +399,17 @@ def run_selection(pool_text):
         print(f"  → {name}...")
         try:
             raw = fn(pool_text)
+            if not raw:
+                print(f"    {name}: empty response")
+                continue
             picks, good = _parse_picks(raw)
-            if picks: results[name] = picks; all_good.update(good); print(f"    {name}: {len(picks)} groups, {len(good)} constructive")
-        except Exception as e: print(f"    {name} failed: {e}")
+            if picks:
+                results[name] = picks; all_good.update(good)
+                print(f"    {name}: {len(picks)} groups, {len(good)} constructive")
+            else:
+                print(f"    {name}: no valid picks parsed. Response starts: {raw[:150]}...")
+        except Exception as e:
+            print(f"    {name} FAILED: {type(e).__name__}: {e}")
         time.sleep(1)
     return results, all_good
 
@@ -480,7 +488,7 @@ STRUCTURE (follow exactly):
 5. what_to_watch: 1-2 sentences — the next concrete event (upcoming vote, deadline, announcement, hearing)
 6. key_developments: 4-6 bullet points of the most concrete facts from the evidence
 7. stakeholder_quotes: 0-3 real quotes from the evidence (NEVER invent quotes)
-8. positive_thought: If the story involves suffering, hardship, or loss, write a brief prayer-like thought. Make it specific to THIS story — mention a real person, place, or detail from the evidence. Express genuine hope for the affected people. Be heartfelt and unique, not generic. NO God, NO Amen. Example: "May the families in Kharkiv find warmth tonight, and may the first responders who rushed toward danger find rest and safety." If the story is not negative, return empty string.
+8. positive_thought: Write a brief prayer-like thought for EVERY article. Make it specific to THIS story — mention a real person, place, or detail from the evidence. Express genuine hope for the people involved. Be heartfelt and unique, not generic. NO God, NO Amen. For negative stories, focus on comfort and hope for those suffering. For positive stories, express gratitude and hope the good continues. Examples: "May the families in Kharkiv find warmth tonight, and may the first responders who rushed toward danger find rest and safety." or "May the scientists behind this breakthrough see their work reach the communities who need it most."
 
 DIVERSITY RULE: If the evidence includes perspectives from different political leanings, the article MUST fairly represent multiple viewpoints. Include at least one factual point or quote from right-leaning sources when present. Never force false equivalence, but never omit a consequential perspective.
 
@@ -570,9 +578,31 @@ def find_related_sources(primary, all_items):
         if item["source_name"] in seen: continue
         item_kw = kw(item["title"] + " " + item.get("description", "")[:200])
         if len(item_kw) < 2: continue
-        if min(len(primary_kw), len(item_kw)) > 0 and len(primary_kw & item_kw) / min(len(primary_kw), len(item_kw)) >= 0.25:
+        overlap = len(primary_kw & item_kw)
+        smaller = min(len(primary_kw), len(item_kw))
+        if smaller > 0 and overlap / smaller >= 0.18:
             sources.append({"name": item["source_name"], "url": item["link"]}); seen.add(item["source_name"])
     return sources
+
+def enrich_sources_post_selection(articles, all_items):
+    """Post-selection: scan ALL feed items for each article to boost source count."""
+    for article in articles:
+        headline_kw = kw(article["headline"])
+        if len(headline_kw) < 3: continue
+        existing = {ca["url"] for ca in article.get("component_articles", [])}
+        existing_sources = {s["name"] for s in article.get("sources", [])}
+        for item in all_items:
+            if item["link"] in existing or item["source_name"] in existing_sources: continue
+            item_kw = kw(item["title"] + " " + item.get("description", "")[:200])
+            if len(item_kw) < 3: continue
+            overlap = len(headline_kw & item_kw)
+            if min(len(headline_kw), len(item_kw)) > 0 and overlap / min(len(headline_kw), len(item_kw)) >= 0.25:
+                article["component_articles"].append({"source": item["source_name"], "lean": item["lean"], "title": item["title"], "url": item["link"]})
+                article["sources"].append({"name": item["source_name"], "url": item["link"]})
+                existing.add(item["link"]); existing_sources.add(item["source_name"])
+    enriched = sum(1 for a in articles if len(a.get("component_articles",[])) > 1)
+    print(f"   Source enrichment: {enriched}/{len(articles)} articles have 2+ sources")
+    return articles
 
 def build_di_article(group, idx, all_items, is_good_flagged=False):
     slug = f"article-{idx + 1}"
@@ -584,6 +614,9 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
         # Pass A: Evidence
         evidence = extract_evidence(group)
         category = evidence.get("category", "World").strip()
+        # FIX: Validate category against allowed values — prevent slug leaking into category
+        if category not in CATEGORY_ORDER:
+            category = classify_group_category(group)
         is_constructive = evidence.get("is_constructive", False) or is_good_flagged
         is_neg = evidence.get("is_negative", False)
         related = evidence.get("related_ongoing", "").strip()
@@ -593,12 +626,18 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
         if related not in valid_slugs: related = ""
         if is_constructive and is_neg: is_constructive = False
         
-        # Pass B: Article
+        # Pass B: Article (with retry if too short)
         article = write_article(evidence, len(group), source_leans)
+        body = article.get("body", "").strip()
+        # Retry once if article body is a stub (under 200 words)
+        if len(body.split()) < 200 and len(group) > 0:
+            print(f"    ↻ Retrying article (only {len(body.split())}w)...")
+            time.sleep(1)
+            article = write_article(evidence, len(group), source_leans)
+            body = article.get("body", "").strip()
         
         headline = article.get("headline", group[0]["title"]).strip()
         bottom_line = article.get("bottom_line", "").strip()
-        body = article.get("body", "").strip()
         why_matters = article.get("why_it_matters", "").strip()
         what_watch = article.get("what_to_watch", "").strip()
         pos = article.get("positive_thought", "").strip()
@@ -626,7 +665,7 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
             "category": category, "key_points": key_devs,
             "sources": sources, "component_articles": component_articles,
             "stakeholder_quotes": quotes, "is_good_development": is_constructive,
-            "is_negative": is_neg, "positive_thought": pos if is_neg else "",
+            "is_negative": is_neg, "positive_thought": pos,
             "related_ongoing": related,
         }
     except Exception as e:
@@ -780,7 +819,7 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v9.1")
+    print("  The Daily Informant — Morning Pipeline v9.2")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -824,6 +863,9 @@ def main():
     print("\n─── Step 5c: X/Twitter quotes ───")
     articles = fetch_x_quotes(articles)
 
+    print("\n─── Step 5d: Source enrichment ───")
+    articles = enrich_sources_post_selection(articles, all_items)
+
     # Separate
     regular, good_devs = [], []
     for a in articles:
@@ -851,8 +893,11 @@ def main():
                           "what_changed_today": t.get("what_changed_today", []),
                           "timeline": t.get("timeline",[])[:5]} for t in topics_data.get("topics",[])]
 
-    # Need to know summary (top 5 stories, one sentence each)
-    need_to_know = [{"headline": a["headline"], "bottom_line": a.get("bottom_line","")} for a in (regular + good_devs)[:5]]
+    # Need to know: top 5 most important stories (prioritize World/US/Canada, highest source count)
+    all_for_ntk = regular + good_devs
+    ntk_priority = {"World": 0, "US": 1, "Canada": 2, "Ontario": 3, "Health": 4, "Science": 4, "Tech": 4, "Local": 5}
+    all_for_ntk.sort(key=lambda a: (ntk_priority.get(a.get("category","World"), 5), -len(a.get("component_articles",[]))))
+    need_to_know = [{"headline": a["headline"], "bottom_line": a.get("bottom_line","")} for a in all_for_ntk[:5]]
 
     DAILY_PATH.write_text(json.dumps({
         "date": today,
@@ -861,7 +906,7 @@ def main():
         "ongoing_topics": ongoing_for_daily,
         "good_developments": good_devs,
         "_meta": {
-            "pipeline_version": "9.1", "models_used": list(selections.keys()),
+            "pipeline_version": "9.2", "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "good_developments": len(good_devs), "category_breakdown": cats,
