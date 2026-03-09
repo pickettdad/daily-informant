@@ -36,29 +36,106 @@
         "Status": "Active military operations"
       },
       "key_parties": [
-        {"name": "United States", "role": "Coalition lead, naval and air operations"},
-        {"name": "Israel", "role": "Conducting strikes on Iranian and Lebanese targets"},
-        {"name": "Iran", "role": "Defending territory, retaliatory missile strikes"},
-        {"name": "IRGC", "role": "Iran's Revolutionary Guard Corps, primary military force"},
-        {"name": "Oman", "role": "Mediator in diplomatic back-channel efforts"}
+        {
+          "name": "United States",
+          "role": "Coalition lead, naval and air operations"
+        },
+        {
+          "name": "Israel",
+          "role": "Conducting strikes on Iranian and Lebanese targets"
+        },
+        {
+          "name": "Iran",
+          "role": "Defending territory, retaliatory missile strikes"
+        },
+        {
+          "name": "IRGC",
+          "role": "Iran's Revolutionary Guard Corps, primary military force"
+        },
+        {
+          "name": "Oman",
+          "role": "Mediator in diplomatic back-channel efforts"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Trump suggests ground troops may be sent to Iran; Tehran oil depot fire from Israeli strikes", "category": "military", "source_url": ""},
-        {"date": "2026-03-07", "text": "Trump dismisses UK military assistance offer; Netanyahu vows 'many surprises'", "category": "military", "source_url": ""},
-        {"date": "2026-03-06", "text": "Israel conducts strikes in Beirut and Tehran; Sri Lanka takes custody of Iranian vessel", "category": "military", "source_url": ""},
-        {"date": "2026-03-05", "text": "U.S. sinks Iranian warship in Persian Gulf engagement", "category": "military", "source_url": ""},
-        {"date": "2026-03-04", "text": "Oil prices surge as Qatar warns of production halt if conflict spreads", "category": "economic", "source_url": ""},
-        {"date": "2026-03-02", "text": "Iran launches retaliatory ballistic missiles at targets in Gulf region", "category": "military", "source_url": ""},
-        {"date": "2026-02-28", "text": "Multiple countries issue travel advisories for Persian Gulf region", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-02-25", "text": "Diplomatic back-channel through Oman reported but not confirmed", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-02-20", "text": "U.S. and Israeli forces strike Iranian military infrastructure targets", "category": "military", "source_url": ""},
-        {"date": "2026-02-14", "text": "Military operations against Iranian targets begin", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "Trump suggests ground troops may be sent to Iran; Tehran oil depot fire from Israeli strikes",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-07",
+          "text": "Trump dismisses UK military assistance offer; Netanyahu vows 'many surprises'",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-06",
+          "text": "Israel conducts strikes in Beirut and Tehran; Sri Lanka takes custody of Iranian vessel",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-05",
+          "text": "U.S. sinks Iranian warship in Persian Gulf engagement",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-04",
+          "text": "Oil prices surge as Qatar warns of production halt if conflict spreads",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-02",
+          "text": "Iran launches retaliatory ballistic missiles at targets in Gulf region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-28",
+          "text": "Multiple countries issue travel advisories for Persian Gulf region",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-25",
+          "text": "Diplomatic back-channel through Oman reported but not confirmed",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-20",
+          "text": "U.S. and Israeli forces strike Iranian military infrastructure targets",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-14",
+          "text": "Military operations against Iranian targets begin",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation", "middle-east-israel-gaza"],
+      "related_situations": [
+        "economy-inflation",
+        "middle-east-israel-gaza"
+      ],
       "primary_sources": [
-        {"name": "BBC News", "url": "https://www.bbc.com/news/world/middle_east"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/iran/"},
-        {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/"}
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world/middle_east"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/iran/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/"
+        }
       ]
     },
     {
@@ -97,29 +174,105 @@
         "Status": "Active combat, no ceasefire"
       },
       "key_parties": [
-        {"name": "Ukraine", "role": "Defending sovereignty, receiving Western military aid"},
-        {"name": "Russia", "role": "Occupying force in eastern/southern Ukraine"},
-        {"name": "NATO", "role": "Providing military aid, training, intelligence"},
-        {"name": "Zelenskyy", "role": "Ukrainian President leading defense and diplomacy"},
-        {"name": "Putin", "role": "Russian President directing military operations"}
+        {
+          "name": "Ukraine",
+          "role": "Defending sovereignty, receiving Western military aid"
+        },
+        {
+          "name": "Russia",
+          "role": "Occupying force in eastern/southern Ukraine"
+        },
+        {
+          "name": "NATO",
+          "role": "Providing military aid, training, intelligence"
+        },
+        {
+          "name": "Zelenskyy",
+          "role": "Ukrainian President leading defense and diplomacy"
+        },
+        {
+          "name": "Putin",
+          "role": "Russian President directing military operations"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Missile strikes in Kharkiv result in multiple casualties", "category": "military", "source_url": ""},
-        {"date": "2026-03-06", "text": "Ukraine and Russia conduct large prisoner exchange of 500 each", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-02-24", "text": "Fourth anniversary of full-scale invasion marked", "category": "political", "source_url": ""},
-        {"date": "2025-12-15", "text": "Winter energy infrastructure strikes intensify on both sides", "category": "military", "source_url": ""},
-        {"date": "2025-08-06", "text": "Ukraine launches cross-border incursion into Kursk region", "category": "military", "source_url": ""},
-        {"date": "2024-11-19", "text": "Ukraine uses Western long-range missiles to strike Russian territory", "category": "military", "source_url": ""},
-        {"date": "2024-06-15", "text": "Switzerland hosts international peace summit; Russia not invited", "category": "diplomatic", "source_url": ""},
-        {"date": "2023-06-06", "text": "Kakhovka Dam destroyed, causing massive flooding", "category": "humanitarian", "source_url": ""},
-        {"date": "2022-11-11", "text": "Ukraine liberates Kherson in major counteroffensive success", "category": "military", "source_url": ""},
-        {"date": "2022-02-24", "text": "Russia launches full-scale invasion of Ukraine", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "Missile strikes in Kharkiv result in multiple casualties",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-06",
+          "text": "Ukraine and Russia conduct large prisoner exchange of 500 each",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-24",
+          "text": "Fourth anniversary of full-scale invasion marked",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-12-15",
+          "text": "Winter energy infrastructure strikes intensify on both sides",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-08-06",
+          "text": "Ukraine launches cross-border incursion into Kursk region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-11-19",
+          "text": "Ukraine uses Western long-range missiles to strike Russian territory",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-06-15",
+          "text": "Switzerland hosts international peace summit; Russia not invited",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2023-06-06",
+          "text": "Kakhovka Dam destroyed, causing massive flooding",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2022-11-11",
+          "text": "Ukraine liberates Kherson in major counteroffensive success",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2022-02-24",
+          "text": "Russia launches full-scale invasion of Ukraine",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation"],
+      "related_situations": [
+        "economy-inflation"
+      ],
       "primary_sources": [
-        {"name": "BBC News", "url": "https://www.bbc.com/news/world-60525350"},
-        {"name": "Institute for the Study of War", "url": "https://www.understandingwar.org/"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"}
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-60525350"
+        },
+        {
+          "name": "Institute for the Study of War",
+          "url": "https://www.understandingwar.org/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        }
       ]
     },
     {
@@ -158,23 +311,71 @@
         "Status": "Ongoing, with periodic pauses and escalations"
       },
       "key_parties": [
-        {"name": "Donald Trump", "role": "U.S. President directing tariff policy"},
-        {"name": "Mark Carney", "role": "Canadian Prime Minister, retaliatory trade policy"},
-        {"name": "U.S. Customs & Border Protection", "role": "Implementing tariff collection"},
-        {"name": "Canadian Manufacturers", "role": "Affected by cross-border trade disruption"}
+        {
+          "name": "Donald Trump",
+          "role": "U.S. President directing tariff policy"
+        },
+        {
+          "name": "Mark Carney",
+          "role": "Canadian Prime Minister, retaliatory trade policy"
+        },
+        {
+          "name": "U.S. Customs & Border Protection",
+          "role": "Implementing tariff collection"
+        },
+        {
+          "name": "Canadian Manufacturers",
+          "role": "Affected by cross-border trade disruption"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-06", "text": "Customs developing new tariff refund process amid legal challenges", "category": "legal", "source_url": ""},
-        {"date": "2026-02-25", "text": "25% tariffs on Canadian goods take effect after pause expires", "category": "economic", "source_url": ""},
-        {"date": "2026-02-04", "text": "Trump pauses Canada/Mexico tariffs for 30 days during negotiations", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-01-20", "text": "Trump signs executive orders imposing broad tariff measures", "category": "political", "source_url": ""},
-        {"date": "2025-11-25", "text": "Trump announces 25% tariff threat on Canada and Mexico", "category": "political", "source_url": ""}
+        {
+          "date": "2026-03-06",
+          "text": "Customs developing new tariff refund process amid legal challenges",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-25",
+          "text": "25% tariffs on Canadian goods take effect after pause expires",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-04",
+          "text": "Trump pauses Canada/Mexico tariffs for 30 days during negotiations",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-20",
+          "text": "Trump signs executive orders imposing broad tariff measures",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11-25",
+          "text": "Trump announces 25% tariff threat on Canada and Mexico",
+          "category": "political",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation"],
+      "related_situations": [
+        "economy-inflation"
+      ],
       "primary_sources": [
-        {"name": "Globe and Mail", "url": "https://www.theglobeandmail.com/topics/tariffs/"},
-        {"name": "Reuters", "url": "https://www.reuters.com/business/"},
-        {"name": "The Hill", "url": "https://thehill.com/topic/trade/"}
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/topics/tariffs/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/topic/trade/"
+        }
       ]
     },
     {
@@ -213,22 +414,68 @@
         "Status": "Rates elevated, uncertainty high"
       },
       "key_parties": [
-        {"name": "Bank of Canada", "role": "Setting Canadian monetary policy"},
-        {"name": "Federal Reserve", "role": "Setting U.S. monetary policy"},
-        {"name": "OPEC+", "role": "Oil production decisions affecting prices"}
+        {
+          "name": "Bank of Canada",
+          "role": "Setting Canadian monetary policy"
+        },
+        {
+          "name": "Federal Reserve",
+          "role": "Setting U.S. monetary policy"
+        },
+        {
+          "name": "OPEC+",
+          "role": "Oil production decisions affecting prices"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-06", "text": "U.S. economy reports loss of 92,000 jobs in February, raising recession concerns", "category": "economic", "source_url": ""},
-        {"date": "2026-03-04", "text": "Oil prices surge amid Gulf production warnings from Qatar", "category": "economic", "source_url": ""},
-        {"date": "2026-02-25", "text": "New tariffs on Canada take effect, raising import cost concerns", "category": "economic", "source_url": ""},
-        {"date": "2025-12-11", "text": "Bank of Canada cuts rates by 50 basis points citing slowing growth", "category": "economic", "source_url": ""},
-        {"date": "2025-09-18", "text": "Federal Reserve begins rate cutting cycle", "category": "economic", "source_url": ""}
+        {
+          "date": "2026-03-06",
+          "text": "U.S. economy reports loss of 92,000 jobs in February, raising recession concerns",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-04",
+          "text": "Oil prices surge amid Gulf production warnings from Qatar",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-25",
+          "text": "New tariffs on Canada take effect, raising import cost concerns",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-12-11",
+          "text": "Bank of Canada cuts rates by 50 basis points citing slowing growth",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-09-18",
+          "text": "Federal Reserve begins rate cutting cycle",
+          "category": "economic",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["us-tariffs-trade", "iran-conflict"],
+      "related_situations": [
+        "us-tariffs-trade",
+        "iran-conflict"
+      ],
       "primary_sources": [
-        {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/"},
-        {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/"},
-        {"name": "BBC Business", "url": "https://www.bbc.com/news/business"}
+        {
+          "name": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/"
+        },
+        {
+          "name": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/"
+        },
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/business"
+        }
       ]
     },
     {
@@ -237,7 +484,7 @@
       "status": "active",
       "phase": "expanded conflict",
       "started": "2023-10-07",
-      "last_material_update": "",
+      "last_material_update": "2026-03-08T22:24:49.132828-04:00",
       "summary": "The Israel-Hamas conflict that began October 7, 2023 has expanded into a broader regional confrontation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas launched an unprecedented attack on southern Israel on October 7, 2023, killing approximately 1,200 people and taking over 250 hostages. Israel's military response in Gaza has caused massive civilian casualties (Gaza health authorities report over 30,000 deaths), displaced nearly the entire population, and drawn international legal scrutiny including an ICJ genocide case. The conflict expanded with Israeli operations in Lebanon against Hezbollah. By early 2026, the situation has merged with the broader U.S.-Iran military confrontation, complicating any diplomatic resolution.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack represented the deadliest day in Israeli history and triggered the largest Israeli military operation in Gaza since 1967. The humanitarian crisis in Gaza has been described by UN agencies as unprecedented.",
@@ -257,7 +504,9 @@
         "Whether any ceasefire framework is viable while Iran conflict continues",
         "Fate of remaining hostages"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Recent armed confrontations in the West Bank and military action in Lebanon underscore escalating violence affecting both Palestinians and civilians in the region."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Israeli Deaths (Oct 7)": "Approximately 1,200",
@@ -267,27 +516,93 @@
         "Status": "Active operations, merged with Iran conflict"
       },
       "key_parties": [
-        {"name": "Israel / IDF", "role": "Military operations in Gaza and Lebanon"},
-        {"name": "Hamas", "role": "Governing authority in Gaza, militant operations"},
-        {"name": "Palestinian Civilians", "role": "Bearing the humanitarian cost of the conflict"},
-        {"name": "United Nations", "role": "Humanitarian coordination, legal proceedings"},
-        {"name": "Egypt / Qatar", "role": "Mediators in hostage and ceasefire negotiations"}
+        {
+          "name": "Israel / IDF",
+          "role": "Military operations in Gaza and Lebanon"
+        },
+        {
+          "name": "Hamas",
+          "role": "Governing authority in Gaza, militant operations"
+        },
+        {
+          "name": "Palestinian Civilians",
+          "role": "Bearing the humanitarian cost of the conflict"
+        },
+        {
+          "name": "United Nations",
+          "role": "Humanitarian coordination, legal proceedings"
+        },
+        {
+          "name": "Egypt / Qatar",
+          "role": "Mediators in hostage and ceasefire negotiations"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Israeli special forces conduct operations in Lebanon", "category": "military", "source_url": ""},
-        {"date": "2026-01-19", "text": "Ceasefire agreement reached, hostage releases begin", "category": "diplomatic", "source_url": ""},
-        {"date": "2025-09-23", "text": "Israel launches major military operation against Hezbollah in Lebanon", "category": "military", "source_url": ""},
-        {"date": "2025-05-20", "text": "ICJ orders Israel to halt Rafah offensive", "category": "legal", "source_url": ""},
-        {"date": "2024-10-07", "text": "First anniversary of October 7 attack marked globally", "category": "political", "source_url": ""},
-        {"date": "2024-01-26", "text": "ICJ rules South Africa's genocide case can proceed", "category": "legal", "source_url": ""},
-        {"date": "2023-10-27", "text": "Israeli ground invasion of Gaza begins", "category": "military", "source_url": ""},
-        {"date": "2023-10-07", "text": "Hamas launches attack on southern Israel, over 1,200 killed, 250+ taken hostage", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "Israeli special forces conduct operations in Lebanon",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-19",
+          "text": "Ceasefire agreement reached, hostage releases begin",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-09-23",
+          "text": "Israel launches major military operation against Hezbollah in Lebanon",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-05-20",
+          "text": "ICJ orders Israel to halt Rafah offensive",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2024-10-07",
+          "text": "First anniversary of October 7 attack marked globally",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2024-01-26",
+          "text": "ICJ rules South Africa's genocide case can proceed",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-27",
+          "text": "Israeli ground invasion of Gaza begins",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-07",
+          "text": "Hamas launches attack on southern Israel, over 1,200 killed, 250+ taken hostage",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["iran-conflict"],
+      "related_situations": [
+        "iran-conflict"
+      ],
       "primary_sources": [
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/israel-palestine-conflict/"},
-        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/c2vdnvdg6xxt"},
-        {"name": "UNRWA", "url": "https://www.unrwa.org/"}
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/israel-palestine-conflict/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/topics/c2vdnvdg6xxt"
+        },
+        {
+          "name": "UNRWA",
+          "url": "https://www.unrwa.org/"
+        }
       ]
     },
     {
@@ -326,23 +641,69 @@
         "Status": "Active conflict, limited international response"
       },
       "key_parties": [
-        {"name": "SAF (Sudanese Armed Forces)", "role": "Government military led by Gen. al-Burhan"},
-        {"name": "RSF (Rapid Support Forces)", "role": "Paramilitary led by Gen. Hemedti"},
-        {"name": "South Sudan Government", "role": "Managing fragile peace, President Kiir"},
-        {"name": "United Nations", "role": "Humanitarian coordination, peacekeeping"}
+        {
+          "name": "SAF (Sudanese Armed Forces)",
+          "role": "Government military led by Gen. al-Burhan"
+        },
+        {
+          "name": "RSF (Rapid Support Forces)",
+          "role": "Paramilitary led by Gen. Hemedti"
+        },
+        {
+          "name": "South Sudan Government",
+          "role": "Managing fragile peace, President Kiir"
+        },
+        {
+          "name": "United Nations",
+          "role": "Humanitarian coordination, peacekeeping"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-07", "text": "Escalating violence in South Sudan raises concerns of return to civil war", "category": "military", "source_url": ""},
-        {"date": "2025-11-15", "text": "UN warns Sudan facing world's worst hunger crisis", "category": "humanitarian", "source_url": ""},
-        {"date": "2025-06-15", "text": "RSF captures key city in Darfur region", "category": "military", "source_url": ""},
-        {"date": "2024-04-15", "text": "First anniversary of Sudan conflict — over 8 million displaced", "category": "humanitarian", "source_url": ""},
-        {"date": "2023-04-15", "text": "Fighting erupts between SAF and RSF in Khartoum", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-07",
+          "text": "Escalating violence in South Sudan raises concerns of return to civil war",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11-15",
+          "text": "UN warns Sudan facing world's worst hunger crisis",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2025-06-15",
+          "text": "RSF captures key city in Darfur region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-04-15",
+          "text": "First anniversary of Sudan conflict — over 8 million displaced",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2023-04-15",
+          "text": "Fighting erupts between SAF and RSF in Khartoum",
+          "category": "military",
+          "source_url": ""
+        }
       ],
       "related_situations": [],
       "primary_sources": [
-        {"name": "UNHCR", "url": "https://www.unhcr.org/emergencies/sudan-crisis"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/sudan/"},
-        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/cq23pdgvgm8t"}
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/emergencies/sudan-crisis"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/sudan/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/topics/cq23pdgvgm8t"
+        }
       ]
     },
     {
@@ -380,23 +741,71 @@
         "Status": "Frameworks emerging globally"
       },
       "key_parties": [
-        {"name": "European Union", "role": "Enacted world's most comprehensive AI law"},
-        {"name": "U.S. Administration", "role": "Favoring industry self-regulation"},
-        {"name": "Canadian Government", "role": "Proposed AI and Data Act"},
-        {"name": "OpenAI / Anthropic / Google", "role": "Major AI developers engaged in safety discussions"}
+        {
+          "name": "European Union",
+          "role": "Enacted world's most comprehensive AI law"
+        },
+        {
+          "name": "U.S. Administration",
+          "role": "Favoring industry self-regulation"
+        },
+        {
+          "name": "Canadian Government",
+          "role": "Proposed AI and Data Act"
+        },
+        {
+          "name": "OpenAI / Anthropic / Google",
+          "role": "Major AI developers engaged in safety discussions"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "London mayor invites Anthropic to establish AI hub in London", "category": "political", "source_url": ""},
-        {"date": "2025-08-01", "text": "EU AI Act prohibited practices provisions take effect", "category": "regulatory", "source_url": ""},
-        {"date": "2025-02-01", "text": "EU AI Act general-purpose AI rules begin enforcement", "category": "regulatory", "source_url": ""},
-        {"date": "2024-03-13", "text": "European Parliament approves AI Act", "category": "regulatory", "source_url": ""},
-        {"date": "2023-10-30", "text": "Biden signs AI executive order on safety standards", "category": "political", "source_url": ""},
-        {"date": "2023-06-14", "text": "EU Parliament votes to advance AI Act", "category": "regulatory", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "London mayor invites Anthropic to establish AI hub in London",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-08-01",
+          "text": "EU AI Act prohibited practices provisions take effect",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-02-01",
+          "text": "EU AI Act general-purpose AI rules begin enforcement",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2024-03-13",
+          "text": "European Parliament approves AI Act",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-30",
+          "text": "Biden signs AI executive order on safety standards",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2023-06-14",
+          "text": "EU Parliament votes to advance AI Act",
+          "category": "regulatory",
+          "source_url": ""
+        }
       ],
       "related_situations": [],
       "primary_sources": [
-        {"name": "BBC Technology", "url": "https://www.bbc.com/news/technology"},
-        {"name": "Ars Technica", "url": "https://arstechnica.com/ai/"}
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.com/news/technology"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/"
+        }
       ]
     },
     {
@@ -434,24 +843,77 @@
         "Status": "Gap widening between pledges and action"
       },
       "key_parties": [
-        {"name": "UNFCCC", "role": "International climate negotiations framework"},
-        {"name": "U.S. Administration", "role": "Rolling back climate policies"},
-        {"name": "European Union", "role": "Advancing Green Deal and emissions targets"},
-        {"name": "Canada", "role": "Balancing climate targets with energy sector"}
+        {
+          "name": "UNFCCC",
+          "role": "International climate negotiations framework"
+        },
+        {
+          "name": "U.S. Administration",
+          "role": "Rolling back climate policies"
+        },
+        {
+          "name": "European Union",
+          "role": "Advancing Green Deal and emissions targets"
+        },
+        {
+          "name": "Canada",
+          "role": "Balancing climate targets with energy sector"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Trump administration challenges Vermont's climate lawsuit against fossil fuel companies", "category": "legal", "source_url": ""},
-        {"date": "2025-11-15", "text": "COP30 negotiations in Brazil focus on climate finance", "category": "diplomatic", "source_url": ""},
-        {"date": "2025-01-20", "text": "Trump begins executive orders rolling back climate regulations", "category": "political", "source_url": ""},
-        {"date": "2024-11-11", "text": "COP29 in Baku produces modest climate finance agreement", "category": "diplomatic", "source_url": ""},
-        {"date": "2024-01-12", "text": "2023 confirmed as hottest year in recorded history", "category": "environmental", "source_url": ""},
-        {"date": "2015-12-12", "text": "Paris Climate Agreement adopted by 196 parties", "category": "diplomatic", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "Trump administration challenges Vermont's climate lawsuit against fossil fuel companies",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11-15",
+          "text": "COP30 negotiations in Brazil focus on climate finance",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-01-20",
+          "text": "Trump begins executive orders rolling back climate regulations",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2024-11-11",
+          "text": "COP29 in Baku produces modest climate finance agreement",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2024-01-12",
+          "text": "2023 confirmed as hottest year in recorded history",
+          "category": "environmental",
+          "source_url": ""
+        },
+        {
+          "date": "2015-12-12",
+          "text": "Paris Climate Agreement adopted by 196 parties",
+          "category": "diplomatic",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation"],
+      "related_situations": [
+        "economy-inflation"
+      ],
       "primary_sources": [
-        {"name": "BBC Environment", "url": "https://www.bbc.com/news/science_and_environment"},
-        {"name": "The Guardian", "url": "https://www.theguardian.com/environment/climate-crisis"},
-        {"name": "Environment Canada", "url": "https://www.canada.ca/en/environment-climate-change.html"}
+        {
+          "name": "BBC Environment",
+          "url": "https://www.bbc.com/news/science_and_environment"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/environment/climate-crisis"
+        },
+        {
+          "name": "Environment Canada",
+          "url": "https://www.canada.ca/en/environment-climate-change.html"
+        }
       ]
     }
   ]
