@@ -6,14 +6,32 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "",
+      "last_material_update": "2026-03-09T12:18:58.890103-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
-      "why_it_matters": ["Global oil prices directly affected — Strait of Hormuz closed", "Canadian travelers and military personnel potentially impacted", "Risk of wider regional war involving Gulf states, Lebanon, and proxies"],
-      "watchpoints": ["Any ceasefire or mediation proposal from Gulf states or China", "Further strikes on Iranian nuclear infrastructure", "Strait of Hormuz reopening status", "Hezbollah escalation from Lebanon", "U.S. investigation into Minab school strike"],
-      "uncertainties": ["Exact damage to Iranian nuclear facilities", "Whether Hezbollah or other proxies will fully enter the conflict", "Duration of Strait of Hormuz closure", "Possibility of U.S. ground engagement", "Cohesion of Iranian state under IRGC-led triumvirate"],
-      "what_changed_today": [],
+      "why_it_matters": [
+        "Global oil prices directly affected — Strait of Hormuz closed",
+        "Canadian travelers and military personnel potentially impacted",
+        "Risk of wider regional war involving Gulf states, Lebanon, and proxies"
+      ],
+      "watchpoints": [
+        "Any ceasefire or mediation proposal from Gulf states or China",
+        "Further strikes on Iranian nuclear infrastructure",
+        "Strait of Hormuz reopening status",
+        "Hezbollah escalation from Lebanon",
+        "U.S. investigation into Minab school strike"
+      ],
+      "uncertainties": [
+        "Exact damage to Iranian nuclear facilities",
+        "Whether Hezbollah or other proxies will fully enter the conflict",
+        "Duration of Strait of Hormuz closure",
+        "Possibility of U.S. ground engagement",
+        "Cohesion of Iranian state under IRGC-led triumvirate"
+      ],
+      "what_changed_today": [
+        "U.S. intercepts encrypted Iranian communications, prompting national security review."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -25,36 +43,148 @@
         "Daily U.S. Cost": "Estimated ~$1 billion/day"
       },
       "key_parties": [
-        {"name": "United States", "role": "Co-leading military strikes on Iranian targets"},
-        {"name": "Israel", "role": "Primary strike force; launched Operation Lion's Roar"},
-        {"name": "Iran", "role": "Retaliatory missile/drone attacks; closed Strait of Hormuz"},
-        {"name": "Mojtaba Khamenei", "role": "New Supreme Leader, heading ruling triumvirate"},
-        {"name": "IRGC", "role": "Iran's primary military force conducting operations"},
-        {"name": "Hezbollah", "role": "Opened second front with rocket fire into Israel from March 5"},
-        {"name": "Gulf States", "role": "Bahrain, Kuwait, Qatar, Saudi Arabia affected by strikes"}
+        {
+          "name": "United States",
+          "role": "Co-leading military strikes on Iranian targets"
+        },
+        {
+          "name": "Israel",
+          "role": "Primary strike force; launched Operation Lion's Roar"
+        },
+        {
+          "name": "Iran",
+          "role": "Retaliatory missile/drone attacks; closed Strait of Hormuz"
+        },
+        {
+          "name": "Mojtaba Khamenei",
+          "role": "New Supreme Leader, heading ruling triumvirate"
+        },
+        {
+          "name": "IRGC",
+          "role": "Iran's primary military force conducting operations"
+        },
+        {
+          "name": "Hezbollah",
+          "role": "Opened second front with rocket fire into Israel from March 5"
+        },
+        {
+          "name": "Gulf States",
+          "role": "Bahrain, Kuwait, Qatar, Saudi Arabia affected by strikes"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Bahraini oil refinery and desalination plants attacked by Iranian drones; IRGC declares 'new chapter' in energy conflict", "category": "military", "source_url": ""},
-        {"date": "2026-03-07", "text": "New wave of Iranian missiles targets Israel and Gulf shipping; NATO shifts air surveillance to Iranian theater", "category": "military", "source_url": ""},
-        {"date": "2026-03-06", "text": "Trump demands unconditional surrender; Iran rejects; Iran-aligned militias increase attacks in Iraq", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-03-05", "text": "Hezbollah initiates large-scale rocket fire into Israel, triggering Israeli strikes on Lebanon", "category": "military", "source_url": ""},
-        {"date": "2026-03-04", "text": "Iran launches additional strikes on Israel and U.S. bases; further Israeli strikes on Hezbollah targets", "category": "military", "source_url": ""},
-        {"date": "2026-03-03", "text": "Mojtaba Khamenei named successor, leading ruling triumvirate amid internet blackouts", "category": "political", "source_url": ""},
-        {"date": "2026-03-02", "text": "Israeli strikes hit underground bunkers and oil facilities; missile debris causes civilian injuries in Jordan and Qatar", "category": "military", "source_url": ""},
-        {"date": "2026-03-01", "text": "Iran closes Strait of Hormuz; strikes U.S. bases in Qatar, Bahrain, UAE, and Saudi Arabia", "category": "military", "source_url": ""},
-        {"date": "2026-02-28", "text": "U.S. and Israel launch coordinated strikes; Supreme Leader Khamenei killed; Iran vows retaliation", "category": "military", "source_url": ""},
-        {"date": "2026-02-28", "text": "Coalition strike hits building near girls' school in Minab, killing 160+ civilians; U.S. investigation launched", "category": "humanitarian", "source_url": ""},
-        {"date": "2026-02-14", "text": "Over one million Iranians rally globally supporting political change", "category": "political", "source_url": ""},
-        {"date": "2026-02-04", "text": "Indirect nuclear talks in Muscat collapse; U.S. demands complete halt to enrichment", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-01-25", "text": "Nationwide protests erupt in Iran driven by economic collapse", "category": "political", "source_url": ""},
-        {"date": "2025-10-15", "text": "UK, Germany, France trigger JCPOA snapback mechanism, reimposing UN sanctions", "category": "diplomatic", "source_url": ""}
+        {
+          "date": "2026-03-09",
+          "text": "U.S. Intercepts Iranian Communications Potentially Triggering Sleeper Cells",
+          "category": "military",
+          "source_url": "https://abcnews.com/US/iran-activating-sleeper-cells-alert/story?id=130897687"
+        },
+        {
+          "date": "2026-03-08",
+          "text": "Bahraini oil refinery and desalination plants attacked by Iranian drones; IRGC declares 'new chapter' in energy conflict",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-07",
+          "text": "New wave of Iranian missiles targets Israel and Gulf shipping; NATO shifts air surveillance to Iranian theater",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-06",
+          "text": "Trump demands unconditional surrender; Iran rejects; Iran-aligned militias increase attacks in Iraq",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-05",
+          "text": "Hezbollah initiates large-scale rocket fire into Israel, triggering Israeli strikes on Lebanon",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-04",
+          "text": "Iran launches additional strikes on Israel and U.S. bases; further Israeli strikes on Hezbollah targets",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-03",
+          "text": "Mojtaba Khamenei named successor, leading ruling triumvirate amid internet blackouts",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-02",
+          "text": "Israeli strikes hit underground bunkers and oil facilities; missile debris causes civilian injuries in Jordan and Qatar",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-01",
+          "text": "Iran closes Strait of Hormuz; strikes U.S. bases in Qatar, Bahrain, UAE, and Saudi Arabia",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-28",
+          "text": "U.S. and Israel launch coordinated strikes; Supreme Leader Khamenei killed; Iran vows retaliation",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-28",
+          "text": "Coalition strike hits building near girls' school in Minab, killing 160+ civilians; U.S. investigation launched",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-14",
+          "text": "Over one million Iranians rally globally supporting political change",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-04",
+          "text": "Indirect nuclear talks in Muscat collapse; U.S. demands complete halt to enrichment",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-25",
+          "text": "Nationwide protests erupt in Iran driven by economic collapse",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-15",
+          "text": "UK, Germany, France trigger JCPOA snapback mechanism, reimposing UN sanctions",
+          "category": "diplomatic",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation", "middle-east-israel-gaza"],
+      "related_situations": [
+        "economy-inflation",
+        "middle-east-israel-gaza"
+      ],
       "primary_sources": [
-        {"name": "BBC News", "url": "https://www.bbc.com/news/world/middle_east"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/iran/"},
-        {"name": "Reuters", "url": "https://www.reuters.com/world/middle-east/"},
-        {"name": "AP News", "url": "https://apnews.com/hub/iran"}
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world/middle_east"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/iran/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/hub/iran"
+        }
       ]
     },
     {
@@ -67,9 +197,23 @@
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
-      "why_it_matters": ["European security architecture fundamentally changed", "Global food and energy supply disruptions", "Canadian military and diplomatic commitments to Ukraine"],
-      "watchpoints": ["Frontline movements in Donetsk and Zaporizhzhia", "Status of Western military aid amid Iran conflict diversion", "Outcome of postponed peace talks", "Ukrainian drone strikes on Russian energy infrastructure"],
-      "uncertainties": ["Exact military death tolls on both sides", "Whether U.S. aid levels will remain consistent", "Sustainability of Ukrainian manpower", "Stability of satellite communications for front-line operations"],
+      "why_it_matters": [
+        "European security architecture fundamentally changed",
+        "Global food and energy supply disruptions",
+        "Canadian military and diplomatic commitments to Ukraine"
+      ],
+      "watchpoints": [
+        "Frontline movements in Donetsk and Zaporizhzhia",
+        "Status of Western military aid amid Iran conflict diversion",
+        "Outcome of postponed peace talks",
+        "Ukrainian drone strikes on Russian energy infrastructure"
+      ],
+      "uncertainties": [
+        "Exact military death tolls on both sides",
+        "Whether U.S. aid levels will remain consistent",
+        "Sustainability of Ukrainian manpower",
+        "Stability of satellite communications for front-line operations"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -82,39 +226,161 @@
         "Energy Capacity": "70% of Ukrainian generation capacity destroyed"
       },
       "key_parties": [
-        {"name": "Ukraine", "role": "Defending sovereignty; producing 50,000 drone interceptors monthly"},
-        {"name": "Russia", "role": "Occupying ~20% of Ukraine; conducting missile/drone campaigns"},
-        {"name": "Volodymyr Zelenskyy", "role": "President of Ukraine"},
-        {"name": "Vladimir Putin", "role": "President of Russia"},
-        {"name": "NATO", "role": "Providing military aid, training, intelligence"},
-        {"name": "European Union", "role": "Sanctions against Russia; economic assistance"}
+        {
+          "name": "Ukraine",
+          "role": "Defending sovereignty; producing 50,000 drone interceptors monthly"
+        },
+        {
+          "name": "Russia",
+          "role": "Occupying ~20% of Ukraine; conducting missile/drone campaigns"
+        },
+        {
+          "name": "Volodymyr Zelenskyy",
+          "role": "President of Ukraine"
+        },
+        {
+          "name": "Vladimir Putin",
+          "role": "President of Russia"
+        },
+        {
+          "name": "NATO",
+          "role": "Providing military aid, training, intelligence"
+        },
+        {
+          "name": "European Union",
+          "role": "Sanctions against Russia; economic assistance"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-08", "text": "Zelenskyy announces plans to send drone interception experts to Middle East", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-03-06", "text": "Elite Russian VDV units redeployed; major prisoner exchange of 1,000+ completed", "category": "military", "source_url": ""},
-        {"date": "2026-03-02", "text": "Ukrainian forces retake nine settlements in Zaporizhzhia region", "category": "military", "source_url": ""},
-        {"date": "2026-02-17", "text": "Ukraine liberates 33 square miles in one week following Starlink disruption", "category": "military", "source_url": ""},
-        {"date": "2026-02-01", "text": "Starlink blackout disrupts Russian command and control", "category": "military", "source_url": ""},
-        {"date": "2026-01-04", "text": "Russian forces redeploy to northern Kharkiv to create buffer zone", "category": "military", "source_url": ""},
-        {"date": "2025-10-15", "text": "UN reports every Ukrainian power plant has been damaged or destroyed", "category": "humanitarian", "source_url": ""},
-        {"date": "2025-03-10", "text": "Ukrainian drone strikes force ~40% of Russian oil refining offline", "category": "economic", "source_url": ""},
-        {"date": "2024-08-06", "text": "Ukraine launches cross-border offensive into Russia's Kursk region", "category": "military", "source_url": ""},
-        {"date": "2024-02-17", "text": "Russian forces capture Avdiivka after prolonged fighting", "category": "military", "source_url": ""},
-        {"date": "2023-07-17", "text": "Russia withdraws from Black Sea grain export deal", "category": "economic", "source_url": ""},
-        {"date": "2023-06-06", "text": "Kakhovka Dam destroyed, causing massive flooding", "category": "humanitarian", "source_url": ""},
-        {"date": "2022-11-11", "text": "Ukraine liberates Kherson city", "category": "military", "source_url": ""},
-        {"date": "2022-09-30", "text": "Russia announces illegal annexation of four Ukrainian regions", "category": "political", "source_url": ""},
-        {"date": "2022-09-06", "text": "Ukrainian Kharkiv counteroffensive liberates large areas", "category": "military", "source_url": ""},
-        {"date": "2022-04-02", "text": "Russian forces withdraw from Kyiv region", "category": "military", "source_url": ""},
-        {"date": "2022-03-02", "text": "UN General Assembly votes to condemn the invasion", "category": "diplomatic", "source_url": ""},
-        {"date": "2022-02-24", "text": "Russia launches full-scale invasion of Ukraine", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-08",
+          "text": "Zelenskyy announces plans to send drone interception experts to Middle East",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-06",
+          "text": "Elite Russian VDV units redeployed; major prisoner exchange of 1,000+ completed",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-02",
+          "text": "Ukrainian forces retake nine settlements in Zaporizhzhia region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-17",
+          "text": "Ukraine liberates 33 square miles in one week following Starlink disruption",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-01",
+          "text": "Starlink blackout disrupts Russian command and control",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-04",
+          "text": "Russian forces redeploy to northern Kharkiv to create buffer zone",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-15",
+          "text": "UN reports every Ukrainian power plant has been damaged or destroyed",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2025-03-10",
+          "text": "Ukrainian drone strikes force ~40% of Russian oil refining offline",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2024-08-06",
+          "text": "Ukraine launches cross-border offensive into Russia's Kursk region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-02-17",
+          "text": "Russian forces capture Avdiivka after prolonged fighting",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2023-07-17",
+          "text": "Russia withdraws from Black Sea grain export deal",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2023-06-06",
+          "text": "Kakhovka Dam destroyed, causing massive flooding",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2022-11-11",
+          "text": "Ukraine liberates Kherson city",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2022-09-30",
+          "text": "Russia announces illegal annexation of four Ukrainian regions",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2022-09-06",
+          "text": "Ukrainian Kharkiv counteroffensive liberates large areas",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2022-04-02",
+          "text": "Russian forces withdraw from Kyiv region",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2022-03-02",
+          "text": "UN General Assembly votes to condemn the invasion",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2022-02-24",
+          "text": "Russia launches full-scale invasion of Ukraine",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation"],
+      "related_situations": [
+        "economy-inflation"
+      ],
       "primary_sources": [
-        {"name": "BBC News", "url": "https://www.bbc.com/news/world-60525350"},
-        {"name": "Institute for the Study of War", "url": "https://www.understandingwar.org/"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"},
-        {"name": "UN OHCHR", "url": "https://www.ohchr.org/en/news/ukraine"}
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-60525350"
+        },
+        {
+          "name": "Institute for the Study of War",
+          "url": "https://www.understandingwar.org/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+        },
+        {
+          "name": "UN OHCHR",
+          "url": "https://www.ohchr.org/en/news/ukraine"
+        }
       ]
     },
     {
@@ -127,9 +393,23 @@
       "summary": "U.S. tariff policy is in flux after the Supreme Court struck down most IEEPA tariffs in February 2026, replaced by a temporary 10% global tariff under Section 122.",
       "catch_up_summary": "The Trump administration imposed sweeping tariffs starting January 2025, hitting Canada, Mexico, and China hardest. Average effective tariff rates peaked at 27% in April 2025. On February 20, 2026, the Supreme Court ruled IEEPA-based tariffs illegal, creating a $130 billion refund liability. The administration immediately imposed a new 10% global tariff under Section 122 (effective February 24), valid for 150 days. Twenty-four states are suing to block the new tariffs. The tariffs have added an estimated 0.5 percentage points to core inflation and reduced annual household income by roughly $2,100. Canada-U.S. trade relations remain strained with retaliatory measures in place.",
       "background": "U.S. protectionist trade policy expanded significantly under the second Trump administration, using emergency powers to impose broad tariffs. The Supreme Court ruling created unprecedented legal uncertainty. A USMCA review is scheduled for mid-2026.",
-      "why_it_matters": ["Direct impact on Canadian exporters and Bay of Quinte manufacturers", "Consumer prices rising from tariff pass-through", "Canada-U.S. trade relationship under unprecedented legal and economic strain"],
-      "watchpoints": ["Whether Section 122 tariffs extend beyond 150 days", "USMCA review launch in mid-2026", "24-state lawsuit outcomes", "Impact on March jobs and inflation data", "Threatened 200% tariff on French alcohol"],
-      "uncertainties": ["Treasury's plan for $130B IEEPA refund without budget destabilization", "Whether tariff escalation triggers broader retaliation", "Full economic impact on consumers and exporters"],
+      "why_it_matters": [
+        "Direct impact on Canadian exporters and Bay of Quinte manufacturers",
+        "Consumer prices rising from tariff pass-through",
+        "Canada-U.S. trade relationship under unprecedented legal and economic strain"
+      ],
+      "watchpoints": [
+        "Whether Section 122 tariffs extend beyond 150 days",
+        "USMCA review launch in mid-2026",
+        "24-state lawsuit outcomes",
+        "Impact on March jobs and inflation data",
+        "Threatened 200% tariff on French alcohol"
+      ],
+      "uncertainties": [
+        "Treasury's plan for $130B IEEPA refund without budget destabilization",
+        "Whether tariff escalation triggers broader retaliation",
+        "Full economic impact on consumers and exporters"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "Current Global Tariff": "10% temporary (Section 122, Feb 24, 2026)",
@@ -142,32 +422,122 @@
         "Vehicle Price Increase": "~12.4% ($6,000 per average car)"
       },
       "key_parties": [
-        {"name": "Trump Administration", "role": "Imposing tariffs via executive action"},
-        {"name": "U.S. Supreme Court", "role": "Struck down IEEPA tariffs Feb 20, 2026"},
-        {"name": "Canada", "role": "Major trading partner with retaliatory tariffs"},
-        {"name": "Mark Carney", "role": "Canadian PM directing trade response"},
-        {"name": "China", "role": "Primary target of escalated duties"},
-        {"name": "24 U.S. States", "role": "Filing lawsuits to block new tariffs"}
+        {
+          "name": "Trump Administration",
+          "role": "Imposing tariffs via executive action"
+        },
+        {
+          "name": "U.S. Supreme Court",
+          "role": "Struck down IEEPA tariffs Feb 20, 2026"
+        },
+        {
+          "name": "Canada",
+          "role": "Major trading partner with retaliatory tariffs"
+        },
+        {
+          "name": "Mark Carney",
+          "role": "Canadian PM directing trade response"
+        },
+        {
+          "name": "China",
+          "role": "Primary target of escalated duties"
+        },
+        {
+          "name": "24 U.S. States",
+          "role": "Filing lawsuits to block new tariffs"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-04", "text": "U.S. threatens 500% tariff on Russian-origin goods", "category": "economic", "source_url": ""},
-        {"date": "2026-02-24", "text": "New 10% global tariff under Section 122 takes effect for 150 days", "category": "regulatory", "source_url": ""},
-        {"date": "2026-02-20", "text": "Supreme Court strikes down IEEPA tariffs; $130B refund ordered", "category": "legal", "source_url": ""},
-        {"date": "2026-01-01", "text": "25% tariffs on advanced computing chips take effect", "category": "regulatory", "source_url": ""},
-        {"date": "2025-10-01", "text": "100% tariff on pharmaceuticals without U.S. manufacturing takes effect", "category": "economic", "source_url": ""},
-        {"date": "2025-08-29", "text": "De minimis exemption for small-value imports suspended", "category": "regulatory", "source_url": ""},
-        {"date": "2025-07-27", "text": "U.S. and EU reach deal avoiding 30% retaliatory tariffs", "category": "diplomatic", "source_url": ""},
-        {"date": "2025-07", "text": "Additional tariffs on 69 trading partners at 10-41%", "category": "economic", "source_url": ""},
-        {"date": "2025-04-02", "text": "'Liberation Day' — 10% global tariffs announced using IEEPA", "category": "regulatory", "source_url": ""},
-        {"date": "2025-03-12", "text": "25% tariffs on steel and aluminum under Section 232", "category": "economic", "source_url": ""},
-        {"date": "2025-02-01", "text": "25% tariffs on Canada/Mexico, 10% on China citing fentanyl", "category": "economic", "source_url": ""},
-        {"date": "2025-01-20", "text": "Trump signs executive orders expanding tariff policies", "category": "political", "source_url": ""}
+        {
+          "date": "2026-03-04",
+          "text": "U.S. threatens 500% tariff on Russian-origin goods",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-24",
+          "text": "New 10% global tariff under Section 122 takes effect for 150 days",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-20",
+          "text": "Supreme Court strikes down IEEPA tariffs; $130B refund ordered",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-01",
+          "text": "25% tariffs on advanced computing chips take effect",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-01",
+          "text": "100% tariff on pharmaceuticals without U.S. manufacturing takes effect",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-08-29",
+          "text": "De minimis exemption for small-value imports suspended",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-07-27",
+          "text": "U.S. and EU reach deal avoiding 30% retaliatory tariffs",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-07",
+          "text": "Additional tariffs on 69 trading partners at 10-41%",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-04-02",
+          "text": "'Liberation Day' — 10% global tariffs announced using IEEPA",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-03-12",
+          "text": "25% tariffs on steel and aluminum under Section 232",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-02-01",
+          "text": "25% tariffs on Canada/Mexico, 10% on China citing fentanyl",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-01-20",
+          "text": "Trump signs executive orders expanding tariff policies",
+          "category": "political",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation", "iran-conflict"],
+      "related_situations": [
+        "economy-inflation",
+        "iran-conflict"
+      ],
       "primary_sources": [
-        {"name": "Globe and Mail", "url": "https://www.theglobeandmail.com/topics/tariffs/"},
-        {"name": "Tax Foundation", "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"},
-        {"name": "Reuters", "url": "https://www.reuters.com/business/"}
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/topics/tariffs/"
+        },
+        {
+          "name": "Tax Foundation",
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/"
+        }
       ]
     },
     {
@@ -180,9 +550,23 @@
       "summary": "A stagflationary shock combining weakening labor markets, elevated inflation from tariffs, and an energy crisis from the Iran conflict.",
       "catch_up_summary": "The global economy faces a stagflationary shock in early 2026. U.S. nonfarm payrolls fell by 92,000 in February (unemployment 4.4%). Oil prices surged toward $120/barrel after Iran closed the Strait of Hormuz. Global core inflation is 2.8% but U.S. core CPI remains at 3.2% due to tariff pass-through. The IMF projects 3.3% global growth. Stock markets are volatile — the Nikkei fell 5.2% and Kospi 6% on the energy spike. The Federal Reserve is holding rates while the ECB and Bank of England move toward easing. Tariffs have added 0.5 points to U.S. inflation. Economists warn the oil shock could add 40 basis points to global inflation for every 10% price increase.",
       "background": "Post-pandemic inflation surged in 2022, prompting aggressive rate hikes. By 2026, new supply shocks from tariffs and the Iran conflict threaten to reignite inflation just as labor markets weaken.",
-      "why_it_matters": ["Mortgage rates, food prices, and cost of living for Canadian families", "Job market stability threatened by combined shocks", "Bay of Quinte manufacturing and agriculture affected"],
-      "watchpoints": ["March jobs report and CPI data", "Any oil price spike above $120", "Federal Reserve and Bank of Canada rate decisions", "Q1 2026 global oil inventory report"],
-      "uncertainties": ["Duration of Iran-related oil shock", "Fed response to combined inflation and jobs weakness", "Consumer spending resilience", "Whether AI productivity gains will materialize or trigger correction"],
+      "why_it_matters": [
+        "Mortgage rates, food prices, and cost of living for Canadian families",
+        "Job market stability threatened by combined shocks",
+        "Bay of Quinte manufacturing and agriculture affected"
+      ],
+      "watchpoints": [
+        "March jobs report and CPI data",
+        "Any oil price spike above $120",
+        "Federal Reserve and Bank of Canada rate decisions",
+        "Q1 2026 global oil inventory report"
+      ],
+      "uncertainties": [
+        "Duration of Iran-related oil shock",
+        "Fed response to combined inflation and jobs weakness",
+        "Consumer spending resilience",
+        "Whether AI productivity gains will materialize or trigger correction"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "U.S. February Jobs": "-92,000 (Bureau of Labor Statistics)",
@@ -195,28 +579,98 @@
         "Gasoline Increase": "+34 cents/gallon in one week"
       },
       "key_parties": [
-        {"name": "Federal Reserve", "role": "Holding rates amid conflicting signals"},
-        {"name": "Bank of Canada", "role": "Navigating between inflation and sluggish growth"},
-        {"name": "ECB", "role": "Moving toward easing"},
-        {"name": "OPEC+", "role": "Oil production decisions"},
-        {"name": "IMF", "role": "Forecasting and advisory"}
+        {
+          "name": "Federal Reserve",
+          "role": "Holding rates amid conflicting signals"
+        },
+        {
+          "name": "Bank of Canada",
+          "role": "Navigating between inflation and sluggish growth"
+        },
+        {
+          "name": "ECB",
+          "role": "Moving toward easing"
+        },
+        {
+          "name": "OPEC+",
+          "role": "Oil production decisions"
+        },
+        {
+          "name": "IMF",
+          "role": "Forecasting and advisory"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-09", "text": "Global stock markets shudder; Nikkei falls 5.2%, Kospi 6% on energy spike", "category": "economic", "source_url": ""},
-        {"date": "2026-03-08", "text": "Bahrain declares force majeure after refinery attack", "category": "economic", "source_url": ""},
-        {"date": "2026-03-01", "text": "Strait of Hormuz closure triggers largest weekly oil gain in 6 years", "category": "economic", "source_url": ""},
-        {"date": "2026-02-27", "text": "U.S. jobs report shows -92,000; unemployment rises to 4.4%", "category": "economic", "source_url": ""},
-        {"date": "2026-02-24", "text": "Global 10% tariff implemented, adding price pressure", "category": "economic", "source_url": ""},
-        {"date": "2026-02-03", "text": "IMF raises 2026 growth forecast to 3.3%", "category": "economic", "source_url": ""},
-        {"date": "2025-12-11", "text": "Bank of Canada cuts rates by 50 basis points", "category": "economic", "source_url": ""},
-        {"date": "2025-09-18", "text": "Federal Reserve begins rate cutting cycle", "category": "economic", "source_url": ""}
+        {
+          "date": "2026-03-09",
+          "text": "Global stock markets shudder; Nikkei falls 5.2%, Kospi 6% on energy spike",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-08",
+          "text": "Bahrain declares force majeure after refinery attack",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-01",
+          "text": "Strait of Hormuz closure triggers largest weekly oil gain in 6 years",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-27",
+          "text": "U.S. jobs report shows -92,000; unemployment rises to 4.4%",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-24",
+          "text": "Global 10% tariff implemented, adding price pressure",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-03",
+          "text": "IMF raises 2026 growth forecast to 3.3%",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-12-11",
+          "text": "Bank of Canada cuts rates by 50 basis points",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-09-18",
+          "text": "Federal Reserve begins rate cutting cycle",
+          "category": "economic",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["iran-conflict", "us-tariffs-trade"],
+      "related_situations": [
+        "iran-conflict",
+        "us-tariffs-trade"
+      ],
       "primary_sources": [
-        {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/"},
-        {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/"},
-        {"name": "IMF", "url": "https://www.imf.org/"},
-        {"name": "Bloomberg", "url": "https://www.bloomberg.com/markets"}
+        {
+          "name": "Bank of Canada",
+          "url": "https://www.bankofcanada.ca/"
+        },
+        {
+          "name": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/"
+        },
+        {
+          "name": "IMF",
+          "url": "https://www.imf.org/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/markets"
+        }
       ]
     },
     {
@@ -229,9 +683,24 @@
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
-      "why_it_matters": ["Massive humanitarian crisis with 1.9 million displaced", "Canadian policy positions on Middle East affected", "Interconnected with Iran conflict; ceasefire at risk of collapse"],
-      "watchpoints": ["Israeli court ruling on aid agency ban petition", "Rafah Border Crossing reopening (scheduled mid-March)", "Next phase of hostage/prisoner exchanges", "Hezbollah rocket fire intensity", "Cairo Committee governance progress"],
-      "uncertainties": ["Whether ceasefire survives the broader Iran conflict", "Fate of remaining hostages", "Cairo Committee legitimacy on the ground", "Full implementation of weapons decommissioning"],
+      "why_it_matters": [
+        "Massive humanitarian crisis with 1.9 million displaced",
+        "Canadian policy positions on Middle East affected",
+        "Interconnected with Iran conflict; ceasefire at risk of collapse"
+      ],
+      "watchpoints": [
+        "Israeli court ruling on aid agency ban petition",
+        "Rafah Border Crossing reopening (scheduled mid-March)",
+        "Next phase of hostage/prisoner exchanges",
+        "Hezbollah rocket fire intensity",
+        "Cairo Committee governance progress"
+      ],
+      "uncertainties": [
+        "Whether ceasefire survives the broader Iran conflict",
+        "Fate of remaining hostages",
+        "Cairo Committee legitimacy on the ground",
+        "Full implementation of weapons decommissioning"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "Started": "October 7, 2023",
@@ -245,37 +714,147 @@
         "Ceasefire": "Fragile since October 2025; violations ongoing"
       },
       "key_parties": [
-        {"name": "Israel / IDF", "role": "Military operations; partial withdrawal under ceasefire"},
-        {"name": "Hamas", "role": "Governing Gaza; holding hostages; ceasefire party"},
-        {"name": "Palestinian Civilians", "role": "Bearing humanitarian cost; 90% displaced"},
-        {"name": "United States", "role": "Mediating; supervising Cairo Committee"},
-        {"name": "UNRWA", "role": "Primary aid agency; banned by Israel since March 2026"},
-        {"name": "Egypt / Qatar", "role": "Mediators in hostage and ceasefire negotiations"},
-        {"name": "Hezbollah", "role": "Broke ceasefire to fire rockets in support of Iran"}
+        {
+          "name": "Israel / IDF",
+          "role": "Military operations; partial withdrawal under ceasefire"
+        },
+        {
+          "name": "Hamas",
+          "role": "Governing Gaza; holding hostages; ceasefire party"
+        },
+        {
+          "name": "Palestinian Civilians",
+          "role": "Bearing humanitarian cost; 90% displaced"
+        },
+        {
+          "name": "United States",
+          "role": "Mediating; supervising Cairo Committee"
+        },
+        {
+          "name": "UNRWA",
+          "role": "Primary aid agency; banned by Israel since March 2026"
+        },
+        {
+          "name": "Egypt / Qatar",
+          "role": "Mediators in hostage and ceasefire negotiations"
+        },
+        {
+          "name": "Hezbollah",
+          "role": "Broke ceasefire to fire rockets in support of Iran"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-01", "text": "Israel's ban on 37 aid agencies including UNRWA takes effect; legal petitions filed", "category": "legal", "source_url": ""},
-        {"date": "2026-01-31", "text": "IDF launches airstrikes killing 32 in Gaza citing ceasefire violations", "category": "military", "source_url": ""},
-        {"date": "2026-01-26", "text": "IDF announces recovery of remains of final known hostage Ran Gvili", "category": "military", "source_url": ""},
-        {"date": "2026-01-16", "text": "U.S.-supervised Cairo Committee for Gaza governance holds first meeting", "category": "political", "source_url": ""},
-        {"date": "2026-01-01", "text": "Israel announces ban on 37 humanitarian agencies, effective March 1", "category": "political", "source_url": ""},
-        {"date": "2025-11-20", "text": "Gaza death toll exceeds 70,000; 90% of population displaced", "category": "humanitarian", "source_url": ""},
-        {"date": "2025-10-03", "text": "Comprehensive Israel-Hamas ceasefire signed; partial hostage releases begin", "category": "diplomatic", "source_url": ""},
-        {"date": "2024-11-27", "text": "Israel-Lebanon 60-day ceasefire agreed", "category": "diplomatic", "source_url": ""},
-        {"date": "2024-10-17", "text": "Hamas leader Yahya Sinwar killed in military operation", "category": "military", "source_url": ""},
-        {"date": "2024-09-27", "text": "Israel strikes Hezbollah HQ in Beirut; Hassan Nasrallah killed", "category": "military", "source_url": ""},
-        {"date": "2024-05-07", "text": "Israel begins Rafah offensive; over 1 million displaced", "category": "military", "source_url": ""},
-        {"date": "2024-01-26", "text": "ICJ rules South Africa's genocide case can proceed", "category": "legal", "source_url": ""},
-        {"date": "2023-10-27", "text": "Israeli ground invasion of Gaza begins", "category": "military", "source_url": ""},
-        {"date": "2023-10-09", "text": "Israel orders complete siege of Gaza; water, electricity, fuel cut off", "category": "humanitarian", "source_url": ""},
-        {"date": "2023-10-07", "text": "Hamas launches attack on southern Israel; ~1,200 killed, 251 hostages taken", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-01",
+          "text": "Israel's ban on 37 aid agencies including UNRWA takes effect; legal petitions filed",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-31",
+          "text": "IDF launches airstrikes killing 32 in Gaza citing ceasefire violations",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-26",
+          "text": "IDF announces recovery of remains of final known hostage Ran Gvili",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-16",
+          "text": "U.S.-supervised Cairo Committee for Gaza governance holds first meeting",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-01",
+          "text": "Israel announces ban on 37 humanitarian agencies, effective March 1",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11-20",
+          "text": "Gaza death toll exceeds 70,000; 90% of population displaced",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-03",
+          "text": "Comprehensive Israel-Hamas ceasefire signed; partial hostage releases begin",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2024-11-27",
+          "text": "Israel-Lebanon 60-day ceasefire agreed",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2024-10-17",
+          "text": "Hamas leader Yahya Sinwar killed in military operation",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-09-27",
+          "text": "Israel strikes Hezbollah HQ in Beirut; Hassan Nasrallah killed",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-05-07",
+          "text": "Israel begins Rafah offensive; over 1 million displaced",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2024-01-26",
+          "text": "ICJ rules South Africa's genocide case can proceed",
+          "category": "legal",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-27",
+          "text": "Israeli ground invasion of Gaza begins",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-09",
+          "text": "Israel orders complete siege of Gaza; water, electricity, fuel cut off",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-07",
+          "text": "Hamas launches attack on southern Israel; ~1,200 killed, 251 hostages taken",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["iran-conflict"],
+      "related_situations": [
+        "iran-conflict"
+      ],
       "primary_sources": [
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/israel-palestine-conflict/"},
-        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/c2vdnvdg6xxt"},
-        {"name": "UNRWA", "url": "https://www.unrwa.org/"},
-        {"name": "UN OCHA", "url": "https://www.ochaopt.org/"}
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/israel-palestine-conflict/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/topics/c2vdnvdg6xxt"
+        },
+        {
+          "name": "UNRWA",
+          "url": "https://www.unrwa.org/"
+        },
+        {
+          "name": "UN OCHA",
+          "url": "https://www.ochaopt.org/"
+        }
       ]
     },
     {
@@ -288,9 +867,25 @@
       "summary": "Sudan's civil war has passed 1,000 days with the SAF recapturing Khartoum but the RSF controlling Darfur. Over 150,000 dead, 12.3 million displaced, and 25 million facing severe hunger.",
       "catch_up_summary": "Sudan's civil war between the SAF and RSF began April 15, 2023 and has passed 1,000 days. The SAF recaptured Khartoum and Omdurman in March 2025 but the RSF seized El Fasher in October 2025 and controls most of Darfur. The RSF has established a parallel government. Death toll estimates exceed 150,000. Over 12.3 million are displaced (world's largest crisis) and 25 million face severe food insecurity including 4 million malnourished children. The current phase centers on the SAF's Kordofan offensive — recapturing Bara on March 5 and breaking the Kadugli siege. Chad closed its border after RSF drone strikes killed Chadian soldiers. The U.S. sanctioned RSF commanders in February 2026.",
       "background": "The conflict emerged from a power struggle between military leaders who jointly overthrew Sudan's civilian government in 2021. South Sudan faces spillover instability with oil exports vulnerable to northern fighting.",
-      "why_it_matters": ["World's largest displacement crisis — 12.3 million displaced", "25 million facing severe hunger including famine conditions", "Regional instability affecting East Africa"],
-      "watchpoints": ["SAF offensive progress in Kordofan and Blue Nile", "Any new ceasefire or peace talks", "Humanitarian access improvements", "Sudan's ICJ case against UAE for complicity", "South Sudan oil flow through conflict zones"],
-      "uncertainties": ["Exact death toll (wide variance)", "Whether RSF parallel government gains legitimacy", "Full scale of famine in Darfur", "Foreign involvement — UAE allegations", "Ability of South Sudan to maintain oil production"],
+      "why_it_matters": [
+        "World's largest displacement crisis — 12.3 million displaced",
+        "25 million facing severe hunger including famine conditions",
+        "Regional instability affecting East Africa"
+      ],
+      "watchpoints": [
+        "SAF offensive progress in Kordofan and Blue Nile",
+        "Any new ceasefire or peace talks",
+        "Humanitarian access improvements",
+        "Sudan's ICJ case against UAE for complicity",
+        "South Sudan oil flow through conflict zones"
+      ],
+      "uncertainties": [
+        "Exact death toll (wide variance)",
+        "Whether RSF parallel government gains legitimacy",
+        "Full scale of famine in Darfur",
+        "Foreign involvement — UAE allegations",
+        "Ability of South Sudan to maintain oil production"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "Started": "April 15, 2023",
@@ -304,35 +899,137 @@
         "RSF Status": "Controls Darfur; parallel government declared"
       },
       "key_parties": [
-        {"name": "SAF (Sudanese Armed Forces)", "role": "Government military led by Gen. al-Burhan; recaptured Khartoum"},
-        {"name": "RSF (Rapid Support Forces)", "role": "Paramilitary led by Gen. Hemedti; controls Darfur"},
-        {"name": "SPLM-N (al-Hilu)", "role": "Rebel group opening new fronts in Blue Nile state"},
-        {"name": "United Nations / WFP", "role": "Humanitarian coordination; famine response"},
-        {"name": "UAE", "role": "Alleged RSF supporter; facing ICJ case from Sudan"},
-        {"name": "South Sudan", "role": "Dealing with refugees; oil exports at risk"}
+        {
+          "name": "SAF (Sudanese Armed Forces)",
+          "role": "Government military led by Gen. al-Burhan; recaptured Khartoum"
+        },
+        {
+          "name": "RSF (Rapid Support Forces)",
+          "role": "Paramilitary led by Gen. Hemedti; controls Darfur"
+        },
+        {
+          "name": "SPLM-N (al-Hilu)",
+          "role": "Rebel group opening new fronts in Blue Nile state"
+        },
+        {
+          "name": "United Nations / WFP",
+          "role": "Humanitarian coordination; famine response"
+        },
+        {
+          "name": "UAE",
+          "role": "Alleged RSF supporter; facing ICJ case from Sudan"
+        },
+        {
+          "name": "South Sudan",
+          "role": "Dealing with refugees; oil exports at risk"
+        }
       ],
       "timeline": [
-        {"date": "2026-03-05", "text": "SAF retakes Bara in North Kordofan; RSF retaliates by looting nearby villages", "category": "military", "source_url": ""},
-        {"date": "2026-02-23", "text": "Chad closes border with Sudan after RSF drone strikes kill Chadian soldiers", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-02-19", "text": "U.S. sanctions RSF commanders for actions in El Fasher", "category": "regulatory", "source_url": ""},
-        {"date": "2026-02-03", "text": "SAF breaks RSF siege of Kadugli; RSF responds with drone strikes killing 15", "category": "military", "source_url": ""},
-        {"date": "2026-01-09", "text": "War reaches 1,000-day mark; 12.3 million displaced", "category": "humanitarian", "source_url": ""},
-        {"date": "2025-10-24", "text": "El Fasher falls to RSF, completing control of Darfur", "category": "military", "source_url": ""},
-        {"date": "2025-10-25", "text": "New front opens in Kordofan states with major displacement", "category": "military", "source_url": ""},
-        {"date": "2025-05-12", "text": "SAF establishes 'Government of Hope' in Port Sudan", "category": "political", "source_url": ""},
-        {"date": "2025-03-25", "text": "SAF recaptures Khartoum including presidential palace", "category": "military", "source_url": ""},
-        {"date": "2025-03-04", "text": "RSF agrees to 'transitional constitution' claiming parallel legitimacy", "category": "political", "source_url": ""},
-        {"date": "2024-03-12", "text": "SAF begins siege to retake Khartoum from RSF", "category": "military", "source_url": ""},
-        {"date": "2023-10-15", "text": "RSF crosses Nile; expands into Kordofan and Gezira regions", "category": "military", "source_url": ""},
-        {"date": "2023-05-31", "text": "SAF suspends Jeddah peace talks", "category": "diplomatic", "source_url": ""},
-        {"date": "2023-04-15", "text": "Fighting erupts between SAF and RSF in Khartoum", "category": "military", "source_url": ""}
+        {
+          "date": "2026-03-05",
+          "text": "SAF retakes Bara in North Kordofan; RSF retaliates by looting nearby villages",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-23",
+          "text": "Chad closes border with Sudan after RSF drone strikes kill Chadian soldiers",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-19",
+          "text": "U.S. sanctions RSF commanders for actions in El Fasher",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-03",
+          "text": "SAF breaks RSF siege of Kadugli; RSF responds with drone strikes killing 15",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-09",
+          "text": "War reaches 1,000-day mark; 12.3 million displaced",
+          "category": "humanitarian",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-24",
+          "text": "El Fasher falls to RSF, completing control of Darfur",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-10-25",
+          "text": "New front opens in Kordofan states with major displacement",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-05-12",
+          "text": "SAF establishes 'Government of Hope' in Port Sudan",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-03-25",
+          "text": "SAF recaptures Khartoum including presidential palace",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2025-03-04",
+          "text": "RSF agrees to 'transitional constitution' claiming parallel legitimacy",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2024-03-12",
+          "text": "SAF begins siege to retake Khartoum from RSF",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2023-10-15",
+          "text": "RSF crosses Nile; expands into Kordofan and Gezira regions",
+          "category": "military",
+          "source_url": ""
+        },
+        {
+          "date": "2023-05-31",
+          "text": "SAF suspends Jeddah peace talks",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2023-04-15",
+          "text": "Fighting erupts between SAF and RSF in Khartoum",
+          "category": "military",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["climate-environment"],
+      "related_situations": [
+        "climate-environment"
+      ],
       "primary_sources": [
-        {"name": "UNHCR", "url": "https://www.unhcr.org/emergencies/sudan-crisis"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/sudan/"},
-        {"name": "BBC News", "url": "https://www.bbc.com/news/topics/cq23pdgvgm8t"},
-        {"name": "WFP", "url": "https://www.wfp.org/emergencies/sudan-emergency"}
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/emergencies/sudan-crisis"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/tag/sudan/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/topics/cq23pdgvgm8t"
+        },
+        {
+          "name": "WFP",
+          "url": "https://www.wfp.org/emergencies/sudan-emergency"
+        }
       ]
     },
     {
@@ -345,9 +1042,24 @@
       "summary": "Global AI regulation has moved from voluntary frameworks to binding enforcement, led by the EU AI Act, with divergent approaches in the U.S., China, and Asia.",
       "catch_up_summary": "The EU AI Act entered into force in August 2024 and is phasing in enforcement — 'unacceptable risk' bans took effect February 2025, general-purpose AI rules in August 2025, and high-risk obligations apply from August 2026. The U.S. under Trump shifted toward deregulation with a December 2025 executive order preempting state laws, but California, Texas, and Illinois enacted their own AI regulations effective January 2026. China mandates AI content labeling and security reviews. South Korea and Japan passed AI frameworks in 2025. The 2026 International AI Safety Report flagged risks from 'Agentic AI' — autonomous systems capable of executing plans. Over 72 nations now have AI policy initiatives. EU penalties reach up to 7% of global turnover.",
       "background": "The explosion of generative AI capabilities starting in late 2022 accelerated global regulatory efforts. The Paris AI Action Summit in February 2026 shifted focus from safety to implementation.",
-      "why_it_matters": ["Canadian AI companies navigating divergent global regulations", "Job market implications from AI deployment acceleration", "Democratic integrity concerns around deepfakes and autonomous systems"],
-      "watchpoints": ["August 2, 2026 EU high-risk system compliance deadline", "U.S. state vs. federal legal challenges on AI regulation", "Implementation of the EU Digital Omnibus amendments", "China's next generative AI measures", "New York RAISE Act safety reporting (2027)"],
-      "uncertainties": ["Whether EU Digital Omnibus will relax GDPR for AI training", "How to detect and prevent loss-of-control in agentic AI", "Final scope of EU high-risk classifications", "Whether U.S. federal preemption of state laws holds"],
+      "why_it_matters": [
+        "Canadian AI companies navigating divergent global regulations",
+        "Job market implications from AI deployment acceleration",
+        "Democratic integrity concerns around deepfakes and autonomous systems"
+      ],
+      "watchpoints": [
+        "August 2, 2026 EU high-risk system compliance deadline",
+        "U.S. state vs. federal legal challenges on AI regulation",
+        "Implementation of the EU Digital Omnibus amendments",
+        "China's next generative AI measures",
+        "New York RAISE Act safety reporting (2027)"
+      ],
+      "uncertainties": [
+        "Whether EU Digital Omnibus will relax GDPR for AI training",
+        "How to detect and prevent loss-of-control in agentic AI",
+        "Final scope of EU high-risk classifications",
+        "Whether U.S. federal preemption of state laws holds"
+      ],
       "what_changed_today": [],
       "key_facts": {
         "EU AI Act": "In force since Aug 2024; high-risk rules Aug 2026",
@@ -359,33 +1071,129 @@
         "China": "Mandatory AI content labeling; Cybersecurity Law amended Jan 2026"
       },
       "key_parties": [
-        {"name": "European Commission", "role": "Enforcing EU AI Act; proposing amendments"},
-        {"name": "U.S. Trump Administration", "role": "Deregulation; AI Litigation Task Force"},
-        {"name": "China", "role": "Mandatory labeling and security reviews"},
-        {"name": "South Korea / Japan", "role": "Passed promotion-focused AI frameworks"},
-        {"name": "OpenAI / Anthropic / Google", "role": "Major developers; subject to new rules"}
+        {
+          "name": "European Commission",
+          "role": "Enforcing EU AI Act; proposing amendments"
+        },
+        {
+          "name": "U.S. Trump Administration",
+          "role": "Deregulation; AI Litigation Task Force"
+        },
+        {
+          "name": "China",
+          "role": "Mandatory labeling and security reviews"
+        },
+        {
+          "name": "South Korea / Japan",
+          "role": "Passed promotion-focused AI frameworks"
+        },
+        {
+          "name": "OpenAI / Anthropic / Google",
+          "role": "Major developers; subject to new rules"
+        }
       ],
       "timeline": [
-        {"date": "2026-08-02", "text": "EU high-risk AI obligations broadly apply (scheduled)", "category": "regulatory", "source_url": ""},
-        {"date": "2026-02-15", "text": "Paris AI Action Summit shifts global focus from safety to implementation", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-02-03", "text": "International AI Safety Report warns of unpredictable Agentic AI failures", "category": "regulatory", "source_url": ""},
-        {"date": "2026-01-01", "text": "California, Texas, Illinois AI regulations take effect", "category": "regulatory", "source_url": ""},
-        {"date": "2026-01-01", "text": "China's amended Cybersecurity Law adds AI security reviews", "category": "regulatory", "source_url": ""},
-        {"date": "2025-12-15", "text": "White House EO establishes AI Litigation Task Force to challenge state laws", "category": "political", "source_url": ""},
-        {"date": "2025-11", "text": "EU proposes Digital Omnibus amendments to ease AI Act burdens on SMEs", "category": "regulatory", "source_url": ""},
-        {"date": "2025-09-15", "text": "China's mandatory AI content labeling and watermarking takes effect", "category": "regulatory", "source_url": ""},
-        {"date": "2025-08-02", "text": "EU general-purpose AI and governance rules begin applying", "category": "regulatory", "source_url": ""},
-        {"date": "2025-07", "text": "Trump issues AI deregulation executive orders", "category": "political", "source_url": ""},
-        {"date": "2025-05-15", "text": "Japan enacts AI Promotion Act", "category": "regulatory", "source_url": ""},
-        {"date": "2025-02-02", "text": "EU bans 'unacceptable risk' AI (subliminal manipulation, social scoring)", "category": "regulatory", "source_url": ""},
-        {"date": "2025-01-15", "text": "South Korea finalizes AI Framework Act", "category": "regulatory", "source_url": ""},
-        {"date": "2024-08-01", "text": "EU AI Act officially enters into force", "category": "regulatory", "source_url": ""}
+        {
+          "date": "2026-08-02",
+          "text": "EU high-risk AI obligations broadly apply (scheduled)",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-15",
+          "text": "Paris AI Action Summit shifts global focus from safety to implementation",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-03",
+          "text": "International AI Safety Report warns of unpredictable Agentic AI failures",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-01",
+          "text": "California, Texas, Illinois AI regulations take effect",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-01",
+          "text": "China's amended Cybersecurity Law adds AI security reviews",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-12-15",
+          "text": "White House EO establishes AI Litigation Task Force to challenge state laws",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11",
+          "text": "EU proposes Digital Omnibus amendments to ease AI Act burdens on SMEs",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-09-15",
+          "text": "China's mandatory AI content labeling and watermarking takes effect",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-08-02",
+          "text": "EU general-purpose AI and governance rules begin applying",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-07",
+          "text": "Trump issues AI deregulation executive orders",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-05-15",
+          "text": "Japan enacts AI Promotion Act",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-02-02",
+          "text": "EU bans 'unacceptable risk' AI (subliminal manipulation, social scoring)",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-01-15",
+          "text": "South Korea finalizes AI Framework Act",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2024-08-01",
+          "text": "EU AI Act officially enters into force",
+          "category": "regulatory",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation"],
+      "related_situations": [
+        "economy-inflation"
+      ],
       "primary_sources": [
-        {"name": "BBC Technology", "url": "https://www.bbc.com/news/technology"},
-        {"name": "Ars Technica", "url": "https://arstechnica.com/ai/"},
-        {"name": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence"}
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.com/news/technology"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/"
+        },
+        {
+          "name": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence"
+        }
       ]
     },
     {
@@ -398,9 +1206,24 @@
       "summary": "Ten years after the Paris Agreement, global climate policy faces divergence as the U.S. withdraws while COP30 declared the fossil fuel transition irreversible.",
       "catch_up_summary": "COP30 in Belém (November 2025) concluded with the 'Mutirão Decision' declaring the fossil fuel transition permanent and achieving $1 trillion in renewable energy investment commitments. However, the Trump administration withdrew the U.S. from the Paris Agreement in January 2026 and halted Just Energy Transition Partnership funding. Current policies put the world on track for 2.8°C warming — far exceeding the 1.5°C goal expected to be surpassed within a decade. The past 11 years are the warmest on record; 2024 reached ~1.55°C above pre-industrial levels. Fossil fuel producers remain 189% over the 1.5°C-consistent budget. Extreme weather costs are mounting — 2024 saw an estimated 154,000 wildfire smoke fatalities. 131 parties submitted updated NDCs at the Paris Agreement's 10th anniversary.",
       "background": "The Paris Agreement (2015) set the framework for emissions reduction. Progress has been uneven as major emitters face domestic political resistance. The gap between pledges and required action continues to widen.",
-      "why_it_matters": ["Extreme weather directly affecting Ontario communities", "Canadian energy policy and carbon pricing under debate", "Agricultural impacts in Bay of Quinte farming region"],
-      "watchpoints": ["Next NDC submissions and ambition ratchet", "Progress on $1.3 trillion climate finance goal", "COP31 preparations (Antalya, Turkey — Nov 2026)", "Loss and Damage Fund project launches", "Belem Gender Action Plan implementation"],
-      "uncertainties": ["Whether 1.5°C limit remains achievable", "Scale of new U.S. emissions under withdrawal", "Implementation of COP30 finance roadmap", "Whether adaptation finance can triple without U.S."],
+      "why_it_matters": [
+        "Extreme weather directly affecting Ontario communities",
+        "Canadian energy policy and carbon pricing under debate",
+        "Agricultural impacts in Bay of Quinte farming region"
+      ],
+      "watchpoints": [
+        "Next NDC submissions and ambition ratchet",
+        "Progress on $1.3 trillion climate finance goal",
+        "COP31 preparations (Antalya, Turkey — Nov 2026)",
+        "Loss and Damage Fund project launches",
+        "Belem Gender Action Plan implementation"
+      ],
+      "uncertainties": [
+        "Whether 1.5°C limit remains achievable",
+        "Scale of new U.S. emissions under withdrawal",
+        "Implementation of COP30 finance roadmap",
+        "Whether adaptation finance can triple without U.S."
+      ],
       "what_changed_today": [],
       "key_facts": {
         "Paris Agreement": "Adopted 2015; 194 active parties; U.S. withdrawn Jan 2026",
@@ -414,34 +1237,132 @@
         "COP31": "Scheduled Nov 2026, Antalya, Turkey"
       },
       "key_parties": [
-        {"name": "UNFCCC", "role": "Framework for negotiations; 194 parties"},
-        {"name": "U.S. Administration", "role": "Withdrawn from Paris Agreement; halted transition funding"},
-        {"name": "Brazil", "role": "COP30 host; pushing finance and ambition"},
-        {"name": "European Union", "role": "Advancing Green Deal and emissions targets"},
-        {"name": "France", "role": "Co-chair of Loss and Damage Fund"},
-        {"name": "Canada", "role": "Balancing climate targets with energy sector"}
+        {
+          "name": "UNFCCC",
+          "role": "Framework for negotiations; 194 parties"
+        },
+        {
+          "name": "U.S. Administration",
+          "role": "Withdrawn from Paris Agreement; halted transition funding"
+        },
+        {
+          "name": "Brazil",
+          "role": "COP30 host; pushing finance and ambition"
+        },
+        {
+          "name": "European Union",
+          "role": "Advancing Green Deal and emissions targets"
+        },
+        {
+          "name": "France",
+          "role": "Co-chair of Loss and Damage Fund"
+        },
+        {
+          "name": "Canada",
+          "role": "Balancing climate targets with energy sector"
+        }
       ],
       "timeline": [
-        {"date": "2026-11-15", "text": "COP31 scheduled in Antalya, Turkey, co-hosted by Australia", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-03-01", "text": "First Loss and Damage Fund projects scheduled to launch", "category": "economic", "source_url": ""},
-        {"date": "2026-02-15", "text": "Global Implementation Accelerator launched to align policy and science", "category": "regulatory", "source_url": ""},
-        {"date": "2026-01-27", "text": "194 parties remain in Paris Agreement; U.S. exit formally pending", "category": "diplomatic", "source_url": ""},
-        {"date": "2026-01-22", "text": "COP30 Presidency launches Global Climate Action Agenda for 2026", "category": "political", "source_url": ""},
-        {"date": "2026-01-20", "text": "Trump begins second U.S. withdrawal from Paris Agreement", "category": "political", "source_url": ""},
-        {"date": "2025-12-12", "text": "10th Anniversary of Paris Agreement; 131 parties submit updated NDCs", "category": "diplomatic", "source_url": ""},
-        {"date": "2025-11-20", "text": "COP30 in Belém concludes with Mutirão Decision on fossil fuel transition", "category": "diplomatic", "source_url": ""},
-        {"date": "2025-08-15", "text": "U.S. halts funding for Just Energy Transition Partnership", "category": "economic", "source_url": ""},
-        {"date": "2025-03-15", "text": "IPCC reports fossil fuel plans nearly triple the 1.5°C budget", "category": "regulatory", "source_url": ""},
-        {"date": "2025-01-20", "text": "Trump inaugurated; begins rolling back climate regulations", "category": "political", "source_url": ""},
-        {"date": "2024-03-01", "text": "Loss and Damage Fund for developing nations launched", "category": "economic", "source_url": ""},
-        {"date": "2015-12-12", "text": "Paris Agreement adopted by 196 parties", "category": "diplomatic", "source_url": ""}
+        {
+          "date": "2026-11-15",
+          "text": "COP31 scheduled in Antalya, Turkey, co-hosted by Australia",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-03-01",
+          "text": "First Loss and Damage Fund projects scheduled to launch",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-02-15",
+          "text": "Global Implementation Accelerator launched to align policy and science",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-27",
+          "text": "194 parties remain in Paris Agreement; U.S. exit formally pending",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-22",
+          "text": "COP30 Presidency launches Global Climate Action Agenda for 2026",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2026-01-20",
+          "text": "Trump begins second U.S. withdrawal from Paris Agreement",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2025-12-12",
+          "text": "10th Anniversary of Paris Agreement; 131 parties submit updated NDCs",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-11-20",
+          "text": "COP30 in Belém concludes with Mutirão Decision on fossil fuel transition",
+          "category": "diplomatic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-08-15",
+          "text": "U.S. halts funding for Just Energy Transition Partnership",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2025-03-15",
+          "text": "IPCC reports fossil fuel plans nearly triple the 1.5°C budget",
+          "category": "regulatory",
+          "source_url": ""
+        },
+        {
+          "date": "2025-01-20",
+          "text": "Trump inaugurated; begins rolling back climate regulations",
+          "category": "political",
+          "source_url": ""
+        },
+        {
+          "date": "2024-03-01",
+          "text": "Loss and Damage Fund for developing nations launched",
+          "category": "economic",
+          "source_url": ""
+        },
+        {
+          "date": "2015-12-12",
+          "text": "Paris Agreement adopted by 196 parties",
+          "category": "diplomatic",
+          "source_url": ""
+        }
       ],
-      "related_situations": ["economy-inflation", "sudan-south-sudan"],
+      "related_situations": [
+        "economy-inflation",
+        "sudan-south-sudan"
+      ],
       "primary_sources": [
-        {"name": "UNFCCC", "url": "https://unfccc.int/"},
-        {"name": "BBC Environment", "url": "https://www.bbc.com/news/science_and_environment"},
-        {"name": "The Guardian Climate", "url": "https://www.theguardian.com/environment/climate-crisis"},
-        {"name": "UNEP", "url": "https://www.unep.org/explore-topics/climate-action"}
+        {
+          "name": "UNFCCC",
+          "url": "https://unfccc.int/"
+        },
+        {
+          "name": "BBC Environment",
+          "url": "https://www.bbc.com/news/science_and_environment"
+        },
+        {
+          "name": "The Guardian Climate",
+          "url": "https://www.theguardian.com/environment/climate-crisis"
+        },
+        {
+          "name": "UNEP",
+          "url": "https://www.unep.org/explore-topics/climate-action"
+        }
       ]
     }
   ]
