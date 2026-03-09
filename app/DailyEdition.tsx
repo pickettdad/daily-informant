@@ -86,12 +86,19 @@ function Sidebar({ topics, goodDevs }: { topics: any[]; goodDevs: any[] }) {
       {topics?.length > 0 && (
         <div style={{ marginBottom:24 }}>
           <h2 style={{ fontFamily:s.display, fontSize:16, fontWeight:700, color:s.accent, marginBottom:12 }}>Ongoing Situations</h2>
-          {topics.map((t: any) => (
-            <Link key={t.slug} href={`/topics/${t.slug}`} style={{ display:"block", background:"#fff", border:`1px solid ${s.border}`, borderRadius:8, padding:"10px 14px", marginBottom:6, textDecoration:"none", color:"inherit" }}>
-              <h3 style={{ fontFamily:s.display, fontSize:13, fontWeight:700, margin:0, lineHeight:1.3 }}>{t.topic}</h3>
-              {t.timeline?.[0] && <p style={{ fontSize:10, color:s.light, marginTop:4, lineHeight:1.3, display:"-webkit-box", WebkitLineClamp:1, WebkitBoxOrient:"vertical" as any, overflow:"hidden" }}>{t.timeline[0].text}</p>}
-            </Link>
-          ))}
+          {topics.map((t: any) => {
+            const hasUpdates = t.what_changed_today?.length > 0;
+            return (
+              <Link key={t.slug} href={`/topics/${t.slug}`} style={{ display:"block", background:"#fff", border:`1px solid ${hasUpdates ? s.gold : s.border}`, borderRadius:8, padding:"10px 14px", marginBottom:6, textDecoration:"none", color:"inherit" }}>
+                <div style={{ display:"flex", gap:6, alignItems:"center", marginBottom:3 }}>
+                  <h3 style={{ fontFamily:s.display, fontSize:13, fontWeight:700, margin:0, lineHeight:1.3, flex:1 }}>{t.topic}</h3>
+                  {t.phase && <span style={{ fontSize:8, fontWeight:700, textTransform:"uppercase", letterSpacing:"0.05em", color:s.light, background:s.borderLight, padding:"1px 5px", borderRadius:3 }}>{t.phase}</span>}
+                </div>
+                {hasUpdates && <p style={{ fontSize:10, color:s.gold, fontWeight:600, margin:"2px 0 0 0" }}>● Updated today</p>}
+                {!hasUpdates && t.timeline?.[0] && <p style={{ fontSize:10, color:s.light, marginTop:2, lineHeight:1.3, display:"-webkit-box", WebkitLineClamp:1, WebkitBoxOrient:"vertical" as any, overflow:"hidden" }}>{t.timeline[0].text}</p>}
+              </Link>
+            );
+          })}
         </div>
       )}
       {goodDevs?.length > 0 && (
