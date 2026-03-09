@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-14",
-      "last_material_update": "",
+      "last_material_update": "2026-03-09T07:04:04.734152-04:00",
       "summary": "Military conflict between the United States, Israel, and Iran involving airstrikes, naval operations, and missile exchanges across the Persian Gulf and Middle East region.",
       "catch_up_summary": "The U.S. and Israel launched a military campaign against Iran in mid-February 2026 following escalating tensions over Iran's nuclear program and regional proxy activities. Operations have included strikes on Iranian military infrastructure, oil facilities, and missile launch sites. Iran has responded with ballistic missile attacks on Gulf state targets and threatened shipping lanes. Oil prices have surged past $80/barrel as shipping through the Strait of Hormuz faces disruption. Multiple countries have issued travel advisories, and diplomatic efforts through Oman have stalled.",
       "background": "Tensions between the U.S. and Iran have escalated periodically since the 2015 nuclear deal (JCPOA) and the U.S. withdrawal in 2018. Iran's expanding nuclear enrichment program, support for regional proxies including Hezbollah and Houthi forces, and attacks on commercial shipping created conditions for direct military confrontation. The conflict represents the most significant direct U.S.-Iran military engagement since the 1988 Operation Praying Mantis.",
@@ -26,7 +26,9 @@
         "Unclear scope of next retaliatory strikes",
         "Status of Iran's nuclear facilities after strikes"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Iranian Kurdish fighters face renewed attacks from Iran while considering whether to ally with U.S. and Israeli military efforts, raising concerns about their autonomy and broader regional implications."
+      ],
       "key_facts": {
         "Started": "February 14, 2026",
         "Parties": "United States, Israel vs. Iran",
@@ -58,6 +60,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-09",
+          "text": "Kurdish Fighters Weigh Alliance Amid Iranian Attacks",
+          "category": "legal",
+          "source_url": "https://globalnews.ca/news/11720677/iranian-kurdish-fighters-ready-waiting-fight/"
+        },
         {
           "date": "2026-03-08",
           "text": "Trump suggests ground troops may be sent to Iran; Tehran oil depot fire from Israeli strikes",
@@ -504,9 +512,7 @@
         "Whether any ceasefire framework is viable while Iran conflict continues",
         "Fate of remaining hostages"
       ],
-      "what_changed_today": [
-        "Recent armed confrontations in the West Bank and military action in Lebanon underscore escalating violence affecting both Palestinians and civilians in the region."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "October 7, 2023",
         "Israeli Deaths (Oct 7)": "Approximately 1,200",
