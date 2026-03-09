@@ -23,6 +23,7 @@ export default async function ArticlePage({ params }: any) {
   const daily = await loadDaily();
   let article = daily.top_stories?.find((a: any) => a.slug === slug);
   if (!article) article = daily.good_developments?.find((a: any) => a.slug === slug);
+  const editionDate = daily.date ? new Date(daily.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" }) : "";
   if (!article) return (<div style={{padding:40}}><h1 style={{fontFamily:s.display}}>Article not found</h1><p style={{marginTop:12}}><Link href="/">← Back</Link></p></div>);
 
   const cs = catColors[article.category as string] || {bg:"#F0F0F0",text:"#666"};
@@ -41,6 +42,7 @@ export default async function ArticlePage({ params }: any) {
       <div style={{ display:"flex", gap:10, alignItems:"center", marginBottom:12, flexWrap:"wrap" }}>
         <span style={{ fontSize:11, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", background:cs.bg, color:cs.text, padding:"3px 10px", borderRadius:4 }}>{article.category}</span>
         <span style={{ fontSize:12, color:s.light }}>{readMin} min read · {components.length || article.sources?.length || 1} sources</span>
+        {editionDate && <span style={{ fontSize:12, color:s.light }}>· {editionDate}</span>}
         {article.related_ongoing && (
           <Link href={`/topics/${article.related_ongoing}`} style={{ fontSize:12, color:s.gold, fontWeight:600, textDecoration:"none", background:s.goldLight, padding:"3px 10px", borderRadius:4 }}>● Related Ongoing Situation →</Link>
         )}
@@ -146,7 +148,7 @@ export default async function ArticlePage({ params }: any) {
       )}
 
       {/* Positive Thought */}
-      {article.is_negative && article.positive_thought && (
+      {article.positive_thought && (
         <section style={{ marginBottom:24, background:s.goldLight, border:"1px solid #EDE0C8", borderRadius:8, padding:"16px 20px" }}>
           <p style={{ fontSize:12, fontWeight:600, color:s.gold, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>A Positive Thought</p>
           <p style={{ fontSize:15, lineHeight:1.65, color:"#7A6840", fontStyle:"italic", fontFamily:s.display, margin:0 }}>{article.positive_thought}</p>
