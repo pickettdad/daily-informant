@@ -107,6 +107,7 @@ function Sidebar({ topics, goodDevs }: { topics: any[]; goodDevs: any[] }) {
           {goodDevs.map((g: any) => <GoodCard key={g.slug} article={g} />)}
         </div>
       )}
+      <Link href="/archive" style={{ fontSize:12, color:s.light, fontWeight:500, textDecoration:"none", display:"block", marginBottom:8 }}>Browse past editions →</Link>
       <Link href="/how-it-works" style={{ fontSize:12, color:s.light, fontWeight:500, textDecoration:"none" }}>How The Daily Informant works →</Link>
     </aside>
   );
