@@ -1,23 +1,16 @@
 #!/usr/bin/env python3
 """
-The Daily Informant — Morning Pipeline v9
+The Daily Informant — Morning Pipeline v9.1
 ==========================================
 
-MAJOR v9 changes (guided by Grok + ChatGPT editorial research):
-  - TWO-PASS ARTICLE GENERATION: Pass A extracts evidence JSON (facts, timeline,
-    stakes, unknowns, quotes). Pass B writes a 350-500 word briefing article from
-    the evidence. Result: articles read like journalism, not summaries.
-  - BUCKET-BASED SELECTION: AIs rank within each category first, then assemble
-    the best cross-category lineup. Fixes: 0 Canada articles.
-  - NEW ARTICLE FIELDS: bottom_line, why_it_matters, what_to_watch
-  - LONGER ARTICLES: 350-500 words (was 4-6 sentences)
-  - CONSTRUCTIVE DEVELOPMENTS: Broadened from humanitarian-only to include
-    breakthroughs, milestones, community wins, policy progress
-  - FIXED: X quotes JSON parsing (Extra data error)
-  - KEPT: Positive thoughts on negative articles (prayer-like, specific)
+v9.1 changes:
+  - ADDED: Google Gemini 2.5 Flash for selection + bias review (4th AI model)
+  - FIXED: Article word count too low (224 avg). Strengthened writing prompt.
+  - FIXED: Grok selection silent failure. Added better error handling.
+  - FIXED: Oslo explosion mis-tagged as middle-east-israel-gaza.
 
 Required env vars:
-  OPENAI_API_KEY, ANTHROPIC_API_KEY (optional), XAI_API_KEY (optional)
+  OPENAI_API_KEY, ANTHROPIC_API_KEY (optional), XAI_API_KEY (optional), GOOGLE_API_KEY (optional)
 """
 
 import json, os, re, sys, time
@@ -83,12 +76,14 @@ MIN_CONSENSUS = 2
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
 GROK_MODEL = "grok-4-1-fast-non-reasoning"
+GEMINI_MODEL = "gemini-2.5-flash"
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 5
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 XAI_API_KEY = os.environ.get("XAI_API_KEY", "")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 
 DAILY_PATH = Path("data/daily.json")
 TOPICS_PATH = Path("data/topics.json")
@@ -191,6 +186,16 @@ def _call_grok_with_search(messages):
             for c in item.get("content", []):
                 if c.get("type") == "output_text": raw += c.get("text", "")
     return raw.strip()
+
+def _call_gemini(prompt_text):
+    """Call Google Gemini 2.5 Flash via generateContent API."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GOOGLE_API_KEY}"
+    payload = {"contents": [{"parts": [{"text": prompt_text}]}], "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096}}
+    data = _api_call(url, {"Content-Type": "application/json"}, payload, timeout=120)
+    try:
+        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    except (KeyError, IndexError):
+        return ""
 
 def _parse_json_from_text(text):
     """Safely extract first JSON array or object from text."""
@@ -387,7 +392,8 @@ def run_selection(pool_text):
         ("Claude", ANTHROPIC_API_KEY, lambda pt: _api_call("https://api.anthropic.com/v1/messages",
             {"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
             {"model": CLAUDE_MODEL, "max_tokens": 2048, "messages": [{"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pt}"}], "temperature": 0.3})["content"][0]["text"]),
-        ("Grok", XAI_API_KEY, lambda pt: _call_grok_text([{"role": "system", "content": SELECTION_PROMPT}, {"role": "user", "content": pt}])),
+        ("Grok", XAI_API_KEY, lambda pt: _call_grok_text([{"role": "user", "content": f"{SELECTION_PROMPT}\n\n{pt}"}])),
+        ("Gemini", GOOGLE_API_KEY, lambda pt: _call_gemini(f"{SELECTION_PROMPT}\n\n{pt}")),
     ]:
         if not key: continue
         print(f"  → {name}...")
@@ -442,23 +448,41 @@ CATEGORY RULES:
 
 is_constructive: TRUE for volunteer efforts, charitable giving, rescues, breakthroughs, milestones, community wins, scientific advances, policy progress. FALSE for anything involving death, crime, conflict.
 is_negative: TRUE if involves conflict, death, hardship, disaster, suffering.
-related_ongoing: Use ONE slug if relevant: iran-conflict, ukraine-russia, economy-inflation, us-tariffs-trade, middle-east-israel-gaza, sudan-south-sudan, ai-regulation, climate-environment. Use "iran-conflict" for U.S./Israel vs Iran stories. Empty if none."""
+related_ongoing: Match ONLY if the story is DIRECTLY about one of these situations:
+- "iran-conflict" = military operations between U.S./Israel and Iran, Iranian military targets, Persian Gulf incidents
+- "ukraine-russia" = fighting in Ukraine, Russia-Ukraine diplomacy, sanctions on Russia over Ukraine
+- "economy-inflation" = central bank rates, jobs reports, recession data, inflation statistics
+- "us-tariffs-trade" = tariff policy, trade disputes, customs enforcement
+- "middle-east-israel-gaza" = Gaza, Hamas, Palestinian territories, West Bank ONLY (NOT general Middle East)
+- "sudan-south-sudan" = Sudan civil war, South Sudan conflict
+- "ai-regulation" = AI policy, regulation, safety legislation
+- "climate-environment" = climate policy, emissions, renewable energy policy
+Do NOT tag stories that merely mention a related country or region. The story must be ABOUT the situation. Empty string if no clear match."""
 
-ARTICLE_PROMPT = """You are a senior editor at a calm, neutral morning briefing called The Daily Informant.
+ARTICLE_PROMPT = """You are a senior editor at a calm, neutral morning briefing called The Daily Informant. You write like The Economist — authoritative, clear, never sensational.
 
-Write a finished briefing article from the evidence below. The reader will NOT open the source links — your article must be their complete understanding of this story.
+Write a finished briefing article from the evidence below. The reader will NOT open the source links — your article IS their complete understanding of this story. Write like a journalist, not a summarizer.
+
+CRITICAL LENGTH REQUIREMENT: The body MUST be 350-500 words. This is a HARD minimum. Count carefully. Short articles (under 300 words) are unacceptable. Use the evidence fully — include timeline details, stakeholder positions, implications, and unknowns. If you have rich evidence, write closer to 500 words.
 
 STRUCTURE (follow exactly):
-1. bottom_line: ONE sentence (25-40 words) — the most important takeaway
-2. headline: Neutral, informative, 8-12 words
-3. body: 350-500 word article in flowing paragraphs. Use inverted pyramid: most important facts first, then background, then implications. Write like a journalist. Never say "according to sources" or "several outlets reported." State confirmed facts directly. Include perspectives from across the political spectrum when sources from different leanings are present.
-4. why_it_matters: 2-3 sentences — the "so what" for a busy Canadian reader
-5. what_to_watch: 1-2 sentences — what happens next (upcoming vote, deadline, response, investigation)
-6. key_developments: 4-6 bullet points of the most concrete facts
-7. stakeholder_quotes: 0-3 real quotes from the evidence (never invent)
-8. positive_thought: If the story is negative, write a brief prayer-like thought (NO God, NO Amen). Make it specific to THIS story — mention a person, place, or detail. Express hope for the specific people affected. Be heartfelt and unique. Example: "May the families in Nairobi find shelter tonight, and may the waters recede to reveal a city ready to rebuild." If not negative, empty string.
+1. bottom_line: ONE sentence (25-40 words) — the single most important takeaway a busy reader needs
+2. headline: Neutral, informative, 8-12 words. No clickbait, no loaded words (avoid: slams, blasts, shocking, controversial)
+3. body: 350-500 word article in flowing paragraphs (4-6 paragraphs). Structure:
+   - Paragraph 1: The most important new fact — what happened, where, when
+   - Paragraph 2: Key details, confirmed facts, numbers
+   - Paragraph 3: Background and context — how we got here
+   - Paragraph 4: Stakeholder reactions and different perspectives
+   - Paragraph 5: Implications and what this means going forward
+   - Paragraph 6 (if needed): Unknowns, disputed points, what remains unclear
+   Never say "according to sources" or "several outlets reported." State confirmed facts directly. When sources disagree, note the disagreement specifically.
+4. why_it_matters: 2-3 sentences — the "so what" for a busy Canadian reader. Be specific about real-world impact.
+5. what_to_watch: 1-2 sentences — the next concrete event (upcoming vote, deadline, announcement, hearing)
+6. key_developments: 4-6 bullet points of the most concrete facts from the evidence
+7. stakeholder_quotes: 0-3 real quotes from the evidence (NEVER invent quotes)
+8. positive_thought: If the story involves suffering, hardship, or loss, write a brief prayer-like thought. Make it specific to THIS story — mention a real person, place, or detail from the evidence. Express genuine hope for the affected people. Be heartfelt and unique, not generic. NO God, NO Amen. Example: "May the families in Kharkiv find warmth tonight, and may the first responders who rushed toward danger find rest and safety." If the story is not negative, return empty string.
 
-DIVERSITY RULE: If sources from left AND right covered this story, the article must fairly represent both viewpoints. Include at least one factual point from right-leaning sources when present. Never force false equivalence, but never omit a major perspective.
+DIVERSITY RULE: If the evidence includes perspectives from different political leanings, the article MUST fairly represent multiple viewpoints. Include at least one factual point or quote from right-leaning sources when present. Never force false equivalence, but never omit a consequential perspective.
 
 Output ONLY valid JSON matching the required schema."""
 
@@ -625,27 +649,30 @@ If none needed, return []."""
 def run_bias_review(articles):
     batch = "\n".join(f"--- Article {i} [{a.get('category')}] ---\nHeadline: {a['headline']}\nBottom Line: {a.get('bottom_line','')}\nBody: {a.get('body','')[:300]}" for i, a in enumerate(articles))
     total = 0
-    for name, fn in [
-        ("Claude", lambda: _api_call("https://api.anthropic.com/v1/messages",
+    reviewers = []
+    if ANTHROPIC_API_KEY:
+        reviewers.append(("Claude", lambda: _api_call("https://api.anthropic.com/v1/messages",
             {"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01"},
-            {"model": CLAUDE_MODEL, "max_tokens": 4096, "messages": [{"role": "user", "content": f"{BIAS_PROMPT}\n\n{batch}"}], "temperature": 0.1})["content"][0]["text"]),
-        ("Grok", lambda: _call_grok_text([{"role": "user", "content": f"{BIAS_PROMPT}\n\n{batch}"}])),
-    ]:
-        key = ANTHROPIC_API_KEY if name == "Claude" else XAI_API_KEY
-        if not key: continue
+            {"model": CLAUDE_MODEL, "max_tokens": 4096, "messages": [{"role": "user", "content": f"{BIAS_PROMPT}\n\n{batch}"}], "temperature": 0.1})["content"][0]["text"]))
+    if XAI_API_KEY:
+        reviewers.append(("Grok", lambda: _call_grok_text([{"role": "user", "content": f"{BIAS_PROMPT}\n\n{batch}"}])))
+    if GOOGLE_API_KEY:
+        reviewers.append(("Gemini", lambda: _call_gemini(f"{BIAS_PROMPT}\n\n{batch}")))
+    for name, fn in reviewers:
         print(f"  → {name} reviewing...")
         try:
             raw = fn()
             corrections = _parse_json_from_text(raw)
             if isinstance(corrections, list):
+                applied = 0
                 for fix in corrections:
                     try:
                         idx, field, corrected = fix.get("article_index",-1), fix.get("field",""), fix.get("corrected_text","")
                         if 0 <= idx < len(articles) and field in ("headline","body","bottom_line","why_it_matters") and corrected:
-                            articles[idx][field] = corrected; total += 1
+                            articles[idx][field] = corrected; applied += 1; total += 1
                             print(f"    {name} fixed article {idx} {field}: {fix.get('issue','')}")
                     except: pass
-                print(f"    {name}: {total} corrections")
+                print(f"    {name}: {applied} corrections applied")
         except Exception as e: print(f"    {name} review failed: {e}")
         time.sleep(1)
     print(f"   Total bias corrections: {total}")
@@ -688,30 +715,76 @@ def load_json(path):
 
 def update_ongoing_topics(articles, topics_data, today):
     if not topics_data.get("topics"): return topics_data
+    now_iso = datetime.now(TORONTO).isoformat()
+    
     for topic in topics_data["topics"]:
         slug = topic["slug"]
         entities = dict(ONGOING_TOPICS_PRIORITY).get(slug)
         if not entities: continue
+        
+        # Reset daily changes
+        topic["what_changed_today"] = []
+        matched_articles = []
+        
         for article in articles:
             text = (article["headline"] + " " + article.get("body", "")[:200]).lower()
             if sum(1 for e in entities if e in text) >= 2:
-                if article.get("related_ongoing", "") and article["related_ongoing"] != slug: continue
-                if today not in {e["date"] for e in topic.get("timeline", [])}:
-                    topic.setdefault("timeline", []).insert(0, {"date": today, "text": article["headline"],
-                        "source_url": article["sources"][0]["url"] if article["sources"] else "#"})
-                    topic["timeline"] = topic["timeline"][:30]
-                    print(f"  → Updated \"{topic['topic']}\""); break
+                if article.get("related_ongoing", "") and article["related_ongoing"] != slug:
+                    continue
+                matched_articles.append(article)
+        
+        if not matched_articles:
+            continue
+        
+        # Add timeline entries (append-only, one per day per topic)
+        existing_dates = {e["date"] for e in topic.get("timeline", [])}
+        if today not in existing_dates:
+            # Pick the most significant article (most sources)
+            best = max(matched_articles, key=lambda a: len(a.get("component_articles", [])))
+            # Determine category from article content
+            cat = "military"
+            body_lower = (best.get("body", "") + " " + best["headline"]).lower()
+            if any(w in body_lower for w in ["diplomat", "talks", "negotiat", "summit", "mediator", "ceasefire"]):
+                cat = "diplomatic"
+            elif any(w in body_lower for w in ["humanitarian", "refugee", "displaced", "aid", "famine"]):
+                cat = "humanitarian"
+            elif any(w in body_lower for w in ["price", "market", "trade", "tariff", "economic", "oil", "jobs"]):
+                cat = "economic"
+            elif any(w in body_lower for w in ["court", "legal", "ruling", "lawsuit", "judge"]):
+                cat = "legal"
+            elif any(w in body_lower for w in ["election", "parliament", "vote", "legislation", "policy"]):
+                cat = "political"
+            
+            topic.setdefault("timeline", []).insert(0, {
+                "date": today,
+                "text": best["headline"],
+                "category": cat,
+                "source_url": best["sources"][0]["url"] if best.get("sources") else "#"
+            })
+            topic["timeline"] = topic["timeline"][:30]
+        
+        # Build what_changed_today from all matched articles
+        for art in matched_articles[:3]:  # max 3 changes per topic
+            change = art.get("bottom_line", "") or art["headline"]
+            if change and change not in topic["what_changed_today"]:
+                topic["what_changed_today"].append(change)
+        
+        # Update timestamps
+        topic["last_material_update"] = now_iso
+        
+        print(f"  → Updated \"{topic['topic']}\" ({len(matched_articles)} articles, {len(topic['what_changed_today'])} changes)")
+    
     return topics_data
 
 # ── Main ────────────────────────────────────────────────────────────
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v9")
+    print("  The Daily Informant — Morning Pipeline v9.1")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
-    models = [n for n, k in [("OpenAI", OPENAI_API_KEY), ("Claude", ANTHROPIC_API_KEY), ("Grok", XAI_API_KEY)] if k]
+    models = [n for n, k in [("OpenAI", OPENAI_API_KEY), ("Claude", ANTHROPIC_API_KEY), ("Grok", XAI_API_KEY), ("Gemini", GOOGLE_API_KEY)] if k]
     print(f"\n  AI models: {', '.join(models) or 'NONE'}")
     if not OPENAI_API_KEY: print("\n✗ OPENAI_API_KEY required."); sys.exit(1)
 
@@ -774,6 +847,8 @@ def main():
     TOPICS_PATH.write_text(json.dumps(topics_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     ongoing_for_daily = [{"slug": t["slug"], "topic": t["topic"], "summary": t.get("summary",""),
+                          "status": t.get("status", "active"), "phase": t.get("phase", ""),
+                          "what_changed_today": t.get("what_changed_today", []),
                           "timeline": t.get("timeline",[])[:5]} for t in topics_data.get("topics",[])]
 
     # Need to know summary (top 5 stories, one sentence each)
@@ -786,7 +861,7 @@ def main():
         "ongoing_topics": ongoing_for_daily,
         "good_developments": good_devs,
         "_meta": {
-            "pipeline_version": "9.0", "models_used": list(selections.keys()),
+            "pipeline_version": "9.1", "models_used": list(selections.keys()),
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "good_developments": len(good_devs), "category_breakdown": cats,
