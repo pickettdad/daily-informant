@@ -42,7 +42,7 @@ export default async function TopicsListPage() {
   const topics = topicsData.topics || [];
 
   return (
-    <div style={{ maxWidth: 800 }}>
+    <div style={{ maxWidth: 960, margin: "0 auto" }}>
       <div style={{ marginBottom: 28 }}>
         <p style={{ marginBottom: 16 }}>
           <Link href="/" style={{ fontSize: 14, color: s.accent, fontWeight: 500, textDecoration: "none" }}>
@@ -58,7 +58,7 @@ export default async function TopicsListPage() {
         </p>
       </div>
 
-      <div style={{ display: "grid", gap: 12 }}>
+      <div className="di-story-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 }}>
         {topics.map((topic: any) => {
           const pc = phaseColors[(topic.phase || "").toLowerCase()] || { bg: "#F0F0F0", text: "#666" };
           const hasUpdates = topic.what_changed_today?.length > 0;
