@@ -2,20 +2,36 @@ import { loadDaily } from "@/lib/data";
 import Link from "next/link";
 
 const s = {
+  headline: "'Source Serif 4', Georgia, serif",
   display: "'Playfair Display', Georgia, serif",
-  accent: "#2B5C8A", accentLight: "#E8F0F7",
-  muted: "#6B6560", light: "#9B9590",
-  gold: "#C4985A", goldLight: "#FDF6EC",
-  border: "#E5DFD8", borderLight: "#EDE8E2",
-  good: "#2D7D5F", goodLight: "#EDF7F2",
-  supporting: "#2B6B3D", supportingBg: "#EDF7F0",
-  opposing: "#8B3A3A", opposingBg: "#FDF0F0",
+  body: "'Inter', sans-serif",
+  accent: "#1F4E79",
+  accentLight: "#EAF2FB",
+  text: "#1F2328",
+  muted: "#6B6A67",
+  light: "#9B9590",
+  amber: "#A96E2E",
+  amberLight: "#F6EEDF",
+  green: "#2F6E59",
+  greenLight: "#EAF5EF",
+  surface: "#FFFDFC",
+  border: "#DED8CF",
+  borderLight: "#EDE8E2",
+  supporting: "#2F6E59",
+  supportingBg: "#EAF5EF",
+  opposing: "#8B3A3A",
+  opposingBg: "#FDF0F0",
 };
-const catColors: Record<string,{bg:string;text:string}> = {
-  Local:{bg:"#FFF3E8",text:"#B85C1F"}, Ontario:{bg:"#FDEDF0",text:"#A03F4F"},
-  Canada:{bg:"#FDEDF0",text:"#A03F4F"}, US:{bg:"#EEE8F7",text:"#5A3FA0"},
-  World:{bg:"#E8F0F7",text:"#2B5C8A"}, Health:{bg:"#F5EDF7",text:"#6B3FA0"},
-  Science:{bg:"#EDF7F2",text:"#2D7D5F"}, Tech:{bg:"#EDEFF7",text:"#3F4FA0"},
+
+const catColors: Record<string, { bg: string; text: string; border: string }> = {
+  Local:   { bg: "#FFF3E8", text: "#B85C1F", border: "#F0D8B8" },
+  Ontario: { bg: "#F6EEDF", text: "#8B6914", border: "#E8D9B8" },
+  Canada:  { bg: "#FDEDF0", text: "#A03F4F", border: "#F0C8CF" },
+  US:      { bg: "#EEE8F7", text: "#5A3FA0", border: "#D8CEE8" },
+  World:   { bg: "#EAF2FB", text: "#1F4E79", border: "#C8D8E8" },
+  Health:  { bg: "#F5EDF7", text: "#6B3FA0", border: "#DCC8E8" },
+  Science: { bg: "#EAF5EF", text: "#2F6E59", border: "#C0DCD0" },
+  Tech:    { bg: "#EDEFF7", text: "#3F4FA0", border: "#C8CCE0" },
 };
 
 export default async function ArticlePage({ params }: any) {
@@ -23,10 +39,21 @@ export default async function ArticlePage({ params }: any) {
   const daily = await loadDaily();
   let article = daily.top_stories?.find((a: any) => a.slug === slug);
   if (!article) article = daily.good_developments?.find((a: any) => a.slug === slug);
-  const editionDate = daily.date ? new Date(daily.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" }) : "";
-  if (!article) return (<div style={{padding:40}}><h1 style={{fontFamily:s.display}}>Article not found</h1><p style={{marginTop:12}}><Link href="/">← Back</Link></p></div>);
 
-  const cs = catColors[article.category as string] || {bg:"#F0F0F0",text:"#666"};
+  const editionDate = daily.date
+    ? new Date(daily.date + "T12:00:00").toLocaleDateString("en-US", {
+        weekday: "long", year: "numeric", month: "long", day: "numeric",
+      })
+    : "";
+
+  if (!article) return (
+    <div style={{ padding: 40 }}>
+      <h1 style={{ fontFamily: s.headline }}>Article not found</h1>
+      <p style={{ marginTop: 12 }}><Link href="/">← Back</Link></p>
+    </div>
+  );
+
+  const cs = catColors[article.category as string] || { bg: "#F0F0F0", text: "#666", border: "#DDD" };
   const components = article.component_articles || [];
   const keyPoints = article.key_points || article.facts || [];
   const newsQuotes = (article.stakeholder_quotes || []).filter((q: any) => q.source !== "X");
@@ -35,131 +62,216 @@ export default async function ArticlePage({ params }: any) {
   const readMin = Math.max(1, Math.ceil(wordCount / 200));
 
   return (
-    <div style={{ maxWidth:720 }}>
-      <p style={{ marginBottom:20 }}><Link href="/" style={{ fontSize:14, color:s.accent, fontWeight:500, textDecoration:"none" }}>← Back to today&#39;s edition</Link></p>
+    <div style={{ maxWidth: 720 }}>
+      <p style={{ marginBottom: 24 }}>
+        <Link href="/" style={{ fontSize: 14, color: s.accent, fontWeight: 500, textDecoration: "none" }}>
+          ← Back to today&#39;s edition
+        </Link>
+      </p>
 
-      {/* Meta bar */}
-      <div style={{ display:"flex", gap:10, alignItems:"center", marginBottom:12, flexWrap:"wrap" }}>
-        <span style={{ fontSize:11, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", background:cs.bg, color:cs.text, padding:"3px 10px", borderRadius:4 }}>{article.category}</span>
-        <span style={{ fontSize:12, color:s.light }}>{readMin} min read · {components.length || article.sources?.length || 1} sources</span>
-        {editionDate && <span style={{ fontSize:12, color:s.light }}>· {editionDate}</span>}
+      {/* ── 1. Category + Date + Read Time ── */}
+      <div style={{ display: "flex", gap: 10, alignItems: "center", marginBottom: 14, flexWrap: "wrap" }}>
+        <span style={{
+          fontSize: 11, fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase",
+          background: cs.bg, color: cs.text, padding: "3px 10px", borderRadius: 4,
+          border: `1px solid ${cs.border}`,
+        }}>{article.category}</span>
+        <span style={{ fontSize: 13, color: s.light }}>
+          {readMin} min read · {components.length || article.sources?.length || 1} sources
+        </span>
+        {editionDate && <span style={{ fontSize: 13, color: s.light }}>· {editionDate}</span>}
         {article.related_ongoing && (
-          <Link href={`/topics/${article.related_ongoing}`} style={{ fontSize:12, color:s.gold, fontWeight:600, textDecoration:"none", background:s.goldLight, padding:"3px 10px", borderRadius:4 }}>● Related Ongoing Situation →</Link>
+          <Link href={`/topics/${article.related_ongoing}`} style={{
+            fontSize: 12, color: s.amber, fontWeight: 600,
+            textDecoration: "none", background: s.amberLight,
+            padding: "3px 10px", borderRadius: 4,
+          }}>● Ongoing Situation →</Link>
         )}
       </div>
 
-      {/* Headline */}
-      <h1 style={{ fontFamily:s.display, fontSize:30, fontWeight:700, lineHeight:1.25, marginBottom:12 }}>{article.headline}</h1>
+      {/* ── 2. Headline ── */}
+      <h1 className="di-h1" style={{
+        fontFamily: s.headline, fontSize: 32, fontWeight: 700,
+        lineHeight: 1.2, marginBottom: 16, letterSpacing: "-0.01em",
+      }}>{article.headline}</h1>
 
-      {/* Bottom Line */}
-      {article.bottom_line && (
-        <div style={{ background:s.accentLight, borderRadius:8, padding:"14px 18px", marginBottom:20, borderLeft:`3px solid ${s.accent}` }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.accent, marginBottom:4 }}>Bottom Line</p>
-          <p style={{ fontSize:15, fontWeight:500, color:s.accent, lineHeight:1.5, margin:0 }}>{article.bottom_line}</p>
+      {/* ── 3. Bottom Line + Key Points (merged) ── */}
+      {(article.bottom_line || keyPoints.length > 0) && (
+        <div className="di-card di-section-pad" style={{ padding: "18px 22px", marginBottom: 24 }}>
+          {article.bottom_line && (
+            <p style={{
+              fontSize: 15, fontWeight: 500, color: s.accent,
+              lineHeight: 1.55, margin: 0,
+              paddingBottom: keyPoints.length > 0 ? 12 : 0,
+              borderBottom: keyPoints.length > 0 ? `1px solid ${s.borderLight}` : "none",
+            }}>{article.bottom_line}</p>
+          )}
+          {keyPoints.length > 0 && (
+            <div style={{ marginTop: article.bottom_line ? 12 : 0 }}>
+              {keyPoints.slice(0, 4).map((kp: any, i: number) => (
+                <p key={i} style={{
+                  fontSize: 14, lineHeight: 1.55, color: s.muted,
+                  margin: "0 0 5px 0", paddingLeft: 16, position: "relative",
+                }}>
+                  <span style={{ position: "absolute", left: 0, color: s.accent, fontWeight: 700, fontSize: 16 }}>·</span>
+                  {typeof kp === "string" ? kp : kp.text}
+                </p>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
-      {/* At a Glance (key developments as quick bullets) */}
-      {keyPoints.length > 0 && (
-        <div style={{ background:"#fff", border:`1px solid ${s.border}`, borderRadius:8, padding:"14px 18px", marginBottom:24 }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.light, marginBottom:8 }}>At a Glance</p>
-          {keyPoints.slice(0,4).map((kp: any, i: number) => (
-            <p key={i} style={{ fontSize:14, lineHeight:1.5, color:s.muted, margin:"0 0 4px 0", paddingLeft:14, position:"relative" }}>
-              <span style={{ position:"absolute", left:0, color:s.gold, fontWeight:700 }}>·</span>
-              {typeof kp === "string" ? kp : kp.text}
-            </p>
-          ))}
-        </div>
-      )}
-
-      {/* Full Article Body */}
+      {/* ── 4. Full Article Body ── */}
       {(article.body || article.summary) && (
-        <section style={{ marginBottom:28 }}>
+        <section style={{ marginBottom: 28 }}>
           {(article.body || article.summary || "").split("\n\n").map((para: string, i: number) => (
-            <p key={i} style={{ fontSize:16, lineHeight:1.8, color:"#333", marginBottom:14 }}>{para}</p>
+            <p key={i} style={{
+              fontSize: 17, lineHeight: 1.8, color: s.text,
+              marginBottom: 16, fontFamily: s.headline,
+            }}>{para}</p>
           ))}
         </section>
       )}
 
-      {/* Why It Matters */}
-      {article.why_it_matters && (
-        <section style={{ marginBottom:24, background:"#FFFBF5", border:`1px solid ${s.goldLight}`, borderRadius:8, padding:"14px 18px" }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.gold, marginBottom:6 }}>Why It Matters</p>
-          <p style={{ fontSize:15, lineHeight:1.65, color:"#5A4A30", margin:0 }}>{article.why_it_matters}</p>
+      {/* ── 5. Why It Matters + What to Watch (combined section) ── */}
+      {(article.why_it_matters || article.what_to_watch) && (
+        <section style={{
+          marginBottom: 28, background: s.accentLight,
+          borderRadius: 8, padding: "18px 22px",
+          borderLeft: `3px solid ${s.accent}`,
+        }}>
+          {article.why_it_matters && (
+            <div style={{ marginBottom: article.what_to_watch ? 14 : 0 }}>
+              <p style={{
+                fontSize: 11, fontWeight: 700, letterSpacing: "0.08em",
+                textTransform: "uppercase", color: s.accent, marginBottom: 6,
+                fontFamily: s.body,
+              }}>Why It Matters</p>
+              <p style={{ fontSize: 15, lineHeight: 1.65, color: s.text, margin: 0 }}>
+                {article.why_it_matters}
+              </p>
+            </div>
+          )}
+          {article.what_to_watch && (
+            <div style={{
+              paddingTop: article.why_it_matters ? 14 : 0,
+              borderTop: article.why_it_matters ? `1px solid ${s.accentLight}` : "none",
+            }}>
+              <p style={{
+                fontSize: 11, fontWeight: 700, letterSpacing: "0.08em",
+                textTransform: "uppercase", color: s.accent, marginBottom: 6,
+                fontFamily: s.body,
+              }}>What to Watch</p>
+              <p style={{ fontSize: 14, lineHeight: 1.6, color: s.muted, margin: 0 }}>
+                {article.what_to_watch}
+              </p>
+            </div>
+          )}
         </section>
       )}
 
-      {/* What to Watch */}
-      {article.what_to_watch && (
-        <section style={{ marginBottom:24 }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.light, marginBottom:6 }}>What to Watch</p>
-          <p style={{ fontSize:14, lineHeight:1.6, color:s.muted }}>{article.what_to_watch}</p>
-        </section>
-      )}
-
-      {/* News Quotes */}
+      {/* ── Key Statements (news quotes) ── */}
       {newsQuotes.length > 0 && (
-        <section style={{ marginBottom:24 }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.light, marginBottom:10 }}>Key Statements</p>
+        <section style={{ marginBottom: 28 }}>
+          <p style={{
+            fontSize: 11, fontWeight: 700, letterSpacing: "0.08em",
+            textTransform: "uppercase", color: s.light, marginBottom: 10,
+            fontFamily: s.body,
+          }}>Key Statements</p>
           {newsQuotes.map((q: any, i: number) => (
-            <div key={i} style={{ background:s.accentLight, borderRadius:8, padding:"12px 16px", borderLeft:`3px solid ${s.accent}`, marginBottom:8 }}>
-              <p style={{ fontSize:14, color:s.accent, fontStyle:"italic", margin:"0 0 4px 0", lineHeight:1.5 }}>&ldquo;{q.quote}&rdquo;</p>
-              <p style={{ fontSize:12, color:s.muted, margin:0, fontWeight:600 }}>— {q.speaker} {q.source_outlet ? `(${q.source_outlet})` : ""}</p>
+            <div key={i} style={{
+              background: s.surface, borderRadius: 8, padding: "12px 16px",
+              borderLeft: `3px solid ${s.accent}`, marginBottom: 8,
+              border: `1px solid ${s.borderLight}`, borderLeftWidth: 3, borderLeftColor: s.accent,
+            }}>
+              <p style={{ fontSize: 14, color: s.text, fontStyle: "italic", margin: "0 0 4px 0", lineHeight: 1.55 }}>
+                &ldquo;{q.quote}&rdquo;
+              </p>
+              <p style={{ fontSize: 12, color: s.muted, margin: 0, fontWeight: 600 }}>
+                — {q.speaker} {q.source_outlet ? `(${q.source_outlet})` : ""}
+              </p>
             </div>
           ))}
         </section>
       )}
 
-      {/* X Quotes */}
+      {/* ── Voices on X ── */}
       {xQuotes.length > 0 && (
-        <section style={{ marginBottom:24 }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.light, marginBottom:4 }}>Voices on 𝕏</p>
-          <p style={{ fontSize:12, color:s.light, marginBottom:10 }}>Public figures weigh in — both sides</p>
+        <section style={{ marginBottom: 28 }}>
+          <p style={{
+            fontSize: 11, fontWeight: 700, letterSpacing: "0.08em",
+            textTransform: "uppercase", color: s.light, marginBottom: 4,
+            fontFamily: s.body,
+          }}>Voices on 𝕏</p>
+          <p style={{ fontSize: 12, color: s.light, marginBottom: 10 }}>Public figures weigh in — both sides</p>
           {xQuotes.map((q: any, i: number) => {
             const isSup = q.perspective === "supporting";
             return (
-              <div key={i} style={{ background: isSup ? s.supportingBg : s.opposingBg, borderRadius:8, padding:"12px 16px", borderLeft:`3px solid ${isSup ? s.supporting : s.opposing}`, marginBottom:8 }}>
-                <span style={{ fontSize:9, fontWeight:700, textTransform:"uppercase", color: isSup ? s.supporting : s.opposing, background: isSup ? "#D4EDDA" : "#F5D5D5", padding:"1px 6px", borderRadius:3 }}>{isSup ? "Supporting" : "Opposing"}</span>
-                <p style={{ fontSize:14, color:"#333", fontStyle:"italic", margin:"6px 0 4px 0", lineHeight:1.5 }}>&ldquo;{q.quote}&rdquo;</p>
-                <p style={{ fontSize:12, color:s.muted, margin:0, fontWeight:600 }}>— {q.speaker}</p>
+              <div key={i} style={{
+                background: isSup ? s.supportingBg : s.opposingBg,
+                borderRadius: 8, padding: "12px 16px",
+                borderLeft: `3px solid ${isSup ? s.supporting : s.opposing}`,
+                marginBottom: 8,
+              }}>
+                <span style={{
+                  fontSize: 9, fontWeight: 700, textTransform: "uppercase",
+                  color: isSup ? s.supporting : s.opposing,
+                  background: isSup ? "#D4EDDA" : "#F5D5D5",
+                  padding: "1px 6px", borderRadius: 3,
+                }}>{isSup ? "Supporting" : "Opposing"}</span>
+                <p style={{ fontSize: 14, color: s.text, fontStyle: "italic", margin: "6px 0 4px 0", lineHeight: 1.55 }}>
+                  &ldquo;{q.quote}&rdquo;
+                </p>
+                <p style={{ fontSize: 12, color: s.muted, margin: 0, fontWeight: 600 }}>— {q.speaker}</p>
               </div>
             );
           })}
         </section>
       )}
 
-      {/* How DI Built This Story */}
+      {/* ── 6. Sources — compact ── */}
       {components.length > 0 && (
-        <section style={{ marginBottom:24 }}>
-          <p style={{ fontSize:11, fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase", color:s.light, marginBottom:4 }}>How DI Built This Story</p>
-          <p style={{ fontSize:12, color:s.light, marginBottom:10 }}>Synthesized from {components.length} reports across {new Set(components.map((c: any) => c.lean)).size} viewpoints · Reviewed for bias by Claude + Grok</p>
-          <div style={{ display:"grid", gap:6 }}>
+        <section style={{ marginBottom: 28 }}>
+          <p style={{
+            fontSize: 11, fontWeight: 700, letterSpacing: "0.08em",
+            textTransform: "uppercase", color: s.light, marginBottom: 4,
+            fontFamily: s.body,
+          }}>How DI Built This Story</p>
+          <p style={{ fontSize: 12, color: s.light, marginBottom: 10 }}>
+            Synthesized from {components.length} reports across {new Set(components.map((c: any) => c.lean)).size} viewpoints
+          </p>
+          <div style={{ display: "grid", gap: 4 }}>
             {components.map((ca: any, i: number) => (
-              <a key={i} href={ca.url} target="_blank" rel="noreferrer" style={{ display:"flex", justifyContent:"space-between", alignItems:"center", gap:8, background:"#fff", border:`1px solid ${s.border}`, borderRadius:6, padding:"8px 12px", textDecoration:"none", color:"inherit" }}>
-                <div>
-                  <span style={{ fontSize:10, fontWeight:600, color:s.light, textTransform:"uppercase" }}>{ca.source} ({ca.lean})</span>
-                  <p style={{ fontSize:12, margin:"2px 0 0 0", lineHeight:1.3, color:s.muted }}>{ca.title}</p>
+              <a key={i} href={ca.url} target="_blank" rel="noreferrer" style={{
+                display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8,
+                padding: "6px 10px", borderRadius: 6,
+                textDecoration: "none", color: "inherit",
+                background: s.surface, border: `1px solid ${s.borderLight}`,
+              }}>
+                <div style={{ overflow: "hidden" }}>
+                  <span style={{ fontSize: 10, fontWeight: 600, color: s.light, textTransform: "uppercase" }}>
+                    {ca.source} ({ca.lean})
+                  </span>
+                  <p style={{
+                    fontSize: 12, margin: "1px 0 0 0", lineHeight: 1.3, color: s.muted,
+                    whiteSpace: "nowrap" as any, overflow: "hidden", textOverflow: "ellipsis",
+                  }}>{ca.title}</p>
                 </div>
-                <span style={{ fontSize:11, color:s.accent, flexShrink:0 }}>↗</span>
+                <span style={{ fontSize: 11, color: s.accent, flexShrink: 0 }}>↗</span>
               </a>
             ))}
           </div>
         </section>
       )}
 
-      {/* Positive Thought */}
-      {article.positive_thought && (
-        <section style={{ marginBottom:24, background:s.goldLight, border:"1px solid #EDE0C8", borderRadius:8, padding:"16px 20px" }}>
-          <p style={{ fontSize:12, fontWeight:600, color:s.gold, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>A Positive Thought</p>
-          <p style={{ fontSize:15, lineHeight:1.65, color:"#7A6840", fontStyle:"italic", fontFamily:s.display, margin:0 }}>{article.positive_thought}</p>
-        </section>
-      )}
-
-      {/* Footer */}
-      <div style={{ borderTop:`1px solid ${s.borderLight}`, paddingTop:14, marginTop:12 }}>
-        <p style={{ fontSize:12, color:s.light, lineHeight:1.6 }}>
+      {/* ── 7. Disclosure footer ── */}
+      <div style={{ borderTop: `1px solid ${s.borderLight}`, paddingTop: 16, marginTop: 16 }}>
+        <p style={{ fontSize: 13, color: s.light, lineHeight: 1.65 }}>
           This article was written by AI from structured evidence extracted across multiple sources, then reviewed for bias by independent AI models.{" "}
-          <Link href="/how-it-works" style={{ color:s.accent, textDecoration:"none" }}>Learn how The Daily Informant works</Link>.
+          <Link href="/how-it-works" style={{ color: s.accent, textDecoration: "none" }}>
+            Learn how The Daily Informant works
+          </Link>.
         </p>
       </div>
     </div>
