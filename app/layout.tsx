@@ -42,6 +42,10 @@ export default function RootLayout({
           .di-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
           .di-card-link { text-decoration: none !important; color: inherit !important; display: block; }
           
+          /* Tablet responsive */
+          @media (max-width: 1024px) {
+            .di-story-grid { grid-template-columns: 1fr 1fr !important; }
+          }
           /* Mobile responsive */
           @media (max-width: 768px) {
             .di-layout-grid { grid-template-columns: 1fr !important; }
@@ -113,6 +117,7 @@ export default function RootLayout({
               {[
                 { href: "/", label: "Today" },
                 { href: "/topics", label: "Situations" },
+                { href: "/good-news", label: "Good News" },
                 { href: "/archive", label: "Archive" },
                 { href: "/how-it-works", label: "How It Works" },
               ].map(link => (
