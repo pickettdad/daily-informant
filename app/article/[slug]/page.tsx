@@ -46,6 +46,12 @@ export default async function ArticlePage({ params }: any) {
       })
     : "";
 
+  // Build article navigation
+  const allStories = [...(daily.top_stories || []), ...(daily.good_developments || [])];
+  const currentIdx = allStories.findIndex((a: any) => a.slug === slug);
+  const prevArticle = currentIdx > 0 ? allStories[currentIdx - 1] : null;
+  const nextArticle = currentIdx < allStories.length - 1 ? allStories[currentIdx + 1] : null;
+
   if (!article) return (
     <div style={{ padding: 40 }}>
       <h1 style={{ fontFamily: s.headline }}>Article not found</h1>
@@ -294,6 +300,38 @@ export default async function ArticlePage({ params }: any) {
           </Link>.
         </p>
       </div>
+
+      {/* ── 9. Next / Previous Article Navigation ── */}
+      {(prevArticle || nextArticle) && (
+        <div style={{
+          display: "flex", justifyContent: "space-between", gap: 16,
+          marginTop: 24, paddingTop: 20,
+          borderTop: `1px solid ${s.borderLight}`,
+          flexWrap: "wrap",
+        }}>
+          {prevArticle ? (
+            <Link href={`/article/${prevArticle.slug}`} style={{
+              flex: "1 1 45%", textDecoration: "none", color: "inherit",
+              padding: "12px 16px", background: s.surface,
+              border: `1px solid ${s.borderLight}`, borderRadius: 8,
+            }}>
+              <span style={{ fontSize: 11, color: s.light, textTransform: "uppercase", letterSpacing: "0.06em" }}>← Previous</span>
+              <p style={{ fontSize: 14, fontWeight: 600, color: s.text, margin: "4px 0 0 0", lineHeight: 1.3 }}>{prevArticle.headline}</p>
+            </Link>
+          ) : <div style={{ flex: "1 1 45%" }} />}
+          {nextArticle ? (
+            <Link href={`/article/${nextArticle.slug}`} style={{
+              flex: "1 1 45%", textDecoration: "none", color: "inherit",
+              padding: "12px 16px", background: s.surface,
+              border: `1px solid ${s.borderLight}`, borderRadius: 8,
+              textAlign: "right",
+            }}>
+              <span style={{ fontSize: 11, color: s.light, textTransform: "uppercase", letterSpacing: "0.06em" }}>Next →</span>
+              <p style={{ fontSize: 14, fontWeight: 600, color: s.text, margin: "4px 0 0 0", lineHeight: 1.3 }}>{nextArticle.headline}</p>
+            </Link>
+          ) : <div style={{ flex: "1 1 45%" }} />}
+        </div>
+      )}
     </div>
   );
 }
