@@ -4408,5 +4408,180 @@
     "category": "US",
     "slug": "article-25",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "New Chief Administrative Officer Appointed in Prince Edward County",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Freezing Rain Causes School Cancellations in Northern Ontario",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Ransomware Attack Affects Ontario Health Agency Vendor in 2025",
+    "category": "Ontario",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Destroys Iranian Mine-Laying Ships in Strait of Hormuz Amid Tensions",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. and Israel Conduct Air Strikes on Iran",
+    "category": "US",
+    "slug": "article-5",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Trump Comments on US-Iran Military Operations",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 10
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Service Members Injured as Iran Conflict Intensifies",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Study Links GLP-1 Drugs to Lower Addiction Rates",
+    "category": "Health",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Weather Warning Issued for Quinte Region on March 11, 2026",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Court Upholds Disciplinary Action Against School Board Trustee",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Study Links Difficult Relationships to Faster Aging",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Toronto Moves to Address Tenant Concerns Over Problematic Landlords",
+    "category": "Ontario",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Canadian Jewish Communities Express Concerns Over Social Justice Discourse",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Public Opinion Favors Tariff-Free Trade with Canada",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Canada Supports Ugandan Health Initiative for Women and Children",
+    "category": "Canada",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Canada Questions Refugee Status of ANR Associate Gupa",
+    "category": "Canada",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S.-Israel-Iran Conflict Enters Second Week Amid Escalation",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Launches Major Operations Against Iran Amid Ongoing Conflict",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Inflation Report Awaited Amid Rising Gas Prices Due to Iran Conflict",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Runoff Candidates Emerge for Greene's House Seat",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S.-Israeli Strikes Against Iran Intensify Amid Rising Hostilities",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "FDA Warns of Norovirus-Contaminated Seafood in Nine States",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Senate GOP Divided Over Voting Reform Bill Strategy",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Iran Considers New Military Strategy Amidst Rising Tensions",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 8
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Toronto Raptors Suffer Loss to Houston Rockets on March 11",
+    "category": "Ontario",
+    "slug": "article-25",
+    "source_count": 1
   }
 ]
