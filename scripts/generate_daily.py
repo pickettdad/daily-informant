@@ -39,6 +39,9 @@ FEEDS = [
     {"name": "Toronto Star",       "url": "https://www.thestar.com/search/?f=rss&t=article&c=news*&l=50&s=start_time&sd=desc", "lean": "Center-Left", "region": "Ontario"},
     {"name": "Toronto Sun",        "url": "https://torontosun.com/feed",                              "lean": "Right",        "region": "Ontario"},
     {"name": "Global News Canada", "url": "https://globalnews.ca/feed/",                              "lean": "Center",       "region": "Ontario"},
+    {"name": "CTV News Toronto",   "url": "https://toronto.ctvnews.ca/rss/ctv-news-toronto-1.822319", "lean": "Center",       "region": "Ontario"},
+    {"name": "CTV News Ottawa",    "url": "https://ottawa.ctvnews.ca/rss/ctv-news-ottawa-1.822302",   "lean": "Center",       "region": "Ontario"},
+    {"name": "TVO Today",          "url": "https://www.tvo.org/rss.xml",                               "lean": "Center",       "region": "Ontario"},
     # ── Canada ──
     {"name": "Globe and Mail",     "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/", "lean": "Center", "region": "Canada"},
     {"name": "National Post",      "url": "https://nationalpost.com/feed/",                            "lean": "Center-Right", "region": "Canada"},
@@ -113,8 +116,6 @@ ONGOING_TOPICS_PRIORITY = [
     ("economy-inflation",      {"inflation", "interest rate", "federal reserve", "bank of canada", "jobs report", "unemployment", "recession", "stagflation"}),
     ("middle-east-israel-gaza", {"gaza", "hamas", "palestinian", "west bank", "hostage", "ceasefire gaza"}),
     ("sudan-south-sudan",      {"sudan", "south sudan", "khartoum", "darfur", "rsf", "juba"}),
-    ("ai-regulation",          {"ai act", "artificial intelligence regulation", "ai safety", "deepfake", "ai policy"}),
-    ("climate-environment",    {"climate", "emissions", "renewable energy", "carbon", "paris agreement", "cop28", "cop29", "global warming"}),
 ]
 
 # ── Noise Filter ───────────────────────────────────────────────────
@@ -470,13 +471,14 @@ Then assemble the BEST cross-category lineup of 25 stories for a morning briefin
 
 CATEGORY FLOORS (include at least this many IF quality stories exist):
 - Local (Bay of Quinte): 2-3
-- Ontario: 2-3
+- Ontario: 3-4 (IMPORTANT: always look hard for Ontario provincial stories — Toronto, Ottawa, provincial policy)
 - Canada: 2-4 (IMPORTANT: always include national Canadian stories when available)
 - US: 4-6
 - World: 4-6
 - Health/Science/Tech: 2-3
 
 Mark constructive/positive stories with + prefix.
+IMPORTANT: Include at least 3-4 constructive/positive stories (marked with +). Look for Good News Network, Positive News, and uplifting stories from any source.
 DO NOT select sports stories.
 DO NOT select multiple stories about the same topic.
 
@@ -618,7 +620,7 @@ CATEGORY RULES:
 - "US"/"World"/"Health"/"Science"/"Tech" as appropriate
 
 is_constructive: TRUE only for volunteer efforts, breakthroughs, milestones, community wins. FALSE for conflict/death.
-related_ongoing: Match ONLY if DIRECTLY about one of: iran-conflict, ukraine-russia, us-tariffs-trade, economy-inflation, middle-east-israel-gaza, sudan-south-sudan, ai-regulation, climate-environment. Empty string if no match.
+related_ongoing: Match ONLY if DIRECTLY about one of: iran-conflict, ukraine-russia, us-tariffs-trade, economy-inflation, middle-east-israel-gaza, sudan-south-sudan. Empty string if no match.
 
 IMPORTANT: Preserve source_ids so we know which source said what. Only include a quote if the exact wording appears in the supplied material. Prefer specificity over completeness — if evidence is thin, include less."""
 
@@ -793,19 +795,20 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
         if related not in valid_slugs: related = ""
         if is_constructive and is_neg: is_constructive = False
 
-        # Pass B: Article (with retry if too short — target is 280-450w)
+        # Pass B: Article (with retry if too short)
         article = write_article(evidence, len(group), source_leans, category)
         body = article.get("body", "").strip()
-        if len(body.split()) < 250 and len(group) > 0:
-            print(f"    ↻ Retrying article (only {len(body.split())}w, need 250+)...")
+        if len(body.split()) < 180 and len(group) > 0:
+            print(f"    ↻ Retrying article (only {len(body.split())}w)...")
             time.sleep(1)
             article = write_article(evidence, len(group), source_leans, category)
             body = article.get("body", "").strip()
-            if len(body.split()) < 250:
-                print(f"    ↻ Retry 2 (still only {len(body.split())}w)...")
-                time.sleep(1)
-                article = write_article(evidence, len(group), source_leans, category)
-                body = article.get("body", "").strip()
+
+        # Fallback: if body is garbage (< 30 words), build from descriptions
+        if len(body.split()) < 30:
+            print(f"    ⚠ Body is garbage ({len(body.split())}w), using description fallback")
+            fallback_parts = [item.get("full_text", item.get("description", ""))[:500] for item in group]
+            body = " ".join(p for p in fallback_parts if p)[:2000]
 
         headline = article.get("headline", group[0]["title"]).strip()
         bottom_line = article.get("bottom_line", "").strip()
@@ -847,6 +850,19 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
             if item["source_name"] not in seen_sources:
                 sources.append({"name": item["source_name"], "url": item["link"]})
                 seen_sources.add(item["source_name"])
+        # Enrich: scan ALL feed items for additional coverage of same story
+        headline_kw = kw(headline + " " + bottom_line)
+        if len(headline_kw) >= 3:
+            for item in all_items:
+                if item["source_name"] in seen_sources: continue
+                item_kw = kw(item["title"] + " " + item.get("description", "")[:200])
+                if len(item_kw) < 3: continue
+                overlap = len(headline_kw & item_kw)
+                smaller = min(len(headline_kw), len(item_kw))
+                if smaller > 0 and overlap / smaller >= 0.28:
+                    sources.append({"name": item["source_name"], "url": item["link"]})
+                    component_articles.append({"source": item["source_name"], "lean": item["lean"], "title": item["title"], "url": item["link"]})
+                    seen_sources.add(item["source_name"])
 
         tags = ""
         if is_constructive: tags += " [CONSTRUCTIVE]"
@@ -1079,7 +1095,7 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v10.1")
+    print("  The Daily Informant — Morning Pipeline v10.2")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -1209,7 +1225,7 @@ def main():
         "good_developments": good_devs,
         "optional_reflection": "",
         "_meta": {
-            "pipeline_version": "10.1", "models_used": list(selections.keys()) if selections else [],
+            "pipeline_version": "10.2", "models_used": list(selections.keys()) if selections else [],
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "full_text_enriched": ft_total,
