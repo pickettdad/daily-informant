@@ -265,7 +265,27 @@ export default async function ArticlePage({ params }: any) {
         </section>
       )}
 
-      {/* ── 7. Disclosure footer ── */}
+      {/* ── 7. Positive Thought ── */}
+      {article.positive_thought && (
+        <section style={{
+          marginBottom: 24, background: s.amberLight,
+          border: `1px solid #E8D9B8`, borderRadius: 8,
+          padding: "16px 20px",
+        }}>
+          <p style={{
+            fontSize: 11, fontWeight: 700, textTransform: "uppercase",
+            letterSpacing: "0.08em", color: s.amber, marginBottom: 8,
+            fontFamily: s.body,
+          }}>A Positive Thought</p>
+          <p style={{
+            fontSize: 16, lineHeight: 1.65, color: "#5A4A30",
+            fontStyle: "italic", fontFamily: "'Source Serif 4', Georgia, serif",
+            margin: 0,
+          }}>{article.positive_thought}</p>
+        </section>
+      )}
+
+      {/* ── 8. Disclosure footer ── */}
       <div style={{ borderTop: `1px solid ${s.borderLight}`, paddingTop: 16, marginTop: 16 }}>
         <p style={{ fontSize: 13, color: s.light, lineHeight: 1.65 }}>
           This article was written by AI from structured evidence extracted across multiple sources, then reviewed for bias by independent AI models.{" "}
