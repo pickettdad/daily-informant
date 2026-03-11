@@ -212,6 +212,10 @@ def _call_gemini(prompt_text):
 
 def _parse_json_from_text(text):
     text = text.strip()
+    # Strip markdown code fences (Gemini often wraps in ```json ... ```)
+    text = re.sub(r'^```(?:json)?\s*', '', text)
+    text = re.sub(r'\s*```$', '', text)
+    text = text.strip()
     for match in re.finditer(r'[\[{]', text):
         try:
             start = match.start()
@@ -404,25 +408,30 @@ def group_pass_1(items, threshold=0.40):
     return groups
 
 def group_pass_2_ai(groups):
-    """AI-assisted merge for ambiguous near-threshold pairs. Sends richer context than before."""
+    """AI-assisted merge — detects same-event duplicates with different framing."""
     if not OPENAI_API_KEY or len(groups) < 5: return groups
-    cap = min(len(groups), 80)
+    cap = min(len(groups), 100)
     summaries = []
     for i in range(cap):
         g = groups[i]
-        titles = "; ".join(item["title"][:70] for item in g[:3])
+        titles = "; ".join(item["title"][:80] for item in g[:3])
         sources = ", ".join(set(item["source_name"] for item in g))
-        summaries.append(f"{i+1}. [{len(g)} art from {sources}] {titles}")
-    prompt = (f"Below are {len(summaries)} news story groups. Some may cover the SAME event/topic.\n"
-              f"Identify groups to merge. Return ONLY a JSON array of arrays. Example: [[1,4,7],[3,9]]\n"
-              f"If none should merge, return [].\n\n" + "\n".join(summaries))
+        desc = g[0].get("description", "")[:120]
+        summaries.append(f"{i+1}. [{len(g)} art from {sources}] {titles}\n   Desc: {desc}")
+    prompt = (f"Below are {len(summaries)} news story groups. Some cover the SAME underlying event but with different framing.\n\n"
+              f"IMPORTANT: Groups about the same real-world event MUST be merged even if headlines use different words.\n"
+              f"Example: 'IEA approves oil release' and 'G7 agrees to emergency reserves' and 'Countries release record oil' are ALL the same story.\n"
+              f"Example: 'Trump hints Iran war ending' and 'US intensifies Iran strikes' are DIFFERENT stories (different events).\n\n"
+              f"Identify groups to merge. Return ONLY a JSON array of arrays of integers. Example: [[1,4,7],[3,9]]\n"
+              f"If none should merge, return []. No strings, only integers.\n\n" + "\n".join(summaries))
     try:
         raw = _call_openai([{"role": "user", "content": prompt}])
         merges = _parse_json_from_text(raw)
         absorbed = set()
         for merge_set in merges:
             if not isinstance(merge_set, list) or len(merge_set) < 2: continue
-            indices = [n-1 for n in merge_set if isinstance(n, int) and 1 <= n <= cap]
+            indices = [n-1 for n in merge_set if isinstance(n, (int, float)) and 1 <= int(n) <= cap]
+            indices = [int(n) for n in indices]
             if len(indices) < 2: continue
             target = indices[0]
             for src in indices[1:]:
@@ -494,11 +503,30 @@ def build_bucketed_pool_text(groups):
     return "\n".join(lines)
 
 def _parse_picks(text):
+    # First try: find a JSON array and parse it
+    text = text.strip()
+    text = re.sub(r'^```(?:json)?\s*', '', text)
+    text = re.sub(r'\s*```$', '', text)
+    # Try parsing as full JSON array first (handles ["21", "+20", "17"] format)
+    try:
+        arr = json.loads(text) if text.startswith("[") else None
+        if arr and isinstance(arr, list):
+            nums, good = [], set()
+            for item in arr:
+                s = str(item).strip()
+                is_g = s.startswith("+"); s = s.lstrip("+").strip()
+                # Strip quotes if present
+                s = s.strip('"').strip("'")
+                try: n = int(s); nums.append(n); (good.add(n) if is_g else None)
+                except ValueError: pass
+            if nums: return nums, good
+    except (json.JSONDecodeError, ValueError): pass
+    # Fallback: regex extraction from any [...] block
     match = re.search(r'\[([^\]]+)\]', text)
     if not match: return [], set()
     nums, good = [], set()
     for p in match.group(1).split(","):
-        p = p.strip()
+        p = p.strip().strip('"').strip("'")
         is_g = p.startswith("+"); p = p.lstrip("+").strip()
         try: n = int(p); nums.append(n); (good.add(n) if is_g else None)
         except ValueError: pass
@@ -634,7 +662,7 @@ STYLE RULES:
 
 {style_card}
 
-LENGTH: Body target 280-450 words. Go SHORTER if evidence is thin. Do not pad with filler to reach a word count.
+LENGTH: Body MUST be 280-450 words. This is a HARD minimum — articles under 250 words are unacceptable and will be rejected. Use the evidence fully: include timeline details, stakeholder positions, implications, context, and unknowns. If evidence is genuinely thin (only 1-2 sources with minimal detail), 250 words is acceptable. Never pad with filler, but do write a complete, informative article.
 
 Output ONLY valid JSON:
 {{
@@ -645,7 +673,7 @@ Output ONLY valid JSON:
   "what_to_watch": "1-2 sentences. Specific upcoming event or unresolved trigger.",
   "key_developments": ["4-6 specific concrete facts from the brief"],
   "stakeholder_quotes": [{{ "speaker": "Name", "quote": "exact words from brief only" }}],
-  "positive_thought": "A brief, heartfelt thought specific to THIS story. Mention a real person, place, or detail. Express hope for those involved. No 'God', no 'Amen'. For negative stories, focus on comfort. For positive stories, express gratitude. Be unique — never repeat the same pattern."
+  "positive_thought": "Write a brief, prayerful reflection specific to THIS story. Mention a real person, place, or detail from the evidence. Use gentle, hopeful language that draws on themes of grace, mercy, provision, and peace — the kind of quiet strength that comes from something greater than ourselves. For difficult stories: express comfort and hope for those suffering, trusting that light persists even in darkness. For positive stories: express gratitude for the goodness at work in the world. Never use the word 'God' or 'Amen' directly, but let the tone carry the warmth of faith — like a prayer that anyone could say. Be unique and specific to each story, never generic."
 }}"""
 
 EVIDENCE_SCHEMA = {
@@ -765,14 +793,19 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
         if related not in valid_slugs: related = ""
         if is_constructive and is_neg: is_constructive = False
 
-        # Pass B: Article (with retry if too short)
+        # Pass B: Article (with retry if too short — target is 280-450w)
         article = write_article(evidence, len(group), source_leans, category)
         body = article.get("body", "").strip()
-        if len(body.split()) < 150 and len(group) > 0:
-            print(f"    ↻ Retrying article (only {len(body.split())}w)...")
+        if len(body.split()) < 250 and len(group) > 0:
+            print(f"    ↻ Retrying article (only {len(body.split())}w, need 250+)...")
             time.sleep(1)
             article = write_article(evidence, len(group), source_leans, category)
             body = article.get("body", "").strip()
+            if len(body.split()) < 250:
+                print(f"    ↻ Retry 2 (still only {len(body.split())}w)...")
+                time.sleep(1)
+                article = write_article(evidence, len(group), source_leans, category)
+                body = article.get("body", "").strip()
 
         headline = article.get("headline", group[0]["title"]).strip()
         bottom_line = article.get("bottom_line", "").strip()
@@ -858,7 +891,7 @@ Review the FULL set and fix these specific problems:
 2. If "significant" or "concerns" or "implications" appears more than 3 times total, replace with more precise language.
 3. Ensure Local/Ontario articles sound warmer and more community-focused than World/US articles.
 4. If any article's body is under 200 words and reads like a stub, flag it.
-5. Check that positive_thought fields are genuinely unique — no two should follow the same pattern.
+5. Check that positive_thought fields are genuinely unique and carry a warm, prayerful quality — like a quiet blessing or gentle hope. No two should follow the same pattern. Flag any that sound generic or corporate.
 
 Return ONLY a JSON array of targeted fixes:
 [{"article_index": 0, "field": "body", "issue": "starts same as article 3", "fix_type": "rewrite_opening", "new_opening_sentence": "replacement first sentence"},
@@ -1046,7 +1079,7 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v10")
+    print("  The Daily Informant — Morning Pipeline v10.1")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -1076,6 +1109,39 @@ def main():
     consensus_indices = build_consensus(selections, len(groups)) if selections else list(range(1, min(MAX_ARTICLES+1, len(groups)+1)))
     consensus_groups = [groups[i-1] for i in consensus_indices if 1 <= i <= len(groups)]
     print(f"\n   Final: {len(consensus_groups)} DI articles")
+
+    # Post-selection dedup: check for groups that are about the same topic
+    print("\n─── Step 4b: Post-selection duplicate check ───")
+    if len(consensus_groups) > 5:
+        dedup_summaries = []
+        for i, g in enumerate(consensus_groups):
+            titles = "; ".join(item["title"][:80] for item in g[:2])
+            dedup_summaries.append(f"{i+1}. {titles}")
+        dedup_prompt = (
+            "These are the selected stories for today's edition. Check for DUPLICATES — stories about the same underlying event.\n"
+            "Return a JSON array of arrays of story numbers that are duplicates. Example: [[2,5,8]] means stories 2, 5, and 8 are the same.\n"
+            "Keep the FIRST in each group (lowest number), remove the rest.\n"
+            "If no duplicates, return []. Return ONLY valid JSON, integers only.\n\n" + "\n".join(dedup_summaries)
+        )
+        try:
+            raw = _call_openai([{"role": "user", "content": dedup_prompt}])
+            dedup_sets = _parse_json_from_text(raw)
+            to_remove = set()
+            if isinstance(dedup_sets, list):
+                for dup_set in dedup_sets:
+                    if isinstance(dup_set, list) and len(dup_set) >= 2:
+                        nums = sorted([int(n)-1 for n in dup_set if 1 <= int(n) <= len(consensus_groups)])
+                        # Keep the first, remove the rest
+                        for idx in nums[1:]:
+                            to_remove.add(idx)
+            if to_remove:
+                consensus_groups = [g for i, g in enumerate(consensus_groups) if i not in to_remove]
+                consensus_indices = [idx for i, idx in enumerate(consensus_indices) if i not in to_remove]
+                print(f"   Removed {len(to_remove)} duplicate stories → {len(consensus_groups)} remaining")
+            else:
+                print(f"   No duplicates found")
+        except Exception as e:
+            print(f"   Dedup check failed: {e}")
 
     print("\n─── Step 5: Full text enrichment ───")
     ft_total = 0
@@ -1143,7 +1209,7 @@ def main():
         "good_developments": good_devs,
         "optional_reflection": "",
         "_meta": {
-            "pipeline_version": "10.0", "models_used": list(selections.keys()) if selections else [],
+            "pipeline_version": "10.1", "models_used": list(selections.keys()) if selections else [],
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "full_text_enriched": ft_total,
