@@ -86,12 +86,11 @@ function HeroStory({ article }: { article: any }) {
 /* ── Compact Need to Know ── */
 function NeedToKnow({ items }: { items: any[] }) {
   if (!items?.length) return null;
-  // Max 4 items, one sentence each
   const display = items.slice(0, 4);
   return (
     <div style={{
       background: s.accentLight, borderRadius: 8,
-      padding: "14px 20px", marginBottom: 20,
+      padding: "14px 20px", marginBottom: 22,
       borderLeft: `3px solid ${s.accent}`,
     }}>
       <h3 style={{
@@ -108,10 +107,7 @@ function NeedToKnow({ items }: { items: any[] }) {
             display: "flex", gap: 10, alignItems: "baseline",
           }}>
             <span style={{ fontSize: 12, fontWeight: 700, color: s.accent, flexShrink: 0, fontFamily: s.body }}>{i + 1}.</span>
-            <span style={{
-              overflow: "hidden", textOverflow: "ellipsis",
-              whiteSpace: "nowrap" as any, display: "block",
-            }}>{item.bottom_line || item.headline}</span>
+            <span>{item.bottom_line || item.headline}</span>
           </li>
         ))}
       </ol>
@@ -119,16 +115,15 @@ function NeedToKnow({ items }: { items: any[] }) {
   );
 }
 
-/* ── Story Row ── */
-function StoryRow({ article }: { article: any }) {
+/* ── Story Card (grid tile) ── */
+function StoryCard({ article }: { article: any }) {
   const cs = gc(article.category);
   return (
-    <Link href={`/article/${article.slug}`} style={{
-      display: "block", padding: "16px 0",
-      borderBottom: `1px solid ${s.borderLight}`,
-      textDecoration: "none", color: "inherit",
+    <Link href={`/article/${article.slug}`} className="di-card di-card-link" style={{
+      padding: "18px 20px",
+      display: "flex", flexDirection: "column",
     }}>
-      <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 6 }}>
+      <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8, flexWrap: "wrap" }}>
         <span style={{
           fontSize: 10, fontWeight: 700, background: cs.bg, color: cs.text,
           padding: "2px 8px", borderRadius: 3, textTransform: "uppercase",
@@ -142,13 +137,14 @@ function StoryRow({ article }: { article: any }) {
         )}
       </div>
       <h3 style={{
-        fontFamily: s.headline, fontSize: 17, fontWeight: 700,
-        lineHeight: 1.3, margin: "0 0 4px 0",
+        fontFamily: s.headline, fontSize: 16, fontWeight: 700,
+        lineHeight: 1.3, margin: "0 0 8px 0", flex: "0 0 auto",
       }}>{article.headline}</h3>
       <p style={{
-        fontSize: 14, color: s.muted, lineHeight: 1.5, margin: 0,
-        display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" as any, overflow: "hidden",
-      }}>{article.bottom_line || article.body?.substring(0, 140) || ""}</p>
+        fontSize: 13, color: s.muted, lineHeight: 1.5, margin: 0,
+        display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical" as any, overflow: "hidden",
+        flex: "1 1 auto",
+      }}>{article.bottom_line || article.body?.substring(0, 160) || ""}</p>
     </Link>
   );
 }
@@ -175,9 +171,9 @@ function GoodCard({ article }: { article: any }) {
 }
 
 /* ── Sidebar ── */
-function Sidebar({ topics, goodDevs }: { topics: any[]; goodDevs: any[] }) {
+function Sidebar({ topics, goodDevs, reflection }: { topics: any[]; goodDevs: any[]; reflection?: string }) {
   return (
-    <aside style={{ position: "sticky", top: 110, maxHeight: "calc(100vh - 130px)", overflowY: "auto" }}>
+    <aside>
       {/* Ongoing Situations */}
       {topics?.length > 0 && (
         <div style={{ marginBottom: 28 }}>
@@ -233,6 +229,25 @@ function Sidebar({ topics, goodDevs }: { topics: any[]; goodDevs: any[] }) {
         </div>
       )}
 
+      {/* Daily reflection in sidebar */}
+      {reflection && (
+        <div style={{
+          marginBottom: 24, padding: "16px 18px",
+          background: s.amberLight, borderRadius: 8,
+          borderLeft: `3px solid ${s.amber}`,
+        }}>
+          <p style={{
+            fontSize: 11, fontWeight: 700, textTransform: "uppercase",
+            letterSpacing: "0.08em", color: s.amber, marginBottom: 8,
+            fontFamily: s.body,
+          }}>A Thought for the Day</p>
+          <p style={{
+            fontSize: 15, lineHeight: 1.65, color: "#5A4A30",
+            fontStyle: "italic", fontFamily: s.headline, margin: 0,
+          }}>{reflection}</p>
+        </div>
+      )}
+
       <div style={{ paddingTop: 8, borderTop: `1px solid ${s.borderLight}` }}>
         <Link href="/archive" style={{ fontSize: 12, color: s.light, fontWeight: 500, textDecoration: "none", display: "block", marginBottom: 6 }}>
           Browse past editions →
@@ -255,7 +270,7 @@ export default function DailyEdition({ daily }: { daily: any }) {
   const totalMinutes = daily.top_stories.reduce((sum: number, a: any) => sum + readTime(a.body), 0);
 
   return (
-    <div>
+    <div style={{ maxWidth: 960, margin: "0 auto" }}>
       {/* Edition header */}
       <div style={{
         display: "flex", justifyContent: "space-between", alignItems: "baseline",
@@ -276,7 +291,7 @@ export default function DailyEdition({ daily }: { daily: any }) {
         </p>
       </div>
 
-      {/* Category filter pills — horizontal scroll on mobile */}
+      {/* Category filter pills */}
       <div className="di-pills-scroll" style={{
         display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 22,
       }}>
@@ -301,51 +316,40 @@ export default function DailyEdition({ daily }: { daily: any }) {
         })}
       </div>
 
-      {/* Main 2-column grid */}
+      {/* Main 2-column layout: content + sidebar */}
       <div className="di-layout-grid" style={{
         display: "grid", gridTemplateColumns: "1fr 280px",
-        gap: 32, alignItems: "start",
+        gap: 28, alignItems: "start",
       }}>
         <main>
-          {/* Hero story FIRST (before Need to Know) */}
+          {/* Hero story first */}
           {hero && filter === "All" && <HeroStory article={hero} />}
 
-          {/* Compact Need to Know strip */}
+          {/* Compact Need to Know */}
           {filter === "All" && <NeedToKnow items={daily.need_to_know} />}
 
-          {/* Story list */}
-          <div>
+          {/* Story cards in 2-column grid */}
+          <div className="di-story-grid" style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gap: 16,
+          }}>
             {(filter === "All" ? rest : stories).map((a: any) => (
-              <StoryRow key={a.slug} article={a} />
+              <StoryCard key={a.slug} article={a} />
             ))}
           </div>
 
           {stories.length === 0 && (
             <p style={{ color: s.muted, padding: 20 }}>No articles in this category today.</p>
           )}
-
-          {/* Daily reflection — homepage only, below stories */}
-          {filter === "All" && daily.optional_reflection && (
-            <div style={{
-              marginTop: 32, padding: "18px 22px",
-              background: s.amberLight, borderRadius: 8,
-              borderLeft: `3px solid ${s.amber}`,
-            }}>
-              <p style={{
-                fontSize: 12, fontWeight: 700, textTransform: "uppercase",
-                letterSpacing: "0.08em", color: s.amber, marginBottom: 8,
-                fontFamily: s.body,
-              }}>A Thought for the Day</p>
-              <p style={{
-                fontSize: 16, lineHeight: 1.65, color: "#5A4A30",
-                fontStyle: "italic", fontFamily: s.headline, margin: 0,
-              }}>{daily.optional_reflection}</p>
-            </div>
-          )}
         </main>
 
         {/* Sidebar */}
-        <Sidebar topics={daily.ongoing_topics} goodDevs={daily.good_developments} />
+        <Sidebar
+          topics={daily.ongoing_topics}
+          goodDevs={daily.good_developments}
+          reflection={daily.optional_reflection}
+        />
       </div>
     </div>
   );
