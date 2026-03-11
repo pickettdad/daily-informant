@@ -45,6 +45,7 @@ export default function RootLayout({
           /* Mobile responsive */
           @media (max-width: 768px) {
             .di-layout-grid { grid-template-columns: 1fr !important; }
+            .di-story-grid { grid-template-columns: 1fr !important; }
             .di-3col { grid-template-columns: 1fr !important; }
             .di-2col { grid-template-columns: 1fr !important; }
             .di-pills-scroll {
