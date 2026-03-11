@@ -4583,5 +4583,180 @@
     "category": "Ontario",
     "slug": "article-25",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Hastings County to Replace Aging Ambulance Fleet",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Flood Warning Issued for Lower Trent Watershed Residents",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Airlines Raise Fares Amid Rising Jet Fuel Prices Linked to Iran Conflict",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Launches Major Airstrikes in Ongoing Iran Conflict",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "U.S. Scales Back Charter Flights for Americans in UAE",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "IEA to Release 400 Million Barrels of Oil Reserves",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Tornadoes Claim Lives and Damage Homes in Midwest",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Countries to Release Record Oil from Reserves",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "New Research Questions ChatGPT's Reliability in Medical Advice",
+    "category": "Health",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "GLP-1 Drugs Linked to Reduced Addiction Risk",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "G7 Releases 400 Million Barrels of Oil to Stabilize Markets",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "HASTINGS COUNTY COMMITTEE RECOMMENDS FUNDING FOR HART HUB",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Ontario Government to Launch Classroom Supplies Fund for Teachers",
+    "category": "Ontario",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Kingston Councillor Calls for Permanent LaSalle Causeway Solution",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Committee Reviews MAID Expansion for Mental Illness",
+    "category": "Canada",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Trump Claims Iran War Nearing End as Israel Vows to Continue Operations",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "UK Government Proposals Favor AI Data Centers Over Housing",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "FBI Warns of Potential Iranian Drone Attacks on California",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Supply Shortages of Menopause Hormone Therapy Increase",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Sikome Aquatic Facility Begins Major Renovations After Decades",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Iranian Drone Attack Leaves U.S. Service Members Injured",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "Documents Reveal Risks in Mandelson's Appointment as Ambassador",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "IEA Approves Historic Oil Reserve Release Amid Supply Crisis",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "UK Parliament Votes to Remove Hereditary Peers from House of Lords",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-11",
+    "headline": "War in Iran Disrupts Air Travel, Increases Fuel Prices",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 2
   }
 ]
