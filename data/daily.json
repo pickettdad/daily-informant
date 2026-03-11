@@ -2,58 +2,110 @@
   "date": "2026-03-11",
   "need_to_know": [
     {
-      "headline": "IEA to Release 400 Million Barrels of Oil Reserves",
-      "bottom_line": "The IEA's release of 400 million barrels aims to stabilize oil markets disrupted by the Iran conflict, affecting global energy prices, including Canada's."
+      "headline": "U.S. Military Destroys 16 Suspected Iranian Mine-Laying Vessels in Strait of Hormuz",
+      "bottom_line": "The destruction of Iranian mine-laying vessels highlights escalating tensions in the Strait of Hormuz, affecting global economic stability and security interests."
     },
     {
-      "headline": "Countries to Release Record Oil from Reserves",
-      "bottom_line": "The International Energy Agency's unprecedented release of 400 million barrels of oil aims to address global supply shortages amid geopolitical tensions."
+      "headline": "Trump Calls for Uprising in Iran, Drawing Parallels to 1991 Iraq",
+      "bottom_line": "Donald Trump's call for an uprising in Iran draws historical parallels to the U.S.'s 1991 Iraq intervention, raising questions on potential support and consequences for U.S. foreign policy."
     },
     {
-      "headline": "UK Parliament Votes to Remove Hereditary Peers from House of Lords",
-      "bottom_line": "The British Parliament votes to remove hereditary peers from the House of Lords, ending a 700-year tradition amid debate over democratic legitimacy."
+      "headline": "Tehran Residents Navigate Challenges Ahead of Nowruz Celebrations",
+      "bottom_line": "Residents in Tehran express resilience amid ongoing conflict as Nowruz approaches, highlighting hope amidst the uncertainty of war."
     },
     {
-      "headline": "War in Iran Disrupts Air Travel, Increases Fuel Prices",
-      "bottom_line": "The war in Iran disrupts air travel and raises fuel prices, directly impacting Canadian consumers and travel plans."
+      "headline": "U.S. Strikes 500 Targets Daily in Intensified Iran Operations",
+      "bottom_line": "Intensified U.S. bombing in Iran raises concerns regarding oil prices and regional stability."
     },
     {
-      "headline": "U.S. Launches Major Airstrikes in Ongoing Iran Conflict",
-      "bottom_line": "The U.S. intensifies military action, with significant implications for global oil markets and Canadian consumers."
+      "headline": "IEA Approves Historic Oil Reserve Release Amid Geopolitical Tensions",
+      "bottom_line": "The IEA has sanctioned a historic release of 400 million barrels of oil to address supply disruptions linked to the ongoing U.S.-Iran conflict."
     }
   ],
   "top_stories": [
     {
-      "slug": "article-2",
-      "headline": "Flood Warning Issued for Lower Trent Watershed Residents",
-      "bottom_line": "Residents in the Lower Trent Watershed are urged to prepare as a Flood Warning is in effect due to anticipated heavy rainfall.",
-      "body": "A Flood Warning has been issued for the local creeks within the Lower Trent Watershed region as the area anticipates significant rainfall. Starting late on March 11 and continuing into March 12, 2026, the forecast predicts between 20 to 40 millimeters of rain, with localized thunderstorms potentially adding another 10 millimeters in some parts.\n\nThis warning updates the Flood Outlook Statement released on March 6, 2026, highlighting the area's vulnerability to flooding as weather conditions shift. Lower Trent Conservation is actively assessing conditions and alerting residents about the increased risk of flooding. The organization plays a key role in monitoring water levels and providing timely information to the public.\n\nAs local municipalities prepare to respond, it's important for residents to remain vigilant and be ready for possible emergencies. The ongoing risks posed by climate-related weather events are underscored by this situation, reminding everyone of the importance of preparedness and community awareness in facing potential flooding emergencies.",
-      "why_it_matters": "This flood warning directly impacts residents in the Lower Trent Watershed area, emphasizing the need for readiness and communal support during severe weather.",
-      "what_to_watch": "Monitor updates from Lower Trent Conservation on water levels and the community's response to the flood warning.",
+      "slug": "article-1",
+      "headline": "Hastings County Considers Budget to Address Homelessness",
+      "bottom_line": "Hastings County is working on a significant budget proposal to tackle homelessness affecting nearly 85,000 Ontarians.",
+      "body": "In Hastings County, discussions around a proposed $1,101,144 budget for homelessness initiatives are gaining momentum. This comes as alarming statistics reveal that nearly 85,000 Ontarians experienced homelessness in 2025, marking an 8% increase from the previous year. The effort underscores a growing recognition of the homelessness crisis in Ontario and the urgent need for effective intervention. \n\nThe Hastings County Community and Human Services Committee is advocating for increased funding to support key initiatives aimed at reducing homelessness. In addition, the Canadian Mental Health Association (CMHA) Hastings-Prince Edward is seeking renewal of its funding to continue operating the HART Hub, a critical resource for individuals facing homelessness and addiction recovery. Currently, the agreement for this service is set to expire on March 31, 2026.\n\nHowever, there is some contention regarding the adequacy of the proposed funding. While certain stakeholders believe the budget is essential, others question whether it is sufficient to make a substantial impact on the homelessness crisis. The Hastings County Council is expected to make a decision regarding this budget in the coming days, highlighting the critical nature of the issue at hand.",
+      "why_it_matters": "The proposed budget represents a crucial step toward addressing a growing homelessness crisis in Ontario, affecting thousands and requiring swift action.",
+      "what_to_watch": "Watch for the outcome of Hastings County Council's upcoming budget approval meeting, which will determine funding for homelessness initiatives.",
       "category": "Local",
       "key_points": [
         {
-          "text": "A Flood Warning has been issued for the local creeks within the Lower Trent Watershed region.",
+          "text": "Hastings County Council considers a budget of $1,101,144 for homelessness initiatives.",
+          "source_url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        },
+        {
+          "text": "Nearly 85,000 Ontarians experienced homelessness in 2025, up 8% from 2024.",
+          "source_url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        },
+        {
+          "text": "The current agreement with CMHA for the HART Hub expires March 31, 2026.",
+          "source_url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        },
+        {
+          "text": "Disagreement exists on the sufficiency of funding to address homelessness.",
+          "source_url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Quinte News",
+          "url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        },
+        {
+          "name": "inQuinte",
+          "url": "https://www.inquinte.ca/2026/03/hart-hub-funding-agreement-takes-one-step-toward-renewal/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Quinte News",
+          "lean": "Center",
+          "title": "Hastings County discusses homelessness",
+          "url": "https://www.quintenews.com/2026/03/11/hastings-county-discusses-homelessness/"
+        },
+        {
+          "source": "inQuinte",
+          "lean": "Center",
+          "title": "HART Hub funding agreement takes one step toward renewal",
+          "url": "https://www.inquinte.ca/2026/03/hart-hub-funding-agreement-takes-one-step-toward-renewal/"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "As Hastings County takes steps toward addressing the urgency of homelessness, may this initiative bring hope and restoration to lives in need. We trust that community members, like those at CMHA, will find strength and support as they work to uplift the vulnerable and foster a sense of belonging in our neighborhoods.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-5",
+      "headline": "Flood Warning Issued for Lower Trent Watershed Region",
+      "bottom_line": "A Flood Warning has been issued by Lower Trent Conservation due to upcoming heavy rainfall, urging local residents to prepare for potential flooding.",
+      "body": "On March 11, 2026, Lower Trent Conservation issued a Flood Warning for local creeks in the Lower Trent Watershed region. This action comes in response to forecasts predicting rainfall amounts between 20-40 millimeters. Additionally, localized thunderstorms could contribute an extra 10 millimeters of rain. These elevated water levels raise concerns about flooding in the area, prompting authorities to advise community preparedness.\n\nResidents are encouraged to ensure their sump pumps are functioning properly and to secure their properties along the banks of local creeks. The current weather patterns highlight the need for vigilance, as swift action can help mitigate the impacts of potential flooding. Community members are reminded of the importance of staying informed and being proactive in safeguarding their homes and lives during this precarious time.\n\nAs rainfall continues to be monitored, authorities will be keeping a close watch on water levels. The need for information and preparedness is essential for residents in the Lower Trent Watershed, as flood conditions can change rapidly based on weather developments. Ensuring community safety and enhancing public awareness will be crucial throughout this situation.",
+      "why_it_matters": "This warning emphasizes the need for residents to prepare for potential flooding, which can significantly affect local communities.",
+      "what_to_watch": "Keep an eye on the weather forecasts for updates on rainfall and the ongoing flood situation.",
+      "category": "Local",
+      "key_points": [
+        {
+          "text": "Flood Warning issued on March 11, 2026.",
           "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         },
         {
-          "text": "The Flood Warning is an update to the Flood Outlook Statement issued on March 6, 2026.",
+          "text": "Forecast predicts 20-40 millimeters of rain.",
           "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         },
         {
-          "text": "Expectations of 20-40 millimeters of rain from the current storm system.",
+          "text": "Localized thunderstorms may add an additional 10 millimeters of rain.",
           "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         },
         {
-          "text": "Potential for an additional 10 millimeters of rainfall from localized thunderstorms.",
+          "text": "Residents advised to ensure sump pumps are operational and secure property along creek banks.",
           "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         },
         {
-          "text": "The flood warning was issued on March 11, 2026, ahead of forecasted heavy rain.",
-          "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
-        },
-        {
-          "text": "Rain is predicted to start late on March 11 and continue until March 12, 2026.",
+          "text": "This warning impacts the Lower Trent Watershed region directly.",
           "source_url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         }
       ],
@@ -71,291 +123,315 @@
           "url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
         }
       ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Lower Trent Conservation",
-          "quote": "active in assessing and alerting the public about flood risks.",
-          "url": "https://www.inquinte.ca/2026/03/flood-warning-issued-by-lower-trent-conservation/"
-        }
-      ],
+      "stakeholder_quotes": [],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "It’s a time for neighbors in the Lower Trent area to look out for each other. We hope that everyone stays safe and takes the necessary precautions.",
+      "positive_thought": "In moments of uncertainty like this, we remember the strength found in community. May each home in the Lower Trent Watershed feel the warmth of support surrounding them as they prepare. Let us embrace the hope for brighter skies ahead and work together towards safety and peace.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-14",
-      "headline": "Kingston Councillor Calls for Permanent LaSalle Causeway Solution",
-      "bottom_line": "The temporary LaSalle Causeway's repeated closures are financially burdening Kingston's local businesses and prompting calls for a permanent solution.",
-      "body": "With the second anniversary of the temporary LaSalle Causeway approaching, Kingston Councillor Ryan Boehme is urging for a permanent replacement. This structure has become a familiar inconvenience for local businesses, significantly impacting economic stability in the area. \n\nThe current modular bridge must be lifted for large marine vessels, a process that happens dozens of times a year, costing about $100,000 each time. In 2022 alone, there were 25 planned outages and two unplanned closures, accounting for an estimated annual expense of around $3 million for the federal government. \n\nMarijo Cuerrier, Executive Director of Downtown Kingston BIA, pointed out the tangible effects of these disruptions. \"It affects the businesses, there’s no doubt about it,” Cuerrier stated, highlighting the strain on local commerce. Eric Ferguson, General Manager of Kingston 1000 Islands Cruises, echoed these concerns, detailing how the bridge lifts complicate operations and harm tourism. \n\nBoehme emphasized the need for a sustainable solution, noting, \"Temporary solutions kinda have a way of becoming temporary permanent, which is what we don’t want here.\"",
-      "why_it_matters": "The ongoing disruptions from the LaSalle Causeway are not just an inconvenience; they are costing local businesses substantially and putting further strain on economic recovery efforts in Kingston.",
-      "what_to_watch": "Upcoming federal consultations will address the urgent need for a permanent solution for the LaSalle Causeway.",
+      "slug": "article-6",
+      "headline": "$15,000 Reward Offered in Oshawa Murder Case",
+      "bottom_line": "The Durham Regional Police increase the reward to $15,000 in hopes of solving Michael Nigris's murder, reflecting ongoing challenges with gun violence in the community.",
+      "body": "Durham Regional Police are stepping up efforts to find those responsible for the murder of Michael Nigris by announcing a $15,000 reward for information leading to the suspects. Nigris was shot dead outside an Oshawa pawn shop in March 2023, an incident that has left a profound impact on his family and the community. The reward was officially announced on March 11, 2026, in a bid to bring attention back to the unsolved case.\n\nDet. Sgt. Erik Mamers emphasized the tragedy of Nigris's death, stating, \"Michael was simply leaving work when his life was tragically taken from him.\" The police are actively seeking information from the public, underscoring the investigation's ongoing nature. In a heartbreaking reflection, Michael's mother shared, \"I am living, and my family is living, the worst nightmare. My soul is irreparably broken.\"\n\nThis case not only resonates personally with Nigris's family but also highlights broader issues of gun violence and public safety facing communities in Canada. The announcement of the reward aims to encourage anyone with information to come forward, as the details surrounding the suspects and their motivations remain unclear. The ongoing investigation raises crucial questions: Who are the suspects, and why was Michael Nigris targeted?",
+      "why_it_matters": "The case exemplifies the challenges of addressing gun violence in Canadian communities and the need for community support in investigations.",
+      "what_to_watch": "Watch for any further developments in the investigation and updates on suspect identifications.",
       "category": "Local",
       "key_points": [
         {
-          "text": "The temporary LaSalle Causeway has been in place for nearly two years.",
-          "source_url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
+          "text": "Michael Nigris was shot dead outside an Oshawa pawn shop in March 2023.",
+          "source_url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         },
         {
-          "text": "There were 25 planned outages and two unplanned closures last year.",
-          "source_url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
+          "text": "Durham Regional Police announced a $15,000 reward for information about the suspects.",
+          "source_url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         },
         {
-          "text": "The lifting of the bridge costs about $100,000 each time.",
-          "source_url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
+          "text": "The police seek to engage the public in the ongoing investigation.",
+          "source_url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         },
         {
-          "text": "These disruptions lead to an estimated $3 million annual cost to the federal government.",
-          "source_url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
+          "text": "Michael Nigris's family previously offered a reward for information about the murder.",
+          "source_url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         },
         {
-          "text": "Local business leaders are actively voicing concerns about the impacts on the economy.",
-          "source_url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
+          "text": "The reward was officially announced on March 11, 2026.",
+          "source_url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         }
       ],
       "sources": [
-        {
-          "name": "Global News Canada",
-          "url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Global News Canada",
-          "lean": "Center",
-          "title": "Kingston councillor demands federal plan for permanent LaSalle Causeway",
-          "url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Ryan Boehme",
-          "quote": "Temporary solutions kinda have a way of becoming temporary permanent, which is what we don’t want here.",
-          "url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
-        },
-        {
-          "speaker": "Marijo Cuerrier",
-          "quote": "It affects the businesses, there’s no doubt about it.",
-          "url": "https://globalnews.ca/news/11725970/kingston-councillor-demands-federal-plan-for-permanent-lasalle-causeway/"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "As Kingston grapples with the challenges surrounding the LaSalle Causeway, community voices are united in their hope for a more permanent and effective solution, highlighting the resilience of local businesses eager to thrive.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-3",
-      "headline": "Airlines Raise Fares Amid Rising Jet Fuel Prices Linked to Iran Conflict",
-      "bottom_line": "Canadian travelers will face higher airfares due to rising jet fuel prices linked to the ongoing conflict in Iran.",
-      "body": "Airlines across Canada are increasing fares and fuel surcharges as a direct reaction to the rise in jet fuel prices tied to the ongoing war in Iran. The conflict, now entering its 12th day, continues to influence global oil markets, which in turn impacts travel costs for Canadians. \n\nAnnick Guerard, CEO of Air Transat, confirmed that these hikes are necessary given the new economic realities: \"Airlines are raising fares and fuel surcharges in response to rising costs.\" This added financial burden affects ordinary Canadians who rely on air travel for personal and business purposes, making trips significantly more expensive. \n\nAs this international situation develops, travelers should be prepared for any further adjustments in pricing.",
-      "why_it_matters": "Higher airfares directly affect Canadian travelers, limiting their options and making travel more expensive during a period of geopolitical uncertainty.",
-      "what_to_watch": "Monitor ongoing developments in the Iran conflict, as further escalation may lead to additional increases in travel costs.",
-      "category": "Canada",
-      "key_points": [
-        {
-          "text": "Airlines globally are hiking fares due to a surge in oil prices sparked by the war in Iran.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "text": "The U.S. and Israel's war on Iran has entered Day 12.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "text": "Canadian airlines are raising fares and fuel surcharges as costs rise.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "text": "Annick Guerard, CEO of Air Transat, highlighted the necessity of fare increases.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "text": "Travel pricing impacts are expected to continue as the conflict evolves.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
         {
           "name": "Toronto Sun",
-          "url": "https://torontosun.com/news/national/airfares-starting-to-rise-as-iran-war-pushes-jet-fuel-prices-higher"
+          "url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         }
       ],
       "component_articles": [
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "Americans skeptical of the Iran war, poll says. And, DOJ gives guns back to felons",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
-        {
-          "source": "NPR World",
-          "lean": "Left",
-          "title": "Americans skeptical of the Iran war, poll says. And, DOJ gives guns back to felons",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
-        },
         {
           "source": "Toronto Sun",
           "lean": "Right",
-          "title": "Airfares starting to rise as Iran war pushes jet fuel prices higher",
-          "url": "https://torontosun.com/news/national/airfares-starting-to-rise-as-iran-war-pushes-jet-fuel-prices-higher"
+          "title": "Durham cops offer $15,000 reward for info on Michael Nigris’ killers",
+          "url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Annick Guerard",
-          "quote": "Airlines are raising fares and fuel surcharges in response to rising costs.",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113261/up-first-newsletter-iran-israel-us-georgia-clay-fuller-shawn-harris-second-amendment-rights-national-guard"
+          "speaker": "Det. Sgt. Erik Mamers",
+          "quote": "Michael was simply leaving work when his life was tragically taken from him.",
+          "url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
+        },
+        {
+          "speaker": "Michael Nigris' mother",
+          "quote": "I am living, and my family is living, the worst nightmare. My soul is irreparably broken.",
+          "url": "https://torontosun.com/news/local-news/durham-cops-reward-michael-nigris-killers"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "In these uncertain times, may Canadian travelers find affordable options to connect with loved ones, especially as we approach the holiday season.",
-      "related_ongoing": "iran-conflict"
+      "positive_thought": "As the community grapples with the impact of violence, may we hold close the memories of those we have lost, like Michael Nigris, and strive towards healing and understanding together. In this search for justice, there is hope for peace and resolution for those still grappling with grief and uncertainty.",
+      "related_ongoing": ""
     },
     {
-      "slug": "article-15",
-      "headline": "Committee Reviews MAID Expansion for Mental Illness",
-      "bottom_line": "The committee's decisions could redefine Canada's MAID program and influence societal views on mental health and assisted death.",
-      "body": "A special joint committee has begun deliberations on whether Canada should expand its medical assistance in dying (MAID) program to include individuals suffering solely from mental illnesses. This comes as a temporary federal ban on such assisted suicides is set to expire on March 17, 2027.\n\nCanada is approaching a significant milestone, nearing 100,000 medically assisted deaths since MAID's legalization in June 2016. This number reflects changing attitudes toward end-of-life choices, but it also raises complex questions about mental health and the potential for expanding these rights to individuals whose only diagnosed condition is a mental illness.\n\nThe committee is divided on the issue. Co-chair Marcus Powlowski supports the exploration of MAID's expansion, emphasizing the need for thorough deliberation. Conversely, Vice-chair Tamara Jansen urges for a permanent ban on assisted suicides for those struggling with mental illnesses, highlighting the risks associated with such a decision.\n\nThe outcomes of these discussions will be pivotal, influencing not only policy but also how society perceives mental health and assisted death in the broader context of care and compassion.",
-      "why_it_matters": "The committee's recommendations could reshape Canada's approach to mental health policy, affecting how assisted suicide is perceived in society.",
-      "what_to_watch": "The committee's ongoing sessions leading to the March 2027 expiration of the temporary ban.",
+      "slug": "article-7",
+      "headline": "NDP's Alexandre Boulerice Weighs Shift to Québec Solidaire",
+      "bottom_line": "Alexandre Boulerice's potential shift to Québec Solidaire could significantly impact the NDP's influence in the upcoming elections.",
+      "body": "NDP MP Alexandre Boulerice is contemplating a move to run in the nomination race with Québec Solidaire as the political climate shifts ahead of upcoming elections. The nomination process for the Gouin riding is set to open on March 25, 2026. Boulerice, who has served for 15 years in Rosemont—La Petite-Patrie and has secured five consecutive electoral victories, expressed, \"I’m thinking about it more seriously now than ever, maybe because I won five consecutive elections in Rosemont—La Petite-Patrie.\" The potential shift is noteworthy amid a fragile state for the NDP, which risks seeing its representation reduced to just five members if Boulerice follows through with this change. This development comes at a time when political strategies within Canadian parties are critical to shaping future election outcomes, especially in regions like Québec where party allegiance can dramatically shift voter behavior.",
+      "why_it_matters": "Boulerice's decision may diminish the NDP's power, influencing the balance of representation in Canadian Parliament and affecting local constituents.",
+      "what_to_watch": "Watch for Boulerice's formal announcement regarding his nomination intentions as the deadline approaches before March 25, 2026.",
       "category": "Canada",
       "key_points": [
         {
-          "text": "A special committee has begun deliberations on MAID expansion for mental illnesses.",
-          "source_url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "text": "NDP MP Alexandre Boulerice is considering running for a nomination race with Québec Solidaire.",
+          "source_url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         },
         {
-          "text": "The temporary federal ban on MAID for mental illness expires on March 17, 2027.",
-          "source_url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "text": "The nomination process for the Gouin riding will open on March 25.",
+          "source_url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         },
         {
-          "text": "Canada nears 100,000 medically assisted deaths since MAID was legalized in June 2016.",
-          "source_url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "text": "If Boulerice leaves the NDP, their number of MPs could drop to five.",
+          "source_url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         },
         {
-          "text": "Opinions within the committee are divided on expanding MAID to those with mental illnesses.",
-          "source_url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "text": "Boulerice has served for 15 years in the Rosemont—La Petite-Patrie riding.",
+          "source_url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
+        },
+        {
+          "text": "He has won five consecutive elections in his riding.",
+          "source_url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         }
       ],
       "sources": [
         {
           "name": "National Post",
-          "url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         }
       ],
       "component_articles": [
         {
           "source": "National Post",
           "lean": "Center-Right",
-          "title": "Special committee meets to weigh expansion of MAID to mentally ill",
-          "url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "title": "With Lori Idlout out, all eyes are on NDP MP Alexandre Boulerice’s next move",
+          "url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Marcus Powlowski",
-          "quote": "Supports deliberation on MAID's expansion.",
-          "url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
-        },
-        {
-          "speaker": "Tamara Jansen",
-          "quote": "Advocates for a permanent ban on assisted suicides for mental illnesses.",
-          "url": "https://nationalpost.com/news/canada/special-committee-meets-to-weigh-expansion-of-maid-to-mentally-ill"
+          "speaker": "Alexandre Boulerice",
+          "quote": "I’m thinking about it more seriously now than ever, maybe because I won five consecutive elections in Rosemont—La Petite-Patrie.",
+          "url": "https://nationalpost.com/news/with-lori-idlout-out-all-eyes-are-on-ndp-mp-alexandre-boulerices-next-move"
         }
       ],
       "is_good_development": false,
       "is_negative": false,
-      "positive_thought": "Amidst this complex and sensitive issue, there's hope that through sincere dialogue, we might find a compassionate way to address the needs of those struggling with mental health challenges.",
+      "positive_thought": "As Canada navigates its political landscape, may leaders find clarity and purpose amid uncertainty. Communities hope for representatives who genuinely reflect their aspirations, fostering a political environment built on mutual respect and understanding.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-7",
-      "headline": "Tornadoes Claim Lives and Damage Homes in Midwest",
-      "bottom_line": "Severe storms and tornadoes in Illinois and Indiana have resulted in two fatalities and significant damage, raising concerns for ongoing recovery efforts.",
-      "body": "Severe storms and tornadoes have led to fatalities and extensive destruction across parts of Illinois and Indiana. Two people were killed in Indiana as a direct result of these tornadoes. In addition, multiple homes have been destroyed, highlighting the substantial impact of the severe weather.\n\nForecasters caution that millions remain at risk from severe weather conditions stretching from Texas to Michigan, indicating a wider potential for similar devastating storms. Wind gusts have reached up to 60 mph in Texas, raising alarms about further dangers in the region.\n\nSearch efforts for possible victims commenced on Wednesday as communities begin to assess the damage and initiate recovery protocols. Rob Churchill from the Lake Township fire department expressed his concern regarding both the extent of the destruction and the challenges faced by rescue operations. Newton County Sheriff Shannon Cothran urged the public to stay away, stating, \"[There’s] a lot of damage. Please do not come here. Do not try to help right now. We’ve got a lot of first responders out here doing their job, just give us some room.\"",
-      "why_it_matters": "This situation underscores the urgent need for effective recovery efforts in the face of relentless weather threats, affecting both lives and property.",
-      "what_to_watch": "Updates on ongoing recovery efforts and any further severe weather warnings are anticipated in the coming days.",
-      "category": "US",
+      "slug": "article-8",
+      "headline": "FBI Offers Reward for Wanted Canadian Sailor",
+      "bottom_line": "Fugitive Donald Steven Lang, charged with serious sexual offenses, remains at large, prompting the FBI to seek public assistance with a reward offer.",
+      "body": "The FBI has issued a $5,000 reward for information leading to the capture of Donald Steven Lang, a Canadian citizen wanted for sexual offenses against a minor in Idaho. Lang was charged on April 9, 2025, with multiple counts of lewd conduct and sexual battery. His last known location was on his sailboat, ISHI, in Hawaii in January 2025, raising significant concerns about the challenges international law enforcement faces in tracking down fugitives.\n\nLang’s case highlights the implications of his alleged crimes, prompting inquiries into safety both in Canada and abroad. The very nature of maritime fugitives complicates jurisdictional authority and enforcement measures, making this case a critical point for both law enforcement agencies and the public. The lure of the open sea provides countless hiding spots, often undermining efforts to apprehend those avoiding justice. \n\nAs the FBI seeks public assistance to locate Lang, ordinary Canadians may feel the weight of safety concerns tied to this situation. However, without clear actions outlined by international authorities, the pursuit of Lang remains an open question, further emphasizing the complexity of cross-border crime.",
+      "why_it_matters": "Lang's flight from justice raises significant concerns about how effectively international law enforcement can collaborate to apprehend fugitives and protect communities.",
+      "what_to_watch": "Look for updates related to any leads generated by the FBI's outreach and the reward announcement.",
+      "category": "Canada",
       "key_points": [
         {
-          "text": "Two people were killed in Indiana due to tornadoes.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "text": "Donald Steven Lang, a Canadian citizen, is wanted for sexual offenses against a minor in Idaho.",
+          "source_url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
         },
         {
-          "text": "Multiple homes were destroyed following tornadoes in Illinois and Indiana.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "text": "Lang was charged in Idaho on April 9, 2025, with multiple counts of lewd conduct with a minor and sexual battery.",
+          "source_url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
         },
         {
-          "text": "Forecasters warn that millions remain at risk of severe weather from Texas to Michigan.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "text": "The FBI is offering a $5,000 reward for information leading to Lang's capture.",
+          "source_url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
         },
         {
-          "text": "Tornado touchdowns were reported late Tuesday into Wednesday.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
-        },
-        {
-          "text": "Search for possible victims began on Wednesday.",
-          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "text": "Lang was last seen on his sailboat, ISHI, in Hawaii in January 2025.",
+          "source_url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
         }
       ],
       "sources": [
         {
-          "name": "The Guardian US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "name": "National Post",
+          "url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
         }
       ],
       "component_articles": [
         {
-          "source": "The Guardian US",
-          "lean": "Left",
-          "title": "Tornadoes hit Illinois, Indiana and Texas as severe storms sweep US",
-          "url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "source": "National Post",
+          "lean": "Center-Right",
+          "title": "Canadian sailor wanted for sex crimes against minor may have taken to sea: FBI",
+          "url": "https://nationalpost.com/news/wanted-canadian-sailor-pacific-ocean"
+        }
+      ],
+      "stakeholder_quotes": [],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "In the midst of troubling circumstances, we may find moments to reflect on the resilience of communities standing together for justice and safety. This situation reminds us of the ongoing need for vigilance and support for those affected by crime, as we traverse challenging waters in pursuit of healing and accountability.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-10",
+      "headline": "Canadian Travel to the U.S. Declines 14.5% in February 2026",
+      "bottom_line": "Canadians are increasingly hesitant to travel to the U.S., with a significant decline in trips recorded this February.",
+      "body": "In February 2026, the number of return trips by Canadian residents from the United States fell to 1.5 million, marking a 14.5% decrease compared to February 2025. This ongoing decline in travel could reflect broader concerns about trade tensions affecting the cross-border relationship between Canada and the U.S. Notably, while Canadians are reducing their visits to the U.S., U.S. residents have increased their trips to Canada by 6.1%, with a total of 959,600 visits recorded in February.",
+      "why_it_matters": "The decline in Canadian trips may indicate a growing sentiment of caution about cross-border travel, impacting not only personal travel but also economic interactions between the nations.",
+      "what_to_watch": "Further statistics and updates on travel patterns will emerge in the coming months, providing additional context for these trends.",
+      "category": "Canada",
+      "key_points": [
+        {
+          "text": "Canadian resident return trips from the U.S. totalled 1.5 million in February 2026, down 14.5% from last year.",
+          "source_url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        },
+        {
+          "text": "U.S. resident trips to Canada increased by 6.1%, totaling 959,600 in February.",
+          "source_url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        },
+        {
+          "text": "Statistics Canada highlighted the decrease in Canadian trips as a significant indicator of travel sentiment.",
+          "source_url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        },
+        {
+          "text": "The statistics reflect ongoing trade tensions and their potential impact on travel habits.",
+          "source_url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Global News Canada",
+          "url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Global News Canada",
+          "lean": "Center",
+          "title": "Canadians are still avoiding U.S. travel, but not vice versa: StatCan",
+          "url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Shannon Cothran",
-          "quote": "[There’s] a lot of damage. Please do not come here. Do not try to help right now. We’ve got a lot of first responders out here doing their job, just give us some room.",
-          "url": "https://www.theguardian.com/us-news/2026/mar/11/tornadoes-illinois-indiana-texas-storms"
+          "speaker": "Statistics Canada",
+          "quote": "Canadian-resident return trips from overseas countries by air totalled 1.3 million in February 2026, up 7.2% from the same month one year earlier.",
+          "url": "https://globalnews.ca/news/11725495/canada-us-travel-rates-declining/"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": false,
+      "positive_thought": "In these times of changing travel patterns, we can find hope in the resilience of human connections. May we cherish the bonds that unite us, even across borders, and foster understanding and patience as we navigate our shared experiences.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-13",
+      "headline": "Iran Conflict Drives Up U.S. Gas Prices by 20%",
+      "bottom_line": "The ongoing conflict in Iran is causing significant economic strain on consumers in the U.S. and potentially in Canada, as fuel prices rise sharply.",
+      "body": "The conflict in Iran has led to notable increases in fuel prices across the United States, placing financial strain on consumers. Since the U.S. and Israel initiated military actions in Iran, gasoline prices have surged approximately 20%, with drivers now paying an average of $3.58 per gallon, compared to $2.98 before the hostilities began. Additionally, diesel prices have seen an even steeper rise, reaching $4.83 per gallon, which marks a 28% increase since the onset of the war.\n\nEconomists are voicing concerns over the prolonged impact that this conflict might have on both domestic and international markets. Gregory Daco, chief economist at EY-Parthenon, indicated that \"the longer the conflict lasts, the more significant the economic shock will be.\" The ramifications extend beyond just fuel; Patrick De Haan, a petroleum analyst at GasBuddy, highlighted the substantial impact on logistics and the trucking sector. As these costs rise, they are likely to translate into higher prices for other goods as well.\n\nCanadians, too, may feel the effects as prices rise in tandem with increasing oil rates due to the ongoing situation in Iran. As consumer goods become more expensive, the ripple effects in both countries could exacerbate existing economic pressures, raising questions about long-term financial implications for everyday households.\n\nIran maintains that the military actions were provoked by U.S. and Israeli aggression in the region.",
+      "why_it_matters": "Consumers are facing heightened financial burden due to fuel price increases, impacting their overall cost of living and purchasing decisions.",
+      "what_to_watch": "Monitor fluctuations in oil prices as the situation in Iran evolves, which could further influence prices in Canada and the U.S.",
+      "category": "US",
+      "key_points": [
+        {
+          "text": "Gasoline prices have increased about 20% since the U.S. and Israel attacked Iran.",
+          "source_url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        },
+        {
+          "text": "Drivers are paying an average of $3.58 for a gallon of regular gasoline.",
+          "source_url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        },
+        {
+          "text": "The price of diesel has risen to $4.83 a gallon in the U.S.",
+          "source_url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        },
+        {
+          "text": "Gregory Daco warns that the longer the conflict lasts, the more economic shock will occur.",
+          "source_url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        },
+        {
+          "text": "Patrick De Haan emphasizes the impact on logistics and trucking sectors.",
+          "source_url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "PBS NewsHour",
+          "lean": "Left",
+          "title": "The Iran war and surging oil prices are affecting consumers. Here's how",
+          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Gregory Daco",
+          "quote": "the longer the conflict lasts, the more significant the economic shock will be",
+          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+        },
+        {
+          "speaker": "Patrick De Haan",
+          "quote": "emphasizing the massive impact on logistics and trucking sectors",
+          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "As communities in Illinois and Indiana rally together in the wake of tragedy, we hope for resilience and strength among the first responders and families affected by this disaster.",
-      "related_ongoing": ""
+      "positive_thought": "In this time of uncertainty, let us remember the everyday individuals who are feeling the impact of rising costs, trusting that resilience and community can guide us through these trials. May we find comfort in each other and ensure we look for ways to support those facing financial struggles during this conflict.",
+      "related_ongoing": "us-tariffs-trade"
     },
     {
-      "slug": "article-18",
-      "headline": "FBI Warns of Potential Iranian Drone Attacks on California",
-      "bottom_line": "The FBI warns that Iran is planning potential drone attacks on California, highlighting risks to U.S. security amid rising tensions.",
-      "body": "The FBI has alerted the public that Iran allegedly aims to conduct drone strikes against California in retaliation for U.S. military actions. This warning is a response to ongoing tensions and military confrontations involving the U.S. and Iran, underscoring the increased danger posed by drone warfare, which can involve both state actors and organized crime.\n\nThe bulletin, issued in early February 2026, raises serious concerns about the potential escalation of conflict on U.S. soil. John Cohen, a contributor for ABC News and former head of intelligence for the Department of Homeland Security, expressed his worry about the implications of drone warfare not only from Iran but also from Mexican cartels. Such threats could significantly challenge U.S. law enforcement and security measures aimed at protecting civilians.\n\nThe FBI's warning leaves many uncertainties, particularly regarding specific targets in California and the timing of any potential attacks. As this situation develops, the implications could extend beyond the U.S., impacting Canadian security as well, and highlighting the intricate interdependencies in North American defense strategies.\n\nThe FBI bulletin describes these threats as potential and unconfirmed, urging vigilance rather than panic.",
-      "why_it_matters": "The potential for Iranian drone strikes poses new security challenges for North America, prompting concern for civilians and law enforcement. Increased scrutiny will likely affect defense planning and inter-agency collaboration.",
-      "what_to_watch": "Watch for potential U.S. military actions against Iran and any related increases in drone activities from Mexico.",
+      "slug": "article-14",
+      "headline": "FBI Issues Drone Attack Warning Amid U.S.-Iran Tensions",
+      "bottom_line": "The FBI warns of potential drone attacks from Iran targeting California, highlighting evolving threats in aerial warfare and national security.",
+      "body": "apprehension",
+      "why_it_matters": "This warning highlights the pressing need for heightened security measures and international cooperation to address emerging threats in drone warfare, potentially affecting regional stability.",
+      "what_to_watch": "Stay alert for updates on U.S.-Iran tensions as well as advancements in drone warfare and countermeasures.",
       "category": "US",
       "key_points": [
         {
-          "text": "The FBI has issued a warning regarding potential drone attacks by Iran.",
+          "text": "The FBI issued a bulletin warning of a potential drone attack as of early February 2026.",
           "source_url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
         },
         {
-          "text": "Iran is allegedly aspiring to conduct these attacks in retaliation for U.S. strikes.",
+          "text": "Iran allegedly aspired to conduct a surprise attack using unmanned aerial vehicles against targets in California.",
           "source_url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
         },
         {
-          "text": "The warning follows ongoing tensions involving the U.S. and Iran.",
+          "text": "John Cohen highlights concerns about drone warfare from Iran and Mexican cartels.",
           "source_url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
         },
         {
-          "text": "The bulletin was released in early February 2026.",
+          "text": "The evolving landscape of drone warfare raises implications for national security.",
+          "source_url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
+        },
+        {
+          "text": "The proximity of Canada to the U.S. underscores potential impacts on Canadian security strategies.",
           "source_url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
         }
       ],
@@ -376,98 +452,268 @@
       "stakeholder_quotes": [
         {
           "speaker": "John Cohen",
-          "quote": "Concerned about the potential for drone warfare from Iran and Mexican cartels.",
+          "quote": "Concerns about potential drone warfare from Iran and Mexican cartels",
           "url": "https://abcnews.com/US/fbi-warns-iran-aspired-attack-california-drones-retaliation/story?id=130973820"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "In these uncertain times, it's important to remain vigilant and united as communities, drawing strength from each other to navigate the complexities of global tensions.",
+      "positive_thought": "As vigilance heightens in these uncertain moments, may a deep sense of peace and collective strength envelop communities. We pray for wisdom for leaders and a spirit of cooperation among all, fostering safety and calm amidst any apprehension.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-21",
-      "headline": "Iranian Drone Attack Leaves U.S. Service Members Injured",
-      "bottom_line": "U.S. military personnel face increasing risks following a severe Iranian drone attack in Kuwait, resulting in significant injuries.",
-      "body": "New details have emerged about the severity of injuries sustained by U.S. service members in a drone attack in Kuwait. An Iranian drone attack occurred on March 1, injuring dozens, with reports of brain trauma, shrapnel wounds, and burns. Pentagon spokesman Sean Parnell confirmed that the total number of injured American service members during the conflict now stands at 140.\n\nDefense Secretary Pete Hegseth commented on the attack's implications for military operations, stating, \"You have air defenses, and a lot's coming in, and you hit most of it. Every once in a while, you might have one, unfortunately, we call it a squirter, that makes its way through.\" This highlights the ongoing challenges U.S. forces continue to face in the region, as these incidents underscore the increased threat levels posed by Iranian military capabilities.\n\nThe full extent of injuries remains uncertain, particularly considering the possibility of additional U.S. service members being impacted by ongoing attacks. Further updates from the Pentagon will likely provide insight into both the medical conditions of the injured personnel and any potential military responses to the attack.",
-      "why_it_matters": "The attack illustrates the heightened dangers U.S. military personnel encounter, which may influence strategy and deployment in the Middle East.",
-      "what_to_watch": "Look for updates from the Pentagon regarding the condition of injured service members and any further military responses.",
+      "slug": "article-20",
+      "headline": "Federal Panel Retreats from Reviewing mRNA Covid-19 Vaccines",
+      "bottom_line": "The U.S. vaccine advisory panel has paused its review of mRNA Covid-19 vaccines, potentially impacting vaccine policy discussions.",
+      "body": "The U.S. vaccine advisory committee has taken a step back from efforts to review mRNA Covid-19 vaccines. This decision comes amidst political concerns that could influence the Republican party's standing in the upcoming midterm elections. The committee had initially intended to reassess the vaccines, but political dynamics have shifted priorities. \n\nKey among those dynamics is the voice of Robert F. Kennedy Jr., a prominent figure advocating against vaccine mandates who has raised safety and production concerns regarding mRNA vaccines. These sentiments reportedly align with fears among committee members that engaging deeply in vaccine policy could result in political backlash. \n\nAs a result of these pressures, the committee has not reconsidered its prior decision to classify COVID vaccines under shared clinical decision-making, a determination made in September 2025. Emily G. Hilliard noted, \"The committee has not reconsidered its September 2025 decision to classify COVID vaccines under shared clinical decision-making.\" This immobility raises questions about the future of U.S. vaccination strategies as the country approaches crucial electoral moments.\n\nFor Canada, these developments serve as a window into how the U.S. political landscape impacts public reception of vaccine strategies. As Canada's own vaccination policies evolve, the implications of this U.S. committee's hesitation might offer valuable insight.",
+      "why_it_matters": "The political implications of mRNA vaccine policy could influence election outcomes and public health in the U.S., which may also resonate within Canadian discussions on vaccine strategy.",
+      "what_to_watch": "Watch for upcoming decisions regarding vaccine policy by the ACIP, planned for next month, as these could further define the political landscape ahead of the elections.",
       "category": "US",
       "key_points": [
         {
-          "text": "An Iranian drone attack in Kuwait resulted in injuries to dozens of U.S. service members, including brain trauma, shrapnel wounds, and burns.",
-          "source_url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "text": "The U.S. vaccine advisory committee has stepped back from efforts targeting Covid-19 mRNA vaccines.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         },
         {
-          "text": "140 is the total number of American service members injured during the conflict, according to Pentagon spokesman Sean Parnell.",
-          "source_url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "text": "Safety and production concerns regarding mRNA vaccines have created political hesitance.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         },
         {
-          "text": "The drone attack occurred on March 1.",
-          "source_url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "text": "The committee's September 2025 classification of COVID vaccines under shared clinical decision-making remains unchanged.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         },
         {
-          "text": "Defense Secretary Pete Hegseth described the nature of the attack and its impact on U.S. forces.",
-          "source_url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
-        },
-        {
-          "text": "The extent of additional injuries among U.S. service members in ongoing attacks remains unknown.",
-          "source_url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "text": "Robert F. Kennedy Jr.'s anti-vaccine agenda is seen as politically harmful, influencing the committee's decisions.",
+          "source_url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         }
       ],
       "sources": [
         {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "name": "The Guardian US",
+          "url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         }
       ],
       "component_articles": [
         {
-          "source": "CBS News",
-          "lean": "Center",
-          "title": "U.S. service members in Kuwait suffered brain trauma, burns, shrapnel wounds",
-          "url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "source": "The Guardian US",
+          "lean": "Left",
+          "title": "US vaccine panel retreats from mRNA Covid review ahead of midterms",
+          "url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
         }
       ],
       "stakeholder_quotes": [
         {
+          "speaker": "Emily G Hilliard",
+          "quote": "The committee has not reconsidered its September 2025 decision to classify COVID vaccines under shared clinical decision-making.",
+          "url": "https://www.theguardian.com/us-news/2026/mar/11/covid-mrna-vaccines-midterms-rfk"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": false,
+      "positive_thought": "As discussions around vaccine policies continue, may the voices advocating for health and safety resonate with understanding and compassion. We hold in our thoughts all communities impacted by vaccine discourse, trusting the journey toward clarity and support in these challenging times.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-3",
+      "headline": "U.S. Military Destroys 16 Suspected Iranian Mine-Laying Vessels in Strait of Hormuz",
+      "bottom_line": "The destruction of Iranian mine-laying vessels highlights escalating tensions in the Strait of Hormuz, affecting global economic stability and security interests.",
+      "body": "The U.S. military has destroyed 16 mine-laying vessels near the Strait of Hormuz, a strategic chokepoint for global oil shipping. This event occurred on Tuesday and signifies heightened military engagement in a region already fraught with conflict.\n\nPresident Trump addressed the actions, indicating, \"If Iran has put out any mines in the Hormuz Strait, and we have no reports of them doing so, we want them removed, IMMEDIATELY!\" This statement underscores the U.S. stance on proactively securing maritime routes amidst ongoing hostilities.\n\nAs a result of the ongoing conflict in the region, more than 1,200 individuals have reportedly died in Iran, contributing to an increasingly volatile atmosphere. In parallel, seven U.S. soldiers have also lost their lives in the ongoing clash. The military actions taken by the U.S. reflect not only a tactical response but also a broader concern over the influence of terrorism in controlling critical passageways, as Defense Secretary Pete Hegseth stated, \"we will not allow terrorists to hold the strait hostage.\"\n\nThe situation in the region remains fluid with potential implications for global oil markets. Fluctuations in these markets directly affect Canada, highlighting the necessity for continued monitoring of developments in Middle East affairs as the conflict evolves.",
+      "why_it_matters": "This military action could lead to increased global oil prices, affecting economies like Canada’s, which are sensitive to oil market fluctuations.",
+      "what_to_watch": "Expect further developments in the Middle East conflict and additional military responses from the U.S. and its allies as tensions remain high.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "The U.S. military destroyed 16 mine-laying vessels near the Strait of Hormuz.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        },
+        {
+          "text": "More than 1,200 people have been reported killed in Iran due to the conflict.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        },
+        {
+          "text": "Seven U.S. soldiers have died in the conflict.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        },
+        {
+          "text": "President Trump warned Iran to remove any mines from the Strait immediately.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        },
+        {
+          "text": "Defense Secretary Pete Hegseth stated the U.S. will not allow terrorists to jeopardize the strait.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR World",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "NPR World",
+          "lean": "Left",
+          "title": "The U.S. attacks Iranian mine-laying vessels near the Strait of Hormuz",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "President Trump",
+          "quote": "If Iran has put out any mines in the Hormuz Strait, and we have no reports of them doing so, we want them removed, IMMEDIATELY!",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
+        },
+        {
           "speaker": "Defense Secretary Pete Hegseth",
-          "quote": "You have air defenses, and a lot's coming in, and you hit most of it. Every once in a while, you might have one, unfortunately, we call it a squirter, that makes its way through.",
-          "url": "https://www.cbsnews.com/news/strike-in-kuwait-that-killed-6-us-service-member-more-severe/"
+          "quote": "We will not allow terrorists to hold the strait hostage.",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5744029/us-iran-war"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "As we reflect on the courage of our service members, we hold hope for their swift recovery and the support they receive in these challenging times.",
-      "related_ongoing": ""
+      "positive_thought": "May there be peace in the hearts of those living in the shadow of conflict. As the world navigates these turbulent waters, may hope illuminate the paths toward understanding and reconciliation.",
+      "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-4",
-      "headline": "U.S. Launches Major Airstrikes in Ongoing Iran Conflict",
-      "bottom_line": "The U.S. intensifies military action, with significant implications for global oil markets and Canadian consumers.",
-      "body": "Today, the U.S. launched its most intense bombing campaign in the ongoing Iran war, marking a pivotal moment in the conflict. The Pentagon reports that 140 American troops have been wounded, with seven service members confirmed killed. Defense Secretary Pete Hegseth stated, \"Today will be yet again our most intense day of strikes inside Iran - the most fighters, the most bombers, the most strikes.\"  \n \nThe United States is reportedly striking an average of 500 targets in Iran daily. Concurrently, the Strait of Hormuz is effectively closed, raising concerns about global oil supply. Oil prices surged to about $120 a barrel yesterday but have seen a decrease to around $88 a barrel today, reflecting immediate market reactions.  \n \nThe overall duration of the U.S. military campaign in Iran remains subject to debate, complicating both military strategy and diplomatic considerations. Monitoring developments in oil prices will be crucial as the situation evolves, particularly for Canadian markets reliant on global oil dynamics.\n\nIranian officials claim the strikes target civilian areas and accuse the U.S. of war crimes, vowing retaliation.",
-      "why_it_matters": "The intensification of U.S. bombing in Iran affects global oil prices, which could have direct consequences for Canadian consumers and the economy.",
-      "what_to_watch": "Watch for fluctuations in oil prices as the conflict unfolds and any potential diplomatic initiatives or ceasefire negotiations.",
+      "slug": "article-9",
+      "headline": "Trump Calls for Uprising in Iran, Drawing Parallels to 1991 Iraq",
+      "bottom_line": "Donald Trump's call for an uprising in Iran draws historical parallels to the U.S.'s 1991 Iraq intervention, raising questions on potential support and consequences for U.S. foreign policy.",
+      "body": "Donald Trump has called for an uprising in Iran, drawing historical parallels to George H.W. Bush’s 1991 plea for the Iraqi military and citizens to rise against Saddam Hussein following the Gulf War. The first Gulf War had received the legal authorization from the United Nations Security Council, which framed the U.S.’s role in the conflict. By evoking this historical precedent, Trump risks suggesting American support for a movement without any promise of actual military backing.\n\nJeremy Bowen highlighted the challenges such rhetorical support poses, stating, \"I know what can happen when an American president calls for an uprising and then doesn't get involved when it starts.\" This remark invokes concerns over the repercussions of U.S. leaders encouraging uprisings without subsequent commitment, as seen in the aftermath of the Iraqi uprisings, leading to significant regional instability and loss of life.\n\nThe implications of Trump's statements are particularly relevant for Canadians, who are closely attuned to U.S. foreign policy dynamics given their potential to reshape international relations. As citizens of a neighboring country, Canadians are invested in the outcomes of U.S. decisions, especially those pertaining to the Middle East. Historical failures in similar contexts also prompt prudence and caution from policymakers and analysts alike, suggesting that any U.S. withdrawal from active involvement could have detrimental effects on Iranian populations seeking change.\n\nThe core questions remain: Should a significant uprising occur in Iran, what level of support or intervention will the U.S. realistically provide? Close monitoring of U.S. foreign policy announcements regarding Iran will reveal the administration's stance amid these complex dynamics and whether past lessons will inform future actions.",
+      "why_it_matters": "The situation in Iran has ramifications not only for regional stability but also for Canada, as its foreign policy intricately connects to U.S. actions.",
+      "what_to_watch": "Pay attention to upcoming U.S. foreign policy announcements regarding Iran and potential responses to any Iranian unrest.",
       "category": "World",
       "key_points": [
         {
-          "text": "Today marks the most intense U.S. bombing yet in the Iran war.",
+          "text": "Trump's call for an uprising in Iran mirrors George Bush's strategy in Iraq in 1991.",
+          "source_url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The U.S. faced consequences for encouraging uprisings without backing in 1991.",
+          "source_url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The UN Security Council authorized the first Gulf War, a legal precedent barely acknowledged today.",
+          "source_url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Concerns exist regarding the potential for U.S. disengagement post-encouragement of uprisings.",
+          "source_url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
+          "url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Jeremy Bowen",
+          "quote": "I know what can happen when an American president calls for an uprising and then doesn't get involved when it starts.",
+          "url": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "As we reflect on the unfolding dynamics in the Middle East, one can't help but think of the hopeful resilience of the people yearning for change. May every voice seeking freedom and peace find the strength and avenues to be heard, fostering a brighter tomorrow for all caught in this relentless struggle.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-11",
+      "headline": "Tehran Residents Navigate Challenges Ahead of Nowruz Celebrations",
+      "bottom_line": "Residents in Tehran express resilience amid ongoing conflict as Nowruz approaches, highlighting hope amidst the uncertainty of war.",
+      "body": "considerable",
+      "why_it_matters": "The resilience of Tehran's residents amid conflict illustrates the broader impact of war on communities, highlighting the need for peace and stability in the region.",
+      "what_to_watch": "The beginning of Nowruz celebrations on March 21 will be a key moment to observe how residents cope with the ongoing conflict.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Air strikes on oil depots have led to dark skies and black rain in Tehran.",
+          "source_url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The US and Israel began their attacks on Iran on 28 February.",
+          "source_url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Tehran and its surrounding province have a population of 14 million.",
+          "source_url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Some residents have left to seek safety as the war continues.",
+          "source_url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Fewer than 10 days are left until Nowruz.",
+          "source_url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "'Even under missiles we carry on living' - how young Iranians are coping with war",
+          "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Peyman",
+          "quote": "Even under missiles, we carry on living. We have no choice but to live.",
+          "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "speaker": "Sahar",
+          "quote": "Why do we have to experience such horror when we're in the prime years of our youth? I just want this to end before Nowruz.",
+          "url": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": false,
+      "is_negative": true,
+      "positive_thought": "As Nowruz approaches, may the light of renewal bring peace and hope to the hearts of all those in Tehran, fostering resilience and a sense of community amid adversity, like the stories of Sahar and her friends who long for brighter days.",
+      "related_ongoing": "middle-east-israel-gaza"
+    },
+    {
+      "slug": "article-12",
+      "headline": "U.S. Strikes 500 Targets Daily in Intensified Iran Operations",
+      "bottom_line": "Intensified U.S. bombing in Iran raises concerns regarding oil prices and regional stability.",
+      "body": "Today marks the most intense U.S. bombing in the Iran war, with an average of 500 targets struck daily. The current military operation, officially begun on March 10, 2026, has resulted in 140 wounded U.S. troops and 7 service members killed. The U.S. Defense Secretary Pete Hegseth stated, \"Today will be yet again our most intense day of strikes inside Iran - the most fighters, the most bombers, the most strikes.\" This escalation occurs as the Strait of Hormuz is effectively closed, heightening tensions in a region critical to global oil supply.\n\nThe implications of this escalation are significant. Currently, oil prices stand at $88 per barrel. The ongoing conflict poses direct risks not only to the stability of the Middle East but also to global oil markets, which have direct ramifications for economies including Canada. Canadian stakeholders should prepare for potential fluctuations in oil prices stemming from the conflict, as rising prices could impact energy markets.",
+      "why_it_matters": "The ongoing conflict in Iran has direct consequences for global oil supply chains, which affects economies worldwide, including Canada. High oil prices can lead to inflationary pressures in the Canadian economy.",
+      "what_to_watch": "Monitor President Trump's statements regarding the war's potential timeline, as his direction remains pivotal.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "Today marks the most intense U.S. bombing in the Iran war.",
           "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
         },
         {
-          "text": "The Pentagon reports 140 U.S. troops have been wounded, with seven killed.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
-        },
-        {
-          "text": "Oil prices surged to about $120 a barrel yesterday but today are about $88 a barrel.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
-        },
-        {
-          "text": "An average of 500 targets in Iran are struck by the U.S. daily.",
+          "text": "The U.S. has been hitting an average of 500 targets in Iran every day.",
           "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
         },
         {
           "text": "The Strait of Hormuz is effectively closed.",
+          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
+        },
+        {
+          "text": "140 U.S. troops have been wounded, and 7 service members have been killed.",
+          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
+        },
+        {
+          "text": "Current oil prices are at $88 per barrel.",
           "source_url": "https://www.npr.org/2026/03/10/nx-s1-5743569/iran-war-latest-hegseth-says-today-marks-heaviest-bombing-yet"
         }
       ],
@@ -493,451 +739,37 @@
         }
       ],
       "is_good_development": false,
-      "is_negative": false,
-      "positive_thought": "Even amidst escalating tensions, we hold onto the hope that peace will prevail, offering comfort and security to all individuals and families impacted by the conflict.",
-      "related_ongoing": "us-tariffs-trade"
-    },
-    {
-      "slug": "article-5",
-      "headline": "U.S. Scales Back Charter Flights for Americans in UAE",
-      "bottom_line": "The U.S. significantly reduces charter flights for American evacuees in the UAE amid rising tensions with Iran and low demand for evacuations.",
-      "body": "The U.S. State Department has decreased charter flight operations for Americans in the United Arab Emirates, attributing the decision to low demand among citizens facing rising tensions with Iran. More than three dozen charter flights have been completed, successfully evacuating thousands of Americans from the region. However, Assistant Secretary of State Dylan Johnson noted that \"those flights departed the UAE with available seats due to a lack of demand.\" Nearly 9,000 Americans and their families had been invited to utilize these U.S. government flights to evacuate as the situation in Iran remains precarious.\n\nThis reduction in evacuation efforts has been interpreted as a diminishing sense of urgency regarding the safety of American nationals in the region amid ongoing geopolitical tensions. Uncertainty looms about the extent of U.S. responsibility for current military operations in Iran and how this might impact citizens abroad. The scaling down of evacuation services raises critical questions regarding the strategic positioning of the U.S. military in relation to Iran.",
-      "why_it_matters": "A decrease in evacuation flights signals an adjustment in U.S. diplomatic strategy, which could affect Americans' safety in volatile regions. Canadians may also experience repercussions related to global energy markets due to regional instability.",
-      "what_to_watch": "Further statements from President Trump regarding military operations in Iran could provide insight into the U.S. government's future stance in the region.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "State Department has decreased charter flights for Americans in the UAE due to low demand.",
-          "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        },
-        {
-          "text": "More than three dozen charter flights have evacuated thousands of Americans.",
-          "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        },
-        {
-          "text": "Nearly 9,000 Americans and families were invited to travel on U.S. charter flights.",
-          "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        },
-        {
-          "text": "Assistant Secretary Dylan Johnson commented on the availability of seats on flights due to low attendance.",
-          "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        },
-        {
-          "text": "Ongoing tension exists between the U.S. and Iran, impacting U.S. citizens.",
-          "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "CBS News",
-          "lean": "Center",
-          "title": "Trump vows to end war \"soon\" as Iran hits ships and threatens banks",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Dylan Johnson",
-          "quote": "Despite those efforts, those flights departed the UAE with available seats due to a lack of demand.",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/"
-        }
-      ],
-      "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "The successful evacuation of many Americans from a volatile region underscores the dedication of those working to ensure citizen safety, offering a beacon of hope in challenging circumstances.",
-      "related_ongoing": ""
+      "positive_thought": "As the world grapples with the weight of conflict, may the quiet strength of resilience guide leaders towards paths of peace and understanding. In moments of uncertainty, let us hold onto hope for the wellbeing of those impacted by these events, trusting that light persists even amid the darkness.",
+      "related_ongoing": "iran-conflict"
     },
     {
-      "slug": "article-6",
-      "headline": "IEA to Release 400 Million Barrels of Oil Reserves",
-      "bottom_line": "The IEA's release of 400 million barrels aims to stabilize oil markets disrupted by the Iran conflict, affecting global energy prices, including Canada's.",
-      "body": "The International Energy Agency (IEA) announced on March 11, 2026, that it will release a historic 400 million barrels from members' emergency reserves. This unprecedented move comes in response to ongoing disruptions in global oil markets due to the war in Iran. Fatih Birol, Executive Director of the IEA, emphasized the significance of this action, stating, \"This is a major action aiming to alleviate the immediate impacts of the disruption in markets.\" \n\nIn comparison, the IEA released 182.7 million barrels in 2022 as a response to the Russia-Ukraine conflict. The size of this current release underlines the urgent measures being employed to stabilize the energy sector in light of heightened geopolitical tensions. \n\nAs a member of the IEA, Canada’s involvement in the emergency reserves can have substantial implications for domestic energy prices, highlighting the interconnected nature of global markets during crises.",
-      "why_it_matters": "This strategic release highlights the global reliance on oil and potential shifts in pricing dynamics affecting everyday Canadians.",
-      "what_to_watch": "Further announcements will clarify the timing and specifics of the oil release, revealing each member country's contribution.",
+      "slug": "article-15",
+      "headline": "IEA Approves Historic Oil Reserve Release Amid Geopolitical Tensions",
+      "bottom_line": "The IEA has sanctioned a historic release of 400 million barrels of oil to address supply disruptions linked to the ongoing U.S.-Iran conflict.",
+      "body": "On March 11, 2026, the International Energy Agency (IEA) members unanimously voted to release 400 million barrels of oil from their emergency reserves. This release marks the largest coordinated stock release in the IEA’s 52-year history, surpassing the previous record of 182 million barrels released in 2022 following Russia's invasion of Ukraine. The decision responds to escalating challenges in the oil market that have arisen due to the ongoing conflict between the U.S. and Israel and its implications for global supply chains.\n\nFatih Birol, the Executive Director of the IEA, supported this emergency action, stating, \"The oil market challenges we are facing are unprecedented in scale, therefore I am very glad that IEA Member countries have responded with an emergency collective action of unprecedented size.\" The significance of this action lies not only in its scale but also in its timing, amidst other geopolitical strains that can affect oil supply and pricing dynamics. \n\nCanadian oil markets are expected to feel the effects of these global price fluctuations due to the unprecedented release of oil reserves. Observers are now closely monitoring both the immediate impact on global oil prices and potential reactions from major oil-producing nations in response to this coordinated action.",
+      "why_it_matters": "This release could significantly influence global oil prices, impacting economies reliant on oil exports, including Canada.",
+      "what_to_watch": "Watch for the immediate effects of the oil release on global oil prices and any subsequent responses from major oil-producing countries.",
       "category": "World",
       "key_points": [
         {
-          "text": "The IEA will release 400 million barrels from its emergency reserves.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "text": "The announcement was made on March 11, 2026.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "text": "In 2022, the IEA released 182.7 million barrels due to the Russia-Ukraine conflict.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "text": "Fatih Birol stated the release aims to alleviate market disruptions.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "text": "Canada, as an IEA member, will influence domestic energy pricing through its contributions.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/economy/iea-agrees-to-release-record-volume-of-emergency-oil-reserves-in-effort-to-calm-prices"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "Countries agree to a historic release of stockpiled oil to ease global disruption",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5743816/iran-war-oil-reserves-iea"
-        },
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "IEA agrees to release record volume of emergency oil reserves in effort to calm prices",
-          "url": "https://www.pbs.org/newshour/economy/iea-agrees-to-release-record-volume-of-emergency-oil-reserves-in-effort-to-calm-prices"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Fatih Birol",
-          "quote": "This is a major action aiming to alleviate the immediate impacts of the disruption in markets.",
-          "url": "https://www.pbs.org/newshour/economy/iea-agrees-to-release-record-volume-of-emergency-oil-reserves-in-effort-to-calm-prices"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": false,
-      "positive_thought": "It's encouraging to see global cooperation aimed at stabilizing energy markets during such challenging times, reflecting hope for a more balanced and secure future.",
-      "related_ongoing": "middle-east-israel-gaza"
-    },
-    {
-      "slug": "article-8",
-      "headline": "Countries to Release Record Oil from Reserves",
-      "bottom_line": "The International Energy Agency's unprecedented release of 400 million barrels of oil aims to address global supply shortages amid geopolitical tensions.",
-      "body": "In a globally coordinated effort, all 32 member nations of the International Energy Agency (IEA) have committed to releasing 400 million barrels of oil from their emergency reserves.. This substantial decision is primarily a response to supply shortages exacerbated by ongoing geopolitical tensions, particularly the US-Israel conflict with Iran.  \n\nDespite this unprecedented effort, there is skepticism about its effectiveness in stabilizing oil prices. IEA Executive Director Fatih Birol stated that while the release is significant, it will not alleviate the challenges currently facing the global gas market. In addition, experts note that past emergency releases have not consistently led to expected price drops, with analyst Jorge Leon commenting, \"Everyone knew there would be a release of emergency reserves [...] but prices haven't come down as much as you would expect.\" \n\nThe situation remains critical as approximately 25% of global oil supplies transit through the Strait of Hormuz, heightening the risk of further supply disruptions. The upcoming weeks will be pivotal as analysts monitor the impact of the oil release on global prices and overall supply stability.\n\nThe conflict escalated following Iran's drone and missile attacks on U.S. and Israeli targets.",
-      "why_it_matters": "The increase in oil prices impacts Canadian consumers, potentially leading to higher fuel costs and broader economic ramifications.",
-      "what_to_watch": "Watch for fluctuations in global oil prices following this release and how it affects supply stability in the coming weeks.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "IEA members will release 400 million barrels of oil.",
-          "source_url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "The release addresses supply shortages from the US-Israel conflict with Iran.",
-          "source_url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "25% of global oil supplies go through the Strait of Hormuz.",
-          "source_url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Fatih Birol stated the release won't help the global gas market significantly.",
-          "source_url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Ed Miliband supports efforts to address oil market disruptions.",
-          "source_url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Business",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "BBC World",
-          "lean": "Center",
-          "title": "Countries agree to record release of emergency oil reserves as prices surge",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC Business",
-          "lean": "Center",
-          "title": "Countries agree to record release of emergency oil reserves as prices surge",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Fatih Birol",
-          "quote": "The release will not help the global gas market, which he described as very challenging.",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "speaker": "Nick Butler",
-          "quote": "Once you release them, they don't exist.",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "speaker": "Jorge Leon",
-          "quote": "Everyone knew there would be a release of emergency reserves [...] but prices haven't come down as much as you would expect.",
-          "url": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Despite the immense challenges, there remains hope for innovative solutions that can emerge from this crisis, fostering cooperation among nations in pursuit of energy stability.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-11",
-      "headline": "G7 Releases 400 Million Barrels of Oil to Stabilize Markets",
-      "bottom_line": "The G7's unprecedented release of 400 million barrels of oil aims to stabilize global markets amidst the ongoing war in the Middle East.",
-      "body": "The G7 has announced the release of 400 million barrels of oil as a response to the escalating conflict in the Middle East. This measure is particularly significant as it represents approximately twenty days' worth of oil traffic that typically passes through the strategically vital Strait of Hormuz. Such a substantial release aims to counteract market instability caused by geopolitical threats.\n\nThe Strait of Hormuz is a critical chokepoint for global oil deliveries, and disruptions in this region often lead to heightened prices and market volatility. The current war in the Middle East has raised concerns among G7 leaders about the potential implications for energy security and prices, prompting this massive release.\n\nCanadian oil markets may see fluctuations due to the G7's actions, as global oil prices react to the new supply dynamics created by this intervention. The effectiveness of releasing such a large volume of oil in stabilizing the markets remains uncertain, and market analysts will be closely monitoring its impact in the coming weeks.",
-      "why_it_matters": "The G7's oil release is designed to mitigate potential price increases that could impact economies worldwide, including Canada.",
-      "what_to_watch": "Monitor oil market reactions to the G7's announcement.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "G7 leaders announced the release of 400 million barrels of oil.",
-          "source_url": "https://www.france24.com/en/g7-releases-record-amount-of-oil-stocks-to-calm-the-markets-down"
-        },
-        {
-          "text": "This release is in response to the war in the Middle East.",
-          "source_url": "https://www.france24.com/en/g7-releases-record-amount-of-oil-stocks-to-calm-the-markets-down"
-        },
-        {
-          "text": "The release represents about twenty days worth of usual oil traffic through the Strait of Hormuz.",
-          "source_url": "https://www.france24.com/en/g7-releases-record-amount-of-oil-stocks-to-calm-the-markets-down"
-        }
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/g7-releases-record-amount-of-oil-stocks-to-calm-the-markets-down"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "France 24",
-          "lean": "Center",
-          "title": "G7 releases record amount of oil stocks to 'calm the markets down'",
-          "url": "https://www.france24.com/en/g7-releases-record-amount-of-oil-stocks-to-calm-the-markets-down"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": false,
-      "is_negative": false,
-      "positive_thought": "The decision by G7 leaders to intervene in the oil market is a hopeful sign for those anticipating stabilization in energy costs during a most challenging time.",
-      "related_ongoing": "middle-east-israel-gaza"
-    },
-    {
-      "slug": "article-16",
-      "headline": "Trump Claims Iran War Nearing End as Israel Vows to Continue Operations",
-      "bottom_line": "Trump's assertion that the Iran war could soon end contrasts sharply with Israel's commitment to an indefinite military operation.",
-      "body": "During a recent interview with Axios, President Donald Trump expressed optimism regarding the Iran war, suggesting it is progressing more quickly than anticipated. He stated, \"Any time I want it to end, it will end,\" indicating his belief that significant damage has been inflicted on Iran's military capabilities. In stark contrast, Israeli officials, including Defence Minister Israel Katz, have made it clear that their military operations will persist without a defined end until all objectives are successfully met.\n\nThis divergence in perspectives reflects a notable disconnect between U.S. and Israeli military strategies. While Trump envisions a near conclusion to the conflict, Israeli officials remain steadfast in their approach of unconditional military engagement. Reports indicate that approximately 1,300 people have died in the ongoing military conflict, highlighting the urgency and implications of the situation.\n\nUnderstanding the conditions under which both the U.S. and Iran might agree to a ceasefire remains uncertain. The outcome of this conflict is pivotal, as it affects global oil prices and could have a significant impact on Canada’s economy, especially within the energy sector. As such, Canadian businesses and policymakers will closely monitor developments in this geopolitical landscape.",
-      "why_it_matters": "The differing views on the war's duration could lead to significant shifts in policy, impacting global oil prices and Canada’s economy, especially in the energy sector.",
-      "what_to_watch": "Further statements from U.S. and Israeli officials regarding the conflict's progression will be crucial to understanding future developments.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "Trump claims the war is proceeding ahead of schedule and may end soon due to substantial damage to Iran's military capabilities.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        },
-        {
-          "text": "Israeli officials state that military operations will continue without a defined end until all objectives are achieved.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        },
-        {
-          "text": "The conflict has reportedly resulted in 1,300 fatalities according to U.S. officials.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        },
-        {
-          "text": "Trump indicated in an interview that he could decide when the war ends.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        },
-        {
-          "text": "Israeli Defence Minister asserts operations will remain open-ended.",
-          "source_url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Al Jazeera",
-          "lean": "Center",
-          "title": "Trump says Iran war to end ‘soon’ as Israel claims no time limit",
-          "url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Donald Trump",
-          "quote": "Any time I want it to end, it will end.",
-          "url": "https://www.aljazeera.com/news/2026/3/11/trump-says-iran-war-to-end-soon-as-israel-claims-no-time-limit?traffic_source=rss"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "In these challenging times, it is important to remember the human cost and strive for peace, ensuring that the lives affected in the region are heard and valued.",
-      "related_ongoing": "middle-east-israel-gaza"
-    },
-    {
-      "slug": "article-17",
-      "headline": "UK Government Proposals Favor AI Data Centers Over Housing",
-      "bottom_line": "UK government proposals may favor AI data centers over housing developments, intensifying concerns about energy allocation amid a housing crisis.",
-      "body": "New proposals from the UK government could prioritize AI data centers over housing developments, a decision that has stirred concern among builders amidst an ongoing housing crisis. Currently, there are 140 data centers awaiting new electricity connections, with a staggering 460% increase in applications in the first half of 2025 largely driven by the demand from these facilities.\n\nData centers now account for 2% of the UK’s electricity demand, and the projected energy needs from these centers are expected to increase six-fold by 2050. This spike in demand highlights a critical policy decision: how to balance the significant energy requirements of AI infrastructure with the urgent need for new housing.\n\nAI Minister Kanishka Narayan supports the prioritization of data centers, arguing that \"delivering data centres... relies on access to the grid. These timely reforms will help us move at pace, to seize AI's potential to help build a wealthier and fairer Britain.\" In contrast, Steve Turner, Executive Director of the Home Builders Federation, criticizes this approach. He states, \"As we continue to face into a housing crisis it is frustrating that regulatory, planning and policy arrangements effectively prioritise energy intensive data centres over energy efficient homes for families.\"",
-      "why_it_matters": "This policy direction reflects a broader challenge facing many regions, where energy demands must be reconciled with pressing housing needs. The outcome could set a precedent for similar situations in Canada and beyond.",
-      "what_to_watch": "Upcoming government consultations will clarify how project prioritization will unfold, particularly regarding what is deemed 'strategically important'.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "140 data centers waiting for electricity connections in the UK.",
-          "source_url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Queue for electricity connections grew by 460% in early 2025.",
-          "source_url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Data centers currently account for 2% of UK electricity demand.",
-          "source_url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "text": "Projected six-fold increase in electricity demand from AI data centers by 2050. The government will consult on prioritizing economically significant projects, including data centers.",
-          "source_url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "sources": [
-        {
-          "name": "BBC Science",
-          "url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "BBC Science",
-          "lean": "Center",
-          "title": "Prioritising AI data centres could block new homes, builders warn",
-          "url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Kanishka Narayan",
-          "quote": "Delivering data centres... relies on access to the grid. These timely reforms will help us move at pace, to seize AI's potential to help build a wealthier and fairer Britain.",
-          "url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "speaker": "Steve Turner",
-          "quote": "As we continue to face into a housing crisis it is frustrating that regulatory, planning and policy arrangements effectively prioritise energy intensive data centres over energy efficient homes for families.",
-          "url": "https://www.bbc.com/news/articles/c9dn2znzez7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "It is vital to remember the families facing housing uncertainties amid these policy shifts. May there be a balanced approach that secures both the need for energy and adequate housing for all.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-22",
-      "headline": "Documents Reveal Risks in Mandelson's Appointment as Ambassador",
-      "bottom_line": "The revelation of reputational risks linked to Peter Mandelson's ties to Jeffrey Epstein complicates Prime Minister Starmer's leadership as scrutiny mounts over his appointment decisions.",
-      "body": "Newly released documents by the British government indicate that officials warned Prime Minister Keir Starmer about the reputational risks of appointing Peter Mandelson as U.S. ambassador. Despite these concerns, Mandelson was appointed, only to be dismissed nine months later following further revelations about his relationship with Jeffrey Epstein.\n\nThe documents, comprising 140 pages, encompass the discussions around Mandelson’s qualifications and his controversial past. Starmer admitted that appointing Mandelson was a mistake, reflecting the challenges his government faces in balancing diplomatic relationships with public scrutiny. Darren Jones, Chief Secretary to the Prime Minister, criticized the appointment, asserting that Mandelson misrepresented his relationship with Epstein.\n\nAs public trust in government appointments wanes, the fallout from this controversy may reverberate within Starmer's administration, leading to increased scrutiny of his leadership and decision-making processes. The situation highlights the delicate nature of political appointments and the potential for personal scandals to impact broader governance issues.",
-      "why_it_matters": "The political fallout from Mandelson's appointment raises questions about leadership accountability and public trust in political appointments, which is relevant for citizens and governance globally.",
-      "what_to_watch": "Parliamentary discussions and investigations surrounding Mandelson's appointment will shed light on the implications for Starmer's government.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "Documents show officials warned of reputational risks in appointing Mandelson as ambassador.",
-          "source_url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        },
-        {
-          "text": "Starmer fired Mandelson nine months after his appointment due to new revelations about Epstein.",
-          "source_url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        },
-        {
-          "text": "There are 140 pages of documents concerning Mandelson's appointment.",
-          "source_url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        },
-        {
-          "text": "Jones criticized Mandelson's appointment and claimed he lied about his relationship with Epstein.",
-          "source_url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        },
-        {
-          "text": "Starmer has acknowledged that appointing Mandelson was a mistake.",
-          "source_url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        }
-      ],
-      "sources": [
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "British prime minister was warned of 'reputational risk' in appointing Mandelson, files show",
-          "url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Keir Starmer",
-          "quote": "I regret appointing Mandelson and acknowledge it was a mistake.",
-          "url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        },
-        {
-          "speaker": "Darren Jones",
-          "quote": "Mandelson lied about his relationship with Epstein.",
-          "url": "https://www.pbs.org/newshour/world/british-prime-minister-was-warned-of-reputational-risk-in-appointing-mandelson-files-show"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "Through the tangled web of political appointments lies the hope that accountability will ultimately lead to more transparent and trustworthy governance.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-23",
-      "headline": "IEA Approves Historic Oil Reserve Release Amid Supply Crisis",
-      "bottom_line": "The IEA has enacted the largest oil reserve release in its history, responding to significant supply disruptions in the Strait of Hormuz, with potential implications for global oil prices.",
-      "body": "On March 11, 2026, member countries of the International Energy Agency (IEA) unanimously approved the release of 400 million barrels of oil from their emergency reserves. This marks the largest coordinated stock release in the IEA's history, driven by supply disruptions stemming from the near-total closure of the Strait of Hormuz, a crucial conduit for global oil transport.\n\nFatih Birol, Executive Director of the IEA, expressed support for the decision, stating, \"The oil market challenges we are facing are unprecedented in scale, therefore I am very glad that IEA Member countries have responded with an emergency collective action of unprecedented size.\" The previous record for oil reserves release was 182 million barrels, set in 2022, highlighting the magnitude of the current response.\n\nGiven the importance of the Strait of Hormuz to global oil trade, the IEA's action reflects the heightened geopolitical tensions impacting supply chains. The release aims to stabilize markets amid volatile conditions created by these events, which may also affect oil prices in Canada and beyond.",
-      "why_it_matters": "This release could significantly influence global oil prices, impacting economic conditions in Canada and other countries reliant on oil imports.",
-      "what_to_watch": "Monitor subsequent shifts in oil prices and broader economic ramifications as a result of the IEA's decision.",
-      "category": "World",
-      "key_points": [
-        {
-          "text": "The IEA member countries agreed to release 400 million barrels of oil from emergency reserves.",
+          "text": "IEA members unanimously agreed to release 400 million barrels of oil from their emergency reserves.",
           "source_url": "https://www.breitbart.com/economy/2026/03/11/iea-members-unanimously-approve-400-million-barrel-oil-reserve-release-largest-ever/"
         },
         {
-          "text": "This is the largest coordinated stock release in IEA history.",
+          "text": "This release is the largest coordinated stock release in the IEA’s 52-year history.",
           "source_url": "https://www.breitbart.com/economy/2026/03/11/iea-members-unanimously-approve-400-million-barrel-oil-reserve-release-largest-ever/"
         },
         {
-          "text": "The release is in response to supply disruptions from the near-total closure of the Strait of Hormuz.",
+          "text": "The previous record was 182 million barrels released in 2022 after Russia's invasion of Ukraine.",
           "source_url": "https://www.breitbart.com/economy/2026/03/11/iea-members-unanimously-approve-400-million-barrel-oil-reserve-release-largest-ever/"
         },
         {
-          "text": "The previous record for oil reserves release was 182 million barrels set in 2022.",
+          "text": "IAE members approved the reserve release on March 11, 2026.",
           "source_url": "https://www.breitbart.com/economy/2026/03/11/iea-members-unanimously-approve-400-million-barrel-oil-reserve-release-largest-ever/"
         },
         {
-          "text": "IEA members approved the release on March 11, 2026.",
+          "text": "Fatih Birol emphasized the unprecedented nature of the current oil market challenges.",
           "source_url": "https://www.breitbart.com/economy/2026/03/11/iea-members-unanimously-approve-400-million-barrel-oil-reserve-release-largest-ever/"
         }
       ],
@@ -963,159 +795,139 @@
         }
       ],
       "is_good_development": false,
-      "is_negative": false,
-      "positive_thought": "In these uncertain times, we can look to the responsible actions of nations working together to navigate critical energy challenges, ensuring stability for millions dependent on oil markets.",
-      "related_ongoing": "us-tariffs-trade"
+      "is_negative": true,
+      "positive_thought": "In these uncertain times, may nations find a path toward cooperation and mutual benefit, working together to bring stability to vital resources. As communities worldwide navigate the coming changes, may their resilience shine through as a guiding light in challenging moments.",
+      "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-24",
-      "headline": "UK Parliament Votes to Remove Hereditary Peers from House of Lords",
-      "bottom_line": "The British Parliament votes to remove hereditary peers from the House of Lords, ending a 700-year tradition amid debate over democratic legitimacy.",
-      "body": "The British Parliament has voted to remove hereditary aristocrats from the House of Lords, marking the end of a 700-year tradition. This removal aligns with a broader movement toward a meritocratic political system in the UK, as highlighted by government minister Nick Thomas-Symonds, who stated, \"Our parliament should always be a place where talents are recognized and merit counts.\" King Charles III is expected to grant royal assent to the legislation soon, making it law. \n\nCurrently, the House of Lords has approximately 800 members, making it the second-largest legislative chamber in the world. Hereditary peers will vacate their seats by the end of the current parliamentary session this spring. Nicholas True, leader of the Opposition Conservative Party in the Lords, acknowledged the long history and contributions of hereditary peers, suggesting a nuanced view on the issue.",
-      "why_it_matters": "This change reflects a shift towards enhancing democratic principles and representation within the UK's political framework, which could influence similar discussions in Canada.",
-      "what_to_watch": "Watch for King Charles III's expected royal assent to finalize the legislation removing hereditary peers.",
+      "slug": "article-16",
+      "headline": "Trump claims significant destruction of Iran's naval forces",
+      "bottom_line": "Donald Trump stated most of Iran's navy has been eliminated, highlighting U.S. engagement in shaping narratives regarding Iranian maritime capabilities.",
+      "body": "During a press conference in Kentucky, former President Donald Trump asserted that \"most of Iran's navy is 'gone.'\" This statement reflects his administration's attempts to emphasize U.S. military successes in the volatile region. The U.S. has been actively involved in military operations against Iranian assets, which has raised concerns about the impact on regional stability. Trump's comments, while bold, lack independent verification, leading to skepticism regarding the extent of Iran's naval capacity damage. \n\nThe assertion comes at a time when U.S.-Iran relations remain fraught, with ongoing tensions affecting not just military strategies but also broader geopolitical dynamics. The situation's relevance extends beyond U.S. borders, with Canadian foreign policy potentially influenced by shifts in U.S. strategies concerning Iran. Canada must navigate its own approach amidst the backdrop of U.S. declarations and military activities.\n\nAs the international community watches the developments in U.S.-Iran relations, the implications for regional security will be significant. Enhanced military capabilities in the Gulf and ongoing strategic operations reveal the nuanced interplay between military presence and diplomatic efforts, further complicating the potential for conflict resolution.\n\nIranian officials have disputed the extent of damage to their naval forces.",
+      "why_it_matters": "The claims about Iran's reduced naval capacity could influence U.S. military decisions and, by extension, have implications for Canadian foreign policy in the Middle East.",
+      "what_to_watch": "Monitor any follow-up statements from military officials regarding the operational status of Iran's navy and reactions from Iranian leadership.",
       "category": "World",
       "key_points": [
         {
-          "text": "British Parliament voted to eliminate hereditary peers from the House of Lords.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "text": "Trump claimed that most of Iran's navy is 'gone'.",
+          "source_url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         },
         {
-          "text": "The move ends a tradition spanning 700 years.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "text": "The statement was made during a press conference in Kentucky.",
+          "source_url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         },
         {
-          "text": "King Charles III is set to grant royal assent, making the change law.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "text": "The U.S. military has been actively engaged in operations against Iranian naval assets.",
+          "source_url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         },
         {
-          "text": "Hereditary peers will leave by the end of the current session of Parliament this spring.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "text": "The assertion reflects ongoing tensions between the U.S. and Iran.",
+          "source_url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         },
         {
-          "text": "The House of Lords currently has 800 members, making it the second-largest legislative chamber worldwide.",
-          "source_url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "text": "The implications of U.S.-Iran relations may affect Canadian foreign policy.",
+          "source_url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
-        },
-        {
-          "name": "NPR World",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         }
       ],
       "component_articles": [
         {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "No Nobles Day: Britain's Parliament boots its last hereditary Lords after 700 years",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
-        },
-        {
-          "source": "NPR World",
-          "lean": "Left",
-          "title": "No Nobles Day: Britain's Parliament boots its last hereditary Lords after 700 years",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "source": "CBS News",
+          "lean": "Center",
+          "title": "Trump says most of Iran's navy is gone",
+          "url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Nick Thomas-Symonds",
-          "quote": "Our parliament should always be a place where talents are recognized and merit counts.",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
-        },
-        {
-          "speaker": "Nicholas True",
-          "quote": "I acknowledge the contributions of hereditary peers over centuries.",
-          "url": "https://www.npr.org/2026/03/11/g-s1-113300/britain-parliament-hereditary-house-of-lords-aristocrats-duke-earl-viscount"
+          "speaker": "Donald Trump",
+          "quote": "most of Iran's navy is 'gone.'",
+          "url": "https://www.cbsnews.com/video/trump-says-most-of-irans-navy-is-gone/"
         }
       ],
       "is_good_development": false,
       "is_negative": false,
-      "positive_thought": "As this historic change unfolds, it is a moment of hope for a more inclusive representation in democratic systems, reflecting the evolving values of society.",
-      "related_ongoing": ""
+      "positive_thought": "In a world marked by complex geopolitical challenges, may we find the grace to pursue understanding and peace. The need for dialogue and diplomacy is ever-present, especially amidst claims of military actions that shape our global landscape.",
+      "related_ongoing": "iran-conflict"
     },
     {
-      "slug": "article-25",
-      "headline": "War in Iran Disrupts Air Travel, Increases Fuel Prices",
-      "bottom_line": "The war in Iran disrupts air travel and raises fuel prices, directly impacting Canadian consumers and travel plans.",
-      "body": "The ongoing war in Iran has resulted in significant disruptions to air travel, with over 46,000 flights canceled between February 28 and March 11. The conflict, which escalated when the U.S. and Israel began bombing Iran, has also triggered sharp increases in fuel costs. The average price for a gallon of jet fuel climbed from $2.11 at the start of the year to $3.40 by March 10. Similarly, gasoline prices have soared from an average of $2.98 to $3.58 per gallon since the war began.\n\nThe surge in oil prices is a concern not only for travelers but for the broader economy. Gregory Daco, chief economist at EY-Parthenon, points out the economic shock of these rising oil prices and their potential impact on inflation. Canadians, who may rely on travel or imported goods, will likely feel these effects in their daily lives.\n\nAs the conflict continues, future flight cancellations and adjustments in fuel prices should be closely monitored. It remains uncertain how long the war will persist and how it will further influence global oil markets, adding to the unpredictability of travel and cost of living for many.",
-      "why_it_matters": "Canadians who depend on air travel or imported goods will face increased costs directly attributable to this conflict.",
-      "what_to_watch": "Monitor future updates on flight cancellations and fuel price adjustments.",
+      "slug": "article-17",
+      "headline": "EU and UK Urge Halt to West Bank Settler Violence",
+      "bottom_line": "The EU and UK demand an end to settler violence in the West Bank, highlighting growing concerns over accountability and the humanitarian situation amid the ongoing war with Iran.",
+      "body": "The European Union and the United Kingdom have issued urgent calls for an immediate stop to rising settler violence in the West Bank, particularly in light of the ongoing conflict linked to the war with Iran. This violence has culminated in the deaths of six Palestinians over the past 11 days, marking a significant escalation of violence in a region already marked by extreme tensions.\n\nReports indicate that there have been 109 separate incidents of settler violence recorded in Palestinian communities since the onset of the Iran war. This violence raises pointed questions about the responsibility of the Israeli authorities, with both the EU and UK demanding greater accountability from Israel. The EU has characterized the level of settler violence as \"unacceptable,\" while the UK expressed being \"appalled by the killings,\" signaling unified international concern regarding the situation.\n\nThe context of this violence is critical. Since the 1967 Middle East war, Israel has established approximately 160 settlements housing around 700,000 Jews, complicating the ongoing struggle for Palestinian rights and self-determination. These settlements encroach upon Palestinian territories, with an estimated 3.3 million Palestinians currently living alongside these settlements in the West Bank. The surge in violence linked to these communities calls into question the effectiveness of Israel’s governance in maintaining order and protecting human rights.\n\nAs the situation continues to develop, questions remain regarding what measures the Israeli authorities will implement to mitigate this violence. Observers will closely monitor reactions from the Israeli government and any forthcoming international discussions aimed at addressing this crisis, which poses serious humanitarian implications for those affected in the region.",
+      "why_it_matters": "This surge in settler violence aggravates an already dire humanitarian situation for Palestinians, potentially destabilizing the region further and impacting international relations.",
+      "what_to_watch": "Reactions from the Israeli government and any potential international meetings on the crisis.",
       "category": "World",
       "key_points": [
         {
-          "text": "The war has led to the cancellation of more than 46,000 flights in and out of the Middle East from Feb. 28 to March 11.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "text": "Six Palestinians have been killed during attacks by settlers across the West Bank over the past 11 days.",
+          "source_url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The average price for a gallon of jet fuel rose from $2.11 at the beginning of the year to $3.40 by March 10.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "text": "The EU has called the level of settler violence \"unacceptable.\"",
+          "source_url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Gas prices increased from an average of $2.98 to $3.58 per gallon since the start of the war.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "text": "The UK expressed being \"appalled by the killings.\"",
+          "source_url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The U.S. and Israel began bombing Iran on Feb. 28.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "text": "There have been 109 separate incidents of settler violence reported during the first 10 days of the war with Iran.",
+          "source_url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The peak price of crude oil reached $110 per barrel during the conflict.",
-          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "text": "Since the 1967 Middle East war, about 160 Israeli settlements housing 700,000 Jews have been built.",
+          "source_url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
-        },
-        {
-          "name": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+          "name": "BBC World",
+          "url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "component_articles": [
         {
-          "source": "NPR News",
-          "lean": "Left",
-          "title": "How the Iran war is disrupting air travel -- and advice if you're planning a trip",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
-        },
-        {
-          "source": "PBS NewsHour",
-          "lean": "Left",
-          "title": "The Iran war and surging oil prices are affecting consumers. Here's how",
-          "url": "https://www.pbs.org/newshour/economy/the-iran-war-and-surging-oil-prices-are-affecting-consumers-heres-how"
+          "source": "BBC World",
+          "lean": "Center",
+          "title": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
+          "url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Sean Cudahy",
-          "quote": "I recommend booking flights early despite disruptions.",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "speaker": "European Union",
+          "quote": "The level of settler violence is unacceptable.",
+          "url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "speaker": "Gregory Daco",
-          "quote": "The rising oil prices will contribute to inflation.",
-          "url": "https://www.npr.org/2026/03/11/nx-s1-5742438/iran-war-flight-airline-travel-tips"
+          "speaker": "United Kingdom",
+          "quote": "Appalled by the killings.",
+          "url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "speaker": "Hussein al-Sheikh",
+          "quote": "Describes the attacks as a major escalation of settler terrorism.",
+          "url": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "Despite the current disruptions, the resilience of the travel industry and its communities shines through, inspiring innovative solutions to maintain connections and ensure safety for all.",
+      "positive_thought": "May we find resilience and hope as we consider the lives of those in the West Bank. Amid the darkness, the strength of community and the yearning for peace remain unwavering. May these aspirations guide all who seek justice and understanding in these troubled times.",
       "related_ongoing": "middle-east-israel-gaza"
     },
     {
-      "slug": "article-9",
-      "headline": "New Research Questions ChatGPT's Reliability in Medical Advice",
-      "bottom_line": "ChatGPT may not provide reliable medical advice, raising concerns about self-diagnosis for over 40 million daily users.",
-      "body": "New research reveals that ChatGPT, used daily by over 40 million individuals seeking health information, may not offer reliable guidance in certain situations. A study found that participants identified hypothetical medical conditions correctly only about one-third of the time when relying on AI. The results indicate skepticism regarding the effectiveness of AI in emergency medical scenarios, where 52% of cases were under-triaged, underscoring a significant gap in its capabilities.\n\nData shows that following AI consultations, only 43% of participants made correct decisions about their next steps, which points to the limitations of AI tools in health decision-making. Andrew Bean, an AI researcher at Oxford University, expressed concern, stating, \"People don't know what they are supposed to be telling the model.\" Meanwhile, Robert Wachter, a doctor at UC San Francisco, suggested that while AI advice is flawed, it may still be preferable to no guidance at all, arguing, \"The advice you get from the tools is substantially better than nothing.\"\n\nThis research highlights the critical need for individuals, including Canadians seeking health advice, to approach AI-generated information cautiously and to be aware of potential inaccuracies that could impact care decisions. The ongoing discussion around AI’s role in healthcare prompts further examination of how these technologies can be improved to better serve patients, especially in emergency situations.",
-      "why_it_matters": "Inaccurate medical advice from AI could compromise patient safety and lead to misdiagnosis, especially for Canadians who increasingly rely on chatbots for health information.",
-      "what_to_watch": "Further research studies evaluating the effectiveness of AI in real-world medical scenarios are anticipated.",
+      "slug": "article-4",
+      "headline": "Research Questions Accuracy of AI Medical Advice",
+      "bottom_line": "New research reveals significant concerns about the accuracy and reliability of AI-generated medical advice, impacting millions of health information seekers daily.",
+      "body": "A recent study has raised serious concerns about the reliability of artificial intelligence in providing medical advice. More than 40 million individuals consult ChatGPT daily for health information, yet the research indicates that users struggle to accurately identify medical conditions and appropriate next steps. Participants managed to correctly identify a hypothetical medical condition only about a third of the time, while only 43% made the correct decision regarding the next steps in a medical scenario. Alarmingly, the study also revealed that AI bots under-triaged emergency conditions 52% of the time.\n\nThis highlights the real-world complexities of user interactions with AI in healthcare. As noted by Andrew Bean, an AI systems researcher, \"People don't know what they are supposed to be telling the model.\" This lack of clarity may hinder effective communication with AI tools, which is crucial for accurate medical assessments. On the other hand, some experts still encourage the use of AI in healthcare. Doctor and author Robert Wachter stated, \"The advice you get from the tools is substantially better than nothing.\"\n\nThe study's findings are contested, especially concerning the accuracy of AI recommendations in medical scenarios and OpenAI's position on representativeness of the results. While there are indications that AI tools can be beneficial under certain conditions, the overall effectiveness in complex cases remains questionable. Girish Nadkarni, a medical professional, mentioned, \"When there was a textbook medical emergency, ChatGPT got it right.\"\n\nAs AI continues to proliferate in healthcare settings, Canadians must remain attentive to the limitations of these technologies and the potential implications for access to health information. The key question remains: How can users learn to communicate effectively with AI models to receive better medical advice? Further research findings on AI's role in healthcare interaction effectiveness are expected soon.",
+      "why_it_matters": "Understanding the limitations of AI in healthcare is crucial for patient safety and informed decision-making. Millions of Canadians rely on these tools, and awareness of their shortcomings is essential.",
+      "what_to_watch": "Keep an eye out for further research findings on the effectiveness of AI in healthcare interactions, which could shape future use and guidance.",
       "category": "Health",
       "key_points": [
         {
@@ -1123,15 +935,19 @@
           "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
         },
         {
-          "text": "Participants in a study identified hypothetical medical conditions correctly about one-third of the time using AI.",
+          "text": "Participants correctly identified hypothetical conditions about a third of the time.",
           "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
         },
         {
-          "text": "AI under-triaged conditions in 52% of emergency cases.",
+          "text": "Only 43% made the correct decision regarding next steps in medical scenarios.",
           "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
         },
         {
-          "text": "43% of participants correctly decided on next steps after AI consultation.",
+          "text": "AI bots under-triaged emergency conditions 52% of the time.",
+          "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
+        },
+        {
+          "text": "OpenAI's stance on the representativeness of the study's findings is contested.",
           "source_url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
         }
       ],
@@ -1166,6 +982,11 @@
           "url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
         },
         {
+          "speaker": "Girish Nadkarni",
+          "quote": "When there was a textbook medical emergency, ChatGPT got it right.",
+          "url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
+        },
+        {
           "speaker": "Robert Wachter",
           "quote": "The advice you get from the tools is substantially better than nothing.",
           "url": "https://www.npr.org/2026/03/11/nx-s1-5744035/chatgpt-might-give-you-bad-medical-advice-studies-warn"
@@ -1173,136 +994,64 @@
       ],
       "is_good_development": false,
       "is_negative": true,
-      "positive_thought": "It's crucial to remind ourselves that while technology evolves, our commitment to ensuring accurate and safe medical advice remains paramount for patient well-being.",
+      "positive_thought": "As we navigate the complexities of healthcare technology, we can find comfort in the commitment of researchers and health professionals to improve communication and outcomes. Each insight, each step forward is a ripple of hope for those seeking clarity in their health journeys.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-10",
-      "headline": "GLP-1 Drugs Linked to Reduced Addiction Risk",
-      "bottom_line": "New findings suggest GLP-1 drugs may significantly lower addiction risks, impacting treatment approaches for millions.",
-      "body": "A new study shows promising results regarding GLP-1 drugs, such as Ozempic, suggesting that they may help lower addiction rates in patients with diabetes. An analysis of over 600,000 veterans found that those on GLP-1 medications exhibited a 15% to 20% reduced likelihood of misusing substances. This discovery is particularly notable given that there are 48.4 million Americans suffering from substance use disorders who could potentially benefit from these drugs.\n\nThe potential implications for treatment are significant, as patients historically diagnosed with both diabetes and substance use disorders might find new hope through this existing medication. Additionally, patients with a history of substance abuse could see a 25% to 50% reduction in risk for overdose and related complications when treated with GLP-1 medications.\n\nHowever, experts urge caution. Dr. Ziyad Al-Aly, the study author and clinical epidemiologist, acknowledges the necessity for controlled trials to validate these findings. \"The surprise was that it was working across various substances,\" he noted. This underscores a level of optimism tempered by the need for further evidence that could substantiate these results.",
-      "why_it_matters": "These findings may reshape treatment strategies for addiction, potentially improving outcomes for many individuals affected by substance use disorders.",
-      "what_to_watch": "Watch for results from upcoming controlled trials that will further investigate the efficacy of GLP-1 drugs in addiction treatment.",
+      "slug": "article-18",
+      "headline": "NHS England Pauses Prescriptions for Transgender Youth Healthcare",
+      "bottom_line": "NHS England's pause on cross-sex hormone prescriptions for under-18s reflects ongoing debates about youth access to gender-affirming healthcare in the UK, with wider implications for similar discussions in Canada.",
+      "body": "NHS England has paused new prescriptions of cross-sex hormones for 16 and 17-year-olds who are questioning their gender. This decision underscores significant concerns about the quality of evidence regarding the impacts of such treatments on young patients. As part of this pause, NHS England will launch a public consultation that will last for 90 days, with the aim of developing longer-term guidance on the use of these hormones.\n\n\"The NHS has exercised extreme caution when considering starting young people on this treatment,\" stated Professor James Palmer, National Medical Director for Specialised Services at NHS England. This move has sparked controversy, particularly among advocacy groups such as TransLucent, which indicate they may consider legal action in response to the pause on prescriptions. The consultation process is crucial as it will gather input on how to navigate this complex issue, addressing the contested adequacy of the evidence supporting hormone treatments for young people.\n\nAs this policy develops, many will be watching closely to see how it affects transgender youths' access to necessary healthcare services. The results of the public consultation could lead to substantial changes in NHS policy, affecting not only patients in the UK but also igniting discussions similar to those already taking place in Canada regarding transgender healthcare options for youth.",
+      "why_it_matters": "The pause directly affects transgender youths' access to necessary healthcare, raising questions about the future of their treatment options and well-being. It may also influence similar discussions in Canada.",
+      "what_to_watch": "Watch for the results of the public consultation and potential changes in NHS policy regarding transgender youth treatment.",
       "category": "Health",
       "key_points": [
         {
-          "text": "Study analyzed over 600,000 veterans for substance misuse and diabetes.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "text": "NHS England has paused new prescriptions of cross-sex hormones for 16 and 17-year-olds questioning their gender.",
+          "source_url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Participants using GLP-1 drugs showed a 15% to 20% lower likelihood of substance misuse.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "text": "A consultation on longer-term guidance over the use of the treatment has been launched.",
+          "source_url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Results indicate a 25% to 50% reduction in risk of overdose among those with a history of substance abuse on GLP-1 drugs.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "text": "The pause is a reaction to concerns about the adequacy of the evidence supporting hormone treatments for young people.",
+          "source_url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Expect upcoming clinical trial results within the year on GLP-1 drugs for addiction treatments.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
-        },
-        {
-          "text": "Dr. Ziyad Al-Aly expressed cautious optimism about the study's findings.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "text": "The public consultation is set to last for 90 days.",
+          "source_url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "NPR Science",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
-        },
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "name": "BBC Health",
+          "url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "component_articles": [
         {
-          "source": "NPR Science",
-          "lean": "Left",
-          "title": "GLP-1s have transformed weight loss and diabetes. Is addiction next?",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
-        },
-        {
-          "source": "NPR Health",
-          "lean": "Left",
-          "title": "GLP-1s have transformed weight loss and diabetes. Is addiction next?",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "source": "BBC Health",
+          "lean": "Center",
+          "title": "NHS England pauses new prescriptions of cross-sex hormones for under-18s",
+          "url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Dr. Ziyad Al-Aly",
-          "quote": "The surprise was that it was working across various substances.",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss"
+          "speaker": "Professor James Palmer",
+          "quote": "The NHS has exercised extreme caution when considering starting young people on this treatment.",
+          "url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "speaker": "TransLucent",
+          "quote": "may consider legal action against the NHS's pause on prescriptions.",
+          "url": "https://www.bbc.com/news/articles/cly0ppdzj2yo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "is_good_development": false,
       "is_negative": false,
-      "positive_thought": "This ongoing research brings a sense of hope for countless individuals battling addiction, who may soon have access to innovative, effective treatment options.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-19",
-      "headline": "Supply Shortages of Menopause Hormone Therapy Increase",
-      "bottom_line": "Increased demand for hormone therapy after regulatory changes is causing significant supply issues for women relying on these treatments.",
-      "body": "Hormone therapy for menopause is facing shortages and delays as demand surges following the recent FDA decision to remove the black box warning from these treatments. Many women are now opting for transdermal estrogen patches instead of oral pills, which are perceived to be safer. However, the reasons for the supply shortages remain unclear, posing a challenge for those who depend on these medications.\n\nJennifer Skoog Mondesir, a patient experiencing these shortages, expressed her frustration, stating, \"I went to CVS. I can't tell you the amount of times I've been there and they're like, 'We're out of patches.'\" The situation highlights a growing concern for women managing menopause symptoms, as access to crucial therapies becomes more difficult.\n\nDr. Nora Lansen, Chief Medical Officer of Elektra Health, emphasized the changing preferences among women, noting that \"the transdermal version of estradiol has a lower risk of blood clots.\" While the switch to patches is seen as beneficial, the unanticipated supply issues complicate matters for many patients. Without clear communication from manufacturers, it remains uncertain how soon the situation will improve and what specific factors contribute to the ongoing shortages.",
-      "why_it_matters": "With many Canadian women potentially facing similar supply issues, the availability of hormone therapy is critical for managing menopause symptoms effectively.",
-      "what_to_watch": "Monitor updates from manufacturers regarding production and supply of hormone therapy products.",
-      "category": "Health",
-      "key_points": [
-        {
-          "text": "The FDA removed the black box warning on hormone therapy, leading to increased demand.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        },
-        {
-          "text": "Many women now prefer transdermal estrogen patches over oral estrogen pills as a safer option.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        },
-        {
-          "text": "Shortages are prevalent, but reasons for these shortages have not been clearly identified by manufacturers.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        },
-        {
-          "text": "Patients report difficulties accessing hormone therapy as pharmacies struggle to keep supplies in stock.",
-          "source_url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR Health",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "NPR Health",
-          "lean": "Left",
-          "title": "Why the 'mad scramble' to fill hormone therapy prescriptions for menopause",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        },
-        {
-          "source": "NPR Health",
-          "lean": "Left",
-          "title": "Menopause hormone therapy is popular, so why the 'mad scramble' to fill prescriptions?",
-          "url": "https://www.npr.org/2026/03/09/nx-s1-5725504/menopause-hormone-therapy-is-popular-so-why-the-mad-scramble-to-fill-prescriptions"
-        }
-      ],
-      "stakeholder_quotes": [
-        {
-          "speaker": "Jennifer Mondesir",
-          "quote": "I went to CVS. I can't tell you the amount of times I've been there and they're like, 'We're out of patches.'",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        },
-        {
-          "speaker": "Dr. Nora Lansen",
-          "quote": "The transdermal version of estradiol has a lower risk of blood clots.",
-          "url": "https://www.npr.org/2026/03/10/nx-s1-5742817/menopause-hormone-therapy-shortages"
-        }
-      ],
-      "is_good_development": false,
-      "is_negative": true,
-      "positive_thought": "It's disheartening to hear of women like Jennifer struggling to find the essential treatments they need. Hope lies in the dedication of healthcare providers working towards resolving these supply issues.",
+      "positive_thought": "As we navigate the complexities of healthcare and identity, may we find hope and understanding in our collective journey. For every young person facing these challenges, may there be compassion and support, fostering an environment where they can thrive and be themselves.",
       "related_ongoing": ""
     }
   ],
@@ -1313,10 +1062,7 @@
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "status": "active",
       "phase": "escalating",
-      "what_changed_today": [
-        "The FBI warns that Iran is planning potential drone attacks on California, highlighting risks to U.S. security amid rising tensions.",
-        "U.S. military personnel face increasing risks following a severe Iranian drone attack in Kuwait, resulting in significant injuries."
-      ],
+      "what_changed_today": [],
       "timeline": [
         {
           "date": "2026-03-11",
@@ -1633,226 +1379,261 @@
   ],
   "good_developments": [
     {
-      "slug": "article-1",
-      "headline": "Hastings County to Replace Aging Ambulance Fleet",
-      "bottom_line": "Hastings County is set to invest over $1 million to enhance its ambulance fleet, addressing the urgent need for modern emergency services.",
-      "body": "Hastings County officials are taking steps to modernize their emergency services by planning the replacement of four ambulances. Each of these vehicles has accumulated over 225,000 kilometers, which raises concerns about their reliability and performance in critical situations.\n\nThe Hastings/Quinte Emergency Services Committee has advocated for this significant initiative, emphasizing the need for improved public safety. The total cost for the new ambulances is estimated at $1,095,600. This move reflects a commitment to ensure timely medical responses for residents within the community.\n\nThe next step involves a recommendation to the Hastings County Council, who will consider approving the funding for the purchase of these vehicles at their upcoming meeting. Updating the ambulance fleet aims to boost the overall effectiveness of emergency services in Hastings County, enhancing the health and safety of its residents.",
-      "why_it_matters": "This investment underscores the importance of maintaining a reliable ambulance service to respond quickly to medical emergencies in Hastings County.",
-      "what_to_watch": "Watch for the upcoming council meeting where the ambulance replacement proposal will be reviewed.",
+      "slug": "article-2",
+      "headline": "Gleaners Food Bank Plans New Redistribution Centre",
+      "bottom_line": "Gleaners Food Bank is making strides to combat food insecurity in Tweed with a new redistribution centre set to launch in 2027, backed by Hastings County funding.",
+      "body": "widespread",
+      "why_it_matters": "This initiative directly tackles the local food insecurity crisis, aiming to improve the lives of many in Tweed who struggle to access adequate nutrition.",
+      "what_to_watch": "Look for a progress report from Gleaners on the food redistribution centre in the next six months.",
       "category": "Local",
       "key_points": [
         {
-          "text": "Hastings County plans to replace four ambulances that each have over 225,000 km on the odometer.",
-          "source_url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "text": "Gleaners Food Bank is planning to establish a food redistribution centre funded by Hastings County.",
+          "source_url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         },
         {
-          "text": "The total cost for replacing the ambulances is estimated at $1,095,600.",
-          "source_url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "text": "The centre is planned to be fully online by January 1st, 2027.",
+          "source_url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         },
         {
-          "text": "The Hastings/Quinte Emergency Services Committee has recommended the ambulance replacement.",
-          "source_url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "text": "Gleaners received $500,000 in startup funding for the redistribution centre.",
+          "source_url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         },
         {
-          "text": "The recommendation will be presented to Hastings County Council for approval.",
-          "source_url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "text": "25% of youth in the local community are food insecure.",
+          "source_url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         },
         {
-          "text": "The next council meeting will discuss the ambulance purchase.",
-          "source_url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "text": "50% of food bank users in Tweed are seniors.",
+          "source_url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         }
       ],
       "sources": [
         {
           "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
+          "url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
+        },
+        {
+          "name": "inQuinte",
+          "url": "https://www.inquinte.ca/2026/03/gleaners-hard-at-work-bringing-food-distribution-centre-in-hastings-county-to-life/"
         }
       ],
       "component_articles": [
         {
           "source": "Quinte News",
           "lean": "Center",
-          "title": "New Ambulances planned for Hastings County",
-          "url": "https://www.quintenews.com/2026/03/11/new-ambulances-for-hastings-county/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true,
-      "is_negative": false,
-      "positive_thought": "It's reassuring to see Hastings County taking proactive measures to enhance emergency response services. This thoughtful investment demonstrates a commitment to community health and safety.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-12",
-      "headline": "HASTINGS COUNTY COMMITTEE RECOMMENDS FUNDING FOR HART HUB",
-      "bottom_line": "The Hastings County Emergency Services Committee supports renewing $800,053 in funding for the HART hub to aid in outreach for homeless individuals.",
-      "body": "On March 11, 2026, the Hastings County Emergency Services Committee recommended renewing funding for the HART hub. This program, which supports vulnerable populations in the area, receives an annual allocation of $800,053. This decision underscores the commitment to proactive outreach efforts aimed at addressing homelessness and medical emergencies within Hastings County.",
-      "why_it_matters": "Renewed funding for the HART hub is crucial as it directly supports local initiatives to assist those experiencing homelessness, ensuring they have access to necessary resources.",
-      "what_to_watch": "The next meeting of the county council will be critical, as it will determine the final approval of this funding renewal.",
-      "category": "Local",
-      "key_points": [
-        {
-          "text": "The Committee recommended funding renewal during a meeting on March 11, 2026.",
-          "source_url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
+          "title": "Food bank plans redistribution centre",
+          "url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         },
         {
-          "text": "Hastings County Emergency Services Committee supports continued funding for outreach to the homeless.",
-          "source_url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
-        },
-        {
-          "text": "The HART hub receives annual funding of $800,053.",
-          "source_url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
-        },
-        {
-          "text": "The decision reflects a community commitment to addressing homelessness and medical emergencies.",
-          "source_url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Quinte News",
-          "url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Quinte News",
+          "source": "inQuinte",
           "lean": "Center",
-          "title": "Funding renewal for HART hub",
-          "url": "https://www.quintenews.com/2026/03/11/funding-renewal-for-hart-hub/"
-        }
-      ],
-      "stakeholder_quotes": [],
-      "is_good_development": true,
-      "is_negative": false,
-      "positive_thought": "The commitment to the HART hub shines a hopeful light on our community's efforts to care for those in need. It's heartening to see such proactive actions taken to support vulnerable individuals in Hastings County.",
-      "related_ongoing": ""
-    },
-    {
-      "slug": "article-13",
-      "headline": "Ontario Government to Launch Classroom Supplies Fund for Teachers",
-      "bottom_line": "The Ontario government’s new Classroom Supplies Fund aims to ease financial burdens on teachers by providing funding for classroom materials.",
-      "body": "The Ontario government is set to introduce a Classroom Supplies Fund, which will allocate $750 for school supplies to elementary school teachers. This initiative is expected to launch in September 2026, aiming to alleviate the ongoing financial strain many educators face in funding their classrooms.\n\nPremier Doug Ford has expressed support for this measure, stating, \"The days of teachers having to put their hands in their own pockets to pay for school supplies, those days are done.\" This funding is seen as a shift in government commitment to better support educators in their roles, allowing them to focus more on teaching rather than the financial burdens of providing necessary materials.\n\nWith teachers increasingly relying on personal funds to equip their classrooms, this initiative signifies a recognition of the financial challenges they encounter. The Classroom Supplies Fund could significantly impact teaching and resource availability in Ontario classrooms, potentially enhancing students' educational experiences.\n\nThe province's 2026 budget will be released later this month, which may provide additional context for other funding initiatives associated with education and their implementation.",
-      "why_it_matters": "This funding will provide significant financial support to Ontario teachers, directly influencing the quality of education and resource availability in classrooms.",
-      "what_to_watch": "Watch for the release of the province’s 2026 budget later this month, which will detail additional educational funding initiatives.",
-      "category": "Ontario",
-      "key_points": [
-        {
-          "text": "The Ontario government will provide elementary school teachers with a $750 card for classroom supplies.",
-          "source_url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
-        },
-        {
-          "text": "The Classroom Supplies Fund will become available starting in September 2026.",
-          "source_url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
-        },
-        {
-          "text": "This initiative aims to reduce the financial burden on teachers for classroom supplies.",
-          "source_url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
-        },
-        {
-          "text": "Premier Doug Ford supports the fund, indicating a shift in government support for education.",
-          "source_url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Toronto Sun",
-          "url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
-        }
-      ],
-      "component_articles": [
-        {
-          "source": "Toronto Sun",
-          "lean": "Right",
-          "title": "Ontario government offers $750 to teachers to purchase school supplies",
-          "url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
+          "title": "Gleaners hard at work bringing food distribution centre in Hastings County to life",
+          "url": "https://www.inquinte.ca/2026/03/gleaners-hard-at-work-bringing-food-distribution-centre-in-hastings-county-to-life/"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Doug Ford",
-          "quote": "The days of teachers having to put their hands in their own pockets to pay for school supplies, those days are done.",
-          "url": "https://torontosun.com/news/provincial/ontario-government-offers-750-to-teachers-to-purchase-school-supplies"
+          "speaker": "Don Degenova",
+          "quote": "Food Insecurity is huge in my community, with 25% of the youth on both of our local public and Catholic school being food insecure.",
+          "url": "https://www.quintenews.com/2026/03/11/gleaners-food-bank/"
         }
       ],
       "is_good_development": true,
       "is_negative": false,
-      "positive_thought": "This initiative is a hopeful step for local educators like those in our community who tirelessly support their students, and it’s inspiring to see formal recognition of their efforts.",
+      "positive_thought": "As Gleaners Food Bank embarks on this important journey to nourish the community, may the dedication to serving others shine brightly in Tweed. Each step toward alleviating food insecurity brings hope and renewal, a reflection of compassion and community strength.",
       "related_ongoing": ""
     },
     {
-      "slug": "article-20",
-      "headline": "Sikome Aquatic Facility Begins Major Renovations After Decades",
-      "bottom_line": "The Sikome Aquatic Facility in Calgary is set for major renovations, its first since the 1970s, demonstrating a commitment to public recreation.",
-      "body": "The Sikome Aquatic Facility, a beloved venue in Calgary for 50 years, is currently undergoing its first major renovations since its construction in the late 1970s. Renovation work started on December 8, 2025, and is anticipated to be completed by the summer of 2026. This investment showcases a significant dedication to modernizing urban parks and improving public recreational spaces in the area.\n\nAlberta Parks is overseeing the renovations and is supportive of the upgrades designed to enhance the facility's offerings. While specific features of the renovation remain undetermined, the commitment to revitalizing this communal space is clear, reflecting changing needs of the community.\n\nAs the work continues, patrons and residents can look forward to a refreshed experience at Sikome Aquatic Facility, reinforcing Calgary's dedication to maintaining and improving public areas for recreation and leisure activities.",
-      "why_it_matters": "These renovations to the Sikome Aquatic Facility illustrate Calgary's ongoing commitment to enhancing public recreational spaces, which benefit community health and well-being.",
-      "what_to_watch": "Monitor progress updates on the renovations as the summer of 2026 approaches.",
-      "category": "Local",
+      "slug": "article-19",
+      "headline": "New Underwater Mountain Range Discovered in Caribbean",
+      "bottom_line": "New research reveals vital underwater biodiversity in Britain's Caribbean territories, now threatened by climate change.",
+      "body": "Scientists recently completed a six-week expedition documenting an extraordinary discovery in the Caribbean: a pristine underwater mountain range and a diverse array of marine organisms. During this critical exploration, researchers recorded data as deep as 6,000 meters (19,700 feet) and mapped an impressive 25,000 square kilometers (9,700 square miles) of the sea floor. They identified nearly 14,000 individual specimens and 290 distinct types of marine creatures, highlighting the unique biodiversity present in this region.\n\nParticularly notable are the Cayman Islands, Anguilla, and Turks and Caicos, which host 146 species exclusive to these territories. Dr. James Bell, who led the expedition, underscores the significance of these findings, stating, \"This is the first step into environments people have never seen, and in some cases didn't know existed.\"\n\nThe discoveries bring to light the urgent need for protective measures for these relatively untouched marine ecosystems. Much of the world's coral—approximately 80%—has incurred damage since 2023 due to climate change, raising alarms about the fate of these unique habitats. Given the mounting threats from global warming, what protections will be established for these newly understood marine areas remains an unanswered question. \n\nAs climate change continues to impact marine environments globally, Canada should also take note, as its coastal ecosystems potentially face similar existential risks. The implications of this expedition could lead to robust conservation strategies aimed at preserving marine biodiversity amid the looming climate crisis.",
+      "why_it_matters": "The findings emphasize the critical need for conservation in unexplored marine environments, which are increasingly threatened by climate change.",
+      "what_to_watch": "Further scientific analysis and findings from the expedition are anticipated to be published soon.",
+      "category": "World",
       "key_points": [
         {
-          "text": "Sikome Aquatic Facility has not had major renovations since its construction in the late 1970s.",
-          "source_url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "text": "Researchers documented nearly 14,000 individual specimens and 290 different types of marine creatures during their expedition.",
+          "source_url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "Work on the facility began on December 8, 2025.",
-          "source_url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "text": "The Cayman Islands, Anguilla, and Turks and Caicos are home to 146 species that only live in those territories.",
+          "source_url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The project is expected to be completed by summer 2026.",
-          "source_url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "text": "Researchers recorded data from depths of 6,000m (19,700ft).",
+          "source_url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "text": "The facility has been a staple in Calgary for 50 years.",
-          "source_url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "text": "They mapped 25,000 sq km (9,700 sq miles) of sea-floor.",
+          "source_url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "80% of the world's corals have been damaged since 2023 due to climate change.",
+          "source_url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "sources": [
         {
-          "name": "Global News Canada",
-          "url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "name": "BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "component_articles": [
         {
-          "source": "Global News Canada",
+          "source": "BBC Science",
           "lean": "Center",
-          "title": "Sikome Aquatic Facility receives upgrades ahead of 2026 season",
-          "url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "title": "Spectacular images reveal unique sea creatures and corals off Caribbean islands",
+          "url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "stakeholder_quotes": [
         {
-          "speaker": "Alberta Parks",
-          "quote": "Supportive of the upgrades to modernize the facility.",
-          "url": "https://globalnews.ca/news/11726039/sikome-lake-renovations-alberta-parks/"
+          "speaker": "Dr. James Bell",
+          "quote": "This is the first step into environments people have never seen, and in some cases didn't know existed.",
+          "url": "https://www.bbc.com/news/articles/cgmllk32g72o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "is_good_development": true,
       "is_negative": false,
-      "positive_thought": "It's heartening to see community spaces like Sikome Aquatic Facility being upgraded for future generations, ensuring families have a welcoming place to enjoy and connect.",
+      "positive_thought": "May this discovery inspire a renewed commitment to protecting our oceans, ensuring that hidden treasures like those revealed in the Caribbean continue to flourish for generations. It is a gentle reminder of the blessings of our planet's diversity, urging us to act with wisdom and care for the beauty that surrounds us.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-21",
+      "headline": "Bank of England to Feature British Wildlife on New Banknotes",
+      "bottom_line": "The Bank of England plans to replace historical figures on banknotes with British wildlife, reflecting a shift towards celebrating nature and involving the public in the selection process.",
+      "body": "The Bank of England has announced plans to replace historical figures featured on its banknotes with representations of British wildlife. This decision follows a public consultation where 60% of respondents express a preference for nature as the theme, out of 44,000 total responses. The public will have the opportunity to vote on specific animals and birds to be depicted in the new designs, with the voting process set to commence in the summer.\n\nVictoria Cleland, Chief Cashier of the Bank of England, supports this initiative, stating it aims to improve counterfeit resilience while celebrating UK nature. “The wildlife of the UK is not separate from our culture,” noted Nadeem Perera, emphasizing the significance of featuring wildlife on currency as a reflection of its deep roots in British identity. This direction also addresses past controversies regarding the representation of diverse figures on currency, shifting the focus toward a natural legacy.\n\nWith this change, the Bank of England not only seeks to enhance the physical security of its currency but also to foster a connection between the public and natural heritage. As stakeholders prepare for the selection process, an unknown remains: what specific wildlife will ultimately be chosen to represent British culture on these notes?",
+      "why_it_matters": "This initiative signifies an evolving approach to currency design that embraces public input and highlights cultural connections to nature.",
+      "what_to_watch": "Public voting on wildlife selection will begin this summer, marking a significant opportunity for community engagement.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "The Bank of England will replace historical figures on banknotes with British wildlife.",
+          "source_url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "The public will be invited to vote on which animals and birds will appear on the new banknotes.",
+          "source_url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Nature was selected as the most popular theme in a public consultation.",
+          "source_url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "60% of respondents preferred nature as a theme for banknotes.",
+          "source_url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "44,000 responses were received in total regarding banknote imagery.",
+          "source_url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "BBC Business",
+          "lean": "Center",
+          "title": "Wildlife to replace historical figures on banknotes - and you get a say",
+          "url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Nadeem Perera",
+          "quote": "The wildlife of the UK is not separate from our culture. It sits in our football crests, our folklore, our coastlines and our childhoods. Giving it space on something as symbolic as our currency feels both overdue and significant.",
+          "url": "https://www.bbc.com/news/articles/c4geyyg9en6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "As the seasons change and the natural world awakens, let us reflect on the beauty surrounding us. The upcoming selection of wildlife for the Bank of England's banknotes invites us to appreciate the creatures that connect our shared heritage. May the unfolding process foster appreciation and a renewed commitment to protecting our unique ecosystems.",
+      "related_ongoing": ""
+    },
+    {
+      "slug": "article-22",
+      "headline": "UK Study Highlights Efficiency of Heat Pumps",
+      "bottom_line": "A new UK study shows heat pumps can significantly lower energy consumption, challenging previous concerns about their impact on power infrastructure.",
+      "body": "A recent study in the UK has revealed that heat pumps can significantly reduce energy consumption while alleviating pressure on the electrical grid. Findings indicate that heat pumps may cut energy use by as much as two-thirds compared to traditional systems. Notably, the total energy consumption across the properties studied ranged from 40% to 67% below the UK average per household. \n\nDr. Monica Mateo-Garcia, the academic lead at Birmingham City University’s Centre for Future Homes, supports these findings, emphasizing the lower peak electricity demand associated with heat pumps. This challenges the prevailing skepticism regarding their integration into existing energy infrastructure.  \n\nExperts believe there has been a shift in perception regarding the feasibility of heat pumps. Professor Aaron Gillich of London South Bank University notes, \"We’re finding that all those reasons not to go ahead with a heat pump are slowly but surely falling away.\" In addition, Professor Richard Fitton from the University of Salford suggests that estimates of future electrical demand due to heat pumps may be overinflated, further corroborating the study's findings.  \n\nWith a broader transition towards renewable energy solutions underway, the implications of this study extend beyond UK borders, especially as Canadian homeowners also navigate choices that could reduce energy costs and emissions in line with climate goals. The Future Homes Standard, set for implementation in 2027, is expected to incorporate such energy-efficient measures, paving the way for a significant shift in residential energy consumption practices.",
+      "why_it_matters": "The study indicates that heat pumps are a viable alternative for reducing energy consumption and emissions, which is crucial as nations tackle climate change.",
+      "what_to_watch": "The implementation of the Future Homes Standard in 2027 will serve as a pivotal moment for heat pump adoption and regulation in the UK.",
+      "category": "World",
+      "key_points": [
+        {
+          "text": "A UK study shows heat pumps cut energy use by up to two-thirds.",
+          "source_url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        },
+        {
+          "text": "Total energy consumption for properties ranged from 40% to 67% below the UK average.",
+          "source_url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        },
+        {
+          "text": "Dr. Monica Mateo-Garcia supports the evidence of lower peak electricity demand.",
+          "source_url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        },
+        {
+          "text": "Professor Richard Fitton suggests predictions for electrical demand may be overestimated.",
+          "source_url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        },
+        {
+          "text": "Professor Aaron Gillich claims reasons against heat pumps are diminishing.",
+          "source_url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Positive News",
+          "url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        }
+      ],
+      "component_articles": [
+        {
+          "source": "Positive News",
+          "lean": "Center",
+          "title": "A new study just debunked a heat pump myth",
+          "url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        }
+      ],
+      "stakeholder_quotes": [
+        {
+          "speaker": "Professor Aaron Gillich",
+          "quote": "We’re finding that all those reasons not to go ahead with a heat pump are slowly but surely falling away.",
+          "url": "https://www.positive.news/environment/heat-pumps-put-less-pressure-on-the-grid-than-expected/"
+        }
+      ],
+      "is_good_development": true,
+      "is_negative": false,
+      "positive_thought": "As advancements in energy technology unfold, may we remain hopeful for a future where our homes not only provide comfort but also contribute positively to the environment. Each step toward sustainable energy solutions offers a chance for renewal, where efficiency and care for the earth go hand in hand.",
       "related_ongoing": ""
     }
   ],
   "optional_reflection": "",
   "_meta": {
-    "pipeline_version": "10.0",
+    "pipeline_version": "10.1",
     "models_used": [
       "OpenAI",
-      "Claude"
+      "Claude",
+      "Grok",
+      "Gemini"
     ],
     "feeds_attempted": 36,
     "raw_items": 210,
-    "groups_formed": 195,
-    "consensus_articles": 25,
-    "full_text_enriched": 33,
+    "groups_formed": 175,
+    "consensus_articles": 22,
+    "full_text_enriched": 25,
     "good_developments": 4,
     "category_breakdown": {
-      "Local": 5,
-      "Canada": 2,
-      "World": 11,
-      "US": 3,
-      "Health": 3,
-      "Ontario": 1
+      "Local": 4,
+      "World": 10,
+      "Health": 2,
+      "Canada": 3,
+      "US": 3
     },
     "category_order": [
       "Local",
