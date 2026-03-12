@@ -118,7 +118,6 @@ export default function RootLayout({
               {[
                 { href: "/", label: "Today" },
                 { href: "/topics", label: "Situations" },
-                { href: "/good-news", label: "Good News" },
                 { href: "/archive", label: "Archive" },
                 { href: "/how-it-works", label: "How It Works" },
               ].map(link => (
