@@ -51,7 +51,7 @@ function NeedToKnow({ items }: { items: any[] }) {
   if (!items?.length) return null;
   return (
     <div style={{ background: s.accentLight, borderRadius: 8, padding: "14px 20px", borderLeft: `3px solid ${s.accent}` }}>
-      <h3 style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: s.accent, marginBottom: 10, fontFamily: s.body }}>What You Need to Know</h3>
+      <h3 style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: s.accent, marginBottom: 10, fontFamily: s.body }}>Top Key News Today</h3>
       <ol style={{ listStyleType: "none", padding: 0, margin: 0 }}>
         {items.slice(0, 4).map((item: any, i: number) => (
           <li key={i} style={{ fontSize: 14, lineHeight: 1.5, color: s.text, padding: "5px 0", borderBottom: i < Math.min(items.length, 4) - 1 ? `1px solid ${s.accentSoft}` : "none", display: "flex", gap: 10, alignItems: "baseline" }}>
