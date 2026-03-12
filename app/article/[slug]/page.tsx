@@ -254,14 +254,16 @@ export default async function ArticlePage({ params }: any) {
                 padding: "6px 10px", borderRadius: 6,
                 textDecoration: "none", color: "inherit",
                 background: s.surface, border: `1px solid ${s.borderLight}`,
+                minWidth: 0, maxWidth: "100%",
               }}>
-                <div style={{ overflow: "hidden" }}>
+                <div style={{ overflow: "hidden", minWidth: 0, flex: "1 1 0" }}>
                   <span style={{ fontSize: 10, fontWeight: 600, color: s.light, textTransform: "uppercase" }}>
                     {ca.source} ({ca.lean})
                   </span>
                   <p style={{
                     fontSize: 12, margin: "1px 0 0 0", lineHeight: 1.3, color: s.muted,
-                    whiteSpace: "nowrap" as any, overflow: "hidden", textOverflow: "ellipsis",
+                    overflow: "hidden", textOverflow: "ellipsis",
+                    display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" as any,
                   }}>{ca.title}</p>
                 </div>
                 <span style={{ fontSize: 11, color: s.accent, flexShrink: 0 }}>↗</span>
