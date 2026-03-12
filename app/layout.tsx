@@ -45,6 +45,7 @@ export default function RootLayout({
           /* Tablet responsive */
           @media (max-width: 1024px) {
             .di-story-grid { grid-template-columns: 1fr 1fr !important; }
+            .di-hero-ntk { grid-template-columns: 1fr !important; }
           }
           /* Mobile responsive */
           @media (max-width: 768px) {
