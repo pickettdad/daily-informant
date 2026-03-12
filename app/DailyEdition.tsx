@@ -31,7 +31,7 @@ function readTime(body: string) { return Math.max(1, Math.ceil((body || "").spli
 function HeroStory({ article }: { article: any }) {
   const cs = gc(article.category);
   return (
-    <Link href={`/article/${article.slug}`} className="di-card di-card-link di-hero-pad" style={{ padding: "28px 32px", marginBottom: 24 }}>
+    <Link href={`/article/${article.slug}`} className="di-card di-card-link di-hero-pad" style={{ padding: "28px 32px" }}>
       <div style={{ display: "flex", gap: 10, alignItems: "center", marginBottom: 12, flexWrap: "wrap" }}>
         <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: s.surface, background: s.accent, padding: "3px 10px", borderRadius: 3 }}>Top Story</span>
         <span style={{ fontSize: 10, fontWeight: 700, background: cs.bg, color: cs.text, padding: "3px 10px", borderRadius: 3, textTransform: "uppercase", border: `1px solid ${cs.border}` }}>{article.category}</span>
@@ -50,7 +50,7 @@ function HeroStory({ article }: { article: any }) {
 function NeedToKnow({ items }: { items: any[] }) {
   if (!items?.length) return null;
   return (
-    <div style={{ background: s.accentLight, borderRadius: 8, padding: "14px 20px", marginBottom: 22, borderLeft: `3px solid ${s.accent}` }}>
+    <div style={{ background: s.accentLight, borderRadius: 8, padding: "14px 20px", borderLeft: `3px solid ${s.accent}` }}>
       <h3 style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: s.accent, marginBottom: 10, fontFamily: s.body }}>What You Need to Know</h3>
       <ol style={{ listStyleType: "none", padding: 0, margin: 0 }}>
         {items.slice(0, 4).map((item: any, i: number) => (
@@ -149,11 +149,13 @@ export default function DailyEdition({ daily }: { daily: any }) {
       {/* Ongoing situations — compact horizontal row */}
       {filter === "All" && <OngoingSituationsRow topics={daily.ongoing_topics} />}
 
-      {/* Hero story */}
-      {hero && filter === "All" && <HeroStory article={hero} />}
-
-      {/* Need to Know */}
-      {filter === "All" && <NeedToKnow items={daily.need_to_know} />}
+      {/* Hero story + Need to Know side by side */}
+      {filter === "All" && hero && (
+        <div className="di-hero-ntk" style={{ display: "grid", gridTemplateColumns: "3fr 2fr", gap: 20, marginBottom: 24, alignItems: "start" }}>
+          <HeroStory article={hero} />
+          <NeedToKnow items={daily.need_to_know} />
+        </div>
+      )}
 
       {/* Full-width 3-column story grid */}
       <div className="di-story-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 }}>
