@@ -82,7 +82,7 @@ FEEDS = [
 ]
 
 ITEMS_PER_FEED = 6
-MAX_ARTICLES = 25
+MAX_ARTICLES = 35
 MIN_CONSENSUS = 2
 OPENAI_MODEL = "gpt-4o-mini"
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
@@ -234,8 +234,16 @@ def _parse_json_from_text(text):
 
 # ── RSS Fetching ────────────────────────────────────────────────────
 def fetch_feed(url, timeout=15):
-    req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; DailyInformantBot/1.0)"})
-    with urlopen(req, timeout=timeout) as resp: return resp.read()
+    """Fetch RSS feed with one retry on failure."""
+    for attempt in range(2):
+        try:
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; DailyInformantBot/1.0)"})
+            with urlopen(req, timeout=timeout) as resp: return resp.read()
+        except Exception:
+            if attempt == 0:
+                time.sleep(5)  # Wait 5 seconds and retry once
+                continue
+            raise
 
 def parse_rss(xml_bytes, source_name, lean, region):
     root = ET.fromstring(xml_bytes)
@@ -468,26 +476,27 @@ def classify_group_category(group):
 # ── Bucket-Based Selection ──────────────────────────────────────────
 SELECTION_PROMPT = """You are the editorial director for The Daily Informant (DI), a calm, unbiased morning briefing for a Canadian reader based in Bay of Quinte, Ontario.
 
-Below are story groups ORGANIZED BY CATEGORY. For each category, rank the stories by importance.
+Below are story groups ORGANIZED BY CATEGORY. Rank stories by importance within each category.
 
-Then assemble the BEST cross-category lineup of 25 stories for a morning briefing that a busy Canadian reads in 10-15 minutes.
+Assemble a lineup of up to 35 stories. The goal is a balanced, hopeful, informative briefing — roughly HALF hard news and HALF positive/constructive stories.
 
-CATEGORY MINIMUMS (you MUST include at least this many):
+CATEGORY MINIMUMS (you MUST include at least this many, mixing hard news and constructive):
 - Local (Bay of Quinte): 3
-- Ontario: 3
-- Canada: 3
-- US: 4
-- World: 5
-- Health/Science/Tech: 2
+- Ontario: 4
+- Canada: 5
+- US: 6
+- World: 10
+- Health/Science/Tech: 3
 
-CRITICAL TOPIC CAP: No single ongoing situation (Iran, Ukraine, tariffs, etc.) should have more than 2-3 stories. If Iran has 8 relevant groups, pick the 2-3 most important and REPLACE the rest with stories from underrepresented categories. Readers want VARIETY, not 6 articles about the same conflict.
+For each category, include BOTH hard news AND positive stories. Look especially hard for Good News Network, Positive News, community wins, breakthroughs, medical advances, and uplifting human stories.
+
+ONGOING SITUATIONS (Iran, Ukraine, etc.): Include ALL relevant groups for major ongoing situations — they will be CONSOLIDATED into comprehensive updates later. Do not limit them.
 
 Mark constructive/positive stories with + prefix.
-IMPORTANT: Include at least 4 constructive/positive stories (marked with +). Look for Good News Network, Positive News, community wins, breakthroughs, and uplifting stories.
 DO NOT select sports stories.
-DO NOT select multiple stories about the same specific event.
+DO NOT select multiple stories about the exact same specific event (same headline different outlet).
 
-Return ONLY a JSON array of group numbers (up to 25). Prefix positive stories with +."""
+Return ONLY a JSON array of group numbers (up to 35). Prefix positive stories with +."""
 
 def build_bucketed_pool_text(groups):
     buckets = {}
@@ -964,26 +973,35 @@ def run_diversity_pass(articles):
 
 # ── Bias Review (Advisory, Not Overwriting) ─────────────────────────
 
-BIAS_PROMPT = """Review these articles for bias, sensationalism, or missing perspectives.
+BIAS_PROMPT = """You are a senior fact-checker and bias reviewer for a neutral news briefing.
 
-Return ONLY a JSON array of TARGETED corrections. Each fix should be minimal and specific:
+Review these articles carefully. You MUST flag issues when you find them — do not default to approving everything.
+
+Check for:
+1. LOADED LANGUAGE: words like "slams", "blasts", "controversial", "radical" that inject opinion
+2. MISSING PERSPECTIVES: if a political story only presents one side, flag it
+3. SENSATIONALISM: exaggerated claims, fear-mongering, unverified superlatives
+4. FACTUAL CONCERNS: numbers or claims that seem wrong or unverifiable
+5. ATTRIBUTION: vague claims like "critics say" or "sources indicate" without specifics
+
+Return ONLY a JSON array of TARGETED corrections:
 [{"article_index": 0, "field": "headline", "issue": "loaded word 'slams'", "corrected_text": "fixed version"},
- {"article_index": 2, "field": "body", "issue": "missing right-leaning perspective", "sentence_to_add": "sentence to insert"}]
+ {"article_index": 2, "field": "body", "issue": "missing conservative perspective", "sentence_to_add": "sentence to insert"}]
 
 Rules:
-- Only flag genuine bias or factual issues
-- Headline and bottom_line fixes: provide full replacement
-- Body fixes: provide a single sentence to add or a specific phrase to change
-- Do NOT rewrite entire article bodies
-- If nothing needs fixing, return []"""
+- Be thorough — review every article, not just the first few
+- Headline and bottom_line fixes: provide full replacement text
+- Body fixes: provide a specific sentence to add
+- Do NOT rewrite entire bodies
+- If genuinely nothing needs fixing, return [] — but look hard first"""
 
 def run_bias_review(articles):
-    # Show more context than before for better review
+    # Give reviewers FULL article text for proper context
     batch = "\n".join(
         f"--- Article {i} [{a.get('category')}] ---\n"
         f"Headline: {a['headline']}\n"
         f"Bottom Line: {a.get('bottom_line','')}\n"
-        f"Body: {a.get('body','')[:500]}"
+        f"Body: {a.get('body','')}"
         for i, a in enumerate(articles)
     )
     total = 0
@@ -1100,7 +1118,7 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v10.3")
+    print("  The Daily Informant — Morning Pipeline v10.4")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -1164,6 +1182,32 @@ def main():
         except Exception as e:
             print(f"   Dedup check failed: {e}")
 
+    # Post-selection: consolidate groups about the same ongoing situation into one mega-group
+    print("\n─── Step 4c: Ongoing situation consolidation ───")
+    valid_slugs = {s for s, _ in ONGOING_TOPICS_PRIORITY}
+    topic_groups = {}  # slug -> list of group indices
+    for i, group in enumerate(consensus_groups):
+        cat = classify_group_category(group)
+        text = " ".join(item["title"].lower() + " " + item.get("description", "").lower()[:200] for item in group)
+        for slug, entities in ONGOING_TOPICS_PRIORITY:
+            if sum(1 for e in entities if e in text) >= 2:
+                topic_groups.setdefault(slug, []).append(i)
+                break
+    merged_indices = set()
+    for slug, indices in topic_groups.items():
+        if len(indices) >= 3:
+            # Merge all into the first group
+            target = indices[0]
+            for src in indices[1:]:
+                consensus_groups[target] = consensus_groups[target] + consensus_groups[src]
+                merged_indices.add(src)
+            print(f"   Consolidated {slug}: merged {len(indices)} groups into 1 comprehensive article")
+    if merged_indices:
+        consensus_groups = [g for i, g in enumerate(consensus_groups) if i not in merged_indices]
+        print(f"   After consolidation: {len(consensus_groups)} groups")
+    else:
+        print(f"   No consolidation needed")
+
     print("\n─── Step 5: Full text enrichment ───")
     ft_total = 0
     for i, group in enumerate(consensus_groups):
@@ -1190,47 +1234,37 @@ def main():
     print("\n─── Step 6d: X/Twitter quotes ───")
     articles = fetch_x_quotes(articles)
 
-    # ── Per-topic cap: max 2 articles per ongoing situation ──
-    print("\n─── Step 6e: Per-topic cap ───")
-    topic_counts = {}
+    # Interleave: merge good news and regular into one list, alternating
+    print("\n─── Step 6e: Interleave good + hard news ───")
+    hard_news, good_news = [], []
     for a in articles:
-        rel = a.get("related_ongoing", "")
-        if rel:
-            topic_counts.setdefault(rel, []).append(a)
-    capped = 0
-    for topic_slug, topic_articles in topic_counts.items():
-        if len(topic_articles) > 2:
-            # Keep the 2 with most sources, remove the rest
-            topic_articles.sort(key=lambda a: (-len(a.get("component_articles", [])), -len(a.get("body", "").split())))
-            to_remove = {a["slug"] for a in topic_articles[2:]}
-            articles = [a for a in articles if a["slug"] not in to_remove]
-            capped += len(to_remove)
-            print(f"   Capped {topic_slug}: kept 2, removed {len(to_remove)}")
-    if capped:
-        print(f"   Total capped: {capped} articles removed")
-    else:
-        print(f"   No topics over cap")
+        (good_news if a.get("is_good_development") else hard_news).append(a)
+    hard_news.sort(key=lambda a: CATEGORY_ORDER.index(a.get("category","World")) if a.get("category","World") in CATEGORY_ORDER else 99)
+    good_news.sort(key=lambda a: CATEGORY_ORDER.index(a.get("category","World")) if a.get("category","World") in CATEGORY_ORDER else 99)
 
-    # Separate
-    regular, good_devs = [], []
-    for a in articles:
-        (good_devs if a.get("is_good_development") else regular).append(a)
-    regular.sort(key=lambda a: CATEGORY_ORDER.index(a.get("category","World")) if a.get("category","World") in CATEGORY_ORDER else 99)
+    # Build interleaved list: hard, good, hard, good...
+    interleaved = []
+    hi, gi = 0, 0
+    while hi < len(hard_news) or gi < len(good_news):
+        if hi < len(hard_news):
+            interleaved.append(hard_news[hi]); hi += 1
+        if gi < len(good_news):
+            interleaved.append(good_news[gi]); gi += 1
 
-    print(f"\n   Regular: {len(regular)} | Constructive: {len(good_devs)}")
+    print(f"   Hard news: {len(hard_news)} | Good news: {len(good_news)} | Interleaved total: {len(interleaved)}")
     cats = {}
-    for a in articles: cats[a.get("category","?")] = cats.get(a.get("category","?"), 0) + 1
+    for a in interleaved: cats[a.get("category","?")] = cats.get(a.get("category","?"), 0) + 1
     print(f"   Category breakdown: {dict(sorted(cats.items()))}")
 
     print("\n─── Step 7: Archive & ongoing ───")
     archive = load_json(ARCHIVE_PATH) or []
-    for a in articles:
+    for a in interleaved:
         archive.append({"date": today, "headline": a["headline"], "category": a.get("category","World"),
                         "slug": a["slug"], "source_count": len(a.get("component_articles",[]))})
     ARCHIVE_PATH.write_text(json.dumps(archive[-900:], indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     topics_data = load_json(TOPICS_PATH) or {"topics": []}
-    topics_data = update_ongoing_topics(articles, topics_data, today)
+    topics_data = update_ongoing_topics(interleaved, topics_data, today)
     TOPICS_PATH.write_text(json.dumps(topics_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     ongoing_for_daily = [{"slug": t["slug"], "topic": t["topic"], "summary": t.get("summary",""),
@@ -1238,35 +1272,35 @@ def main():
                           "what_changed_today": t.get("what_changed_today", []),
                           "timeline": t.get("timeline",[])[:5]} for t in topics_data.get("topics",[])]
 
-    all_for_ntk = regular + good_devs
+    # Top key news: pick from hard news by importance
     ntk_priority = {"World": 0, "US": 1, "Canada": 2, "Ontario": 3, "Health": 4, "Science": 4, "Tech": 4, "Local": 5}
-    all_for_ntk.sort(key=lambda a: (ntk_priority.get(a.get("category","World"), 5), -len(a.get("component_articles",[]))))
-    need_to_know = [{"headline": a["headline"], "bottom_line": a.get("bottom_line","")} for a in all_for_ntk[:5]]
+    ntk_candidates = sorted(hard_news, key=lambda a: (ntk_priority.get(a.get("category","World"), 5), -len(a.get("component_articles",[]))))
+    need_to_know = [{"headline": a["headline"], "bottom_line": a.get("bottom_line","")} for a in ntk_candidates[:5]]
 
     DAILY_PATH.write_text(json.dumps({
         "date": today,
         "need_to_know": need_to_know,
-        "top_stories": regular,
+        "top_stories": interleaved,
         "ongoing_topics": ongoing_for_daily,
-        "good_developments": good_devs,
+        "good_developments": [],
         "optional_reflection": "",
         "_meta": {
-            "pipeline_version": "10.3", "models_used": list(selections.keys()) if selections else [],
+            "pipeline_version": "10.4", "models_used": list(selections.keys()) if selections else [],
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "full_text_enriched": ft_total,
-            "good_developments": len(good_devs), "category_breakdown": cats,
-            "category_order": CATEGORY_ORDER,
+            "hard_news": len(hard_news), "good_news": len(good_news),
+            "category_breakdown": cats, "category_order": CATEGORY_ORDER,
         },
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"\n{'='*65}")
-    print(f"  DONE — {len(articles)} DI articles → data/daily.json")
+    print(f"  DONE — {len(interleaved)} DI articles → data/daily.json")
     print(f"  Models: {', '.join(selections.keys()) if selections else 'fallback'}")
     print(f"  Categories: {dict(sorted(cats.items()))}")
-    print(f"  Sources: {sum(len(a.get('sources',[])) for a in articles)} | Full-text: {ft_total}")
-    print(f"  Avg words/article: {sum(len(a.get('body','').split()) for a in articles)//max(len(articles),1)}")
-    print(f"  Negative: {sum(1 for a in articles if a.get('is_negative'))} | Constructive: {len(good_devs)} | Ongoing: {sum(1 for a in articles if a.get('related_ongoing'))}")
+    print(f"  Sources: {sum(len(a.get('sources',[])) for a in interleaved)} | Full-text: {ft_total}")
+    print(f"  Avg words/article: {sum(len(a.get('body','').split()) for a in interleaved)//max(len(interleaved),1)}")
+    print(f"  Hard: {len(hard_news)} | Good: {len(good_news)} | Ongoing: {sum(1 for a in interleaved if a.get('related_ongoing'))}")
     print(f"{'='*65}")
 
 if __name__ == "__main__":
