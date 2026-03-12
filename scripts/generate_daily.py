@@ -39,9 +39,9 @@ FEEDS = [
     {"name": "Toronto Star",       "url": "https://www.thestar.com/search/?f=rss&t=article&c=news*&l=50&s=start_time&sd=desc", "lean": "Center-Left", "region": "Ontario"},
     {"name": "Toronto Sun",        "url": "https://torontosun.com/feed",                              "lean": "Right",        "region": "Ontario"},
     {"name": "Global News Canada", "url": "https://globalnews.ca/feed/",                              "lean": "Center",       "region": "Ontario"},
-    {"name": "CTV News Toronto",   "url": "https://toronto.ctvnews.ca/rss/ctv-news-toronto-1.822319", "lean": "Center",       "region": "Ontario"},
-    {"name": "CTV News Ottawa",    "url": "https://ottawa.ctvnews.ca/rss/ctv-news-ottawa-1.822302",   "lean": "Center",       "region": "Ontario"},
-    {"name": "TVO Today",          "url": "https://www.tvo.org/rss.xml",                               "lean": "Center",       "region": "Ontario"},
+    {"name": "CTV News",           "url": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009", "lean": "Center", "region": "Ontario"},
+    {"name": "CP24",               "url": "https://www.cp24.com/rss/ctvnews-cp24-702702-public-rss-1.822319", "lean": "Center", "region": "Ontario"},
+    {"name": "Ottawa Citizen",     "url": "https://ottawacitizen.com/feed",                                    "lean": "Center", "region": "Ontario"},
     # ── Canada ──
     {"name": "Globe and Mail",     "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/", "lean": "Center", "region": "Canada"},
     {"name": "National Post",      "url": "https://nationalpost.com/feed/",                            "lean": "Center-Right", "region": "Canada"},
@@ -260,12 +260,15 @@ def parse_rss(xml_bytes, source_name, lean, region):
                           "title": title, "link": link, "pub_date": pub_date, "description": desc[:500]})
     return items
 
+GOOD_NEWS_SOURCES = {"Good News Network", "Positive News", "Christianity Today", "Deseret News Faith"}
+
 def fetch_all_feeds():
     all_items, success = [], 0
     for feed in FEEDS:
         try:
+            limit = 12 if feed["name"] in GOOD_NEWS_SOURCES else ITEMS_PER_FEED
             parsed = parse_rss(fetch_feed(feed["url"]), feed["name"], feed["lean"], feed["region"])
-            all_items.extend(parsed[:ITEMS_PER_FEED])
+            all_items.extend(parsed[:limit])
             success += 1
             print(f"  ✓ {feed['name']} ({feed['lean']}, {feed['region']}): {len(parsed)} items")
         except Exception as e:
@@ -469,18 +472,20 @@ Below are story groups ORGANIZED BY CATEGORY. For each category, rank the storie
 
 Then assemble the BEST cross-category lineup of 25 stories for a morning briefing that a busy Canadian reads in 10-15 minutes.
 
-CATEGORY FLOORS (include at least this many IF quality stories exist):
-- Local (Bay of Quinte): 2-3
-- Ontario: 3-4 (IMPORTANT: always look hard for Ontario provincial stories — Toronto, Ottawa, provincial policy)
-- Canada: 2-4 (IMPORTANT: always include national Canadian stories when available)
-- US: 4-6
-- World: 4-6
-- Health/Science/Tech: 2-3
+CATEGORY MINIMUMS (you MUST include at least this many):
+- Local (Bay of Quinte): 3
+- Ontario: 3
+- Canada: 3
+- US: 4
+- World: 5
+- Health/Science/Tech: 2
+
+CRITICAL TOPIC CAP: No single ongoing situation (Iran, Ukraine, tariffs, etc.) should have more than 2-3 stories. If Iran has 8 relevant groups, pick the 2-3 most important and REPLACE the rest with stories from underrepresented categories. Readers want VARIETY, not 6 articles about the same conflict.
 
 Mark constructive/positive stories with + prefix.
-IMPORTANT: Include at least 3-4 constructive/positive stories (marked with +). Look for Good News Network, Positive News, and uplifting stories from any source.
+IMPORTANT: Include at least 4 constructive/positive stories (marked with +). Look for Good News Network, Positive News, community wins, breakthroughs, and uplifting stories.
 DO NOT select sports stories.
-DO NOT select multiple stories about the same topic.
+DO NOT select multiple stories about the same specific event.
 
 Return ONLY a JSON array of group numbers (up to 25). Prefix positive stories with +."""
 
@@ -851,15 +856,15 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
                 sources.append({"name": item["source_name"], "url": item["link"]})
                 seen_sources.add(item["source_name"])
         # Enrich: scan ALL feed items for additional coverage of same story
-        headline_kw = kw(headline + " " + bottom_line)
+        headline_kw = kw(headline + " " + bottom_line + " " + body[:200])
         if len(headline_kw) >= 3:
             for item in all_items:
                 if item["source_name"] in seen_sources: continue
-                item_kw = kw(item["title"] + " " + item.get("description", "")[:200])
+                item_kw = kw(item["title"] + " " + item.get("description", "")[:300])
                 if len(item_kw) < 3: continue
                 overlap = len(headline_kw & item_kw)
                 smaller = min(len(headline_kw), len(item_kw))
-                if smaller > 0 and overlap / smaller >= 0.28:
+                if smaller > 0 and overlap / smaller >= 0.22:
                     sources.append({"name": item["source_name"], "url": item["link"]})
                     component_articles.append({"source": item["source_name"], "lean": item["lean"], "title": item["title"], "url": item["link"]})
                     seen_sources.add(item["source_name"])
@@ -1095,7 +1100,7 @@ def update_ongoing_topics(articles, topics_data, today):
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v10.2")
+    print("  The Daily Informant — Morning Pipeline v10.3")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -1185,6 +1190,27 @@ def main():
     print("\n─── Step 6d: X/Twitter quotes ───")
     articles = fetch_x_quotes(articles)
 
+    # ── Per-topic cap: max 2 articles per ongoing situation ──
+    print("\n─── Step 6e: Per-topic cap ───")
+    topic_counts = {}
+    for a in articles:
+        rel = a.get("related_ongoing", "")
+        if rel:
+            topic_counts.setdefault(rel, []).append(a)
+    capped = 0
+    for topic_slug, topic_articles in topic_counts.items():
+        if len(topic_articles) > 2:
+            # Keep the 2 with most sources, remove the rest
+            topic_articles.sort(key=lambda a: (-len(a.get("component_articles", [])), -len(a.get("body", "").split())))
+            to_remove = {a["slug"] for a in topic_articles[2:]}
+            articles = [a for a in articles if a["slug"] not in to_remove]
+            capped += len(to_remove)
+            print(f"   Capped {topic_slug}: kept 2, removed {len(to_remove)}")
+    if capped:
+        print(f"   Total capped: {capped} articles removed")
+    else:
+        print(f"   No topics over cap")
+
     # Separate
     regular, good_devs = [], []
     for a in articles:
@@ -1225,7 +1251,7 @@ def main():
         "good_developments": good_devs,
         "optional_reflection": "",
         "_meta": {
-            "pipeline_version": "10.2", "models_used": list(selections.keys()) if selections else [],
+            "pipeline_version": "10.3", "models_used": list(selections.keys()) if selections else [],
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "full_text_enriched": ft_total,
