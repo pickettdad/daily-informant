@@ -99,6 +99,18 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 DAILY_PATH = Path("data/daily.json")
 TOPICS_PATH = Path("data/topics.json")
 ARCHIVE_PATH = Path("data/archive.json")
+MANIFEST_PATH = Path("data/edition_manifest.json")
+
+# Global manifest — accumulated during pipeline run, written at end
+MANIFEST = {
+    "feeds": {"attempted": 0, "succeeded": 0, "failed": [], "items_per_feed": {}},
+    "grouping": {},
+    "selection": {"per_model_picks": {}, "consensus": [], "good_indices": []},
+    "articles": [],
+    "claim_validation": {"total_claims": 0, "supported": 0, "unsupported": 0, "coverage_pct": 0.0, "details": []},
+    "bias_review": {"total_corrections": 0, "per_model": {}},
+    "diversity_pass": {"fixes_applied": 0},
+}
 
 CATEGORY_ORDER = ["Local", "Ontario", "Canada", "US", "World", "Health", "Science", "Tech"]
 
@@ -272,15 +284,19 @@ GOOD_NEWS_SOURCES = {"Good News Network", "Positive News", "Christianity Today",
 
 def fetch_all_feeds():
     all_items, success = [], 0
+    MANIFEST["feeds"]["attempted"] = len(FEEDS)
     for feed in FEEDS:
         try:
             limit = 12 if feed["name"] in GOOD_NEWS_SOURCES else ITEMS_PER_FEED
             parsed = parse_rss(fetch_feed(feed["url"]), feed["name"], feed["lean"], feed["region"])
             all_items.extend(parsed[:limit])
             success += 1
+            MANIFEST["feeds"]["items_per_feed"][feed["name"]] = len(parsed[:limit])
             print(f"  ✓ {feed['name']} ({feed['lean']}, {feed['region']}): {len(parsed)} items")
         except Exception as e:
+            MANIFEST["feeds"]["failed"].append({"name": feed["name"], "error": str(e)[:100]})
             print(f"  ✗ {feed['name']}: {e}")
+    MANIFEST["feeds"]["succeeded"] = success
     print(f"\n   Feeds succeeded: {success}/{len(FEEDS)}")
     return all_items
 
@@ -564,6 +580,7 @@ def run_selection(pool_text):
             picks, good = _parse_picks(raw)
             if picks:
                 results[name] = picks; all_good.update(good)
+                MANIFEST["selection"]["per_model_picks"][name] = {"picks": picks[:30], "good_flagged": list(good)[:20]}
                 print(f"    {name}: {len(picks)} groups, {len(good)} constructive")
             else:
                 print(f"    {name}: no valid picks parsed. Response starts: {raw[:150]}...")
@@ -584,6 +601,8 @@ def build_consensus(selections, pool_size):
     min_v = min(MIN_CONSENSUS, n)
     consensus = sorted([s for s, v in votes.items() if v >= min_v], key=lambda s: (-votes[s], ranks[s]/votes[s]))
     print(f"\n   Consensus ({n} models): {len(consensus)} groups agreed (≥{min_v} votes)")
+    MANIFEST["selection"]["consensus_votes"] = {str(k): v for k, v in votes.items()}
+    MANIFEST["selection"]["min_consensus_threshold"] = min_v
     if len(consensus) < MAX_ARTICLES:
         extra = sorted([s for s in votes if s not in consensus], key=lambda s: (-votes[s], ranks[s]/max(votes[s],1)))
         consensus.extend(extra[:MAX_ARTICLES - len(consensus)])
@@ -894,6 +913,7 @@ def build_di_article(group, idx, all_items, is_good_flagged=False):
             "stakeholder_quotes": quotes, "is_good_development": is_constructive,
             "is_negative": is_neg, "positive_thought": pos,
             "related_ongoing": related,
+            "_evidence_brief": evidence,
         }
     except Exception as e:
         print(f"  ✗ Article {idx+1} failed: {e}")
@@ -967,6 +987,7 @@ def run_diversity_pass(articles):
                     applied += 1
             except: pass
         print(f"   Diversity pass: {applied} fixes applied")
+        MANIFEST["diversity_pass"]["fixes_applied"] = applied
     except Exception as e:
         print(f"   Diversity pass failed: {e}")
     return articles
@@ -1035,10 +1056,12 @@ def run_bias_review(articles):
                             applied += 1; total += 1
                             print(f"    {name} added to article {idx} body: {fix.get('issue','')}")
                     except: pass
+                MANIFEST["bias_review"]["per_model"][name] = applied
                 print(f"    {name}: {applied} corrections applied")
         except Exception as e: print(f"    {name} review failed: {e}")
         time.sleep(1)
     print(f"   Total bias corrections: {total}")
+    MANIFEST["bias_review"]["total_corrections"] = total
     return articles
 
 # ── X/Twitter Quotes ────────────────────────────────────────────────
@@ -1114,11 +1137,168 @@ def update_ongoing_topics(articles, topics_data, today):
         print(f"  → Updated \"{topic['topic']}\" ({len(matched_articles)} articles, {len(topic['what_changed_today'])} changes)")
     return topics_data
 
+# ── Claim-to-Source Validation ──────────────────────────────────────
+
+CLAIM_VALIDATION_PROMPT = """You are a fact-checker for a news briefing. Given an article and its editor brief (the evidence used to write it), check every declarative claim in the article.
+
+A "claim" is any specific factual statement: a number, a name, a date, an event, a cause-effect relationship, an attribution.
+
+For EACH claim, determine if it is SUPPORTED by the evidence brief. A claim is supported if:
+- It matches an agreed_fact, key_number, timeline step, stakeholder position, or quote in the brief
+- It is a reasonable inference from multiple evidence items
+
+A claim is UNSUPPORTED if:
+- It states something not found in the brief
+- It adds detail, numbers, or attributions not in the evidence
+- It conflates or misrepresents evidence
+
+Return ONLY valid JSON:
+{
+  "claims": [
+    {"claim": "specific statement from article", "supported": true, "evidence_match": "which brief item supports it"},
+    {"claim": "another statement", "supported": false, "evidence_match": "no matching evidence found"}
+  ],
+  "summary": {"total": 8, "supported": 7, "unsupported": 1, "coverage_pct": 87.5}
+}
+
+Be thorough — check every factual statement, not just the first few. Be strict — only mark as supported if the evidence clearly backs the claim."""
+
+def run_claim_validation(articles):
+    """Validate claims in each article against its evidence brief. Returns articles unchanged, populates MANIFEST."""
+    total_claims, total_supported, total_unsupported = 0, 0, 0
+    details = []
+
+    for i, article in enumerate(articles):
+        evidence = article.get("_evidence_brief")
+        if not evidence:
+            details.append({"article_index": i, "headline": article["headline"], "skipped": True, "reason": "no evidence brief"})
+            continue
+
+        body = article.get("body", "")
+        if len(body.split()) < 30:
+            details.append({"article_index": i, "headline": article["headline"], "skipped": True, "reason": "body too short"})
+            continue
+
+        prompt = (
+            f"ARTICLE:\nHeadline: {article['headline']}\n"
+            f"Bottom Line: {article.get('bottom_line', '')}\n"
+            f"Body: {body}\n\n"
+            f"EDITOR BRIEF (evidence used to write the article):\n{json.dumps(evidence, indent=1)}"
+        )
+
+        try:
+            # Use Gemini (big context, cheap) or fall back to OpenAI
+            if GOOGLE_API_KEY:
+                raw = _call_gemini(f"{CLAIM_VALIDATION_PROMPT}\n\n{prompt}")
+            else:
+                raw = _call_openai([{"role": "user", "content": f"{CLAIM_VALIDATION_PROMPT}\n\n{prompt}"}])
+
+            result = _parse_json_from_text(raw)
+            if not isinstance(result, dict):
+                details.append({"article_index": i, "headline": article["headline"], "skipped": True, "reason": "parse failure"})
+                continue
+
+            summary = result.get("summary", {})
+            claims = result.get("claims", [])
+            n_total = summary.get("total", len(claims))
+            n_supported = summary.get("supported", sum(1 for c in claims if c.get("supported")))
+            n_unsupported = summary.get("unsupported", sum(1 for c in claims if not c.get("supported")))
+
+            total_claims += n_total
+            total_supported += n_supported
+            total_unsupported += n_unsupported
+
+            coverage = round(n_supported / max(n_total, 1) * 100, 1)
+
+            # Flag unsupported claims
+            unsupported_list = [c["claim"][:120] for c in claims if not c.get("supported")]
+
+            detail = {
+                "article_index": i, "headline": article["headline"][:80],
+                "total_claims": n_total, "supported": n_supported,
+                "unsupported": n_unsupported, "coverage_pct": coverage,
+                "unsupported_claims": unsupported_list[:5],
+            }
+            details.append(detail)
+
+            status = "✓" if coverage >= 80 else "⚠" if coverage >= 60 else "✗"
+            print(f"  {status} Article {i}: {n_supported}/{n_total} claims supported ({coverage}%)")
+            if unsupported_list:
+                for uc in unsupported_list[:2]:
+                    print(f"      ↳ Unsupported: {uc[:80]}")
+
+        except Exception as e:
+            print(f"  ✗ Article {i}: validation failed ({e})")
+            details.append({"article_index": i, "headline": article["headline"][:80], "skipped": True, "reason": str(e)[:100]})
+        time.sleep(0.5)
+
+    overall_coverage = round(total_supported / max(total_claims, 1) * 100, 1)
+    MANIFEST["claim_validation"] = {
+        "total_claims": total_claims, "supported": total_supported,
+        "unsupported": total_unsupported, "coverage_pct": overall_coverage,
+        "details": details,
+    }
+    print(f"\n   Claim validation: {total_supported}/{total_claims} supported ({overall_coverage}%)")
+    return articles
+
+
+def write_manifest(today, selections, interleaved, run_start):
+    """Write edition_manifest.json with full audit trail."""
+    import hashlib
+    run_end = datetime.now(TORONTO).isoformat()
+
+    # Get code commit SHA if available
+    commit_sha = ""
+    try:
+        import subprocess
+        result = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, timeout=5)
+        commit_sha = result.stdout.strip()[:12]
+    except Exception:
+        pass
+
+    manifest = {
+        "date": today,
+        "pipeline_version": "10.5",
+        "run_timestamp": run_start,
+        "run_completed": run_end,
+        "commit_sha": commit_sha,
+        "models_available": [n for n, k in [("OpenAI", OPENAI_API_KEY), ("Claude", ANTHROPIC_API_KEY),
+                                              ("Grok", XAI_API_KEY), ("Gemini", GOOGLE_API_KEY)] if k],
+        "feeds": MANIFEST["feeds"],
+        "grouping": MANIFEST["grouping"],
+        "selection": MANIFEST["selection"],
+        "articles": [
+            {
+                "index": i,
+                "slug": a.get("slug", ""),
+                "headline": a.get("headline", "")[:120],
+                "category": a.get("category", ""),
+                "word_count": len(a.get("body", "").split()),
+                "source_count": len(a.get("sources", [])),
+                "component_count": len(a.get("component_articles", [])),
+                "is_good_development": a.get("is_good_development", False),
+                "is_negative": a.get("is_negative", False),
+                "related_ongoing": a.get("related_ongoing", ""),
+                "has_positive_thought": bool(a.get("positive_thought")),
+                "has_stakeholder_quotes": len(a.get("stakeholder_quotes", [])),
+            }
+            for i, a in enumerate(interleaved)
+        ],
+        "claim_validation": MANIFEST["claim_validation"],
+        "bias_review": MANIFEST["bias_review"],
+        "diversity_pass": MANIFEST["diversity_pass"],
+    }
+
+    MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  ✓ Manifest written to {MANIFEST_PATH}")
+
+
 # ── Main ────────────────────────────────────────────────────────────
 def main():
     today = datetime.now(TORONTO).strftime("%Y-%m-%d")
+    run_start = datetime.now(TORONTO).isoformat()
     print("=" * 65)
-    print("  The Daily Informant — Morning Pipeline v10.4")
+    print("  The Daily Informant — Morning Pipeline v10.5")
     print(f"  {datetime.now(TORONTO).strftime('%Y-%m-%d %H:%M %Z')}")
     print("=" * 65)
 
@@ -1141,11 +1321,14 @@ def main():
     for g in groups[:5]: print(f"    [{len(g)} art] {g[0]['title'][:60]}")
     groups = group_pass_2_ai(groups)
     print(f"   Final groups: {len(groups)}")
+    MANIFEST["grouping"] = {"final_groups": len(groups), "noise_filtered": len(all_items) - len(filtered)}
 
     print("\n─── Step 4: Multi-AI story selection ───")
     pool_text = build_bucketed_pool_text(groups)
     selections, good_indices = run_selection(pool_text)
     consensus_indices = build_consensus(selections, len(groups)) if selections else list(range(1, min(MAX_ARTICLES+1, len(groups)+1)))
+    MANIFEST["selection"]["consensus"] = consensus_indices[:30]
+    MANIFEST["selection"]["good_indices"] = list(good_indices)[:20]
     consensus_groups = [groups[i-1] for i in consensus_indices if 1 <= i <= len(groups)]
     print(f"\n   Final: {len(consensus_groups)} DI articles")
 
@@ -1234,8 +1417,11 @@ def main():
     print("\n─── Step 6d: X/Twitter quotes ───")
     articles = fetch_x_quotes(articles)
 
+    print("\n─── Step 6e: Claim-to-source validation ───")
+    articles = run_claim_validation(articles)
+
     # Interleave: merge good news and regular into one list, alternating
-    print("\n─── Step 6e: Interleave good + hard news ───")
+    print("\n─── Step 6f: Interleave good + hard news ───")
     hard_news, good_news = [], []
     for a in articles:
         (good_news if a.get("is_good_development") else hard_news).append(a)
@@ -1277,6 +1463,10 @@ def main():
     ntk_candidates = sorted(hard_news, key=lambda a: (ntk_priority.get(a.get("category","World"), 5), -len(a.get("component_articles",[]))))
     need_to_know = [{"headline": a["headline"], "bottom_line": a.get("bottom_line","")} for a in ntk_candidates[:5]]
 
+    # Strip internal _evidence_brief before writing public data
+    for a in interleaved:
+        a.pop("_evidence_brief", None)
+
     DAILY_PATH.write_text(json.dumps({
         "date": today,
         "need_to_know": need_to_know,
@@ -1285,14 +1475,32 @@ def main():
         "good_developments": [],
         "optional_reflection": "",
         "_meta": {
-            "pipeline_version": "10.4", "models_used": list(selections.keys()) if selections else [],
+            "pipeline_version": "10.5", "models_used": list(selections.keys()) if selections else [],
             "feeds_attempted": len(FEEDS), "raw_items": len(all_items),
             "groups_formed": len(groups), "consensus_articles": len(consensus_groups),
             "full_text_enriched": ft_total,
             "hard_news": len(hard_news), "good_news": len(good_news),
             "category_breakdown": cats, "category_order": CATEGORY_ORDER,
+            "claim_validation_coverage_pct": MANIFEST["claim_validation"]["coverage_pct"],
+            "bias_corrections": MANIFEST["bias_review"]["total_corrections"],
         },
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    print("\n─── Step 8: Manifest & validation ───")
+    write_manifest(today, selections, interleaved, run_start)
+
+    # Run schema validation
+    try:
+        from validate_schemas import validate_all
+        errors, warnings = validate_all()
+        if errors:
+            print(f"  ⚠ Schema validation: {errors} errors (non-fatal)")
+        else:
+            print(f"  ✓ Schema validation passed ({warnings} warnings)")
+    except ImportError:
+        print("  ○ Schema validation skipped (validate_schemas.py not found in path)")
+    except Exception as e:
+        print(f"  ⚠ Schema validation error: {e}")
 
     print(f"\n{'='*65}")
     print(f"  DONE — {len(interleaved)} DI articles → data/daily.json")
@@ -1300,6 +1508,7 @@ def main():
     print(f"  Categories: {dict(sorted(cats.items()))}")
     print(f"  Sources: {sum(len(a.get('sources',[])) for a in interleaved)} | Full-text: {ft_total}")
     print(f"  Avg words/article: {sum(len(a.get('body','').split()) for a in interleaved)//max(len(interleaved),1)}")
+    print(f"  Claim coverage: {MANIFEST['claim_validation']['coverage_pct']}%")
     print(f"  Hard: {len(hard_news)} | Good: {len(good_news)} | Ongoing: {sum(1 for a in interleaved if a.get('related_ongoing'))}")
     print(f"{'='*65}")
 
