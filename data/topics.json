@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-03-12T14:01:10.196614-04:00",
+      "last_material_update": "2026-03-13T07:21:42.444830-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -30,7 +30,7 @@
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
       "what_changed_today": [
-        "Many Iranians, initially supportive of conflict, are now raising concerns about its humanitarian impact as displacement in the country rises."
+        "The repatriation of 84 Iranian sailors killed in a US attack underscores heightened tensions between the US and Iran and its potential global ramifications."
       ],
       "key_facts": {
         "Started": "February 28, 2026",
@@ -73,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-13",
+          "text": "Iranian Sailors Killed in Naval Incident, Bodies Set for Repatriation",
+          "category": "military",
+          "source_url": "https://www.bbc.com/news/articles/c363lk4xk07o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-03-12",
           "text": "Evolving Sentiment Among Iranians Amid Ongoing Conflict",
