@@ -29,9 +29,7 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [
-        "The repatriation of 84 Iranian sailors killed in a US attack underscores heightened tensions between the US and Iran and its potential global ramifications."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -217,7 +215,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "",
+      "last_material_update": "2026-03-14T07:04:48.270581-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -238,7 +236,9 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The U.S. suspension of oil sanctions on Russia raises significant financial concerns for Ukraine amidst ongoing conflict."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -276,6 +276,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-14",
+          "text": "U.S. Suspends Oil Sanctions on Russia, Raising Concerns",
+          "category": "economic",
+          "source_url": "https://www.npr.org/2026/03/13/nx-s1-5746678/ukrainian-president-zelenskyy-concerned-as-u-s-suspends-russia-sanctions"
+        },
         {
           "date": "2026-03-08",
           "text": "Zelenskyy announces plans to send drone interception experts to Middle East",
