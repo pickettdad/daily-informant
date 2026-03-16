@@ -215,7 +215,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-03-15T07:03:22.957535-04:00",
+      "last_material_update": "2026-03-16T07:34:50.328077-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -237,7 +237,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "The recent Russian missile and drone attack on Kyiv, resulting in casualties, underscores the heightened conflict in Ukraine linked to stalled peace talks."
+        "Ukraine faces a significant budget shortfall as it seeks EU loans amid complications caused by Hungary's Prime Minister Viktor Orban."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -276,6 +276,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-16",
+          "text": "Ukraine Seeks Urgent Financial Support Amid EU Delays",
+          "category": "diplomatic",
+          "source_url": "https://www.bbc.com/news/articles/c20jyngz7ygo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-03-15",
           "text": "Russian Attacks on Kyiv Occur Amid Stalled Peace Talks",

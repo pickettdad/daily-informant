@@ -1,167 +1,6 @@
 [
   {
     "date": "2026-03-06",
-    "headline": "Iran Responds with Missile Strikes Following Israeli Attacks",
-    "category": "World",
-    "slug": "story-1",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Economy Reports Job Losses in February",
-    "category": "Business",
-    "slug": "story-2",
-    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Reach Two-Year High Amid Qatar's Production Warning",
-    "category": "Business",
-    "slug": "story-3",
-    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Weight-Loss Drug Costs Could Decrease Significantly",
-    "category": "Health",
-    "slug": "story-4",
-    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "NASA's asteroid impact test alters orbit of target rock",
-    "category": "Science",
-    "slug": "story-5",
-    "source_url": "https://www.thestar.com/news/world/united-states/spacecrafts-impact-changed-asteroids-orbit-around-the-sun-in-a-save-the-earth-test-study/article_4c19365a-d3b3-5e27-998d-442a44e336f4.html"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Sri Lanka Takes Custody of Iranian Vessel After U.S. Military Action",
-    "category": "World",
-    "slug": "story-6",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Exploring the Role of the Kurds in the Iran Conflict",
-    "category": "World",
-    "slug": "story-7",
-    "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Donald Trump Terminates Kristi Noem from Homeland Security",
-    "category": "Politics",
-    "slug": "story-8",
-    "source_url": "https://www.theguardian.com/us-news/audio/2026/mar/06/trump-sacks-ice-barbie-kristi-noem-the-latest"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Customs Develops Refund System for Illegally Collected Tariffs",
-    "category": "Business",
-    "slug": "story-9",
-    "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-    "category": "Business",
-    "slug": "story-10",
-    "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Iran Fires Missiles Towards Israel Following Recent Strikes",
-    "category": "World",
-    "slug": "story-1",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Surge as Qatar Warns of Production Halt",
-    "category": "Business",
-    "slug": "story-2",
-    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Medical Schools to Enhance Nutrition Curriculum",
-    "category": "Health",
-    "slug": "story-3",
-    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Study Suggests Affordable Production of Weight-Loss Drug",
-    "category": "Health",
-    "slug": "story-4",
-    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
-    "category": "World",
-    "slug": "story-5",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "U.S. Job Market Reports Decrease in Employment for February",
-    "category": "Business",
-    "slug": "story-6",
-    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-    "category": "Business",
-    "slug": "story-7",
-    "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Customs Agency Plans Refund System for Illegal Tariffs",
-    "category": "Business",
-    "slug": "story-8",
-    "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Iran Intensifies Strikes Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "story-9",
-    "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Ukraine and Russia Conduct Significant Prisoner Exchange",
-    "category": "World",
-    "slug": "story-10",
-    "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Economy Reports Loss of 92,000 Jobs in February",
-    "category": "Business",
-    "slug": "story-1",
-    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Rise as Qatar Warns of Production Halt",
-    "category": "Business",
-    "slug": "story-2",
-    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Ukrainian and Russian Forces Conduct Large POW Exchange",
-    "category": "World",
-    "slug": "story-3",
-    "source_url": "https://www.aljazeera.com/news/2026/3/6/zelenskyy-visits-front-line-as-ukraine-and-russia-swap-500-prisoners-each?traffic_source=rss"
-  },
-  {
-    "date": "2026-03-06",
     "headline": "Medical Schools to Expand Nutrition Curriculum",
     "category": "Health",
     "slug": "story-4",
@@ -6249,5 +6088,215 @@
     "category": "World",
     "slug": "article-29",
     "source_count": 3
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Belleville Garbage Bag Tags Set to Increase in Price",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Ottawa to Welcome First Romance-Only Bookstore",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Belleville City Council Meets with Local MPs Today",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Nathan Phillips Square Change Room Reopens for Public Use",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "SIU Investigation Ends for Belleville Police Officer",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Bubble Tea: A Cultural Connection in Belleville",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Canadian Travel to U.S. Declines Amid Political Rhetoric",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Doctor Adopts Patient, Unites Siblings in New Homes",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Rising Gas Prices Hit Belleville and Trenton Residents",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Younger Generations Embrace Traditional Hobbies",
+    "category": "Ontario",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "SIU Investigation Clears Belleville Officer in Hospital Incident",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "River Otters Recolony Great Lakes, Highlighting Conservation Success",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Ontario to Waive HST on All New Homes",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Bear Breaks Into California Kitchen, Draws Interest",
+    "category": "US",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Federal Reserve's Interest Rate Decision Faces Complications from Rising Energy Prices",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Care in Action USA Serves Thousands Amid Pandemic Challenges",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "U.S. War with Iran Enters Third Week, Implications Grow",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Mexico City Hosts Largest Football Pitch Ahead of World Cup",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Senate Vote on SAVE America Act Highlights Trump’s Influence",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Homemade Battery Powers Electric Car from Discarded Vapes",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Drone Incident Near Dubai Airport Disrupts Flights",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Promising New Treatment for Spina Bifida Emerges",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Iran Increases Security Amid Rising Protests and Violence",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "New Method Converts Waste Plastic to Parkinson's Drug",
+    "category": "Health",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Doha's Souq Waqif market shows signs of life amid conflict",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "New Guidelines for Cholesterol Testing Emphasize Heart Health",
+    "category": "Health",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "China urges Trump to proceed with state visit despite tensions",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Hedgehogs Can Hear Frequencies Up to 85kHz",
+    "category": "Science",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "UK Announces £53 Million Support for Heating Oil Costs",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-16",
+    "headline": "Ukraine Seeks Urgent Financial Support Amid EU Delays",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
   }
 ]
