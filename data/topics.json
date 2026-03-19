@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-03-17T07:27:44.491796-04:00",
+      "last_material_update": "2026-03-19T07:19:54.328703-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Iran's attacks on energy facilities have led to a spike in global oil prices, affecting the broader economy and highlighting vulnerabilities in energy infrastructure."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-19",
+          "text": "Iranian Attacks Cause Spike in Global Oil Prices",
+          "category": "economic",
+          "source_url": "https://www.cbsnews.com/live-updates/iran-war-israel-strike-south-pars-gas-field-trump-threat-oil-gas-prices/"
+        },
         {
           "date": "2026-03-17",
           "text": "Israel Reports Assassination of Iranian Security Officials",
@@ -725,7 +733,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-03-11T22:20:44.482704-04:00",
+      "last_material_update": "2026-03-19T07:19:54.328703-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -747,7 +755,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The deaths of three Palestinian women underscore the dangers of military actions in populated areas and raise questions about civilian safety."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -790,6 +800,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-19",
+          "text": "Missile Debris Incident in West Bank Kills Three Women",
+          "category": "humanitarian",
+          "source_url": "https://www.bbc.com/news/articles/c0ljl23plpzo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-03-11",
           "text": "EU and UK Demand Action Against Settler Violence in West Bank",
