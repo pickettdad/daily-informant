@@ -1,174 +1,6 @@
 [
   {
     "date": "2026-03-06",
-    "headline": "U.S. Customs Develops Tariff Refund System",
-    "category": "Business",
-    "slug": "story-15",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Energy Infrastructure Affected in U.S.-Israeli War with Iran",
-    "category": "World",
-    "slug": "story-16",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Military Action",
-    "category": "World",
-    "slug": "story-17",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Former FARC Leaders Shift Focus to Political Campaigns in Colombia",
-    "category": "World",
-    "slug": "story-18",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5727603/farc-colombia-election"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Militants Attack Village in Nigeria",
-    "category": "World",
-    "slug": "story-19",
-    "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Medical Schools to Enhance Nutrition Curriculum",
-    "category": "Health",
-    "slug": "story-20",
-    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US and Venezuela Plan to Resume Diplomatic Relations",
-    "category": "US",
-    "slug": "story-21",
-    "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "First Remote Surgery Conducted 1,500 Miles Away in the UK",
-    "category": "Health",
-    "slug": "story-22",
-    "source_url": "https://www.bbc.com/news/articles/cq577v126g9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "China to Dispatch Special Envoy to Middle East",
-    "category": "World",
-    "slug": "story-23",
-    "source_url": "https://www.breitbart.com/asia/2026/03/06/china-to-send-special-envoy-mediate-between-iran-mideast-countries-iran-bombed/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Explosion at Iranian School Kills Over 165",
-    "category": "World",
-    "slug": "story-24",
-    "source_url": "https://www.theglobeandmail.com/world/article-iran-us-israel-news-live-updates-march-6/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Increased Military Engagements in Middle East",
-    "category": "World",
-    "slug": "story-25",
-    "source_url": "https://www.theglobeandmail.com/world/article-iran-usa-israel-news-live-updates-march-4/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Reach Highest Levels Since 2023 Amid Economic Concerns",
-    "category": "Business",
-    "slug": "story-1",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Israel Conducts Strikes in Beirut and Tehran Amid Rising Tensions",
-    "category": "World",
-    "slug": "story-2",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "China Sets Lowest Economic Growth Target in Decades",
-    "category": "World",
-    "slug": "story-3",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5735887/sluggish-demand-prompts-china-to-set-lowest-growth-target-in-decades"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Escalating Violence in South Sudan Raises Concerns of Civil War",
-    "category": "World",
-    "slug": "story-4",
-    "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Economy Loses 92,000 Jobs in February",
-    "category": "US",
-    "slug": "story-5",
-    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US and Venezuela to Resume Diplomatic Relations",
-    "category": "World",
-    "slug": "story-6",
-    "source_url": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Surge as Qatar Issues Production Warning",
-    "category": "Business",
-    "slug": "story-7",
-    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Israel Conducts Bombing Campaign in Beirut",
-    "category": "World",
-    "slug": "story-8",
-    "source_url": "https://www.theglobeandmail.com/world/video-israel-bombs-beirut-as-un-warns-100000-people-are-displaced/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Dow Jones Industrial Average Declines Amid Rising Oil Prices",
-    "category": "Business",
-    "slug": "story-9",
-    "source_url": "https://abcnews.com/Business/dow-drops-650-points-iran-war-sends-oil/story?id=130824337"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Supreme Court Allows Asylum Seekers Access to Subsidized Quebec Daycare",
-    "category": "Canada",
-    "slug": "story-10",
-    "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Stock Market Experiences Decline",
-    "category": "US",
-    "slug": "story-11",
-    "source_url": "https://www.cbsnews.com/news/stock-market-today-dow-jones-slide/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Rescue Operations Successful After Wife Uses Technology to Locate Husband Buried in Avalanche",
-    "category": "US",
-    "slug": "story-12",
-    "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Young Boy Raises Funds for Charity Through Recycling",
-    "category": "Canada",
-    "slug": "story-13",
-    "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-  },
-  {
-    "date": "2026-03-06",
     "headline": "Energy Infrastructure Impacted by U.S.-Israeli War with Iran",
     "category": "World",
     "slug": "story-14",
@@ -6298,5 +6130,173 @@
     "category": "Science",
     "slug": "article-21",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Avian Influenza Detected in Wellington's Wild Waterfowl",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Pounder Polar Plunge Supports Local Healthcare and Safety",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Roadwork Causes Highway Closures Across Toronto Starting Today",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Women Inspiring Women Event This Sunday in Quinte",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "OC Transpo Working to Restore Full O-Train Service",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Bay of Quinte Home Show Returns for Local Business Showcase",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Three Arrested in Oshawa Drug Investigation",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Saskatoon Police Welcome Taffy, a Detection Dog for Electronic Devices",
+    "category": "Canada",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Ottawa Considers Bus-Only Lanes Amid Business Concerns",
+    "category": "Ontario",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "The Importance of Affordable Childcare for Canadian Families",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Premier Tim Houston's Approval Falls to 39% Amid Budget Cuts",
+    "category": "Canada",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "DoorDash Driver Richard Pulley Receives Nearly $1 Million",
+    "category": "US",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Government Procurement Process Under Scrutiny After Security Contract Complaint",
+    "category": "Canada",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Syria Embraces Kurdish Culture in Nowruz Celebrations",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Trump Manages Multiple Global Conflicts",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Punch the monkey seen cuddling with another primate",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Record Number of Deaths Reported in U.S. Immigration Custody",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "New Support Organization Founded for Neurological Disorders",
+    "category": "Health",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "U.S. and Israel Report Military Actions Against Iran",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Ontario Plans New Electronic Medical Records System by 2029",
+    "category": "Health",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Airstrike on Iran's Nuclear Facility Sparks Regional Tensions",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Air Strike Kills Iranian Police Leader Amid Ongoing Protests",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Iran Targets US-UK Military Base with Missiles",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-21",
+    "headline": "Drone Strike Causes Blackout in Chernihiv, Ukraine",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 2
   }
 ]
