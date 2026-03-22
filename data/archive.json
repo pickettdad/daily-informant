@@ -1,237 +1,6 @@
 [
   {
     "date": "2026-03-06",
-    "headline": "Energy Infrastructure Impacted by U.S.-Israeli War with Iran",
-    "category": "World",
-    "slug": "story-14",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Kurds Potentially Involved in Iran Conflict",
-    "category": "World",
-    "slug": "story-15",
-    "source_url": "https://www.pbs.org/newshour/politics/who-are-the-kurds-and-what-role-could-they-play-in-the-war-with-iran"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Nigerian Village Attacked by Suspected Militants",
-    "category": "World",
-    "slug": "story-16",
-    "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "China Affected by Middle East Conflict",
-    "category": "World",
-    "slug": "story-17",
-    "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Clashes in Sudan's Kordofan Region Result in 51 Fatalities",
-    "category": "World",
-    "slug": "story-18",
-    "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260306-51-people-have-been-killed-in-the-last-24-hours-in-sudan-s-kordofan-region"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Accuses Russia of Sharing US Troop Locations with Iran",
-    "category": "World",
-    "slug": "story-19",
-    "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Axel Springer to Acquire Telegraph Media Group for £575 Million",
-    "category": "Business",
-    "slug": "story-20",
-    "source_url": "https://www.bbc.com/news/articles/cyv916d999no?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Trump Predicts Change in Cuba's Regime",
-    "category": "US",
-    "slug": "story-21",
-    "source_url": "https://www.theguardian.com/us-news/live/2026/mar/06/kristi-noem-democrats-ice-donald-trump-pete-hegseth-iran-middle-east-us-politics-latest-news-updates"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Waitrose to Halt Mackerel Sales Amid Overfishing Concerns",
-    "category": "Business",
-    "slug": "story-22",
-    "source_url": "https://www.bbc.com/news/articles/cgl5gee07xzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Markwayne Mullin Nominated as DHS Head",
-    "category": "US",
-    "slug": "story-23",
-    "source_url": "https://thehill.com/homenews/senate/5772015-markwayne-mullin-dhs-nomination/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "UK to Harness Geothermal Energy for Homes",
-    "category": "Science",
-    "slug": "story-24",
-    "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Trump Administration Proposes New Rule for Foster Homes",
-    "category": "US",
-    "slug": "story-25",
-    "source_url": "https://www.washingtonexaminer.com/policy/healthcare/4483779/trump-hhs-undoes-biden-rule-foster-homes-affirm-transgender-children/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Young Boy Raises Funds for Charity Through Can Recycling",
-    "category": "World",
-    "slug": "story-1",
-    "source_url": "https://www.goodnewsnetwork.org/schoolboy-with-can-do-attitude-has-recycled-a-million-cans-and-donated-the-proceeds-to-charity/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Rise Amid U.S. Jobs Report",
-    "category": "Business",
-    "slug": "story-2",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112788/oil-prices-stocks-jobs-report"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Conflict Escalates in the Middle East",
-    "category": "World",
-    "slug": "story-3",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737460/in-one-week-war-has-swept-across-the-middle-east"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Israel Conducts Strikes in Beirut and Tehran following Iranian Missile Fire",
-    "category": "World",
-    "slug": "story-4",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5738448/iran-us-israel-war"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Violence Escalates in South Sudan Amid Government and Opposition Clashes",
-    "category": "World",
-    "slug": "story-5",
-    "source_url": "https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Economy Reports Job Losses in February",
-    "category": "US",
-    "slug": "story-6",
-    "source_url": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "US Customs Prepares Refund System for Illegal Trump Tariffs",
-    "category": "US",
-    "slug": "story-7",
-    "source_url": "https://www.theguardian.com/us-news/2026/mar/06/us-judge-lawyers-175bn-trump-tariffs-refunds"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Wife Helps Locate Husband Buried in Avalanche Using Tracking Technology",
-    "category": "US",
-    "slug": "story-8",
-    "source_url": "https://www.goodnewsnetwork.org/wife-used-find-my-iphone-to-locate-husband-buried-in-an-avalanche-for-over-4-hours/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Supreme Court Determines Asylum Seekers Can Access Subsidized Daycare in Quebec",
-    "category": "Canada",
-    "slug": "story-9",
-    "source_url": "https://nationalpost.com/news/canada/supreme-court-rules-that-asylum-seekers-can-access-subsidized-quebec-daycare"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Energy Facilities Targeted in U.S.-Israeli War with Iran",
-    "category": "World",
-    "slug": "story-10",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5736593/middle-east-iran-energy-lng"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Gunmen Attack Village in Nigeria, Causing Significant Casualties",
-    "category": "World",
-    "slug": "story-11",
-    "source_url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Oil Prices Reach Two-Year High Amid Gulf Production Concerns",
-    "category": "Business",
-    "slug": "story-12",
-    "source_url": "https://www.bbc.com/news/articles/cy031ylgepro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Study Suggests Affordable Weight-Loss Jab Could Be Available",
-    "category": "Health",
-    "slug": "story-13",
-    "source_url": "https://www.theguardian.com/global-development/2026/mar/06/generic-drugs-weight-loss-semaglutide-ozempic-wegovy-diabetes-obesity-study"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "U.S. Customs Developing Tariff Refund Process",
-    "category": "Business",
-    "slug": "story-14",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5739361/tariff-refunds-customs-lawsuits-trade-court"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Medical Schools to Increase Nutrition Curriculum Hours",
-    "category": "Health",
-    "slug": "story-15",
-    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Snowmobilers Rescue Young Moose in New Hampshire",
-    "category": "US",
-    "slug": "story-16",
-    "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Researchers Develop Compact AI Model Using Monkey Neurons",
-    "category": "Science",
-    "slug": "story-17",
-    "source_url": "https://www.npr.org/2026/03/03/nx-s1-5729433/ai-brain-monkey-neurons"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Daylight Saving Time Returns in Ontario",
-    "category": "Canada",
-    "slug": "story-18",
-    "source_url": "https://www.thestar.com/news/canada/daylight-saving-time-is-returning-heres-what-you-need-to-know-about-the-spring-forward/article_74d01e9d-7b96-4e67-a77a-584f386dd039.html"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Winter Paralympics Open Amid Controversy Over Russian Athletes",
-    "category": "Sports",
-    "slug": "story-19",
-    "source_url": "https://www.france24.com/en/sport/20260306-russian-athletes-booed-as-they-march-under-their-own-flag-at-winter-paralympics-opening"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Incident",
-    "category": "World",
-    "slug": "story-20",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-  },
-  {
-    "date": "2026-03-06",
-    "headline": "China Responds to Regional Instability Amid Iran Conflict",
-    "category": "World",
-    "slug": "story-21",
-    "source_url": "https://www.bbc.com/news/articles/c2044vzrdpzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-06",
     "headline": "Dow Jones Industrial Average Drops Amid Surge in Oil Prices",
     "category": "Business",
     "slug": "story-22",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-20",
     "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Collision on Dundas Street West Causes Serious Injuries",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Pounder Polar Plunge Raises Funds for Local Services",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "H5N1 Avian Influenza Detected in Wellington's Wild Waterfowl",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Gatineau fundraiser supports Parkinson's research through kick-boxing",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Criminal Case Against Randy Hillier Reinstated by Court",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Maplewood Court Residents Celebrate Life in Fashion Photoshoot",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Scheduled Highway Closures in Toronto for Roadwork",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Community Dads Gift Car to Beloved Crossing Guard",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Ontario's Legislature Resumes with FOI Law Discussions",
+    "category": "Ontario",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "UNESCO Adds Black Loyalist Archive to Memory of the World Register",
+    "category": "Canada",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Ontario's Virtual Healthcare Growth Faces Funding Cut Challenges",
+    "category": "Ontario",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Milford Police Department Adopts Shelter Dog Named Lil' Craig",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Job Availability Challenges for Young Canadians in Coastal Areas",
+    "category": "Canada",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Afghan TV Show Jan-e-Gap Maintains Popularity Among Viewers",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "American Favorability Towards Canada Declines Significantly",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Significant Air Quality Improvements in Major Cities",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Floor Collapse at New Hampshire Wedding Injures Six",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "NASA's Artemis II Rocket Returns to Launch Pad for Mission",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Hawaii Orders Evacuations Amid Severe Flooding Crisis",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Harrison Nott Wins International Prize for Cooling Towel",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Russian Drone Strike in Ukraine Kills Two Amid Peace Talks",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Greece Evacuates Pets and Owners Amid Gulf Conflict",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "This article appears to be fictional - Robert Mueller has not died",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 7
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "King Charles III Inaugurates 2,689-Mile Coastal Path",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Cuba Faces Third Nationwide Blackout This Month",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "West London Project to Provide Low-Carbon Heating to 4,000 Homes",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Trump Demands Iran Reopen Strait of Hormuz Within 48 Hours",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "AI Glasses Show Potential Benefits for Dementia Patients",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "US Military Destroys Iranian Weapons Bunker",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Lab-Grown Food Pipes Offer Hope for Pediatric Patients",
+    "category": "Health",
+    "slug": "article-32",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "Trump Threatens ICE Deployment Amid TSA Staff Shortages",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "UK Cancer Death Rates Hit Record Low in 2024",
+    "category": "Health",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-22",
+    "headline": "NHS Inquiry Exposes Pandemic Strains and Patient Risks",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 1
   }
 ]
