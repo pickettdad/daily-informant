@@ -29,10 +29,7 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [
-        "Iran has warned of laying mines in the Persian Gulf amid escalating tensions with the U.S.",
-        "The formation of a coalition of 22 nations aims to enhance security in the vital Strait of Hormuz, crucial for global trade."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -254,7 +251,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-03-22T07:09:17.396107-04:00",
+      "last_material_update": "2026-03-24T07:32:07.410467-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -275,7 +272,10 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Ukraine claims to have evidence of Russian intelligence support for Iran, raising concerns for regional stability and Canadian interests as a NATO member.",
+        "Russia's extensive drone and missile strikes on Ukraine have resulted in civilian casualties, indicating a dangerous shift in the conflict's intensity."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -313,6 +313,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-24",
+          "text": "Russia Launches Drone Attack on Ukraine",
+          "category": "military",
+          "source_url": "https://www.thestar.com/news/world/europe/russia-fires-nearly-400-drones-at-ukraine-with-signs-its-spring-offensive-has-started/article_ece96932-dd64-516d-89ff-25206ca98b25.html"
+        },
         {
           "date": "2026-03-22",
           "text": "Russian Drone Strike in Ukraine Kills Two Amid Peace Talks",
