@@ -1,230 +1,6 @@
 [
   {
     "date": "2026-03-07",
-    "headline": "NASA Revises Moon Landing Plans with Additional Mission",
-    "category": "Science",
-    "slug": "story-13",
-    "source_url": "https://www.bbc.com/news/articles/c6270030neyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "UK to Utilize Geothermal Energy for Home Heating",
-    "category": "Science",
-    "slug": "story-14",
-    "source_url": "https://www.bbc.com/news/articles/cewzg77k721o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Snowmobilers Rescue Moose Buried in Snow in New Hampshire",
-    "category": "US",
-    "slug": "story-15",
-    "source_url": "https://www.goodnewsnetwork.org/snowmobilers-dig-exhausted-young-moose-out-of-the-snow-in-new-hampshire-woods/"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Increased Interest in Curling Following Olympics and Paralympics",
-    "category": "Sports",
-    "slug": "story-16",
-    "source_url": "https://www.npr.org/2026/03/07/g-s1-112246/curling-had-its-moment-at-the-olympics-and-now-paralympics-it-sparked-a-curling-bonanza-in-america"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Medical Schools to Enhance Nutrition Curriculum",
-    "category": "Health",
-    "slug": "story-17",
-    "source_url": "https://www.npr.org/2026/03/05/nx-s1-5736550/medical-schools-agree-to-expand-their-nutrition-curriculum-this-fall"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Canada Moves to Daylight Time as B.C. Adopts Year-Round Change",
-    "category": "Canada",
-    "slug": "story-18",
-    "source_url": "https://www.thestar.com/news/canada/british-columbia/clocks-springing-forward-this-weekend-b-c-adopts-year-round-daylight-time/article_1ba111a6-e09b-52ba-b4f4-7f4b0e859b40.html"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "George Russell Secures Pole Position in Australian Grand Prix Qualifying",
-    "category": "Sports",
-    "slug": "story-19",
-    "source_url": "https://www.bbc.com/sport/formula1/articles/c8d5l339535o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Voronchikhina Earns First Medal for Russia at Winter Paralympics",
-    "category": "Sports",
-    "slug": "story-20",
-    "source_url": "https://www.bbc.com/sport/articles/c89k598z28po?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "2026 Winter Paralympics Begin with Six Competitive Sports",
-    "category": "Sports",
-    "slug": "story-21",
-    "source_url": "https://www.pbs.org/newshour/world/the-2026-winter-paralympics-have-begun-here-are-the-6-sports-athletes-are-competing-in"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "American-Iranians Face Communication Challenges Amid Ongoing Conflict in Iran",
-    "category": "World",
-    "slug": "story-22",
-    "source_url": "https://www.npr.org/2026/03/06/nx-s1-5737478/as-the-war-goes-on-in-iran-american-iranians-struggle-to-stay-in-touch-with-family"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Trump Calls for Unconditional Surrender from Iran Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "story-23",
-    "source_url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Sri Lanka Takes Custody of Iranian Vessel Following U.S. Naval Action",
-    "category": "World",
-    "slug": "story-24",
-    "source_url": "https://www.npr.org/2026/03/06/g-s1-112759/after-the-u-s-sinks-an-iranian-warship-sri-lanka-takes-custody-of-an-iranian-vessel"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "US Intelligence Reports Russia Aiding Iran with US Troop Locations",
-    "category": "World",
-    "slug": "story-25",
-    "source_url": "https://abcnews.com/Politics/us-believes-russia-providing-iran-locations-american-troops/story?id=130833310"
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Community Input Invited for Development of Quinte Compass",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Tornado Outbreak in Central United States Results in At Least Eight Fatalities",
-    "category": "US",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Oil Prices Surge Amid Qatar's Warning of Potential Production Halts",
-    "category": "Economy",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Belleville City Council to Decide on Front Street Upper Bridge Rehabilitation",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Public Meeting Scheduled for Proposed High-Speed Rail Line in Tyendinaga Township",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Gunfire Damages Two Toronto-Area Synagogues",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Iran's President Apologizes for Attacks as U.S. Intensifies Military Threats",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Trump Issues Warning to Iran Amid Ongoing Tensions",
-    "category": "US",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Severe Flooding in Nairobi Leads to 23 Fatalities",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Young Boy Raises Thousands for Charity Through Can Recycling Efforts",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Tornadoes in Michigan Result in Casualties and Damages",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "US Economy Experiences Job Losses in February 2026",
-    "category": "US",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Challenges in Gaza Reconstruction Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "U.S. and Israel Intensify Military Operations Against Iran",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives Donations for Food Transport Carts",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Iran's President Issues Apology Amid Ongoing Conflict and U.S. Warnings",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "13-Year-Old Boy Raises Thousands for Charity by Recycling Over a Million Cans",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
     "headline": "Tornadoes Strike Central United States, Resulting in Multiple Casualties",
     "category": "US",
     "slug": "article-5",
@@ -6298,5 +6074,229 @@
     "category": "World",
     "slug": "article-32",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Belleville Residents Urged to Register for Health Care Connect",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Youth-led Program Supports Families with School Uniforms",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "New Long-Term Care Home Opens in Belleville as Demand Grows",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Prince Edward County Develops New Respiratory Clinics",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Healthcare Demand Rises in Bay of Quinte Region",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "New Tiny House Community Launches in Bloomington",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Local Health Care System Faces Increased Demand",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "CAA's Worst Roads Campaign Invites Nominations for 2025",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Ontario's Ticket Resale Cap Faces Scrutiny Ahead of World Cup",
+    "category": "Ontario",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Ontario to Waive HST on New Homes for One Year",
+    "category": "Ontario",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Ontario Police Watchdog Investigates Arrest of Rockland Man",
+    "category": "Ontario",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Shay Taylor-Allen Transitions to Medical Resident at Yale",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Air Canada Express Flight Involved in Fatal Crash at LaGuardia Airport",
+    "category": "Canada",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Cities Reduce Air Pollution by Up to 40% in 15 Years",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Canada Post Union Leaders Urge Rejection of Tentative Deals",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Solar Energy Costs Plummet Amidst Rising Fossil Fuel Prices",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Potential Iran Tensions Could Affect Global Energy Markets",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "NASA Prepares for Historic Lunar Mission",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Charles Milliard Named Leader of Quebec Liberals",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Sarah Mullally Becomes First Female Archbishop of Canterbury",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "U.S. Deploys Troops to the Middle East Amid Ceasefire Talks",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 13
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "UK Cancer Death Rates Hit Record Low Amid Research Advances",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "US Boosts Military Presence in Middle East Amid Peace Talks",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Study Links Coffee Consumption to Lower Dementia Risk",
+    "category": "Health",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Iran Rejects U.S. Ceasefire Plan Amid Ongoing Attacks",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Breakthrough in Microlasers Paves Way for Disease Detection",
+    "category": "Health",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Mass grave with 32 bodies discovered in Kenya",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Moscow's Drone Offensive Targets Ukrainian Energy Infrastructure",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Trump's Changing Goals in Iran War: Timeline and Implications",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Israeli Military Indicates Longer War Efforts Against Iran",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Iran's Closure of Strait of Hormuz Disrupts Global Energy Supplies",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-25",
+    "headline": "Denmark's Political Landscape in Uncertainty After Election",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 4
   }
 ]
