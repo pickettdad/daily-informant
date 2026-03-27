@@ -1,230 +1,6 @@
 [
   {
     "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Gunfire Strikes Two Synagogues in Toronto Area, No Injuries Reported",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Tragic School Bus Accident in Quebec Claims a Child's Life",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Young Boy Raises Thousands for Charity by Recycling Cans",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "US Economy Sees Job Losses in February Amid Sector Contraction",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Israeli Forces Conduct Raid in Lebanese Village Resulting in Casualties",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Ukraine Deploys Armed Robots in Ongoing Conflict with Russia",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Tornadoes Cause Fatalities and Injuries in Southern Michigan",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "NASA Modifies Artemis Program With Additional Moon Mission",
-    "category": "Science",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Nightclub Bombing in Northern Peru Injures 33 Individuals",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Quinte Compass Development Seeks Community Input",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts from Auxiliary",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Tornadoes Kill Six in Michigan and Oklahoma Amid Severe Storms",
-    "category": "US",
-    "slug": "article-2",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Woman Extradited to Toronto on Second-degree Murder Charge",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Escalating Tensions Mark Ongoing U.S.-Iran Conflict",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 14
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "US February Job Losses Mark Significant Economic Shift",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Oil Prices Surge as Qatar Warns of Potential Gulf Production Cessation",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "NASA Expands Artemis Program with Additional Moon Mission",
-    "category": "Science",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Oil Prices Surge Amid Qatar's Warning of Potential Gulf Production Halt",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Fire Erupts at Tehran Oil Depot Following Israeli Airstrike",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "U.S. Honors Soldiers Killed in Iran Conflict Amid Intensifying Situation",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 10
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Public Meeting Scheduled for Proposed Alto High-Speed Rail Line in Tyendinaga Township",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Community Collaboration Aims to Develop Quinte Compass Tool",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Canadians Return Home From Dubai Amidst Recent Airstrike Tensions",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Belleville City Council to Vote on Front Street Upper Bridge Rehabilitation",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives New Food Transport Carts",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Canadian Travelers Return Amid Escalating U.S.-Iran Tensions",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Belleville City Council to Decide on Front Street Upper Bridge Rehabilitation",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Community Engagement for Quinte Compass Development",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Power Outage Affects Over 13,500 Residents in East Toronto",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
     "headline": "Canadians Return Home from Dubai Amid Airstrike Concerns",
     "category": "Ontario",
     "slug": "article-6",
@@ -6296,6 +6072,230 @@
     "date": "2026-03-26",
     "headline": "Innovative Payphone Project Links Youth and Seniors to Combat Loneliness",
     "category": "Health",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Five Charged in Trent Hills Drug and Firearm Investigation",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Hastings County Launches Investment Attraction Hub",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Vanier College Cancels Holocaust Commemoration Amid Security Concerns",
+    "category": "Canada",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Belleville Moves Forward with Sewage Pumping Station Project",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Trump to Sign Order Paying TSA Agents Amid Shutdown",
+    "category": "US",
+    "slug": "article-15",
+    "source_count": 8
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Michaud and Pereira Win Bronze at World Figure Skating Championships",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Trump Extends Iran Negotiation Deadline to April 2026",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 7
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Council Committee Recommends Lease for Expanded Marina at Picton Harbour",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Ongoing Global Conflicts from Ukraine to Pakistan Raise Stability Concerns",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Algonquin College to Transition Disability Program in 2026",
+    "category": "Ontario",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Belarus and North Korea Sign Friendship Treaty",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "South Korean Submarine Heads to Canada for Naval Exercises",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Marco Rubio at G7 Amid US-Israeli War on Iran",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 8
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Reverence in Prayer: A Call for Historical Practices",
+    "category": "Canada",
+    "slug": "article-32",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Iran Reports 1,937 War Casualties Amid US-Israel Attacks",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Senate Passes Funding Bill for Homeland Security Department",
+    "category": "US",
+    "slug": "article-10",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "102-Year-Old Grandfather Goes Viral for Pottery Skills",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Mangrove Restoration Boosts Cambodian Fisheries",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Study Reveals Lower Degradation Rates in Solar Panels",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Newly Hatched Sea Turtles Begin Journey to Ocean in Gabon",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Dragon Fruit Farming Thrives in India as Farmers Seek Profits",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Texas Teen Receives Honor Medal for Daring Rescue",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Chilean President Boric Establishes Vast Marine Protected Area",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "US Court Rules Against Meta and Google Over Social Media Impact",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Solar Energy Costs Plummet Amid Rising Fossil Fuel Prices",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Study Finds Diet Crucial for Cognitive Health in Older Adults",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "UK Cancer Death Rates Hit Record Low",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Research highlights soil health's importance to human well-being",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Australian Researchers Develop Quantum Battery Prototype",
+    "category": "Science",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Sperm Whales Display Cooperative Behavior During Birth",
+    "category": "Science",
+    "slug": "article-14",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Dogs and Humans Coexisted in Britain 15,000 Years Ago",
+    "category": "Science",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-27",
+    "headline": "Birds Changing Breeding Seasons Due to Climate Change",
+    "category": "Science",
     "slug": "article-27",
     "source_count": 1
   }
