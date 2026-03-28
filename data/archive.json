@@ -1,230 +1,6 @@
 [
   {
     "date": "2026-03-07",
-    "headline": "Canadians Return Home from Dubai Amid Airstrike Concerns",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Severe Storms and Tornadoes Claim Six Lives in Michigan and Oklahoma",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Missile Strike in Kharkiv Results in Multiple Casualties",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Oil Prices Surge Amid Gulf Production Warnings",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Public Meeting Scheduled on Proposed High-Speed Rail in Tyendinaga",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Daylight Saving Time Begins This Weekend in Bay of Quinte",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Continues Following Sexual Assault Charges on Tyendinaga Mohawk Territory",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Fog Conditions Cause Low Visibility Across Bay of Quinte",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Extradition Made in Connection to 2024 Toronto Shooting",
-    "category": "Ontario",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Trump Dismisses UK Assistance as US-Iran War Escalates",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 18
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Incident Involving Pedestrian and Utility Pole",
-    "category": "Ontario",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Gunfire Hits Two Synagogues in Toronto Area, Prompting Community Outcry",
-    "category": "Ontario",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Ongoing Developments in Iran Following Presidential Warnings",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Weekly Overview of Positive Developments Around the Globe",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Israeli Special Forces Conduct Operations in Lebanon with Fatal Consequences",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Construction Crew Sends Messages of Hope to Young Heart Transplant Patient",
-    "category": "US",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Formerly Homeless Man Wins $1 Million Lotto Prize",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Explosion Near U.S. Embassy in Oslo Reported with No Injuries",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Innovative Green Dome Transforms Landfill Gas into Sustainable Food Production",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Campbellford Memorial Hospital Receives New Food Transport Equipment from Auxiliary",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Bay of Quinte Community Collaborates on Quinte Compass Development",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Belleville City Council to Decide on Front Street Upper Bridge Rehabilitation Project",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Canadians Returning from Middle East Report Evacuation Challenges",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Severe Weather Leads to Fatal Tornadoes in Michigan and Oklahoma",
-    "category": "US",
-    "slug": "article-5",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "U.S.-Iran Tensions Enter Second Week",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 18
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Israel Conducts Strikes on Iranian Fuel Facilities",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 9
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Gunfire Damages Two Synagogues in Toronto, Community Leaders Call for Action",
-    "category": "Ontario",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Ongoing Search in Lebanon for Israeli Officer Linked to Recent Shootout",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Oil Prices Surge Following Concerns Over Gulf Production",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Investigation Underway Following Fatal Collision in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Public Meeting Scheduled for Proposed High-Speed Rail in Tyendinaga Township",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
     "headline": "Charges Filed in Alleged Sexual Assault on Tyendinaga Mohawk Territory",
     "category": "Local",
     "slug": "article-13",
@@ -6298,5 +6074,229 @@
     "category": "Science",
     "slug": "article-27",
     "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Ontario Police Warn Seniors of Resurgence in Scams",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Cobourg's Warming Room Extended Until April 2026",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Son Sentenced to Life for Parents' Murder",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "St. Theresa Titans Capture OFSAA Hockey Championship",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Charges Filed in Connection With Northumberland County Incidents",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Aysanabee Nominated for Two Juno Awards",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Mississauga Advises Residents on Coyote Safety Measures",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "NDP Leadership Candidates Make Final Pitches in Winnipeg",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Ottawa Man Charged After Stolen Semi-Trailer Collisions",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Saskatoon Teacher Awarded Carnegie Medal for Heroism",
+    "category": "Canada",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Ontario Budget Projects Housing Resale Growth Amid Skepticism",
+    "category": "Ontario",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "UN General Assembly Votes to Condemn Transatlantic Slave Trade",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Foster Care Murder Trial Concludes As Ruling Approaches",
+    "category": "Ontario",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Promising Trial Results for New Epilepsy Drug in Children",
+    "category": "Health",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Ontario Adjusts Financial Outlook Amid Tariff Concerns",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Doctor Adopts Young Boy After Hospital Visit Alone",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Federal spending review not focused on job cuts, says Ali",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "House Passes DHS Funding Bill Amid Ongoing Shutdown",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 10
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "North Carolina woman reunites with mother after 24 years",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Senate Votes to Fund Most DHS, Leaves Immigration Issues Unresolved",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 7
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Trump's Support Base Divided on War in Iran",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 6
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Two Students Killed in Tennessee School Bus Crash",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Five killed in train-van collision in Mississippi",
+    "category": "US",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Iran War Sparks Generational Divide Among Conservatives",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Missile Attack on U.S. Base in Saudi Arabia Wounds Soldiers",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 8
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Gaza Crisis Deepens Amid Shifting International Focus",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Beirut Residents Face Crisis Amid Ongoing Israeli Military Actions in Lebanon",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Casualties reported in overnight strikes on Ukraine and Moscow",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Israel Challenges Canada’s Position on Lebanon Occupation",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "U.S. Enters Fifth Week of Conflict with Iran",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "UK Petrol Prices Exceed 150p as Accusations of Profiteering Emerge",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-28",
+    "headline": "Family Caregivers Focus on Future Planning Amidst Concerns",
+    "category": "Health",
+    "slug": "article-28",
+    "source_count": 2
   }
 ]
