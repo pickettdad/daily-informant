@@ -1,243 +1,5 @@
 [
   {
-    "date": "2026-03-07",
-    "headline": "Construction Workers Send Messages of Support to Young Heart Transplant Patient",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "NASA Adjusts Artemis Moon Landing Plans with New Mission",
-    "category": "Science",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Innovative Green Food Dome Utilizes Landfill Gas for Sustainable Agriculture",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "Avalanche Survival: Innovative Use of Technology Aids Rescue",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-07",
-    "headline": "British Columbia Adopts Permanent Daylight Saving Time",
-    "category": "Ontario",
-    "slug": "article-25",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Belleville City Council Considers Purchase of Sandbagging Unit",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Investigation Underway Following Kawartha Lakes Fatal Collision",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Campbellford Memorial Hospital Auxiliary Purchases Food Transport Carts",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Community Collaboration for Development of Quinte Compass",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Regulatory Concerns Over Transactions at GTA Crypto Shops",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Escalation of Conflict in the Middle East Following Strikes on Infrastructure",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "US Economy Reports Employment Decrease of 92,000 Jobs in February",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Oil Prices Surge Amid Gulf Production Warnings",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Construction Crew Spreads Hope to Young Heart Transplant Patient",
-    "category": "US",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Daylight Saving Time Begins March 8, 2026",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Trial of Frank Stronach Concludes with Testimonies from Seven Accusers",
-    "category": "Ontario",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Escalating Conflict in the Middle East Raises Tensions",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 12
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Renewed Violence in Lebanon as Israeli Operations Intensify",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Escalating Conflict in the Middle East as Israeli Strikes Continue",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Future Job Landscape: The Role of Trades in an AI-Dominated World",
-    "category": "Canada",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Increased Disruptions for Airlines Following Escalation in Iran Conflict",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Explosion Reported Near U.S. Embassy in Oslo, No Injuries",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Russian Missile Strike in Kharkiv Claims Lives of Ten",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Celebrating Female Entrepreneurs on International Women's Day 2026",
-    "category": "Canada",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Rising Tensions in the Middle East Prompt Canadian Evacuations",
-    "category": "Canada",
-    "slug": "article-20",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Clock Change in Canada: A Mixed Bag of Reactions",
-    "category": "Ontario",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Three Youths Arrested Following Pizza Delivery Robbery in Winnipeg",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Conflicting Indigenous Land Claims in British Columbia Highlight Longstanding Issues",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Summary of Positive News Stories from the Past Week",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Severe Tornadoes Claim Lives in the Midwest",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Ontario and Other Provinces to Begin Daylight Saving Time on March 8, 2026",
-    "category": "Ontario",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Trump Suggests Ground Troops May Be Sent to Iran Amid Tensions",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Iran Conflict Continues with Reported Attacks on Civilian Structures",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Oil Prices Surge Amid Rising Tensions in Iran",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-08",
     "headline": "Trump Administration Challenges Vermont's Climate Superfund Policy",
     "category": "US",
@@ -6297,6 +6059,244 @@
     "headline": "IOC Bans Transgender Women from 2028 Olympics",
     "category": "World",
     "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Trustee's Motion on School Busing Contracts Ruling Today",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Quinte Judo Athletes Shine at International Championships",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Freezing Rain Forecast for Ottawa Starting Tuesday Morning",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Community Band Together to Find Escaped Kangaroo in Wisconsin",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Special Weather Statement Issued for Bancroft Area",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "London Considers Higher Fees for SUV Usage",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "House Fire in Consecon Raises Fire Safety Concerns",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "New Strategies for Consumer Complaints in Canada",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Community Remembers Beloved Crossing Guard Peter Clark",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Colorado Opens North America's Largest Wildlife Overpass",
+    "category": "US",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Ford's Top Staff Salaries Increased 11% During Ontario Deficit",
+    "category": "Ontario",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Eric Clapton Celebrates 80th Birthday and His Recovery Legacy",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Ottawa 67's take 2-0 playoff lead against Kingston Frontenacs",
+    "category": "Ontario",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Five Friends Celebrate Lifelong Bond with Photos Every Five Years",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Rally Organized Over Funding Pause for Seniors' Care",
+    "category": "Canada",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "North Korea Conducts Engine Test for Potential ICBM",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Questions Raised Over Government Announcement Strategy",
+    "category": "Canada",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "UN Grants International Protection to 40 Migratory Species",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Criticism of Liberal Government's MOUs Raises Transparency Concerns",
+    "category": "Canada",
+    "slug": "article-34",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "100-Year-Old Veteran Becomes Oldest Organ Donor in U.S.",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Trump Mentions Possible U.S. Action on Iran's Kharg Island",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 13
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Dramatic Drop in Renewable Energy Costs Presents Global Opportunity",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Houthi Missile Attacks on Israel Escalate Regional Tensions",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "C. difficile detection dog Angus retires after decade of service",
+    "category": "Health",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Trump Discusses Seizing Iran's Oil Export Hub",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 9
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "New Guidelines Stress Screening Heart Patients for Mental Health",
+    "category": "Health",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Epstein Files Prompt Scrutiny of Philanthropic Funding",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "New Dietary Guidelines Increase Recommended Protein Intake",
+    "category": "Health",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "US Court Rules Against Meta and Google in Mental Health Case",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Scientists Map Clitoris Nerves for First Time",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Researchers Uncover Key Protein for Sleeping Sickness Treatments",
+    "category": "Health",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Research Highlights Link Between Soil Health and Nutrition",
+    "category": "Health",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "New Studies Reveal Sperm Whale Cooperative Birthing Behaviors",
+    "category": "Science",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-30",
+    "headline": "Discovery Pushes Back Timeline for Domesticated Dogs",
+    "category": "Science",
+    "slug": "article-12",
     "source_count": 1
   }
 ]
