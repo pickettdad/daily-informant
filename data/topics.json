@@ -257,7 +257,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-03-28T07:09:38.907752-04:00",
+      "last_material_update": "2026-03-31T07:32:34.372954-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -278,7 +278,9 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The fourth anniversary of the Bucha massacre underscores the European Union's struggles to maintain a united front in support of Ukraine amidst internal divisions over aid."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -316,6 +318,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-31",
+          "text": "Fourth Anniversary of Bucha Massacre Amid EU Discussions on Ukraine Aid",
+          "category": "humanitarian",
+          "source_url": "https://www.france24.com/en/europe/20260331-eu-diplomats-mark-bucha-massacre-anniversary-affirms-support-for-ukraine"
+        },
         {
           "date": "2026-03-28",
           "text": "Casualties reported in overnight strikes on Ukraine and Moscow",
@@ -797,7 +805,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-03-19T07:19:54.328703-04:00",
+      "last_material_update": "2026-03-31T07:32:34.372954-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -819,7 +827,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Eight Palestinian toddlers returned to Gaza after over two years apart, amidst ongoing violence and a significant humanitarian crisis."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -862,6 +872,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-03-31",
+          "text": "Eight Palestinian Toddlers Return to Gaza After Evacuation",
+          "category": "diplomatic",
+          "source_url": "https://www.aljazeera.com/news/2026/3/31/gaza-families-reunite-years-after-babies-evacuated-amid-israels-war?traffic_source=rss"
+        },
         {
           "date": "2026-03-19",
           "text": "Missile Debris Incident in West Bank Kills Three Women",

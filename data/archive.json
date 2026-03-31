@@ -1,188 +1,6 @@
 [
   {
     "date": "2026-03-08",
-    "headline": "Trump Administration Challenges Vermont's Climate Superfund Policy",
-    "category": "US",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Gunfire Incidents at Toronto Synagogues Raise Alarms",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Israeli Military Operation in Lebanon Results in 41 Deaths",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "US Economy Experiences Unexpected Job Losses in February 2026",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Important Federal Byelections Scheduled for April 2026",
-    "category": "Ontario",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Charges Announced in Tyendinaga Sexual Assault Case",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Auxiliary Improves Patient Care with New Food Transport Carts",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Gunfire Incidents at Toronto Synagogues Raise Community Fears",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Health Breakthroughs and Conservation Successes Reported",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Belleville Considers Sandbagging Unit for Flood Protection",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Tehran Airstrikes Cause Fires and Toxic Rain, Warning Issued",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Trump Demands Passage of SAVE Act Before Signing Legislation",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Two Killed in Saudi Arabia from Projectile Attack",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Tornadoes in Michigan and Oklahoma Result in Six Deaths",
-    "category": "US",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Regional Tensions Rise as Iran Responds to US-Israeli Actions with Gulf Strikes",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "British Columbia Adopts Permanent Daylight Saving Time",
-    "category": "Canada",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "London Mayor Sadiq Khan Invites AI Firm Anthropic to Expand",
-    "category": "Tech",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Six People Fall Through Ice in Hamilton, Prompting Safety Warning",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Explosion Outside U.S. Embassy in Oslo Under Investigation",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Prominent Iraqi Women's Rights Activist Murdered in Baghdad",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "El Mencho's Death: A Turning Point in Drug Trafficking War",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Escalating Violence in West Bank and Lebanon Affects Israelis, Palestinians, and Lebanese Civilians",
-    "category": "middle-east-israel-gaza",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Charges Filed in Tyendinaga Sexual Assault Case",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Fatal Collision Investigated in Kawartha Lakes",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Rescue of Stranded Fishermen Highlights Ice Safety Issues",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Toronto Hits Record Temperature Amid Weather Changes",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
     "headline": "Debate Emerges Over Potential Canadian Foreign Spy Agency",
     "category": "Ontario",
     "slug": "article-6",
@@ -6297,6 +6115,188 @@
     "headline": "Discovery Pushes Back Timeline for Domesticated Dogs",
     "category": "Science",
     "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Flooding Concerns Emerge in Quinte Region",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Film.ca Centre Cinemas Marks 100 Years of Community Service",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Prince Edward County Implements Full Burn Ban Starting April 1",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Ontario Introduces Major Housing Policy Changes",
+    "category": "Ontario",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Fire Breaks Out in Batawa, Raising Safety Concerns",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "JPMorgan Chase Launches 'American Dream Initiative' for Small Businesses",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Trustee Prinzen Appeals Court Decision on Governance Issues",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "New Reptile Species Discovered in Cambodian Caves",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Frank Stronach's Trial: Closing Arguments Commence",
+    "category": "Ontario",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Five Friends Celebrate Over 40 Years of Friendship with Photos",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Deputy Chief Funnell's Suspension and Raise Details Remain Undisclosed",
+    "category": "Ontario",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Jawbone Discovery Pushes Dog Domestication Timeline Back 5,000 Years",
+    "category": "Science",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Ontario College Presidents' High Salaries Questioned Amid Layoffs",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Artemis II to Launch with Diverse International Crew",
+    "category": "Science",
+    "slug": "article-23",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Air Canada CEO's Language Choice After Crash Draws Criticism",
+    "category": "Canada",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "TSA Employees Receive Paychecks, Relieving Financial Stress",
+    "category": "US",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "TSA Workers Receive Back Pay After Unpaid Period",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Supreme Court to Hear Case on Birthright Citizenship Tomorrow",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "U.S. Gas Prices Rise Amid Middle East Tensions",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 8
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Fourth Anniversary of Bucha Massacre Amid EU Discussions on Ukraine Aid",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 5
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Eight Palestinian Toddlers Return to Gaza After Evacuation",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "U.S. Aid Cuts Jeopardize Rohingya Refugee Well-Being",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "China Prohibits Storing Cremated Remains in Residential Spaces",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Gazan Mother Reunites with Daughter After Two-Year Separation",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Canadian Astronauts Join NASA's Artemis II Moon Mission",
+    "category": "Science",
+    "slug": "article-7",
+    "source_count": 4
+  },
+  {
+    "date": "2026-03-31",
+    "headline": "Court Ruling Could Impact Meta's Copyright Lawsuit Defense",
+    "category": "Tech",
+    "slug": "article-17",
     "source_count": 1
   }
 ]
