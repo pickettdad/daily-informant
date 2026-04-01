@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-03-08",
-    "headline": "Debate Emerges Over Potential Canadian Foreign Spy Agency",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Toronto Synagogue Shootings Prompt Demands for Action",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "New Online Tool to Aid Equity-Deserving Residents in Bay of Quinte",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Byelections Announced for Scarborough, University-Rosedale, and Terrebonne",
-    "category": "Canada",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Escalating Tensions Between Iran and Israel Following Airstrikes",
-    "category": "middle-east-israel-gaza",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Trump Demands SAVE America Act Passage Amid Internal Disputes",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Spain Announces Amnesty for Undocumented Workers Amid Global Tensions",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Oil Prices Exceed $110 a Barrel Amid Geopolitical Tensions",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Operation Epic Fury Enters Ninth Day Amid Iran's Leadership Crisis",
-    "category": "middle-east-israel-gaza",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Trump's Military Decisions Under Scrutiny After Fox News Broadcast",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Seventh U.S. Service Member Killed in Ongoing Iran Conflict",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "U.S. Military Strike Claims Six Lives in Pacific Ocean",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Kari Lake's Tenure at US Agency for Global Media Challenged",
-    "category": "US",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Anti-war Musician Country Joe McDonald Passes Away at 84",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "FBI Probes NYC Bomb Attempt as Terrorism Incident",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Team USA Competes Against Brazil in Baseball Classic",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Mojtaba Khamenei Becomes Supreme Leader of Iran Amid Tensions",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 31
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Rising Concerns Over American Prisoners Held in Iran",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "Oil Prices Reach Two-Year High Amid Gulf Production Threats",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-08",
-    "headline": "International Women's Day: Celebrations and Significance Worldwide",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Ontario Unveils Changes to OSAP, Emphasizing Loans Over Grants",
-    "category": "Ontario",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "G7 Nations Hold Emergency Meeting on Rising Oil Prices",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Couch Crescent in Quinte West Closed Due to Flooding",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Ongoing Middle East Conflict Increases U.S. Death Toll, Affects Oil Prices",
-    "category": "US",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Mojtaba Khamenei Named Iran's Supreme Leader Amidst Rising Tensions",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 34
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Study Reveals Greater Risk from Rising Sea Levels",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Senator Tillis Critiques Adviser Stephen Miller's Influence",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "New Study Reveals Chimpanzees' Alcohol Consumption Patterns",
-    "category": "Science",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Mayor Khan Invites AI Firm Anthropic to Expand in London",
-    "category": "Tech",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Decline in Public Trust Affects Health Institutions in 2026",
-    "category": "US",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Study Identifies Harmful Chemicals in Hair Extensions",
-    "category": "Health",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Global Health and Environmental Breakthroughs Reported on March 6, 2026",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-09",
     "headline": "Prince Edward County to Award Major Road-Work Tender",
     "category": "Local",
@@ -6297,6 +6073,230 @@
     "headline": "Court Ruling Could Impact Meta's Copyright Lawsuit Defense",
     "category": "Tech",
     "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Hastings County Council Rejects Proposed High-Speed Rail Project",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Ontario Invests in Northumberland-Peterborough South Emergency Preparedness",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Lawrence and Poilievre Oppose Proposed High-Speed Rail",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Quinte West Attends Good Roads Conference for Infrastructure Advocacy",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Ottawa Charge Hosts Montreal Victoire on April 3",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Senators Sign Defenseman Hoyt Stanley to Entry-Level Contract",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Driver Charged After Crash in Loyalist Township",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Rising Coyote Sightings Raise Public Safety Concerns in Kanata North",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Driver Charged with Impaired and Stunt Driving in Loyalist Township",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Red States Drive Clean Energy Advancements in the U.S.",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "RCMP Confirms Reports of Foreign Harassment in Canada",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Roofers Repair Widower's Roof After Scam",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Alberta’s carbon capture project relies on taxpayer funding",
+    "category": "Canada",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "UN Summit Grants Protections for 40 Migratory Species",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Supreme Court to Hear Birthright Citizenship Challenge",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Turkiye Qualifies for World Cup After 24-Year Hiatus",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Supreme Court to Hear Birthright Citizenship Case Soon",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "'Africa Fashion' Exhibition Opens in Paris",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Supreme Court Considers Birthright Citizenship Case Today",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Quapaw Nation Transforms Toxic Mining Site into Agricultural Land",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Trump Considers NATO Exit Amid Iran Tensions",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "New Study Links Moderate Coffee Consumption to Lower Dementia Risk",
+    "category": "Health",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Trump Considers Withdrawal from NATO",
+    "category": "US",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Routine Blood Test Reveals Early-Stage Cancer Diagnosis",
+    "category": "Health",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "China Attempts Mediation Amid Iran Conflict's Oil Threat",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Dogs Domesticated 15,000 Years Ago, Research Shows",
+    "category": "Science",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Israel Extends Attacks in Lebanon Amid Humanitarian Crisis",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Russian Military Plane Crash in Crimea Kills 29",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Israeli Attacks in Beirut Result in Seven Deaths",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "Serbian Journalists Protest Violence and Press Freedom Issues",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "U.S. Administration Indicates Shift in Iran Conflict Approach",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-01",
+    "headline": "England's Sewage Spills Decline, Environmental Concerns Persist",
+    "category": "World",
+    "slug": "article-31",
     "source_count": 1
   }
 ]
