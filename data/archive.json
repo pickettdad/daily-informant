@@ -1,230 +1,6 @@
 [
   {
     "date": "2026-03-09",
-    "headline": "Prince Edward County to Award Major Road-Work Tender",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Belleville Dispatcher Nominated for Police Services Hero Award",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Kurdish Fighters Weigh Alliance Amid Iranian Attacks",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Canada Struggles to Benefit from Rising Oil Prices",
-    "category": "Canada",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Majority of Canadians Question Prince Andrew's Role in Royal Family",
-    "category": "Canada",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Mild Weather Expected in Quinte This Week",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Intensifying Israeli Strikes Lead to Mass Displacement in Lebanon",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Upcoming Kindness Week Scheduled for March 2026",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S.-Made Missile Strike in Iran Leaves 168 Dead Near School",
-    "category": "middle-east-israel-gaza",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Ransomware Attack on Ontario Health Vendor Exposed Data Risk",
-    "category": "Ontario",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Michigan Tornadoes Claim Four Lives, State of Emergency Declared",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Conservative Party Plans Reforms to Canada’s Asylum System",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "International Women's Day Recognized Annually on March 8",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Crown Drops Two Charges Against Frank Stronach in Assault Case",
-    "category": "Ontario",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Iran Conflict Escalates, Impacting U.S. Economy and Markets",
-    "category": "US",
-    "slug": "article-2",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Nova Scotia RCMP Targets Unlicensed Cannabis Stores",
-    "category": "Canada",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Israeli Attacks Target Iran's Fuel Sites Amid Rising Tensions",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "G7 Finance Ministers Discuss Rising Oil Prices and Supply Issues",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Prince Edward County Council to Discuss Road Work Tender",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Mojtaba Khamenei Becomes Iran’s New Supreme Leader Amid Tensions",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 16
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Trump Issues Ultimatum on SAVE America Act Amid Conflict",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S. Intelligence Warns of Potential Sleeper Cell Threats from Iran",
-    "category": "US",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Two-Year-Old Dies in Incident on Private Property in Ontario",
-    "category": "Ontario",
-    "slug": "article-10",
-    "source_count": 9
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Seventh U.S. Service Member Killed in Iran Conflict",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Quinte West Sees Decrease in Building Activity in Early 2026",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "US and Gulf States Explore Ukraine's Support Against Iranian Drones",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "New Study Reveals Greater Sea Level Risk to Populations",
-    "category": "Science",
-    "slug": "article-14",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Novo Nordisk Partners with Hims & Hers for Weight-Loss Medications",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Health Breakthroughs and Conservation Successes Announced",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Concerns over AI and Military Partnership Impact Executive Leadership",
-    "category": "Tech",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Study Finds Students Spend Excessive Time on Smartphones",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Spain Implements Amnesty for Undocumented Migrants",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
     "headline": "Belleville Dispatcher Nominated for Hero of the Year Award",
     "category": "Local",
     "slug": "article-20",
@@ -6297,6 +6073,230 @@
     "headline": "England's Sewage Spills Decline, Environmental Concerns Persist",
     "category": "World",
     "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "SIU Investigates Youth Injury During Ottawa Police Arrest",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "H.J. McFarland Memorial Home Declares End to Respiratory Outbreak",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Tyendinaga and Belleville Police Assist Driver in Medical Emergency",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Belleville Opens Applications for Arts & Culture Grant",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "New Research Validates Private Surgery Outcomes in Ontario",
+    "category": "Ontario",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Dan Levy's 'Big Mistakes' to Premiere with Unique Score",
+    "category": "Ontario",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Artemis II Mission Raises Indigenous Rights Concerns",
+    "category": "Canada",
+    "slug": "article-25",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Egypt Initiates Major Renewable Energy Project Amid Global Oil Shock",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "New Hampshire Considers Legal Action Against Prediction Markets",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Revitalization of Buckingham Canal Promises Environmental Gains",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Over 10,000 Veterans Foreclosed Post VA Program Shutdown",
+    "category": "US",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "International Conference Establishes Protections for Migratory Species",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Supreme Court Questions Trump’s Birthright Citizenship Directive",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Scientists Explore Connection Between Soil Health and Human Health",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Trump Advocates for Ending the Iran War Amid Israeli Regime Change Push",
+    "category": "US",
+    "slug": "article-26",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "UK Cancer Death Rates Drop to Record Low",
+    "category": "Health",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Trump's Approval Rating Declines Amid Growing Iran War Concerns",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Evidence Shows Dogs Were Domesticated 15,000 Years Ago",
+    "category": "Science",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Supreme Court Considers Birthright Citizenship Debate",
+    "category": "US",
+    "slug": "article-28",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Trump Attends Supreme Court Hearing on Birthright Citizenship",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Canada to Join U.K. Talks on Reopening Strait of Hormuz",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "US Embassy Warns Americans to Leave Iraq Amid Threats",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Trump Predicts Swift Conclusion of Military Mission in Iran",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Middle East Conflict Disrupts Aid to Sudan",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Strong Earthquake Strikes Off Indonesia's Ternate Island",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Eight Muslim-majority countries condemn Israel's death penalty law",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "US-Israeli Attacks Continue to Impact Iran's Economy",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Gisèle Pelicot's Memoir Highlights Decades of Abuse and Healing",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Trump Claims U.S. Military Objectives in Iran Near Completion",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 8
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Finland Highlights Security Strategies After Joining NATO",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "UK Government Withdraws Doctor Training Posts Amid Strike",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-02",
+    "headline": "Claude Code Users Face Unexpected Usage Limits",
+    "category": "Tech",
+    "slug": "article-21",
     "source_count": 1
   }
 ]
