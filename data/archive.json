@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-03-09",
-    "headline": "Belleville Dispatcher Nominated for Hero of the Year Award",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Collision of Rental Van and House in Kingston Causes Damage",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "UK Charges Former Syrian Military Member with Murder",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Aboriginal Title Rulings Prompt Concerns for Private Property Rights",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Live Nation Settles Antitrust Concerns With Justice Department",
-    "category": "Ontario",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S. Soldier Killed in Iranian Attack at Prince Sultan Air Base",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Iran Reportedly Appoints Mojtaba Khamenei as New Supreme Leader Amid Reported Conflict",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 16
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Two-Year-Old Dies in Vehicle Incident in Ontario",
-    "category": "Ontario",
-    "slug": "article-2",
-    "source_count": 9
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Children's Foundation Gala Sets Attendance Record in Belleville",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Canadian Woman Dies After Cosmetic Surgery in Turkey",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S. Reports Rising Fatalities and Oil Prices Amid Middle East Conflicts",
-    "category": "US",
-    "slug": "article-5",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Belleville Dispatcher Nominated for Hero Award",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Police Seek Five Suspects After Oshawa Weapon Assault",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Police Officer Injured During Kingston Crash Recovery Operation",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Imamoglu's Corruption Trial Set to Impact Turkish Politics",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "NASA Expands Artemis Program with Additional Moon Mission",
-    "category": "Science",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "G7 Considers Oil Reserve Release Amid Price Surge",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 11
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "RCMP Targets Unlicensed Cannabis Stores in Nova Scotia",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Crown Drops Charges Against Frank Stronach, Seven Remain",
-    "category": "Ontario",
-    "slug": "article-13",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Weather Warning Issued for New Brunswick Due to Incoming Storm",
-    "category": "Canada",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S. Military Kills Six in Eastern Pacific Drug Operation",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Study Shows Chimpanzees May Exhibit Early Alcohol Consumption",
-    "category": "Science",
-    "slug": "article-16",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Quinte Regional Science and Technology Fair Set for 2026",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Iran Women's Football Team to Return Amid Safety Concerns",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Quinte West Plans Ceremony to Honour Local Business Leaders",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Naveed Akram Seeks Legal Order to Protect Family's Privacy",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Seventh U.S. Service Member Identified in Israel Violence",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "NHS England Halts New Hormone Prescriptions for Minors",
-    "category": "Health",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "U.S. Intercepts Iranian Communications Potentially Triggering Sleeper Cells",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Saharan dust cloud reaches UK and Europe in March 2026",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-09",
-    "headline": "Democratic Party Approval Drops to 30% in March Poll",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-10",
-    "headline": "Belleville City Council Discusses Health Funding Needs",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
     "date": "2026-03-10",
     "headline": "Nicholson College Students Plan Walkout Over OSAP Changes",
     "category": "Local",
@@ -6298,5 +6074,229 @@
     "category": "Tech",
     "slug": "article-21",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Belleville Task Force Addresses Homelessness Through Personal Stories",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "YMCA of Central East Ontario Receives $250,000 Donation",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Belleville's Octavia and Henry Street Project Starts This Month",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Local Artisan Transforms Broken Glass into Unique Earrings",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Belleville City Council Schedules April Roundtable with MPPs",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "World Autism Awareness Day Highlights Inclusivity Needs",
+    "category": "Canada",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Twelve Charged in Belleville Drug Investigations",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Youth Church Attendance More Frequent Across Canada",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Investigation Launched into Death of Ottawa Man in Home Care",
+    "category": "Local",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Anniversaries of Jane Goodall and Mobile Phone Call",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "CRA Announces Job Reductions Affecting Employees",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Artemis II Crew Successfully Exits Earth Orbit En Route to Moon",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Epstein files released, but no new arrests made",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Egypt Launches Major Renewable Energy Project for Homes",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Senators Question Ticketmaster Over Fee Increases",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Transformation of Buckingham Canal Highlights Community Restoration Efforts",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Reports of Military Tensions Between Iran and the U.S.",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 9
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Successful Hatching of Palm Cockatoo Chick Advances Conservation Efforts",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Reports of U.S. Military Actions Against Iran Affecting Oil Trade",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "NASA's Artemis II Mission Advances Toward the Moon",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Iranians Face Severe Economic Hardship Amid Continued Conflict",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Roofers Repair Widower's Roof After Scam",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Russia's missile strike complicates Easter truce talks",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "NASA's Artemis II Crew Completes Key Moon Maneuver",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Orion Capsule Successfully Leaves Earth's Orbit in Artemis II Mission",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Study Reveals Improvements in Health for Seniors",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Ten Years Since the Panama Papers: Legacy and Impact",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Understanding the Connection Between Soil Health and Nutrition",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "Cuba to Release 2,010 Prisoners Amid U.S. Pressure",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "NHS Offers Wegovy Free to Over One Million Patients",
+    "category": "Health",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "FDA Approves Foundayo, New Obesity Treatment Pill",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-03",
+    "headline": "NASA's Artemis II Achieves Translunar Injection Burn",
+    "category": "Science",
+    "slug": "article-21",
+    "source_count": 7
   }
 ]
