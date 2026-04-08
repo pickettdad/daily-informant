@@ -1,237 +1,6 @@
 [
   {
     "date": "2026-03-11",
-    "headline": "Documents Reveal Risks in Mandelson's Appointment as Ambassador",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "IEA Approves Historic Oil Reserve Release Amid Supply Crisis",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "UK Parliament Votes to Remove Hereditary Peers from House of Lords",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "War in Iran Disrupts Air Travel, Increases Fuel Prices",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Hastings County Considers Budget to Address Homelessness",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Gleaners Food Bank Plans New Redistribution Centre",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "U.S. Military Destroys 16 Suspected Iranian Mine-Laying Vessels in Strait of Hormuz",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Research Questions Accuracy of AI Medical Advice",
-    "category": "Health",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Flood Warning Issued for Lower Trent Watershed Region",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "$15,000 Reward Offered in Oshawa Murder Case",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "NDP's Alexandre Boulerice Weighs Shift to Québec Solidaire",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "FBI Offers Reward for Wanted Canadian Sailor",
-    "category": "Canada",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump Calls for Uprising in Iran, Drawing Parallels to 1991 Iraq",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Canadian Travel to the U.S. Declines 14.5% in February 2026",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Tehran Residents Navigate Challenges Ahead of Nowruz Celebrations",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "U.S. Strikes 500 Targets Daily in Intensified Iran Operations",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Iran Conflict Drives Up U.S. Gas Prices by 20%",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "FBI Issues Drone Attack Warning Amid U.S.-Iran Tensions",
-    "category": "US",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "IEA Approves Historic Oil Reserve Release Amid Geopolitical Tensions",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump claims significant destruction of Iran's naval forces",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "EU and UK Urge Halt to West Bank Settler Violence",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "NHS England Pauses Prescriptions for Transgender Youth Healthcare",
-    "category": "Health",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "New Underwater Mountain Range Discovered in Caribbean",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Federal Panel Retreats from Reviewing mRNA Covid-19 Vaccines",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Bank of England to Feature British Wildlife on New Banknotes",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "UK Study Highlights Efficiency of Heat Pumps",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Gleaners Food Bank to Establish New Food Redistribution Centre",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Federal Government Allocates $10 Million for Jewish Community Security",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Coordinated Global Oil Reserve Release Amid Supply Disruptions",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Toronto Invites Public to Vote on New Ferry Names",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Eglinton Crosstown and Finch West LRT Upgrade Completes",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "AI Shows Promise in Detecting Heart Disease Via Mammograms",
-    "category": "Health",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Expedition Finds Unique Marine Life in Caribbean Seas",
-    "category": "Science",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
     "headline": "Police Offer Reward in Oshawa Murder Case",
     "category": "Local",
     "slug": "article-8",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-31",
     "source_count": 2
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Public Health Funding Crisis Discussed at Council Meeting",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Ontario Expands Workplace Safety Coverage for Healthcare Workers",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "New March Statistics Show Housing Market Changes",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Local OPP Auxiliary Fosters Community Spirit During Easter",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Medication Abortion Services Begin at Marquette Urgent Care",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Carla MacLeod Steps Back From Coaching Ottawa Charge",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "High Overqualification Rates Among Recent Canadian Immigrants",
+    "category": "Canada",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Belleville Invites Public Input on Employment Lands Plan",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Transport Canada Ordered to Compensate Public Servant",
+    "category": "Canada",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Belleville's Quinte Bay Gymnastics Club to Host Provincial Championships",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Trump Announces Ceasefire with Iran, Impacts Markets",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Senators Defeat Lightning, Bolstering Playoff Chances",
+    "category": "Canada",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Judge Rules on Access to Mifepristone Pending FDA Review",
+    "category": "US",
+    "slug": "article-33",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Artemis II Astronauts Return After Successful Lunar Flyby",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "U.S. and Iran Reportedly Agree to Two-Week Ceasefire",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 19
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "NASA's Artemis II Mission Achieves Historic Moon Flyby",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Israel Continues Air Strikes in Lebanon Amid Ceasefire Announcement",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Elderly dog fights off bear to protect family",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Father drowns saving children from rip current in Florida",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Betta Fish Transforms Through Compassionate Care",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "US-Iran Agree to Conditional Two-Week Ceasefire",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 11
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Shingles Vaccine May Help Slow Aging Process, Research Suggests",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Confusion Surrounds US-Iran Ceasefire Negotiations",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "NASA Artemis II Astronauts Share Lunar Flyby Images",
+    "category": "Science",
+    "slug": "article-1",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Trump Announces Two-Week Ceasefire with Iran",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 12
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Artemis II Astronauts Make Historic Call to ISS",
+    "category": "Science",
+    "slug": "article-7",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Israel Supports US-Iran Ceasefire, Excludes Lebanon from Agreement",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "NASA releases stunning photos from Artemis II fly-by",
+    "category": "Science",
+    "slug": "article-30",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Ceasefire Between U.S. and Iran Affects Oil Prices",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 13
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Artemis II Missions Releases Stunning New Images of Moon",
+    "category": "Science",
+    "slug": "article-32",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "Ancient Monastery Revealed in Desert Excavation",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "North Korea Launches Missiles Amid Diplomatic Tensions",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-08",
+    "headline": "UK Government Withdraws Doctor Training Posts Amid Strike",
+    "category": "Health",
+    "slug": "article-20",
+    "source_count": 1
   }
 ]
