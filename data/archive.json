@@ -1,223 +1,6 @@
 [
   {
     "date": "2026-03-11",
-    "headline": "Police Offer Reward in Oshawa Murder Case",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Police Scrutiny in Frank Stronach Sexual Assault Investigation",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Iran's FIFA World Cup Participation in Doubt Amid Conflict",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Hastings County Council Votes to Renew HART Hub Funding",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "NDP MP Boulerice Considers Run for Qu\u00101bec Solidaire",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Iran War Enters Twelfth Day Amid Rising Casualties",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "U.S. Intensifies Bombing Campaign in Iran War",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Mortgage Rates and Fuel Prices Rise Amid Iran Conflict",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump Pressures Senate to Advance Voter ID Bill",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "US Inflation Rate Rose 0.3% in February",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump and Netanyahu Urge Uprising in Iran Amid Policy Debate",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Research Finds Nearly Half of Seniors Improve With Age",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "US Missile Strike in Iran Causes Over 150 Casualties",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Three Arrested Following Oslo Embassy Bombing",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Study Highlights Heat Pumps' Energy Efficiency Benefits",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Miracle Berry Enhances Quality of Life for Chemotherapy Patients",
-    "category": "Health",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Research Highlights Risks of AI for Medical Advice",
-    "category": "Health",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "BMO Contributes $100,000 to YMCA Centre for Life",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "New Food Redistribution Centre Announced in Hastings County",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "New York Man Charged in Online Luring Case Involving Ottawa Girl",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "U.S. to Release 172 Million Barrels of Oil",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Hastings County Discusses Funding to Combat Rising Homelessness",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Ottawa Federation Calls for Action Against Antisemitism",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Poilievre Advocates for Tariff-Free Trade in U.S. Visit",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Indian Cheetah Project Sees Birth of Five Cubs",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "New Underwater Ecosystem Discovered in Caribbean",
-    "category": "Science",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Miracle Berries Aid Cancer Patients in Regaining Taste",
-    "category": "Health",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Court Affirms School Board's Governance Amid Trustee Challenge",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Hastings County Council Renewes HART Hub Funding",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump's Mixed Signals on U.S.-Iran Conflict and Oil Release",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "FTC Distributes $47 Million to Mischarged Renters",
-    "category": "US",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
     "headline": "Iran's President Sets Conditions to End Ongoing Conflict",
     "category": "World",
     "slug": "article-15",
@@ -6297,6 +6080,223 @@
     "headline": "UK Government Withdraws Doctor Training Posts Amid Strike",
     "category": "Health",
     "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Suspicious Fire at Laurier Avenue West Restaurant Under Investigation",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Quinte West Joins Joint Compliance Audit Committee for Elections",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Investigation Begins into Trenton Four-Plex Fire",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Loyalist College to Honor Local Leaders at Convocation",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Health Warning Issued Over Rising Drug-Related Incidents",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Belleville Plans New Playgrounds and Court, Seeks Public Input",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Quinte West Sees Drop in Building Permits in March",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Public Consultation on North Frankfort Trail Access Begins Soon",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Ontario School Board Supervisors Charge Varying Fees",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "2026 Terry Fox Run to Launch Merchandise Collection",
+    "category": "Canada",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Ottawa Councillors Vote to Explore Rural Transit Expansion",
+    "category": "Ontario",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Miner Rescued After 14 Days Trapped in Flooded Tunnel",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Oilers' Victory Solidifies Division Lead Amid Playoff Push",
+    "category": "Ontario",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Over 130 Nations Sign Agreement to Protect Migratory Species",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Ottawa Woman Waits Over A Year for MRI, Exposes Health System Flaws",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Cambodia honors Magawa, a life-saving landmine detection rat",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Remains of Leah Keeper Identified After Three-Year Search",
+    "category": "Canada",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Johns Hopkins Develops Promising Intranasal TB Vaccine",
+    "category": "Health",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Trump and NATO Secretary General Discuss Future Partnership",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "New Pain Relief Drug DFNZ Shows Promise Without Addiction",
+    "category": "Health",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Mississippi Vaccine Policy Change Coincides with Whooping Cough Increase",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Artemis II Mission Surpasses 248,655 Miles from Earth",
+    "category": "Science",
+    "slug": "article-24",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Reports Emerge of Potential Two-Week Ceasefire Between Iran and U.S.",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Trump Questions NATO Support Amid US-Iran Tensions",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Israeli Air Strikes in Lebanon Challenge US-Iran Ceasefire",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Middle East conflicts delay energy recovery, impact gas prices",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Trump Proposes U.S.-Iran Cooperation on Nuclear Disarmament",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Global Oil Prices Surge Amid US-Iran Ceasefire Concerns",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Iran Ceasefire Raises Questions on Fuel and Food Prices",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "US and Iran Accept Pakistani-Brokered Ceasefire after 40 Days of Conflict",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-09",
+    "headline": "Silicon Valley's Turn to Nontraditional Media Signals Change",
+    "category": "Tech",
+    "slug": "article-25",
     "source_count": 1
   }
 ]
