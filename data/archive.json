@@ -1,208 +1,5 @@
 [
   {
-    "date": "2026-03-11",
-    "headline": "Iran's President Sets Conditions to End Ongoing Conflict",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "EU and UK Demand Action Against Settler Violence in West Bank",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Trump Urges Senate to Pass Voter ID Bill",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Woman Declared Cancer-Free After Innovative Transplant",
-    "category": "Health",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "Death Valley National Park Sees Massive Wildflower Bloom",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "New AI Study Reveals Heart Disease Risks in Mammograms",
-    "category": "Health",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-11",
-    "headline": "University of Waterloo Researchers Convert Plastic Waste to Vinegar",
-    "category": "Science",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "BMO Donates $100,000 to YMCA Centre for Life Campaign",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "U.S. to Release 172 Million Barrels of Oil",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Study Suggests GLP-1 Drugs May Help Reduce Addiction Risk",
-    "category": "Health",
-    "slug": "article-3",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Trump Administration Launches New Trade Investigation After Court Ruling",
-    "category": "US",
-    "slug": "article-4",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Poll Reveals Majority Support for Provincial Immigration Control",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Escalating Attacks in Persian Gulf Drive Oil Prices Above $100",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 12
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Hungarian Elections Shaped by Ukraine War Dynamics",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Floods and Landslides in Southern Ethiopia Kill at Least 64",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Local Cheerleaders Invited to National Championship",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Court Dismisses Legal Challenge, Supports School Board Governance",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Hastings County Recommends Purchase of Four New Ambulances",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Ottawa Federation Calls for Action Against Antisemitism",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Poll: Young Canadian Men Say Gender Equality Has Progressed Enough",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Airbnb's Incentive Program Raises Housing Concerns in Toronto",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "FBI Warns California Police of Potential Drone Threat from Iran",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Massachusetts Officer Rescues Woman from Incoming Train",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "China Mandates Mandarin for Minority Children, Sparks Controversy",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Miracle Berries Aid Cancer Patients Battling Taste Changes",
-    "category": "Health",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Innovative Tech to Predict Bridge Collapse Risks",
-    "category": "Science",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Expedition Uncovers Diverse Marine Life in Caribbean",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "New Cheetah Cubs Born in India, Supporting Conservation Efforts",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Death Valley Hosts Largest Wildflower Bloom in a Decade",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-12",
     "headline": "Belleville Man Charged After Assaulting Officer",
     "category": "Local",
@@ -6298,5 +6095,208 @@
     "category": "Tech",
     "slug": "article-25",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Search Intensifies for Missing Teen in Amherstview",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 21
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Trenton MFRC Named Beneficiary for McHappy Day 2026",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "House Fire in Quinte West Linked to Careless Smoking",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Belleville Announces Public Consultations for Official Plan Review",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Search underway for missing Ottawa man David Firman",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Belleville 50+ Centre Hosts Open House for Local Seniors",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Ontario Education Minister to Unveil School Board Reforms",
+    "category": "Ontario",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Cohere and Aleph Alpha in Merger Talks, Supported by Germany",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Ontario to Reduce Teacher Training Duration Amid Shortage",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Canadians Show Increasing Desire for Children Amid Low Fertility Rates",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Ottawa 67's Lose Game 1, Face Player Suspension Concerns",
+    "category": "Ontario",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Viral Photo Captures Family Moment During Artemis II Launch",
+    "category": "US",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Byelections Could Pave Way for Liberal Majority",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Applebee's Manager Saves 50 During Michigan Tornado Warning",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "FEMA Faces $10 Billion Funding Backlog Impacting Communities",
+    "category": "US",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Cambodia Honors Hero Rat Magawa with Statue",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "FAA Investigates Near-Collision of Frontier Airlines Flight at LAX",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Isle of Man Exceeds Tree Planting Goal in Reforestation Project",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Federal Judge Rules Pentagon Violating Access Order",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "AI Chatbot Aids in Accurate Diagnosis After Years of Misdiagnosis",
+    "category": "Health",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Justice Department Investigates NFL Anticompetitive Practices",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Trump Administration Proposes Rollbacks on Coal Ash Disposal Regulations",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Vice President Vance Negotiates Ceasefire with Iran",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Putin Declares 32-Hour Ceasefire in Ukraine for Easter",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Artemis II Crew to Splash Down After Lunar Mission",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 8
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Xi Jinping Hosts Taiwanese Opposition Leader Cheng Li-wun",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Kilauea Volcano Erupts, Causing Park Closure and Ashfall Warnings",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "Ceasefire Agreement Faces Strain Amid Middle East Tensions",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-10",
+    "headline": "U.S. and Iran Engage in Ceasefire Talks in Pakistan",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 3
   }
 ]
