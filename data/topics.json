@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-04-04T07:14:04.883600-04:00",
+      "last_material_update": "2026-04-11T07:14:45.164542-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The outcomes of Vice President JD Vance's negotiations in Pakistan could reshape U.S.-Iran relations as a ceasefire enters its fifth day."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-11",
+          "text": "Vice President Vance in Pakistan for U.S.-Iran Peace Talks",
+          "category": "diplomatic",
+          "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-israel-ceasefire-talks/"
+        },
         {
           "date": "2026-04-04",
           "text": "Iran Executes Members of Banned Opposition Amid Regional Conflicts",
@@ -290,9 +298,7 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [
-        "Russian President Vladimir Putin's declaration of a 32-hour ceasefire for Orthodox Easter weekend offers a temporary pause in hostilities in Ukraine."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
