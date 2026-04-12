@@ -1,194 +1,5 @@
 [
   {
-    "date": "2026-03-12",
-    "headline": "Miracle Berries Improve Food Enjoyment for Chemotherapy Patients",
-    "category": "Health",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-12",
-    "headline": "Satellite Technology Could Predict Bridge Failures",
-    "category": "Science",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Special Weather Statement Issued for Quinte Region",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Seminar on Advance Care Planning Offered to Community",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Ottawa Waste Collection Transition Delays Service for Residents",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Alberta Landowners Protest MAGA Energy Over Unpaid Lease Fees",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Fire Breaks Out at Commercial Plaza in Belleville",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Oksana Masters Becomes Top US Winter Paralympian",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Byron Street Closed in Quinte West After Water Main Break",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Virco Manufacturing Launches Apprenticeship Program to Tackle Skills Gap",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Ontario Proposes Consolidation of Conservation Authorities",
-    "category": "Ontario",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Factory-Built Homes Gain Acceptance Amid Housing Crisis",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "More than 30 Canadian Soldiers Suffer Frostbite in Alaska",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Bounty Project Cleans 84 Tons of Pacific Fishing Gear",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Regina Man Highlights Importance of Smoke Detectors After Fire",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "US Eases Sanctions on Russian Oil Amid Energy Crisis",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Canada Sees 19% Drop in Immigration for 2025",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Miracle Berries Studied for Easing Chemotherapy Taste Side Effects",
-    "category": "Health",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Security Concerns Rise After Synagogue Shootings in Toronto",
-    "category": "Canada",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Untouched Underwater Mountain Range Discovered in Caribbean",
-    "category": "Science",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Carney Visits Norway to Discuss Energy Security Amid Global Instability",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Trump Faces Political Pressure Amid Rising Gas Prices",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Violent Attacks Raise Security Concerns in U.S.",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Shooting at Old Dominion University investigated as terrorism",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Iranian Sailors Killed in Naval Incident, Bodies Set for Repatriation",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Iran Launches Drone Attacks on Gulf Arab States",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Conflict in Middle East Prompts Threats from Iran and Israel",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-13",
     "headline": "Conflict in Gulf Leaves 20,000 Sailors Stranded",
     "category": "World",
@@ -6298,5 +6109,194 @@
     "category": "Science",
     "slug": "article-26",
     "source_count": 13
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "OPP Seeks Public Help to Find Wanted Individual",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "New Program for Seniors to Combat Online Scams Launches in May",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Barrie Police Search for Suspect in Serious Stabbing",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Brighton to Host Volunteer Recognition Event in 2026",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Fleming and St. Lawrence Colleges Announce Merger Plans",
+    "category": "Ontario",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Quinte Regional Science and Technology Fair Spotlights Local Talent",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Highway 401, 404, and 427 Closures Begin in Toronto",
+    "category": "Ontario",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Ottawa Council to Debate Bubble Bylaw This Summer",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Literacy Challenges and AI Integration in Canada",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Watermain Flushing Program Begins April 13 in Picton",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Republican Senator Cramer Pushes for Enhanced Canada-U.S. Relations",
+    "category": "Canada",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Belleville’s Community Trees Seedling Giveaway Set for 2026",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Ipsos Poll Shows Liberal Majority Supported by 53% of Canadians",
+    "category": "Canada",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Ottawa Senators Secured Spot in NHL Playoffs Again",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Trump Indicates Potential Use of Pardon Power",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Young Girl Saves Brothers from House Fire",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "U.S. and Iran Conclude Talks Without Nuclear Deal",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 11
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Artemis II Crew Returns from Historic Moon Mission",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 8
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Hezbollah Commander Addresses Recent Israel-Lebanon Conflict",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Cat Reunited with Owner After Five Years Missing",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Easter ceasefire breakdown reveals deep mistrust",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Norway to Introduce 20 Electric Hydrofoil Vessels",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Hungarian Election Sees High Voter Turnout Amid Leadership Shift",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "AI's Role in Diagnosing Rare Health Conditions Revealed",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "Stampede during Haiti celebration leaves 30 dead",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "NASA's Artemis II Mission Shows Promising Results",
+    "category": "Science",
+    "slug": "article-18",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-12",
+    "headline": "U.S. Navy Initiates Mine-Clearing in Strait of Hormuz",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 4
   }
 ]
