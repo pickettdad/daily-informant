@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-04-11T07:14:45.164542-04:00",
+      "last_material_update": "2026-04-13T08:06:34.101851-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,11 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The ongoing conflict involving U.S. and Israel's military actions against Iran could significantly impact global economic stability and inflation, affecting Canadians directly.",
+        "The impending U.S. blockade of Iranian ports will likely heighten geopolitical tensions and disrupt global oil markets.",
+        "The US military blockade of Iranian ports will disrupt international shipping, raising concerns for trading nations including Canada."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +75,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-13",
+          "text": "Hypothetical Implications of Potential Iran Conflict on Global Economy",
+          "category": "economic",
+          "source_url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4524738/libertarian-case-trump-iran-war-persians-have-natural-rights/"
+        },
         {
           "date": "2026-04-11",
           "text": "Vice President Vance in Pakistan for U.S.-Iran Peace Talks",
@@ -296,9 +306,7 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [
-        "The breakdown of a ceasefire declared for Easter underscores persistent hostilities and deep mistrust between Russia and Ukraine."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",

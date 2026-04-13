@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-13",
-    "headline": "Conflict in Gulf Leaves 20,000 Sailors Stranded",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Iran Launches Drone Attacks on Gulf Arab States",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Lloyds Banking Group App Glitch Raises Privacy Concerns",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "FBI Investigates Vehicle Ramming at Michigan Synagogue",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "Iran's Revolutionary Guards Warn of Stronger Response to Protests",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-13",
-    "headline": "UK Economy Stagnates Amid Rising Global Energy Costs",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Fraud Prevention Month: Focus on International Cooperation",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Charity Hockey Game Supports Local Youth Athletes",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Flood Watches Issued in Ottawa Area Due to Rainfall",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Crane Operators Aid Injury Rescue on Parliament Hill",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Investigative Findings on Belleville Police Officer Released",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Celebrating 48th Annual Waterfowl Weekend at Presqu’ile",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Lenford Crawford Pleads Guilty in Jennifer Pan Case",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "River Otters Successfully Reintroduced to Great Lakes",
-    "category": "Canada",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Stolen Vehicle Recovered on Highway 401, Suspect Charged",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Carney Meets Norway's Prime Minister to Discuss Energy Security",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Resignation Highlights Wage Theft Issues in Toronto's Entertainment Industry",
-    "category": "Ontario",
-    "slug": "article-22",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "US Lowers Citizenship Renunciation Fee to $450",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Toronto Al-Quds Day Rally to Proceed After Government Opposition",
-    "category": "Ontario",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Hawai'i Pacific University's Bounty Project Removes 84 Metric Tons of Fishing Gear",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Experts urge stronger regulations on youth online sports betting",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "UK Climate Action Report Highlights Cheaper Path to Net Zero",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Warnings issued regarding rise in international fraud",
-    "category": "Canada",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Expedition Uncovers Unique Marine Life in Caribbean",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Carney's Opposition Leadership Style Diverges from Trudeau's Approach",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "UK Study Reveals Heat Pumps Reduce Energy Consumption",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Michigan synagogue attack highlights rising antisemitism",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Anniversary of Gandhi's Salt March and Seikan Tunnel Opening",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Reported Conflict Involving Iran: Reported Civilian Impact and Economic Consequences",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Hawaii man offers free surfing lessons to strangers",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Israeli Airstrikes in Beirut Escalate Humanitarian Crisis",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "AI Analyzes Mammograms to Detect Heart Disease Risk",
-    "category": "Health",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "U.S. Deploys 2,500 Marines amid Tensions with Iran",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 3
-  },
-  {
     "date": "2026-03-14",
     "headline": "U.S. Suspends Oil Sanctions on Russia, Raising Concerns",
     "category": "World",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-15",
     "source_count": 4
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "OC Transpo to Refurbish Over 30 Articulated Buses",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "New Program Supports Seniors Against Online Scams",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "OPP Investigates Suspicious Death at Last Duel Park",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Five Quinte Students Advance to Canada-Wide Science Fair",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Flood Warnings and Watches Issued in Quinte Region",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Belleville Council to Discuss Water Rebate for Vulnerable Residents",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Toronto Man Charged for Threatening Protesters",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Belleville Council to Discuss Phillipston Road Resurfacing",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Kingston Police Seek Public Help in Store Robbery Cases",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Girl Recognized as Hero for Saving Brothers from Fire",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Life-Threatening Collision Closes Ramp in Etobicoke",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Woman Reunites with Pitbull Stolen a Decade Ago",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Toronto-area byelections hold political significance",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Study Shows Guaranteed Income Benefits Artists",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Hypothetical Implications of Potential Iran Conflict on Global Economy",
+    "category": "Canada",
+    "slug": "article-8",
+    "source_count": 8
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Urine Fertilizer Trial Launched for New Welsh Forest",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "No Confirmed U.S. Blockade of Strait of Hormuz",
+    "category": "US",
+    "slug": "article-11",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Norway to Launch Largest Electric Hydrofoil Fleet Next Year",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Congress Shelves ICE Reform Amid $75 Billion Funding",
+    "category": "US",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Milestone Achieved: Over 10% of Oceans Protected",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "FAA Proposes Flight Caps at O'Hare to Avoid Chaos",
+    "category": "US",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Manila's Grassroots Coalition Transforms Public Transit Infrastructure",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "No U.S. Military Blockade of Iranian Ports Reported",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 11
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Unique Honeybee Hybrid Shows Promise Against Varroa Mites",
+    "category": "Science",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Viktor Orbán Ousted in Hungarian Election After 16 Years",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "No Confirmed U.S. Blockade of Iranian Ports",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "US to Begin Blockade of Iranian Ports Today",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Péter Magyar Wins Election, Ending Orbán's 16-Year Rule",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Viktor Orban Defeated in Hungary Election After 16 Years",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Tisza Party Wins Majority, Ending Orban's Leadership in Hungary",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "No Pope Leo XIV; Hypothetical Rebuke of Trump Over Iran Comments",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "Aid Restrictions in Gaza Remain Tight Six Months After Ceasefire",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-13",
+    "headline": "New Cancer Projections for Canada Show High Rates",
+    "category": "Health",
+    "slug": "article-5",
+    "source_count": 1
   }
 ]
