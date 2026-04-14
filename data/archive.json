@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-14",
-    "headline": "U.S. Suspends Oil Sanctions on Russia, Raising Concerns",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Escalating Conflict in Iran’s War Raises Regional Concerns",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "U.S. Considers Military Escorts for Tankers Amid Iran Tensions",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Avalanche Deaths in the Alps Exceed 100 This Season",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-14",
-    "headline": "Call for Regulation of AI Toys After Emotional Safety Study",
-    "category": "Health",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Severe Weather Warning for Quinte Region This Sunday",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Morgan McKay Sets Record for Lunges with 1,984 in One Hour",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "SIU Concludes Investigation into Belleville Officer",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "North American River Otters See Successful Recovery in Great Lakes",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Wainfleet Mayor Calls for Removal of Residential Tigers",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Stolen Vehicle Recovered on Ontario Highway",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Line 1 LRT Service Now Extended to St-Laurent Station",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "McDougall Insurance Acquires Annex Insurance Group",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Ontario Government Proposes Changes to Information Laws",
-    "category": "Ontario",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Toronto's PATH Revitalized as Mindfulness Space",
-    "category": "Local",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Ontario merges conservation authorities to improve efficiency",
-    "category": "Ontario",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Teen Pilot Lands Plane Safely on Busy Florida Road",
-    "category": "US",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "No Charges for OPP Officers in Anti-Riot Incident",
-    "category": "Ontario",
-    "slug": "article-23",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Vineyard Wind offshore wind farm construction completed",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Fraud Losses Exceed $704 Million in Canada, Warnings Issued",
-    "category": "Canada",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Senate Votes to Block Private Equity from Buying Homes",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Mark Carney Defends Economic Record Amid Employment Woes",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Mother and Daughter Rescued from Sand Sinkhole in Essex",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Two Charged with First-Degree Murder in Burnaby Case",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Community Backs Farmer with £58,000 Against Illegal Dumping",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Shooting in Winnipeg Claims Two Lives",
-    "category": "Canada",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Groundbreaking PSMA PET/CT Scans Promise to Improve Prostate Cancer Diagnosis",
-    "category": "Health",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Criticism of Trump's Actions Amid Rising Iran Conflict Death Toll",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "FCC Chair Warns Broadcasters Over Misleading Coverage",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Russian Attacks on Kyiv Occur Amid Stalled Peace Talks",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 18
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Six Airmen Killed in KC-135 Crash in Iraq",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Death Toll Rises to 62 from Flooding in Kenya",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "US and China Engage in Trade Discussions Ahead of Summit",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-15",
     "headline": "US Military Names Six Crew Members Killed in Iraq Crash",
     "category": "World",
@@ -6298,5 +6067,236 @@
     "category": "Health",
     "slug": "article-5",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Local School Trustees’ Governance Roles to Be Limited Under Provincial Supervision",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Belleville Polar Plunge Raises Nearly $24,000 for Special Olympics",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Ontario to Expand Jail Capacity by Nearly 6,000 Beds",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Belleville City Council Approves Seasonal Food Truck Program",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Bomb Threat Reported at Cobourg School",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Belleville Recognizes National Public Safety Telecommunicators Week",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Decline in Enrolment for Hastings and Prince Edward District School Board",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Quinte West launches Housing Improvement Plan for affordable housing",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Ottawa Police Seize Drugs and Firearms in April 10 Operation",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Canadians Consider Electric Vehicles Amid Rising Fuel Costs",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Ontario Government Introduces Education Reforms for School Boards",
+    "category": "Ontario",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Los Angeles Schools Strike Averted with New Agreement",
+    "category": "US",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Ontario Jails See Increased Lockdowns Amid Staff Shortages",
+    "category": "Ontario",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Seaplane Makes Emergency Landing on Phoenix Road",
+    "category": "US",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Canadian Military Faces Cuts to Out-of-Country Allowances",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Over 10% of the Ocean Now Protected Globally",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Police Chase in British Columbia Ends in Crash",
+    "category": "Canada",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Court Ruling Secures Protections for Tongass National Forest",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "U.S. Imposes Military Blockade on Iranian Ports",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Households Could Receive Free Electricity on Sunny Weekends",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Swalwell and Gonzales Exit Congress Amid Ethical Controversies",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "UK Government Pledges £1 Million for Golden Eagle Reintroduction",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "U.S. Considers Military Blockade of Iranian Ports",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 9
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Research Links Perception and Imagination in the Brain",
+    "category": "Health",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Oil Prices Drop Amid Hopes for US-Iran Peace Talks",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Growing Interest in Red Light Therapy Raises Effectiveness Concerns",
+    "category": "Health",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Undercover Investigation Reveals Practices at Punjab Hospital Linked to HIV Outbreak",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "New Honeybee Hybrid Discovered in Southern California",
+    "category": "Science",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Péter Magyar Wins Hungary's Election, Promises Foreign Policy Changes",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Artemis II Mission Returns After Successful Lunar Journey",
+    "category": "Science",
+    "slug": "article-32",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Lebanon's humanitarian crisis deepens amid ongoing conflict",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Lebanon Faces Challenges in Peace Negotiations Amid Ongoing War",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Inquiry on U.K. Mass Stabbing Uncovers Oversight Failures",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 4
   }
 ]
