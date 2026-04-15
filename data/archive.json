@@ -1,208 +1,5 @@
 [
   {
-    "date": "2026-03-15",
-    "headline": "US Military Names Six Crew Members Killed in Iraq Crash",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-15",
-    "headline": "Israeli Strikes Result in Civilian Casualties in Lebanon",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Belleville Garbage Bag Tags Set to Increase in Price",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Ottawa to Welcome First Romance-Only Bookstore",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Belleville City Council Meets with Local MPs Today",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Nathan Phillips Square Change Room Reopens for Public Use",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "SIU Investigation Ends for Belleville Police Officer",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Bubble Tea: A Cultural Connection in Belleville",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Canadian Travel to U.S. Declines Amid Political Rhetoric",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Doctor Adopts Patient, Unites Siblings in New Homes",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Rising Gas Prices Hit Belleville and Trenton Residents",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Younger Generations Embrace Traditional Hobbies",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "SIU Investigation Clears Belleville Officer in Hospital Incident",
-    "category": "Local",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "River Otters Recolony Great Lakes, Highlighting Conservation Success",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Ontario to Waive HST on All New Homes",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Bear Breaks Into California Kitchen, Draws Interest",
-    "category": "US",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Federal Reserve's Interest Rate Decision Faces Complications from Rising Energy Prices",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Care in Action USA Serves Thousands Amid Pandemic Challenges",
-    "category": "US",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "U.S. War with Iran Enters Third Week, Implications Grow",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Mexico City Hosts Largest Football Pitch Ahead of World Cup",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Senate Vote on SAVE America Act Highlights Trump’s Influence",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Homemade Battery Powers Electric Car from Discarded Vapes",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Drone Incident Near Dubai Airport Disrupts Flights",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Promising New Treatment for Spina Bifida Emerges",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Iran Increases Security Amid Rising Protests and Violence",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "New Method Converts Waste Plastic to Parkinson's Drug",
-    "category": "Health",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Doha's Souq Waqif market shows signs of life amid conflict",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "New Guidelines for Cholesterol Testing Emphasize Heart Health",
-    "category": "Health",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "China urges Trump to proceed with state visit despite tensions",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 3
-  },
-  {
     "date": "2026-03-16",
     "headline": "Hedgehogs Can Hear Frequencies Up to 85kHz",
     "category": "Science",
@@ -6298,5 +6095,208 @@
     "category": "World",
     "slug": "article-21",
     "source_count": 4
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Perth Park Injury Investigation Classified as Homicide",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Belleville Police 911 Communicators Win Prestigious Award",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Suspect Arrested After Theft from Local Community Organization",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Pilot Project Matches Newborns with Family Doctors at Queensway",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Liberal Party Wins Three By-Elections, Increasing Seats to 174",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Restaurant Owner Fulfills Dying Man's Wish for Hospice Nurses",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Ontario Proposes Grading Changes to Address Low High School Attendance",
+    "category": "Ontario",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Griffon Helicopter Joins Rescue Effort in Calabogie",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Report Reveals 118 Improper Inmate Releases in Ontario Prisons from 2021-2024",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Local Track Athletes Commit to Collegiate Programs",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Internal Report Reveals UP Express Track Issues Unresolved Since 2015",
+    "category": "Ontario",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Residents Urged to Test Well Water Amid Flood Risks",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Concerns Arise Over Canadian Training for Azov Brigade-Linked Ukrainian Soldier",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Canada to Experience Warmer Summer in 2026, Says Almanac",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Canadian Coast Guard to Test Drones for Arctic Surveillance",
+    "category": "Canada",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Michigan Clerk Aids Rescue of Kidnapped Teen",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Concerns Grow Over Technology in Canadian Classrooms",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Global Ocean Protection Exceeds 10% Milestone",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Ontario Judge Comments on Justice System Priorities",
+    "category": "Canada",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "UK Funds Golden Eagle Reintroduction Effort",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "US-Iran peace talks may resume amidst military blockade",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 11
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Alaska Court Protects Tongass National Forest from Logging",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "U.S.-Mediated Talks Between Israel and Lebanon Initiated",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Hybrid Honeybee Offers Hope Against Varroa Mites",
+    "category": "Science",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "IAEA Chief Raises Alarm Over North Korea's Nuclear Expansion",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "'Project Hail Mary' Passes $400 Million Mark",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Zelenskyy Seeks More Military Aid from European Allies",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Escalating Humanitarian Crisis as Sudan Enters Fourth Year of War",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Artemis II Crew Captures Stunning Lunar Photos",
+    "category": "Science",
+    "slug": "article-16",
+    "source_count": 2
   }
 ]

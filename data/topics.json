@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-04-13T08:06:34.101851-04:00",
+      "last_material_update": "2026-04-15T07:41:27.294402-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "US-Iran peace talks may resume amidst escalating military tensions and a complete blockade of Iranian ports."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-15",
+          "text": "US-Iran peace talks may resume amidst military blockade",
+          "category": "diplomatic",
+          "source_url": "https://www.theguardian.com/us-news/2026/apr/15/first-thing-us-iran-peace-talks-could-resume-in-next-two-days-trump-says"
+        },
         {
           "date": "2026-04-13",
           "text": "Hypothetical Implications of Potential Iran Conflict on Global Economy",
@@ -244,12 +252,6 @@
           "text": "Nationwide protests erupt in Iran driven by economic collapse",
           "category": "political",
           "source_url": ""
-        },
-        {
-          "date": "2025-10-15",
-          "text": "UK, Germany, France trigger JCPOA snapback mechanism, reimposing UN sanctions",
-          "category": "diplomatic",
-          "source_url": ""
         }
       ],
       "related_situations": [
@@ -281,7 +283,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-04-12T07:19:32.171055-04:00",
+      "last_material_update": "2026-04-15T07:41:27.294402-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -302,7 +304,9 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Ukrainian President Zelenskyy is urgently seeking enhanced military aid from European allies to bolster air defense amid ongoing Russian attacks."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -340,6 +344,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-15",
+          "text": "Zelenskyy Seeks More Military Aid from European Allies",
+          "category": "humanitarian",
+          "source_url": "https://www.thestar.com/news/world/europe/ukraines-zelenskyy-pursues-more-arms-deals-with-allies-to-help-check-russias-invasion/article_45cb5a74-def2-5072-b304-8a1568836ab8.html"
+        },
         {
           "date": "2026-04-12",
           "text": "Easter ceasefire breakdown reveals deep mistrust",
@@ -512,12 +522,6 @@
           "date": "2022-09-30",
           "text": "Russia announces illegal annexation of four Ukrainian regions",
           "category": "political",
-          "source_url": ""
-        },
-        {
-          "date": "2022-09-06",
-          "text": "Ukrainian Kharkiv counteroffensive liberates large areas",
-          "category": "military",
           "source_url": ""
         }
       ],
