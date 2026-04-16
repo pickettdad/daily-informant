@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-03-16",
-    "headline": "Hedgehogs Can Hear Frequencies Up to 85kHz",
-    "category": "Science",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "UK Announces £53 Million Support for Heating Oil Costs",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-16",
-    "headline": "Ukraine Seeks Urgent Financial Support Amid EU Delays",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Toronto Police to Release Report on Officer Testimony Today",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Ottawa Grants $1 Million to Support Local Festivals",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Multiple Collisions Shut Down Westbound 401 Near Napanee",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Gleaners Food Bank Achieves National Accreditation",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Weather Disruptions Impact Travel in Bay of Quinte",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Tata Hot Sauce Reopens After Three-Year Closure",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Belleville Council and MPs Discuss Housing and Infrastructure Needs",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Gleaners Food Bank Earns National Accreditation in Food Banking",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Ford Proposes Ambitious New Convention Centre in Toronto",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "McDougall Insurance Acquires Annex Insurance Group in Ontario",
-    "category": "Canada",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Ontario Government Legal Costs Related to Cellphone Records Dispute",
-    "category": "Ontario",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Iconic 867-5309 Phone Number Now a Cancer Support Line",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Ontario Man Moves to House Arrest After Harsh Prison Conditions",
-    "category": "Canada",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Bolivia establishes major new nature reserve for biodiversity",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Israel Expands Military Operations in Southern Lebanon",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Innovative Coastal Engineering Project Enhances Marine Biodiversity",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Israel Reports Assassination of Iranian Security Officials",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 9
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Congolese Youth Use Dance Therapy to Address Trauma",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Pakistani Air Strike Reportedly Hits Kabul Hospital, High Casualties Reported",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Iran Conflict Amplifies UK Energy Transition Urgency",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Trump Suggests Delaying China Visit Amid Iran Tensions",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 10
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Florida Waitress Serves Over 270,000 Meals to the Homeless",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Trump Urges NATO Allies to Address Strait of Hormuz Closure",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "New Single-Dose Treatment for Sleeping Sickness Approved",
-    "category": "Health",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "War in Iran Triggers Energy Crisis Impacting Asia",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Doctor Adopts Patient and Finds Homes for Siblings",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Israeli Strike Kills Iranian Military Leader, Raises Oil Concerns",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 6
-  },
-  {
     "date": "2026-03-17",
     "headline": "Engineered Lipid Nanoparticles May Enhance mRNA Vaccines",
     "category": "Health",
@@ -6298,5 +6088,215 @@
     "category": "Science",
     "slug": "article-16",
     "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Dense Fog Forces Cancellation of School Transportation",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Quinte West Warming Centre Completes Fifth Season of Service",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Breen Pleads Guilty in Breaking and Entering Case",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Prince Edward County Approves Subdivision Expansion Plans",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Fog Advisory Issued for Quinte Region Amid Rain",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Condominium Development Approved in Hillier Ward",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Ontario Identifies Improper Release of Over 150 Inmates",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 15
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Canadian Armed Forces Embrace Humor on Social Media",
+    "category": "Canada",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Overpayments in Equalization Program Total $10.5 Billion",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Remembering Jackie Robinson's Historic Major League Debut",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Swing Voters in Georgia Unhappy with Trump's Iran War Strategy",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "US Pedestrian Deaths Drop Nearly 11% in 2025",
+    "category": "US",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Hypothetical: Fragile Ceasefire in Iran Approaches Expiry",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "House Votes on Bill to Extend TPS for Haitians Today",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Russia Launches Aerial Attack on Ukraine",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Global Agreement Enhances Protections for Migratory Species",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Iran's Economy Faces Strain Amid Ongoing Conflict",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Blue-and-yellow Macaws Returned to Tijuca National Park",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Pope Leo XIV's Peace Mission in Conflict-Hit Cameroon",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Restaurant Owner Cancels Plans to Honor Dying Man's Wish",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "China Condemns US Blockade of Strait of Hormuz",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "First Jaguar Sighting in a Decade Recorded in Honduras",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "EU sets 2040 milestones for climate-neutrality by 2050",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "UK to Invest £1 Million in Golden Eagle Reintroduction",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "UK Government Supports Golden Eagle Reintroduction in England",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Study Links Exercise Timing to Improved Health Outcomes",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Spring Allergies Expected to Worsen This Season",
+    "category": "Health",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Artemis II astronauts safely reunite after historic mission",
+    "category": "Science",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "New Reactor Transforms Plastic Waste into Clean Hydrogen",
+    "category": "Science",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Red Light Therapy Shown to Benefit Bee Colonies",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
   }
 ]
