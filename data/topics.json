@@ -302,9 +302,7 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [
-        "Russia conducted an aerial attack on Ukraine, killing 16 people."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -841,7 +839,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-03-31T07:32:34.372954-04:00",
+      "last_material_update": "2026-04-17T07:42:20.273555-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -863,7 +861,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Maoz Inon and Aziz Abu Sarah's call for peace emerges in the wake of significant loss during the ongoing Israeli-Palestinian conflict."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -906,6 +906,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-17",
+          "text": "Calls for Peace Amid Israeli-Palestinian Violence",
+          "category": "military",
+          "source_url": "https://www.npr.org/2026/04/16/nx-s1-5787745/an-israeli-and-a-palestinian-activist-share-a-vision-for-peace-in-gaza"
+        },
         {
           "date": "2026-03-31",
           "text": "Eight Palestinian Toddlers Return to Gaza After Evacuation",

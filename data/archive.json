@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-03-17",
-    "headline": "Engineered Lipid Nanoparticles May Enhance mRNA Vaccines",
-    "category": "Health",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Reported Pakistani Air Strike in Kabul Causes Heavy Casualties",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "James Webb Telescope Captures Ancient Spiral Galaxy",
-    "category": "Science",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Migrant Disappearances Highlight Information Access Issues",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-17",
-    "headline": "Teenagers sue xAI over sexualized image generation",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Highway 401 Traffic Returns to Normal After Crashes",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Loyalist College Students Unveil Game at Museum",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Ontario Government Introduces Changes to Transparency Laws Amid Opposition",
-    "category": "Ontario",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Picton Main Street Reconstruction to Resume in April",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Toronto Woman Convicted for Threatening Crown Attorney",
-    "category": "Ontario",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Ice Water Rescue Highlights Risks on Moira River",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Ontario Police Face Reported Charter Violations",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Nineteen Cities Showcase Significant Air Quality Improvements",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Haitian Asylum Seeker's Return Raises Legal Questions",
-    "category": "Canada",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "New Nature Reserve Established in Bolivia's Forests",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Trump's Remarks Prompt Reluctance Among Allies on Hormuz Support",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "GoFundMe Raises Funds for Elderly DoorDash Driver's Retirement",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Juliana Stratton Wins Illinois Democratic Senate Primary",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Mother's Journey with Stage 4 Colorectal Cancer Highlights Hope",
-    "category": "Health",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Joe Kent's Resignation Reveals Divisions on Iran Threat",
-    "category": "US",
-    "slug": "article-22",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Breakthrough in Protein Sequencing Technology Announced",
-    "category": "Science",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Markwayne Mullin's DHS Confirmation Hearing Looms",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Markwayne Mullin's DHS Nomination at Center of Immigration Debate",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Minnesota's Medicaid Funding Jeopardized by Fraud Crackdown",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Iran Conducts Missile Strikes on Israel Following Leaders' Deaths",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 18
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Death of Ali Larijani Impacts Iran's Political Landscape",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Cuba Faces Nationwide Blackout Amid U.S. Fuel Restrictions",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "250th Anniversary of the Stamp Act Repeal Observed Today",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Record Number of Migrants Missing in Mediterranean Crisis",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Joe Kent Resigns as Top Counterterrorism Official Over Iran Policy",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Kabul Drug Rehabilitation Center Attack Leaves 400 Dead",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-18",
     "headline": "Federal Judge Blocks Changes to Childhood Vaccine Schedule",
     "category": "Health",
@@ -6295,6 +6078,223 @@
   {
     "date": "2026-04-16",
     "headline": "Red Light Therapy Shown to Benefit Bee Colonies",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Flood Watch Statement Issued for Lower Trent Watershed",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Quinte Honors Ken Kerik as 2026 Kindness Citizen of the Year",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Belleville Police Execute Drug Warrants, Arrest Two",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Quinte Legion Lynx Athletes Commit to NCAA and USPORT",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Official Languages Commissioner Calls for Bilingual Service Protection",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Renewal Required for Canadian Dental Care Plan by June 1",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "US Sees 11% Decrease in Pedestrian Deaths in 2025",
+    "category": "US",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Przewalski's Horse Thrives in Spanish Rewilding Project",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Singer D4vd Arrested in Suspected Murder Case",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Artemis II Astronauts Reflect on Global Unity",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Returning to Work After Parental Leave Remains Challenging",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Blue-and-yellow macaws return to Rio de Janeiro after 200 years",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "CDC Faces Leadership Vacuum Amid Public Health Concerns",
+    "category": "US",
+    "slug": "article-30",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "UK Government Commits £1 Million for Golden Eagle Reintroduction",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Ten-Day Truce Between Israel and Lebanon Begins",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Calls for Peace Amid Israeli-Palestinian Violence",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "U.S.-Iran tensions strain alliances with European partners",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Jaguars Reappear in Honduras After Ten Years of Absence",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Jet Fuel Shortage Threatens European Air Travel Costs",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Artemis II Astronauts Praise Moonship's Reentry Performance",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "U.S. House Rejects Resolution to Withdraw Forces from Iran",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "UK Government Advances Golden Eagle Reintroduction Plans",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "U.S. Blockade in Strait of Hormuz Disrupts Iran's Economy",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Restaurant Owner Fulfills Dying Man's Last Wish",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Trump Claims Iran Agrees to Nuclear Deal Terms",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Hot Tub Soaking Found More Beneficial Than Saunas",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "New Mental Health Pathway for Diabetes Patients Introduced in the UK",
+    "category": "Health",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "NASA Astronauts Reflect on Artemis II Mission Reentry",
+    "category": "Science",
+    "slug": "article-3",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "'Project Hail Mary' Success Sparks Interest in Space Science",
+    "category": "Science",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Astronauts Reunion Following Successful Artemis II Mission",
+    "category": "Science",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Innovative Reactor Converts Plastic Waste and Battery Acid into Fuel",
     "category": "Science",
     "slug": "article-27",
     "source_count": 1
