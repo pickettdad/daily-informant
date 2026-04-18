@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-18",
-    "headline": "Federal Judge Blocks Changes to Childhood Vaccine Schedule",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-18",
-    "headline": "Misdiagnosed Seizures Lead to Brain Surgery for Young Woman",
-    "category": "Health",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Calgary Police Investigate Suspicious Structure Fire",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Ontario Provides Funding for Quinte West Ice Storm Cleanup",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Canadian Consumer Debt Rises Amid K-Shaped Recovery",
-    "category": "Canada",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Hospice Quinte Launches Campaign for Palliative Care Expansion",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Ontario Expands Pharmacists' Prescribing Powers",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Kaladar Intersection Improvement Aims to Enhance Safety",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Provincial Governments Adjust Tax Brackets Amid Inflation",
-    "category": "Canada",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Canada outlines AI regulation and support plans",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Edmonton Mayor's Israel Comments Spark Antisemitism Debate",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Thrifting Furniture: A Growing Trend in 2026",
-    "category": "Canada",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "U.S. Intelligence Chief: Iran's Government Functional Amid Conflict",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Cursive Writing Instruction Sparks Controversy in Schools",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Hockey Player Leads Team to Championship After Family Tragedy",
-    "category": "US",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "New Tax Deduction for Auto Loan Interest Introduced for 2025",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "EU Pressure Mounts on Hungary Over Ukraine Loan Block",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Anniversary of Imams and Rabbis Congress Promotes Peace",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Discussion Emerges on Trump's Approach to Iran Before Military Actions",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "New Monitor Lizard Species Discovered in Queensland, Australia",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Iranian Attacks Cause Spike in Global Oil Prices",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Anonymous $1 million donation aids nurses with loans",
-    "category": "Health",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Japan's Prime Minister Takaichi to Meet President Trump",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Revolutionary Study Converts Plastic Waste into Parkinson's Drug",
-    "category": "Science",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Escalating Strikes in Middle East Impact Energy Markets",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Trump Considers Military Action Against Iran's Oil Depot",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Conflict in Iran Raises UK Petrol and Mortgage Prices",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Killing of Iran’s Intelligence Minister Escalates Tensions",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Missile Debris Incident in West Bank Kills Three Women",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "Iraq Drawn Into Conflict After US-Israel Attack on Iran",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-19",
-    "headline": "World Happiness Report 2026: Social Media's Toll on Youth",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Special Weather Statement Issued for Quinte Region",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Ontario Announces Funding for County Road 49 Reconstruction",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 3
-  },
-  {
     "date": "2026-03-20",
     "headline": "Diageo's Amherstburg Plant Sale Prospects Uncertain After Ban Lifted",
     "category": "Local",
@@ -6297,6 +6066,237 @@
     "headline": "Innovative Reactor Converts Plastic Waste and Battery Acid into Fuel",
     "category": "Science",
     "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Ottawa Councillors Debate Proposed Protest Restrictions",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Ontario invests over $17 million in Northumberland water infrastructure",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Multiple Charges Filed After Domestic Dispute in Prince Edward County",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Belleville to Celebrate Millinery History on May 3",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Heavy Rainfall Warning Issued for Quinte Region",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Belleville Senators Conclude Home Season with Win",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Haliburton Woman Fined for Illegal Hunting Violations",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Jewish General Hospital Modernizes Healthcare without Government Aid",
+    "category": "Canada",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Special Weather Statement for Quinte Region: Flood Risk Ahead",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Debate Surrounds Proposed $500K Exit Tax for Canadians",
+    "category": "Canada",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Flood Risk Along Ottawa River Raises Concerns for Residents",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Inaugural Global Sanctuary Day Celebrates Animal Welfare",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Flood Risk Grows Along the Ottawa River Amid Heavy Rains",
+    "category": "Ontario",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Ceasefires and Hormuz Opening Spark Regional Stability Hopes",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Kenneth Law to Plead Guilty in Assisted Suicide Case",
+    "category": "Canada",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Expert Perspectives on U.S.-Iran Relations Suggest Cautious Optimism",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Canada Withdraws from U.S.-Sponsored Flintlock Military Exercise",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Stranded Humpback Whale Rescued in New South Wales",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Severe Weather and Tornado Watches Affect Millions Midwest",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Przewalski’s horse thrives in Spanish woodland rewilding effort",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Trump Signals Possible Iran Deal Within Days",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "UK to Ban Sugary Treats and Deep-Fried Foods in Schools",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Iran Maintains Control of Strait of Hormuz Amid U.S.-Iran Tensions",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Oxford's Library Cat Offers Emotional Support to Students",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Iran Asserts Control of Strait of Hormuz Amid U.S.-Iran Tensions",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 11
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Exercise Found to Potentially Slow Parkinson's Disease Progression",
+    "category": "Health",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Iran Opens Strait of Hormuz Amid Ceasefire, Oil Prices Respond",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "UK Initiative Supports Mental Health of Diabetes Patients",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Uncertainty Remains Over Strait of Hormuz Accessibility",
+    "category": "World",
+    "slug": "article-33",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Pregnancy Vaccine Cuts RSV Hospital Admissions for Newborns by Over 80%",
+    "category": "Health",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Amazon to Block Sideloading on Future Fire TV Sticks",
+    "category": "Tech",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Hot Tub Soaking Offers Health Benefits Over Saunas",
+    "category": "Health",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Artemis II Mission Spotlight: Unity Through Space Exploration",
+    "category": "Science",
+    "slug": "article-6",
     "source_count": 1
   }
 ]
