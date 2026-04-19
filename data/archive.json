@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-20",
-    "headline": "Diageo's Amherstburg Plant Sale Prospects Uncertain After Ban Lifted",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Ontario Government Allocates $37-45 Million for County Road 49",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Concerns Over Police Patrols in Kelowna's Rutland Neighborhood",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Hastings County Gets $668,000 for Ice Storm Recovery",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Quinte West Council Rejects Development Charge Exemption Proposal",
-    "category": "Local",
-    "slug": "article-32",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Suzanne Andrews Retires from Quinte West Chamber of Commerce",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Israel Conducts Airstrikes Near Tehran as Iran Targets Gulf Oil Facilities",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 14
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Young Entrepreneur Opens General Store in Portsmouth",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Canada and Allies Ready to Secure Strait of Hormuz",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Air Quality Improvements Offer Blueprint for Canadian Cities",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Ongoing Mideast War Threatens Global Food Security",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Ukraine Sends Experts to Gulf for Defense Against Iranian Drones",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "U.S. Intensifies Military Action Against Iranian Naval Threats",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Hackney Social Housing Transformed by Solar Project",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "U.S. Faces Heightened Military Tensions with Iran",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Nightjar Population Doubles in South Downs Conservation Success",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Key Anniversaries of Peace Efforts and Engineering Milestones",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "UK Study Shows Heat Pumps Cut Energy Use Significantly",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Iranian Conflict Impacts UK Economy and Energy Prices",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Identification of Child Sexual Abuse Victim Marks Key Breakthrough",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Trump Compares Iran Attack Plans to Pearl Harbor",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "NASA Prepares Artemis II Moon Rocket for Potential April Launch",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "EU Leaders Criticize Hungary's Veto on Ukraine Aid Funding",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Breakthrough in Lab-Grown Food Pipe Transplants for Infants",
-    "category": "Health",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "B.C. Mother Advocates for Life-Saving Treatment for Son",
-    "category": "Health",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "UK Sees Record Low in Cancer Death Rates",
-    "category": "Health",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Uncertainty Lingers Over Nurse Practitioner Coverage in Canada",
-    "category": "Health",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "New Cancer Support Hotline Launches with 867-5309",
-    "category": "Health",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "Bennett and Brassard Win Turing Award for Quantum Breakthrough",
-    "category": "Science",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-20",
-    "headline": "New Method Converts Waste Plastic into Parkinson's Drug",
-    "category": "Science",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Avian Influenza Detected in Wellington's Wild Waterfowl",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Pounder Polar Plunge Supports Local Healthcare and Safety",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Roadwork Causes Highway Closures Across Toronto Starting Today",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
     "date": "2026-03-21",
     "headline": "Women Inspiring Women Event This Sunday in Quinte",
     "category": "Local",
@@ -6298,5 +6067,236 @@
     "category": "Science",
     "slug": "article-6",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Eastbound Highway 2 Closed Due to Serious Collision",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Belleville Illustrator Creates New CN Tower Commemorative Toonie",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Minor Fire at Belleville Motel Raises Safety Concerns",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Ontario Invests $17 Million in Northumberland Water Infrastructure",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Heavy Rainfall Warning Issued for Quinte Region",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Belleville Senators End Season with Young Talent Shine",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Prince Edward County's Tourist Boom Masks Local Struggles",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "England to Change School Food Standards by 2027",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Raptors Lose Playoff Opener to Cavaliers, Fans Rally",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Community Hero Rescues Injured Seagull in Ireland",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Rain Forecasts Prompt Emergency Flood Preparations in Ontario",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Community Initiatives Address Eco-Anxiety Through Action",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Highway Repairs Scheduled for Toronto Starting April 2026",
+    "category": "Ontario",
+    "slug": "article-27",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "New pregnancy vaccine reduces RSV hospital admissions for newborns",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Canada Withdraws from Flintlock Military Exercise in Africa",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Hot Tub Soaking Offers Unique Health Benefits, Study Finds",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Canada Post to Transition Millions to Community Mailboxes",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Nutritional Needs of Older Adults Gaining Attention",
+    "category": "Health",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Stanley Cup Playoffs Start with Three Canadian Teams",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Artemis II Crew Returns, Highlighting Unity in Space Exploration",
+    "category": "Science",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Nova Scotia court rejects wildfire access ban for citizens",
+    "category": "Canada",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Study Confirms Major Solar Storm Hit Earth 800 Years Ago",
+    "category": "Science",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Government to Require Public Servants Back in Office Four Days a Week",
+    "category": "Canada",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Federal Gas Tax Suspension Starts Amid Rising Fuel Costs",
+    "category": "Canada",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Jon Ossoff Critiques Trump's Iran Policy During Rally",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Reflecting on 251 Years Since the Shot Heard Round the World",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Iran Threatens Closure of Strait of Hormuz Amid Tensions with U.S.",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Kyiv Supermarket Shooting Leaves Six Dead",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Trump Expresses Optimism Over U.S.-Iran Negotiations",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Confusion Surrounds Details of Proposed Iran Deal",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Mortgage Rates Decline Amid Iran Ceasefire Developments",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "US-Iran Negotiations Highlight Tensions Over Military Actions",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-19",
+    "headline": "Caring for a Loved One with Dementia on Special Days",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 2
   }
 ]
