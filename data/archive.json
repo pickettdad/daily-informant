@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-03-21",
-    "headline": "Women Inspiring Women Event This Sunday in Quinte",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "OC Transpo Working to Restore Full O-Train Service",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Bay of Quinte Home Show Returns for Local Business Showcase",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Three Arrested in Oshawa Drug Investigation",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Saskatoon Police Welcome Taffy, a Detection Dog for Electronic Devices",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Ottawa Considers Bus-Only Lanes Amid Business Concerns",
-    "category": "Ontario",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "The Importance of Affordable Childcare for Canadian Families",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Premier Tim Houston's Approval Falls to 39% Amid Budget Cuts",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "DoorDash Driver Richard Pulley Receives Nearly $1 Million",
-    "category": "US",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Government Procurement Process Under Scrutiny After Security Contract Complaint",
-    "category": "Canada",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Syria Embraces Kurdish Culture in Nowruz Celebrations",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Trump Manages Multiple Global Conflicts",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Punch the monkey seen cuddling with another primate",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Record Number of Deaths Reported in U.S. Immigration Custody",
-    "category": "US",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "New Support Organization Founded for Neurological Disorders",
-    "category": "Health",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "U.S. and Israel Report Military Actions Against Iran",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Ontario Plans New Electronic Medical Records System by 2029",
-    "category": "Health",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Airstrike on Iran's Nuclear Facility Sparks Regional Tensions",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Air Strike Kills Iranian Police Leader Amid Ongoing Protests",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Iran Targets US-UK Military Base with Missiles",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-21",
-    "headline": "Drone Strike Causes Blackout in Chernihiv, Ukraine",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Collision on Dundas Street West Causes Serious Injuries",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Pounder Polar Plunge Raises Funds for Local Services",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "H5N1 Avian Influenza Detected in Wellington's Wild Waterfowl",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Gatineau fundraiser supports Parkinson's research through kick-boxing",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Criminal Case Against Randy Hillier Reinstated by Court",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Maplewood Court Residents Celebrate Life in Fashion Photoshoot",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Scheduled Highway Closures in Toronto for Roadwork",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Community Dads Gift Car to Beloved Crossing Guard",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-22",
-    "headline": "Ontario's Legislature Resumes with FOI Law Discussions",
-    "category": "Ontario",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-22",
     "headline": "UNESCO Adds Black Loyalist Archive to Memory of the World Register",
     "category": "Canada",
@@ -6298,5 +6088,215 @@
     "category": "Health",
     "slug": "article-12",
     "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Pedestrian Struck and Killed on Highway 2 in Quinte West",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Bay of Quinte Home Show Returns to Trenton",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Issues with OC Transpo Discounted Fares for Community Pass Holders",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Elderly Man Rescued from Moira River After Incident",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Centre Hastings Development Charges Expected to Rise",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Caregiver Expo Set for April 24 in Belleville",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Over 150 Inmates Mistakenly Released from Ontario Jails in Recent Years",
+    "category": "Canada",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Retiree Builds Special Chairs for Cats in Sanctuary",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Public Servants Weigh Retirement Incentives Against Workforce Adjustments",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Quinte West Trades and Tech Open House on April 21",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "House explosion kills mother and six children in Pennsylvania",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "New Event Venue Opens in Quinte West to Support Community",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Oil Prices Increase Following US Seizure of Iranian Cargo Ship",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Women Gain Prominence in Whiskey Industry",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "US Captures Iranian Ship Amid Tensions Before Peace Talks",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Vladimir Horowitz's 1986 Moscow Concert Marks 40th Anniversary",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Ceasefire in U.S.-Iran Conflict Faces Key Negotiations",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Volunteers Build Over 10,000 Beds for Children",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Iran Declines U.S. Peace Talks Amid Rising Tensions",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Art Exhibition Raises Environmental Awareness in Arizona",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Oil Prices Surge Amid U.S.-Iran Tensions",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Chernobyl Exclusion Zone Becomes Wildlife Sanctuary",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Rumen Radev's Progressive Bulgaria Party Wins Majority in Election",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Pregnancy Vaccine for RSV Cuts Newborn Hospitalizations by Over 80%",
+    "category": "Health",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Iran Tensions Contribute to Rising UK Petrol Prices",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Designer Honors Kidney Donor with New Shoe",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "UK Butterfly Monitoring Reveals Overall Species Decline",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "New Mental Health Support for Diabetes Patients Implemented in the UK",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Biden Administration Weighs Military Options on Iran's Nuclear Stockpile",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-20",
+    "headline": "Five Ways to Combat Eco-Anxiety Through Small Actions",
+    "category": "Health",
+    "slug": "article-28",
+    "source_count": 1
   }
 ]

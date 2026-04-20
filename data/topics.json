@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-04-18T07:23:00.967077-04:00",
+      "last_material_update": "2026-04-20T08:01:31.748584-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Global oil prices are on the rise due to geopolitical tensions following the US seizure of an Iranian cargo ship, affecting economies worldwide."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-20",
+          "text": "Oil Prices Increase Following US Seizure of Iranian Cargo Ship",
+          "category": "diplomatic",
+          "source_url": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-04-18",
           "text": "Uncertainty Remains Over Strait of Hormuz Accessibility",
@@ -243,12 +251,6 @@
           "date": "2026-02-14",
           "text": "Over one million Iranians rally globally supporting political change",
           "category": "political",
-          "source_url": ""
-        },
-        {
-          "date": "2026-02-04",
-          "text": "Indirect nuclear talks in Muscat collapse; U.S. demands complete halt to enrichment",
-          "category": "diplomatic",
           "source_url": ""
         }
       ],
