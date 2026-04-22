@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-23",
-    "headline": "Toronto's Unique Dog Names Highlight Pet Owner Creativity",
-    "category": "Local",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Cities Effectively Reduced Air Pollution Over 15 Years",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Wisconsin Family Advocates for Stricter Driver Licensing Laws",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Stara Zagora Zoo Welcomes New Lion and Tiger Cubs",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Ontario Polling Shows Majority Negative Ratings for Ford",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Tributes Highlight Lucie Campbell's Impact on Gospel Music",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Toronto's Women's Drop-In Centre Costs Surge Amid Accountability Calls",
-    "category": "Ontario",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Kayden Beasley Wins Gold at 2026 Winter Paralympics",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Study reveals medication access disparities for Black Canadians",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Anniversary of Patrick Henry's Speech on Independence",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Dutch Teen's Euthanasia Raises Ethical Questions for Canada",
-    "category": "Canada",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "UK Cancer Death Rates Reach Historic Low",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Two pilots killed in Air Canada Express collision at LaGuardia",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Hackney solar project sets model for local energy production",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "NHL Reporter Jessi Pierce and Her Children Die in Fire",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "AI Glasses for Dementia Show Promising Trial Results",
-    "category": "Health",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Texas Meteorite Crash Sparking Safety Questions",
-    "category": "US",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Air Canada Express CRJ-900 Collision at LaGuardia Kills Two Pilots",
-    "category": "US",
-    "slug": "article-33",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Iran Warns of Mining Persian Gulf Amid U.S. Conflict",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 15
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "New Coalition of 22 Nations Forms to Secure Strait of Hormuz",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Israeli Operations Against Hezbollah in Lebanon Intensify",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "International Energy Agency Considers Oil Stock Releases Amid Iran Conflict",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Opposition Emerges to ICE Detention Facility Expansion",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "US-Iran Tensions Impact Global Oil Markets",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-23",
-    "headline": "Iran Warns of Potential Strait of Hormuz Closure",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Belleville Council Updates Fire Department By-Law for Better Response",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Belleville Councillors Oppose Provincial Control Over Schools",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Belleville Adjusts Waste Collection for Easter Weekend",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Innovative Solutions for Small Living Spaces",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Belleville Teen Dies Following Car Collision",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Kayden Beasley Leads Team USA to Paralympic Gold",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Belleville Council Cuts Health Unit Budget Over Transparency Issues",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Major Cities Worldwide Show Significant Air Quality Improvements",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
     "date": "2026-03-24",
     "headline": "Protest Planned Over Ontario Student Assistance Changes",
     "category": "Ontario",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-29",
     "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Toronto Increases Traffic Agents Ahead of FIFA 2026",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Loyalist College Launches Art-Based Stroke Rehabilitation Program",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "OPP Lays 20 Charges in Quinte West Driving Blitz",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Local Bands and Physicians Unite for 'Rock for a Reason'",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Closure of Drug Consumption Sites Raises Health Concerns",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "County Road 3 Reconstruction Project Tender Awarded",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "OPP Targets Aggressive Drivers on Highway 401",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "New Eco-Friendly Gadgets Available for Canadians",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Vehicle Found in Lake Ontario Raises Safety Concerns",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Ontario Bans Ghosting Job Candidates in New Legislation",
+    "category": "Ontario",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Northumberland residents warned about rising fraud and scams",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "New U.S. Portal Offers Tariff Refunds for Canadian Businesses",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Ottawa's Renovictions Bylaw Proposal Sparks Debate",
+    "category": "Ontario",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Utility Worker Saves Toddler from Traffic in Phoenix",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Job Cuts at Immigration and Refugee Board Amid Asylum Claim Backlog",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "New Library in Gaza Offers Hope Amid Conflict",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Attorney General Moves to Withhold Evidence in Hunt Case",
+    "category": "Canada",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Nurse's IVF Journey Leads to Unexpected Love and Motherhood",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Public Divided on Proposed High-Speed Railway from Toronto to Quebec City",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "UK backs golden eagle reintroduction in historic move",
+    "category": "World",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Cboe sells Canadian and Australian exchanges to TMX Group",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "No Cancer Relapses in Groundbreaking Bowel Cancer Trial",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Ottawa man granted parole amid concerns over extremist beliefs",
+    "category": "Canada",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Spring Cleaning: A Seasonal Practice for Mental Wellbeing",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "New report reveals hazardous air pollution exposure for US children",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Artemis II Crew Reflects on Historic Mission",
+    "category": "Science",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Virginia voters approve new congressional map favoring Democrats",
+    "category": "US",
+    "slug": "article-32",
+    "source_count": 6
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Iran Attacks Ships in Strait of Hormuz Amid U.S.-Iran Ceasefire",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 15
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Trump Extends Ceasefire With Iran to Facilitate Negotiations",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "EU Expected to Approve €90 Billion Loan to Ukraine",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "20,000 People Aboard Vessels in Strait of Hormuz Amid Regional Conflict",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "Escalating Russian Drone Attacks Target Ukrainian Infrastructure",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-22",
+    "headline": "U.S. Naval Blockade of Iran to Continue Amidst Stalled Talks",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 3
   }
 ]
