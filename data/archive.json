@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-03-24",
-    "headline": "Protest Planned Over Ontario Student Assistance Changes",
-    "category": "Ontario",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Teen Initiative Saves Families $140,000 Through Uniform Redistribution",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Ontario's transparency watchdog comments on proposed FOI changes",
-    "category": "Ontario",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Ukraine cites Russian intelligence aid to Iran amid conflict",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Ontario's Net Debt Increases by $104 Billion From 2018 to 2024",
-    "category": "Ontario",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Bangladesh Project Effectively Tackles Child Marriage",
-    "category": "World",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Ottawans Voice Concerns on Privacy Rights and Bill C-22",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Study Links Coffee Consumption to Lower Dementia Risk",
-    "category": "Health",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Canadian Flight Attendant Survives LaGuardia Plane Crash",
-    "category": "Canada",
-    "slug": "article-30",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Link Between Soil Health and Human Nutrition Explored",
-    "category": "Science",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Markwayne Mullin Confirmed as New Secretary of Homeland Security",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Plane Collision at LaGuardia Airport Under Investigation",
-    "category": "US",
-    "slug": "article-12",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Farmers Struggle Amid Rising Costs and Policy Changes",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Supreme Court to Hear Major Asylum Rights Case",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "DHS Shutdown Results in Long TSA Wait Times",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Reports Claim Israeli Airstrikes Hit Iran's F-14 Fighter Jets",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 12
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Denmark Holds Elections Amid U.S. Foreign Policy Concerns",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Russia Launches Drone Attack on Ukraine",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Colombian Military Plane Crash Claims At Least 66 Lives",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "China Cuts Fuel Price Hikes Amid Rising Energy Costs",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "BTS Fans Boost Seoul's Economy Despite Concert Turnout",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Trump Claims Talks with Iran Delay Military Action",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "EU and Australia Sign Comprehensive Free Trade Agreement",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "Trump Delays Airstrikes Against Iran Amid Diplomatic Talks",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-24",
-    "headline": "UK mandates solar panels and heat pumps in new homes",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Belleville Residents Urged to Register for Health Care Connect",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Youth-led Program Supports Families with School Uniforms",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "New Long-Term Care Home Opens in Belleville as Demand Grows",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Prince Edward County Develops New Respiratory Clinics",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Healthcare Demand Rises in Bay of Quinte Region",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "New Tiny House Community Launches in Bloomington",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Local Health Care System Faces Increased Demand",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-25",
     "headline": "CAA's Worst Roads Campaign Invites Nominations for 2025",
     "category": "Local",
@@ -6298,5 +6074,229 @@
     "category": "World",
     "slug": "article-30",
     "source_count": 3
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "SIU Investigates Vehicle Crash in Greater Napanee",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Benefit Concert to Fund Medical Equipment in Prince Edward County",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Quinte West Council Upholds Alcohol Policy Amid Provincial Changes",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Ottawa's New Islamic Bookstore Aims for Inclusivity",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Quinte West Council Considers AI Policy for Municipal Staff",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Belleville Ravens Youth Teams Shine at Provincial Championships",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Assault Charge Laid in Domestic Dispute in PEC",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Quinte West Selects Vendors for Pop-Ups By the Bay",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Toronto City Council Debates Rental Protections and Airport Takeover",
+    "category": "Ontario",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Missing Child Located Safely in Prince Edward County",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Ontario Solicitor General Pursues SUV Replacement After Theft",
+    "category": "Ontario",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Quiet Room Concert Tonight at Glanmore Historic Site",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Change in Citizenship Laws Increases American Demand for Dual Citizenship",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Ontario mandates employer responses to job candidates",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Canadian military begins $5 billion warship project",
+    "category": "Canada",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Teacher Raises Over $100,000 for Student Scholarships",
+    "category": "US",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Federal Judge Rules on Gender-Affirming Care Policy for Children",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Principal Disarms Gunman, Crowned Prom King",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Senate Passes Immigration Budget With No Democratic Support",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Jodi Kantor's Book Aims to Guide Young Career Seekers",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "European Airlines Face Challenges Amid Jet Fuel Crisis",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Granborghini charity offers joyrides to combat elder loneliness",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Lebanon, Israel Resume Ceasefire Talks in Washington",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Linh Mai, First Baby Elephant in 25 Years, Debuts",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Five critically injured in train collision in Denmark",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Prince Harry Visits Ukraine, Urges U.S. Support",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Homicide of Teen in D4vd's Car Stirs Concerns",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "UK to Reintroduce Golden Eagles to Northumberland",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "56th Anniversary of Earth Day Highlights Environmental Movement",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Breakthrough Gene Therapy Restores Sight for Young Girl",
+    "category": "Health",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Study Shows No Relapses in Bowel Cancer Patients After 33 Months",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Gene Therapy Restores Hearing in Patients with Rare Deafness",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
   }
 ]
