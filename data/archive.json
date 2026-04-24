@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-03-25",
-    "headline": "CAA's Worst Roads Campaign Invites Nominations for 2025",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Ontario's Ticket Resale Cap Faces Scrutiny Ahead of World Cup",
-    "category": "Ontario",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Ontario to Waive HST on New Homes for One Year",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Ontario Police Watchdog Investigates Arrest of Rockland Man",
-    "category": "Ontario",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Shay Taylor-Allen Transitions to Medical Resident at Yale",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Air Canada Express Flight Involved in Fatal Crash at LaGuardia Airport",
-    "category": "Canada",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Cities Reduce Air Pollution by Up to 40% in 15 Years",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Canada Post Union Leaders Urge Rejection of Tentative Deals",
-    "category": "Canada",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Solar Energy Costs Plummet Amidst Rising Fossil Fuel Prices",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Potential Iran Tensions Could Affect Global Energy Markets",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "NASA Prepares for Historic Lunar Mission",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Charles Milliard Named Leader of Quebec Liberals",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Sarah Mullally Becomes First Female Archbishop of Canterbury",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "U.S. Deploys Troops to the Middle East Amid Ceasefire Talks",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 13
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "UK Cancer Death Rates Hit Record Low Amid Research Advances",
-    "category": "Health",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "US Boosts Military Presence in Middle East Amid Peace Talks",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Study Links Coffee Consumption to Lower Dementia Risk",
-    "category": "Health",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Iran Rejects U.S. Ceasefire Plan Amid Ongoing Attacks",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Breakthrough in Microlasers Paves Way for Disease Detection",
-    "category": "Health",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Mass grave with 32 bodies discovered in Kenya",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Moscow's Drone Offensive Targets Ukrainian Energy Infrastructure",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Trump's Changing Goals in Iran War: Timeline and Implications",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Israeli Military Indicates Longer War Efforts Against Iran",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Iran's Closure of Strait of Hormuz Disrupts Global Energy Supplies",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-25",
-    "headline": "Denmark's Political Landscape in Uncertainty After Election",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Charges Upgraded in Fatal Quinte West Collision",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "YMCA Strong Kids Fundraiser Takes Place in Belleville Tonight",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Fire Breaks Out in Brighton, Community Responds",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Graham's Gift Launched to Honor Child and Promote Organ Donation",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Ford Government to Present 2026 Budget Today",
-    "category": "Ontario",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Belleville Hotel Director Wins Prestigious Hilton Award",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Canada's Cyclone Helicopters Delayed Until 2029",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-26",
     "headline": "Alicia Kayley to Perform at Ottawa Bluesfest",
     "category": "Local",
@@ -6297,6 +6073,230 @@
     "headline": "Gene Therapy Restores Hearing in Patients with Rare Deafness",
     "category": "Health",
     "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Flood Levels Plateau in Constance Bay",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Truss Beverage Co. Grand Opening Set for May 26 in Belleville",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Affordable housing project in Prince Edward County faces funding hurdles",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Pickleball Tournament Raises $68,000 for YMCA Campaign",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Body Found in Vehicle After Police Pursuit in Greater Napanee",
+    "category": "Local",
+    "slug": "article-32",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Belleville Police Service Upgrades Emergency Response with NG9-1-1",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Ontario Moves to Pass New Municipal Conduct Rules",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Tim Hortons Campaign Supports Student Nutrition Programs",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "DOJ's Internal Watchdog to Investigate Epstein Document Handling",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Alberta Moves to Adopt Permanent Daylight Time",
+    "category": "Canada",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Ceasefire Extended Between Israel and Lebanon for Three Weeks",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 9
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Canadian Bars Shine in North America's 50 Best Bars 2026",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Canada Diverges from U.S. on Israel Policy",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "BagelFest West Celebrates the Gourmet Bagel Trend",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Trump Extends Israel-Lebanon Ceasefire Amid Regional Tensions",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 7
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Family Rescues Critically Endangered Axolotl in Wales",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Trump's Focus on Reviving the Great Salt Lake",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Ecosia Plants 250 Millionth Tree Ahead of Earth Day",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Prince Harry Urges U.S. Support During Ukraine Visit",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Granborghini Project Connects Seniors with Supercars",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "UK Biobank Data of 500,000 Participants Compromised",
+    "category": "Health",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Countries Meeting in Colombia to Discuss Fossil Fuel Transition",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Community Crowdfunding Aids Rescue of Molly the Dog",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Philanthropy Fuels Research on Mental Health Innovations",
+    "category": "Health",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Gene Therapy Restores Sight for Young Patient in London",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Decline in Teen Suicide Rates After 988 Hotline Launch",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Breakthrough Trial Shows Zero Relapses in Bowel Cancer Patients",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "FDA Approves First Gene Therapy for Genetic Deafness",
+    "category": "Health",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Naked Mole Rats Show Cooperative Queen Transition",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "MIT Study Shows Rain Sounds Accelerate Rice Seed Germination",
+    "category": "Science",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "New Method Enables Robots to Learn from Human Observation",
+    "category": "Tech",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Cohere Merges with Aleph Alpha to Advance AI Capabilities",
+    "category": "Tech",
+    "slug": "article-20",
     "source_count": 1
   }
 ]

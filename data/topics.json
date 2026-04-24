@@ -281,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-04-22T07:54:26.759021-04:00",
+      "last_material_update": "2026-04-24T07:51:20.371311-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -302,7 +302,9 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Prince Harry's visit to Ukraine underscores the ongoing debate about U.S. support in international conflicts amidst Russia's aggression."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -340,6 +342,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-24",
+          "text": "Prince Harry Urges U.S. Support During Ukraine Visit",
+          "category": "political",
+          "source_url": "https://www.cbsnews.com/news/prince-harry-ukraine-accuses-russia-war-crimes-kyiv-visit/"
+        },
         {
           "date": "2026-04-22",
           "text": "Escalating Russian Drone Attacks Target Ukrainian Infrastructure",
@@ -512,12 +520,6 @@
           "date": "2023-07-17",
           "text": "Russia withdraws from Black Sea grain export deal",
           "category": "economic",
-          "source_url": ""
-        },
-        {
-          "date": "2023-06-06",
-          "text": "Kakhovka Dam destroyed, causing massive flooding",
-          "category": "humanitarian",
           "source_url": ""
         }
       ],
