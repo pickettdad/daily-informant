@@ -281,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-04-24T07:51:20.371311-04:00",
+      "last_material_update": "2026-04-25T07:23:20.211896-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -303,7 +303,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "Prince Harry's visit to Ukraine underscores the ongoing debate about U.S. support in international conflicts amidst Russia's aggression."
+        "The recent Russian strikes highlight an alarming escalation in the conflict, raising concerns for civilian safety and regional stability."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -342,6 +342,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-25",
+          "text": "Seven Killed in Russian Strikes Across Ukraine",
+          "category": "humanitarian",
+          "source_url": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-04-24",
           "text": "Prince Harry Urges U.S. Support During Ukraine Visit",
@@ -514,12 +520,6 @@
           "date": "2024-02-17",
           "text": "Russian forces capture Avdiivka after prolonged fighting",
           "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2023-07-17",
-          "text": "Russia withdraws from Black Sea grain export deal",
-          "category": "economic",
           "source_url": ""
         }
       ],

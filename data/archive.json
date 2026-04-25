@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-03-26",
-    "headline": "Alicia Kayley to Perform at Ottawa Bluesfest",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Public Servants Receive Workforce Adjustment Notices",
-    "category": "Canada",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Teens Provide School Uniforms to 1,400 Families",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Equal Pay Day 2024 Highlights Widening Wage Gap",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Wesley Hall Captured After Being Unlawfully At Large",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Iran and U.S. Diverge on Ceasefire Negotiations Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 19
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Annapolis Celebrates 50 Years of Sock Burning Festival",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Iran Reviews U.S. Proposal but Rejects Talks",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Community Raises $900 for Autistic Barista After Theft",
-    "category": "Local",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "UK Requires Renewable Energy Installations in New Homes by 2028",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Teen Scout Honored for Heroic Rescue During Rafting Incident",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Jury Awards $6 Million in Landmark Case Against Meta and YouTube",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Missouri v. Biden Case Ends with Free Speech Ruling",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Iran's War Disrupts Global Helium Supply for Semiconductors",
-    "category": "Tech",
-    "slug": "article-13",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Rare Twin Mountain Gorillas Born in Virunga National Park",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "New England Trail Celebrates Coastline Conservation",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Biological Weapons Convention Marks 51 Years of Influence",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Solar Energy Costs Drop Nearly 90% in a Decade",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Hampshire Hedge project connects two national parks",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Global Terrorism Reaches 15-Year Low with Significant Declines",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "UK Cancer Death Rates Hit Record Low",
-    "category": "Health",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-26",
-    "headline": "Innovative Payphone Project Links Youth and Seniors to Combat Loneliness",
-    "category": "Health",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Five Charged in Trent Hills Drug and Firearm Investigation",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Hastings County Launches Investment Attraction Hub",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Vanier College Cancels Holocaust Commemoration Amid Security Concerns",
-    "category": "Canada",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Belleville Moves Forward with Sewage Pumping Station Project",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Trump to Sign Order Paying TSA Agents Amid Shutdown",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Michaud and Pereira Win Bronze at World Figure Skating Championships",
-    "category": "Local",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Trump Extends Iran Negotiation Deadline to April 2026",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Council Committee Recommends Lease for Expanded Marina at Picton Harbour",
-    "category": "Local",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-27",
     "headline": "Ongoing Global Conflicts from Ukraine to Pakistan Raise Stability Concerns",
     "category": "World",
@@ -6298,5 +6088,215 @@
     "category": "Tech",
     "slug": "article-20",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Concerns Grow Over Camelott Hamblett's Long-term Seclusion",
+    "category": "Ontario",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Ottawa Nurse Practitioner-Led Clinic Marks Six-Month Milestone",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Montreal Reports Surge in Drug Overdoses Linked to Fentanyl",
+    "category": "Canada",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Ontario Government Invests in Primary Care Expansion",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "New Ruling Clarifies Limits on DACA Protections for Immigrants",
+    "category": "US",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "26th Annual Quinte Trash Bash Set for April 2026",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "U.S. Envoys to Discuss Ceasefire with Iran in Pakistan",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 18
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Brighton Celebrates Local Volunteers at Annual Event",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Gunfire Erupts in Mali's Capital Amid Military Assault",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Celebrating Independent Bookstores on April 25 in Toronto",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Seven Killed in Russian Strikes Across Ukraine",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Multiple Driving Charges Laid by Northumberland OPP",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Flood Warning System in Everest Region Neglected and Dangerous",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "A young girl gains confidence through sports role model",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Over 800,000 Displaced in Intensifying Tigray Crisis",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Ontario invests $2.1 million in primary healthcare access",
+    "category": "Ontario",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "100-Year-Old Roy Allen to Walk 5K at Ottawa Race Weekend",
+    "category": "Canada",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "New Canadian Law Expands Citizenship to Americans with Ancestry",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Number of American Academics Seeking Jobs in Canada Increases",
+    "category": "Canada",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Community Members Rescue Family from Flipped Car",
+    "category": "US",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Rescue Dog Peanut Goes Viral, Inspires Donations",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Rathlin Island Achieves World-First in Conservation",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Gaza Holds First Local Elections in 21 Years",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Ecosia Reaches 250 Million Trees Planted Milestone",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Algeria Becomes 29th Country to Eliminate Trachoma",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Study Links Education Levels to Longevity Worldwide",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Crowdfunding Campaign Aids Hiker's Rescue of Lost Dog",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Six-Year-Old Girl's Sight Restored with Gene Therapy",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "FDA Approves First Gene Therapy for Hearing Loss",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Planned Parenthood Introduces Botox Services to Offset Funding Cuts",
+    "category": "Health",
+    "slug": "article-20",
+    "source_count": 3
   }
 ]
