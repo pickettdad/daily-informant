@@ -1,201 +1,5 @@
 [
   {
-    "date": "2026-03-27",
-    "headline": "Ongoing Global Conflicts from Ukraine to Pakistan Raise Stability Concerns",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Algonquin College to Transition Disability Program in 2026",
-    "category": "Ontario",
-    "slug": "article-1",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Belarus and North Korea Sign Friendship Treaty",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "South Korean Submarine Heads to Canada for Naval Exercises",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Marco Rubio at G7 Amid US-Israeli War on Iran",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Reverence in Prayer: A Call for Historical Practices",
-    "category": "Canada",
-    "slug": "article-32",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Iran Reports 1,937 War Casualties Amid US-Israel Attacks",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Senate Passes Funding Bill for Homeland Security Department",
-    "category": "US",
-    "slug": "article-10",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "102-Year-Old Grandfather Goes Viral for Pottery Skills",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Mangrove Restoration Boosts Cambodian Fisheries",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Study Reveals Lower Degradation Rates in Solar Panels",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Newly Hatched Sea Turtles Begin Journey to Ocean in Gabon",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Dragon Fruit Farming Thrives in India as Farmers Seek Profits",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Texas Teen Receives Honor Medal for Daring Rescue",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Chilean President Boric Establishes Vast Marine Protected Area",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "US Court Rules Against Meta and Google Over Social Media Impact",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Solar Energy Costs Plummet Amid Rising Fossil Fuel Prices",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Study Finds Diet Crucial for Cognitive Health in Older Adults",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "UK Cancer Death Rates Hit Record Low",
-    "category": "Health",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Research highlights soil health's importance to human well-being",
-    "category": "Health",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Australian Researchers Develop Quantum Battery Prototype",
-    "category": "Science",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Sperm Whales Display Cooperative Behavior During Birth",
-    "category": "Science",
-    "slug": "article-14",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Dogs and Humans Coexisted in Britain 15,000 Years Ago",
-    "category": "Science",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-27",
-    "headline": "Birds Changing Breeding Seasons Due to Climate Change",
-    "category": "Science",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Ontario Police Warn Seniors of Resurgence in Scams",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Cobourg's Warming Room Extended Until April 2026",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Son Sentenced to Life for Parents' Murder",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "St. Theresa Titans Capture OFSAA Hockey Championship",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
     "date": "2026-03-28",
     "headline": "Charges Filed in Connection With Northumberland County Incidents",
     "category": "Local",
@@ -6298,5 +6102,201 @@
     "category": "Health",
     "slug": "article-20",
     "source_count": 3
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "$129,000 in Contraband Seized at Collins Bay Institution",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Ontario funds primary care improvements in Hastings and Lennox and Addington",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Shooting in Toronto Claims Life of 30-Year-Old Man",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Quinte Trash Bash Returns for 26th Year of Cleanup",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Belleville Firefighters Respond to Two Fires on Saturday",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Roll for Impact Boccia Classic Set for May 3",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Wanted Offender Captured by Authorities in Cobourg",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Toronto's Cherry Blossoms Approach Peak Bloom",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Omni PGA Frisco to Host Major Golf Championships",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Ottawa Pools Host Creative Immersive DJ Shows",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Navan Residents Voice Concerns Over High-Speed Rail Project",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Roll for Impact Boccia Classic Set for May 3",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Protests Held in Ontario Over Proposed Health and Education Budget Changes",
+    "category": "Ontario",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "New Law Expands Citizenship for Americans with Canadian Roots",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Governor General to Visit Tumbler Ridge After Mass Shooting",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "NFL Draft's No. 1 Pick Commits $500,000 to MS Fight",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Métis Self-Government Treaty Advances Amid Debate from First Nations",
+    "category": "Canada",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Girl Rescues Critically Endangered Axolotl in Wales",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Suspect in Custody After Shooting Near White House Correspondents' Dinner",
+    "category": "US",
+    "slug": "article-5",
+    "source_count": 15
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Six-Year-Old Girl Regains Vision Through Gene Therapy",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Shooting Incident at White House Correspondents' Dinner Leads to Evacuations",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 14
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "FDA Approves First Gene Therapy for Deafness",
+    "category": "Health",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Trump Halts Negotiations with Iran, Shifts U.S. Policy",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "DNA Links Suspect to 1984 Long Island Disappearances",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Trump Cancels U.S. Delegation's Trip to Pakistan for Iran Talks",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Pig Imitation Contest Highlights Farmer Struggles in Estonia",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "UK Braces for Higher Prices Following Middle East Tensions Involving Iran",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Nations Gather to Discuss Transition from Fossil Fuels in Colombia",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
   }
 ]
