@@ -1,243 +1,5 @@
 [
   {
-    "date": "2026-03-28",
-    "headline": "Charges Filed in Connection With Northumberland County Incidents",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Aysanabee Nominated for Two Juno Awards",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Mississauga Advises Residents on Coyote Safety Measures",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "NDP Leadership Candidates Make Final Pitches in Winnipeg",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Ottawa Man Charged After Stolen Semi-Trailer Collisions",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Saskatoon Teacher Awarded Carnegie Medal for Heroism",
-    "category": "Canada",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Ontario Budget Projects Housing Resale Growth Amid Skepticism",
-    "category": "Ontario",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "UN General Assembly Votes to Condemn Transatlantic Slave Trade",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Foster Care Murder Trial Concludes As Ruling Approaches",
-    "category": "Ontario",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Promising Trial Results for New Epilepsy Drug in Children",
-    "category": "Health",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Ontario Adjusts Financial Outlook Amid Tariff Concerns",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Doctor Adopts Young Boy After Hospital Visit Alone",
-    "category": "Health",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Federal spending review not focused on job cuts, says Ali",
-    "category": "Canada",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "House Passes DHS Funding Bill Amid Ongoing Shutdown",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 10
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "North Carolina woman reunites with mother after 24 years",
-    "category": "US",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Senate Votes to Fund Most DHS, Leaves Immigration Issues Unresolved",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 7
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Trump's Support Base Divided on War in Iran",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Two Students Killed in Tennessee School Bus Crash",
-    "category": "US",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Five killed in train-van collision in Mississippi",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Iran War Sparks Generational Divide Among Conservatives",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Missile Attack on U.S. Base in Saudi Arabia Wounds Soldiers",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Gaza Crisis Deepens Amid Shifting International Focus",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Beirut Residents Face Crisis Amid Ongoing Israeli Military Actions in Lebanon",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Casualties reported in overnight strikes on Ukraine and Moscow",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Israel Challenges Canada’s Position on Lebanon Occupation",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "U.S. Enters Fifth Week of Conflict with Iran",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "UK Petrol Prices Exceed 150p as Accusations of Profiteering Emerge",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-28",
-    "headline": "Family Caregivers Focus on Future Planning Amidst Concerns",
-    "category": "Health",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Ontario Police Warn of Resurgence in Grandparent Scams",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Warming Room in Cobourg Extended Until April 2026",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Toronto Launches Third Pothole Repair Blitz of 2026",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Local Musicians Set to Perform at Historic Belleville Venue",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Accused in Hit-and-Run Now Faces Impaired Driving Charges",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Trenton Golden Hawks' Kuipers Named Humanitarian of the Year",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-29",
     "headline": "NDP to Announce New Leader Today Amid Political Challenges",
     "category": "Canada",
@@ -6295,6 +6057,244 @@
   {
     "date": "2026-04-26",
     "headline": "Nations Gather to Discuss Transition from Fossil Fuels in Colombia",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Fatal Boat Incident Raises Safety Concerns in Thousand Islands",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Belleville Council Celebrates Local Artist's Achievement",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Hastings Prince Edward School Board's Oversight Motion to Be Discussed",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Boccia Classic Set to Support Local Treatment Centre",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Thurlow Auto Body Shop Destroyed by Fire on Saturday",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Quinte Judo Club Members Shine at Tora Championships",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Day of Mourning Highlights Workplace Mental Health Crisis",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Toronto's Weather: Sunny Monday Followed by Rain",
+    "category": "Ontario",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Swift Fire Response Saves Thurlow Home from Extensive Damage",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Ontario Enacts Law to Combat Employer Ghosting",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Six-Year-Old Girl Falls to Death in North York Incident",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Prom Season Begins with Heartwarming Promposal in Salt Lake City",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Nickerson Family Faces Homelessness Due to Lack of Autism Services",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Emergency Landing for Delta Flight After Surprise Birth",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Ottawa Man Injured in Scooter-SUV Collision",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Rathlin Island's Invasive Ferret Eradication Achieved",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Premier Ford Apologizes to MPP Smyth in Legislature",
+    "category": "Ontario",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "US to Disinter Pearl Harbor Victims Following DNA Progress",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Ford's Remote Work Sparks Debate on Leadership Standards",
+    "category": "Ontario",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "70th Anniversary of Rocky Marciano's Retirement",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Suspect in White House Correspondents’ Dinner Shooting to Be Charged",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 13
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Amsterdam Becomes First Capital to Ban Fossil Fuel Advertisements",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Shooting at White House Correspondents' Dinner Sparks Security Debate",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 9
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "New report emphasizes tipping points for nature recovery",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Teachers Struggle with Salary Gains Amid Soaring Inflation",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Bald Ibis Successfully Saved from Extinction in Turkey",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Elections in Gaza and West Bank Highlight Political Developments",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Eastern Barred Bandicoot Reintroduced in Australia Through Genetic Approach",
+    "category": "World",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Oil Prices Rise Amid Ongoing U.S.-Iran Tensions",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Algeria Eliminates Trachoma as a Public Health Problem",
+    "category": "World",
+    "slug": "article-34",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "China Balances U.S.-Iran Relations Amid Stalled Peace Talks",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Gene therapy restores sight in groundbreaking case for a young girl",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Strikes Mark Chernobyl Disaster Anniversary, Causing Deaths and Alarm",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Drone Attacks in Odesa Leave 11 Injured Amid Conflict",
     "category": "World",
     "slug": "article-28",
     "source_count": 2

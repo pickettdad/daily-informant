@@ -281,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-04-25T07:23:20.211896-04:00",
+      "last_material_update": "2026-04-27T08:29:28.757825-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -302,7 +302,10 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The recent strikes in Ukraine and Russian-occupied territories have raised alarms about nuclear safety amid ongoing Russian aggression.",
+        "The recent drone attacks in Odesa underscore the ongoing violence in the Ukraine conflict and the failure of diplomatic efforts, with serious implications for global security."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -340,6 +343,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-27",
+          "text": "Drone Attacks in Odesa Leave 11 Injured Amid Conflict",
+          "category": "diplomatic",
+          "source_url": "https://www.aljazeera.com/news/2026/4/27/russia-attacks-odesa-claims-ukraine-hit-zaporizhzhia-nuclear-plant?traffic_source=rss"
+        },
         {
           "date": "2026-04-25",
           "text": "Seven Killed in Russian Strikes Across Ukraine",
@@ -511,12 +520,6 @@
         {
           "date": "2024-08-06",
           "text": "Ukraine launches cross-border offensive into Russia's Kursk region",
-          "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2024-02-17",
-          "text": "Russian forces capture Avdiivka after prolonged fighting",
           "category": "military",
           "source_url": ""
         }
@@ -839,7 +842,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-04-17T07:42:20.273555-04:00",
+      "last_material_update": "2026-04-27T08:29:28.757825-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -861,7 +864,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Local elections in Gaza and the West Bank mark a potential step towards Palestinian unity amid calls for broader political reforms."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -904,6 +909,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-04-27",
+          "text": "Elections in Gaza and West Bank Highlight Political Developments",
+          "category": "diplomatic",
+          "source_url": "https://www.npr.org/2026/04/27/nx-s1-5800669/iran-middle-east-updates"
+        },
         {
           "date": "2026-04-17",
           "text": "Calls for Peace Amid Israeli-Palestinian Violence",
