@@ -1,250 +1,5 @@
 [
   {
-    "date": "2026-03-29",
-    "headline": "NDP to Announce New Leader Today Amid Political Challenges",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Missing 19-Year-Old Found Safe in Ottawa",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "New Benefit Aims to Help Low-Income Canadians with Food Costs",
-    "category": "Canada",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Jenni Gibbons Named Backup for NASA's Artemis II Mission",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Federal Alcohol Tax Hike Draws Criticism Ahead of Implementation",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Significant Wildlife Recovery in Virunga National Park",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Prime Minister Carney's Question Period Attendance at 29 Percent",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Royal Albert Hall Celebrates 155 Years of Cultural Heritage",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Impact of Rising Gas Prices Linked to Iran Tensions",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Largest North American Wildlife Overpass Opens in Colorado",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Tariff Proposal Highlights Tension in Bicycle Manufacturing",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Tiny Pony Pickle Makes Inspiring Recovery After Illness",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Global 'No Kings' Protests Against Trump Administration",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "78-Year-Old Woman Swings from US's Longest Rope Swing",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Millions Attend Third No Kings Protest Against Trump Administration",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 6
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "New Drug Shows Promise for Children with Epilepsy",
-    "category": "Health",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Houthis Claim Responsibility for Missile Strikes on Israel",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "UK Reports Lowest Cancer Death Rates on Record",
-    "category": "Health",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Israeli Airstrike in Lebanon Kills Three Journalists",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Dale Steele Becomes Oldest U.S. Organ Donor at Age 100",
-    "category": "Health",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "U.S. Service Member Injuries in Middle East Conflict Surpass 300",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "New findings shift timeline of dog domestication",
-    "category": "Science",
-    "slug": "article-32",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Diplomatic Efforts Escalate Amid Ongoing US-Iran Tensions",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Yemen's Houthis Strike Israel in First Missile Attack",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "UN Warns of Climate Imbalance with El Niño Approaching",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "Middle East Tensions Drive Oil Price Volatility",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-29",
-    "headline": "IOC Bans Transgender Women from 2028 Olympics",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "Trustee's Motion on School Busing Contracts Ruling Today",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "Quinte Judo Athletes Shine at International Championships",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "Freezing Rain Forecast for Ottawa Starting Tuesday Morning",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "Community Band Together to Find Escaped Kangaroo in Wisconsin",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "Special Weather Statement Issued for Bancroft Area",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "London Considers Higher Fees for SUV Usage",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "House Fire in Consecon Raises Fire Safety Concerns",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-30",
-    "headline": "New Strategies for Consumer Complaints in Canada",
-    "category": "Canada",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
     "date": "2026-03-30",
     "headline": "Community Remembers Beloved Crossing Guard Peter Clark",
     "category": "Local",
@@ -6295,6 +6050,251 @@
   {
     "date": "2026-04-27",
     "headline": "Drone Attacks in Odesa Leave 11 Injured Amid Conflict",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "OPP Officer Killed in Highway 401 Collision Near Cobourg",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "New Family Doctor Set to Join Belleville This Summer",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "OPP Officer Killed in Motorcycle Collision on Duty",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Tim Hortons Launches Smile Cookie Week for Local Causes",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Child Found with Critical Injuries in Ottawa Incident",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Cristy Latham Honored as OCAA Administrator of the Year",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "OPP Officer Killed on Duty Sparks Safety Concerns",
+    "category": "Local",
+    "slug": "article-32",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Harper Lee Celebrates 100th Birthday, Legacy Endures",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Provincial Takeover Motion Fails at Hastings Prince Edward School Board",
+    "category": "Local",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "$20 Million Initiative to Boost Gulf Coast Healthcare Resilience",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "David G. Boghosian Appointed Belleville Integrity Commissioner",
+    "category": "Local",
+    "slug": "article-34",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Eastern Barred Bandicoot to be Reintroduced in Australia",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Concerns Grow Over Crime and Drug Use in Chinatown",
+    "category": "Local",
+    "slug": "article-35",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "UK Consults on Social Media Restrictions for Minors",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Thunderstorms and Rain Expected in Toronto This Week",
+    "category": "Ontario",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Elderly Woman and Dog Go Viral for Gardening Video",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Driver Penalty Reveals Consequences of Careless Driving",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "French Researcher Deciphers 4,000-Year-Old Elamite Script",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Quebec Premier Meets U.S. Trade Representative Amid Tariff Challenges",
+    "category": "Canada",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Ben Sasse Reports Tumor Reduction from Experimental Drug",
+    "category": "Health",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Cole Allen Charged with Attempted Assassination of Trump",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "The Royal Opens Urgent Care Mental Health Clinic Today",
+    "category": "Health",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Kimmel Defends Controversial Joke Amid Shooting Fallout",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 10
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "UK Researchers Launch H5N1 Vaccine Trial to Boost Preparedness",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Shooting at White House Correspondents' Dinner Raises Safety Concerns",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 5
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "New cold plasma method for producing methanol discovered",
+    "category": "Science",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "MAHA Movement Protests Trump Administration's Glyphosate Support",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Giant Octopuses Emerged as Ancient Marine Predators",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Trump Administration Fires National Science Foundation Board",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Innovative Method Transforms Sewage Sludge into Renewable Energy",
+    "category": "Science",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "U.S. Considers Iran's Strait of Hormuz Proposal Amid Nuclear Talks Stalemate",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 8
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "U.S. Military Actions Against Iran Persist Amid Peace Talks",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "U.S. Sends Deportees to Congo as Policy Faces Scrutiny",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Austrian man admits to planning Taylor Swift concert attack",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-28",
+    "headline": "Strait of Hormuz Closure Raises Global Economic Concerns",
     "category": "World",
     "slug": "article-28",
     "source_count": 2
