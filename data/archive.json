@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-03-31",
-    "headline": "JPMorgan Chase Launches 'American Dream Initiative' for Small Businesses",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Trustee Prinzen Appeals Court Decision on Governance Issues",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "New Reptile Species Discovered in Cambodian Caves",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Frank Stronach's Trial: Closing Arguments Commence",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Five Friends Celebrate Over 40 Years of Friendship with Photos",
-    "category": "Health",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Deputy Chief Funnell's Suspension and Raise Details Remain Undisclosed",
-    "category": "Ontario",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Jawbone Discovery Pushes Dog Domestication Timeline Back 5,000 Years",
-    "category": "Science",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Ontario College Presidents' High Salaries Questioned Amid Layoffs",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Artemis II to Launch with Diverse International Crew",
-    "category": "Science",
-    "slug": "article-23",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Air Canada CEO's Language Choice After Crash Draws Criticism",
-    "category": "Canada",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "TSA Employees Receive Paychecks, Relieving Financial Stress",
-    "category": "US",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "TSA Workers Receive Back Pay After Unpaid Period",
-    "category": "US",
-    "slug": "article-18",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Supreme Court to Hear Case on Birthright Citizenship Tomorrow",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "U.S. Gas Prices Rise Amid Middle East Tensions",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 8
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Fourth Anniversary of Bucha Massacre Amid EU Discussions on Ukraine Aid",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 5
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Eight Palestinian Toddlers Return to Gaza After Evacuation",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "U.S. Aid Cuts Jeopardize Rohingya Refugee Well-Being",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "China Prohibits Storing Cremated Remains in Residential Spaces",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Gazan Mother Reunites with Daughter After Two-Year Separation",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Canadian Astronauts Join NASA's Artemis II Moon Mission",
-    "category": "Science",
-    "slug": "article-7",
-    "source_count": 4
-  },
-  {
-    "date": "2026-03-31",
-    "headline": "Court Ruling Could Impact Meta's Copyright Lawsuit Defense",
-    "category": "Tech",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Hastings County Council Rejects Proposed High-Speed Rail Project",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Ontario Invests in Northumberland-Peterborough South Emergency Preparedness",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Lawrence and Poilievre Oppose Proposed High-Speed Rail",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Quinte West Attends Good Roads Conference for Infrastructure Advocacy",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Ottawa Charge Hosts Montreal Victoire on April 3",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Senators Sign Defenseman Hoyt Stanley to Entry-Level Contract",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Driver Charged After Crash in Loyalist Township",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Rising Coyote Sightings Raise Public Safety Concerns in Kanata North",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Driver Charged with Impaired and Stunt Driving in Loyalist Township",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Red States Drive Clean Energy Advancements in the U.S.",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "RCMP Confirms Reports of Foreign Harassment in Canada",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Roofers Repair Widower's Roof After Scam",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-01",
     "headline": "Alberta’s carbon capture project relies on taxpayer funding",
     "category": "Canada",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-31",
     "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Fatal Collision on Highway 7 Claims Life of Local Woman",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Local Couple Boosts Humane Society Funds with Fundraiser",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Parliament Station Elevator Outage Affects Families and Seniors",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Successful 4th Annual Eastern Ontario Caregiver Expo Held",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Quinte West mourns former Mayor Neil Robertson, 91",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Nepean to Open Largest Pinball Arcade in Canada",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Ontario Faces Push to Allocate Alcohol Tax Revenue for Health",
+    "category": "Ontario",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Belleville City Council Ratifies New Deal with Firefighters",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "U.S. Operations Disrupt $800 Million Iranian Oil Scheme",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "England Introduces New Community Right to Buy Powers",
+    "category": "Local",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Pentagon Reports $25 Billion in Costs for Military Operations Against Iran",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 12
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Tunneling for Toronto's Ontario Line Subway Project Begins",
+    "category": "Ontario",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Trump Reaffirms Support for U.S. Naval Blockade on Iran",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Family Reunited with Lost Cat After Seven Years",
+    "category": "US",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Ongoing Blockade in Iran Intensifies Humanitarian Crisis",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Sumatran Orangutan Seen Using Innovative Rope Bridge",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "London Zoo Secures £20 Million for New Veterinary Hospital",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Chinese Tree Pangolin Population Shows First Increase This Century",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Trump and Putin Discuss Ceasefire Amid Ongoing Ukraine Violence",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 4
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "UK Contemplates Social Media Restrictions for Minors",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Meta Terminates Contract with Sama, Leading to Layoffs",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 3
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Boston Marathon Runners Exhibit Exceptional Sportsmanship",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Iran Asserts Commitment to Nuclear and Missile Capabilities",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Algeria Becomes 29th Country to Eliminate Trachoma",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Israel Detains Activists from Aid Flotilla for Gaza",
+    "category": "World",
+    "slug": "article-33",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Adventurers Complete 14,000-Mile Journey Across Africa",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Colorectal Cancer Rates Rise Among Young Canadians",
+    "category": "Health",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Trump Hosts Artemis II Crew After Simulated Mission Success",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Musk Testifies in Trial Over OpenAI's Nonprofit Shift",
+    "category": "Tech",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Kelp Farmer Promotes Sustainable Seaweed in Connecticut",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "New Tuberculosis Test Improves Diagnosis with Ease",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Breakthrough Discovery Could Transform Noma Treatment",
+    "category": "Health",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Celebrating 129 Years Since the Discovery of the Electron",
+    "category": "Science",
+    "slug": "article-17",
+    "source_count": 3
   }
 ]
