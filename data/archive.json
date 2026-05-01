@@ -1,250 +1,5 @@
 [
   {
-    "date": "2026-04-01",
-    "headline": "Alberta’s carbon capture project relies on taxpayer funding",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "UN Summit Grants Protections for 40 Migratory Species",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Supreme Court to Hear Birthright Citizenship Challenge",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Turkiye Qualifies for World Cup After 24-Year Hiatus",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Supreme Court to Hear Birthright Citizenship Case Soon",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "'Africa Fashion' Exhibition Opens in Paris",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Supreme Court Considers Birthright Citizenship Case Today",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Quapaw Nation Transforms Toxic Mining Site into Agricultural Land",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Trump Considers NATO Exit Amid Iran Tensions",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "New Study Links Moderate Coffee Consumption to Lower Dementia Risk",
-    "category": "Health",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Trump Considers Withdrawal from NATO",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Routine Blood Test Reveals Early-Stage Cancer Diagnosis",
-    "category": "Health",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "China Attempts Mediation Amid Iran Conflict's Oil Threat",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Dogs Domesticated 15,000 Years Ago, Research Shows",
-    "category": "Science",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Israel Extends Attacks in Lebanon Amid Humanitarian Crisis",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Russian Military Plane Crash in Crimea Kills 29",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Israeli Attacks in Beirut Result in Seven Deaths",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "Serbian Journalists Protest Violence and Press Freedom Issues",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "U.S. Administration Indicates Shift in Iran Conflict Approach",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-01",
-    "headline": "England's Sewage Spills Decline, Environmental Concerns Persist",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "SIU Investigates Youth Injury During Ottawa Police Arrest",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "H.J. McFarland Memorial Home Declares End to Respiratory Outbreak",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Tyendinaga and Belleville Police Assist Driver in Medical Emergency",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Belleville Opens Applications for Arts & Culture Grant",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "New Research Validates Private Surgery Outcomes in Ontario",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Dan Levy's 'Big Mistakes' to Premiere with Unique Score",
-    "category": "Ontario",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Artemis II Mission Raises Indigenous Rights Concerns",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Egypt Initiates Major Renewable Energy Project Amid Global Oil Shock",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "New Hampshire Considers Legal Action Against Prediction Markets",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Revitalization of Buckingham Canal Promises Environmental Gains",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Over 10,000 Veterans Foreclosed Post VA Program Shutdown",
-    "category": "US",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "International Conference Establishes Protections for Migratory Species",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Supreme Court Questions Trump’s Birthright Citizenship Directive",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Scientists Explore Connection Between Soil Health and Human Health",
-    "category": "Health",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Trump Advocates for Ending the Iran War Amid Israeli Regime Change Push",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 6
-  },
-  {
     "date": "2026-04-02",
     "headline": "UK Cancer Death Rates Drop to Record Low",
     "category": "Health",
@@ -6298,5 +6053,250 @@
     "category": "Science",
     "slug": "article-17",
     "source_count": 3
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Murder Suspect Arrested in Belleville Drug Bust",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Community Trees Seedling Giveaway Scheduled for May 2",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Hastings County Faces $54 Million Infrastructure Funding Gap",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Brighton Unveils New Logo and Brand Identity",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Councillor Tim Tierney Expected to Run for Mayor",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Ontario Local Election Nomination Period Opens Today",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Calls for Action Against Antisemitism Grow",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Domino's Pizza Partners with Trenton Memorial Hospital",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Canada assesses office space for return-to-work policy",
+    "category": "Canada",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "German Shepherd Artemis Finds New Home After Eaton Fire",
+    "category": "Local",
+    "slug": "article-34",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Jessica Simpson Files New Human Rights Complaints Against Media Figures",
+    "category": "Canada",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Vaillancourt Fountain Dismantled After Over 50 Years",
+    "category": "Ontario",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "U.S. Budget Airlines Seek $2.5 Billion Bailout Amid Fuel Crisis",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Canadian Foundation Returns Looted Renoir Painting to Museum",
+    "category": "Canada",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "New Orleans Archdiocese to Remove Priest's Name Amid Abuse Charges",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Wellington's Citizen Campaign Returns Kiwi Birds After Century",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 8
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Nationwide May Day Protests Focus on Workers' Rights",
+    "category": "US",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Global Forest Loss Declines Significantly in 2025",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Trump Faces Deadline on Iran Military Action Today",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "London Zoo's New Hospital Raises Ethical Conservation Questions",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Soaring Oil Prices Impact U.S. Airline Operations",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "AI Polling Revolutionizes Public Opinion Measurement in France",
+    "category": "World",
+    "slug": "article-35",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Iran Conflict Disrupts Fertiliser Supplies and Global Food Production",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Research Identifies Three ADHD Subtypes, Emphasizing Emotional Dysregulation",
+    "category": "Health",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Trump Administration Declares War in Iran Over Amid Ceasefire",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Breakthrough Gene Therapy Restores Sight for Young Girl",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Congressional Hearing Examines Iran War Costs and Partisan Divides",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "AI Outperforms ER Doctors in New Diagnostic Study",
+    "category": "Health",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Aung San Suu Kyi Transferred to House Arrest in Myanmar",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Top Face Serums for Spring 2026 Released Today",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "U.S. Administration Questions War Powers Act Deadline During Ceasefire",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Ceasefire Influences U.S. Congressional War Powers Decision",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Trump's Troop Reduction Proposal Sparks NATO Concerns",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Trump Threatens Troop Withdrawals from Italy, Spain",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Apple Reports Record Sales Growth With iPhone 17 Launch",
+    "category": "Tech",
+    "slug": "article-33",
+    "source_count": 2
   }
 ]
