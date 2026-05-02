@@ -1,208 +1,5 @@
 [
   {
-    "date": "2026-04-02",
-    "headline": "UK Cancer Death Rates Drop to Record Low",
-    "category": "Health",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Trump's Approval Rating Declines Amid Growing Iran War Concerns",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Evidence Shows Dogs Were Domesticated 15,000 Years Ago",
-    "category": "Science",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Supreme Court Considers Birthright Citizenship Debate",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Trump Attends Supreme Court Hearing on Birthright Citizenship",
-    "category": "US",
-    "slug": "article-29",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Canada to Join U.K. Talks on Reopening Strait of Hormuz",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "US Embassy Warns Americans to Leave Iraq Amid Threats",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Trump Predicts Swift Conclusion of Military Mission in Iran",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Middle East Conflict Disrupts Aid to Sudan",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Strong Earthquake Strikes Off Indonesia's Ternate Island",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Eight Muslim-majority countries condemn Israel's death penalty law",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "US-Israeli Attacks Continue to Impact Iran's Economy",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Gisèle Pelicot's Memoir Highlights Decades of Abuse and Healing",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Trump Claims U.S. Military Objectives in Iran Near Completion",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 8
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Finland Highlights Security Strategies After Joining NATO",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "UK Government Withdraws Doctor Training Posts Amid Strike",
-    "category": "Health",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-02",
-    "headline": "Claude Code Users Face Unexpected Usage Limits",
-    "category": "Tech",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Belleville Task Force Addresses Homelessness Through Personal Stories",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "YMCA of Central East Ontario Receives $250,000 Donation",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Belleville's Octavia and Henry Street Project Starts This Month",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Local Artisan Transforms Broken Glass into Unique Earrings",
-    "category": "Local",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Belleville City Council Schedules April Roundtable with MPPs",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "World Autism Awareness Day Highlights Inclusivity Needs",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Twelve Charged in Belleville Drug Investigations",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Youth Church Attendance More Frequent Across Canada",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Investigation Launched into Death of Ottawa Man in Home Care",
-    "category": "Local",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Anniversaries of Jane Goodall and Mobile Phone Call",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "CRA Announces Job Reductions Affecting Employees",
-    "category": "Canada",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Artemis II Crew Successfully Exits Earth Orbit En Route to Moon",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 6
-  },
-  {
     "date": "2026-04-03",
     "headline": "Epstein files released, but no new arrests made",
     "category": "US",
@@ -6298,5 +6095,208 @@
     "category": "Tech",
     "slug": "article-33",
     "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Nomination Period Opens for Belleville and Quinte West Elections",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "TacoTime Opens in Quinte West: A Community Celebration",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Raids on Unlicensed Alcohol Sales in Tyendinaga",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Students Save Bus Driver During Critical Incident",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "2nd Dug Hill Road Closure Begins May 4 in Quinte West",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Belleville Lights Up for Health and Awareness in May",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Youth Faces Charges Following School Medical Emergency",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "219th Anniversary of the Slave Trade Act Observed",
+    "category": "Canada",
+    "slug": "article-29",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Ottawa-Carleton District School Board Projects Declining Enrolment",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Pizza Hut revives 'Book It!' summer reading program for kids",
+    "category": "US",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Toronto Weather: Showers Expected with Highs of 9 C Today",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Young Piano Prodigy to Perform at Carnegie Hall",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Ongoing Negotiations for Gordie Howe International Bridge",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Humpback Whale Released into North Sea After Rescue",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Spirit Airlines Faces Financial Struggles Amid Bailout Efforts",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 8
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Young Sea Otter Becomes Surrogate Mother to Orphaned Pup",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Trump to Raise EU Car Tariffs to 25% Next Week",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Woody the Cowboy Communicates in ASL with Deaf Girl",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Tropical Forest Loss Slows in 2025 Amid El Niño Concerns",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Chinese Pangolin Population Shows First Signs of Recovery",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Israeli Airstrikes in Lebanon Cause Multiple Casualties",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "New scanning technology promises faster endometriosis diagnosis",
+    "category": "Health",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "No Current Headline Applicable - Factual Errors in Premise",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Australia aims to eliminate cervical cancer in a decade",
+    "category": "Health",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "China Highlights Strait of Hormuz in Upcoming Trump Visit",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Gene Therapy Restores Vision for 6-Year-Old Girl",
+    "category": "Health",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Rodent Infestations Worsen Public Health Crisis in Gaza",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "FDA Expands Access to Daraxonrasib for Pancreatic Cancer Patients",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Canadian Student Named Finalist in Doodle For Google Contest",
+    "category": "Tech",
+    "slug": "article-20",
+    "source_count": 1
   }
 ]
