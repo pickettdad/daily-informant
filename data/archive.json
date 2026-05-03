@@ -1,201 +1,5 @@
 [
   {
-    "date": "2026-04-03",
-    "headline": "Epstein files released, but no new arrests made",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Egypt Launches Major Renewable Energy Project for Homes",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Senators Question Ticketmaster Over Fee Increases",
-    "category": "US",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Transformation of Buckingham Canal Highlights Community Restoration Efforts",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Reports of Military Tensions Between Iran and the U.S.",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Successful Hatching of Palm Cockatoo Chick Advances Conservation Efforts",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Reports of U.S. Military Actions Against Iran Affecting Oil Trade",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "NASA's Artemis II Mission Advances Toward the Moon",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Iranians Face Severe Economic Hardship Amid Continued Conflict",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Roofers Repair Widower's Roof After Scam",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Russia's missile strike complicates Easter truce talks",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "NASA's Artemis II Crew Completes Key Moon Maneuver",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Orion Capsule Successfully Leaves Earth's Orbit in Artemis II Mission",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Study Reveals Improvements in Health for Seniors",
-    "category": "Health",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Ten Years Since the Panama Papers: Legacy and Impact",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Understanding the Connection Between Soil Health and Nutrition",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "Cuba to Release 2,010 Prisoners Amid U.S. Pressure",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "NHS Offers Wegovy Free to Over One Million Patients",
-    "category": "Health",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "FDA Approves Foundayo, New Obesity Treatment Pill",
-    "category": "Health",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-03",
-    "headline": "NASA's Artemis II Achieves Translunar Injection Burn",
-    "category": "Science",
-    "slug": "article-21",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Expanded Food Recall Due to Listeria Contamination Risk",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Carter Seymour from Belleville, Ontario Wins Silver at National Boxing Competition",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Two Stone Mills Residents Arrested After Police Warrant Execution",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Belleville Road Reconstruction Resumes This Month",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Kanata Man Charged with Impaired Driving Over Legal Limit",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Ontario Introduces Tax Cut for Small Businesses",
-    "category": "Ontario",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "New Regional Real Estate Outlook Released Today",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Canada and China strengthen financial ties with new agreement",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-04",
     "headline": "HPEDSB Considers Local Involvement in Student Transportation",
     "category": "Local",
@@ -6297,6 +6101,202 @@
     "headline": "Canadian Student Named Finalist in Doodle For Google Contest",
     "category": "Tech",
     "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Nomination Period for Ontario Municipal Elections Opens Today",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Ottawa to Pilot 'Nursing Homes Without Walls' Program",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Flood Watch Issued for Trent River as Water Levels Recede",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Carillon Park to Become Ottawa's First Sponge Park",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Ford Advocates for U.S.-Canada Trade in Michigan Speech",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Glen Miller Grocery Reopens with New Ownership in Quinte West",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Government Plans Amendments to Food Safety Laws",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Joint Search and Rescue Exercise Scheduled in Trenton",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Mark Toothaker's Seizure Reveals Benign Brain Tumor Diagnosis",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Bay of Quinte Hosts Ongoing Fishing Derby",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "U.S. to Withdraw 5,000 Troops from Germany",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 10
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Annual Commemoration for Fallen Soldiers in Belleville",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Military Actions Continue in Israel-Hezbollah Conflict",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Nominations Open for Municipal and School Board Elections",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Shakira's Copacabana Concert: Attendance Figures Under Scrutiny",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Washington State Tribe Restores Land for Salmon Recovery",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Migrant Boat Tragedy Highlights Ongoing Risks in Channel Crossings",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Renters' Rights Act Takes Effect in England in 2026",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Ukraine Expands Defense Ties with Gulf States Amid War",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Timmy the Humpback Whale Released to North Sea",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Iran Faces Internet Blackout as Starlink Technology Is Smuggled In",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Restaurant 130 Primrose to Open in London Supporting Homelessness",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Stranded Humpback Whale Timmy Released in North Sea",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Students praised for life-saving actions on school bus",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Study Finds Brief Meditation Boosts Brain Function",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "New DNA Marker Could Transform Arsenic Exposure Tracking",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "New Scanning Technique May Transform Endometriosis Diagnosis",
+    "category": "Health",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Innovative Hemp-Based Plastic Could Replace Traditional Materials",
+    "category": "Science",
+    "slug": "article-13",
     "source_count": 1
   }
 ]
