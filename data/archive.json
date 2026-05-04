@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-04-04",
-    "headline": "HPEDSB Considers Local Involvement in Student Transportation",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Young Cancer Patient Raises Funds for Easter Baskets",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Heavy Rainfall Warning for Ottawa-Gatineau Region",
-    "category": "Local",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Japan's Innovative Diaper Recycling Initiative Makes Headway",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Ottawa Man Charged with Multiple Child-Sex Offences",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Florida Teen Unearths 6-Inch Megalodon Tooth While Diving",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Canada Seizes Record Cocaine Amount at Border",
-    "category": "Canada",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Digital Grain Account Empowers Indian Farmers",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Declining Canadian Travel to U.S. Hurts Duty-Free Revenues",
-    "category": "Canada",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Holly Robinson Peete and Dr. Michele Kong Advocate for Autism Resources",
-    "category": "Health",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Georgia Lawmakers Approve Bill Allowing Suits Over Homelessness Policies",
-    "category": "US",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Artemis II Mission Completes Key Maneuver on Journey to the Moon",
-    "category": "Science",
-    "slug": "article-3",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Iran Executes Members of Banned Opposition Amid Regional Conflicts",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Artemis II Leaves Earth Orbit on Moon-Bound Journey",
-    "category": "Science",
-    "slug": "article-14",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Two U.S. Aircraft Shot Down Over Iran Amid Escalating Conflict",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Artemis II Spacecraft Departs Earth for Moon Mission",
-    "category": "Science",
-    "slug": "article-23",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Search for Missing U.S. F-15E Crew Member Amidst Conflict",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Two U.S. Warplanes Downed Amidst Iran Conflict",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Search for Downed F-15 Crew Member Sparks Diplomatic Concerns",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Oil Prices Surge Amid Renewed U.S. Threats to Iran",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Hungarian Elections: Orban Faces Strong Opposition Ahead of Vote",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Earthquake in Afghanistan Claims Eight Lives, Leaves One Survivor",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Trump: F-15E Shooting Will Not Impact Negotiations with Iran",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "Magnitude 5.8 Earthquake Strikes Near Kabul, Eight Dead",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-04",
-    "headline": "French Ship Navigates Blocked Strait of Hormuz",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "CFIA Expands Food Recall List Over Listeria Risk",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Pegasus Cheer Celebrates Top Wins in Recent Competitions",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Stone Mills Residents Charged After Police Warrant Execution",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Belleville Boxer Carter Seymour Wins Silver Medal",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Housing Affordability Crisis Affects Older Canadian Women",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Missing 79-Year-Old Man Found Safe in Ottawa",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Shed Fire Raises Safety Concerns in Local Area",
-    "category": "Local",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-05",
     "headline": "Road Reconstruction in Belleville Resumes This Month",
     "category": "Local",
@@ -6297,6 +6073,230 @@
     "headline": "Innovative Hemp-Based Plastic Could Replace Traditional Materials",
     "category": "Science",
     "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Candidate Listings Begin for Municipal and School Board Elections",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "2nd Dug Hill Road Closure Begins for New Pathway Construction",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Barrhaven mourns crossing guard killed in hit-and-run",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Candidates Enter Race for Mayor of Tweed",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Toronto Forecast: Warm Monday Followed by Rain",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Wingfield Inn & Gardens: A Family-Friendly Gem in Quinte West",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "One Year After Nopiming Wildfire: Community Resilience",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Quinte West Promotes Emergency Preparedness Week",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Chinese Consulate Urges Cancellation of Vancouver Arts Event",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Michell Belleville Spirits Conclude Season with a Victory at Ontario Cup",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Ford to Speak on Private Jet Purchase Today",
+    "category": "Ontario",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Komatsu Launches Fully-Electric Excavator for Mining",
+    "category": "Canada",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Alberta Voter List Leak Raises Safety and Political Concerns",
+    "category": "Canada",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Couple's 'Lobster Day' Tradition Wins Millions Online Followers",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Musician sues Google over AI-linked defamation claims",
+    "category": "Canada",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "1,500 Beagles Rescued; Adoption Efforts Underway",
+    "category": "US",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Public Servants Urge Caution in AI Implementation",
+    "category": "Canada",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Algeria Eliminates Trachoma as Public Health Problem",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Decline in Canadian Spending Hits U.S. Economy",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Liam Williams' Marathon Journey Inspires Community Support",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Rudy Giuliani in Critical Condition, Concerns Raised",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "New Study Reveals Mental Health Benefits of Woodland Walks",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Indiana Primary Examines Trump's Influence on GOP Incumbents",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Injectable Keytruda Expected to Transform Cancer Treatment in the UK",
+    "category": "Health",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Ohio's Primary Elections: Key Races Tomorrows",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Growing Popularity of Fermented Foods Raises Health Questions",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Russian Strikes Cause Casualties in Ukraine",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "New Hemp-Based Thermoplastic Offers Sustainable Plastic Alternative",
+    "category": "Science",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "U.S. Launches Operation to Guide Stranded Ships in Hormuz",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 12
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "London Zoo Opens New Veterinary Hospital",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Trump announces military initiative 'Project Freedom'",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Ukrainian Drone Strikes High-Rise in Moscow Ahead of Parade",
+    "category": "World",
+    "slug": "article-23",
     "source_count": 1
   }
 ]
