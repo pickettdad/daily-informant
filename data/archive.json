@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-04-05",
-    "headline": "Road Reconstruction in Belleville Resumes This Month",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Environment Canada Issues Yellow Rain Warning for Ottawa Region",
-    "category": "Ontario",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Buffalo Hide Academy's Heavy Music Program Supports Indigenous Youth",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Stabbing in Edmonton ER Raises Safety Concerns",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Ontario to Cut Small Business Corporate Tax in New Budget",
-    "category": "Ontario",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "New Bill on Sterilization Raises Questions About Healthcare Access",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Universities Enhance Support for International Students",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "US Job Growth Surges Despite Ongoing Iran Conflict",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Canada and China Strengthen Financial Sector Ties",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Trump's Executive Order Targets College Sports Funding",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Donations Surge for Delivery Driver Due to Kind Gesture",
-    "category": "US",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Search Underway for U.S. Pilot After Reported Incident Near Iran",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Abandoned Mountain Lion Cub Rescued in California",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Pope Leo XIV Denounces Violence at Easter Mass",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Endangered Palm Cockatoo Chick Hatched in Artificial Nest",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Ukraine Strikes Russian Oil Infrastructure Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Artemis II crew reaches halfway point to the Moon",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Israel Intensifies Strikes on Tyre Amid Humanitarian Crisis",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Statue of Landmine-Sniffing Rat Unveiled in Cambodia",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "French Ship Crosses Strait of Hormuz Amid Conflict",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Financial Conversations Key to Strong Relationships",
-    "category": "Health",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "12-Year-Old Cancer Patient Raises Funds for Easter Baskets",
-    "category": "Health",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "Roberta Bondar Highlights Upcoming Artemis II Moon Mission's Significance",
-    "category": "Science",
-    "slug": "article-2",
-    "source_count": 8
-  },
-  {
-    "date": "2026-04-05",
-    "headline": "NASA's Artemis II Mission Launched, Prepares for Historic Lunar Flyby",
-    "category": "Science",
-    "slug": "article-14",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "New Labour Market Plan Reveals Workforce Challenges in Hastings Area",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Council to Approve Marina Lease with Casa Dea Finance Limited",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Special Weather Statement Warns of Snowfall in Quinte Region",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Local MPPs Host Q&A Session Today at 10 a.m.",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Whiteout Conditions Disrupt Traffic in Quinte Region",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Street Sweeping and Brushing Scheduled for April",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Local Mayors Urge Ontario to Rethink Conservation Authority Merger",
-    "category": "Ontario",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-07",
     "headline": "Greater Toronto Area Home Sales Rise Year-Over-Year",
     "category": "Local",
@@ -6297,6 +6080,223 @@
     "headline": "Ukrainian Drone Strikes High-Rise in Moscow Ahead of Parade",
     "category": "World",
     "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Ontario Caps Resale Ticket Prices: Impact on Fans",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Loyalist College Expands Financial Support for Students",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Discarded Needles and Paraphernalia Increase in Ottawa",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Belleville to Begin Reconstruction on Bridge Street East",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "PC Party Gears Up for Scarborough Southwest Byelection",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Belleville Launches Economic Development Website",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "SIU Clears Ottawa Officer in Arrest Case",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Antheia's Launch Earns Spot on Canada's Best Restaurants List",
+    "category": "Ontario",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Vernon, B.C. Residents Face Ongoing Power Outage Challenges",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Saskatchewan Tow Truck Driver Rescues Trapped Moose",
+    "category": "Canada",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "B.C. Minister Subject of RCMP Investigation, Former Mayor Alleges",
+    "category": "Canada",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "World War II Airman Robert Cyr Jr. Laid to Rest in Florida",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Cross-Border Travel to U.S. Declines as Domestic Flights Increase",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Giraffe-Zebra Friendship Captures Global Attention",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Indiana Elections May Indicate Trump's Role in Local Republican Politics",
+    "category": "US",
+    "slug": "article-12",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Bear Cub Forms Friendship with Puppy in Shelter",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "U.S. Announces Military Operations Targeting Iran",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Breakdancing Provides Refuge for Gaza's Traumatized Children",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Car Drives Into Crowd in Leipzig, Two Dead",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "England Enacts Major Reform for Renters' Rights",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "London Zoo's New Hospital Sparks Ethical Debate",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Timmy the whale released into North Sea after weeks of care",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Vijay's Tamilaga Vettri Kazhagam Wins 108 Seats in Tamil Nadu",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Fourteen Trafficked Toucans Rescued and Rehabilitated",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Community Comes Together to Rescue Horses from Floodwaters",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Liam Williams Honors Niece with Inspiring Marathon Run",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Women Over 60 Perform as DJs at German Festival",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Study Reveals Resilience of Youth Amid Pandemic Challenges",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "New Keytruda Injectable Reduces Hospital Treatment Time",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "New Scanning Technique May Speed Up Endometriosis Diagnoses",
+    "category": "Health",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "New FDA-cleared Blood Tests Predict Alzheimer's Risk",
+    "category": "Health",
+    "slug": "article-25",
     "source_count": 1
   }
 ]
