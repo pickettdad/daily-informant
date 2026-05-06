@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-04-07",
-    "headline": "Greater Toronto Area Home Sales Rise Year-Over-Year",
-    "category": "Local",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Record Applications for Canadian Armed Forces Amid Recruitment Challenges",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Artemis II Astronauts Conclude Lunar Flyby, Head Home",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 11
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Transport Canada Surveys Bright Headlights for Safety Feedback",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Global Agreement Reached to Protect Migratory Species",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Canada's Military Drone Program Starts Without Armaments",
-    "category": "Canada",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Transformation of Betta Fish Highlights Importance of Care",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Alberta's Tax Advantage Erodes Amid Rising Costs",
-    "category": "Canada",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Global Initiative Funds Acts of Kindness in 21 Countries",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "US Government Funding Debate Continues as Congress Enters Recess",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Replanting Movement Revives Olive Groves in West Bank",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Trump Issues Deadline to Iran Over Strait of Hormuz",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Northern Ireland Introduces Paid Leave for Miscarriage",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Drone Attacks Kill Civilians in Ukraine and Russia",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "India's Coal Mine Transformation into Eco-Park Creates Opportunities",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "U.S. Military Operation Rescues Airmen from Iran",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Exercise Linked to Lower Alzheimer's Risk, Study Finds",
-    "category": "Health",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Train Collision in France Kills One, Injures Others",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "NHS Offers Weight-Loss Injections to Reduce Heart Attack Risks",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Gaza Airstrikes Continue Despite Ceasefire Claims",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Artemis II Crew Names Moon Feature in Tribute",
-    "category": "Science",
-    "slug": "article-16",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Shootout Outside Israeli Consulate in Istanbul Leaves One Dead",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Iran's Supreme Leader Unconscious Following Conflict",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-07",
-    "headline": "Republican Lawmakers Concerned Over Ongoing Conflict in Iran",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "Public Health Funding Crisis Discussed at Council Meeting",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "Ontario Expands Workplace Safety Coverage for Healthcare Workers",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "New March Statistics Show Housing Market Changes",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "Local OPP Auxiliary Fosters Community Spirit During Easter",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "Medication Abortion Services Begin at Marquette Urgent Care",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-08",
-    "headline": "Carla MacLeod Steps Back From Coaching Ottawa Charge",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-08",
     "headline": "High Overqualification Rates Among Recent Canadian Immigrants",
     "category": "Canada",
@@ -6297,6 +6087,216 @@
     "headline": "New FDA-cleared Blood Tests Predict Alzheimer's Risk",
     "category": "Health",
     "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Human Rights Tribunal Begins Closing Submissions on Education Funding Case",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Boccia Classic Supports Local Children’s Services",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Fatalities Confirmed in Gatineau High-Rise Fire",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Loyalist College Launches Initiative for Rural Students",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Traffic Violations Raise Safety Concerns at Local School",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Tow Truck Driver Rescues Moose Trapped in Ice",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Prince Edward County Responds to Marsh Creek Contamination Incident",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Dobby the Puppy Transforms After Rescue and Adoption",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Funeral for OPP Sergeant Brandon Malcolm in Cobourg Today",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "1,500 Beagles Rescued from Biomedical Research",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Quinte West Property Purchase Leads to Financial Losses",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "The Tragically Hip Launches New Ice Cream Flavor",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "12-Year-Old Hospitalized After Dirt Bike Collision",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "New Animal Hospital Opens Amid Ethical Debates",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Ontario's Ticket Resale Law Raises Enforcement Questions",
+    "category": "Ontario",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "George Clooney Celebrates 65th Birthday Today",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Ottawa Plans to Track Migrant Departures Amid Immigration Concerns",
+    "category": "Canada",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Global Forest Loss Declines in 2025 Amid Climate Concerns",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Canada Ranks Fifth in Global Higher Education Report",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Fourteen Trafficked Toucans Rescued and Rehabilitated",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Immigration Cuts Prompt Concerns Over Economic Indicators",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "New AI Model Can Detect Pancreatic Cancer Early",
+    "category": "Health",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Poll Shows Democrats Gain as Economic Concerns Rise",
+    "category": "US",
+    "slug": "article-6",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Florida Baby's Groundbreaking Surgery Transforms Pre-Birth Care",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "U.S.-Iran Negotiations Near Finalization Amid Oil Price Shifts",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 10
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Home Cooking Linked to Reduced Dementia Risk in Seniors",
+    "category": "Health",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Civilians in Oleshky Face Dire Humanitarian Crisis",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Hantavirus Outbreak on Cruise Ship Results in Three Deaths",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Sudan Accuses Ethiopia and UAE of Drone Attacks",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Timmy the Humpback Whale Released Into North Sea",
+    "category": "World",
+    "slug": "article-30",
     "source_count": 1
   }
 ]
