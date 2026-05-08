@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-04-09",
-    "headline": "Quinte West Joins Joint Compliance Audit Committee for Elections",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Investigation Begins into Trenton Four-Plex Fire",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Loyalist College to Honor Local Leaders at Convocation",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Health Warning Issued Over Rising Drug-Related Incidents",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Belleville Plans New Playgrounds and Court, Seeks Public Input",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Quinte West Sees Drop in Building Permits in March",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Public Consultation on North Frankfort Trail Access Begins Soon",
-    "category": "Local",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Ontario School Board Supervisors Charge Varying Fees",
-    "category": "Ontario",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "2026 Terry Fox Run to Launch Merchandise Collection",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Ottawa Councillors Vote to Explore Rural Transit Expansion",
-    "category": "Ontario",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Miner Rescued After 14 Days Trapped in Flooded Tunnel",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Oilers' Victory Solidifies Division Lead Amid Playoff Push",
-    "category": "Ontario",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Over 130 Nations Sign Agreement to Protect Migratory Species",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Ottawa Woman Waits Over A Year for MRI, Exposes Health System Flaws",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Cambodia honors Magawa, a life-saving landmine detection rat",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Remains of Leah Keeper Identified After Three-Year Search",
-    "category": "Canada",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Johns Hopkins Develops Promising Intranasal TB Vaccine",
-    "category": "Health",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Trump and NATO Secretary General Discuss Future Partnership",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "New Pain Relief Drug DFNZ Shows Promise Without Addiction",
-    "category": "Health",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Mississippi Vaccine Policy Change Coincides with Whooping Cough Increase",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Artemis II Mission Surpasses 248,655 Miles from Earth",
-    "category": "Science",
-    "slug": "article-24",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Reports Emerge of Potential Two-Week Ceasefire Between Iran and U.S.",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Trump Questions NATO Support Amid US-Iran Tensions",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Israeli Air Strikes in Lebanon Challenge US-Iran Ceasefire",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Middle East conflicts delay energy recovery, impact gas prices",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Trump Proposes U.S.-Iran Cooperation on Nuclear Disarmament",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Global Oil Prices Surge Amid US-Iran Ceasefire Concerns",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Iran Ceasefire Raises Questions on Fuel and Food Prices",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "US and Iran Accept Pakistani-Brokered Ceasefire after 40 Days of Conflict",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-09",
-    "headline": "Silicon Valley's Turn to Nontraditional Media Signals Change",
-    "category": "Tech",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-10",
     "headline": "Search Intensifies for Missing Teen in Amherstview",
     "category": "Local",
@@ -6298,5 +6088,215 @@
     "category": "Health",
     "slug": "article-27",
     "source_count": 9
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Kingston council to address long-term budget challenges",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Goodfellow Inc. Expands Operations with New Facility in Quinte West",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Shoreline Conditions Statement Issued for Lake Ontario",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Operation BeeStrong Launches to Support First Responders",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Candidate Listing Begins for May 2026 Elections",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "MP presents petitions against ALTO high-speed rail project",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Frost Advisory Issued for Quinte Region",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "HST Rebate Program Boosts Housing Demand in Quinte West",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Farmland Acquisition for Defense Raises Food Security Concerns",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Community Unites for Local Football Player's Fundraiser",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Montreal's Le Nadia Sports Bar to Relocate After Closure",
+    "category": "Canada",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Ottawa Reflects on Leadership Style of Jim Watson",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "European Leaders Question U.S. Role in NATO Amid Conflict",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "New Senior Lacrosse Team Launches in Belleville",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Trump Warns of Consequences for Iran Ceasefire Violation",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Bay of Quinte Home Show Sets New Attendance Records",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Russia and Ukraine Exchange Accusations Over Ceasefire Violations",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Fire Pumper Truck Donated to Honours Jim Young",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "UK Local Elections Show Labour Party Losses and Reform UK Gains",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Dante Daniels Starts Rookie Season with Winnipeg Blue Bombers",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Recent Clashes Challenge US-Iran Ceasefire in Strait of Hormuz",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Bikes and Trikes Program Supports Kids in Moncton",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Ukraine Reports Gains in Territorial Control Over Russia",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Record Mother's Day Spending Expected Amid Rising Costs",
+    "category": "US",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Global Forest Loss Slows, Yet El Niño Threatens Progress",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "San Diego Prepares Water Sharing Agreements with Neighbors",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "David Attenborough Celebrates 98 Years of Inspiring Conservation",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 8
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Ethiopian Woman Gives Birth to Quintuplets After Long Wait",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Innovative River Technology Targets Ocean Plastic Pollution",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "London Zoo's New Veterinary Hospital Prompts Discussion on Animal Care Ethics",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
   }
 ]
