@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-04-10",
-    "headline": "Search Intensifies for Missing Teen in Amherstview",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 21
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Trenton MFRC Named Beneficiary for McHappy Day 2026",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "House Fire in Quinte West Linked to Careless Smoking",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Belleville Announces Public Consultations for Official Plan Review",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Search underway for missing Ottawa man David Firman",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Belleville 50+ Centre Hosts Open House for Local Seniors",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Ontario Education Minister to Unveil School Board Reforms",
-    "category": "Ontario",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Cohere and Aleph Alpha in Merger Talks, Supported by Germany",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Ontario to Reduce Teacher Training Duration Amid Shortage",
-    "category": "Ontario",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Canadians Show Increasing Desire for Children Amid Low Fertility Rates",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Ottawa 67's Lose Game 1, Face Player Suspension Concerns",
-    "category": "Ontario",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Viral Photo Captures Family Moment During Artemis II Launch",
-    "category": "US",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Byelections Could Pave Way for Liberal Majority",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Applebee's Manager Saves 50 During Michigan Tornado Warning",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "FEMA Faces $10 Billion Funding Backlog Impacting Communities",
-    "category": "US",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Cambodia Honors Hero Rat Magawa with Statue",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "FAA Investigates Near-Collision of Frontier Airlines Flight at LAX",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Isle of Man Exceeds Tree Planting Goal in Reforestation Project",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Federal Judge Rules Pentagon Violating Access Order",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "AI Chatbot Aids in Accurate Diagnosis After Years of Misdiagnosis",
-    "category": "Health",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Justice Department Investigates NFL Anticompetitive Practices",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Trump Administration Proposes Rollbacks on Coal Ash Disposal Regulations",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Vice President Vance Negotiates Ceasefire with Iran",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Putin Declares 32-Hour Ceasefire in Ukraine for Easter",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Artemis II Crew to Splash Down After Lunar Mission",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 8
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Xi Jinping Hosts Taiwanese Opposition Leader Cheng Li-wun",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Kilauea Volcano Erupts, Causing Park Closure and Ashfall Warnings",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "Ceasefire Agreement Faces Strain Amid Middle East Tensions",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-10",
-    "headline": "U.S. and Iran Engage in Ceasefire Talks in Pakistan",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "University of Ottawa Lockdown Ends with Arrest, No Injuries",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Provincial Government Invests $20 Million in Local Hospital",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
     "date": "2026-04-11",
     "headline": "Flood Warning Issued for Rice Lake and Trent River",
     "category": "Local",
@@ -6298,5 +6081,222 @@
     "category": "World",
     "slug": "article-29",
     "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Flood Outlook Statement Issued for Lake Ontario Shoreline",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Ontario Allocates $200,000 to Children's Aid Society",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Liberal Nomination Vote Begins for Scarborough Southwest Byelection",
+    "category": "Ontario",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Celebrating 14 Years of Bicycles for Moncton Youth",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Decline in Conservative Support Prompts Scrutiny of Doug Ford's Leadership",
+    "category": "Ontario",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Belleville Chamber Celebrates Businesses at Annual Awards Dinner",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Court Declares Samuel Not Criminally Responsible in 2024 Killing",
+    "category": "Ontario",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "New Housing Units Planned for 8 Wing CFB Trenton",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Canada Cuts Permanent Resident Spots Amid Immigration Reform",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Belleville Police Service Appoints Honorary Chief of Police",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Drop in Canadian Disney World Visitors Raises Concerns",
+    "category": "Canada",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "New Findings on Immigrant Credential Recognition Barriers",
+    "category": "Canada",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Conestoga College placed under administration after audit",
+    "category": "Canada",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Desmond Bryant Shares His Journey of Resilience",
+    "category": "US",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Virginia Supreme Court Nullifies Redistricting Efforts",
+    "category": "US",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Sir David Attenborough's Influence on Bristol's Wildlife Film Industry",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "U.S. Imposes New Sanctions on Iran Amid Tensions",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Global Deforestation Slows, New Threats Loom Ahead",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "U.S. Airstrikes on Iranian Vessels Fuel Geopolitical Tensions",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Debate Surrounds New London Zoo Veterinary Hospital",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "CDC Warns of Hantavirus Risks from Cruise Ship Outbreak",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Sam Neill Declares He is Cancer Free, Ready to Act Again",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Iran Accuses US of Escalating Tensions Amid Ceasefire Breaks",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "New Homeless Village Opens in South Lanarkshire, Scotland",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Alaskan Landslide Causes Second Largest Megatsunami Recorded",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "San Diego Desalination Plant Supports Water Needs of Neighboring States",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Péter Magyar Set to Become Hungary's New Prime Minister",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "New Blood Test Shows Promise in Disease Prediction",
+    "category": "Health",
+    "slug": "article-7",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Ukrainian Forces Achieve Significant Successes Against Russia",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Study Links Increased Steps to Better Surgical Recovery Outcomes",
+    "category": "Health",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Hantavirus Cases Linked to Cruise Ship Result in Three Deaths",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 7
   }
 ]

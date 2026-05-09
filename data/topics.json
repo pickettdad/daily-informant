@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-04-30T08:27:44.030817-04:00",
+      "last_material_update": "2026-05-09T07:27:44.055799-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The U.S. has imposed sanctions targeting individuals and companies linked to Iran's military, heightening tensions with potential global repercussions."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-09",
+          "text": "U.S. Imposes New Sanctions on Iran Amid Tensions",
+          "category": "diplomatic",
+          "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-attacks-qeshm-island-ceasefire/"
+        },
         {
           "date": "2026-04-30",
           "text": "U.S. Operations Disrupt $800 Million Iranian Oil Scheme",
@@ -244,12 +252,6 @@
           "text": "Iran closes Strait of Hormuz; strikes U.S. bases in Qatar, Bahrain, UAE, and Saudi Arabia",
           "category": "military",
           "source_url": ""
-        },
-        {
-          "date": "2026-02-28",
-          "text": "U.S. and Israel launch coordinated strikes; Supreme Leader Khamenei killed; Iran vows retaliation",
-          "category": "military",
-          "source_url": ""
         }
       ],
       "related_situations": [
@@ -281,7 +283,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-05-08T07:53:48.387942-04:00",
+      "last_material_update": "2026-05-09T07:27:44.055799-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -303,8 +305,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "The continued accusations of ceasefire violations between Russia and Ukraine highlight the severe distrust and escalating violence surrounding the years-long conflict.",
-        "Ukraine has reportedly gained more territory in April, indicating a potential shift in military dynamics against Russia."
+        "Recent Ukrainian battlefield successes indicate a potential turning point in the war, with substantial Russian territorial losses."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -343,6 +344,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-09",
+          "text": "Ukrainian Forces Achieve Significant Successes Against Russia",
+          "category": "economic",
+          "source_url": "https://www.washingtonexaminer.com/opinion/4560953/ukraine-is-hammering-russia/"
+        },
         {
           "date": "2026-05-08",
           "text": "Russia and Ukraine Exchange Accusations Over Ceasefire Violations",
@@ -514,12 +521,6 @@
         {
           "date": "2026-02-17",
           "text": "Ukraine liberates 33 square miles in one week following Starlink disruption",
-          "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2026-02-01",
-          "text": "Starlink blackout disrupts Russian command and control",
           "category": "military",
           "source_url": ""
         }
