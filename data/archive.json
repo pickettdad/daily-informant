@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-04-11",
-    "headline": "Flood Warning Issued for Rice Lake and Trent River",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Belleville to Host Community Trees Seedling Giveaway on May 2",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Wanted Man Last Seen in Madoc, Police Seek Public's Help",
-    "category": "Local",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Fleming and St. Lawrence Colleges to Merge for Improved Services",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Deputy Minister Violates Conflict of Interest Rules",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Belleville Polar Plunge Breaks Fundraising Record",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Okanagan Snowpack Hits Lowest Level in 40 Years",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Ontario Invests Over $20 Million in Belleville Hospital",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Prime Minister Carney to Address Liberal Convention Today",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Maple Syrup Producers Report Better-than-Expected Season",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Pakistan Hosts US-Iran Peace Talks in Islamabad",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Ottawa Finance Committee Approves Housing Development Deal",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "US and Iran Prepare for Historic Diplomatic Talks",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Global Agreement Strengthens Protections for Migratory Species",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "U.S. Delegation In Islamabad for Iran Talks",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Coalition Transforms Manila's Public Transport Landscape",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Hungarian Election Set to Challenge Viktor Orbán's Rule",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Vice President Vance in Pakistan for U.S.-Iran Peace Talks",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Benin to Elect New President on April 11, 2026",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Significant Historical Anniversaries on April 9",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Argentina's Economy Shows Signs of Improvement Under Javier Milei",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Applebee’s Manager Shelters 50 During Michigan Tornado",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Isle of Man Reforestation Project Plants 30,000 Trees",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "AI Technology Aids Diagnosis of Rare Condition",
-    "category": "Health",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Artemis II mission completes lunar flyby with future hurdles ahead",
-    "category": "Science",
-    "slug": "article-10",
-    "source_count": 14
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Artemis II Crew Completes Historic Moon Mission",
-    "category": "Science",
-    "slug": "article-17",
-    "source_count": 12
-  },
-  {
-    "date": "2026-04-11",
-    "headline": "Artemis II Completes Historic Lunar Mission with Splashdown",
-    "category": "Science",
-    "slug": "article-26",
-    "source_count": 13
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "OPP Seeks Public Help to Find Wanted Individual",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "New Program for Seniors to Combat Online Scams Launches in May",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Barrie Police Search for Suspect in Serious Stabbing",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Brighton to Host Volunteer Recognition Event in 2026",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Fleming and St. Lawrence Colleges Announce Merger Plans",
-    "category": "Ontario",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-12",
     "headline": "Quinte Regional Science and Technology Fair Spotlights Local Talent",
     "category": "Local",
@@ -6298,5 +6074,229 @@
     "category": "Health",
     "slug": "article-12",
     "source_count": 7
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Labour Trafficking Cases Increase Amid Immigration Changes",
+    "category": "Canada",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Brighton to Reopen Tourism Booth This Summer",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Alberta Separatism Gains Traction in Canadian Politics",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "New Housing Units Planned for CFB Trenton",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "US Job Growth Exceeds Expectations Amid Economic Concerns",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "First Mother's Day for NICU Mom as Son Fights for Life",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Cruise Ship Hantavirus Outbreak Leads to Passenger Evacuations",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 12
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Candidate Listing Begins for Municipal and School Board Elections",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Cargo Ship Fire Near Qatar Occurs Amid U.S.-Iran Ceasefire",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Canadian Tulip Festival Opens with Extended Bloom Features",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Putin Claims End of Ukraine Conflict Is Nearing",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Jamie Lee Rattray Plays Hometown Semifinal in PWHL",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Companies Report Record Profits Amid Iran Conflict",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Quebec Launches Digital Health Dashboard Pilot Project",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Iran Warns of New Warfare Methods Amid Rising Tensions",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Safety Modifications Made to Tesla Model 3 Amid Concerns",
+    "category": "Canada",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Alaska's Megatsunami Highlights Climate Change Risks",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Bikes and Trikes for Everyone: A Community Lifeline",
+    "category": "Canada",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Hantavirus Outbreak on Dutch Cruise Ship Leads to Three Deaths",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Hegseth Endorses Veterans Benefits Bill Amid GOP Opposition",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Americans Express Optimism for the Future Amid Challenges",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Sir David Attenborough's Legacy in Wildlife Filmmaking",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Ethiopian Woman Welcomes Quintuplets After 12-Year Wait",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "London Zoo's New Hospital Sparks Ethical Debate",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Harriet Gardens Opens as New Homeless Village in Scotland",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Tropical Forest Loss Declines Slightly in 2025",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Mountain Bongo Antelope Successfully Reintroduced in Kenya",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Four Mountain Bongos Arrive in Kenya for Conservation",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Emotional Reunion Highlights Impact of Organ Donation",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "US Alcohol Consumption Declines to Lowest Level in 85 Years",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "New blood test could revolutionize patient care outcomes",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "New Biodegradable Wash Tackles Pesticides and Freshness",
+    "category": "Health",
+    "slug": "article-32",
+    "source_count": 1
   }
 ]

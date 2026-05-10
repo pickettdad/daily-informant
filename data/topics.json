@@ -29,9 +29,7 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [
-        "The U.S. has imposed sanctions targeting individuals and companies linked to Iran's military, heightening tensions with potential global repercussions."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -283,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-05-09T07:27:44.055799-04:00",
+      "last_material_update": "2026-05-10T07:31:05.351106-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -305,7 +303,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "Recent Ukrainian battlefield successes indicate a potential turning point in the war, with substantial Russian territorial losses."
+        "Vladimir Putin's assertion that the Ukraine conflict is nearing its end raises critical questions about future peace negotiations and the situation's stability."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -344,6 +342,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-10",
+          "text": "Putin Claims End of Ukraine Conflict Is Nearing",
+          "category": "diplomatic",
+          "source_url": "https://www.bbc.com/news/articles/cn8p4j2jzwwo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-05-09",
           "text": "Ukrainian Forces Achieve Significant Successes Against Russia",
@@ -515,12 +519,6 @@
         {
           "date": "2026-03-02",
           "text": "Ukrainian forces retake nine settlements in Zaporizhzhia region",
-          "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2026-02-17",
-          "text": "Ukraine liberates 33 square miles in one week following Starlink disruption",
           "category": "military",
           "source_url": ""
         }
