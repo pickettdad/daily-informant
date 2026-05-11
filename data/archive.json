@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-04-12",
-    "headline": "Quinte Regional Science and Technology Fair Spotlights Local Talent",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Highway 401, 404, and 427 Closures Begin in Toronto",
-    "category": "Ontario",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Ottawa Council to Debate Bubble Bylaw This Summer",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Literacy Challenges and AI Integration in Canada",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Watermain Flushing Program Begins April 13 in Picton",
-    "category": "Local",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Republican Senator Cramer Pushes for Enhanced Canada-U.S. Relations",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Belleville’s Community Trees Seedling Giveaway Set for 2026",
-    "category": "Local",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Ipsos Poll Shows Liberal Majority Supported by 53% of Canadians",
-    "category": "Canada",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Ottawa Senators Secured Spot in NHL Playoffs Again",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Trump Indicates Potential Use of Pardon Power",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Young Girl Saves Brothers from House Fire",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "U.S. and Iran Conclude Talks Without Nuclear Deal",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 11
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Artemis II Crew Returns from Historic Moon Mission",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 8
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Hezbollah Commander Addresses Recent Israel-Lebanon Conflict",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Cat Reunited with Owner After Five Years Missing",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Easter ceasefire breakdown reveals deep mistrust",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Norway to Introduce 20 Electric Hydrofoil Vessels",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Hungarian Election Sees High Voter Turnout Amid Leadership Shift",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "AI's Role in Diagnosing Rare Health Conditions Revealed",
-    "category": "Health",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "Stampede during Haiti celebration leaves 30 dead",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "NASA's Artemis II Mission Shows Promising Results",
-    "category": "Science",
-    "slug": "article-18",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-12",
-    "headline": "U.S. Navy Initiates Mine-Clearing in Strait of Hormuz",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "OC Transpo to Refurbish Over 30 Articulated Buses",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "New Program Supports Seniors Against Online Scams",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "OPP Investigates Suspicious Death at Last Duel Park",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Five Quinte Students Advance to Canada-Wide Science Fair",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Flood Warnings and Watches Issued in Quinte Region",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Belleville Council to Discuss Water Rebate for Vulnerable Residents",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Toronto Man Charged for Threatening Protesters",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Belleville Council to Discuss Phillipston Road Resurfacing",
-    "category": "Local",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-13",
     "headline": "Kingston Police Seek Public Help in Store Robbery Cases",
     "category": "Local",
@@ -6297,6 +6087,216 @@
     "headline": "New Biodegradable Wash Tackles Pesticides and Freshness",
     "category": "Health",
     "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville City Council to Approve Improvement Plan Today",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville Police Service Marks 190 Years of Service",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville Council Discusses Fire Hall Relocation Plans",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville Chamber Celebrates Local Businesses at Annual Dinner",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Quinte Farmers Adjust to Mixed Spring Weather Conditions",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville's City Growth Plan Set for Approval Today",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Belleville City Council to Review Speed Indicator Sign Funding",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Missing Person Josh Located Safely by Kingston Police",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Brighton Residents Weigh In on Community Parking Regulations",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Ottawa Public Library Reveals Rebranding to Enhance Community Engagement",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Canada's Citizenship Revocation Process Examined in Fraud Case",
+    "category": "Canada",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "House of Commons amends Bill C-16 to combat sexual deepfakes",
+    "category": "Canada",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Amber Alert for Missing Children in B.C. Cancelled After Quick Resolution",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Paralyzed graduate walks stage, inspiring others to overcome adversity",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Ethics Commissioner's Report Raises Accountability Concerns",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Ethiopian Woman Delivers Quintuplets After 12-Year Wait",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Construction Begins on Afghanistan Memorial Amid Criticism",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Asiatic wild ass returns to Mongolia after 65 years",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Trump's Visit to China Amid U.S.-Iran Nuclear Tensions",
+    "category": "US",
+    "slug": "article-23",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "New Veterinary Hospital Planned at London Zoo",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Operation Iron Pursuit: 350 Arrests in Child Predator Crackdown",
+    "category": "US",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Ontario to Screen 10,000 Newborns with Whole Genome Testing",
+    "category": "Health",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Trump Rejects Iran’s Response to U.S. Peace Proposal",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 15
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Study Finds Increased Walking Enhances Surgical Recovery",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Iran Issues Counteroffer in Stalled Nuclear Negotiations with U.S.",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Mother Meets Recipient of Donated Hand in Emotional Reunion",
+    "category": "Health",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Russia and Ukraine Trade Accusations Over Ceasefire Violations",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Netanyahu Calls for US Action on Iran's Nuclear Threat",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Israeli Settlers Exhume Palestinian Grave in West Bank Incident",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Pediatricians Urge Schools to Preserve Recess for Kids' Health",
+    "category": "Health",
+    "slug": "article-27",
     "source_count": 1
   }
 ]

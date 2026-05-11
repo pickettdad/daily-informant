@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-05-09T07:27:44.055799-04:00",
+      "last_material_update": "2026-05-11T09:16:50.115329-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,9 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Iran's recent counteroffer amid stalled nuclear negotiations underscores complexities in U.S.-Iran relations and raises questions about the future of diplomatic efforts."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +73,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-11",
+          "text": "Iran Issues Counteroffer in Stalled Nuclear Negotiations with U.S.",
+          "category": "diplomatic",
+          "source_url": "https://thehill.com/policy/defense/5872149-iran-counteroffer-us-demands/"
+        },
         {
           "date": "2026-05-09",
           "text": "U.S. Imposes New Sanctions on Iran Amid Tensions",
@@ -244,12 +252,6 @@
           "text": "Israeli strikes hit underground bunkers and oil facilities; missile debris causes civilian injuries in Jordan and Qatar",
           "category": "military",
           "source_url": ""
-        },
-        {
-          "date": "2026-03-01",
-          "text": "Iran closes Strait of Hormuz; strikes U.S. bases in Qatar, Bahrain, UAE, and Saudi Arabia",
-          "category": "military",
-          "source_url": ""
         }
       ],
       "related_situations": [
@@ -281,7 +283,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-05-10T07:31:05.351106-04:00",
+      "last_material_update": "2026-05-11T09:16:50.115329-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -303,7 +305,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "Vladimir Putin's assertion that the Ukraine conflict is nearing its end raises critical questions about future peace negotiations and the situation's stability."
+        "Both Russia and Ukraine accuse each other of violating a ceasefire, fueling tensions and raising questions about the stability of the agreement."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -342,6 +344,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-11",
+          "text": "Russia and Ukraine Trade Accusations Over Ceasefire Violations",
+          "category": "diplomatic",
+          "source_url": "https://www.pbs.org/newshour/world/russia-and-ukraine-accuse-each-other-of-violating-u-s-brokered-three-day-ceasefire"
+        },
         {
           "date": "2026-05-10",
           "text": "Putin Claims End of Ukraine Conflict Is Nearing",
@@ -513,12 +521,6 @@
         {
           "date": "2026-03-06",
           "text": "Elite Russian VDV units redeployed; major prisoner exchange of 1,000+ completed",
-          "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2026-03-02",
-          "text": "Ukrainian forces retake nine settlements in Zaporizhzhia region",
           "category": "military",
           "source_url": ""
         }
@@ -841,7 +843,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-04-27T08:29:28.757825-04:00",
+      "last_material_update": "2026-05-11T09:16:50.115329-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -863,7 +865,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The forced exhumation of a Palestinian man's body by Israeli settlers has intensified scrutiny of human rights in the West Bank."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -906,6 +910,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-11",
+          "text": "Israeli Settlers Exhume Palestinian Grave in West Bank Incident",
+          "category": "humanitarian",
+          "source_url": "https://www.bbc.com/news/articles/cjrpnjpl39po?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-04-27",
           "text": "Elections in Gaza and West Bank Highlight Political Developments",
