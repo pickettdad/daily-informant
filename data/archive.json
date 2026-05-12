@@ -1,250 +1,5 @@
 [
   {
-    "date": "2026-04-13",
-    "headline": "Kingston Police Seek Public Help in Store Robbery Cases",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Girl Recognized as Hero for Saving Brothers from Fire",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Life-Threatening Collision Closes Ramp in Etobicoke",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Woman Reunites with Pitbull Stolen a Decade Ago",
-    "category": "US",
-    "slug": "article-22",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Toronto-area byelections hold political significance",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Study Shows Guaranteed Income Benefits Artists",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Hypothetical Implications of Potential Iran Conflict on Global Economy",
-    "category": "Canada",
-    "slug": "article-8",
-    "source_count": 8
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Urine Fertilizer Trial Launched for New Welsh Forest",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "No Confirmed U.S. Blockade of Strait of Hormuz",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Norway to Launch Largest Electric Hydrofoil Fleet Next Year",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Congress Shelves ICE Reform Amid $75 Billion Funding",
-    "category": "US",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Milestone Achieved: Over 10% of Oceans Protected",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "FAA Proposes Flight Caps at O'Hare to Avoid Chaos",
-    "category": "US",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Manila's Grassroots Coalition Transforms Public Transit Infrastructure",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "No U.S. Military Blockade of Iranian Ports Reported",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 11
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Unique Honeybee Hybrid Shows Promise Against Varroa Mites",
-    "category": "Science",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Viktor Orbán Ousted in Hungarian Election After 16 Years",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "No Confirmed U.S. Blockade of Iranian Ports",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "US to Begin Blockade of Iranian Ports Today",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Péter Magyar Wins Election, Ending Orbán's 16-Year Rule",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Viktor Orban Defeated in Hungary Election After 16 Years",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Tisza Party Wins Majority, Ending Orban's Leadership in Hungary",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "No Pope Leo XIV; Hypothetical Rebuke of Trump Over Iran Comments",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "Aid Restrictions in Gaza Remain Tight Six Months After Ceasefire",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-13",
-    "headline": "New Cancer Projections for Canada Show High Rates",
-    "category": "Health",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Local School Trustees’ Governance Roles to Be Limited Under Provincial Supervision",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Belleville Polar Plunge Raises Nearly $24,000 for Special Olympics",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Ontario to Expand Jail Capacity by Nearly 6,000 Beds",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Belleville City Council Approves Seasonal Food Truck Program",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Bomb Threat Reported at Cobourg School",
-    "category": "Local",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Belleville Recognizes National Public Safety Telecommunicators Week",
-    "category": "Local",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Decline in Enrolment for Hastings and Prince Edward District School Board",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Quinte West launches Housing Improvement Plan for affordable housing",
-    "category": "Local",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Ottawa Police Seize Drugs and Firearms in April 10 Operation",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Canadians Consider Electric Vehicles Amid Rising Fuel Costs",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-14",
     "headline": "Ontario Government Introduces Education Reforms for School Boards",
     "category": "Ontario",
@@ -6298,5 +6053,250 @@
     "category": "Health",
     "slug": "article-27",
     "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Belleville City Council Approves Fire Hall Relocations",
+    "category": "Local",
+    "slug": "article-12",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "New Family Physician to Join Belleville This Summer",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Belleville Council Preserves Key Greenspace on South John Street",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Anglican Services in Inuktitut Foster Inuit Culture in Ottawa",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Ontario Education Minister Demands Charity Storage Removal",
+    "category": "Ontario",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Belleville Council Cancels Land Transfer to Developer",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Finch West LRT to Close for Maintenance Before World Cup",
+    "category": "Ontario",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Community Raises $577,000 for Mammography Machine",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Health Canada recalls infant feeding devices sold on Amazon",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Homeless Man Returns Stolen Dog Ashes, Receives Community Support",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Investigation into Quebec Manufacturer Linked to Russia",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Ralph Lauren Teams Up with U.S. Postal Service for Anniversary",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Government Extends Pay Centre Contracts Amid Surge in Payroll Issues",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "World Series of Birding Begins, Showcasing Young Conservationists",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Deadline Today for Mandatory 2026 Canadian Census",
+    "category": "Canada",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Focus on Endangered Emperor Penguins at Japan Talks",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "U.S. and Ukraine Move Toward Drone Defense Agreement",
+    "category": "US",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Asiatic Wild Ass Returns to Eastern Mongolia After 65 Years",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Trump Discusses Trade with China Amid Focus on Negotiations",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Australia Becomes 30th Country to Eliminate Trachoma",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Trump Rejects Iran's Peace Proposal Amid Ceasefire Discussions",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Kenyan Conservationists Reintroduce Rare Mountain Bong Antelope",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Congress to Question Hegseth on Iran War and Military Strategy",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Ethiopian Woman Gives Birth to Quintuplets After Long Wait",
+    "category": "World",
+    "slug": "article-34",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Hantavirus Outbreak Leads to Cruise Ship Evacuations",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 6
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "The Ocean Cleanup: Eliminating 90% of Floating Plastic by 2040",
+    "category": "World",
+    "slug": "article-35",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Calbee Adapts Packaging Due to Iran War Disruptions",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Innovative Technology Allows Dancer with ALS to Perform Again",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Trump Rejects Iran Proposal, Jeopardizing Ceasefire",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "New Research Advances Hearing Aid Technology for Better Sound Selection",
+    "category": "Health",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Iran Retracts Offer on U.S. Uranium Management",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Sudan Faces Worsening Humanitarian Crisis Amid Conflict",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "France Reports First Hantavirus Case, Implements Health Measures",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Hantavirus Cases Linked to MV Hondius Rise to 11",
+    "category": "Health",
+    "slug": "article-21",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Instructure Confirms Payment to Hackers After Data Breach",
+    "category": "Tech",
+    "slug": "article-23",
+    "source_count": 2
   }
 ]
