@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-04-14",
-    "headline": "Ontario Government Introduces Education Reforms for School Boards",
-    "category": "Ontario",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Los Angeles Schools Strike Averted with New Agreement",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Ontario Jails See Increased Lockdowns Amid Staff Shortages",
-    "category": "Ontario",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Seaplane Makes Emergency Landing on Phoenix Road",
-    "category": "US",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Canadian Military Faces Cuts to Out-of-Country Allowances",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Over 10% of the Ocean Now Protected Globally",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Police Chase in British Columbia Ends in Crash",
-    "category": "Canada",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Court Ruling Secures Protections for Tongass National Forest",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "U.S. Imposes Military Blockade on Iranian Ports",
-    "category": "US",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Households Could Receive Free Electricity on Sunny Weekends",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Swalwell and Gonzales Exit Congress Amid Ethical Controversies",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "UK Government Pledges £1 Million for Golden Eagle Reintroduction",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "U.S. Considers Military Blockade of Iranian Ports",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Research Links Perception and Imagination in the Brain",
-    "category": "Health",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Oil Prices Drop Amid Hopes for US-Iran Peace Talks",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Growing Interest in Red Light Therapy Raises Effectiveness Concerns",
-    "category": "Health",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Undercover Investigation Reveals Practices at Punjab Hospital Linked to HIV Outbreak",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "New Honeybee Hybrid Discovered in Southern California",
-    "category": "Science",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Péter Magyar Wins Hungary's Election, Promises Foreign Policy Changes",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Artemis II Mission Returns After Successful Lunar Journey",
-    "category": "Science",
-    "slug": "article-32",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Lebanon's humanitarian crisis deepens amid ongoing conflict",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Lebanon Faces Challenges in Peace Negotiations Amid Ongoing War",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-14",
-    "headline": "Inquiry on U.K. Mass Stabbing Uncovers Oversight Failures",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Perth Park Injury Investigation Classified as Homicide",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Belleville Police 911 Communicators Win Prestigious Award",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Suspect Arrested After Theft from Local Community Organization",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Pilot Project Matches Newborns with Family Doctors at Queensway",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Liberal Party Wins Three By-Elections, Increasing Seats to 174",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Restaurant Owner Fulfills Dying Man's Wish for Hospice Nurses",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Ontario Proposes Grading Changes to Address Low High School Attendance",
-    "category": "Ontario",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Griffon Helicopter Joins Rescue Effort in Calabogie",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Report Reveals 118 Improper Inmate Releases in Ontario Prisons from 2021-2024",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Local Track Athletes Commit to Collegiate Programs",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-15",
     "headline": "Internal Report Reveals UP Express Track Issues Unresolved Since 2015",
     "category": "Ontario",
@@ -6298,5 +6067,236 @@
     "category": "Tech",
     "slug": "article-23",
     "source_count": 2
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Child Hospitalized After Incident in Scarborough",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Prince Edward County Approves New Roof for Crystal Palace",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Belleville sees sharp decline in construction permits",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Prince Edward County Approves Increased Funding for Aquatic Centre",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Toronto Police Search for Dangerous Dog After Fatal Attack",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "OPP Honors Fallen Officers with Bridge Dedications",
+    "category": "Local",
+    "slug": "article-9",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Councillor Accuses Newspaper of Libel During Meeting",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "New Ajax Police Division to Enhance Community Safety",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Two Teenagers Charged After School Break-in and Arson",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Ottawa Charge to Face Montreal Victoire in Walter Cup Final",
+    "category": "Local",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Auditor General's Report Uncovers Budgeting Issues at OPS",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Survey Shows Canadians Will Continue Travel Plans in 2026",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Toronto Weather: Showers to End, Thunderstorm Risks Expected",
+    "category": "Ontario",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "NC State Commencement Speaker to Pay Off Student Loans",
+    "category": "US",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Ottawa's Light Rail Transit System Fails to Improve Commutes",
+    "category": "Ontario",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Gaza Sisters Win Environmental Award for Rebuilding Efforts",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Ontario's FOI Law Changes Raise Transparency Concerns",
+    "category": "Ontario",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Extinct Butterfly Reintroduced in UK Through Dedicated Project",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Bill C-22 Faces Debate Over Privacy Provisions",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Major Dam Removal Revitalizes Pchinja River Ecosystem",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Congress Hears Testimony on Rising Costs of Iran Conflict",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Sri Sri Ravi Shankar Celebrates 70th Birthday Amid Global Peace Efforts",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "U.S. Inflation Projected to Hit 4% Amid Economic Challenges",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Dutch Inventor's Plan to Cut Ocean Plastic Pollution",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Trump Comments on Priorities During China Visit Amid U.S. Economic Concerns",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Asiatic Wild Ass Returns to Eastern Mongolia",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Reading Scores Vary Across U.S. States with Some Improvements",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Jamaica Reports Historic Decrease in Murder Rates",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Former U.S. President Trump Arrives in Beijing for Key Summit with Xi Jinping",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 18
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Australia Becomes 30th Country to Eliminate Trachoma",
+    "category": "Health",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "[FACT CHECK: Unverified - No evidence Jason Collins has died; story appears fictional]",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Arts Engagement Linked to Slower Biological Aging",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Israeli Drone Strikes Kill Eight in Lebanon, Including Children",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 3
   }
 ]
