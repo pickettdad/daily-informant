@@ -1,215 +1,5 @@
 [
   {
-    "date": "2026-04-15",
-    "headline": "Internal Report Reveals UP Express Track Issues Unresolved Since 2015",
-    "category": "Ontario",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Residents Urged to Test Well Water Amid Flood Risks",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Concerns Arise Over Canadian Training for Azov Brigade-Linked Ukrainian Soldier",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Canada to Experience Warmer Summer in 2026, Says Almanac",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Canadian Coast Guard to Test Drones for Arctic Surveillance",
-    "category": "Canada",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Michigan Clerk Aids Rescue of Kidnapped Teen",
-    "category": "US",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Concerns Grow Over Technology in Canadian Classrooms",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Global Ocean Protection Exceeds 10% Milestone",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Ontario Judge Comments on Justice System Priorities",
-    "category": "Canada",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "UK Funds Golden Eagle Reintroduction Effort",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "US-Iran peace talks may resume amidst military blockade",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 11
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Alaska Court Protects Tongass National Forest from Logging",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "U.S.-Mediated Talks Between Israel and Lebanon Initiated",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Hybrid Honeybee Offers Hope Against Varroa Mites",
-    "category": "Science",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "IAEA Chief Raises Alarm Over North Korea's Nuclear Expansion",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "'Project Hail Mary' Passes $400 Million Mark",
-    "category": "Science",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Zelenskyy Seeks More Military Aid from European Allies",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Escalating Humanitarian Crisis as Sudan Enters Fourth Year of War",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-15",
-    "headline": "Artemis II Crew Captures Stunning Lunar Photos",
-    "category": "Science",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Dense Fog Forces Cancellation of School Transportation",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Quinte West Warming Centre Completes Fifth Season of Service",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Breen Pleads Guilty in Breaking and Entering Case",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Prince Edward County Approves Subdivision Expansion Plans",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Fog Advisory Issued for Quinte Region Amid Rain",
-    "category": "Local",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Condominium Development Approved in Hillier Ward",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Ontario Identifies Improper Release of Over 150 Inmates",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 15
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Canadian Armed Forces Embrace Humor on Social Media",
-    "category": "Canada",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Overpayments in Equalization Program Total $10.5 Billion",
-    "category": "Canada",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Remembering Jackie Robinson's Historic Major League Debut",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Swing Voters in Georgia Unhappy with Trump's Iran War Strategy",
-    "category": "US",
-    "slug": "article-18",
-    "source_count": 2
-  },
-  {
     "date": "2026-04-16",
     "headline": "US Pedestrian Deaths Drop Nearly 11% in 2025",
     "category": "US",
@@ -6298,5 +6088,215 @@
     "category": "World",
     "slug": "article-15",
     "source_count": 3
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Honda Suspends Plans for Electric Vehicle Plant in Ontario",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "New Marine Facility Boosts Agriculture in Quinte Region",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Ford's Private Jet Purchase Incurred Additional Costs of Nearly $200,000",
+    "category": "Ontario",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Belleville Student Wins Ingenious Award for SafeRider Project",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Surge in OSAP Misrepresentation Raises Accountability Concerns",
+    "category": "Ontario",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Hastings County Reports Increase in Housing Placements",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Polling Shows Shift in Ontario's Political Landscape",
+    "category": "Ontario",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Ottawa Achieves Certification as Bird Friendly City",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "New Study Questions Effectiveness of Corporate Tax Policies",
+    "category": "Canada",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Loyalist College Opens New Integrative Health Centre",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Trump Addresses Iran Nuclear Issue Amid U.S. Economic Concerns",
+    "category": "US",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Spring Activities Bloom in the Bay of Quinte",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Russian Strikes Kill Five in Ukraine",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Students Fundraise to Save Eagle Habitat from Development",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "UK Economy Reports Growth Amid Ongoing Iran Conflict",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Chattanooga Officer Rescues Four-Year-Old from Fire",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Former Zelensky Chief of Staff Detained on Corruption Charges",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "London Zoo opens new veterinary facility with £20 million donation",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Neo-Nazi Leader Sentenced to 15 Years for Recruitment of Hate Crimes",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Innovative Initiative to Combat Ocean Plastic Pollution",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Trump Meets Xi Jinping to Discuss Key Global Issues",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Conservationists Restore 13,000 Acres in South Africa",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Israel and Lebanon Pursue Peace Talks in Washington D.C.",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Blue-Green Diamond Sells for Record $17.3 Million at Auction",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Trump and Xi Meeting Highlights U.S.-China Tensions",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Stem Cell Treatment Shows Promise in COVID-19 Clinical Trial",
+    "category": "Health",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Hezbollah Drone Strike Injures Israeli Civilians Amid Tensions",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Toronto Researchers Discover New Gene Linked to Autism",
+    "category": "Health",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Europe Faces Inevitable Rise in Air Travel Prices",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Thymus Study Reveals Key Role in Immunity and Longevity",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
   }
 ]
