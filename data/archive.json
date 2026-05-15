@@ -1,250 +1,5 @@
 [
   {
-    "date": "2026-04-16",
-    "headline": "US Pedestrian Deaths Drop Nearly 11% in 2025",
-    "category": "US",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Hypothetical: Fragile Ceasefire in Iran Approaches Expiry",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "House Votes on Bill to Extend TPS for Haitians Today",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Russia Launches Aerial Attack on Ukraine",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Global Agreement Enhances Protections for Migratory Species",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Iran's Economy Faces Strain Amid Ongoing Conflict",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Blue-and-yellow Macaws Returned to Tijuca National Park",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Pope Leo XIV's Peace Mission in Conflict-Hit Cameroon",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Restaurant Owner Cancels Plans to Honor Dying Man's Wish",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "China Condemns US Blockade of Strait of Hormuz",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "First Jaguar Sighting in a Decade Recorded in Honduras",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "EU sets 2040 milestones for climate-neutrality by 2050",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "UK to Invest £1 Million in Golden Eagle Reintroduction",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "UK Government Supports Golden Eagle Reintroduction in England",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Study Links Exercise Timing to Improved Health Outcomes",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Spring Allergies Expected to Worsen This Season",
-    "category": "Health",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Artemis II astronauts safely reunite after historic mission",
-    "category": "Science",
-    "slug": "article-25",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "New Reactor Transforms Plastic Waste into Clean Hydrogen",
-    "category": "Science",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-16",
-    "headline": "Red Light Therapy Shown to Benefit Bee Colonies",
-    "category": "Science",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Flood Watch Statement Issued for Lower Trent Watershed",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Quinte Honors Ken Kerik as 2026 Kindness Citizen of the Year",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Belleville Police Execute Drug Warrants, Arrest Two",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Quinte Legion Lynx Athletes Commit to NCAA and USPORT",
-    "category": "Local",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Official Languages Commissioner Calls for Bilingual Service Protection",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Renewal Required for Canadian Dental Care Plan by June 1",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "US Sees 11% Decrease in Pedestrian Deaths in 2025",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Przewalski's Horse Thrives in Spanish Rewilding Project",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Singer D4vd Arrested in Suspected Murder Case",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Artemis II Astronauts Reflect on Global Unity",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Returning to Work After Parental Leave Remains Challenging",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Blue-and-yellow macaws return to Rio de Janeiro after 200 years",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "CDC Faces Leadership Vacuum Amid Public Health Concerns",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "UK Government Commits £1 Million for Golden Eagle Reintroduction",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Ten-Day Truce Between Israel and Lebanon Begins",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 10
-  },
-  {
-    "date": "2026-04-17",
-    "headline": "Calls for Peace Amid Israeli-Palestinian Violence",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-17",
     "headline": "U.S.-Iran tensions strain alliances with European partners",
     "category": "World",
@@ -6298,5 +6053,250 @@
     "category": "Health",
     "slug": "article-23",
     "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Cleanup Efforts Underway After Diesel Spill at Marsh Creek",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Trent Severn Waterway Phased Opening Begins Today",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Community Unites in Mourning for Sergeant Brandon Malcolm",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Centenarian Roy Allen to Walk 5K at Ottawa Race Weekend",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "OPP Thanks Community After Loss of Sergeant Malcolm",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Collaboration Targets Invasive Water Soldier Plant",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Three Inmates Still Missing After Accidental Jail Release",
+    "category": "Ontario",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Belleville Welcomes Canniff Mill Residences Luxury Apartments",
+    "category": "Local",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Quinte Detention Centre to Add More Beds Amid Provincial Expansion",
+    "category": "Ontario",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Canniff Mill Residences Opens in Belleville, Offers Modern Living",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Recycling Policies Contribute to Rising Food Prices in Canada",
+    "category": "Canada",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Gen Z Seizes Homeownership Opportunities Amid Economic Challenges",
+    "category": "US",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Jordan Junger's Death Prompts Ontario Labour Investigation",
+    "category": "Canada",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Teens Win Earth Prize for Innovative Microplastic Solution",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Severe Weather Halts Power Restoration in Manitoba",
+    "category": "Canada",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Teifi Valley Trail Opens to Boost Local Economy",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Canadian Charged in Florida Cryptocurrency Fraud Case",
+    "category": "Canada",
+    "slug": "article-35",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Littering Declines by 34% in the United States",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Trump Suggests Considering Long-Term Suspension of Iran's Nuclear Program",
+    "category": "World",
+    "slug": "article-1",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "European Parliament Passes Landmark Animal Welfare Law",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Zelensky Calls for Accountability After Deadly Kyiv Missile Strike",
+    "category": "World",
+    "slug": "article-2",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Greece Enacts Marine Protection for Monk Seals at Gyaros",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Ebola outbreak declared in eastern DR Congo",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Dutch Inventor Aims to Cut Ocean Plastic Pollution by 90%",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Trump and Xi Conclude Summit Amid Trade Discussions",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 12
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Polish Influencer Raises $67 Million for Cancer Research",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Russian Missile Attack on Kyiv Buildings Results in 24 Deaths",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "New Drug Could Transform Prognosis for Pancreatic Cancer Patients",
+    "category": "Health",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "U.S. Air Campaign Severely Impacts Iran's Military Capabilities",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "New Therapy for Depression Emphasizes Joy and Connection",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "India Raises Fuel Prices Amid Energy Crisis",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Dawn Zuidgeest-Craft Graduates Medical School at 72",
+    "category": "Health",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "CIA Director Meets Cuban Officials Amid Energy Crisis",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Trump Raises Jimmy Lai's Imprisonment During Xi Jinping Summit",
+    "category": "World",
+    "slug": "article-33",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Trump's China Visit Yields No Major Breakthroughs",
+    "category": "World",
+    "slug": "article-34",
+    "source_count": 10
   }
 ]
