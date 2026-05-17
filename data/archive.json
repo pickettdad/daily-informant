@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-04-18",
-    "headline": "Canada Withdraws from U.S.-Sponsored Flintlock Military Exercise",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Stranded Humpback Whale Rescued in New South Wales",
-    "category": "World",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Severe Weather and Tornado Watches Affect Millions Midwest",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Przewalski’s horse thrives in Spanish woodland rewilding effort",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Trump Signals Possible Iran Deal Within Days",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "UK to Ban Sugary Treats and Deep-Fried Foods in Schools",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Iran Maintains Control of Strait of Hormuz Amid U.S.-Iran Tensions",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Oxford's Library Cat Offers Emotional Support to Students",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Iran Asserts Control of Strait of Hormuz Amid U.S.-Iran Tensions",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 11
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Exercise Found to Potentially Slow Parkinson's Disease Progression",
-    "category": "Health",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Iran Opens Strait of Hormuz Amid Ceasefire, Oil Prices Respond",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "UK Initiative Supports Mental Health of Diabetes Patients",
-    "category": "Health",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Uncertainty Remains Over Strait of Hormuz Accessibility",
-    "category": "World",
-    "slug": "article-33",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Pregnancy Vaccine Cuts RSV Hospital Admissions for Newborns by Over 80%",
-    "category": "Health",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Amazon to Block Sideloading on Future Fire TV Sticks",
-    "category": "Tech",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Hot Tub Soaking Offers Health Benefits Over Saunas",
-    "category": "Health",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-18",
-    "headline": "Artemis II Mission Spotlight: Unity Through Space Exploration",
-    "category": "Science",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Eastbound Highway 2 Closed Due to Serious Collision",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Belleville Illustrator Creates New CN Tower Commemorative Toonie",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Minor Fire at Belleville Motel Raises Safety Concerns",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Ontario Invests $17 Million in Northumberland Water Infrastructure",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Heavy Rainfall Warning Issued for Quinte Region",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Belleville Senators End Season with Young Talent Shine",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Prince Edward County's Tourist Boom Masks Local Struggles",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "England to Change School Food Standards by 2027",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Raptors Lose Playoff Opener to Cavaliers, Fans Rally",
-    "category": "Local",
-    "slug": "article-31",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Community Hero Rescues Injured Seagull in Ireland",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Rain Forecasts Prompt Emergency Flood Preparations in Ontario",
-    "category": "Ontario",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Community Initiatives Address Eco-Anxiety Through Action",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Highway Repairs Scheduled for Toronto Starting April 2026",
-    "category": "Ontario",
-    "slug": "article-27",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "New pregnancy vaccine reduces RSV hospital admissions for newborns",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Canada Withdraws from Flintlock Military Exercise in Africa",
-    "category": "Canada",
-    "slug": "article-3",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Hot Tub Soaking Offers Unique Health Benefits, Study Finds",
-    "category": "Health",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-19",
     "headline": "Canada Post to Transition Millions to Community Mailboxes",
     "category": "Canada",
@@ -6298,5 +6067,236 @@
     "category": "World",
     "slug": "article-28",
     "source_count": 3
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Dense Fog Advisory Issued for Bay of Quinte Region",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Paramedic Services Week Highlights Importance of Healthcare Support",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Trent-Severn Waterway Navigation Season Begins Today",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Trent River Clean-Up Dive Promotes Environmental Stewardship",
+    "category": "Local",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Ottawa Charge Faces Elimination After Overtime Loss",
+    "category": "Local",
+    "slug": "article-33",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Lakeside Fire Department Averts Power Outage at Little League Game",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Ontario Students Adjust Career Plans Amid AI Influence",
+    "category": "Ontario",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Quinte Field Naturalists Hold Annual Plant Sale Today",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "U.S. Applicants Increase Canadian Citizenship Wait Times",
+    "category": "Canada",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Cineplex to Screen FIFA World Cup 2026 Matches Across Canada",
+    "category": "Canada",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Iraqi National Charged in U.S. Consulate Shooting Case",
+    "category": "Canada",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Study Links Infrasound to Haunted House Experiences",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Quebec Premier Fréchette Meets Macron to Strengthen Economic Ties",
+    "category": "Canada",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Bulgaria Triumphs at the Eurovision Song Contest",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Bill Cassidy Loses Louisiana GOP Primary",
+    "category": "US",
+    "slug": "article-5",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Scotland's Marine Life Shows Recovery After Bottom Trawling Ban",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Rally in Montgomery Addresses Black Voting Rights",
+    "category": "US",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Community Teams Rescue Dog Trapped Underground for Six Hours",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Judge Delays Anthropic’s $1.5 Billion Copyright Settlement",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Dutch Nonprofit Aims to Reduce Ocean Plastic Pollution",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Democrats Raise Concerns Over New Voter Eligibility Program",
+    "category": "US",
+    "slug": "article-32",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Polish Influencer Raises $67 Million for Childhood Cancer Patients",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Study Examines Coal Pollution's Effect on Solar Power Production",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Dutch Court Ruling Bans Bottom Trawling in Protected Areas",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "WHO Classifies Ebola Outbreak in DRC as Public Health Emergency",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Teens Win Earth Prize for Microplastic Solution",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Israeli Airstrike Kills Hamas Military Leader",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Study Reveals Arts Engagement Slows Biological Aging by 4%",
+    "category": "Health",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Humpback Whale 'Timmy' Found Dead After Controversial Rescue",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "ETH Zurich Develops Handheld Superconducting Magnets for Research",
+    "category": "Science",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Public Sentiment in Russia Amid Ukraine War",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Seawater DNA Offers New Insights Into Dolphin Populations",
+    "category": "Science",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Research Links Prolonged Sitting to Serious Health Risks",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 1
   }
 ]
