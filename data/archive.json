@@ -1,243 +1,5 @@
 [
   {
-    "date": "2026-04-19",
-    "headline": "Canada Post to Transition Millions to Community Mailboxes",
-    "category": "Canada",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Nutritional Needs of Older Adults Gaining Attention",
-    "category": "Health",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Stanley Cup Playoffs Start with Three Canadian Teams",
-    "category": "Canada",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Artemis II Crew Returns, Highlighting Unity in Space Exploration",
-    "category": "Science",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Nova Scotia court rejects wildfire access ban for citizens",
-    "category": "Canada",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Study Confirms Major Solar Storm Hit Earth 800 Years Ago",
-    "category": "Science",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Government to Require Public Servants Back in Office Four Days a Week",
-    "category": "Canada",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Federal Gas Tax Suspension Starts Amid Rising Fuel Costs",
-    "category": "Canada",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Jon Ossoff Critiques Trump's Iran Policy During Rally",
-    "category": "US",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Reflecting on 251 Years Since the Shot Heard Round the World",
-    "category": "US",
-    "slug": "article-17",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Iran Threatens Closure of Strait of Hormuz Amid Tensions with U.S.",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Kyiv Supermarket Shooting Leaves Six Dead",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Trump Expresses Optimism Over U.S.-Iran Negotiations",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Confusion Surrounds Details of Proposed Iran Deal",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Mortgage Rates Decline Amid Iran Ceasefire Developments",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "US-Iran Negotiations Highlight Tensions Over Military Actions",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-19",
-    "headline": "Caring for a Loved One with Dementia on Special Days",
-    "category": "Health",
-    "slug": "article-12",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Pedestrian Struck and Killed on Highway 2 in Quinte West",
-    "category": "Local",
-    "slug": "article-7",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Bay of Quinte Home Show Returns to Trenton",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Issues with OC Transpo Discounted Fares for Community Pass Holders",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Elderly Man Rescued from Moira River After Incident",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Centre Hastings Development Charges Expected to Rise",
-    "category": "Local",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Caregiver Expo Set for April 24 in Belleville",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Over 150 Inmates Mistakenly Released from Ontario Jails in Recent Years",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Retiree Builds Special Chairs for Cats in Sanctuary",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Public Servants Weigh Retirement Incentives Against Workforce Adjustments",
-    "category": "Canada",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Quinte West Trades and Tech Open House on April 21",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "House explosion kills mother and six children in Pennsylvania",
-    "category": "US",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "New Event Venue Opens in Quinte West to Support Community",
-    "category": "Local",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Oil Prices Increase Following US Seizure of Iranian Cargo Ship",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 10
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Women Gain Prominence in Whiskey Industry",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "US Captures Iranian Ship Amid Tensions Before Peace Talks",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Vladimir Horowitz's 1986 Moscow Concert Marks 40th Anniversary",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Ceasefire in U.S.-Iran Conflict Faces Key Negotiations",
-    "category": "World",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
     "date": "2026-04-20",
     "headline": "Volunteers Build Over 10,000 Beds for Children",
     "category": "World",
@@ -6298,5 +6060,243 @@
     "category": "Health",
     "slug": "article-15",
     "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Update on May 17 Apartment Incident in Belleville",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Trent River Clean-Up Dive Scheduled for May 17",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Fuel Spill Reported in Victoria Harbour, Immediate Response Underway",
+    "category": "Local",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Celebrating Paramedic Services Week in Hastings County",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Vehicle Crash Sparks Four-Alarm Fire in Toronto",
+    "category": "Local",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Toronto Police Increase Patrols for Victoria Day Weekend",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Southern Ontario Issues Heat Warning as Temperatures Rise",
+    "category": "Ontario",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Hyrox Fitness Competition Launches in Ottawa",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Shai Gilgeous-Alexander Wins Second Consecutive NBA MVP",
+    "category": "Ontario",
+    "slug": "article-34",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Community Event to Connect Residents and School Trustees",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Neville Nankivell, Influential Canadian Journalist, Dies at 91",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Quinte Field Naturalist Hosts Fundraising Plant Sale in Belleville",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Seasonal Allergies Worsen in Canada as Pollen Levels Rise",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Frank Hayden, Founder of Special Olympics, Dies at 96",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Long Island Rail Road Strike Disrupts Commuters and Transit",
+    "category": "US",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "PWHL Final Celebrates Women's Hockey Rivalry",
+    "category": "Canada",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Trump Changes U.S. Policy on Iran's Nuclear Program",
+    "category": "US",
+    "slug": "article-9",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Stephen Colbert's Late Show to Air Final Episode",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "New Legislation Introduces Regulations for Prediction Markets",
+    "category": "US",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Commencement Speaker Announces Student Loan Relief",
+    "category": "US",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Fighter Jets Collide During Idaho Air Show",
+    "category": "US",
+    "slug": "article-20",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "IMF Upgrades UK Growth Forecast Amid Geopolitical Concerns",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Supreme Court Decision Alters Voting Rights Act Protections",
+    "category": "US",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Shakira Acquitted of Tax Fraud by Spanish High Court",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "U.S. Receives Revised Iranian Proposal from Pakistan",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Record Volunteer Participation in Oyster Reef Restoration",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Israel Intercepts Flotilla Bound for Gaza",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "New Blood Test Predicts Disease Progression and Treatment Response",
+    "category": "Health",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Kenya Faces Nationwide Strike Over Record Fuel Prices",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Shrek Celebrates 25 Years: A Landmark for Animation",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Ukraine Launches Drone Strikes Against Russia",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Trump Urges Iran to Resume Negotiations as Conflict Stalls",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Ford Plans Return of 'Electric Fiesta' in Europe",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Activists from Gaza-bound Flotilla Call for Help After Interception",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
   }
 ]

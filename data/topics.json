@@ -281,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-05-15T08:34:16.538210-04:00",
+      "last_material_update": "2026-05-18T10:32:20.902965-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -302,7 +302,9 @@
         "Sustainability of Ukrainian manpower",
         "Stability of satellite communications for front-line operations"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Ukraine's recent drone strikes mark a significant escalation in its military efforts against Russia amidst stalled peace negotiations."
+      ],
       "key_facts": {
         "Started": "February 24, 2022",
         "Duration": "Over 3 years",
@@ -340,6 +342,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-18",
+          "text": "Ukraine Launches Drone Strikes Against Russia",
+          "category": "diplomatic",
+          "source_url": "https://www.npr.org/2026/05/18/nx-s1-5824988/ukraine-launches-large-scale-drone-strikes-on-russia"
+        },
         {
           "date": "2026-05-15",
           "text": "Zelensky Calls for Accountability After Deadly Kyiv Missile Strike",
@@ -513,12 +521,6 @@
           "text": "Russian Attacks on Kyiv Occur Amid Stalled Peace Talks",
           "category": "diplomatic",
           "source_url": "https://www.npr.org/2026/03/14/nx-s1-5747959/russian-strike-kyiv-region"
-        },
-        {
-          "date": "2026-03-14",
-          "text": "U.S. Suspends Oil Sanctions on Russia, Raising Concerns",
-          "category": "economic",
-          "source_url": "https://www.npr.org/2026/03/13/nx-s1-5746678/ukrainian-president-zelenskyy-concerned-as-u-s-suspends-russia-sanctions"
         }
       ],
       "related_situations": [
@@ -861,9 +863,7 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [
-        "An Israeli airstrike killed Hamas military leader Izz al-Din al-Haddad in Gaza."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
