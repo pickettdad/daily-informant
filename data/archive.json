@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-04-20",
-    "headline": "Volunteers Build Over 10,000 Beds for Children",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Iran Declines U.S. Peace Talks Amid Rising Tensions",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Art Exhibition Raises Environmental Awareness in Arizona",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Oil Prices Surge Amid U.S.-Iran Tensions",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Chernobyl Exclusion Zone Becomes Wildlife Sanctuary",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Rumen Radev's Progressive Bulgaria Party Wins Majority in Election",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Pregnancy Vaccine for RSV Cuts Newborn Hospitalizations by Over 80%",
-    "category": "Health",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Iran Tensions Contribute to Rising UK Petrol Prices",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Designer Honors Kidney Donor with New Shoe",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "UK Butterfly Monitoring Reveals Overall Species Decline",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "New Mental Health Support for Diabetes Patients Implemented in the UK",
-    "category": "Health",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Biden Administration Weighs Military Options on Iran's Nuclear Stockpile",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-20",
-    "headline": "Five Ways to Combat Eco-Anxiety Through Small Actions",
-    "category": "Health",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Quinte Health to Cut Personal Support Worker Positions",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Smile Cookie Week Supports Local Healthcare in Trenton",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Nurse Practitioner Cara Sabourin Raises Alarm Over Funding",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "2026 Canada Summer Jobs Program Now Accepting Applications",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Doug Ford Acknowledges Private Jet Purchase as a Mistake",
-    "category": "Ontario",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Belleville to Hold Consultation for Sewage Pumping Station Project",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Ontario Solicitor General Apologizes for Inaccurate Inmate Release Claims",
-    "category": "Ontario",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Quinte Health Enhances Care with More Registered Practical Nurses",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Canada's Role in Iran's UN Appointment Draws Criticism",
-    "category": "Canada",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Canadian Armed Forces Exceed Recruitment Targets for Second Year",
-    "category": "Canada",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Delivery of P-8 Surveillance Aircraft Delayed to 2030",
-    "category": "Canada",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Ontario Bans Ghosting in Job Hiring Practices",
-    "category": "Canada",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Travel Pass Granted to Ayanle Hassan Ali Raises Safety Concerns",
-    "category": "Canada",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Federal Policies Strengthen Community Newspapers in Canada",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Carney aims to redefine Canada’s trade strategy away from U.S.",
-    "category": "Canada",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Disney+ Launches 'Songs In Sign Language' for Accessibility",
-    "category": "Canada",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Warsh's Confirmation Hearing to Impact Federal Reserve Policy",
-    "category": "US",
-    "slug": "article-30",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-21",
-    "headline": "Over 10,000 Beds Built for Children in One Day",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 3
-  },
-  {
     "date": "2026-04-21",
     "headline": "Five-Year-Old Boy Fights for Life After Rescue",
     "category": "US",
@@ -6298,5 +6081,222 @@
     "category": "World",
     "slug": "article-26",
     "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Quinte Forecasts Unusually High Temperatures This Week",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "CUPE 1842 Recognizes Paramedics in Upcoming Celebration",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Diesel Fuel Spill Reported in Victoria Harbour, Belleville",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Ontario Government Provides $15,000 to Port Hope Jazz Festival",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "New Details Emerge from Belleville Apartment Incident",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Belleville Community Invited to Engage with School Trustees",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Heat Wave Warning for Southwestern Ontario",
+    "category": "Ontario",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Flying Aquanauts Organize Trent River Clean-Up Dive",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Toronto Police Officers Arrested in Spain on Assault Allegations",
+    "category": "Ontario",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Heat Warning and Thunderstorm Risk for Toronto Today",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Canada's April Inflation Rate Hits 2.8% Amid Rising Gas Prices",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Parks Canada Marks 115 Years of Heritage Stewardship",
+    "category": "Canada",
+    "slug": "article-1",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "U.S. Suspends Defense Advisory Board with Canada",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "New Brunswick invests $3 million in firefighting aircraft",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Government Faces Legal Challenges From First Nations on Water Access",
+    "category": "Canada",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Carney Government's First Year Marks Procedural Changes",
+    "category": "Canada",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Trump Administration Claims Year of Zero Border Releases",
+    "category": "US",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Nagaland's Communities Revive Asian Giant Tortoise Populations",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "UAE and Oman Launch New Logistics Corridor",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Laukiai Oak Wins European Tree of the Year Contest",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "UK Unleaded Petrol Prices Reach Record High",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Team IMPACT Celebrates 15 Years of Inclusion in Sports",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "ICC Requests Arrest Warrant for Israeli Finance Minister",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Mental Health Awareness Week Highlights Support Habits",
+    "category": "Health",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Israeli Navy Intercepts Flotilla Bound for Gaza",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Experts Stress Importance of Bone Health as People Age",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Survivors Blame U.S. Army for Medical Lapses During Drone Strike",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Russia Conducts Large-Scale Nuclear Drills Amid Ukraine Conflict",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Romanian Jet Downs Drone Over Estonia: Regional Implications",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Study highlights gaps in syphilis screening for pregnant Ontarians",
+    "category": "Health",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Ebola Outbreak Declared Public Health Emergency by WHO",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 3
   }
 ]
