@@ -29,9 +29,7 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [
-        "Survivors suggest U.S. Army's failure to provide adequate medical support led to unnecessary casualties during a drone strike in Kuwait."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -1067,7 +1065,7 @@
       "status": "active",
       "phase": "SAF counteroffensive",
       "started": "2023-04-15",
-      "last_material_update": "",
+      "last_material_update": "2026-05-20T09:18:40.018798-04:00",
       "summary": "Sudan's civil war has passed 1,000 days with the SAF recapturing Khartoum but the RSF controlling Darfur. Over 150,000 dead, 12.3 million displaced, and 25 million facing severe hunger.",
       "catch_up_summary": "Sudan's civil war between the SAF and RSF began April 15, 2023 and has passed 1,000 days. The SAF recaptured Khartoum and Omdurman in March 2025 but the RSF seized El Fasher in October 2025 and controls most of Darfur. The RSF has established a parallel government. Death toll estimates exceed 150,000. Over 12.3 million are displaced (world's largest crisis) and 25 million face severe food insecurity including 4 million malnourished children. The current phase centers on the SAF's Kordofan offensive — recapturing Bara on March 5 and breaking the Kadugli siege. Chad closed its border after RSF drone strikes killed Chadian soldiers. The U.S. sanctioned RSF commanders in February 2026.",
       "background": "The conflict emerged from a power struggle between military leaders who jointly overthrew Sudan's civilian government in 2021. South Sudan faces spillover instability with oil exports vulnerable to northern fighting.",
@@ -1090,7 +1088,9 @@
         "Foreign involvement — UAE allegations",
         "Ability of South Sudan to maintain oil production"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Ryan O'Grady, a Canadian banker arrested in Dubai, faces extradition to South Sudan, where he fears for his life amid corruption allegations."
+      ],
       "key_facts": {
         "Started": "April 15, 2023",
         "Duration": "Passed 1,000 days (January 2026)",
@@ -1129,6 +1129,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-20",
+          "text": "Canadian Banker Arrested in Dubai Faces Extradition to South Sudan",
+          "category": "legal",
+          "source_url": "https://www.theglobeandmail.com/world/article-ryan-o-grady-kush-bank-jail-dubai-sudan/"
+        },
         {
           "date": "2026-03-05",
           "text": "SAF retakes Bara in North Kordofan; RSF retaliates by looting nearby villages",
