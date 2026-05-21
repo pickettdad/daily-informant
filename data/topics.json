@@ -839,7 +839,7 @@
       "status": "active",
       "phase": "fragile ceasefire",
       "started": "2023-10-07",
-      "last_material_update": "2026-05-17T07:44:25.716783-04:00",
+      "last_material_update": "2026-05-21T09:26:02.647139-04:00",
       "summary": "The Israel-Hamas conflict is in a fragile ceasefire phase since October 2025, with over 74,000 dead, humanitarian access crippled, and the situation now intertwined with the Iran conflict.",
       "catch_up_summary": "Hamas attacked southern Israel on October 7, 2023, killing approximately 1,200 and taking 251 hostages. Israel's military response has killed over 72,000 Palestinians (Gaza Health Ministry) and displaced 90% of Gaza's population. After multiple rounds of fighting and truces, a comprehensive ceasefire was reached in October 2025. However, violations continue — Israel launched airstrikes killing 32 in January 2026 citing violations. On March 1, 2026, Israel banned 37 humanitarian agencies including UNRWA from Gaza. A U.S.-supervised 'Cairo Committee' for Gaza governance held its first meeting in January 2026. The situation has merged with the broader Iran conflict as Hezbollah resumed rocket fire into Israel.",
       "background": "The Israeli-Palestinian conflict spans decades. The October 7 attack was the deadliest day in Israeli history. The resulting military operation and humanitarian crisis drew international legal scrutiny including ICJ proceedings.",
@@ -861,7 +861,9 @@
         "Cairo Committee legitimacy on the ground",
         "Full implementation of weapons decommissioning"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "Palestinian sisters Tala and Farah Mousa's innovative recycling initiative transforms adversity into sustainable solutions, marking a significant achievement in the context of recovery efforts in Gaza."
+      ],
       "key_facts": {
         "Started": "October 7, 2023",
         "Palestinian Deaths": "72,082-74,121 (Gaza Health Ministry/various)",
@@ -904,6 +906,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-21",
+          "text": "Gaza Sisters Win Earth Prize for Sustainable Innovation",
+          "category": "military",
+          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/21/gaza-sisters-win-earth-prize-for-turning-war-rubble-into-bricks?traffic_source=rss"
+        },
         {
           "date": "2026-05-17",
           "text": "Israeli Airstrike Kills Hamas Military Leader",
@@ -1088,9 +1096,7 @@
         "Foreign involvement — UAE allegations",
         "Ability of South Sudan to maintain oil production"
       ],
-      "what_changed_today": [
-        "Ryan O'Grady, a Canadian banker arrested in Dubai, faces extradition to South Sudan, where he fears for his life amid corruption allegations."
-      ],
+      "what_changed_today": [],
       "key_facts": {
         "Started": "April 15, 2023",
         "Duration": "Passed 1,000 days (January 2026)",
