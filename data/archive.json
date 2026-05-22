@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-04-23",
-    "headline": "Jodi Kantor's Book Aims to Guide Young Career Seekers",
-    "category": "US",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "European Airlines Face Challenges Amid Jet Fuel Crisis",
-    "category": "World",
-    "slug": "article-2",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Granborghini charity offers joyrides to combat elder loneliness",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Lebanon, Israel Resume Ceasefire Talks in Washington",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Linh Mai, First Baby Elephant in 25 Years, Debuts",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Five critically injured in train collision in Denmark",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Prince Harry Visits Ukraine, Urges U.S. Support",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Homicide of Teen in D4vd's Car Stirs Concerns",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "UK to Reintroduce Golden Eagles to Northumberland",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "56th Anniversary of Earth Day Highlights Environmental Movement",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Breakthrough Gene Therapy Restores Sight for Young Girl",
-    "category": "Health",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Study Shows No Relapses in Bowel Cancer Patients After 33 Months",
-    "category": "Health",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-23",
-    "headline": "Gene Therapy Restores Hearing in Patients with Rare Deafness",
-    "category": "Health",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Flood Levels Plateau in Constance Bay",
-    "category": "Local",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Truss Beverage Co. Grand Opening Set for May 26 in Belleville",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Affordable housing project in Prince Edward County faces funding hurdles",
-    "category": "Local",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Pickleball Tournament Raises $68,000 for YMCA Campaign",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Body Found in Vehicle After Police Pursuit in Greater Napanee",
-    "category": "Local",
-    "slug": "article-32",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Belleville Police Service Upgrades Emergency Response with NG9-1-1",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Ontario Moves to Pass New Municipal Conduct Rules",
-    "category": "Ontario",
-    "slug": "article-4",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Tim Hortons Campaign Supports Student Nutrition Programs",
-    "category": "Local",
-    "slug": "article-19",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "DOJ's Internal Watchdog to Investigate Epstein Document Handling",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Alberta Moves to Adopt Permanent Daylight Time",
-    "category": "Canada",
-    "slug": "article-8",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Ceasefire Extended Between Israel and Lebanon for Three Weeks",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Canadian Bars Shine in North America's 50 Best Bars 2026",
-    "category": "Canada",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Canada Diverges from U.S. on Israel Policy",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "BagelFest West Celebrates the Gourmet Bagel Trend",
-    "category": "Canada",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Trump Extends Israel-Lebanon Ceasefire Amid Regional Tensions",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Family Rescues Critically Endangered Axolotl in Wales",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Trump's Focus on Reviving the Great Salt Lake",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Ecosia Plants 250 Millionth Tree Ahead of Earth Day",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Prince Harry Urges U.S. Support During Ukraine Visit",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Granborghini Project Connects Seniors with Supercars",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-24",
     "headline": "UK Biobank Data of 500,000 Participants Compromised",
     "category": "Health",
@@ -6298,5 +6067,236 @@
     "category": "Tech",
     "slug": "article-31",
     "source_count": 3
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Marlbank Community Addresses Missing Person Report",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Local Golf Tournament Raises $70,000 for Youth Programs",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Active Search Underway for Missing Man in Marlbank",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Belleville Reintroduces Workplace Inclusion Charter for Businesses",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Local Activist Among Flotilla Participants Released by Israeli Forces",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Bayside Secondary School Hosts 12th Annual Relay for Life",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Ottawa Cyclist Dies After Collision with School Bus in Chelsea",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Fundraising Event to Honor Rebecca Beatty and Raise Awareness",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Serious Pedestrian Injury Disrupts Traffic on Highway 417",
+    "category": "Ontario",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Ontario Invests in Food Access for Northumberland County",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Ottawa Students Concerned About AI in Education",
+    "category": "Canada",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Mike Herzog Mows Heart Shapes for Healthcare Awareness",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Federal Court Quashes $421,000 Invoice Against First Nation Councillor",
+    "category": "Canada",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Ottawa Charge Reach PWHL Final Despite Challenges",
+    "category": "Local",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Supreme Court to Hear B.C. Indigenous Rights Case in 2026",
+    "category": "Canada",
+    "slug": "article-29",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Quinte Cricket Cup 2026 Begins June 6, Supports Local Hospital",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "San Diego Shooting at Islamic Center Under Investigation",
+    "category": "US",
+    "slug": "article-31",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Leadership Development Event Scheduled for June 2026",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Elderly Man Stops Kidnapping Attempt in Oregon",
+    "category": "US",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Belleville Spirits U17 Team Heads to Ontario Cup",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Key Cultural Anniversaries Highlight Historical Impact",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Toronto to Experience Sunny Weather Before Weekend Rain",
+    "category": "Local",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Lyme Disease Cases Surge Due to Warmer Winters in Canada",
+    "category": "Health",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Health Canada Approves Generic Ozempic for Canadians",
+    "category": "Canada",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Victor Bal Graduates with Service Dog Support",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Ski Martock Implements High-Tech Snow Preservation",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Senate Republicans Fail to Pass Immigration Funding Before Recess",
+    "category": "US",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Viral Kindness Fuels Fundraiser for Free Ice Cream",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Church of Jesus Christ donates $25 million to UNICEF",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "RHINOSHIELD Launches Autonomous Ocean Plastic Collection Platform",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Indigenous Fishermen Funded to Tackle Sea Urchin Plague",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Malaria Vaccine Reduces Child Deaths in African Countries",
+    "category": "Health",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Chemotherapy Survivor Shares Impact of Kindness",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 1
   }
 ]
