@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-04-24",
-    "headline": "UK Biobank Data of 500,000 Participants Compromised",
-    "category": "Health",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Countries Meeting in Colombia to Discuss Fossil Fuel Transition",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Community Crowdfunding Aids Rescue of Molly the Dog",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Philanthropy Fuels Research on Mental Health Innovations",
-    "category": "Health",
-    "slug": "article-5",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Gene Therapy Restores Sight for Young Patient in London",
-    "category": "Health",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Decline in Teen Suicide Rates After 988 Hotline Launch",
-    "category": "Health",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Breakthrough Trial Shows Zero Relapses in Bowel Cancer Patients",
-    "category": "Health",
-    "slug": "article-17",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "FDA Approves First Gene Therapy for Genetic Deafness",
-    "category": "Health",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Naked Mole Rats Show Cooperative Queen Transition",
-    "category": "Science",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "MIT Study Shows Rain Sounds Accelerate Rice Seed Germination",
-    "category": "Science",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "New Method Enables Robots to Learn from Human Observation",
-    "category": "Tech",
-    "slug": "article-11",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-24",
-    "headline": "Cohere Merges with Aleph Alpha to Advance AI Capabilities",
-    "category": "Tech",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Concerns Grow Over Camelott Hamblett's Long-term Seclusion",
-    "category": "Ontario",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Ottawa Nurse Practitioner-Led Clinic Marks Six-Month Milestone",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Montreal Reports Surge in Drug Overdoses Linked to Fentanyl",
-    "category": "Canada",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Ontario Government Invests in Primary Care Expansion",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "New Ruling Clarifies Limits on DACA Protections for Immigrants",
-    "category": "US",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "26th Annual Quinte Trash Bash Set for April 2026",
-    "category": "Local",
-    "slug": "article-5",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "U.S. Envoys to Discuss Ceasefire with Iran in Pakistan",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 18
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Brighton Celebrates Local Volunteers at Annual Event",
-    "category": "Local",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Gunfire Erupts in Mali's Capital Amid Military Assault",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Celebrating Independent Bookstores on April 25 in Toronto",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Seven Killed in Russian Strikes Across Ukraine",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Multiple Driving Charges Laid by Northumberland OPP",
-    "category": "Local",
-    "slug": "article-18",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Flood Warning System in Everest Region Neglected and Dangerous",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "A young girl gains confidence through sports role model",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Over 800,000 Displaced in Intensifying Tigray Crisis",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Ontario invests $2.1 million in primary healthcare access",
-    "category": "Ontario",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "100-Year-Old Roy Allen to Walk 5K at Ottawa Race Weekend",
-    "category": "Canada",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "New Canadian Law Expands Citizenship to Americans with Ancestry",
-    "category": "Canada",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-25",
-    "headline": "Number of American Academics Seeking Jobs in Canada Increases",
-    "category": "Canada",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-25",
     "headline": "Community Members Rescue Family from Flipped Car",
     "category": "US",
@@ -6297,6 +6080,223 @@
     "headline": "Chemotherapy Survivor Shares Impact of Kindness",
     "category": "Health",
     "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Belleville Aid Worker Detained by Israeli Forces During Gaza Mission",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Quinte West to Enhance Road Infrastructure This Summer",
+    "category": "Local",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Rainfall Advisory Issued for Quinte Region",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Kristian Jamieson to Honor Tom Longboat at Marathon",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Fraser Park Drive Closure to Impact Quinte West Traffic",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Ottawa Considers New Composting Options to Boost Waste Diversion",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Lake Ontario Outflows Increased Amid Flooding Risks",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Marlbank Man Found Safe After Being Missing",
+    "category": "Local",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Fire Engulfs Home on Hamilton Road in Belleville",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "McGill University launches digital literacy program for Quebec students",
+    "category": "Canada",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Montreal Lawyer Denied Bail on Serious Charges",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Canadian Military Enlistment Reaches 30-Year High",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Tulsi Gabbard Resigns from Trump Administration Post",
+    "category": "US",
+    "slug": "article-9",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Canadian Phil Gaudet Wins Top Honors at Memphis Barbecue Festival",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "California Orders Evacuations Amid Chemical Tank Concerns",
+    "category": "US",
+    "slug": "article-10",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "15 Years After Joplin Tornado: Community Resilience Examined",
+    "category": "US",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Trump Administration Alters Green Card Application Process",
+    "category": "US",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "FBI Reports Decline in Violent Crime for 2025",
+    "category": "US",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Marco Rubio Arrives in India for Quad Talks",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Free Entrance to All National Parks on Memorial Day",
+    "category": "US",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Food Aid Reductions Reported in Gaza Amid Ongoing Regional Tensions",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Church of Jesus Christ Pledges $25 Million to UNICEF",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Ukrainian Drone Attack Targets Russian Oil Infrastructure",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "RHINOSHIELD Deploys Innovative Ocean Plastic Cleanup Platform",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Scientists Develop Ebola Vaccine Amid DRC Outbreak",
+    "category": "Health",
+    "slug": "article-15",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Significant Anniversaries in Music and Technology Today",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "AI Note-Taking Tools Face Scrutiny in Ontario Healthcare",
+    "category": "Health",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Louvre to Move Mona Lisa to New Exhibition Space",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "SpaceX launches Starship V3, crucial for NASA's Artemis program",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "Malaria Vaccine Shows Promise in Reducing Child Mortality",
+    "category": "Health",
+    "slug": "article-11",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-23",
+    "headline": "AI Technology Aimed at Protecting Grey Whales from Collisions",
+    "category": "Science",
+    "slug": "article-13",
     "source_count": 1
   }
 ]
