@@ -1,229 +1,5 @@
 [
   {
-    "date": "2026-04-27",
-    "headline": "Shooting at White House Correspondents' Dinner Sparks Security Debate",
-    "category": "US",
-    "slug": "article-8",
-    "source_count": 9
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "New report emphasizes tipping points for nature recovery",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Teachers Struggle with Salary Gains Amid Soaring Inflation",
-    "category": "US",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Bald Ibis Successfully Saved from Extinction in Turkey",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Elections in Gaza and West Bank Highlight Political Developments",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Eastern Barred Bandicoot Reintroduced in Australia Through Genetic Approach",
-    "category": "World",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Oil Prices Rise Amid Ongoing U.S.-Iran Tensions",
-    "category": "World",
-    "slug": "article-21",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Algeria Eliminates Trachoma as a Public Health Problem",
-    "category": "World",
-    "slug": "article-34",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "China Balances U.S.-Iran Relations Amid Stalled Peace Talks",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Gene therapy restores sight in groundbreaking case for a young girl",
-    "category": "Health",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Strikes Mark Chernobyl Disaster Anniversary, Causing Deaths and Alarm",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-27",
-    "headline": "Drone Attacks in Odesa Leave 11 Injured Amid Conflict",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "OPP Officer Killed in Highway 401 Collision Near Cobourg",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "New Family Doctor Set to Join Belleville This Summer",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "OPP Officer Killed in Motorcycle Collision on Duty",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Tim Hortons Launches Smile Cookie Week for Local Causes",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Child Found with Critical Injuries in Ottawa Incident",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Cristy Latham Honored as OCAA Administrator of the Year",
-    "category": "Local",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "OPP Officer Killed on Duty Sparks Safety Concerns",
-    "category": "Local",
-    "slug": "article-32",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Harper Lee Celebrates 100th Birthday, Legacy Endures",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Provincial Takeover Motion Fails at Hastings Prince Edward School Board",
-    "category": "Local",
-    "slug": "article-33",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "$20 Million Initiative to Boost Gulf Coast Healthcare Resilience",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "David G. Boghosian Appointed Belleville Integrity Commissioner",
-    "category": "Local",
-    "slug": "article-34",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Eastern Barred Bandicoot to be Reintroduced in Australia",
-    "category": "World",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Concerns Grow Over Crime and Drug Use in Chinatown",
-    "category": "Local",
-    "slug": "article-35",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "UK Consults on Social Media Restrictions for Minors",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Thunderstorms and Rain Expected in Toronto This Week",
-    "category": "Ontario",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Elderly Woman and Dog Go Viral for Gardening Video",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Driver Penalty Reveals Consequences of Careless Driving",
-    "category": "Canada",
-    "slug": "article-6",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "French Researcher Deciphers 4,000-Year-Old Elamite Script",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Quebec Premier Meets U.S. Trade Representative Amid Tariff Challenges",
-    "category": "Canada",
-    "slug": "article-22",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-28",
-    "headline": "Ben Sasse Reports Tumor Reduction from Experimental Drug",
-    "category": "Health",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
     "date": "2026-04-28",
     "headline": "Cole Allen Charged with Attempted Assassination of Trump",
     "category": "US",
@@ -6298,5 +6074,229 @@
     "category": "Health",
     "slug": "article-19",
     "source_count": 3
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Ottawa Family Seeks Housing After Leaving Forest Encampment",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "YMCA Launches Program for Suspended Students in Ontario",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Gas Leak in Napanee Triggers Temporary Evacuation Advisory",
+    "category": "Local",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Belleville Approves Increased Funding for Tourism Grant",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Multiple Stolen Vehicles Recovered in Port Hope",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Friends of Sausal Creek Celebrates 30 Years of Environmental Restoration",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "New Tactic in U.S. Immigration Courts Raises Due Process Questions",
+    "category": "US",
+    "slug": "article-17",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Backyard Forests: Miyawaki Method Gains Popularity",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "U.S. Military Strikes in Iran During Peace Negotiations",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 11
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Community Art Project Boosts Mental Health Recovery",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Russia Warns of Strikes Amid Ukraine Conflict Escalation",
+    "category": "World",
+    "slug": "article-19",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Belleville Funds Project to Honor Fallen Soldiers",
+    "category": "Local",
+    "slug": "article-28",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Oil Prices Drop Amid Peace Deal Negotiations",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Students Raise Over $3,100 for Habitat for Humanity",
+    "category": "Local",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "UK Considers Social Media Ban for Children Under 16",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Canadians Shift Toward Low- and No-Sugar Beverages",
+    "category": "Canada",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Minibus-train collision in Belgium results in four fatalities",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Canadians Turn to Second-Hand Shopping Amid Cost-of-Living Crisis",
+    "category": "Canada",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "BP Removes Chairman Amid Governance Concerns",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "108-Year-Old Delaware Woman Renews Driver's License Until 2033",
+    "category": "US",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "New Ebola vaccine approaches clinical trials amid Congo outbreak",
+    "category": "Health",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Increasing Whale Sightings Indicate Recovery Efforts Paying Off",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "AI Tools in Therapy Raise Privacy and Trust Questions",
+    "category": "Health",
+    "slug": "article-12",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Rescue Dog Saves Owner From House Fire After Adoption",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Great Horned Owl Released After Innovative Feather Transplant",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "New Illustration Museum Set to Open in London",
+    "category": "World",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Young Entrepreneurs Thrive with Market Stall Ventures",
+    "category": "World",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "UK Launches £12.4 Million Fund to Modernize Foster Care",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Asthma Drug Shows Potential in Treating Aggressive Cancers",
+    "category": "Health",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "New Book Offers Practical Steps for Happiness and Well-Being",
+    "category": "Health",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Laughter Plays Key Role in Child Development, Research Shows",
+    "category": "Health",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-26",
+    "headline": "Citizen Science Project Launched to Measure Insect Declines",
+    "category": "Science",
+    "slug": "article-25",
+    "source_count": 1
   }
 ]

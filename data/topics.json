@@ -281,7 +281,7 @@
       "status": "active",
       "phase": "stalemate",
       "started": "2022-02-24",
-      "last_material_update": "2026-05-25T10:05:52.683868-04:00",
+      "last_material_update": "2026-05-26T09:23:16.363726-04:00",
       "summary": "Russia's full-scale invasion of Ukraine continues into its fifth year with grinding frontline fighting, long-range strikes, and no ceasefire in sight.",
       "catch_up_summary": "Russia invaded Ukraine on February 24, 2022. After failing to capture Kyiv, the war settled into prolonged fighting in eastern and southern Ukraine. Russia controls roughly 20% of Ukrainian territory. Ukraine launched counteroffensives reclaiming Kharkiv and Kherson in 2022, and crossed into Russia's Kursk region in 2024. By early 2026, monthly territorial changes are small. Ukraine has lost 70% of its power generation capacity to Russian strikes. A February 2026 Starlink disruption enabled Ukrainian counterattacks reclaiming 33 square miles. Major prisoner exchanges continue. The U.S.-Iran war has diverted international attention and postponed peace talks. Military casualties are catastrophic on both sides.",
       "background": "Russia annexed Crimea in 2014 and backed separatists in eastern Ukraine. The 2022 full-scale invasion was the largest military operation in Europe since WWII. Western nations have provided tens of billions in military aid. Diplomatic negotiations have stalled repeatedly.",
@@ -303,7 +303,7 @@
         "Stability of satellite communications for front-line operations"
       ],
       "what_changed_today": [
-        "A wave of Russian strikes on Ukraine has led to substantial casualties, highlighting the deepening conflict between the two nations."
+        "Renewed Russian threats of strikes against Kyiv raise urgent concerns for civilian safety and diplomatic personnel amidst ongoing conflict."
       ],
       "key_facts": {
         "Started": "February 24, 2022",
@@ -342,6 +342,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-26",
+          "text": "Russia Warns of Strikes Amid Ukraine Conflict Escalation",
+          "category": "diplomatic",
+          "source_url": "https://www.npr.org/2026/05/26/nx-s1-5833839/whats-russias-next-move-amid-its-latest-attacks-against-ukraine"
+        },
         {
           "date": "2026-05-25",
           "text": "Russian Strikes on Ukraine Cause Four Deaths, Dozens Injured",
@@ -515,12 +521,6 @@
           "text": "Russian Drone Strike in Ukraine Kills Two Amid Peace Talks",
           "category": "diplomatic",
           "source_url": "https://www.bbc.com/news/articles/crl18nwjzzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-03-21",
-          "text": "Drone Strike Causes Blackout in Chernihiv, Ukraine",
-          "category": "military",
-          "source_url": "https://www.france24.com/en/war-in-ukraine-russia-drone-strike-blacks-out-chernihiv-city"
         }
       ],
       "related_situations": [
