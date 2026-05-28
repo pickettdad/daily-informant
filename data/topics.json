@@ -6,7 +6,7 @@
       "status": "active",
       "phase": "escalating",
       "started": "2026-02-28",
-      "last_material_update": "2026-05-19T09:24:02.377976-04:00",
+      "last_material_update": "2026-05-28T10:39:03.577311-04:00",
       "summary": "A regional war triggered by coordinated U.S.-Israeli strikes on Iranian military infrastructure and leadership, followed by Iranian retaliatory attacks across the Middle East.",
       "catch_up_summary": "On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian military sites, leadership, and nuclear-related facilities. Supreme Leader Ali Khamenei was killed; his son Mojtaba was named successor. Iran retaliated with hundreds of missiles and drones targeting U.S. bases in Qatar, Bahrain, and Saudi Arabia, and struck Israeli cities. Iran closed the Strait of Hormuz on March 1, triggering an energy crisis with oil prices approaching $120 per barrel. At least 7 U.S. service members and over 1,000 people regionally have been reported killed. Hezbollah opened a second front with rocket fire into Israel on March 5. The conflict has disrupted global aviation, shipping, and energy markets. Diplomatic efforts have stalled after indirect talks in Muscat collapsed in early February.",
       "background": "Tensions between the U.S. and Iran escalated following the 2018 U.S. withdrawal from the JCPOA nuclear deal. Intelligence reports of Iranian nuclear program reconstitution, the October 2025 JCPOA snapback sanctions, and the collapse of Muscat talks in February 2026 preceded the military operation. The conflict represents the most significant direct U.S.-Iran engagement since 1988.",
@@ -29,7 +29,10 @@
         "Possibility of U.S. ground engagement",
         "Cohesion of Iranian state under IRGC-led triumvirate"
       ],
-      "what_changed_today": [],
+      "what_changed_today": [
+        "The U.S. conducted military strikes against Iranian drones, intensifying the conflict amid fragile peace talks, with potential repercussions for global stability.",
+        "Renewed missile strikes by Iran toward a US air base have escalated tensions and highlighted the fragility of the ceasing hostilities between the two nations."
+      ],
       "key_facts": {
         "Started": "February 28, 2026",
         "Operation Name": "Operation Lion's Roar / Operation Epic Fury",
@@ -71,6 +74,12 @@
         }
       ],
       "timeline": [
+        {
+          "date": "2026-05-28",
+          "text": "U.S. Forces Target Iranian Drones Near Strait of Hormuz",
+          "category": "diplomatic",
+          "source_url": "https://www.npr.org/2026/05/28/g-s1-124621/up-first-newsletter-iran-lebanon-israel-us-war-ebola-congo-food-insecurity-google-polymarket"
+        },
         {
           "date": "2026-05-19",
           "text": "Survivors Blame U.S. Army for Medical Lapses During Drone Strike",
@@ -243,12 +252,6 @@
           "date": "2026-03-04",
           "text": "Iran launches additional strikes on Israel and U.S. bases; further Israeli strikes on Hezbollah targets",
           "category": "military",
-          "source_url": ""
-        },
-        {
-          "date": "2026-03-03",
-          "text": "Mojtaba Khamenei named successor, leading ruling triumvirate amid internet blackouts",
-          "category": "political",
           "source_url": ""
         }
       ],

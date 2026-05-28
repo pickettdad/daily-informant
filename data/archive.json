@@ -1,243 +1,5 @@
 [
   {
-    "date": "2026-04-29",
-    "headline": "Canada's Trade Dependency on U.S. Remains High",
-    "category": "Canada",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "World's Oldest Penguin Celebrates 38th Birthday",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Hegseth to Testify on Pentagon Budget Amid Iran Conflict",
-    "category": "US",
-    "slug": "article-25",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Algeria Eliminates Trachoma as Public Health Threat",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "King Charles III Attends State Dinner at White House",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 6
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "World's Longest Pedestrian Footbridge Celebrates Anniversary",
-    "category": "World",
-    "slug": "article-23",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "U.S.-Iran Talks Continue Amid Global Energy Price Increases",
-    "category": "World",
-    "slug": "article-1",
-    "source_count": 7
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Palestinian Refugee Shares Childhood Story Through Art",
-    "category": "World",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "King Charles Addresses U.S.-U.K. Unity in Congress Speech",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 5
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Elderly Woman and Dog Go Viral for Gardening",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Philippine Committee Votes to Impeach Vice President Duterte",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "New Bird Flu Vaccine Trial Begins in the UK",
-    "category": "Health",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Ukraine Claims Drone Strike on Russian Oil Facility in Perm Region",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "New Plasma Technology Transforms Methane into Methanol",
-    "category": "Science",
-    "slug": "article-15",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-29",
-    "headline": "Former US Officials Demand Accountability Over School Strike",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Fatal Collision on Highway 7 Claims Life of Local Woman",
-    "category": "Local",
-    "slug": "article-8",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Local Couple Boosts Humane Society Funds with Fundraiser",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Parliament Station Elevator Outage Affects Families and Seniors",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Successful 4th Annual Eastern Ontario Caregiver Expo Held",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Quinte West mourns former Mayor Neil Robertson, 91",
-    "category": "Local",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Nepean to Open Largest Pinball Arcade in Canada",
-    "category": "Local",
-    "slug": "article-10",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Ontario Faces Push to Allocate Alcohol Tax Revenue for Health",
-    "category": "Ontario",
-    "slug": "article-9",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Belleville City Council Ratifies New Deal with Firefighters",
-    "category": "Local",
-    "slug": "article-21",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "U.S. Operations Disrupt $800 Million Iranian Oil Scheme",
-    "category": "US",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "England Introduces New Community Right to Buy Powers",
-    "category": "Local",
-    "slug": "article-32",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Pentagon Reports $25 Billion in Costs for Military Operations Against Iran",
-    "category": "World",
-    "slug": "article-13",
-    "source_count": 12
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Tunneling for Toronto's Ontario Line Subway Project Begins",
-    "category": "Ontario",
-    "slug": "article-3",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Trump Reaffirms Support for U.S. Naval Blockade on Iran",
-    "category": "World",
-    "slug": "article-14",
-    "source_count": 4
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Family Reunited with Lost Cat After Seven Years",
-    "category": "US",
-    "slug": "article-4",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Ongoing Blockade in Iran Intensifies Humanitarian Crisis",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Sumatran Orangutan Seen Using Innovative Rope Bridge",
-    "category": "World",
-    "slug": "article-6",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "London Zoo Secures £20 Million for New Veterinary Hospital",
-    "category": "World",
-    "slug": "article-18",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Chinese Tree Pangolin Population Shows First Increase This Century",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Trump and Putin Discuss Ceasefire Amid Ongoing Ukraine Violence",
-    "category": "World",
-    "slug": "article-25",
-    "source_count": 4
-  },
-  {
     "date": "2026-04-30",
     "headline": "UK Contemplates Social Media Restrictions for Minors",
     "category": "World",
@@ -6298,5 +6060,243 @@
     "category": "Health",
     "slug": "article-20",
     "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Port Hope Man Charged for Impersonating First Responder",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Tim Hortons Campaign Raises Over $100,000 for YMCA",
+    "category": "Local",
+    "slug": "article-1",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Oxygen Leak Forces Temporary Closure of Hospital Emergency Department",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "County Road 49 Rehabilitation Tender Awarded",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Belleville Mayor Announces Potential Big Box Retail Development",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Centennial Chargers Win COSSA Championship, Head to OFSAA",
+    "category": "Local",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Toronto Implements New Heat Relief Strategy for Summer 2026",
+    "category": "Ontario",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "YMCA Raises Over $101,000 in Smile Cookie Campaign",
+    "category": "Local",
+    "slug": "article-15",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Toronto Cosmetic Surgery Institute fined for privacy violations",
+    "category": "Ontario",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "New Board Members Sought for Affordable Housing Corporation",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Advocates push for national action on endometriosis",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Stroud's Long Table Restaurant Innovates Dining Experience",
+    "category": "Local",
+    "slug": "article-33",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "U.S. Sees Overall Drop in Drug Fatalities, Yet State Disparities Persist",
+    "category": "US",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Vietnam Pheasant Set for Reintroduction into Wild",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "UN Climate Projections Show Rising Temperature Risks Within Five Years",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Guinea Worm Disease Cases Drop to Historic Low in 2025",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Five Villagers Rescued from Flooded Cave in Laos",
+    "category": "World",
+    "slug": "article-6",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Picayune Strand Restoration Reaches Milestone After Two Decades",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "U.S. Forces Target Iranian Drones Near Strait of Hormuz",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Samsung Workers Secure Profit-Sharing Agreement Amid Strike Threat",
+    "category": "World",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Iran Targets US Air Base Following Reported Airstrikes",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Community Volunteers Plant Trees to Combat Desertification",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Israel's Targeted Strike in Beirut Marks Conflict Escalation",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Sprinting may help manage panic attacks, study finds",
+    "category": "Health",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Iran Accused of Ceasefire Violations Amid Rising Tensions",
+    "category": "World",
+    "slug": "article-22",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Disney Commits $100 Million to Children's Healthcare Initiative",
+    "category": "Health",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Iran Launches Missile at Kuwait Following U.S. Strikes",
+    "category": "World",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Study Shows 70% Reduction of PFAS in Seabird Eggs",
+    "category": "Science",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Sixteen Students Killed in Kenyan Boarding School Fire",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "China Clones Wild Yaks to Aid Conservation Efforts",
+    "category": "Science",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "EU Fines Temu €200 Million Over Illegal Products",
+    "category": "World",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Italy Seizes $232 Million Linked to Mafia Boss",
+    "category": "World",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Uganda Closes Border with Congo Amid Ebola Surge",
+    "category": "World",
+    "slug": "article-32",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "WHO Raises Ebola Outbreak Risk to Very High",
+    "category": "Health",
+    "slug": "article-34",
+    "source_count": 2
   }
 ]
