@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-04-30",
-    "headline": "UK Contemplates Social Media Restrictions for Minors",
-    "category": "World",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Meta Terminates Contract with Sama, Leading to Layoffs",
-    "category": "World",
-    "slug": "article-29",
-    "source_count": 3
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Boston Marathon Runners Exhibit Exceptional Sportsmanship",
-    "category": "World",
-    "slug": "article-16",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Iran Asserts Commitment to Nuclear and Missile Capabilities",
-    "category": "World",
-    "slug": "article-30",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Algeria Becomes 29th Country to Eliminate Trachoma",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Israel Detains Activists from Aid Flotilla for Gaza",
-    "category": "World",
-    "slug": "article-33",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Adventurers Complete 14,000-Mile Journey Across Africa",
-    "category": "World",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Colorectal Cancer Rates Rise Among Young Canadians",
-    "category": "Health",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Trump Hosts Artemis II Crew After Simulated Mission Success",
-    "category": "World",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Musk Testifies in Trial Over OpenAI's Nonprofit Shift",
-    "category": "Tech",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Kelp Farmer Promotes Sustainable Seaweed in Connecticut",
-    "category": "World",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "New Tuberculosis Test Improves Diagnosis with Ease",
-    "category": "Health",
-    "slug": "article-19",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Breakthrough Discovery Could Transform Noma Treatment",
-    "category": "Health",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-04-30",
-    "headline": "Celebrating 129 Years Since the Discovery of the Electron",
-    "category": "Science",
-    "slug": "article-17",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Murder Suspect Arrested in Belleville Drug Bust",
-    "category": "Local",
-    "slug": "article-11",
-    "source_count": 4
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Community Trees Seedling Giveaway Scheduled for May 2",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Hastings County Faces $54 Million Infrastructure Funding Gap",
-    "category": "Local",
-    "slug": "article-25",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Brighton Unveils New Logo and Brand Identity",
-    "category": "Local",
-    "slug": "article-2",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Councillor Tim Tierney Expected to Run for Mayor",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Ontario Local Election Nomination Period Opens Today",
-    "category": "Local",
-    "slug": "article-12",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Calls for Action Against Antisemitism Grow",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Domino's Pizza Partners with Trenton Memorial Hospital",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Canada assesses office space for return-to-work policy",
-    "category": "Canada",
-    "slug": "article-29",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "German Shepherd Artemis Finds New Home After Eaton Fire",
-    "category": "Local",
-    "slug": "article-34",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Jessica Simpson Files New Human Rights Complaints Against Media Figures",
-    "category": "Canada",
-    "slug": "article-30",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Vaillancourt Fountain Dismantled After Over 50 Years",
-    "category": "Ontario",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "U.S. Budget Airlines Seek $2.5 Billion Bailout Amid Fuel Crisis",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 4
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Canadian Foundation Returns Looted Renoir Painting to Museum",
-    "category": "Canada",
-    "slug": "article-16",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "New Orleans Archdiocese to Remove Priest's Name Amid Abuse Charges",
-    "category": "US",
-    "slug": "article-7",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Wellington's Citizen Campaign Returns Kiwi Birds After Century",
-    "category": "World",
-    "slug": "article-17",
-    "source_count": 8
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Nationwide May Day Protests Focus on Workers' Rights",
-    "category": "US",
-    "slug": "article-18",
-    "source_count": 2
-  },
-  {
     "date": "2026-05-01",
     "headline": "Global Forest Loss Declines Significantly in 2025",
     "category": "World",
@@ -6298,5 +6081,222 @@
     "category": "Health",
     "slug": "article-34",
     "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Child Drowns Near Hog's Back in Ottawa",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Campbellford Memorial Hospital Redevelopment Update",
+    "category": "Local",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Four Arrested After Break and Enter in Ajax",
+    "category": "Local",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Hastings County Receives Funding for Childcare Expansion",
+    "category": "Local",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Ādisōke Library Project Faces Delays and Cost Overruns",
+    "category": "Local",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Belleville Celebrates Recreation and Parks Month",
+    "category": "Local",
+    "slug": "article-18",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Canada officially enters technical recession, GDP declines",
+    "category": "Canada",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Improved Dementia Care Coming to Southeastern Ontario",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Canada Falls to 19th Place in Global Country Rankings",
+    "category": "Canada",
+    "slug": "article-6",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Bridge Street West to Close for YMCA Construction",
+    "category": "Local",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "CFL Announces New $500 Million Broadcast Rights Deal",
+    "category": "Canada",
+    "slug": "article-20",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Manitoba Passes Budget Bill for Food Tax Cuts",
+    "category": "Canada",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Natasha Johnson Becomes President of Canadian Paediatric Society",
+    "category": "Canada",
+    "slug": "article-23",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Shrey Parikh Sets Record at Scripps National Spelling Bee",
+    "category": "US",
+    "slug": "article-26",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Phillips Distilling Moves Sour Puss Production to Canada",
+    "category": "Canada",
+    "slug": "article-24",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Brooklyn Project Highlights Need for Civil Registration Systems",
+    "category": "World",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Trump Delays Decision on Tentative Iran Agreement",
+    "category": "World",
+    "slug": "article-3",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Kentish Milkwort Population Surges Seven-Fold in Recovery",
+    "category": "World",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Blue Origin Rocket Explosion Raises Concerns for Future Missions",
+    "category": "World",
+    "slug": "article-4",
+    "source_count": 9
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "All-Electric Truck Completes Journey from Canberra to Sydney",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Rescue Operation Underway for Climbers on Mount McKinley",
+    "category": "World",
+    "slug": "article-7",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Vietnam Pheasants to Be Reintroduced from Europe",
+    "category": "World",
+    "slug": "article-12",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Israel's IDF to Expand Control of Gaza to 70 Percent",
+    "category": "World",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Finalists Announced for European Inventor Award",
+    "category": "World",
+    "slug": "article-14",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Eight Students Arrested in Deadly Kenyan School Arson",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Anniversaries of Patrick Henry and Landmark Structures",
+    "category": "World",
+    "slug": "article-27",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "AI Tools in Therapy: Privacy Concerns Arise for Patients",
+    "category": "Health",
+    "slug": "article-30",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Seabird Egg Chemicals Drop 70% Due to Regulations",
+    "category": "Health",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "NASA Details Plans for Permanent Moon Base by 2032",
+    "category": "Science",
+    "slug": "article-13",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Pigeons May Use Liver Cells to Navigate Magnetic Field",
+    "category": "Science",
+    "slug": "article-5",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "King's College London Accesses Google Quantum Computer Chip",
+    "category": "Science",
+    "slug": "article-15",
+    "source_count": 1
   }
 ]
