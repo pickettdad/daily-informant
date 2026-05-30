@@ -1,236 +1,5 @@
 [
   {
-    "date": "2026-05-01",
-    "headline": "Global Forest Loss Declines Significantly in 2025",
-    "category": "World",
-    "slug": "article-20",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Trump Faces Deadline on Iran Military Action Today",
-    "category": "US",
-    "slug": "article-19",
-    "source_count": 5
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "London Zoo's New Hospital Raises Ethical Conservation Questions",
-    "category": "World",
-    "slug": "article-22",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Soaring Oil Prices Impact U.S. Airline Operations",
-    "category": "US",
-    "slug": "article-21",
-    "source_count": 5
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "AI Polling Revolutionizes Public Opinion Measurement in France",
-    "category": "World",
-    "slug": "article-35",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Iran Conflict Disrupts Fertiliser Supplies and Global Food Production",
-    "category": "World",
-    "slug": "article-3",
-    "source_count": 5
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Research Identifies Three ADHD Subtypes, Emphasizing Emotional Dysregulation",
-    "category": "Health",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Trump Administration Declares War in Iran Over Amid Ceasefire",
-    "category": "World",
-    "slug": "article-4",
-    "source_count": 7
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Breakthrough Gene Therapy Restores Sight for Young Girl",
-    "category": "Health",
-    "slug": "article-23",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Congressional Hearing Examines Iran War Costs and Partisan Divides",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "AI Outperforms ER Doctors in New Diagnostic Study",
-    "category": "Health",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Aung San Suu Kyi Transferred to House Arrest in Myanmar",
-    "category": "World",
-    "slug": "article-9",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Top Face Serums for Spring 2026 Released Today",
-    "category": "Health",
-    "slug": "article-26",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "U.S. Administration Questions War Powers Act Deadline During Ceasefire",
-    "category": "World",
-    "slug": "article-10",
-    "source_count": 5
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Ceasefire Influences U.S. Congressional War Powers Decision",
-    "category": "World",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Trump's Troop Reduction Proposal Sparks NATO Concerns",
-    "category": "World",
-    "slug": "article-31",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Trump Threatens Troop Withdrawals from Italy, Spain",
-    "category": "World",
-    "slug": "article-32",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-01",
-    "headline": "Apple Reports Record Sales Growth With iPhone 17 Launch",
-    "category": "Tech",
-    "slug": "article-33",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Nomination Period Opens for Belleville and Quinte West Elections",
-    "category": "Local",
-    "slug": "article-3",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "TacoTime Opens in Quinte West: A Community Celebration",
-    "category": "Local",
-    "slug": "article-1",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Raids on Unlicensed Alcohol Sales in Tyendinaga",
-    "category": "Local",
-    "slug": "article-4",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Students Save Bus Driver During Critical Incident",
-    "category": "Local",
-    "slug": "article-24",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "2nd Dug Hill Road Closure Begins May 4 in Quinte West",
-    "category": "Local",
-    "slug": "article-13",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Belleville Lights Up for Health and Awareness in May",
-    "category": "Local",
-    "slug": "article-26",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Youth Faces Charges Following School Medical Emergency",
-    "category": "Local",
-    "slug": "article-14",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "219th Anniversary of the Slave Trade Act Observed",
-    "category": "Canada",
-    "slug": "article-29",
-    "source_count": 3
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Ottawa-Carleton District School Board Projects Declining Enrolment",
-    "category": "Local",
-    "slug": "article-15",
-    "source_count": 4
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Pizza Hut revives 'Book It!' summer reading program for kids",
-    "category": "US",
-    "slug": "article-28",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Toronto Weather: Showers Expected with Highs of 9 C Today",
-    "category": "Local",
-    "slug": "article-27",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Young Piano Prodigy to Perform at Carnegie Hall",
-    "category": "World",
-    "slug": "article-7",
-    "source_count": 1
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Ongoing Negotiations for Gordie Howe International Bridge",
-    "category": "Canada",
-    "slug": "article-5",
-    "source_count": 2
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Humpback Whale Released into North Sea After Rescue",
-    "category": "World",
-    "slug": "article-8",
-    "source_count": 4
-  },
-  {
-    "date": "2026-05-02",
-    "headline": "Spirit Airlines Faces Financial Struggles Amid Bailout Efforts",
-    "category": "US",
-    "slug": "article-6",
-    "source_count": 8
-  },
-  {
     "date": "2026-05-02",
     "headline": "Young Sea Otter Becomes Surrogate Mother to Orphaned Pup",
     "category": "World",
@@ -6297,6 +6066,237 @@
     "headline": "King's College London Accesses Google Quantum Computer Chip",
     "category": "Science",
     "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Quinte West OPP Seeks Public Help in Arson Case",
+    "category": "Local",
+    "slug": "article-6",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Belleville Hosts Community Safety Education Events on June 3",
+    "category": "Local",
+    "slug": "article-2",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Thirteen Arrested in Major Drug Trafficking Investigation",
+    "category": "Local",
+    "slug": "article-8",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "The Bentway to Host FIFA Fan Festival in June",
+    "category": "Local",
+    "slug": "article-3",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Prince Edward County Updates Grass-Cutting Services",
+    "category": "Local",
+    "slug": "article-10",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Community Rallies for Boy with Rare Genetic Disease",
+    "category": "Local",
+    "slug": "article-4",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Bewdley Resident Charged After Rice Lake Incident",
+    "category": "Local",
+    "slug": "article-19",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Dancing with the Stars Quinte Raises Thousands for VIQ",
+    "category": "Local",
+    "slug": "article-7",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Rosedale Neighborhood Adopts AI Security Amid Crime Concerns",
+    "category": "Local",
+    "slug": "article-21",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Belleville to Launch New Parking Ticket Portal in June",
+    "category": "Local",
+    "slug": "article-20",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Penticton Residents Evacuate Amid Crane Safety Concerns",
+    "category": "Local",
+    "slug": "article-23",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Ontario's Family-Run Resorts: A Changing Connection to Nature",
+    "category": "Ontario",
+    "slug": "article-9",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Toronto Surgeon Ordered to Pay $22.5 Million for Privacy Violations",
+    "category": "Canada",
+    "slug": "article-22",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Dr. Stephanie Haridopolos Named Acting U.S. Surgeon General",
+    "category": "US",
+    "slug": "article-30",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Blue Origin's Rocket Explosion Threatens NASA's Artemis Program",
+    "category": "US",
+    "slug": "article-14",
+    "source_count": 5
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Trump's Doctor Reports Excellent Health Ahead of 80th Birthday",
+    "category": "US",
+    "slug": "article-32",
+    "source_count": 4
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Fatal Dallas Explosion Raises Gas Safety Concerns",
+    "category": "US",
+    "slug": "article-29",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Kentish milkwort flower sees seven-fold population increase",
+    "category": "World",
+    "slug": "article-5",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "US Military Strikes Alleged Drug Boats, Death Toll Surpasses 200",
+    "category": "World",
+    "slug": "article-11",
+    "source_count": 7
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Picayune Strand Achieves Over 90% Restoration Success",
+    "category": "World",
+    "slug": "article-13",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Russian Drone Strike Injures Two in Romania, NATO Responds",
+    "category": "World",
+    "slug": "article-24",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Vietnam Pheasant Set for Reintroduction After 20-Year Absence",
+    "category": "World",
+    "slug": "article-15",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Israeli Air Strikes in Southern Lebanon Lead to Casualties",
+    "category": "World",
+    "slug": "article-26",
+    "source_count": 3
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "European Inventor Award Finalists Highlight Innovations in Sustainability",
+    "category": "World",
+    "slug": "article-16",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Bronx Zoo's Happy the Elephant Euthanized at 55",
+    "category": "World",
+    "slug": "article-31",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Nature Reclaims Life in Abandoned UK Coal Mine",
+    "category": "World",
+    "slug": "article-17",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Four Men Rescued from Flooded Cave in Laos",
+    "category": "World",
+    "slug": "article-18",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Quentin Blake Centre for Illustration to Open Next Week",
+    "category": "World",
+    "slug": "article-28",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "New DNA Test Could Spare Breast Cancer Patients from Chemotherapy",
+    "category": "Health",
+    "slug": "article-1",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Rare Blue Micromoon Tonight: Next Unlikely Until 2053",
+    "category": "Science",
+    "slug": "article-25",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "5.5 Million Solitary Bees Found in New York Cemetery",
+    "category": "Science",
+    "slug": "article-27",
+    "source_count": 1
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "NASA Allocates Funds to Establish Moon Base by 2028",
+    "category": "Science",
+    "slug": "article-33",
+    "source_count": 2
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "All-Electric Truck Achieves Major Milestone in Australia",
+    "category": "Tech",
+    "slug": "article-12",
     "source_count": 1
   }
 ]
